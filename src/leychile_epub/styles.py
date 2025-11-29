@@ -27,21 +27,21 @@ def get_premium_css(
     margin: str = "1.2em",
 ) -> str:
     """Genera el CSS premium para los ePub.
-    
+
     Args:
         font_size: Tamaño de fuente ('small', 'medium', 'large', 'extra-large').
         line_spacing: Espaciado entre líneas.
         margin: Margen del cuerpo.
-        
+
     Returns:
         CSS completo como string.
     """
     sizes = FONT_SIZES.get(font_size, FONT_SIZES["medium"])
-    
+
     bg_color = "#ffffff"
     text_color = "#1a1a1a"
-    
-    return f'''
+
+    return f"""
 @charset "UTF-8";
 
 /* ==========================================================================
@@ -877,4 +877,4 @@ button:focus {{
         column-count: 1;
     }}
 }}
-'''
+"""

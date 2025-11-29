@@ -1,9 +1,12 @@
 # 📚 LeyChile ePub Generator
 
+[![CI](https://github.com/laguileracl/leychile-epub/actions/workflows/ci.yml/badge.svg)](https://github.com/laguileracl/leychile-epub/actions/workflows/ci.yml)
+[![PyPI version](https://badge.fury.io/py/leychile-epub.svg)](https://badge.fury.io/py/leychile-epub)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+[![Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
 [![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](CONTRIBUTING.md)
-[![Code of Conduct](https://img.shields.io/badge/code%20of%20conduct-contributor%20covenant-green.svg)](CODE_OF_CONDUCT.md)
 
 > 🇨🇱 Generador de libros electrónicos (ePub) a partir de la legislación chilena oficial de la Biblioteca del Congreso Nacional.
 

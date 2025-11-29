@@ -12,17 +12,17 @@ from typing import Optional
 
 class LeyChileError(Exception):
     """Excepción base para todos los errores del paquete LeyChile.
-    
+
     Attributes:
         message: Mensaje descriptivo del error.
         details: Información adicional sobre el error.
     """
-    
+
     def __init__(self, message: str, details: Optional[dict] = None) -> None:
         self.message = message
         self.details = details or {}
         super().__init__(self.message)
-    
+
     def __str__(self) -> str:
         if self.details:
             return f"{self.message} | Detalles: {self.details}"
@@ -31,28 +31,29 @@ class LeyChileError(Exception):
 
 class ScraperError(LeyChileError):
     """Error durante el proceso de scraping.
-    
+
     Se lanza cuando hay problemas al obtener o parsear datos de la BCN.
     """
+
     pass
 
 
 class NetworkError(ScraperError):
     """Error de conexión de red.
-    
+
     Se lanza cuando no se puede conectar a la API de la BCN.
-    
+
     Attributes:
         url: URL que falló.
         status_code: Código de estado HTTP (si aplica).
     """
-    
+
     def __init__(
-        self, 
-        message: str, 
-        url: Optional[str] = None, 
+        self,
+        message: str,
+        url: Optional[str] = None,
         status_code: Optional[int] = None,
-        details: Optional[dict] = None
+        details: Optional[dict] = None,
     ) -> None:
         self.url = url
         self.status_code = status_code
@@ -66,20 +67,20 @@ class NetworkError(ScraperError):
 
 class ValidationError(LeyChileError):
     """Error de validación de datos.
-    
+
     Se lanza cuando los datos de entrada no cumplen con el formato esperado.
-    
+
     Attributes:
         field: Campo que falló la validación.
         value: Valor inválido.
     """
-    
+
     def __init__(
-        self, 
-        message: str, 
+        self,
+        message: str,
         field: Optional[str] = None,
         value: Optional[str] = None,
-        details: Optional[dict] = None
+        details: Optional[dict] = None,
     ) -> None:
         self.field = field
         self.value = value
@@ -93,34 +94,36 @@ class ValidationError(LeyChileError):
 
 class GeneratorError(LeyChileError):
     """Error durante la generación del ePub.
-    
+
     Se lanza cuando hay problemas al crear el archivo ePub.
     """
+
     pass
 
 
 class ParsingError(ScraperError):
     """Error al parsear el XML de la BCN.
-    
+
     Se lanza cuando el XML recibido no tiene el formato esperado.
     """
+
     pass
 
 
 class RateLimitError(NetworkError):
     """Error por exceso de solicitudes.
-    
+
     Se lanza cuando la API de la BCN rechaza solicitudes por rate limiting.
-    
+
     Attributes:
         retry_after: Segundos a esperar antes de reintentar.
     """
-    
+
     def __init__(
-        self, 
-        message: str = "Rate limit excedido", 
+        self,
+        message: str = "Rate limit excedido",
         retry_after: Optional[int] = None,
-        details: Optional[dict] = None
+        details: Optional[dict] = None,
     ) -> None:
         self.retry_after = retry_after
         details = details or {}

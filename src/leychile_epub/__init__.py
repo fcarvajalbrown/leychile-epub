@@ -23,16 +23,16 @@ __author__ = "Luis Aguilera Arteaga"
 __email__ = "luis@aguilera.cl"
 __license__ = "MIT"
 
-from .scraper import BCNLawScraper
-from .generator import LawEpubGenerator
 from .config import Config
 from .exceptions import (
-    LeyChileError,
-    ScraperError,
     GeneratorError,
-    ValidationError,
+    LeyChileError,
     NetworkError,
+    ScraperError,
+    ValidationError,
 )
+from .generator import LawEpubGenerator
+from .scraper import BCNLawScraper
 
 __all__ = [
     # Clases principales
