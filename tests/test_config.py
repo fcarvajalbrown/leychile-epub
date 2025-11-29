@@ -4,12 +4,8 @@ Tests unitarios para el módulo de configuración.
 Author: Luis Aguilera Arteaga <luis@aguilera.cl>
 """
 
-import json
 import os
 import tempfile
-from pathlib import Path
-
-import pytest
 
 from leychile_epub.config import (
     Config,

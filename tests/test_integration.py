@@ -7,14 +7,13 @@ pueden ser lentos y dependen de conectividad de red.
 Ejecutar con: pytest tests/test_integration.py -v -m integration
 """
 
-import os
 import tempfile
 from pathlib import Path
 
 import pytest
 
 from leychile_epub import BCNLawScraper, Config, LawEpubGenerator
-from leychile_epub.exceptions import NetworkError, ScraperError
+from leychile_epub.exceptions import ScraperError
 
 # Marcar todos los tests como de integración
 pytestmark = pytest.mark.integration
@@ -141,7 +140,7 @@ class TestEndToEnd:
         """Test del flujo completo de scraping a ePub."""
         # Setup
         scraper = BCNLawScraper()
-        config = Config.create_default()
+        config = Config()
         generator = LawEpubGenerator(config)
 
         # Scrape
@@ -176,7 +175,7 @@ class TestEndToEnd:
 
     def test_workflow_with_custom_config(self):
         """Test con configuración personalizada."""
-        config = Config.create_default()
+        config = Config()
         config.scraper.timeout = 60
         config.scraper.max_retries = 5
         config.epub.creator = "Test Suite"

@@ -7,8 +7,6 @@ permitiendo un manejo de errores granular y específico.
 Author: Luis Aguilera Arteaga <luis@aguilera.cl>
 """
 
-from typing import Optional
-
 
 class LeyChileError(Exception):
     """Excepción base para todos los errores del paquete LeyChile.
@@ -18,7 +16,7 @@ class LeyChileError(Exception):
         details: Información adicional sobre el error.
     """
 
-    def __init__(self, message: str, details: Optional[dict] = None) -> None:
+    def __init__(self, message: str, details: dict | None = None) -> None:
         self.message = message
         self.details = details or {}
         super().__init__(self.message)
@@ -51,9 +49,9 @@ class NetworkError(ScraperError):
     def __init__(
         self,
         message: str,
-        url: Optional[str] = None,
-        status_code: Optional[int] = None,
-        details: Optional[dict] = None,
+        url: str | None = None,
+        status_code: int | None = None,
+        details: dict | None = None,
     ) -> None:
         self.url = url
         self.status_code = status_code
@@ -78,9 +76,9 @@ class ValidationError(LeyChileError):
     def __init__(
         self,
         message: str,
-        field: Optional[str] = None,
-        value: Optional[str] = None,
-        details: Optional[dict] = None,
+        field: str | None = None,
+        value: str | None = None,
+        details: dict | None = None,
     ) -> None:
         self.field = field
         self.value = value
@@ -122,8 +120,8 @@ class RateLimitError(NetworkError):
     def __init__(
         self,
         message: str = "Rate limit excedido",
-        retry_after: Optional[int] = None,
-        details: Optional[dict] = None,
+        retry_after: int | None = None,
+        details: dict | None = None,
     ) -> None:
         self.retry_after = retry_after
         details = details or {}

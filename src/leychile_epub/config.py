@@ -11,8 +11,9 @@ import json
 import logging
 import os
 from dataclasses import dataclass, field
+from logging import Logger
 from pathlib import Path
-from typing import Any, Dict, List, Optional
+from typing import Any
 
 
 @dataclass
@@ -76,7 +77,7 @@ class LoggingConfig:
 
     level: str = "INFO"
     format: str = "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
-    file: Optional[str] = None
+    file: str | None = None
     console: bool = True
 
 
@@ -118,13 +119,13 @@ class Config:
             json.JSONDecodeError: Si el archivo no es JSON válido.
         """
         path = Path(path)
-        with open(path, "r", encoding="utf-8") as f:
+        with open(path, encoding="utf-8") as f:
             data = json.load(f)
 
         return cls.from_dict(data)
 
     @classmethod
-    def from_dict(cls, data: Dict[str, Any]) -> "Config":
+    def from_dict(cls, data: dict[str, Any]) -> "Config":
         """Crea configuración desde un diccionario.
 
         Args:
@@ -187,7 +188,7 @@ class Config:
 
         return config
 
-    def to_dict(self) -> Dict[str, Any]:
+    def to_dict(self) -> dict[str, Any]:
         """Convierte la configuración a diccionario.
 
         Returns:
@@ -233,7 +234,7 @@ class Config:
         with open(path, "w", encoding="utf-8") as f:
             json.dump(self.to_dict(), f, indent=2, ensure_ascii=False)
 
-    def setup_logging(self) -> logging.Logger:
+    def setup_logging(self) -> Logger:
         """Configura el sistema de logging según la configuración.
 
         Returns:
@@ -263,7 +264,7 @@ class Config:
 
 
 # Configuración por defecto global
-_default_config: Optional[Config] = None
+_default_config: Config | None = None
 
 
 def get_config() -> Config:

@@ -67,7 +67,7 @@ def get_premium_css(
 
 body {{
     font-family: "Palatino Linotype", Palatino, "Book Antiqua", Georgia, "Times New Roman", serif;
-    font-size: {sizes['base']};
+    font-size: {sizes["base"]};
     line-height: {line_spacing};
     color: var(--text-color);
     background-color: var(--bg-color);
@@ -106,7 +106,7 @@ h1, h2, h3, h4, h5, h6 {{
 }}
 
 h1 {{
-    font-size: {sizes['h1']};
+    font-size: {sizes["h1"]};
     color: var(--primary-color);
     text-align: center;
     margin: 1.5em 0 1em 0;
@@ -137,7 +137,7 @@ h2 {{
 }}
 
 h3 {{
-    font-size: {sizes['h3']};
+    font-size: {sizes["h3"]};
     color: #2d3748;
     margin: 1.25em 0 0.5em 0;
     font-weight: 700;

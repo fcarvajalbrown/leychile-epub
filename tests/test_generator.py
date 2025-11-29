@@ -4,7 +4,6 @@ Tests unitarios para el generador de ePub.
 Author: Luis Aguilera Arteaga <luis@aguilera.cl>
 """
 
-import os
 import tempfile
 from pathlib import Path
 

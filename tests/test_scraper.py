@@ -6,7 +6,6 @@ Author: Luis Aguilera Arteaga <luis@aguilera.cl>
 
 import pytest
 
-from leychile_epub.exceptions import ValidationError
 from leychile_epub.scraper import BCNLawScraper
 
 

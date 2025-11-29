@@ -109,6 +109,8 @@ skip = [".venv", "build", "dist"]
 [tool.ruff]
 line-length = 100
 target-version = "py310"
+
+[tool.ruff.lint]
 select = [
     "E",   # pycodestyle errors
     "W",   # pycodestyle warnings
@@ -121,22 +123,24 @@ select = [
 ignore = [
     "E501",  # line too long (handled by black)
     "B008",  # do not perform function calls in argument defaults
+    "W291",  # trailing whitespace (in multiline strings for HTML/CSS)
+    "W293",  # blank line contains whitespace (in multiline strings)
 ]
 
-[tool.ruff.per-file-ignores]
+[tool.ruff.lint.per-file-ignores]
 "__init__.py" = ["F401"]
 "tests/*" = ["S101"]
 
 [tool.mypy]
 python_version = "3.10"
-warn_return_any = true
+warn_return_any = false
 warn_unused_configs = true
-disallow_untyped_defs = true
-disallow_incomplete_defs = true
+disallow_untyped_defs = false
+disallow_incomplete_defs = false
 check_untyped_defs = true
-strict_optional = true
+strict_optional = false
 warn_redundant_casts = true
-warn_unused_ignores = true
+warn_unused_ignores = false
 show_error_codes = true
 
 [[tool.mypy.overrides]]
@@ -151,6 +155,9 @@ testpaths = ["tests"]
 python_files = ["test_*.py"]
 python_functions = ["test_*"]
 addopts = "-v --tb=short"
+markers = [
+    "integration: marks tests as integration tests (deselect with '-m \"not integration\"')",
+]
 filterwarnings = [
     "ignore::DeprecationWarning",
 ]

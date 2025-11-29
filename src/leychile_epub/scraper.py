@@ -11,7 +11,8 @@ import html
 import logging
 import re
 import time
-from typing import Any, Callable, Dict, List, Optional
+from collections.abc import Callable
+from typing import Any
 from urllib.parse import parse_qs, urlparse
 from xml.etree import ElementTree as ET
 
@@ -20,7 +21,7 @@ from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
 
 from .config import Config, get_config
-from .exceptions import NetworkError, ParsingError, ScraperError, ValidationError
+from .exceptions import NetworkError, ParsingError, ValidationError
 
 # Logger del módulo
 logger = logging.getLogger("leychile_epub.scraper")
@@ -60,7 +61,7 @@ class BCNLawScraper:
         ),
     }
 
-    def __init__(self, config: Optional[Config] = None) -> None:
+    def __init__(self, config: Config | None = None) -> None:
         """Inicializa el scraper.
 
         Args:
@@ -102,7 +103,7 @@ class BCNLawScraper:
 
         return session
 
-    def extract_id_norma(self, url: str) -> Optional[str]:
+    def extract_id_norma(self, url: str) -> str | None:
         """Extrae el ID de la norma desde una URL de LeyChile.
 
         Args:
@@ -123,7 +124,7 @@ class BCNLawScraper:
             logger.warning(f"Error extrayendo idNorma de {url}: {e}")
             return None
 
-    def extract_id_version(self, url: str) -> Optional[str]:
+    def extract_id_version(self, url: str) -> str | None:
         """Extrae el ID de versión desde una URL de LeyChile.
 
         Args:
@@ -180,25 +181,25 @@ class BCNLawScraper:
             logger.error(f"Timeout al conectar con {url}")
             raise NetworkError(
                 "Timeout al conectar con la BCN", url=url, details={"original_error": str(e)}
-            )
+            ) from e
         except requests.exceptions.ConnectionError as e:
             logger.error(f"Error de conexión: {e}")
             raise NetworkError(
                 "No se pudo conectar con la BCN", url=url, details={"original_error": str(e)}
-            )
+            ) from e
         except requests.exceptions.HTTPError as e:
             logger.error(f"Error HTTP {e.response.status_code}: {url}")
             raise NetworkError(
-                f"Error HTTP al acceder a la BCN",
+                "Error HTTP al acceder a la BCN",
                 url=url,
                 status_code=e.response.status_code,
                 details={"original_error": str(e)},
-            )
+            ) from e
         except ET.ParseError as e:
             logger.error(f"Error parseando XML: {e}")
             raise ParsingError(
                 "El XML de la BCN no es válido", details={"url": url, "original_error": str(e)}
-            )
+            ) from e
 
     def _get_text(self, element: ET.Element, path: str) -> str:
         """Obtiene el texto de un elemento por su path.
@@ -215,7 +216,7 @@ class BCNLawScraper:
             return html.unescape(elem.text.strip())
         return ""
 
-    def _get_all_text(self, element: ET.Element, path: str) -> List[str]:
+    def _get_all_text(self, element: ET.Element, path: str) -> list[str]:
         """Obtiene todos los textos de elementos que coinciden con el path.
 
         Args:
@@ -293,7 +294,7 @@ class BCNLawScraper:
 
         return "texto"
 
-    def _extract_metadata(self, root: ET.Element) -> Dict[str, Any]:
+    def _extract_metadata(self, root: ET.Element) -> dict[str, Any]:
         """Extrae los metadatos de una norma.
 
         Args:
@@ -304,7 +305,7 @@ class BCNLawScraper:
         """
         logger.debug("Extrayendo metadatos...")
 
-        metadata: Dict[str, Any] = {
+        metadata: dict[str, Any] = {
             "title": "",
             "type": "",
             "number": "",
@@ -335,7 +336,7 @@ class BCNLawScraper:
             tag = elem.tag.replace("{http://www.leychile.cl/esquemas}", "")
             if tag == "FechaDerogacion" and elem.text:
                 derog_dates.add(elem.text.strip())
-        metadata["derogation_dates"] = sorted(list(derog_dates))
+        metadata["derogation_dates"] = sorted(derog_dates)
 
         # Título por defecto si no existe
         if not metadata["title"]:
@@ -345,8 +346,8 @@ class BCNLawScraper:
         return metadata
 
     def _extract_content(
-        self, root: ET.Element, progress_callback: Optional[Callable[[float, str], None]] = None
-    ) -> List[Dict[str, Any]]:
+        self, root: ET.Element, progress_callback: Callable[[float, str], None] | None = None
+    ) -> list[dict[str, Any]]:
         """Extrae el contenido estructurado de la norma.
 
         Args:
@@ -357,7 +358,7 @@ class BCNLawScraper:
             Lista de elementos de contenido.
         """
         logger.debug("Extrayendo contenido...")
-        content: List[Dict[str, Any]] = []
+        content: list[dict[str, Any]] = []
 
         # Encabezado
         encabezado = root.find(".//lc:Encabezado", self.NAMESPACE)
@@ -376,8 +377,8 @@ class BCNLawScraper:
         estructuras = root.findall(".//lc:EstructuraFuncional", self.NAMESPACE)
         total = len(estructuras)
 
-        current_titulo: Optional[str] = None
-        current_parrafo: Optional[str] = None
+        current_titulo: str | None = None
+        current_parrafo: str | None = None
 
         for i, ef in enumerate(estructuras):
             texto = self._extract_element_text(ef)
@@ -447,14 +448,14 @@ class BCNLawScraper:
             # Reportar progreso
             if progress_callback and i % 50 == 0:
                 progress = 0.5 + (i / total) * 0.35
-                progress_callback(progress, f"Procesando elemento {i+1} de {total}...")
+                progress_callback(progress, f"Procesando elemento {i + 1} de {total}...")
 
         logger.info(f"Extraídos {len(content)} elementos de contenido")
         return content
 
     def scrape_law(
-        self, url: str, progress_callback: Optional[Callable[[float, str], None]] = None
-    ) -> Dict[str, Any]:
+        self, url: str, progress_callback: Callable[[float, str], None] | None = None
+    ) -> dict[str, Any]:
         """Extrae todos los datos de una ley desde su URL.
 
         Este es el método principal para obtener datos de una norma.
@@ -531,8 +532,8 @@ class BCNLawScraper:
 
 
 def scrape_bcn_law(
-    url: str, progress_callback: Optional[Callable[[float, str], None]] = None
-) -> Dict[str, Any]:
+    url: str, progress_callback: Callable[[float, str], None] | None = None
+) -> dict[str, Any]:
     """Función de conveniencia para scrapear una ley.
 
     Args:

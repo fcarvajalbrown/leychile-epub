@@ -11,9 +11,8 @@ Author: Luis Aguilera Arteaga <luis@aguilera.cl>
 import argparse
 import sys
 from pathlib import Path
-from typing import List, Optional
 
-from . import BCNLawScraper, Config, LawEpubGenerator, __version__
+from . import BCNLawScraper, LawEpubGenerator, __version__
 from .exceptions import LeyChileError
 
 
@@ -94,7 +93,7 @@ def process_url(
     output_dir: str,
     quiet: bool = False,
     verbose: bool = False,
-) -> Optional[str]:
+) -> str | None:
     """Procesa una URL y genera el ePub.
 
     Args:
@@ -178,8 +177,8 @@ def process_batch(
         print(f"❌ Archivo no encontrado: {batch_file}")
         return 0, 0
 
-    urls: List[str] = []
-    with open(path, "r", encoding="utf-8") as f:
+    urls: list[str] = []
+    with open(path, encoding="utf-8") as f:
         for line in f:
             line = line.strip()
             if line and not line.startswith("#"):
@@ -209,7 +208,7 @@ def process_batch(
     return success, failed
 
 
-def main(argv: Optional[List[str]] = None) -> int:
+def main(argv: list[str] | None = None) -> int:
     """Función principal del CLI.
 
     Args:

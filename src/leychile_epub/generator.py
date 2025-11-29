@@ -10,15 +10,16 @@ Author: Luis Aguilera Arteaga <luis@aguilera.cl>
 import logging
 import re
 import uuid
+from collections.abc import Callable
 from datetime import datetime
 from pathlib import Path
-from typing import Any, Callable, Dict, List, Optional, Tuple
+from typing import Any
 
 from ebooklib import epub
 
 from .config import Config, get_config
 from .exceptions import GeneratorError, ValidationError
-from .styles import ACCENT_GOLD, CHILEAN_BLUE, CHILEAN_RED, get_premium_css
+from .styles import get_premium_css
 
 # Logger del módulo
 logger = logging.getLogger("leychile_epub.generator")
@@ -114,7 +115,7 @@ class LawEpubGenerator:
         (r"^(CAPITULO\s+[IVXLCDM]+)\s+(.+)$", r"\1<br/>\2"),
     ]
 
-    def __init__(self, config: Optional[Config] = None) -> None:
+    def __init__(self, config: Config | None = None) -> None:
         """Inicializa el generador.
 
         Args:
@@ -127,20 +128,20 @@ class LawEpubGenerator:
 
     def _reset_state(self) -> None:
         """Reinicia el estado interno del generador."""
-        self.book: Optional[epub.EpubBook] = None
-        self.chapters: List[epub.EpubHtml] = []
-        self.toc: List[Any] = []
-        self.toc_sections: List[Tuple[epub.EpubHtml, List[Dict]]] = []
-        self.article_ids: Dict[str, str] = {}
-        self.article_list: List[Dict[str, Any]] = []
-        self.keyword_index: Dict[str, List[Dict[str, str]]] = {}
+        self.book: epub.EpubBook | None = None
+        self.chapters: list[epub.EpubHtml] = []
+        self.toc: list[Any] = []
+        self.toc_sections: list[tuple[epub.EpubHtml, list[dict]]] = []
+        self.article_ids: dict[str, str] = {}
+        self.article_list: list[dict[str, Any]] = []
+        self.keyword_index: dict[str, list[dict[str, str]]] = {}
 
     def generate(
         self,
-        law_data: Dict[str, Any],
-        output_dir: Optional[str] = None,
-        filename: Optional[str] = None,
-        progress_callback: Optional[Callable[[float, str], None]] = None,
+        law_data: dict[str, Any],
+        output_dir: str | None = None,
+        filename: str | None = None,
+        progress_callback: Callable[[float, str], None] | None = None,
     ) -> str:
         """Genera un archivo ePub a partir de los datos de una ley.
 
@@ -244,12 +245,12 @@ class LawEpubGenerator:
 
         except Exception as e:
             logger.error(f"Error generando ePub: {e}")
-            raise GeneratorError(f"Error al generar ePub: {e}")
+            raise GeneratorError(f"Error al generar ePub: {e}") from e
 
     # Alias para compatibilidad
     create_epub = generate
 
-    def _validate_law_data(self, law_data: Dict[str, Any]) -> None:
+    def _validate_law_data(self, law_data: dict[str, Any]) -> None:
         """Valida los datos de entrada.
 
         Args:
@@ -269,9 +270,9 @@ class LawEpubGenerator:
 
     def _get_output_path(
         self,
-        metadata: Dict[str, Any],
-        output_dir: Optional[str],
-        filename: Optional[str],
+        metadata: dict[str, Any],
+        output_dir: str | None,
+        filename: str | None,
     ) -> Path:
         """Genera la ruta de salida del archivo.
 
@@ -367,7 +368,7 @@ class LawEpubGenerator:
 
         return text
 
-    def _extract_article_id(self, article_title: str) -> Optional[str]:
+    def _extract_article_id(self, article_title: str) -> str | None:
         """Extrae el ID de un artículo desde su título.
 
         Args:
@@ -414,7 +415,7 @@ class LawEpubGenerator:
         )
         return re.sub(pattern, replace_ref, text, flags=re.IGNORECASE)
 
-    def _build_article_index(self, content: List[Dict[str, Any]]) -> None:
+    def _build_article_index(self, content: list[dict[str, Any]]) -> None:
         """Construye el índice de artículos.
 
         Args:
@@ -423,8 +424,8 @@ class LawEpubGenerator:
         logger.debug("Construyendo índice de artículos...")
 
         current_chapter = 0
-        current_titulo: Optional[str] = None
-        current_parrafo: Optional[str] = None
+        current_titulo: str | None = None
+        current_parrafo: str | None = None
 
         for item in content:
             item_type = item.get("type", "")
@@ -458,7 +459,7 @@ class LawEpubGenerator:
 
         logger.debug(f"Índice construido: {len(self.article_list)} artículos")
 
-    def _build_keyword_index(self, content: List[Dict[str, Any]], metadata: Dict[str, Any]) -> None:
+    def _build_keyword_index(self, content: list[dict[str, Any]], metadata: dict[str, Any]) -> None:
         """Construye el índice de palabras clave.
 
         Args:
@@ -505,7 +506,7 @@ class LawEpubGenerator:
                 if len(word) > 4 and word not in self.keyword_index:
                     self.keyword_index[word] = []
 
-    def _set_metadata(self, metadata: Dict[str, Any], law_data: Dict[str, Any]) -> None:
+    def _set_metadata(self, metadata: dict[str, Any], law_data: dict[str, Any]) -> None:
         """Configura los metadatos del ePub.
 
         Args:
@@ -587,7 +588,7 @@ class LawEpubGenerator:
 
         return chapter
 
-    def _create_cover(self, metadata: Dict[str, Any], law_data: Dict[str, Any]) -> None:
+    def _create_cover(self, metadata: dict[str, Any], law_data: dict[str, Any]) -> None:
         """Crea la portada del ePub.
 
         Args:
@@ -654,7 +655,7 @@ class LawEpubGenerator:
 """
         self._create_chapter("Portada", "cover.xhtml", content, add_to_toc=False)
 
-    def _create_legal_info_page(self, metadata: Dict[str, Any], law_data: Dict[str, Any]) -> None:
+    def _create_legal_info_page(self, metadata: dict[str, Any], law_data: dict[str, Any]) -> None:
         """Crea la página de información legal.
 
         Args:
@@ -703,7 +704,7 @@ class LawEpubGenerator:
 """
         self._create_chapter("Informacion del Documento", "legal_info.xhtml", content)
 
-    def _create_chapters(self, content: List[Dict[str, Any]], metadata: Dict[str, Any]) -> None:
+    def _create_chapters(self, content: list[dict[str, Any]], metadata: dict[str, Any]) -> None:
         """Crea los capítulos de contenido.
 
         Args:
@@ -714,10 +715,10 @@ class LawEpubGenerator:
             self._create_empty_chapter(metadata)
             return
 
-        current_titulo: Optional[Dict] = None
-        current_titulo_content: List[Dict] = []
+        current_titulo: dict | None = None
+        current_titulo_content: list[dict] = []
         chapter_count = 0
-        pre_titulo_content: List[Dict] = []
+        pre_titulo_content: list[dict] = []
 
         for item in content:
             item_type = item.get("type", "")
@@ -759,7 +760,7 @@ class LawEpubGenerator:
             chapter = self._create_general_chapter(pre_titulo_content, metadata)
             self.toc.append(chapter)
 
-    def _create_encabezado_chapter(self, item: Dict[str, Any]) -> epub.EpubHtml:
+    def _create_encabezado_chapter(self, item: dict[str, Any]) -> epub.EpubHtml:
         """Crea el capítulo de encabezado.
 
         Args:
@@ -777,7 +778,7 @@ class LawEpubGenerator:
         return self._create_chapter("Encabezado", "encabezado.xhtml", content, add_to_toc=False)
 
     def _create_intro_chapter(
-        self, content: List[Dict[str, Any]], metadata: Dict[str, Any]
+        self, content: list[dict[str, Any]], metadata: dict[str, Any]
     ) -> epub.EpubHtml:
         """Crea el capítulo introductorio.
 
@@ -814,8 +815,8 @@ class LawEpubGenerator:
 
     def _create_titulo_chapter(
         self,
-        titulo: Dict[str, Any],
-        content: List[Dict[str, Any]],
+        titulo: dict[str, Any],
+        content: list[dict[str, Any]],
         index: int,
     ) -> epub.EpubHtml:
         """Crea un capítulo de título.
@@ -835,8 +836,8 @@ class LawEpubGenerator:
         html_parts = [
             '<a href="#main-content" class="skip-link">Saltar al contenido principal</a>\n',
             '<main id="main-content" role="main">\n',
-            f'<article role="article" aria-labelledby="titulo-{index+1}">\n',
-            f'<h1 id="titulo-{index+1}">{formatted_title}</h1>\n',
+            f'<article role="article" aria-labelledby="titulo-{index + 1}">\n',
+            f'<h1 id="titulo-{index + 1}">{formatted_title}</h1>\n',
         ]
 
         for item in content:
@@ -863,8 +864,8 @@ class LawEpubGenerator:
 
     def _create_general_chapter(
         self,
-        content: List[Dict[str, Any]],
-        metadata: Dict[str, Any],
+        content: list[dict[str, Any]],
+        metadata: dict[str, Any],
     ) -> epub.EpubHtml:
         """Crea un capítulo general.
 
@@ -901,7 +902,7 @@ class LawEpubGenerator:
 
         return chapter
 
-    def _create_empty_chapter(self, metadata: Dict[str, Any]) -> None:
+    def _create_empty_chapter(self, metadata: dict[str, Any]) -> None:
         """Crea un capítulo vacío cuando no hay contenido.
 
         Args:
@@ -916,7 +917,7 @@ class LawEpubGenerator:
 """
         self._create_chapter(title, "contenido.xhtml", content)
 
-    def _render_content_item(self, item: Dict[str, Any]) -> str:
+    def _render_content_item(self, item: dict[str, Any]) -> str:
         """Renderiza un elemento de contenido a HTML.
 
         Args:
@@ -942,7 +943,7 @@ class LawEpubGenerator:
 
         return ""
 
-    def _render_article(self, item: Dict[str, Any]) -> str:
+    def _render_article(self, item: dict[str, Any]) -> str:
         """Renderiza un artículo a HTML.
 
         Args:
@@ -1051,7 +1052,7 @@ class LawEpubGenerator:
             return
 
         # Agrupar artículos por título
-        grouped_articles: Dict[str, List[Dict]] = {}
+        grouped_articles: dict[str, list[dict]] = {}
         for art in self.article_list:
             titulo = art.get("parent_titulo", "Sin Titulo") or "Sin Titulo"
             if titulo not in grouped_articles:
@@ -1113,14 +1114,12 @@ class LawEpubGenerator:
                     sections_html.append("</div>")
                 current_letter = first_letter
                 sections_html.append(
-                    f'<div class="keyword-section">'
-                    f'<h3 class="keyword-letter">{current_letter}</h3>'
+                    f'<div class="keyword-section"><h3 class="keyword-letter">{current_letter}</h3>'
                 )
 
             refs_html = ", ".join([f'<a href="{r["ref"]}">Art. {r["art"]}</a>' for r in refs[:8]])
             sections_html.append(
-                f'<p class="keyword-entry">'
-                f"<strong>{keyword.capitalize()}</strong>: {refs_html}</p>"
+                f'<p class="keyword-entry"><strong>{keyword.capitalize()}</strong>: {refs_html}</p>'
             )
 
         if sections_html:
@@ -1135,7 +1134,7 @@ class LawEpubGenerator:
 """
         self._create_chapter("Indice de Materias", "keyword_index.xhtml", content)
 
-    def _create_promulgation_appendix(self, metadata: Dict[str, Any]) -> None:
+    def _create_promulgation_appendix(self, metadata: dict[str, Any]) -> None:
         """Crea el apéndice de promulgación.
 
         Args:
@@ -1159,7 +1158,7 @@ class LawEpubGenerator:
         toc_items = list(self.toc)
 
         for chapter, content in self.toc_sections:
-            sub_items = []
+            sub_items: list[Any] = []
             for item in content:
                 if item.get("type") == "parrafo":
                     parrafo_text = item.get("text", "")
@@ -1190,9 +1189,9 @@ class LawEpubGenerator:
 
 
 def generate_law_epub(
-    law_data: Dict[str, Any],
-    output_path: Optional[str] = None,
-    config: Optional[Config] = None,
+    law_data: dict[str, Any],
+    output_path: str | None = None,
+    config: Config | None = None,
 ) -> str:
     """Función de conveniencia para generar un ePub.
 
