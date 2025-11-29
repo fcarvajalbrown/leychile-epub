@@ -18,7 +18,7 @@ Author: Luis Aguilera Arteaga <luis@aguilera.cl>
 License: MIT
 """
 
-__version__ = "1.2.0"
+__version__ = "1.3.0"
 __author__ = "Luis Aguilera Arteaga"
 __email__ = "luis@aguilera.cl"
 __license__ = "MIT"

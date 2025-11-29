@@ -7,6 +7,26 @@ y este proyecto adhiere a [Semantic Versioning](https://semver.org/lang/es/).
 
 ## [Unreleased]
 
+## [1.3.0] - 2024-11-29
+
+### Agregado
+- **Documentación completa** en `docs/`
+  - Guía de inicio rápido (`quickstart.md`)
+  - Guía de instalación (`installation.md`)
+  - Referencia del CLI (`cli.md`)
+  - Documentación de API Python (`api.md`)
+  - Ejemplos de uso (`examples.md`)
+  - Guía de desarrollo (`development.md`)
+- **Tests de integración** (`test_integration.py`)
+  - Tests end-to-end con requests reales a BCN
+  - Tests de múltiples leyes (Constitución, Código Civil, etc.)
+- **MANIFEST.in** para distribución correcta del paquete
+- Más ejemplos de código en la documentación
+
+### Mejorado
+- Documentación más detallada para contribuidores
+- Ejemplos de integración con Flask, FastAPI, etc.
+
 ## [1.2.0] - 2024-11-29
 
 ### Agregado
@@ -87,7 +107,8 @@ y este proyecto adhiere a [Semantic Versioning](https://semver.org/lang/es/).
 - `Corregido` para corrección de bugs
 - `Seguridad` para vulnerabilidades
 
-[Unreleased]: https://github.com/laguileracl/leychile-epub/compare/v1.2.0...HEAD
+[Unreleased]: https://github.com/laguileracl/leychile-epub/compare/v1.3.0...HEAD
+[1.3.0]: https://github.com/laguileracl/leychile-epub/compare/v1.2.0...v1.3.0
 [1.2.0]: https://github.com/laguileracl/leychile-epub/compare/v1.1.0...v1.2.0
 [1.1.0]: https://github.com/laguileracl/leychile-epub/compare/v1.0.0...v1.1.0
 [1.0.0]: https://github.com/laguileracl/leychile-epub/releases/tag/v1.0.0

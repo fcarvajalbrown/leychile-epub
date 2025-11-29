@@ -1,0 +1,37 @@
+# MANIFEST.in - Include additional files in source distribution
+
+# Include important files
+include LICENSE
+include README.md
+include CHANGELOG.md
+include CONTRIBUTING.md
+include CODE_OF_CONDUCT.md
+include SECURITY.md
+include Makefile
+include pyproject.toml
+
+# Include documentation
+recursive-include docs *.md
+
+# Include tests
+recursive-include tests *.py
+
+# Include type hints marker
+include src/leychile_epub/py.typed
+
+# Exclude development files
+exclude .pre-commit-config.yaml
+exclude .gitignore
+exclude .DS_Store
+
+# Exclude build artifacts
+global-exclude *.pyc
+global-exclude __pycache__
+global-exclude *.egg-info
+global-exclude .git*
+global-exclude .venv
+global-exclude .pytest_cache
+global-exclude .mypy_cache
+global-exclude .ruff_cache
+global-exclude htmlcov
+global-exclude .coverage
