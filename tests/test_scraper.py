@@ -35,9 +35,18 @@ class TestBCNLawScraper:
         assert id_norma == "242302"
         assert id_version == "2024-01-01"
 
-    def test_extract_id_norma_invalid(self, scraper):
-        """Verifica URL sin ID."""
+    def test_extract_id_norma_invalid_domain(self, scraper):
+        """Verifica que dominio no permitido lance ValidationError."""
+        from leychile_epub.exceptions import ValidationError
+
         url = "https://www.example.com/page"
+
+        with pytest.raises(ValidationError, match="Dominio no permitido"):
+            scraper.extract_id_norma(url)
+
+    def test_extract_id_norma_no_id(self, scraper):
+        """Verifica URL de leychile sin ID."""
+        url = "https://www.leychile.cl/Navegar"
 
         id_norma = scraper.extract_id_norma(url)
 

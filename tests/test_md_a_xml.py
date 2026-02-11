@@ -3,6 +3,7 @@
 Test: Markdown → Parser → XML
 Compara el XML generado desde Markdown con el XML original de la biblioteca.
 """
+import re
 import sys
 from pathlib import Path
 
@@ -10,7 +11,6 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent.parent / 'src'))
 
 from leychile_epub.text_to_xml_parser import NormaTextParser
-import re
 
 
 def extraer_metadatos_md(contenido: str) -> dict:
@@ -75,7 +75,7 @@ def contar_articulos_xml(xml_str: str) -> list:
     return articulos
 
 
-def test_md_a_xml(md_path: Path):
+def run_md_a_xml(md_path: Path):
     """Testea la conversión de un Markdown a XML."""
     print(f"\n{'='*70}")
     print(f"📄 Testeando: {md_path.name}")
@@ -88,7 +88,7 @@ def test_md_a_xml(md_path: Path):
     metadatos = extraer_metadatos_md(contenido)
     texto = extraer_texto_md(contenido)
     
-    print(f"\n📋 Metadatos extraídos:")
+    print("\n📋 Metadatos extraídos:")
     print(f"   - Tipo: {metadatos.get('tipo')}")
     print(f"   - Número: {metadatos.get('numero')}")
     print(f"   - Título: {metadatos.get('titulo', '')[:50]}...")
@@ -100,7 +100,7 @@ def test_md_a_xml(md_path: Path):
     # Contar artículos generados
     articulos = contar_articulos_xml(xml_generado)
     
-    print(f"\n🔄 Resultado del parser:")
+    print("\n🔄 Resultado del parser:")
     print(f"   - Artículos detectados: {len(articulos)}")
     if articulos[:10]:
         print(f"   - Primeros 10: {articulos[:10]}")
@@ -126,7 +126,7 @@ def test_md_a_xml(md_path: Path):
             if tag == 'articulo':
                 arts_orig.append(elem.get('numero', ''))
         
-        print(f"\n⚖️  Comparación con original:")
+        print("\n⚖️  Comparación con original:")
         print(f"   - Artículos original: {len(arts_orig)}")
         print(f"   - Artículos parseados: {len(articulos)}")
         diff = len(articulos) - len(arts_orig)
@@ -134,8 +134,8 @@ def test_md_a_xml(md_path: Path):
         print(f"   {status} Diferencia: {diff:+d}")
         
         # Artículos faltantes/extras
-        set_orig = set(a.upper() for a in arts_orig)
-        set_parse = set(a.upper() for a in articulos)
+        set_orig = {a.upper() for a in arts_orig}
+        set_parse = {a.upper() for a in articulos}
         
         faltantes = set_orig - set_parse
         extras = set_parse - set_orig
@@ -170,7 +170,7 @@ def main():
     
     total_articulos = 0
     for md_file in sorted(md_files):
-        total_articulos += test_md_a_xml(md_file)
+        total_articulos += run_md_a_xml(md_file)
     
     print(f"\n{'='*70}")
     print(f"📊 RESUMEN: {len(md_files)} archivos procesados")

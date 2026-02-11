@@ -1,8 +1,7 @@
 # Release workflow for LeyChile ePub Generator
-# Builds and uploads release assets to GitHub when a new release is created
+# Builds, uploads release assets, and publishes to PyPI when a new release is created
 #
-# NOTE: PyPI publishing is disabled until trusted publishing is configured.
-# To enable PyPI publishing:
+# SETUP: Configure trusted publishing on PyPI before first release:
 # 1. Go to https://pypi.org/manage/project/leychile-epub/settings/publishing/
 # 2. Add a new publisher with:
 #    - PyPI Project Name: leychile-epub
@@ -10,7 +9,6 @@
 #    - Repository name: leychile-epub
 #    - Workflow name: release.yml
 #    - Environment name: pypi
-# 3. Uncomment the publish-pypi job below
 
 name: Release
 
@@ -71,22 +69,21 @@ jobs:
             dist/*.whl
             dist/*.tar.gz
 
-  # Uncomment this job after configuring trusted publishing on PyPI
-  # publish-pypi:
-  #   name: Publish to PyPI
-  #   runs-on: ubuntu-latest
-  #   needs: [build]
-  #   environment:
-  #     name: pypi
-  #     url: https://pypi.org/project/leychile-epub/
-  #   permissions:
-  #     id-token: write
-  #   steps:
-  #     - name: Download build artifacts
-  #       uses: actions/download-artifact@v4
-  #       with:
-  #         name: dist
-  #         path: dist/
-  #
-  #     - name: Publish to PyPI
-  #       uses: pypa/gh-action-pypi-publish@release/v1
+  publish-pypi:
+    name: Publish to PyPI
+    runs-on: ubuntu-latest
+    needs: [build]
+    environment:
+      name: pypi
+      url: https://pypi.org/project/leychile-epub/
+    permissions:
+      id-token: write
+    steps:
+      - name: Download build artifacts
+        uses: actions/download-artifact@v4
+        with:
+          name: dist
+          path: dist/
+
+      - name: Publish to PyPI
+        uses: pypa/gh-action-pypi-publish@release/v1

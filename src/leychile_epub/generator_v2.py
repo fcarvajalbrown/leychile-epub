@@ -13,14 +13,10 @@ import uuid
 from dataclasses import dataclass
 from datetime import datetime
 from pathlib import Path
-from typing import TYPE_CHECKING
 
 from ebooklib import epub
 
 from .scraper_v2 import EstructuraFuncional, Norma
-
-if TYPE_CHECKING:
-    pass
 
 
 @dataclass
@@ -522,19 +518,19 @@ class EPubGeneratorV2:
     def _add_title_page(self, norma: Norma) -> None:
         """Agrega la página de título."""
         tipo_numero = f"{norma.identificador.tipo} {norma.identificador.numero}"
-        organismos = "<br>".join(html.escape(o) for o in norma.identificador.organismos)
+        organismos = "<br/>".join(html.escape(o) for o in norma.identificador.organismos)
 
         fechas_html = ""
         if norma.identificador.fecha_promulgacion:
             fechas_html += (
-                f'<p class="fecha">Promulgación: {norma.identificador.fecha_promulgacion}</p>\n'
+                f'<p class="fecha">Promulgación: {html.escape(norma.identificador.fecha_promulgacion)}</p>\n'
             )
         if norma.identificador.fecha_publicacion:
             fechas_html += (
-                f'<p class="fecha">Publicación: {norma.identificador.fecha_publicacion}</p>\n'
+                f'<p class="fecha">Publicación: {html.escape(norma.identificador.fecha_publicacion)}</p>\n'
             )
         if norma.fecha_version:
-            fechas_html += f'<p class="fecha">Última modificación: {norma.fecha_version}</p>\n'
+            fechas_html += f'<p class="fecha">Última modificación: {html.escape(norma.fecha_version)}</p>\n'
 
         estado = ""
         if norma.derogado:
@@ -618,7 +614,7 @@ class EPubGeneratorV2:
         <h3>Organismos</h3>
         <dl>
             <dt>Organismo(s) responsable(s)</dt>
-            <dd>{"<br>".join(html.escape(o) for o in norma.identificador.organismos)}</dd>
+            <dd>{"<br/>".join(html.escape(o) for o in norma.identificador.organismos)}</dd>
         </dl>
         
         <h3>Fechas</h3>

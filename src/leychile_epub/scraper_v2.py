@@ -42,6 +42,9 @@ logger = logging.getLogger("leychile_epub.scraper")
 # Namespace XML oficial de LeyChile
 NS = {"lc": "http://www.leychile.cl/esquemas"}
 
+# Dominios permitidos para scraping
+_ALLOWED_DOMAINS = {"www.leychile.cl", "leychile.cl", "www.bcn.cl", "bcn.cl"}
+
 
 @dataclass
 class NormaIdentificador:
@@ -309,10 +312,7 @@ class BCNXMLParser:
         estructuras: list[EstructuraFuncional] = []
 
         # Buscar el contenedor de estructuras
-        if nivel == 0:
-            container = root.find("lc:EstructurasFuncionales", self.ns)
-        else:
-            container = root.find("lc:EstructurasFuncionales", self.ns)
+        container = root.find("lc:EstructurasFuncionales", self.ns)
 
         if container is None:
             return estructuras
@@ -420,11 +420,9 @@ class BCNLawScraperV2:
     con la estructura jerárquica correcta.
 
     Example:
-        >>> scraper = BCNLawScraperV2()
-        >>> norma = scraper.scrape("https://www.leychile.cl/Navegar?idNorma=1058072")
-        >>> print(norma.titulo_completo)
-        >>> for cap in norma.estructuras:
-        ...     print(f"{cap.tipo_parte}: {cap.titulo_parte}")
+        >>> with BCNLawScraperV2() as scraper:
+        ...     norma = scraper.scrape("https://www.leychile.cl/Navegar?idNorma=1058072")
+        ...     print(norma.titulo_completo)
     """
 
     def __init__(self, config: Config | None = None) -> None:
@@ -437,6 +435,17 @@ class BCNLawScraperV2:
         self.session = self._create_session()
         self.parser = BCNXMLParser()
         logger.debug("BCNLawScraperV2 inicializado")
+
+    def __enter__(self) -> "BCNLawScraperV2":
+        return self
+
+    def __exit__(self, *args: object) -> None:
+        self.close()
+
+    def close(self) -> None:
+        """Cierra la sesión HTTP y libera recursos."""
+        if self.session:
+            self.session.close()
 
     def _create_session(self) -> requests.Session:
         """Crea una sesión HTTP con reintentos configurados."""
@@ -463,6 +472,31 @@ class BCNLawScraperV2:
 
         return session
 
+    def _validate_url(self, url: str) -> None:
+        """Valida que la URL pertenezca a un dominio permitido.
+
+        Args:
+            url: URL a validar.
+
+        Raises:
+            ValidationError: Si la URL no es de un dominio permitido.
+        """
+        parsed = urlparse(url)
+        if parsed.scheme not in ("http", "https"):
+            raise ValidationError(
+                "La URL debe usar protocolo HTTP o HTTPS",
+                field="url",
+                value=url,
+            )
+        hostname = parsed.hostname or ""
+        if hostname not in _ALLOWED_DOMAINS:
+            raise ValidationError(
+                f"Dominio no permitido: {hostname}. "
+                f"Solo se permiten: {', '.join(sorted(_ALLOWED_DOMAINS))}",
+                field="url",
+                value=url,
+            )
+
     def extract_id_norma(self, url: str) -> str | None:
         """Extrae el ID de la norma desde una URL de LeyChile.
 
@@ -472,9 +506,12 @@ class BCNLawScraperV2:
         - https://www.leychile.cl/Consulta/obtxml?opt=7&idNorma=242302
         """
         try:
+            self._validate_url(url)
             parsed = urlparse(url)
             params = parse_qs(parsed.query)
             return params.get("idNorma", [None])[0]
+        except ValidationError:
+            raise
         except Exception as e:
             logger.warning(f"Error extrayendo idNorma de {url}: {e}")
             return None

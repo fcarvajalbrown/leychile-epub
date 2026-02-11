@@ -7,6 +7,71 @@ y este proyecto adhiere a [Semantic Versioning](https://semver.org/lang/es/).
 
 ## [Unreleased]
 
+### Agregado
+- Validación de URLs: solo se permiten dominios de leychile.cl y bcn.cl
+- Context managers (`with` statement) para scrapers v1 y v2
+- Validación de path traversal en rutas de salida del generador
+- Validación XSD automática en el pipeline de generación XML
+- Dockerfile para despliegue containerizado
+- CLAUDE.md con contexto del proyecto para asistentes de IA
+- Tests para EPubGeneratorV2
+
+### Cambiado
+- `LEGAL_KEYWORDS` convertido de lista a set para búsquedas O(1)
+- Regex de referencias cruzadas y títulos precompilados a nivel de clase
+- Optimización de búsqueda de duplicados en `_build_keyword_index()` usando sets
+- Habilitado PyPI trusted publishing en release.yml
+
+### Deprecado
+- `BCNLawScraper` (v1): usar `BCNLawScraperV2` en su lugar
+- `LawEpubGenerator` (v1): usar `EPubGeneratorV2` en su lugar
+
+### Corregido
+- Versión sincronizada entre `pyproject.toml` (1.3.0→1.6.0) y `__init__.py`
+- Rama duplicada eliminada en `scraper_v2.py` (`_parse_estructuras_funcionales`)
+- Fechas placeholder `2222-02-02` corregidas en 5 archivos XML
+
+### Seguridad
+- Validación de dominios en URLs de entrada para prevenir SSRF
+- Protección contra path traversal en generación de archivos de salida
+
+## [1.6.0] - 2025-02-01
+
+### Agregado
+- Actualización de biblioteca XML con nuevas normas legales
+- 91 archivos XML de normas chilenas en `biblioteca_xml/`
+
+## [1.5.0] - 2025-01-15
+
+### Agregado
+- **Esquema XML estándar** (`schemas/ley_v1.xsd`) para normas legales chilenas
+- **Scraper v2** (`scraper_v2.py`): parser XSD-compliant con estructura jerárquica
+  - Dataclasses tipadas: `Norma`, `NormaIdentificador`, `NormaMetadatos`, `EstructuraFuncional`
+  - Soporte para estructura recursiva de la BCN
+  - Compatibilidad con formato v1 vía `scrape_to_dict()`
+- **Generador v2** (`generator_v2.py`): generación de ePub con estructura jerárquica
+  - CSS profesional integrado
+  - Soporte para derogación y disposiciones transitorias
+  - Página de metadatos detallada
+- **Generador XML** (`xml_generator.py`): XML optimizado para agentes de IA
+  - `LawXMLGenerator` para normas individuales
+  - `BibliotecaXMLGenerator` para generación en lote
+- **Documentación del esquema XML** (`docs/ESQUEMA_XML_NORMAS.md`)
+- Scripts de utilidad en `scripts/`
+  - `generar_biblioteca_xml.py`: generación de biblioteca completa
+  - `regenerar_corregidas.py`: actualización de normas corregidas
+  - `xml_a_markdown.py`: conversión XML a Markdown
+
+### Cambiado
+- Versión del User-Agent actualizada a 1.5.0
+
+## [1.4.0] - 2024-12-15
+
+### Corregido
+- Errores en el pipeline CI/CD (#4)
+  - Corrección de imports y dependencias en GitHub Actions
+  - Configuración de pytest mejorada
+
 ## [1.3.0] - 2024-11-29
 
 ### Agregado
@@ -107,7 +172,10 @@ y este proyecto adhiere a [Semantic Versioning](https://semver.org/lang/es/).
 - `Corregido` para corrección de bugs
 - `Seguridad` para vulnerabilidades
 
-[Unreleased]: https://github.com/laguileracl/leychile-epub/compare/v1.3.0...HEAD
+[Unreleased]: https://github.com/laguileracl/leychile-epub/compare/v1.6.0...HEAD
+[1.6.0]: https://github.com/laguileracl/leychile-epub/compare/v1.5.0...v1.6.0
+[1.5.0]: https://github.com/laguileracl/leychile-epub/compare/v1.4.0...v1.5.0
+[1.4.0]: https://github.com/laguileracl/leychile-epub/compare/v1.3.0...v1.4.0
 [1.3.0]: https://github.com/laguileracl/leychile-epub/compare/v1.2.0...v1.3.0
 [1.2.0]: https://github.com/laguileracl/leychile-epub/compare/v1.1.0...v1.2.0
 [1.1.0]: https://github.com/laguileracl/leychile-epub/compare/v1.0.0...v1.1.0
