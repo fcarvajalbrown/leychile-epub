@@ -6,16 +6,14 @@ de la biblioteca para identificar discrepancias y áreas de mejora.
 """
 
 import sys
-import os
-import re
+from collections import defaultdict
 from pathlib import Path
 from xml.etree import ElementTree as ET
-from collections import Counter, defaultdict
 
 # Agregar el path del proyecto
 sys.path.insert(0, str(Path(__file__).parent.parent / "src"))
 
-from leychile_epub.text_to_xml_parser import NormaTextParser, TipoDivision
+from leychile_epub.text_to_xml_parser import NormaTextParser
 
 # Configuración
 BIBLIOTECA_PATH = Path(__file__).parent.parent / "biblioteca_xml"
@@ -110,13 +108,13 @@ def analizar_estructura_xml(xml_path: Path) -> dict:
             stats['articulos'].append(numero)
             
             # Contar incisos
-            for inciso in elem.findall('.//ley:inciso', NS):
+            for _inciso in elem.findall('.//ley:inciso', NS):
                 stats['incisos'] += 1
-            
+
             # Contar párrafos internos
             contenido = elem.find('ley:contenido', NS)
             if contenido is not None:
-                for parr in contenido.findall('ley:parrafo', NS):
+                for _parr in contenido.findall('ley:parrafo', NS):
                     stats['parrafos_internos'] += 1
         
         elif tag_local in ['libro', 'titulo', 'capitulo', 'parrafo', 'seccion']:
@@ -164,7 +162,7 @@ def comparar_resultados(original: dict, parseado: dict) -> dict:
     return comparacion
 
 
-def test_archivo(xml_path: Path, verbose: bool = True) -> dict:
+def run_test_archivo(xml_path: Path, verbose: bool = True) -> dict:
     """
     Testea un archivo XML comparando con el parser.
     """
@@ -184,7 +182,7 @@ def test_archivo(xml_path: Path, verbose: bool = True) -> dict:
         # 1. Extraer texto y metadatos del original
         texto_plano, metadatos, stats_orig = extraer_texto_plano_de_xml(xml_path)
         
-        print(f"\n📊 Estadísticas ORIGINALES:")
+        print("\n📊 Estadísticas ORIGINALES:")
         print(f"   - Artículos: {stats_orig['total_articulos']}")
         print(f"   - Libros: {stats_orig['total_libros']}")
         print(f"   - Títulos: {stats_orig['total_titulos']}")
@@ -193,7 +191,7 @@ def test_archivo(xml_path: Path, verbose: bool = True) -> dict:
         # 2. Analizar estructura detallada del original
         stats_detalle_orig = analizar_estructura_xml(xml_path)
         
-        print(f"\n📋 Divisiones en original:")
+        print("\n📋 Divisiones en original:")
         for tipo, items in stats_detalle_orig['divisiones'].items():
             print(f"   - {tipo}: {len(items)}")
         print(f"   - Incisos: {stats_detalle_orig['incisos']}")
@@ -205,9 +203,6 @@ def test_archivo(xml_path: Path, verbose: bool = True) -> dict:
         
         # 4. Analizar el XML generado
         root_generado = ET.fromstring(xml_generado)
-        
-        # Namespace del XML generado
-        NS_GEN = {'ley': 'https://leychile.cl/schema/ley/v1'}
         
         # Contar elementos en el generado (puede tener o no namespace)
         stats_parseado = {
@@ -263,7 +258,7 @@ def test_archivo(xml_path: Path, verbose: bool = True) -> dict:
         if contenido_gen is not None:
             contar_en_generado(contenido_gen)
         
-        print(f"\n🔄 Estadísticas PARSEADAS:")
+        print("\n🔄 Estadísticas PARSEADAS:")
         print(f"   - Artículos: {len(stats_parseado['articulos'])}")
         for tipo, items in stats_parseado['divisiones'].items():
             print(f"   - {tipo}: {len(items)}")
@@ -271,7 +266,7 @@ def test_archivo(xml_path: Path, verbose: bool = True) -> dict:
         print(f"   - Párrafos internos: {stats_parseado['parrafos_internos']}")
         
         # 5. Comparar
-        print(f"\n⚖️  COMPARACIÓN:")
+        print("\n⚖️  COMPARACIÓN:")
         
         # Artículos
         art_orig = len(stats_detalle_orig['articulos'])
@@ -306,8 +301,8 @@ def test_archivo(xml_path: Path, verbose: bool = True) -> dict:
         }
         
         # Detectar artículos faltantes o extras (comparación case-insensitive)
-        arts_orig_set = set(a.upper() for a in stats_detalle_orig['articulos'])
-        arts_parse_set = set(a.upper() for a in stats_parseado['articulos'])
+        arts_orig_set = {a.upper() for a in stats_detalle_orig['articulos']}
+        arts_parse_set = {a.upper() for a in stats_parseado['articulos']}
         
         faltantes = arts_orig_set - arts_parse_set
         extras = arts_parse_set - arts_orig_set
@@ -356,7 +351,7 @@ def main():
     for archivo in archivos_test:
         path = BIBLIOTECA_PATH / archivo
         if path.exists():
-            resultado = test_archivo(path)
+            resultado = run_test_archivo(path)
             resultados.append(resultado)
         else:
             print(f"\n⚠️  Archivo no encontrado: {archivo}")

@@ -21,9 +21,14 @@ from typing import Any
 from xml.dom import minidom
 from xml.etree import ElementTree as ET
 
+from lxml import etree
+
 from .scraper_v2 import BCNLawScraperV2, EstructuraFuncional, Norma
 
 logger = logging.getLogger("leychile_epub.xml_generator")
+
+# Ruta al esquema XSD
+_SCHEMA_PATH = Path(__file__).parent.parent.parent / "schemas" / "ley_v1.xsd"
 
 
 class LawXMLGenerator:
@@ -410,7 +415,7 @@ class LawXMLGenerator:
         """
         pattern = r"art[íi]culo\s+(\d+(?:\s*(?:bis|ter|qu[aá]ter|quinquies|sexies|septies|octies|nonies|decies))?)"
         matches = re.findall(pattern, texto, re.IGNORECASE)
-        return list(set(m.lower().replace(" ", "") for m in matches))
+        return list({m.lower().replace(" ", "") for m in matches})
 
     def _add_promulgacion(self, root: ET.Element, norma: Norma) -> None:
         """Agrega el texto de promulgación.
@@ -528,6 +533,39 @@ class LawXMLGenerator:
 
         return dir_path / name
 
+    def _validate_xml(self, root: ET.Element) -> list[str]:
+        """Valida el XML generado contra el esquema XSD.
+
+        Args:
+            root: Elemento raíz del XML.
+
+        Returns:
+            Lista de errores de validación (vacía si es válido).
+        """
+        if not _SCHEMA_PATH.exists():
+            logger.warning(f"Esquema XSD no encontrado en {_SCHEMA_PATH}, saltando validación")
+            return []
+
+        try:
+            xml_str = ET.tostring(root, encoding="unicode")
+            lxml_doc = etree.fromstring(xml_str.encode("utf-8"))
+            schema_doc = etree.parse(str(_SCHEMA_PATH))
+            schema = etree.XMLSchema(schema_doc)
+
+            if schema.validate(lxml_doc):
+                logger.debug("XML válido según esquema XSD")
+                return []
+
+            errors = [str(e) for e in schema.error_log]
+            logger.warning(f"Validación XSD: {len(errors)} errores encontrados")
+            for error in errors[:5]:
+                logger.warning(f"  XSD: {error}")
+            return errors
+
+        except Exception as e:
+            logger.warning(f"Error durante validación XSD: {e}")
+            return [str(e)]
+
     def _write_xml(self, root: ET.Element, output_path: Path) -> None:
         """Escribe el XML con formato legible.
 
@@ -535,6 +573,9 @@ class LawXMLGenerator:
             root: Elemento raíz.
             output_path: Ruta del archivo.
         """
+        # Validar contra XSD (no bloquea la escritura, solo advierte)
+        self._validate_xml(root)
+
         # Convertir a string
         xml_str = ET.tostring(root, encoding="unicode")
 
@@ -615,7 +656,7 @@ class BibliotecaXMLGenerator:
         output_path = Path(output_dir)
         output_path.mkdir(parents=True, exist_ok=True)
 
-        resultados = {
+        resultados: dict[str, Any] = {
             "nombre": nombre,
             "directorio": str(output_path),
             "fecha_generacion": datetime.now().isoformat(),

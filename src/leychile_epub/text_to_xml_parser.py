@@ -16,14 +16,11 @@ Uso básico:
 """
 
 import re
-import uuid
 from dataclasses import dataclass, field
 from datetime import datetime
 from enum import Enum
-from typing import Optional, Union
-from xml.etree.ElementTree import Element, SubElement, tostring
 from xml.dom import minidom
-
+from xml.etree.ElementTree import Element, SubElement, tostring
 
 # ═══════════════════════════════════════════════════════════════════════════════
 # CONSTANTES Y ENUMERACIONES
@@ -205,14 +202,14 @@ class MetadatosNorma:
     titulo: str
     tipo: str
     numero: str
-    organismo: Optional[str] = None
+    organismo: str | None = None
     materias: list[str] = field(default_factory=list)
     nombres_comunes: list[str] = field(default_factory=list)
-    fecha_promulgacion: Optional[str] = None
-    fecha_publicacion: Optional[str] = None
+    fecha_promulgacion: str | None = None
+    fecha_publicacion: str | None = None
     fuente: str = "Texto manual"
-    id_norma: Optional[str] = None
-    url_original: Optional[str] = None
+    id_norma: str | None = None
+    url_original: str | None = None
 
 
 @dataclass
@@ -220,7 +217,7 @@ class ElementoContenido:
     """Elemento de contenido dentro de un artículo."""
     tipo: str  # 'parrafo', 'inciso', 'letra'
     texto: str
-    numero: Optional[str] = None
+    numero: str | None = None
 
 
 @dataclass
@@ -232,7 +229,7 @@ class Articulo:
     contexto: str = ""
     contenido_estructurado: list[ElementoContenido] = field(default_factory=list)
     referencias: list[str] = field(default_factory=list)
-    fecha_modificacion: Optional[str] = None
+    fecha_modificacion: str | None = None
 
 
 @dataclass
@@ -243,8 +240,8 @@ class Division:
     titulo: str
     texto: str
     contexto: str = ""
-    hijos: list[Union['Division', Articulo]] = field(default_factory=list)
-    fecha_modificacion: Optional[str] = None
+    hijos: list['Division | Articulo'] = field(default_factory=list)
+    fecha_modificacion: str | None = None
 
 
 # ═══════════════════════════════════════════════════════════════════════════════
@@ -299,7 +296,7 @@ class NormaTextParser:
         # Si no se encuentra, todo es encabezado
         return texto, ""
     
-    def _identificar_division(self, linea: str) -> Optional[tuple[TipoDivision, str]]:
+    def _identificar_division(self, linea: str) -> tuple[TipoDivision, str] | None:
         """Identifica si una línea es el inicio de una división."""
         linea_limpia = linea.strip()
         for patron, tipo in PATRONES_DIVISION:
@@ -307,7 +304,7 @@ class NormaTextParser:
                 return (tipo, linea_limpia)
         return None
     
-    def _identificar_articulo(self, linea: str, linea_anterior: str = "") -> Optional[dict]:
+    def _identificar_articulo(self, linea: str, linea_anterior: str = "") -> dict | None:
         """
         Identifica si una línea es el inicio de un artículo.
         linea_anterior ayuda a filtrar falsos positivos.
@@ -377,9 +374,9 @@ class NormaTextParser:
     
     def _estructurar_contenido_articulo(self, texto: str) -> list[ElementoContenido]:
         """Analiza el contenido de un artículo y detecta incisos, letras, etc."""
-        elementos = []
+        elementos: list[ElementoContenido] = []
         lineas = texto.split('\n')
-        buffer = []
+        buffer: list[str] = []
         
         for linea in lineas:
             linea_strip = linea.strip()
@@ -439,16 +436,16 @@ class NormaTextParser:
             referencias.update(nums)
         return sorted(referencias, key=lambda x: int(x) if x.isdigit() else 0)
     
-    def _parsear_contenido(self, texto: str) -> list[Union[Division, Articulo]]:
+    def _parsear_contenido(self, texto: str) -> list[Division | Articulo]:
         """
         Parsea el contenido del articulado.
         Retorna una lista de divisiones y artículos.
         """
         lineas = texto.split('\n')
-        elementos = []
+        elementos: list[Division | Articulo] = []
         pila_divisiones: list[Division] = []
-        articulo_actual: Optional[Articulo] = None
-        buffer_texto = []
+        articulo_actual: Articulo | None = None
+        buffer_texto: list[str] = []
         
         def finalizar_articulo():
             nonlocal articulo_actual, buffer_texto
@@ -577,7 +574,7 @@ class NormaTextParser:
         
         return contadores
     
-    def _elemento_a_xml(self, elem: Union[Division, Articulo], padre: Element):
+    def _elemento_a_xml(self, elem: Division | Articulo, padre: Element):
         """Convierte un elemento (División o Artículo) a XML."""
         if isinstance(elem, Articulo):
             art_elem = SubElement(padre, 'articulo')

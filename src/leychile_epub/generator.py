@@ -10,6 +10,7 @@ Author: Luis Aguilera Arteaga <luis@aguilera.cl>
 import logging
 import re
 import uuid
+import warnings
 from collections.abc import Callable
 from datetime import datetime
 from pathlib import Path
@@ -46,7 +47,7 @@ class LawEpubGenerator:
     """
 
     # Palabras clave legales para el índice
-    LEGAL_KEYWORDS = [
+    LEGAL_KEYWORDS = {
         "plazo",
         "sancion",
         "multa",
@@ -101,27 +102,42 @@ class LawEpubGenerator:
         "infraccion",
         "crimen",
         "cuasidelito",
+    }
+
+    # Patrones para formatear títulos (precompilados)
+    TITLE_PATTERNS = [
+        (re.compile(r"^(TITULO\s+[IVXLCDM]+)\s+(.+)$", re.IGNORECASE), r"\1<br/>\2"),
+        (re.compile(r"^(Titulo\s+[IVXLCDM]+)\s+(.+)$", re.IGNORECASE), r"\1<br/>\2"),
+        (re.compile(r"^(TÍTULO\s+[IVXLCDM]+)\s+(.+)$", re.IGNORECASE), r"\1<br/>\2"),
+        (re.compile(r"^(Título\s+[IVXLCDM]+)\s+(.+)$", re.IGNORECASE), r"\1<br/>\2"),
+        (re.compile(r"^(Párrafo\s+\d+[°º]?)\s+(.+)$", re.IGNORECASE), r"\1 – \2"),
+        (re.compile(r"^(PARRAFO\s+\d+[°º]?)\s+(.+)$", re.IGNORECASE), r"\1 – \2"),
+        (re.compile(r"^(Capítulo\s+[IVXLCDM]+)\s+(.+)$", re.IGNORECASE), r"\1<br/>\2"),
+        (re.compile(r"^(CAPITULO\s+[IVXLCDM]+)\s+(.+)$", re.IGNORECASE), r"\1<br/>\2"),
     ]
 
-    # Patrones para formatear títulos
-    TITLE_PATTERNS = [
-        (r"^(TITULO\s+[IVXLCDM]+)\s+(.+)$", r"\1<br/>\2"),
-        (r"^(Titulo\s+[IVXLCDM]+)\s+(.+)$", r"\1<br/>\2"),
-        (r"^(TÍTULO\s+[IVXLCDM]+)\s+(.+)$", r"\1<br/>\2"),
-        (r"^(Título\s+[IVXLCDM]+)\s+(.+)$", r"\1<br/>\2"),
-        (r"^(Párrafo\s+\d+[°º]?)\s+(.+)$", r"\1 – \2"),
-        (r"^(PARRAFO\s+\d+[°º]?)\s+(.+)$", r"\1 – \2"),
-        (r"^(Capítulo\s+[IVXLCDM]+)\s+(.+)$", r"\1<br/>\2"),
-        (r"^(CAPITULO\s+[IVXLCDM]+)\s+(.+)$", r"\1<br/>\2"),
-    ]
+    # Regex precompilado para referencias cruzadas
+    _CROSS_REF_PATTERN = re.compile(
+        r"art[íi]culo\s+(\d+(?:\s*(?:bis|ter|qu[aá]ter|quinquies|"
+        r"sexies|septies|octies|nonies|decies))?)",
+        re.IGNORECASE,
+    )
 
     def __init__(self, config: Config | None = None) -> None:
         """Inicializa el generador.
+
+        .. deprecated:: 1.5.0
+            Use :class:`EPubGeneratorV2` from ``generator_v2`` instead.
 
         Args:
             config: Configuración opcional. Si no se proporciona,
                    se usa la configuración global.
         """
+        warnings.warn(
+            "LawEpubGenerator está deprecado. Use EPubGeneratorV2 en su lugar.",
+            DeprecationWarning,
+            stacklevel=2,
+        )
         self.config = config or get_config()
         self._reset_state()
         logger.debug("LawEpubGenerator inicializado")
@@ -303,7 +319,15 @@ class LawEpubGenerator:
             safe_number = re.sub(r"[^\w\s-]", "", law_number).strip().replace(" ", "_")
             name = f"{safe_type}_{safe_number}.epub"
 
-        return dir_path / name
+        output = dir_path / name
+        # Validar que la ruta resuelta esté dentro del directorio de salida
+        if not output.resolve().is_relative_to(dir_path.resolve()):
+            raise ValidationError(
+                "Ruta de salida inválida: el archivo resultante escapa del directorio de salida",
+                field="output_path",
+                value=str(output),
+            )
+        return output
 
     def _escape_html(self, text: str) -> str:
         """Escapa caracteres HTML.
@@ -363,8 +387,8 @@ class LawEpubGenerator:
             return text
 
         for pattern, replacement in self.TITLE_PATTERNS:
-            if re.match(pattern, text, re.IGNORECASE):
-                return re.sub(pattern, replacement, text, flags=re.IGNORECASE)
+            if pattern.match(text):
+                return pattern.sub(replacement, text)
 
         return text
 
@@ -380,13 +404,7 @@ class LawEpubGenerator:
         if not article_title:
             return None
 
-        match = re.search(
-            r"Art[íi]culo\s+(\d+(?:\s*(?:bis|ter|qu[aá]ter|quinquies|"
-            r"sexies|septies|octies|nonies|decies))?)",
-            article_title,
-            re.IGNORECASE,
-        )
-
+        match = self._CROSS_REF_PATTERN.search(article_title)
         if match:
             return match.group(1).lower().replace(" ", "")
         return None
@@ -409,11 +427,7 @@ class LawEpubGenerator:
                 return f'<a href="{self.article_ids[art_num]}" class="cross-ref">{full_match}</a>'
             return full_match
 
-        pattern = (
-            r"art[íi]culo\s+(\d+(?:\s*(?:bis|ter|qu[aá]ter|quinquies|"
-            r"sexies|septies|octies|nonies|decies))?)"
-        )
-        return re.sub(pattern, replace_ref, text, flags=re.IGNORECASE)
+        return self._CROSS_REF_PATTERN.sub(replace_ref, text)
 
     def _build_article_index(self, content: list[dict[str, Any]]) -> None:
         """Construye el índice de artículos.
@@ -491,7 +505,8 @@ class LawEpubGenerator:
                         if keyword not in self.keyword_index:
                             self.keyword_index[keyword] = []
 
-                        if file_ref not in [x["ref"] for x in self.keyword_index[keyword]]:
+                        existing_refs = {x["ref"] for x in self.keyword_index[keyword]}
+                        if file_ref not in existing_refs:
                             self.keyword_index[keyword].append(
                                 {
                                     "ref": file_ref,

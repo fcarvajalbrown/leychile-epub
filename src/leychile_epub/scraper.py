@@ -11,6 +11,7 @@ import html
 import logging
 import re
 import time
+import warnings
 from collections.abc import Callable
 from typing import Any
 from urllib.parse import parse_qs, urlparse
@@ -25,6 +26,9 @@ from .exceptions import NetworkError, ParsingError, ValidationError
 
 # Logger del módulo
 logger = logging.getLogger("leychile_epub.scraper")
+
+# Dominios permitidos para scraping
+_ALLOWED_DOMAINS = {"www.leychile.cl", "leychile.cl", "www.bcn.cl", "bcn.cl"}
 
 
 class BCNLawScraper:
@@ -64,13 +68,32 @@ class BCNLawScraper:
     def __init__(self, config: Config | None = None) -> None:
         """Inicializa el scraper.
 
+        .. deprecated:: 1.5.0
+            Use :class:`BCNLawScraperV2` instead.
+
         Args:
             config: Configuración opcional. Si no se proporciona,
                    se usa la configuración global.
         """
+        warnings.warn(
+            "BCNLawScraper está deprecado. Use BCNLawScraperV2 en su lugar.",
+            DeprecationWarning,
+            stacklevel=2,
+        )
         self.config = config or get_config()
         self.session = self._create_session()
         logger.debug("BCNLawScraper inicializado")
+
+    def __enter__(self) -> "BCNLawScraper":
+        return self
+
+    def __exit__(self, *args: object) -> None:
+        self.close()
+
+    def close(self) -> None:
+        """Cierra la sesión HTTP y libera recursos."""
+        if self.session:
+            self.session.close()
 
     def _create_session(self) -> requests.Session:
         """Crea una sesión HTTP con reintentos configurados.
@@ -103,6 +126,28 @@ class BCNLawScraper:
 
         return session
 
+    def _validate_url(self, url: str) -> None:
+        """Valida que la URL pertenezca a un dominio permitido.
+
+        Raises:
+            ValidationError: Si la URL no es de un dominio permitido.
+        """
+        parsed = urlparse(url)
+        if parsed.scheme not in ("http", "https"):
+            raise ValidationError(
+                "La URL debe usar protocolo HTTP o HTTPS",
+                field="url",
+                value=url,
+            )
+        hostname = parsed.hostname or ""
+        if hostname not in _ALLOWED_DOMAINS:
+            raise ValidationError(
+                f"Dominio no permitido: {hostname}. "
+                f"Solo se permiten: {', '.join(sorted(_ALLOWED_DOMAINS))}",
+                field="url",
+                value=url,
+            )
+
     def extract_id_norma(self, url: str) -> str | None:
         """Extrae el ID de la norma desde una URL de LeyChile.
 
@@ -117,9 +162,12 @@ class BCNLawScraper:
             '242302'
         """
         try:
+            self._validate_url(url)
             parsed = urlparse(url)
             params = parse_qs(parsed.query)
             return params.get("idNorma", [None])[0]
+        except ValidationError:
+            raise
         except Exception as e:
             logger.warning(f"Error extrayendo idNorma de {url}: {e}")
             return None
