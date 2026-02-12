@@ -1,0 +1,181 @@
+REPÚBLICA DE CHILE
+Ministerio de Economía, Fomento y Turismo
+Superintendencia de Insolvencia y Reemprendimiento
+
+NORMA DE CARÁCTER GENERAL N.° 7
+SUPERINTENDENCIA DE INSOLVENCIA Y REEMPRENDIMIENTO
+
+REF.: Forma y contenidos obligatorios de las cuentas provisorias y de la Cuenta Final de Administración.
+
+Santiago, 8 de octubre de 2014
+
+VISTOS
+
+Las facultades conferidas en los artículos 46° y 49° de la Ley N.° 20.720, sobre Reorganización y Liquidación de Activos de Empresas y Personas (en adelante, la "Ley").
+
+CONSIDERANDO
+
+1° Que el artículo 46° de la Ley dispone que la Superintendencia fijará la forma y contenidos obligatorios de las cuentas provisorias que deba rendir el Liquidador, las que deberán incluir, a lo menos, un desglose detallado de los ingresos y gastos durante los últimos tres meses de administración, con observancia de la normativa contable, tributaria y financiera aplicable, disponiendo además que lo anterior se realizará mediante la dictación de una Norma de Carácter General por parte de esta Superintendencia.
+
+2° Que, a su vez, el artículo 49° de la Ley dispone que la Superintendencia fijará la forma y contenidos obligatorios de la Cuenta Final de Administración, con observancia de la normativa contable, tributaria y financiera aplicable, disponiendo además que lo anterior se realizará mediante la dictación de una Norma de Carácter General por parte de esta Superintendencia.
+
+3° Que el artículo 25 N.° 9 de la Ley dispone que el Veedor deberá rendir mensualmente cuenta de su actuación y de los negocios del Deudor a la Superintendencia y presentar las observaciones que le merezca la administración de aquel.
+
+4° Que el artículo 29° de la Ley establece que el Veedor rendirá cuenta final de su gestión en el plazo de 30 días contado desde la Resolución que aprueba el Acuerdo de Reorganización Judicial o desde la Resolución de Liquidación, en su caso, siendo plenamente aplicable lo dispuesto en el Párrafo 2 del Título 3 del Capítulo II de la Ley.
+
+5° Que el artículo 216° de la Ley establece que los Martilleros Concursales deberán rendir ante la Superintendencia una cuenta detallada y desglosada de los bienes rematados, así como de los ingresos, gastos y resultado final del remate o subasta, y publicarla en el Boletín Concursal.
+
+Que, en conformidad a lo anterior, se dicta la siguiente:
+
+NORMA DE CARÁCTER GENERAL
+
+TÍTULO I
+Cuentas Provisorias
+
+Artículo 1°. Oportunidad.
+Las cuentas provisorias deberán rendirse mensualmente ante la junta de acreedores, debiendo publicarse en el Boletín Concursal dentro del plazo de 2 días, según lo establecido en los artículos 6°, 47° y siguientes de la Ley.
+
+Dentro del mismo plazo, las cuentas provisorias se deberán agregar al expediente del Procedimiento Concursal de Liquidación.
+
+Artículo 2°. Forma de las cuentas provisorias.
+Las cuentas provisorias se confeccionarán de acuerdo a las normas contables vigentes y deberán además adecuarse a las normas sobre aspectos contables y financieros de la administración concursal que al efecto dicte la Superintendencia.
+
+Las cuentas deberán contemplar todo el movimiento del Procedimiento Concursal de Liquidación a la fecha de su corte contable, incluyendo un desglose detallado de los ingresos y gastos realizados durante el último mes.
+
+Los saldos informados en las cuentas provisorias deberán concordar con los registros contables y sus respectivos respaldos.
+
+Artículo 3°. Publicación de las cuentas provisorias en el Boletín Concursal.
+La publicación de las cuentas provisorias en el Boletín Concursal deberá efectuarla el Liquidador, en conformidad a las reglas contenidas en la Norma de Carácter General N° 3 de esta Superintendencia.
+
+Asimismo, el Liquidador deberá ingresar la información contenida en las cuentas provisorias a través de su perfil en la Plataforma Electrónica de esta Superintendencia, en formato Excel.
+
+TÍTULO II
+Cuentas Finales de Administración que deben rendir los Liquidadores
+
+Párrafo I
+Obligación de rendir cuenta en caso de acogerse recurso de apelación
+
+Artículo 4°. Oportunidad.
+Encontrándose ejecutoriada la sentencia que acogió el recurso de apelación establecido en el inciso final del artículo 129° de la Ley, el Liquidador deberá rendir Cuenta Final de su Administración.
+
+Artículo 5°. Plazo para objetar la cuenta.
+El Deudor, los acreedores individualmente considerados y la Superintendencia podrán impugnar la Cuenta Final de Administración indicada en el artículo anterior, dentro del plazo de cinco días a que se refiere el inciso segundo del artículo 52° de la Ley, el que se contará desde la publicación de la referida cuenta en el Boletín Concursal.
+
+Párrafo II
+Normativa aplicable a la cuenta rendida por el Liquidador que cesa anticipadamente en el cargo
+
+Artículo 6°. Cesación anticipada en el cargo.
+Las Cuentas Finales de Administración que rindan los Liquidadores por haber cesado anticipadamente en el cargo, conforme a lo dispuesto en el número 3 del artículo 50° de la Ley, se regirán por las normas generales aplicables, aun cuando continúe la tramitación del Procedimiento Concursal de Liquidación.
+
+Párrafo III
+Requisitos de la Cuenta Final de Administración del Liquidador
+
+Artículo 7°. Forma de la Cuenta Final de Administración.
+Las Cuentas Finales de Administración se confeccionarán de acuerdo a las normas contables vigentes, ajustándose ordenadamente a la clasificación de las cuentas del Plan y Manual de Cuentas, cumpliendo además con los siguientes requisitos:
+
+I.- Tener una carátula, que corresponde a la primera hoja de la Cuenta Final de Administración, en la cual se deberán consignar los siguientes antecedentes:
+
+a) Título, fecha y nombre del Procedimiento Concursal de Liquidación.
+   - Título: Cuenta Final de Administración.
+   - Al [fecha].
+   - Nombre del Deudor: [nombre].
+
+b) Resumen de ingresos y egresos.
+
+II.- Contener el detalle de los ingresos y egresos:
+
+a) Ingresos: Deberá detallarse cada cuenta de ingreso con su respectivo monto total.
+
+b) Egresos: Deberá detallarse cada cuenta de egreso con su respectivo monto total.
+
+c) Subtotales: Suma del total de ingresos y suma del total de egresos.
+
+d) Provisión para Gastos Finales: Deberá reflejar el saldo disponible en cuenta corriente a la fecha de la Cuenta Final de Administración, destinado a cubrir gastos posteriores, debidamente justificados.
+
+Los Liquidadores deberán mantener el saldo de la provisión para gastos finales pendientes una vez publicada la Cuenta Final de Administración, debiendo informar trimestralmente su monto actualizado a la Superintendencia a través del portal web destinado al efecto.
+
+e) Totales Iguales: Se consignará la suma total de ingresos y la suma total de egresos más la provisión para gastos finales, si la hubiere.
+
+III.- Incluir un balance general, a la fecha de confección de la respectiva Cuenta Final de Administración, ajustado a las normas contables y financieras dictadas por la Superintendencia.
+
+IV.- Contar con la firma del Liquidador y del contador que confeccionó la Cuenta Final de Administración.
+
+V.- Contener los libros mayores de cada cuenta del respectivo Procedimiento Concursal de Liquidación.
+
+En el Anexo I de la presente Norma de Carácter General se incluye un modelo de presentación de Cuenta Final de Administración.
+
+Artículo 8°. Continuación de las actividades económicas del deudor.
+Cuando en el Procedimiento Concursal de Liquidación se hubieren continuado las actividades económicas del deudor, en forma provisional o definitiva, total o parcial, la Cuenta Final deberá acompañar el balance final de dicha continuación y su correspondiente estado de resultados, ajustados a las normas contables y financieras dictadas por la Superintendencia. Sin estos antecedentes no se considerará rendida completamente la gestión del Liquidador.
+
+Artículo 9°. Publicación de la Cuenta Final de Administración en el Boletín Concursal.
+La publicación de las Cuentas Finales de Administración en el Boletín Concursal deberá efectuarla el Liquidador conforme a la Norma de Carácter General N° 3 de esta Superintendencia.
+
+Asimismo, deberá ingresar la información contenida en ellas a través de su perfil en la Plataforma Electrónica, en formato Excel.
+
+Párrafo IV
+Provisión de Fondos para Gastos Posteriores a la Cuenta Final
+
+Artículo 10°. Gasto de bodegaje.
+En caso de ser necesaria la contratación de bodegaje, deberá someterse a aprobación de la Junta de Acreedores el monto estimado para cubrir dichos gastos por todo el período requerido para mantener la documentación del Procedimiento Concursal de Liquidación hasta su devolución al Deudor.
+
+Se prohíbe estrictamente a los Liquidadores o sus Personas Relacionadas percibir suma alguna por bodegaje u otro concepto distinto de los honorarios que les correspondan conforme al artículo 39°, N° 9 de la Ley.
+
+Artículo 11°. Gasto de mantención cuenta corriente.
+El Liquidador deberá mantener los fondos en una cuenta individual a nombre del Procedimiento Concursal de Liquidación hasta su devolución al Deudor, procurando minimizar los cargos bancarios por mantención.
+
+Artículo 12°. Instrumentos financieros para consignar saldos.
+Efectuados los gastos finales, el Liquidador deberá invertir el saldo provisionado en un depósito a plazo indefinido y renovable automáticamente o en un vale vista, en un banco de la plaza, a nombre del Procedimiento Concursal de Liquidación.
+
+Dichos instrumentos deberán conservarse hasta que se encuentre ejecutoriada la resolución que declare terminado el Procedimiento Concursal de Liquidación, conforme al artículo 254° y siguientes de la Ley, procediendo luego a su devolución al Deudor e informando a la Superintendencia mediante la Plataforma Electrónica.
+
+TÍTULO III
+Cuentas mensuales que deben rendir los Veedores
+
+Artículo 13°. Oportunidad.
+Las cuentas mensuales deberán rendirse dentro de los primeros cinco días del mes siguiente al informado, a través de la Plataforma Electrónica, conforme a la Norma de Carácter General N° 1.
+
+Dentro del mismo plazo, deberán enviarse por correo electrónico a todos los acreedores, según el artículo 25 N.° 9 de la Ley.
+
+Artículo 14°. Contenido.
+Las cuentas mensuales deberán contener el detalle de todas las actuaciones del período, referidas a las obligaciones del artículo 25° y del Capítulo III de la Ley, adjuntando la documentación de respaldo e indicando la etapa del Procedimiento de Reorganización.
+
+TÍTULO IV
+Cuentas Finales de Administración que deben rendir los Veedores
+
+Artículo 15°. Normativa aplicable.
+Las Cuentas Finales de Administración que deban rendir los Veedores conforme al artículo 29° de la Ley se regirán, en lo pertinente, por lo dispuesto en el Título II de la presente Norma respecto de los Liquidadores.
+
+TÍTULO V
+Cuentas que deben rendir los Martilleros Concursales
+
+Artículo 16°. Oportunidad.
+Las Cuentas de Remate deberán rendirse ante la Superintendencia y la junta de acreedores y publicarse en el Boletín Concursal dentro de los cinco días siguientes al remate, conforme al artículo 216° de la Ley.
+
+Las objeciones se regirán por el artículo 52° de la Ley.
+
+Artículo 17°. Contenido de las Cuentas.
+Las Cuentas de Remate deberán incorporar copia del documento que acredite la entrega del producto de la realización al Liquidador, las liquidaciones, facturas y gastos asociados.
+
+Asimismo, deberán incluir un detalle de los bienes rematados conforme a los Anexos II, III y IV.
+
+Artículo 18°. Publicación de la Cuenta Remate en el Boletín Concursal.
+La publicación deberá efectuarla el Liquidador conforme a la Norma de Carácter General N° 3.
+
+El Martillero deberá ingresar la información en la Plataforma Electrónica en formato Excel.
+
+TÍTULO VI
+Disposiciones finales
+
+Artículo 19°. Ámbito de aplicación.
+La presente Norma sólo regula los procedimientos concursales establecidos en la Ley N.° 20.720, no siendo aplicable a procedimientos anteriores regidos por el Libro IV del Código de Comercio y la Ley N.° 18.175, orgánica de la Superintendencia de Quiebras.
+
+Artículo 20°. Términos definidos.
+Los términos en mayúscula tendrán el significado del artículo 2° de la Ley.
+
+Artículo 21°. Vigencia.
+La presente Norma se dicta en mérito de los principios de continuidad de la función pública, de eficiencia y eficacia consagrados en los artículos 3°, 5° y 8° de la Ley N.° 18.575, General de Bases de la Administración del Estado, y del artículo primero transitorio de la Ley N.° 20.720, sin perjuicio de que entrará a regir conjuntamente con la entrada en vigencia de la Ley, en los términos del mismo artículo primero transitorio.
+
+Anótese y publíquese.
+
+JOSEFINA MONTENEGRO ARANEDA
+Superintendenta de Insolvencia y Reemprendimiento

@@ -210,6 +210,12 @@ class SuperirBaseParser:
         # 2. Extraer referencias a leyes del texto completo
         metadata.leyes_referenciadas = self._extract_law_references(texto)
 
+        # Filtrar auto-referencias (ej: NCG que se menciona a sí misma)
+        self_ref = f"{self.ID_PREFIX} {metadata.numero}"
+        metadata.leyes_referenciadas = [
+            r for r in metadata.leyes_referenciadas if r != self_ref
+        ]
+
         # 3. Dividir en secciones
         sections = self._split_sections(texto)
 
@@ -494,14 +500,148 @@ class SuperirBaseParser:
         # Closing
         closing_start = pos_fin_body or (pos_cierre.start() if pos_cierre else None)
         if closing_start:
-            sections["closing"] = texto[closing_start:].strip()
+            raw_closing = texto[closing_start:].strip()
+            sections["closing"] = self._clean_closing(raw_closing)
 
         # Fallback
         if not sections["body"] and not pos_vistos and not pos_considerando:
             sections["body"] = texto.strip()
             logger.warning("No se detectaron secciones VISTOS/CONSIDERANDO. Tratando todo como cuerpo.")
 
+        # Unwrap PDF line breaks in all text sections
+        for key in ("vistos", "considerando", "resuelvo_intro", "body", "closing"):
+            if sections.get(key):
+                sections[key] = self._unwrap_pdf_lines(sections[key])
+
         return sections
+
+    # ───────────────────────────────────────────────────────────────────────
+    # Limpieza de texto extraído de PDF
+    # ───────────────────────────────────────────────────────────────────────
+
+    _PATRON_NEW_UNIT = re.compile(
+        r"^(?:"
+        r"\d{1,2}\.?[°º]?\.?\s|"  # Ítems numerados: 1° 2. 3.° etc.
+        r"[a-z][.)]\s|"  # Ítems con letra: a. b) etc.
+        r"[IVXLCDM]+[.)]\s|"  # Ítems con romano: I. II) etc.
+        r"Art[ií]culo\s|"  # Inicio de artículo
+        r"T[ÍI]TULO\s|"  # Título
+        r"CAP[ÍI]TULO\s|"  # Capítulo
+        r"P[ÁA]RRAFO\s|"  # Párrafo
+        r"NORMA\s+DE\s+CAR[ÁA]CTER|"  # Norma de Carácter General
+        r"VISTOS?\s*:|"  # VISTOS
+        r"CONSIDERANDO\s*:|"  # CONSIDERANDO
+        r"RESUELVO\s*:|"  # RESUELVO
+        r"AN[OÓ]TESE|"  # Cierre
+        r"PUBL[IÍ]QUESE|"  # Cierre
+        r"REG[IÍ]STRESE|"  # Cierre
+        r"COMUN[IÍ]QUESE"  # Cierre
+        r")",
+        re.IGNORECASE,
+    )
+
+    @classmethod
+    def _is_new_unit_start(cls, line: str) -> bool:
+        """Detecta si una línea inicia un nuevo elemento estructural."""
+        return bool(cls._PATRON_NEW_UNIT.match(line))
+
+    @classmethod
+    def _unwrap_pdf_lines(cls, text: str) -> str:
+        """Une líneas cortadas por el formato de columna del PDF.
+
+        Los PDFs legales tienen ancho de columna fijo (~70-80 chars), lo que
+        produce saltos de línea en medio de oraciones. Esta función:
+        1. Une líneas consecutivas que forman parte del mismo párrafo.
+        2. Preserva quiebres intencionales: líneas vacías, ítems numerados,
+           encabezados de sección, inicio de artículos.
+        3. Inserta líneas vacías entre párrafos detectados (. + Mayúscula)
+           para que el XML generator los separe en <parrafo> distintos.
+        """
+        if not text:
+            return text
+
+        lines = text.split("\n")
+        result: list[str] = []
+
+        for line in lines:
+            stripped = line.strip()
+
+            # Línea vacía = quiebre de párrafo
+            if not stripped:
+                result.append("")
+                continue
+
+            # Si hay línea previa no vacía, decidir si unir o separar
+            if result and result[-1]:
+                prev = result[-1].rstrip()
+
+                starts_new_para = False
+
+                # Nuevo elemento estructural → siempre separar
+                if cls._is_new_unit_start(stripped):
+                    starts_new_para = True
+                # Terminador de oración + mayúscula → nuevo párrafo
+                elif prev and prev[-1] in ".;:" and stripped[0].isupper():
+                    starts_new_para = True
+
+                if starts_new_para:
+                    # Insertar línea vacía si no hay una ya
+                    if result[-1] != "":
+                        result.append("")
+                    result.append(stripped)
+                    continue
+
+                # Continuación: unir con la línea anterior
+                result[-1] = prev + " " + stripped
+                continue
+
+            result.append(stripped)
+
+        return "\n".join(result)
+
+    @staticmethod
+    def _clean_closing(raw: str) -> str:
+        """Limpia el texto de cierre eliminando artefactos de PDF.
+
+        Elimina:
+        - Números de página sueltos al final
+        - Iniciales de funcionarios (PVL/PCP/CVS/POR)
+        - Secciones DISTRIBUCION
+        - Contenido de ANEXOS (se separan aparte)
+        """
+        lines = raw.split("\n")
+        clean_lines: list[str] = []
+
+        for line in lines:
+            stripped = line.strip()
+
+            # Cortar en DISTRIBUCION
+            if re.match(r"^DISTRIBUCI[OÓ]N\s*:", stripped, re.IGNORECASE):
+                break
+
+            # Cortar en ANEXO (inicio de sección de anexos)
+            if re.match(r"^ANEXO\s+[NIVX\d]", stripped, re.IGNORECASE):
+                break
+
+            clean_lines.append(line)
+
+        # Eliminar líneas finales vacías, números de página e iniciales
+        while clean_lines:
+            last = clean_lines[-1].strip()
+            if not last:
+                clean_lines.pop()
+                continue
+            # Número de página suelto
+            if re.match(r"^\d{1,3}$", last):
+                clean_lines.pop()
+                continue
+            # Iniciales de funcionarios (PVL/PCP/CVS/POR)
+            if re.match(r"^[A-Z]{2,4}(?:/[A-Z]{2,4})+$", last):
+                clean_lines.pop()
+                continue
+            break
+
+        return "\n".join(clean_lines).strip()
 
     # ───────────────────────────────────────────────────────────────────────
     # Parseo del cuerpo normativo

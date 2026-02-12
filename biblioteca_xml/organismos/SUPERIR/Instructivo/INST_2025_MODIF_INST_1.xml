@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ley xmlns="https://leychile.cl/schema/ley/v1" version="1.0" idioma="es-CL" id_norma="INST-1" tipo="Instructivo" numero="1" estado="vigente" fecha_version="2025-04-22" fecha_promulgacion="2025-04-22" fecha_publicacion="2025-04-22" generado="2026-02-11T14:50:12.275705" fuente="Biblioteca del Congreso Nacional de Chile" url_original="https://www.superir.gob.cl/wp-content/uploads/2025/04/RES_NUM_7164_2025.pdf">
+<ley xmlns="https://leychile.cl/schema/ley/v1" version="1.0" idioma="es-CL" id_norma="INST-1" tipo="Instructivo" numero="1" estado="vigente" fecha_version="2025-04-22" fecha_promulgacion="2025-04-22" fecha_publicacion="2025-04-22" generado="2026-02-11T15:27:12.127609" fuente="Biblioteca del Congreso Nacional de Chile" url_original="https://www.superir.gob.cl/wp-content/uploads/2025/04/RES_NUM_7164_2025.pdf">
   <metadatos>
     <titulo>Resolución que modifica Instructivo SUPERIR N°1/2024 - Cese de liquidadores y sustitutos</titulo>
     <identificacion>
@@ -23,6 +23,13 @@
       <version>2025-04-22</version>
     </fechas>
     <fuente>Superintendencia de Insolvencia y Reemprendimiento</fuente>
+    <numero_fuente>7164</numero_fuente>
+    <leyes_referenciadas>
+      <ley_ref>Ley 20.720</ley_ref>
+      <ley_ref>Ley 18.575</ley_ref>
+      <ley_ref>Ley 19.880</ley_ref>
+      <ley_ref>DFL 1-19.653</ley_ref>
+    </leyes_referenciadas>
   </metadatos>
   <encabezado>VISTOS:
 
@@ -137,8 +144,8 @@ Reemprendimiento establecido en el artículo 40 de la Ley N.° 20.720, el/la
 nuevo/a liquidador/a que asume, podrá cobrar directamente sus honorarios
 con cargo a los fondos disponibles.</texto>
       <referencias>
-        <ref articulo="8"/>
         <ref articulo="40"/>
+        <ref articulo="8"/>
         <ref articulo="39"/>
       </referencias>
     </articulo>
@@ -173,10 +180,10 @@ de la Ley N.° 20.720, modificado por el presente acto administrativo, cuyo
 tenor es el siguiente:
 INSTRUCTIVO SUPERIR N.° 1</texto>
       <referencias>
-        <ref articulo="38"/>
         <ref articulo="9"/>
-        <ref articulo="7"/>
         <ref articulo="2"/>
+        <ref articulo="38"/>
+        <ref articulo="7"/>
       </referencias>
     </articulo>
     <titulo id="1" tipo_original="Título" numero="I">
@@ -232,10 +239,10 @@ cuyo caso la multa será de 10 a 200 unidades tributarias mensuales. Sin
 perjuicio de lo anterior, la Superintendencia podrá aplicar las sanciones que
 correspondan.</texto>
         <referencias>
-          <ref articulo="38"/>
           <ref articulo="24"/>
-          <ref articulo="50"/>
           <ref articulo="238"/>
+          <ref articulo="38"/>
+          <ref articulo="50"/>
         </referencias>
       </articulo>
     </titulo>
@@ -283,8 +290,8 @@ del procedimiento dentro del plazo establecido en el inciso final del artículo
 del procedimiento concursal respectivo, bajo el apercibimiento previsto en
 el mismo inciso del cuerpo legal citado.</texto>
         <referencias>
-          <ref articulo="24"/>
           <ref articulo="1"/>
+          <ref articulo="24"/>
         </referencias>
       </articulo>
       <articulo id="5" tipo_original="Artículo" numero="3">
@@ -378,8 +385,8 @@ de Sujetos Fiscalizados, seleccionando la materia “Informa entrega de
 fondos Instructivo SUPERIR N.° 1, 2024.</texto>
         <referencias>
           <ref articulo="275"/>
-          <ref articulo="470"/>
           <ref articulo="465"/>
+          <ref articulo="470"/>
         </referencias>
       </articulo>
       <articulo id="6" tipo_original="Artículo" numero="4">
@@ -438,8 +445,8 @@ Reemprendimiento establecido en el artículo 40 de la Ley N.° 20.720, el/la
 nuevo/a liquidador/a que asume, podrá cobrar directamente sus honorarios
 con cargo a los fondos disponibles.</texto>
         <referencias>
-          <ref articulo="8"/>
           <ref articulo="40"/>
+          <ref articulo="8"/>
           <ref articulo="39"/>
         </referencias>
       </articulo>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ley xmlns="https://leychile.cl/schema/ley/v1" version="1.0" idioma="es-CL" id_norma="INST-1" tipo="Instructivo" numero="1" estado="vigente" fecha_version="2024-04-04" fecha_promulgacion="2024-04-04" fecha_publicacion="2024-04-04" generado="2026-02-11T14:50:16.387397" fuente="Biblioteca del Congreso Nacional de Chile" url_original="https://www.superir.gob.cl/wp-content/uploads/2024/04/RES_NUM_4389_ANO_2024.pdf">
+<ley xmlns="https://leychile.cl/schema/ley/v1" version="1.0" idioma="es-CL" id_norma="INST-1" tipo="Instructivo" numero="1" estado="vigente" fecha_version="2024-04-04" fecha_promulgacion="2024-04-04" fecha_publicacion="2024-04-04" generado="2026-02-11T15:27:15.377567" fuente="Biblioteca del Congreso Nacional de Chile" url_original="https://www.superir.gob.cl/wp-content/uploads/2024/04/RES_NUM_4389_ANO_2024.pdf">
   <metadatos>
     <titulo>INSTRUCTIVO SUPERIR N°1/2024 - Cese de liquidadores y sustitutos (art. 38 Ley 20.720)</titulo>
     <identificacion>
@@ -23,6 +23,15 @@
       <version>2024-04-04</version>
     </fechas>
     <fuente>Superintendencia de Insolvencia y Reemprendimiento</fuente>
+    <numero_fuente>4389</numero_fuente>
+    <leyes_referenciadas>
+      <ley_ref>Ley 20.720</ley_ref>
+      <ley_ref>Ley 21.563</ley_ref>
+      <ley_ref>Ley 18.575</ley_ref>
+      <ley_ref>Ley 19.880</ley_ref>
+      <ley_ref>DFL 1-19.653</ley_ref>
+      <ley_ref>NCG 7</ley_ref>
+    </leyes_referenciadas>
   </metadatos>
   <encabezado>VISTOS:
 
@@ -172,10 +181,10 @@ cuyo caso la multa será de 10 a 200 unidades tributarias mensuales. Sin
 perjuicio de lo anterior, la Superintendencia podrá aplicar las sanciones que
 correspondan.</texto>
         <referencias>
-          <ref articulo="38"/>
           <ref articulo="24"/>
-          <ref articulo="50"/>
           <ref articulo="238"/>
+          <ref articulo="38"/>
+          <ref articulo="50"/>
         </referencias>
       </articulo>
     </titulo>
@@ -201,8 +210,8 @@ del procedimiento dentro del plazo establecido en el inciso final del artículo
 del procedimiento concursal respectivo, bajo el apercibimiento previsto en el
 mismo inciso del cuerpo legal citado.</texto>
         <referencias>
-          <ref articulo="24"/>
           <ref articulo="1"/>
+          <ref articulo="24"/>
         </referencias>
       </articulo>
       <articulo id="3" tipo_original="Artículo" numero="3">

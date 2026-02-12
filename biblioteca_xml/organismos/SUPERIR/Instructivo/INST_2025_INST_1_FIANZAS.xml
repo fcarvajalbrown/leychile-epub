@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ley xmlns="https://leychile.cl/schema/ley/v1" version="1.0" idioma="es-CL" id_norma="INST-1" tipo="Instructivo" numero="1" estado="vigente" fecha_version="2025-08-19" fecha_promulgacion="2025-08-19" fecha_publicacion="2025-08-19" generado="2026-02-11T14:50:11.341354" fuente="Biblioteca del Congreso Nacional de Chile" url_original="https://www.superir.gob.cl/wp-content/uploads/2025/09/RES_NUM_15573_AÑO_2025.pdf">
+<ley xmlns="https://leychile.cl/schema/ley/v1" version="1.0" idioma="es-CL" id_norma="INST-1" tipo="Instructivo" numero="1" estado="vigente" fecha_version="2025-08-19" fecha_promulgacion="2025-08-19" fecha_publicacion="2025-08-19" generado="2026-02-11T15:27:11.473649" fuente="Biblioteca del Congreso Nacional de Chile" url_original="https://www.superir.gob.cl/wp-content/uploads/2025/09/RES_NUM_15573_AÑO_2025.pdf">
   <metadatos>
     <titulo>INSTRUCTIVO SUPERIR N°1/2025 - Fianzas, preferencias y contragarantías en liquidación</titulo>
     <identificacion>
@@ -24,6 +24,15 @@
       <version>2025-08-19</version>
     </fechas>
     <fuente>Superintendencia de Insolvencia y Reemprendimiento</fuente>
+    <numero_fuente>15573</numero_fuente>
+    <leyes_referenciadas>
+      <ley_ref>Ley 20.720</ley_ref>
+      <ley_ref>Ley 21.563</ley_ref>
+      <ley_ref>Ley 18.575</ley_ref>
+      <ley_ref>Ley 19.880</ley_ref>
+      <ley_ref>Ley 20.179</ley_ref>
+      <ley_ref>DFL 1-19.653</ley_ref>
+    </leyes_referenciadas>
   </metadatos>
   <encabezado>VISTOS:
 
@@ -227,28 +236,28 @@ al artículo 131 de la Ley N.° 20.720.</texto>
       </articulo>
     </titulo>
     <titulo id="2" tipo_original="Título" numero="II">
-      <titulo_seccion>TÍTULO II Fianza, Contrato de Garantía Recíproca, Contragarantía y</titulo_seccion>
+      <titulo_seccion>TÍTULO II Fianza, Contrato de Garantía Recíproca, Contragarantía y Preferencias en el Procedimiento Concursal de Liquidación.</titulo_seccion>
       <articulo id="5" tipo_original="Artículo" numero="5">
         <titulo_seccion>Artículo 5. El Contrato de Garantía Recíproca no termina por la dictación de la Resolución de Liquidación de la S</titulo_seccion>
-        <contexto>TÍTULO II Fianza, Contrato de Garantía Recíproca, Contragarantía y</contexto>
+        <contexto>TÍTULO II Fianza, Contrato de Garantía Recíproca, Contragarantía y Preferencias en el Procedimiento Concursal de Liquidación.</contexto>
         <texto>A.G.R., manteniéndose vigente en todos sus términos, salvo que exista disposición legal en contrario o acuerdo expreso entre las partes. De esta forma, no se afectarán las obligaciones asumidas por la S.A.G.R. en los Certificados de Fianza otorgados, debiendo el/la Liquidador/a proceder conforme a lo establecido en el presente instructivo y en las Leyes Nros. 20.179 y 20.720. Conforme a lo anterior, el/la Liquidador/a no podrá poner término anticipado al contrato de garantía recíproca. Sin embargo, el/la Liquidador/a, con acuerdo del respectivo acreedor afianzado, podrá poner término a la fianza en conformidad con el inciso segundo del artículo 30 de la Ley N.° 20.179. Asimismo, se extinguirá la fianza en el caso que se hayan transferido, según lo dispuesto en el artículo 31 del mismo cuerpo legal.</texto>
         <referencias>
-          <ref articulo="31"/>
           <ref articulo="30"/>
+          <ref articulo="31"/>
         </referencias>
       </articulo>
       <articulo id="6" tipo_original="Artículo" numero="6">
         <titulo_seccion>Artículo 6. La obligación de pago a que se encuentra obligada la S</titulo_seccion>
-        <contexto>TÍTULO II Fianza, Contrato de Garantía Recíproca, Contragarantía y</contexto>
+        <contexto>TÍTULO II Fianza, Contrato de Garantía Recíproca, Contragarantía y Preferencias en el Procedimiento Concursal de Liquidación.</contexto>
         <texto>A.G.R. con ocasión del Contrato de Garantía Recíproca se origina ante el incumplimiento del deudor beneficiario para con su acreedor afianzado, notificándose para dichos efectos a la S.A.G.R., en su calidad de fiador, para que cumpla su obligación en la forma contratada. Por tanto, el/la Liquidador/a deberá revisar todos los contratos de garantía recíproca y/o los certificados de fianza, requiriendo copia de ellos a la Empresa Deudora en virtud del artículo 169 de la Ley N.° 20.720, y una vez notificado/a el/la liquidador/a de cualquier acción para obtener el pago de la fianza, anterior o posterior a la resolución de liquidación y en su calidad de representante legal de la S.A.G.R. deberá ejercer las acciones que correspondan, observando entre ellas, la oposición de la demanda ejecutiva, en su caso, de conformidad con lo dispuesto en el artículo 12 de la Ley N.° 20.179, principalmente, si hubiere pagos parciales efectuados por el deudor beneficiario al acreedor afianzado y en el caso que la S.A.G.R haya pagado la obligación afianzada, deberá iniciar las acciones tendientes a hacer efectivas las contragarantías otorgadas por el deudor beneficiario. En ningún caso el/la Liquidador/a podrá recibir pagos de los deudores beneficiarios por las cuotas correspondientes a los créditos otorgados por los acreedores afianzados que se encuentren vigentes y sin mora, ya que en estos casos la S.A.G.R. no es acreedora de dichos montos, por no haber pagado previamente tales fianzas, debiendo hacer entrega de los fondos al respectivo acreedor afianzado. En el evento que se verifiquen créditos por obligaciones relativas a fianzas de deudores beneficiarios que se encuentren al día en el pago de sus obligaciones, el/la liquidador/a deberá objetar el respectivo crédito, por no constituir obligaciones de la S.A.G.R. mientras el deudor no se constituya en mora, debiendo igualmente objetar el crédito verificado, en caso que el certificado de fianza se encuentre vencido, para lo cual deberá revisar la fecha consignada en el respectivo documento. Al respecto, el/la Liquidador/a deberá tener en consideración que el patrimonio de la S.A.G.R. es distinto al del deudor beneficiario, y al del acreedor afianzado, evitando cualquier distorsión en el concurso que implique, por ejemplo, el exceso en el pago de sus honorarios por fondos distribuidos o restituidos que no forman parte de la liquidación concursal, o cualquier circunstancia que altere las reglas del procedimiento, en perjuicio de los acreedores, del Deudor o de terceros.</texto>
         <referencias>
-          <ref articulo="12"/>
           <ref articulo="169"/>
+          <ref articulo="12"/>
         </referencias>
       </articulo>
       <articulo id="7" tipo_original="Artículo" numero="7">
         <titulo_seccion>Artículo 7</titulo_seccion>
-        <contexto>TÍTULO II Fianza, Contrato de Garantía Recíproca, Contragarantía y</contexto>
+        <contexto>TÍTULO II Fianza, Contrato de Garantía Recíproca, Contragarantía y Preferencias en el Procedimiento Concursal de Liquidación.</contexto>
         <texto>En caso de incumplimiento del
 deudor beneficiario en el pago de las cuotas respectivas, el acreedor
 afianzado podrá verificar su crédito en el concurso, con la preferencia del N.°
@@ -265,13 +274,13 @@ corresponde en el reparto, objetando e impugnándolo previamente si
 procediere.</texto>
         <referencias>
           <ref articulo="2481"/>
-          <ref articulo="31"/>
           <ref articulo="12"/>
+          <ref articulo="31"/>
         </referencias>
       </articulo>
       <articulo id="8" tipo_original="Artículo" numero="8">
         <titulo_seccion>Artículo 8</titulo_seccion>
-        <contexto>TÍTULO II Fianza, Contrato de Garantía Recíproca, Contragarantía y</contexto>
+        <contexto>TÍTULO II Fianza, Contrato de Garantía Recíproca, Contragarantía y Preferencias en el Procedimiento Concursal de Liquidación.</contexto>
         <texto>En ningún caso la inexistencia
 del contrato de garantía recíproca, su cumplimiento o incumplimiento o los
 vicios o errores que éste contuviere, relativos a su formalización, suscripción
@@ -280,7 +289,7 @@ contra la entidad o terceros.</texto>
       </articulo>
       <articulo id="9" tipo_original="Artículo" numero="9">
         <titulo_seccion>Artículo 9</titulo_seccion>
-        <contexto>TÍTULO II Fianza, Contrato de Garantía Recíproca, Contragarantía y</contexto>
+        <contexto>TÍTULO II Fianza, Contrato de Garantía Recíproca, Contragarantía y Preferencias en el Procedimiento Concursal de Liquidación.</contexto>
         <texto>El certificado de fianza, recibido
 por el acreedor afianzado, constituye el contrato de fianza entre este y la
 S.A.G.R., el cual debe ir precedido por el contrato a que se refiere el artículo
@@ -300,7 +309,7 @@ del procedimiento.</texto>
       </articulo>
       <articulo id="10" tipo_original="Artículo" numero="10">
         <titulo_seccion>Artículo 10. Las obligaciones de la S</titulo_seccion>
-        <contexto>TÍTULO II Fianza, Contrato de Garantía Recíproca, Contragarantía y</contexto>
+        <contexto>TÍTULO II Fianza, Contrato de Garantía Recíproca, Contragarantía y Preferencias en el Procedimiento Concursal de Liquidación.</contexto>
         <texto>A.G.R.
 como fiadora se extinguirán por las causales establecidas en el artículo 15
 de la Ley N.° 20.179, a saber:
@@ -479,8 +488,8 @@ antecedentes, según las reglas generales del artículo 6° de la Ley N.°
 14 de 11 de agosto de 2023.</texto>
         <referencias>
           <ref articulo="6"/>
-          <ref articulo="4"/>
           <ref articulo="337"/>
+          <ref articulo="4"/>
         </referencias>
       </articulo>
       <articulo id="21" tipo_original="Artículo" numero="21">
@@ -550,11 +559,11 @@ artículo 41 de la Ley N.° 20.720.</texto>
         <contexto>TÍTULO V Preferencias y formas de pago en la liquidación concursal.</contexto>
         <texto>En el caso que los deudores beneficiarios se encuentren en mora en el pago de las cuotas del crédito respectivo, el acreedor afianzado deberá verificar su crédito con la preferencia del N.° 1 del artículo 2481 del Código Civil, según lo dispuesto en el inciso quinto del artículo 12 de la Ley N.° 20.179, siempre que el certificado de fianza esté vigente. Si la S.A.G.R. en liquidación, pagó el crédito afianzado en su totalidad, previo a la resolución de liquidación, y posteriormente el/la liquidador/a ejecuta en el procedimiento concursal la contragarantía, estos fondos pasarán a formar parte de la masa concursal y estarán destinados al pago de todos los acreedores de acuerdo con las normas de prelación, con excepción de los acreedores afianzados ya pagados, y aquellos cuyas obligaciones que no se encuentren en mora, ya que en estos casos no habrá nacido el derecho del acreedor afianzado de exigir su cumplimiento a la S.A.G.R. en liquidación. El/la liquidador/a deberá observar que las obligaciones del deudor beneficiario respecto de su acreedor afianzado, seguirán vigentes, aun cuando se dicte la resolución de liquidación, según lo establece el artículo 30 de la Ley N.° 20.179, constituyendo ello una excepción a lo dispuesto en el artículo 136 de la Ley N.° 20.720. En la etapa de verificación de créditos, el/la liquidador/a deberá requerir al acreedor afianzado, que acompañe los antecedentes de pago efectuados por el deudor beneficiario, a fin de determinar el monto que le corresponde pagar a la S.A.G.R. en liquidación, debiendo objetar e impugnarlo en caso de que no los acompañe, de conformidad con el artículo 174 de la Ley N.° 20.720. Si en los antecedentes incautados no consta que el deudor beneficiario se haya constituido en mora en el pago de sus obligaciones, el/la liquidador/a deberá impugnar el respectivo crédito por este motivo, ya que no habría nacido el derecho del acreedor para ejecutar la fianza. Previo a la audiencia de impugnación de créditos, el/la liquidador/a deberá solicitar al tribunal del procedimiento que, además del acreedor afianzado, cite al deudor beneficiario, para efectos de informar los pagos que hubiere efectuado al acreedor afianzado que correspondiere. Lo anterior, puesto que la sentencia que resuelva las impugnaciones producirá efectos que podrían perjudicar al deudor beneficiario, en caso de que se ejecute posteriormente la contragarantía.</texto>
         <referencias>
-          <ref articulo="174"/>
-          <ref articulo="30"/>
           <ref articulo="2481"/>
-          <ref articulo="136"/>
+          <ref articulo="30"/>
           <ref articulo="12"/>
+          <ref articulo="174"/>
+          <ref articulo="136"/>
         </referencias>
       </articulo>
       <articulo id="28" tipo_original="Artículo" numero="28">
@@ -700,9 +709,9 @@ ejecutando la contragarantía.
 La S.A.G.R. no gozará del beneficio de
 excusión, por expresa disposición del artículo 14 de la Ley N.° 20.179.</texto>
         <referencias>
+          <ref articulo="14"/>
           <ref articulo="2370"/>
           <ref articulo="1610"/>
-          <ref articulo="14"/>
         </referencias>
       </articulo>
       <articulo id="41" tipo_original="Artículo" numero="41">

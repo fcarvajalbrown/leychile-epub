@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ley xmlns="https://leychile.cl/schema/ley/v1" version="1.0" idioma="es-CL" id_norma="INST-1" tipo="Instructivo" numero="1" estado="vigente" fecha_publicacion="2018-11-16" generado="2026-02-11T14:50:18.952416" fuente="Biblioteca del Congreso Nacional de Chile" url_original="https://www.superir.gob.cl/wp-content/document/biblioteca_digital/instructivos/ley-20.720/Instructivo_3.DE.16.11.18.pdf">
+<ley xmlns="https://leychile.cl/schema/ley/v1" version="1.0" idioma="es-CL" id_norma="INST-1" tipo="Instructivo" numero="1" estado="vigente" fecha_publicacion="2018-11-16" generado="2026-02-11T15:27:17.626169" fuente="Biblioteca del Congreso Nacional de Chile" url_original="https://www.superir.gob.cl/wp-content/document/biblioteca_digital/instructivos/ley-20.720/Instructivo_3.DE.16.11.18.pdf">
   <metadatos>
     <titulo>INSTRUCTIVO SIR N°3/2018 - Pago de honorarios de liquidadores con cargo al presupuesto</titulo>
     <identificacion>
@@ -20,6 +20,12 @@
       <publicacion>2018-11-16</publicacion>
     </fechas>
     <fuente>Superintendencia de Insolvencia y Reemprendimiento</fuente>
+    <leyes_referenciadas>
+      <ley_ref>Ley 18.575</ley_ref>
+      <ley_ref>Ley 19.880</ley_ref>
+      <ley_ref>Ley 20.720</ley_ref>
+      <ley_ref>DFL 1/19.653</ley_ref>
+    </leyes_referenciadas>
   </metadatos>
   <encabezado>VISTOS:
 
@@ -215,13 +221,13 @@ mediante resolución fundada, la que será notificada al liquidador en su
 oportunidad.</parrafo>
       </contenido>
       <referencias>
-        <ref articulo="40"/>
-        <ref articulo="35"/>
-        <ref articulo="229"/>
         <ref articulo="169"/>
+        <ref articulo="229"/>
         <ref articulo="36"/>
         <ref articulo="8"/>
+        <ref articulo="40"/>
         <ref articulo="59"/>
+        <ref articulo="35"/>
       </referencias>
     </articulo>
     <articulo id="3" tipo_original="Artículo" numero="2">

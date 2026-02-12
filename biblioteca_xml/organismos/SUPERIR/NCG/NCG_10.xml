@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ley xmlns="https://leychile.cl/schema/ley/v1" version="1.0" idioma="es-CL" id_norma="NCG-1" tipo="Norma de Carácter General" numero="1" estado="vigente" fecha_version="2019-12-31" fecha_promulgacion="2019-12-31" fecha_publicacion="2019-12-31" generado="2026-02-11T15:24:08.207538" fuente="Biblioteca del Congreso Nacional de Chile" url_original="https://www.superir.gob.cl/wp-content/uploads/2020/01/NORMA-N%C2%B010.pdf">
+<ley xmlns="https://leychile.cl/schema/ley/v1" version="1.0" idioma="es-CL" id_norma="NCG-10" tipo="Norma de Carácter General" numero="10" estado="vigente" fecha_version="2019-12-31" fecha_promulgacion="2019-12-31" fecha_publicacion="2019-12-31" generado="2026-02-12T11:14:27.805374" fuente="Biblioteca del Congreso Nacional de Chile" url_original="https://www.superir.gob.cl/wp-content/uploads/2020/01/NORMA-N%C2%B010.pdf">
   <metadatos>
     <titulo>NORMA DE CARÁCTER GENERAL N°10 - Modifica NCG N°1 sobre garantía de fiel desempeño</titulo>
     <identificacion>
       <tipo>Norma de Carácter General</tipo>
-      <numero>1</numero>
+      <numero>10</numero>
     </identificacion>
     <organismos>
       <organismo>Superintendencia de Insolvencia y Reemprendimiento</organismo>
@@ -32,181 +32,115 @@
   </metadatos>
   <encabezado>VISTOS:
 
-Las facultades conferidas en el artículo 16° de la Ley
-N°20.720, de Reorganización y Liquidación de Activos de Empresas y Personas (en adelante,
-la "Ley"), esta Superintendencia de Insolvencia y Reemprendimiento (en adelante, la
-"Superintendencia") ha estimado pertinente dictar la presente Norma de Carácter General,
-con el objeto de regular la garantía de fiel desempeño que debe ser otorgada por los
-Veedores y Liquidadores.
+Las facultades conferidas en el artículo 16° de la Ley N.° 20.720, de Reorganización y Liquidación de Activos de Empresas y Personas (en adelante, la "Ley"), esta Superintendencia de Insolvencia y Reemprendimiento (en adelante, la "Superintendencia") ha estimado pertinente dictar la presente Norma de Carácter General, con el objeto de regular la garantía de fiel desempeño que debe ser otorgada por los Veedores y Liquidadores.
 
 CONSIDERANDO:
 
-1° Que, los artículos 16° y 32° N.° 5) de la Ley
-establecen la obligación del Veedor y Liquidador, respectivamente, de otorgar y mantener
-vigente en la Superintendencia una garantía de fiel desempeño.
-2° Que, el inciso segundo del artículo 16° de la Ley
-mandata a esta Superintendencia a regular la naturaleza de esta garantía, la forma de
-rendirla, sus plazos, devolución, renovación y demás medidas, mediante una norma de
-carácter general.
-3° Que, con fecha 30 de abril de 2014 se aprobó la
-Norma de Carácter General N.° 1 que regula la garantía de fiel desempeño, la que por
-motivos de buen servicio se hace necesario actualizar, dictando un texto refundido,
-coordinado y sistematizado.
-4° Que, en conformidad a lo anterior, se dicta la
-siguiente:
+1° Que los artículos 16° y 32 N.° 5) de la Ley establecen la obligación del Veedor y Liquidador, respectivamente, de otorgar y mantener vigente en la Superintendencia una garantía de fiel desempeño.
+
+2° Que el inciso segundo del artículo 16° de la Ley mandata a esta Superintendencia a regular la naturaleza de esta garantía, la forma de rendirla, sus plazos, devolución, renovación y demás medidas, mediante una norma de carácter general.
+
+3° Que, con fecha 30 de abril de 2014, se aprobó la Norma de Carácter General N.° 1 que regula la garantía de fiel desempeño, la que por motivos de buen servicio se hace necesario actualizar, dictando un texto refundido, coordinado y sistematizado.
+
+4° Que, en conformidad a lo anterior, se dicta la siguiente:
 
 NORMA DE CARÁCTER GENERAL
-Título 1
-Garantía de fiel desempeíio</encabezado>
-  <contenido total_articulos="8" total_libros="0" total_titulos="2" total_capitulos="0">
-    <titulo id="1" tipo_original="Título" numero="1">
-      <titulo_seccion>TÍTULO 1 Garantía de fiel desempeíio</titulo_seccion>
+
+TÍTULO I Garantía de fiel desempeño</encabezado>
+  <contenido total_articulos="9" total_libros="0" total_titulos="2" total_capitulos="0">
+    <titulo id="1" tipo_original="Título" numero="I">
+      <titulo_seccion>TÍTULO I Garantía de fiel desempeño</titulo_seccion>
       <articulo id="1" tipo_original="Artículo" numero="1">
         <titulo_seccion>Artículo 1. Naturaleza de la garantía</titulo_seccion>
-        <contexto>TÍTULO 1 Garantía de fiel desempeíio</contexto>
-        <texto>La garantía de fiel desempeño a la que hacen
-referencia los artículos 16° y 32 N.° 5) de la Ley podrá consistir en:
-a. Vale vista o boleta bancaria, extendida en forma irrevocable a nombre de la
-Superintendencia, nominativa, a la vista, de una duración no inferior a tres años, por
-una suma de 2.000 Unidades de Fomento.
-b. Póliza de seguro tomada por el Veedor o Liquidador en favor de la Superintendencia,
-con una vigencia inicial mínima de tres años y automáticamente renovable por igual
-período, por un monto de 2.000 Unidades de Fomento.
-Será carga del sujeto fiscalizado acreditar la vigencia de su garantía de fiel desempeño
-cuando ello le sea requerido por la Superintendencia, bajo apercibimiento de ser
-suspendido de la respectiva nómina en caso de no haberlo hecho dentro del término
-otorgado en el respectivo oficio de requerimiento.</texto>
+        <contexto>TÍTULO I Garantía de fiel desempeño</contexto>
+        <contenido>
+          <parrafo>La garantía de fiel desempeño a la que hacen referencia los artículos 16° y 32 N.° 5) de la Ley podrá consistir en:</parrafo>
+          <parrafo>a. Vale vista o boleta bancaria, extendida en forma irrevocable a nombre de la Superintendencia, nominativa, a la vista, de una duración no inferior a tres años, por una suma de 2.000 Unidades de Fomento.</parrafo>
+          <parrafo>b. Póliza de seguro tomada por el Veedor o Liquidador en favor de la Superintendencia, con una vigencia inicial mínima de tres años y automáticamente renovable por igual período, por un monto de 2.000 Unidades de Fomento.</parrafo>
+          <parrafo>Será carga del sujeto fiscalizado acreditar la vigencia de su garantía de fiel desempeño cuando ello le sea requerido por la Superintendencia, bajo apercibimiento de ser suspendido de la respectiva nómina en caso de no haberlo hecho dentro del término otorgado en el respectivo oficio de requerimiento.</parrafo>
+        </contenido>
       </articulo>
       <articulo id="2" tipo_original="Artículo" numero="2">
         <titulo_seccion>Artículo 2. Depósito y oportunidad</titulo_seccion>
-        <contexto>TÍTULO 1 Garantía de fiel desempeíio</contexto>
+        <contexto>TÍTULO I Garantía de fiel desempeño</contexto>
         <contenido>
-          <parrafo>La garantía de fiel desempeño deberá ser depositada
-en original en la Oficina de Partes de la Superintendencia por la persona natural que solicite
-su incorporación en la Nómina de Veedores o en la Nómina de Liquidadores, según
-corresponda, siendo el objeto de esta caucionar el desempeño y asegurar el correcto y cabal
-cumplimiento de todas las obligaciones del depositante, incluyendo la eventual
-indemnización a la que sea condenado en caso de hacerse efectiva su responsabilidad civil
-y/o administrativa, en virtud de existir multas en su contra.
-Asimismo, podrán ser enviadas vía correo electrónico a la dirección
-ofpartes@superir.gob.cl, siempre que el documento cuente con firma electrónica
-avanzada, de conformidad a los artículos 2 g) y 5 N° 2 de la Ley N. 19.799, y a la vez, la
-empresa aseguradora cuente con una plataforma electrónica para la verificación de la
-autenticidad del instrumento acompañado.
-Para el caso de las personas naturales que postulen a la Nómina de Veedores o a la Nómina
-de Liquidadores, y que hayan rendido y aprobado el examen de conocimientos regulado en
-el artículo 14 de la Ley, contarán con un plazo de 30 días hábiles administrativos para
-acompañar la garantía, contados desde la notificación de la aprobación de la señalada
-evaluación, con el objeto de que esta Superintendencia dicte la correspondiente resolución
-por medio de la cual se incorpore al Veedor o al Liquidador, según corresponda, a su</parrafo>
-          <parrafo>respectiva nómina, en los términos del artículo 11° de la Ley. Transcurrido el referido plazo
-sin que se presente la garantía para concluir el proceso de incorporación a la nómina, la
-Superintendencia lo requerirá para que la presente dentro de los siete días hábiles
-siguientes a la notificación siguiente, bajo el apercibimiento de declarar abandonado ese
-procedimiento y ordenar su archivo, notificándose al interesado, de conformidad al artículo
-43 de la Ley N.° 19.880.
-La Superintendencia mantendrá la garantía en depósito portodo el tiempo en que el Veedor
-o el Liquidador forme parte de la respectiva nómina.</parrafo>
+          <parrafo>La garantía de fiel desempeño deberá ser depositada en original en la Oficina de Partes de la Superintendencia por la persona natural que solicite su incorporación en la Nómina de Veedores o en la Nómina de Liquidadores, según corresponda, siendo el objeto de esta caucionar el desempeño y asegurar el correcto y cabal cumplimiento de todas las obligaciones del depositante, incluyendo la eventual indemnización a la que sea condenado en caso de hacerse efectiva su responsabilidad civil y/o administrativa, en virtud de existir multas en su contra.</parrafo>
+          <parrafo>Asimismo, podrán ser enviadas vía correo electrónico a la dirección ofpartes@superir.gob.cl, siempre que el documento cuente con firma electrónica avanzada, de conformidad a los artículos 2 letra g) y 5 N.° 2 de la Ley N.° 19.799, y, a la vez, la empresa aseguradora cuente con una plataforma electrónica para la verificación de la autenticidad del instrumento acompañado.</parrafo>
+          <parrafo>Para el caso de las personas naturales que postulen a la Nómina de Veedores o a la Nómina de Liquidadores, y que hayan rendido y aprobado el examen de conocimientos regulado en el artículo 14 de la Ley, contarán con un plazo de 30 días hábiles administrativos para acompañar la garantía, contados desde la notificación de la aprobación de la señalada evaluación, con el objeto de que esta Superintendencia dicte la correspondiente resolución por medio de la cual se incorpore al Veedor o al Liquidador, según corresponda, a su respectiva nómina, en los términos del artículo 11° de la Ley.</parrafo>
+          <parrafo>Transcurrido el referido plazo sin que se presente la garantía para concluir el proceso de incorporación a la nómina, la Superintendencia lo requerirá para que la presente dentro de los siete días hábiles siguientes a la notificación del requerimiento, bajo apercibimiento de declarar abandonado ese procedimiento y ordenar su archivo, notificándose al interesado, de conformidad al artículo 43 de la Ley N.° 19.880.</parrafo>
+          <parrafo>La Superintendencia mantendrá la garantía en depósito por todo el tiempo en que el Veedor o el Liquidador forme parte de la respectiva nómina.</parrafo>
         </contenido>
         <referencias>
+          <ref articulo="11"/>
           <ref articulo="14"/>
           <ref articulo="43"/>
-          <ref articulo="11"/>
         </referencias>
       </articulo>
       <articulo id="3" tipo_original="Artículo" numero="3">
         <titulo_seccion>Artículo 3. Cobro y reposición</titulo_seccion>
-        <contexto>TÍTULO 1 Garantía de fiel desempeíio</contexto>
-        <texto>En caso que la Superintendencia haga efectiva la garantía
-en razón de una resolución judicial condenatoria, que tuviere el carácter de firme y
-ejecutoriada, deberá poner dichos fondos a disposición del tribunal competente, mediante
-depósito en la cuenta corriente del tribunal, y restituir al Veedor o Liquidador el saldo
-existente, silo hubiere.
-En caso que la Superintendencia haga efectiva la garantía, en virtud del no pago de multas
-que correspondiera hacer al Veedor o Liquidador dentro de plazo legal, la Superintendencia
-deberá poner el importe correspondiente a la multa a disposición de la Tesorería General
-de la República, y restituir al Veedor o Liquidador el saldo existente, si lo hubiere.
-A partir del momento en que haya tenido lugar cualquiera de los hechos indicados en los
-incisos precedentes, el Veedor o Liquidador, según corresponda, dispondrá de un plazo de
-veinte días hábiles para rendir nueva garantía de fiel desempeño, en los términos del inciso
-final del artículo 16° de la Ley.</texto>
+        <contexto>TÍTULO I Garantía de fiel desempeño</contexto>
+        <contenido>
+          <parrafo>En caso que la Superintendencia haga efectiva la garantía en razón de una resolución judicial condenatoria, que tuviere el carácter de firme y ejecutoriada, deberá poner dichos fondos a disposición del tribunal competente, mediante depósito en la cuenta corriente del tribunal, y restituir al Veedor o Liquidador el saldo existente, si lo hubiere.</parrafo>
+          <parrafo>En caso que la Superintendencia haga efectiva la garantía en virtud del no pago de multas que correspondiera hacer al Veedor o Liquidador dentro de plazo legal, la Superintendencia deberá poner el importe correspondiente a la multa a disposición de la Tesorería General de la República y restituir al Veedor o Liquidador el saldo existente, si lo hubiere.</parrafo>
+          <parrafo>A partir del momento en que haya tenido lugar cualquiera de los hechos indicados en los incisos precedentes, el Veedor o Liquidador, según corresponda, dispondrá de un plazo de veinte días hábiles para rendir nueva garantía de fiel desempeño, en los términos del inciso final del artículo 16° de la Ley.</parrafo>
+        </contenido>
         <referencias>
           <ref articulo="16"/>
         </referencias>
       </articulo>
       <articulo id="4" tipo_original="Artículo" numero="4">
         <titulo_seccion>Artículo 4. Renovación</titulo_seccion>
-        <contexto>TÍTULO 1 Garantía de fiel desempeíio</contexto>
+        <contexto>TÍTULO I Garantía de fiel desempeño</contexto>
         <contenido>
-          <parrafo>Si la garantía de fiel desempeño consistiere en un vale vista o
-boleta bancaria de garantía, y esta venciere, el Veedor o Liquidador deberá presentar nueva
-garantía de fiel desempeño en original a más tardar el día en que se produzca el vencimiento
-de la misma, conforme al procedimiento establecido en el artículo 2°.
-Igual plazo tendrá para la renovación de la garantía en caso que, por cualquier causa o
-motivo, la póliza de seguro originalmente presentada no sea automáticamente renovada
-por la Compañía de Seguros.
-En caso de no otorgar la garantía en tiempo y forma, el Veedor o Liquidador no podrá asumir
-en nuevos Procedimientos Concursales, siendo suspendido de la nómina correspondiente.
-Tratándose de Veedores o Liquidadores que se encuentran suspendidos por no renovar su
-garantía, y que dicho retraso sea por más de treinta días hábiles contados desde el término
-de vigencia de la última garantía, serán excluidos de la respectiva nómina por aplicación del
-N.° 2 del artículo 18 en relación al N.° 5 del artículo 13 de la ley.</parrafo>
-          <parrafo>50•
-Artículo Devolución. Si el Veedor o Liquidador fuere excluido de la nómina
-correspondiente, cualquiera fuere la causal fundante, este podrá solicitar a la
-Superintendencia la devolución de los documentos en que conste la garantía de fiel
-desempeño, la que sólo procederá a su devolución una vez extinguida su responsabilidad,
-la cual subsiste en la medida que hubiere procedimientos vigentes.
-Lo anterior es sin perjuicio de que la Superintendencia pueda realizar la devolución de
-aquellas garantías que se encuentren vencidas, para lo cual las despachará al domicilio
-registrado por el Veedor o Liquidador, dentro del plazo de 30 días hábiles.</parrafo>
+          <parrafo>Si la garantía de fiel desempeño consistiere en un vale vista o boleta bancaria de garantía, y esta venciere, el Veedor o Liquidador deberá presentar nueva garantía de fiel desempeño en original a más tardar el día en que se produzca el vencimiento de la misma, conforme al procedimiento establecido en el artículo 2°.</parrafo>
+          <parrafo>Igual plazo tendrá para la renovación de la garantía en caso que, por cualquier causa o motivo, la póliza de seguro originalmente presentada no sea automáticamente renovada por la Compañía de Seguros.</parrafo>
+          <parrafo>En caso de no otorgar la garantía en tiempo y forma, el Veedor o Liquidador no podrá asumir en nuevos Procedimientos Concursales, siendo suspendido de la nómina correspondiente.</parrafo>
+          <parrafo>Tratándose de Veedores o Liquidadores que se encuentren suspendidos por no renovar su garantía, y que dicho retraso sea por más de treinta días hábiles contados desde el término de vigencia de la última garantía, serán excluidos de la respectiva nómina por aplicación del N.° 2 del artículo 18 en relación al N.° 5 del artículo 13 de la Ley.</parrafo>
         </contenido>
         <referencias>
-          <ref articulo="18"/>
           <ref articulo="13"/>
           <ref articulo="2"/>
+          <ref articulo="18"/>
         </referencias>
+      </articulo>
+      <articulo id="5" tipo_original="Artículo" numero="5">
+        <titulo_seccion>Artículo 5. Devolución</titulo_seccion>
+        <contexto>TÍTULO I Garantía de fiel desempeño</contexto>
+        <contenido>
+          <parrafo>Si el Veedor o Liquidador fuere excluido de la nómina correspondiente, cualquiera fuere la causal fundante, este podrá solicitar a la Superintendencia la devolución de los documentos en que conste la garantía de fiel desempeño, la que sólo procederá una vez extinguida su responsabilidad, la cual subsiste en la medida que hubiere procedimientos vigentes.</parrafo>
+          <parrafo>Lo anterior es sin perjuicio de que la Superintendencia pueda realizar la devolución de aquellas garantías que se encuentren vencidas, para lo cual las despachará al domicilio registrado por el Veedor o Liquidador dentro del plazo de 30 días hábiles.</parrafo>
+        </contenido>
       </articulo>
     </titulo>
     <titulo id="2" tipo_original="Título" numero="II">
       <titulo_seccion>TÍTULO II Disposiciones finales</titulo_seccion>
-      <articulo id="5" tipo_original="Artículo" numero="6">
+      <articulo id="6" tipo_original="Artículo" numero="6">
         <titulo_seccion>Artículo 6. Ámbito de aplicación</titulo_seccion>
         <contexto>TÍTULO II Disposiciones finales</contexto>
-        <texto>La presente Norma de Carácter General sólo tiene por
-objeto regular las materias que en la misma se tratan en relación a los procedimientos
-concursales regulados en la Ley o para el acceso del postulante a la Nómina de Veedores o
-Liquidadores, en su caso. En caso alguno se entenderán aplicables a los procedimientos de
-quiebra, convenios o cesiones de bienes actualmente en tramitación o que se iniciaron
-antes de la entrada en vigencia de la Ley, que, conforme a lo dispuesto en su artículo
-primero transitorio, seguirán rigiéndose por las disposiciones contenidas en el Libro IV del
-Código de Comercio y en la Ley N° 18.175, orgánica de la Superintendencia de Quiebras.</texto>
+        <contenido>
+          <parrafo>La presente Norma de Carácter General sólo tiene por objeto regular las materias que en la misma se tratan en relación a los procedimientos concursales regulados en la Ley o para el acceso del postulante a la Nómina de Veedores o Liquidadores, en su caso.</parrafo>
+          <parrafo>En caso alguno se entenderán aplicables a los procedimientos de quiebra, convenios o cesiones de bienes actualmente en tramitación o que se iniciaron antes de la entrada en vigencia de la Ley, que, conforme a lo dispuesto en su artículo primero transitorio, seguirán rigiéndose por las disposiciones contenidas en el Libro IV del Código de Comercio y en la Ley N.° 18.175, orgánica de la Superintendencia de Quiebras.</parrafo>
+        </contenido>
       </articulo>
-      <articulo id="6" tipo_original="Artículo" numero="7">
+      <articulo id="7" tipo_original="Artículo" numero="7">
         <titulo_seccion>Artículo 7. Términos definidos</titulo_seccion>
         <contexto>TÍTULO II Disposiciones finales</contexto>
-        <texto>Los términos en mayúscula utilizados en esta Norma de
-Carácter General tendrán el mismo significado que a ellos se les asigna en el artículo 2° de
-la Ley.</texto>
+        <texto>Los términos en mayúscula utilizados en esta Norma de Carácter General tendrán el mismo significado que a ellos se les asigna en el artículo 2° de la Ley.</texto>
         <referencias>
           <ref articulo="2"/>
         </referencias>
       </articulo>
-      <articulo id="7" tipo_original="Artículo" numero="8">
+      <articulo id="8" tipo_original="Artículo" numero="8">
         <titulo_seccion>Artículo 8. Vigencia</titulo_seccion>
         <contexto>TÍTULO II Disposiciones finales</contexto>
-        <texto>La presente Norma de Carácter General entrará a regir el día 2 de
-enero de 2020.</texto>
+        <texto>La presente Norma de Carácter General entrará a regir el día 2 de enero de 2020.</texto>
       </articulo>
-      <articulo id="8" tipo_original="Artículo" numero="9">
+      <articulo id="9" tipo_original="Artículo" numero="9">
         <titulo_seccion>Artículo 9. Derogación</titulo_seccion>
         <contexto>TÍTULO II Disposiciones finales</contexto>
-        <texto>Derogase a contar de la entrada en vigencia de la presente Norma
-de Carácter General, la Norma de Carácter N.° 1 de 30 de abril de 2014, que regula la
-garantía de fiel desempeño.</texto>
+        <texto>Derógase, a contar de la entrada en vigencia de la presente Norma de Carácter General, la Norma de Carácter General N.° 1 de 30 de abril de 2014, que regula la garantía de fiel desempeño.</texto>
       </articulo>
     </titulo>
   </contenido>
-  <promulgacion>Anótese, notifíquese, publíquese y archívese.
-E CIAYREE T NDIMIENTO</promulgacion>
+  <promulgacion>Anótese, notifíquese, publíquese y archívese.</promulgacion>
 </ley>

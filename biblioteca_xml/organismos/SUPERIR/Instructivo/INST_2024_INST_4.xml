@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ley xmlns="https://leychile.cl/schema/ley/v1" version="1.0" idioma="es-CL" id_norma="INST-4" tipo="Instructivo" numero="4" estado="vigente" fecha_version="2024-09-05" fecha_promulgacion="2024-09-05" fecha_publicacion="2024-09-05" generado="2026-02-11T14:50:14.611171" fuente="Biblioteca del Congreso Nacional de Chile" url_original="https://www.superir.gob.cl/wp-content/uploads/2024/09/RES_NUM_13139_AO_2024.pdf">
+<ley xmlns="https://leychile.cl/schema/ley/v1" version="1.0" idioma="es-CL" id_norma="INST-4" tipo="Instructivo" numero="4" estado="vigente" fecha_version="2024-09-05" fecha_promulgacion="2024-09-05" fecha_publicacion="2024-09-05" generado="2026-02-11T15:27:13.681975" fuente="Biblioteca del Congreso Nacional de Chile" url_original="https://www.superir.gob.cl/wp-content/uploads/2024/09/RES_NUM_13139_AO_2024.pdf">
   <metadatos>
     <titulo>INSTRUCTIVO SUPERIR N°4 - Reporte de hechos esenciales</titulo>
     <identificacion>
@@ -23,6 +23,18 @@
       <version>2024-09-05</version>
     </fechas>
     <fuente>Superintendencia de Insolvencia y Reemprendimiento</fuente>
+    <numero_fuente>13139</numero_fuente>
+    <leyes_referenciadas>
+      <ley_ref>Ley 20.720</ley_ref>
+      <ley_ref>Ley 21.563</ley_ref>
+      <ley_ref>Ley 18.575</ley_ref>
+      <ley_ref>Ley 19.880</ley_ref>
+      <ley_ref>Ley 19.799</ley_ref>
+      <ley_ref>Ley 18.118</ley_ref>
+      <ley_ref>Ley 20.416</ley_ref>
+      <ley_ref>DFL 119.653</ley_ref>
+      <ley_ref>D.S. 181</ley_ref>
+    </leyes_referenciadas>
   </metadatos>
   <encabezado>VISTOS:
 
@@ -252,11 +264,11 @@ Económicos de Insolvencia regulados en el Artículo Undécimo de la Ley N.°
         <contexto>TÍTULO II Hechos relevantes que deben ser informados por los/as sujetos</contexto>
         <texto>° 20.720, se interpreta administrativamente la voz inhabilidad sobreviniente contemplada en el numeral 5 del artículo 24 de la Ley y en este Instructivo, como cualquier situación de hecho o de derecho que impida al sujeto fiscalizado ejercer sus labores contempladas en la normativa concursal, siempre que dichas situaciones de hecho o de derecho se encuentren respaldados documentadamente y fundadamente, los que analizará la Superintendencia de Insolvencia y Reemprendimiento a efectos de lo previsto en el artículo 8 del presente Instructivo. De igual forma, se considera inhabilidad sobreviniente el hecho de perder el sujeto fiscalizado una o más calidades de las contempladas en el artículo 13 y/o del artículo 17, en relación con el artículo 31 de la Ley que hace aplicable a los liquidadores las reglas de los veedores, en todo aquello que no se encuentre regulado expresamente.</texto>
         <referencias>
-          <ref articulo="13"/>
-          <ref articulo="31"/>
-          <ref articulo="17"/>
-          <ref articulo="24"/>
           <ref articulo="8"/>
+          <ref articulo="13"/>
+          <ref articulo="24"/>
+          <ref articulo="17"/>
+          <ref articulo="31"/>
         </referencias>
       </articulo>
     </titulo>

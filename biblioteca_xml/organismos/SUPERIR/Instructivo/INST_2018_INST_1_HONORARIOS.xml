@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ley xmlns="https://leychile.cl/schema/ley/v1" version="1.0" idioma="es-CL" id_norma="INST-1" tipo="Instructivo" numero="1" estado="vigente" fecha_publicacion="2018-01-15" generado="2026-02-11T14:50:20.848556" fuente="Biblioteca del Congreso Nacional de Chile" url_original="https://www.superir.gob.cl/wp-content/document/biblioteca_digital/instructivos/ley-20.720/Instructivo_1_15.01.18.pdf">
+<ley xmlns="https://leychile.cl/schema/ley/v1" version="1.0" idioma="es-CL" id_norma="INST-1" tipo="Instructivo" numero="1" estado="vigente" fecha_publicacion="2018-01-15" generado="2026-02-11T15:27:18.801528" fuente="Biblioteca del Congreso Nacional de Chile" url_original="https://www.superir.gob.cl/wp-content/document/biblioteca_digital/instructivos/ley-20.720/Instructivo_1_15.01.18.pdf">
   <metadatos>
     <titulo>INSTRUCTIVO SIR N°1/2018 - Modificación del pago de honorarios de liquidadores</titulo>
     <identificacion>
@@ -21,6 +21,11 @@
       <publicacion>2018-01-15</publicacion>
     </fechas>
     <fuente>Superintendencia de Insolvencia y Reemprendimiento</fuente>
+    <leyes_referenciadas>
+      <ley_ref>Ley 20.720</ley_ref>
+      <ley_ref>Ley 18.575</ley_ref>
+      <ley_ref>Ley 19.880</ley_ref>
+    </leyes_referenciadas>
   </metadatos>
   <encabezado>VISTOS:
 
@@ -159,11 +164,11 @@ liquidación publicada en el Boletín Concursal, toda vez que de esta forma conc
 procedimiento, en conformidad al artículo 254 de la Ley.</parrafo>
         </contenido>
         <referencias>
+          <ref articulo="229"/>
+          <ref articulo="197"/>
+          <ref articulo="36"/>
           <ref articulo="254"/>
           <ref articulo="40"/>
-          <ref articulo="197"/>
-          <ref articulo="229"/>
-          <ref articulo="36"/>
           <ref articulo="164"/>
         </referencias>
       </articulo>
@@ -187,8 +192,8 @@ Procedimientos Administrativos que Rigen los Actos de la Administración del Est
 a través del Módulo de Comunicación Directa, en el Portal Sujetos Fiscalizados,
 indicando el respectivo procedimiento.</texto>
         <referencias>
-          <ref articulo="59"/>
           <ref articulo="40"/>
+          <ref articulo="59"/>
         </referencias>
       </articulo>
       <articulo id="4" tipo_original="Artículo" numero="4">

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ley xmlns="https://leychile.cl/schema/ley/v1" version="1.0" idioma="es-CL" id_norma="NCG-15" tipo="Norma de Carácter General" numero="15" estado="vigente" fecha_version="2023-08-11" fecha_promulgacion="2023-08-11" fecha_publicacion="2023-08-11" generado="2026-02-11T15:24:08.825891" fuente="Biblioteca del Congreso Nacional de Chile" url_original="https://www.superir.gob.cl/wp-content/uploads/2023/08/RES_NUM_6598_ANO_2023_NCG_15_JUNTAS.pdf">
+<ley xmlns="https://leychile.cl/schema/ley/v1" version="1.0" idioma="es-CL" id_norma="NCG-15" tipo="Norma de Carácter General" numero="15" estado="vigente" fecha_version="2023-08-11" fecha_promulgacion="2023-08-11" fecha_publicacion="2023-08-11" generado="2026-02-12T11:14:27.814344" fuente="Biblioteca del Congreso Nacional de Chile" url_original="https://www.superir.gob.cl/wp-content/uploads/2023/08/RES_NUM_6598_ANO_2023_NCG_15_JUNTAS.pdf">
   <metadatos>
     <titulo>NORMA DE CARÁCTER GENERAL N°15 - Juntas de acreedores mediante medios tecnológicos</titulo>
     <identificacion>
@@ -30,86 +30,37 @@
       <ley_ref>Ley 18.575</ley_ref>
       <ley_ref>Ley 19.880</ley_ref>
       <ley_ref>DFL 1-19.653</ley_ref>
-      <ley_ref>NCG 15</ley_ref>
     </leyes_referenciadas>
   </metadatos>
   <encabezado>VISTOS:
 
-Las facultades que me confiere la Ley N.°
-20.720, que sustituye el régimen concursal vigente por una Ley de
-Reorganización y Liquidación de Activos de Empresas y Personas; lo
-dispuesto en la Ley N.° 21.563, que Moderniza los Procedimientos
-Concursales Contemplados en la Ley N.° 20.720 y Crea Nuevos
-Procedimientos para Micro y Pequeñas Empresas; en el D.F.L. N.° 1-19.653,
-de 17 de noviembre de 2001, que fija el texto Refundido, Coordinado y
-Sistematizado de la Ley N.° 18.575, Orgánica Constitucional de Bases
-Generales de la Administración del Estado; en la Ley N.° 19.880, que
-establece Bases de los Procedimientos Administrativos que Rigen los Actos
-de los Órganos de la Administración del Estado; en la Resolución N.° 7 de
-2019 de la Contraloría General de la República, que fija normas sobre
-Exención del Trámite de Toma de Razón; y, en el Decreto N.° 8 de 19 de
-enero de 2023, del Ministerio de Economía, Fomento y Turismo.
+Las facultades que me confiere la Ley N.° 20.720, que sustituye el régimen concursal vigente por una Ley de Reorganización y Liquidación de Activos de Empresas y Personas; lo dispuesto en la Ley N.° 21.563, que Moderniza los Procedimientos Concursales Contemplados en la Ley N.° 20.720 y Crea Nuevos Procedimientos para Micro y Pequeñas Empresas; en el D.F.L. N.° 1-19.653, de 17 de noviembre de 2001, que fija el texto Refundido, Coordinado y Sistematizado de la Ley N.° 18.575, Orgánica Constitucional de Bases Generales de la Administración del Estado; en la Ley N.° 19.880, que establece Bases de los Procedimientos Administrativos que Rigen los Actos de los Órganos de la Administración del Estado; en la Resolución N.° 7 de 2019 de la Contraloría General de la República, que fija normas sobre Exención del Trámite de Toma de Razón; y, en el Decreto N.° 8 de 19 de enero de 2023, del Ministerio de Economía, Fomento y Turismo.
 
 CONSIDERANDO:
 
-1° Que, de conformidad a lo dispuesto en los
-artículos 331 y siguientes de la Ley N.° 20.720 de Reorganización y
-Liquidación de Activos de Empresas y Personas, modificada por la Ley N.°
-21.563, en adelante “la Ley”, la Superintendencia de Insolvencia y
-Reemprendimiento, en adelante la “Superintendencia”, es una persona
-jurídica de derecho público, creada por la Ley, como un servicio público
-descentralizado con personalidad jurídica y patrimonio propio, que se
-relaciona con el Presidente de la República a través del Ministerio de
-Economía, Fomento y Turismo, y tiene como función supervigilar y fiscalizar
-las actuaciones de los liquidadores, veedores, interventores designados
-conforme a esta Ley, administradores de la continuación de las actividades
-económicas del deudor, asesores económicos de insolvencia, y, de toda
-persona que por ley quede sujeta a su supervigilancia y fiscalización.
-Asimismo, le corresponde desempeñar aquellas funciones que la referida ley
-le encomienda, así como las demás que se establezcan en otras leyes.
-2º Que, la Ley, en su artículo 337, dispone
-que para el cumplimiento de sus funciones, la Superintendencia tendrá las
-atribuciones y deberes que allí señala, otorgándole en su numeral 4 la
-facultad de: “Impartir a los Veedores, Liquidadores, interventores
-designados conforme a la Ley, administradores de la continuación de las
-actividades económicas, Martilleros Concursales que se sometan
-voluntariamente al control de la Superintendencia y asesores económicos de
-insolvencias, instrucciones de carácter obligatorio sobre las materias
-sometidas a su control y, en especial, fijar normas para la presentación de
-informes, estados de avance y cuentas provisorias o definitivas que deban
-presentar los fiscalizados”.
-3° Que, el artículo 6° A de la Ley N.° 20.720,
-incorporado por Ley N.° 21.563, dispone que: “Las audiencias de los
-Procedimientos Concursales de Renegociación y las Juntas de Acreedores que
-no se celebren en las dependencias del tribunal o en el lugar que éste
-determine, se podrán realizar por medios telemáticos conforme a la norma
-de carácter general que dictará al efecto la Superintendencia.”
-4° Que, las audiencias telemáticas del
-Procedimiento Concursal de Renegociación se encuentran reguladas por la
-Norma de Carácter General especial, de esta Superintendencia, por lo que la
-presente norma regulará exclusivamente las juntas de acreedores/as que no
-se celebren en las dependencias del tribunal o en el lugar que este determine,
-dentro de los Procedimientos Concursales de Liquidación o Reorganización.
-5° Que, atendido lo expuesto y de
-conformidad con lo dispuesto en el artículo 3 de la Ley N.° 19.880 y en las
-normas legales pertinentes,</encabezado>
+1° Que, de conformidad a lo dispuesto en los artículos 331 y siguientes de la Ley N.° 20.720 de Reorganización y Liquidación de Activos de Empresas y Personas, modificada por la Ley N.° 21.563, en adelante “la Ley”, la Superintendencia de Insolvencia y Reemprendimiento, en adelante la “Superintendencia”, es una persona jurídica de derecho público, creada por la Ley, como un servicio público descentralizado con personalidad jurídica y patrimonio propio, que se relaciona con el Presidente de la República a través del Ministerio de Economía, Fomento y Turismo, y tiene como función supervigilar y fiscalizar las actuaciones de los liquidadores, veedores, interventores designados conforme a esta Ley, administradores de la continuación de las actividades económicas del deudor, asesores económicos de insolvencia, y, de toda persona que por ley quede sujeta a su supervigilancia y fiscalización.
+
+Asimismo, le corresponde desempeñar aquellas funciones que la referida ley le encomienda, así como las demás que se establezcan en otras leyes.
+
+2º Que, la Ley, en su artículo 337, dispone que para el cumplimiento de sus funciones, la Superintendencia tendrá las atribuciones y deberes que allí señala, otorgándole en su numeral 4 la facultad de: “Impartir a los Veedores, Liquidadores, interventores designados conforme a la Ley, administradores de la continuación de las actividades económicas, Martilleros Concursales que se sometan voluntariamente al control de la Superintendencia y asesores económicos de insolvencias, instrucciones de carácter obligatorio sobre las materias sometidas a su control y, en especial, fijar normas para la presentación de informes, estados de avance y cuentas provisorias o definitivas que deban presentar los fiscalizados”.
+
+3° Que, el artículo 6° A de la Ley N.° 20.720, incorporado por Ley N.° 21.563, dispone que: “Las audiencias de los Procedimientos Concursales de Renegociación y las Juntas de Acreedores que no se celebren en las dependencias del tribunal o en el lugar que éste determine, se podrán realizar por medios telemáticos conforme a la norma de carácter general que dictará al efecto la Superintendencia.”
+
+4° Que, las audiencias telemáticas del Procedimiento Concursal de Renegociación se encuentran reguladas por la
+
+Norma de Carácter General especial, de esta Superintendencia, por lo que la presente norma regulará exclusivamente las juntas de acreedores/as que no se celebren en las dependencias del tribunal o en el lugar que este determine, dentro de los Procedimientos Concursales de Liquidación o Reorganización.
+
+5° Que, atendido lo expuesto y de conformidad con lo dispuesto en el artículo 3 de la Ley N.° 19.880 y en las normas legales pertinentes,</encabezado>
   <contenido total_articulos="11" total_libros="0" total_titulos="4" total_capitulos="0">
     <titulo id="1" tipo_original="Título" numero="I">
       <titulo_seccion>TÍTULO I Disposiciones comunes</titulo_seccion>
       <articulo id="1" tipo_original="Artículo" numero="1">
         <titulo_seccion>Artículo 1. Ámbito de aplicación</titulo_seccion>
         <contexto>TÍTULO I Disposiciones comunes</contexto>
-        <texto>La
-presente norma de carácter general solo tiene por objeto regular las materias
-que en la misma se tratan, para efectos de cumplir con lo dispuesto en el
-artículo 6 A de la Ley N.° 20.720, esto es, respecto de la realización
-telemática de juntas de acreedores/as no celebradas en el tribunal o en el
-lugar que este designe dentro de los procedimientos concursales de
-liquidación y reorganización, sean ordinarios o especiales, regulados en los
-Capítulos III, IV y V de la Ley. En caso alguno se entenderá aplicable a las
-audiencias judiciales y juntas de acreedores/as celebradas ante el tribunal o
-el lugar que este designe, de la forma prevista en el artículo 6 B de la Ley
-N.° 20.720, incorporado por la Ley N.° 21.563.</texto>
+        <contenido>
+          <parrafo>La presente norma de carácter general solo tiene por objeto regular las materias que en la misma se tratan, para efectos de cumplir con lo dispuesto en el</parrafo>
+          <parrafo>artículo 6 A de la Ley N.° 20.720, esto es, respecto de la realización telemática de juntas de acreedores/as no celebradas en el tribunal o en el lugar que este designe dentro de los procedimientos concursales de liquidación y reorganización, sean ordinarios o especiales, regulados en los Capítulos III, IV y V de la Ley. En caso alguno se entenderá aplicable a las audiencias judiciales y juntas de acreedores/as celebradas ante el tribunal o el lugar que este designe, de la forma prevista en el artículo 6 B de la Ley N.° 20.720, incorporado por la Ley N.° 21.563.</parrafo>
+        </contenido>
         <referencias>
           <ref articulo="6"/>
         </referencias>
@@ -117,29 +68,16 @@ N.° 20.720, incorporado por la Ley N.° 21.563.</texto>
       <articulo id="2" tipo_original="Artículo" numero="2">
         <titulo_seccion>Artículo 2. Definición</titulo_seccion>
         <contexto>TÍTULO I Disposiciones comunes</contexto>
-        <texto>Se entenderá por
-junta telemática, aquella que se efectúe por medio de cualquier sistema
-tecnológico que admita una comunicación simultánea de la imagen, sonido y
-datos, que permita la interacción visual, auditiva y verbal entre personas
-geográficamente distantes.</texto>
+        <texto>Se entenderá por junta telemática, aquella que se efectúe por medio de cualquier sistema tecnológico que admita una comunicación simultánea de la imagen, sonido y datos, que permita la interacción visual, auditiva y verbal entre personas geográficamente distantes.</texto>
       </articulo>
       <articulo id="3" tipo_original="Artículo" numero="3">
         <titulo_seccion>Artículo 3</titulo_seccion>
         <contexto>TÍTULO I Disposiciones comunes</contexto>
-        <texto>El/la Liquidador/a o Veedor/a
-deberá asegurar que el sistema de transmisión de imagen, sonido y dato
-utilizado para la realización de la junta celebrada de forma telemática
-garantice en forma segura e ininterrumpida una comunicación en tiempo real
-entre el/la Liquidador/a o Veedor/a y los demás intervinientes que se
-encuentren en lugares geográficamente distintos.
-Para lo anterior, se considerará como buena
-práctica que la plataforma cuente con los requisitos técnicos mínimos
-indicados en el Anexo I adjunto a la presente Norma.
-No obstante, para los casos previstos en los
-Títulos II y III de esta Norma, el interesado en participar de forma remota
-por videoconferencia deberá asegurarse de contar con los medios necesarios
-para su adecuada participación a través de la plataforma que disponga el/la
-respectivo/a Liquidador/a o Veedor/a, según corresponda.</texto>
+        <contenido>
+          <parrafo>El/la Liquidador/a o Veedor/a deberá asegurar que el sistema de transmisión de imagen, sonido y dato utilizado para la realización de la junta celebrada de forma telemática garantice en forma segura e ininterrumpida una comunicación en tiempo real entre el/la Liquidador/a o Veedor/a y los demás intervinientes que se encuentren en lugares geográficamente distintos.</parrafo>
+          <parrafo>Para lo anterior, se considerará como buena práctica que la plataforma cuente con los requisitos técnicos mínimos indicados en el Anexo I adjunto a la presente Norma.</parrafo>
+          <parrafo>No obstante, para los casos previstos en los Títulos II y III de esta Norma, el interesado en participar de forma remota por videoconferencia deberá asegurarse de contar con los medios necesarios para su adecuada participación a través de la plataforma que disponga el/la respectivo/a Liquidador/a o Veedor/a, según corresponda.</parrafo>
+        </contenido>
       </articulo>
     </titulo>
     <titulo id="2" tipo_original="Título" numero="II">
@@ -147,12 +85,7 @@ respectivo/a Liquidador/a o Veedor/a, según corresponda.</texto>
       <articulo id="4" tipo_original="Artículo" numero="4">
         <titulo_seccion>Artículo 4</titulo_seccion>
         <contexto>TÍTULO II De las Juntas de Acreedores/as celebradas por medios telemáticos</contexto>
-        <texto>Las juntas de acreedores/as que
-no se celebren en las dependencias del tribunal o en el lugar que este
-determine, se podrán celebrar por medios telemáticos, en conformidad a lo
-establecido en el artículo 6 A de la Ley N.º 20.720, incorporado por la Ley
-N.º 21.563 y a las disposiciones de la presente Norma de Carácter General,
-emitida en cumplimiento de lo dispuesto en el citado artículo 6 A.</texto>
+        <texto>Las juntas de acreedores/as que no se celebren en las dependencias del tribunal o en el lugar que este determine, se podrán celebrar por medios telemáticos, en conformidad a lo establecido en el artículo 6 A de la Ley N.º 20.720, incorporado por la Ley N.º 21.563 y a las disposiciones de la presente Norma de Carácter General, emitida en cumplimiento de lo dispuesto en el citado artículo 6 A.</texto>
         <referencias>
           <ref articulo="6"/>
         </referencias>
@@ -160,87 +93,37 @@ emitida en cumplimiento de lo dispuesto en el citado artículo 6 A.</texto>
       <articulo id="5" tipo_original="Artículo" numero="5">
         <titulo_seccion>Artículo 5</titulo_seccion>
         <contexto>TÍTULO II De las Juntas de Acreedores/as celebradas por medios telemáticos</contexto>
-        <texto>Para la celebración de las juntas
-de acreedores/as por medios telemáticos indicadas en el artículo anterior,
-el/la Liquidador/a o Veedor/a deberá comunicar esta circunstancia al/a la
-deudor/a y a los/las acreedores/as, por correo electrónico, con a lo menos 3
-días hábiles de anticipación a la fecha de celebración de la respectiva junta,
-indicando el día y hora de su celebración, las materias a tratar, la plataforma
-electrónica que se utilizará y el enlace con las especificaciones técnicas y/o
-informáticas requeridas para su conexión a la respectiva junta de
-acreedores/as que se celebrará de forma telemática.
-De la misma forma, el/la Liquidador/a o
-Veedor/a deberá publicar en el Boletín Concursal la citación a la junta de
-acreedores/as celebrada por medios telemáticos con a lo menos tres días de
-anticipación a la fecha de su celebración, debiendo incluir el link y las
-especificaciones técnicas y/o informáticas requeridas para su conexión.
-Dichas juntas se podrán celebrar en forma
-telemática a instancia del/de la Liquidador/a o Veedor/a, o cuando uno o más
-acreedores/as que representen a lo menos el 25% del pasivo con derecho a
-voto lo soliciten por escrito al/a la Liquidador/a o Veedor/a, quien ejecutará
-los actos necesarios para su celebración. Una copia de esta solicitud será
-acompañada al tribunal del procedimiento y publicada en el Boletín Concursal
-por el/la Liquidador/a o Veedor/a.
-El/la Liquidador/a podrá proponer en la junta
-constitutiva la celebración de las juntas ordinarias o extraordinarias, por
-medios telemáticos. En caso que dicha junta no se celebre por concurrir la
-hipótesis prevista en el artículo 194 de la Ley, el/la Liquidador/a deberá
-incluir en su informe del artículo 195 de la Ley, la forma en que se celebrarán
-las juntas señaladas.
-Asimismo, el/la Veedor/a Interventor/a podrá
-proponer en la junta llamada a conocer y pronunciarse sobre la propuesta de
-Acuerdo de Reorganización Judicial, que las juntas que no se celebren en las
-dependencias del tribunal, sean efectuadas telemáticamente, lo cual deberá
-ser aprobado con quorum simple.
-No obstante, en cualquier etapa del
-procedimiento concursal respectivo, los/las acreedores/as que representen a
-lo menos el 25% del pasivo con derecho a voto, podrán solicitar se modifique
-la forma en que se celebrará la junta, esto es, de vía telemática a presencial,
-o viceversa, solicitud que deberá constar por escrito al/a la Liquidador/a o
-Veedor/a, acompañando copia de dicha solicitud al tribunal, y, en caso de
-controversia, se resolverá por los/las acreedores/as con quorum simple.
-En todo caso, prevalecerá la decisión de la
-junta de acreedores/as, por sobre los demás órganos del concurso.</texto>
+        <contenido>
+          <parrafo>Para la celebración de las juntas de acreedores/as por medios telemáticos indicadas en el artículo anterior, el/la Liquidador/a o Veedor/a deberá comunicar esta circunstancia al/a la deudor/a y a los/las acreedores/as, por correo electrónico, con a lo menos 3 días hábiles de anticipación a la fecha de celebración de la respectiva junta, indicando el día y hora de su celebración, las materias a tratar, la plataforma electrónica que se utilizará y el enlace con las especificaciones técnicas y/o informáticas requeridas para su conexión a la respectiva junta de acreedores/as que se celebrará de forma telemática.</parrafo>
+          <parrafo>De la misma forma, el/la Liquidador/a o Veedor/a deberá publicar en el Boletín Concursal la citación a la junta de acreedores/as celebrada por medios telemáticos con a lo menos tres días de anticipación a la fecha de su celebración, debiendo incluir el link y las especificaciones técnicas y/o informáticas requeridas para su conexión.</parrafo>
+          <parrafo>Dichas juntas se podrán celebrar en forma telemática a instancia del/de la Liquidador/a o Veedor/a, o cuando uno o más acreedores/as que representen a lo menos el 25% del pasivo con derecho a voto lo soliciten por escrito al/a la Liquidador/a o Veedor/a, quien ejecutará los actos necesarios para su celebración. Una copia de esta solicitud será acompañada al tribunal del procedimiento y publicada en el Boletín Concursal por el/la Liquidador/a o Veedor/a.</parrafo>
+          <parrafo>El/la Liquidador/a podrá proponer en la junta constitutiva la celebración de las juntas ordinarias o extraordinarias, por medios telemáticos. En caso que dicha junta no se celebre por concurrir la hipótesis prevista en el artículo 194 de la Ley, el/la Liquidador/a deberá incluir en su informe del artículo 195 de la Ley, la forma en que se celebrarán las juntas señaladas.</parrafo>
+          <parrafo>Asimismo, el/la Veedor/a Interventor/a podrá proponer en la junta llamada a conocer y pronunciarse sobre la propuesta de Acuerdo de Reorganización Judicial, que las juntas que no se celebren en las dependencias del tribunal, sean efectuadas telemáticamente, lo cual deberá ser aprobado con quorum simple.</parrafo>
+          <parrafo>No obstante, en cualquier etapa del procedimiento concursal respectivo, los/las acreedores/as que representen a lo menos el 25% del pasivo con derecho a voto, podrán solicitar se modifique la forma en que se celebrará la junta, esto es, de vía telemática a presencial, o viceversa, solicitud que deberá constar por escrito al/a la Liquidador/a o Veedor/a, acompañando copia de dicha solicitud al tribunal, y, en caso de controversia, se resolverá por los/las acreedores/as con quorum simple.</parrafo>
+          <parrafo>En todo caso, prevalecerá la decisión de la junta de acreedores/as, por sobre los demás órganos del concurso.</parrafo>
+        </contenido>
         <referencias>
-          <ref articulo="195"/>
           <ref articulo="194"/>
+          <ref articulo="195"/>
         </referencias>
       </articulo>
       <articulo id="6" tipo_original="Artículo" numero="6">
         <titulo_seccion>Artículo 6</titulo_seccion>
         <contexto>TÍTULO II De las Juntas de Acreedores/as celebradas por medios telemáticos</contexto>
-        <texto>De todo lo obrado en las juntas
-de acreedores/as celebradas por medios telemáticos se levantará un acta, la
-que deberá ser suscrita por el/la Liquidador/a o Veedor/a y por los/las
-acreedores/as asistentes o por quienes ellos designen para la suscripción del
-acta respectiva, mediante firma electrónica.
-El/la Liquidador/a o Veedor/a acompañará el
-acta al tribunal, la que será publicada en el Boletín Concursal al día hábil
-siguiente de aquel en que la junta de acreedores/as se celebró.
-Asimismo, las juntas que se celebren de
-forma telemática deberán registrarse en video con audio, desde su inicio
-hasta su término y el/la Liquidador/a o Veedor/a deberá conservar el archivo
-que la contenga, al menos durante 24 meses desde la celebración de la junta,
-manteniéndolo a disposición de esta Superintendencia, cuando le sea
-requerido.
-En caso que algún interesado requiera copia
-del registro en video, deberá efectuar tal solicitud ante el tribunal donde se
-tramite el procedimiento que corresponda, salvo en aquellos casos en que
-este hubiere concluido, pudiendo solicitarlo directamente al/a la Liquidador/a
-o Veedor/a respectivo.</texto>
+        <contenido>
+          <parrafo>De todo lo obrado en las juntas de acreedores/as celebradas por medios telemáticos se levantará un acta, la que deberá ser suscrita por el/la Liquidador/a o Veedor/a y por los/las acreedores/as asistentes o por quienes ellos designen para la suscripción del acta respectiva, mediante firma electrónica.</parrafo>
+          <parrafo>El/la Liquidador/a o Veedor/a acompañará el acta al tribunal, la que será publicada en el Boletín Concursal al día hábil siguiente de aquel en que la junta de acreedores/as se celebró.</parrafo>
+          <parrafo>Asimismo, las juntas que se celebren de forma telemática deberán registrarse en video con audio, desde su inicio hasta su término y el/la Liquidador/a o Veedor/a deberá conservar el archivo que la contenga, al menos durante 24 meses desde la celebración de la junta, manteniéndolo a disposición de esta Superintendencia, cuando le sea requerido.</parrafo>
+          <parrafo>En caso que algún interesado requiera copia del registro en video, deberá efectuar tal solicitud ante el tribunal donde se tramite el procedimiento que corresponda, salvo en aquellos casos en que este hubiere concluido, pudiendo solicitarlo directamente al/a la Liquidador/a o Veedor/a respectivo.</parrafo>
+        </contenido>
       </articulo>
       <articulo id="7" tipo_original="Artículo" numero="7">
         <titulo_seccion>Artículo 7</titulo_seccion>
         <contexto>TÍTULO II De las Juntas de Acreedores/as celebradas por medios telemáticos</contexto>
-        <texto>El/la Liquidador/a o Veedor/a
-deberá asegurar que las juntas de acreedores/as que se celebren por medios
-telemáticos sean efectuadas en forma continua e ininterrumpida, sin
-perjuicio de la suspensión acordada en junta, permitiendo el debido ejercicio
-de los derechos de los/las asistentes, y observando lo dispuesto en el artículo
-186 de la Ley.
-Con todo, la disponibilidad y correcto
-funcionamiento de los medios tecnológicos de las partes que comparezcan
-remotamente será de su responsabilidad.</texto>
+        <contenido>
+          <parrafo>El/la Liquidador/a o Veedor/a deberá asegurar que las juntas de acreedores/as que se celebren por medios telemáticos sean efectuadas en forma continua e ininterrumpida, sin perjuicio de la suspensión acordada en junta, permitiendo el debido ejercicio de los derechos de los/las asistentes, y observando lo dispuesto en el artículo 186 de la Ley.</parrafo>
+          <parrafo>Con todo, la disponibilidad y correcto funcionamiento de los medios tecnológicos de las partes que comparezcan remotamente será de su responsabilidad.</parrafo>
+        </contenido>
         <referencias>
           <ref articulo="186"/>
         </referencias>
@@ -251,31 +134,16 @@ remotamente será de su responsabilidad.</texto>
       <articulo id="8" tipo_original="Artículo" numero="8">
         <titulo_seccion>Artículo 8</titulo_seccion>
         <contexto>TÍTULO III De la asistencia remota por uno o más interesados a juntas de acreedores/as celebradas de manera presencial</contexto>
-        <texto>En las juntas de acreedores/as
-celebradas presencialmente, los/las interesados/as podrán manifestar su
-intención de asistir de forma remota por videoconferencia, debiendo
-presentar dicha solicitud al/a la Liquidador/a o Veedor/a, mediante correo
-electrónico enviado con a lo menos 3 días de anticipación a la fecha de
-celebración de la respectiva junta. El/la Liquidador/a o Veedor/a deberá
-informar al o los/las interesados/as que manifiesten su voluntad de asistir de
-forma remota, la plataforma que se utilizará y el enlace y clave para el
-ingreso a la junta, por medio de correo electrónico enviado con a lo menos
-2 días hábiles de anticipación a la fecha de celebración de la respectiva junta.
-Para lo anterior, el/la interesado/a deberá
-proporcionar algún medio de contacto, tales como número de teléfono o
-correo electrónico, a efectos de que el/la Liquidador/a o Veedor/a coordine
-la asistencia a la junta. Si no fuere posible contactar a la parte interesada a
-través de los medios ofrecidos tras tres intentos, de lo cual se deberá dejar
-constancia en acta, se entenderá que no ha asistido a la junta.</texto>
+        <contenido>
+          <parrafo>En las juntas de acreedores/as celebradas presencialmente, los/las interesados/as podrán manifestar su intención de asistir de forma remota por videoconferencia, debiendo presentar dicha solicitud al/a la Liquidador/a o Veedor/a, mediante correo electrónico enviado con a lo menos 3 días de anticipación a la fecha de celebración de la respectiva junta. El/la Liquidador/a o Veedor/a deberá informar al o los/las interesados/as que manifiesten su voluntad de asistir de forma remota, la plataforma que se utilizará y el enlace y clave para el ingreso a la junta, por medio de correo electrónico enviado con a lo menos</parrafo>
+          <parrafo>2 días hábiles de anticipación a la fecha de celebración de la respectiva junta.</parrafo>
+          <parrafo>Para lo anterior, el/la interesado/a deberá proporcionar algún medio de contacto, tales como número de teléfono o correo electrónico, a efectos de que el/la Liquidador/a o Veedor/a coordine la asistencia a la junta. Si no fuere posible contactar a la parte interesada a través de los medios ofrecidos tras tres intentos, de lo cual se deberá dejar constancia en acta, se entenderá que no ha asistido a la junta.</parrafo>
+        </contenido>
       </articulo>
       <articulo id="9" tipo_original="Artículo" numero="9">
         <titulo_seccion>Artículo 9</titulo_seccion>
         <contexto>TÍTULO III De la asistencia remota por uno o más interesados a juntas de acreedores/as celebradas de manera presencial</contexto>
-        <texto>De todo lo obrado en las juntas
-de acreedores/as celebradas de conformidad al artículo precedente, deberá
-dejarse constancia conforme a las reglas generales contenidas en el artículo
-184 de la Ley, en relación con lo dispuesto en el artículo 3° de la presente
-norma.</texto>
+        <texto>De todo lo obrado en las juntas de acreedores/as celebradas de conformidad al artículo precedente, deberá dejarse constancia conforme a las reglas generales contenidas en el artículo 184 de la Ley, en relación con lo dispuesto en el artículo 3° de la presente norma.</texto>
         <referencias>
           <ref articulo="3"/>
           <ref articulo="184"/>
@@ -283,90 +151,32 @@ norma.</texto>
       </articulo>
     </titulo>
     <titulo id="4" tipo_original="Título" numero="IV">
-      <titulo_seccion>TÍTULO IV Disposiciones Finales</titulo_seccion>
+      <titulo_seccion>Título IV Disposiciones Finales</titulo_seccion>
       <articulo id="10" tipo_original="Artículo" numero="10">
         <titulo_seccion>Artículo 10</titulo_seccion>
-        <contexto>TÍTULO IV Disposiciones Finales</contexto>
-        <texto>Las notificaciones mediante
-correo electrónico a las que hace referencia la presente norma de carácter
-general se efectuarán en conformidad a lo dispuesto en los incisos 5º y 6º
-del artículo 6 de la Ley N.° 20.720.</texto>
+        <contexto>Título IV Disposiciones Finales</contexto>
+        <texto>Las notificaciones mediante correo electrónico a las que hace referencia la presente norma de carácter general se efectuarán en conformidad a lo dispuesto en los incisos 5º y 6º del artículo 6 de la Ley N.° 20.720.</texto>
         <referencias>
           <ref articulo="6"/>
         </referencias>
       </articulo>
       <articulo id="11" tipo_original="Artículo" numero="11">
         <titulo_seccion>Artículo 11. Vigencia</titulo_seccion>
-        <contexto>TÍTULO IV Disposiciones Finales</contexto>
-        <texto>La presente Norma
-de Carácter General entrará a regir el día 11 de agosto de 2023,
-conjuntamente con la entrada en vigencia de la Ley N.º 21.563.
-2° PUBLÍQUESE la presente resolución en el
-Diario Oficial.
-3° NOTIFÍQUESE la presente resolución a
-los/las Liquidadores/as y Veedores/as pertenecientes a las nóminas
-respectivas de la Superintendencia de Insolvencia y Reemprendimiento.
-4° DISPÓNGASE como medida de publicidad,
-la publicación de la presente resolución en el sitio web institucional de la
-Superintendencia de Insolvencia y Reemprendimiento.</texto>
+        <contexto>Título IV Disposiciones Finales</contexto>
+        <contenido>
+          <parrafo>La presente Norma de Carácter General entrará a regir el día 11 de agosto de 2023, conjuntamente con la entrada en vigencia de la Ley N.º 21.563.</parrafo>
+          <inciso numero="1">PUBLÍQUESE la presente resolución en el Diario Oficial.</inciso>
+          <inciso numero="2">NOTIFÍQUESE la presente resolución a los/las Liquidadores/as y Veedores/as pertenecientes a las nóminas respectivas de la Superintendencia de Insolvencia y Reemprendimiento.</inciso>
+          <inciso numero="3">DISPÓNGASE como medida de publicidad, la publicación de la presente resolución en el sitio web institucional de la Superintendencia de Insolvencia y Reemprendimiento.</inciso>
+        </contenido>
       </articulo>
     </titulo>
   </contenido>
   <promulgacion>RESUELVO:
 
-1º APRUÉBASE la siguiente Norma de
-Carácter General, que regula la celebración telemática de las juntas de
-acreedores/as que no se celebren en las dependencias del tribunal o en el
-lugar que este determine, dentro de los Procedimientos Concursales de
-Liquidación o Reorganización y su Anexo I, denominado “Requisitos técnicos
-mínimos de las plataformas para la realización telemática de las Juntas de
-Acreedores/as no celebradas ante el tribunal o en el lugar que este designe”,
-cuyo texto se adjunta a la presente resolución y forma parte integrante de
-la misma:
+1º APRUÉBASE la siguiente Norma de Carácter General, que regula la celebración telemática de las juntas de acreedores/as que no se celebren en las dependencias del tribunal o en el lugar que este determine, dentro de los Procedimientos Concursales de Liquidación o Reorganización y su Anexo I, denominado “Requisitos técnicos mínimos de las plataformas para la realización telemática de las Juntas de Acreedores/as no celebradas ante el tribunal o en el lugar que este designe”, cuyo texto se adjunta a la presente resolución y forma parte integrante de la misma:
+
 NORMA DE CARÁCTER GENERAL N.° 15
 
-ANÓTESE, PUBLÍQUESE Y ARCHÍVESE,
-PVL/JAA/EGZ/DTC/FRR
-DISTRIBUCION:
--Señores/as Liquidadores/as
--Señores/as Veedores/as
-Presente
-ANEXO I
-REQUISITOS TÉCNICOS MÍNIMOS DE LAS PLATAFORMAS PARA LA
-REALIZACIÓN TELEMÁTICA DE LAS JUNTAS DE ACREEDORES/AS NO
-CELEBRADAS ANTE EL TRIBUNAL O EN EL LUGAR QUE ESTE
-DESIGNE
-Para el cumplimiento de lo dispuesto en el artículo 3° de la presente Norma
-de Carácter General, el/la Liquidador/a o Veedor/a podrá considerar las
-siguientes pautas para efectos de asegurar la efectiva comparecencia de
-forma remota por videoconferencia de los/las asistentes:
-1. Calidad de video y audio
-a) Resolución de video y audio de alta calidad para una experiencia nítida y
-sin interrupciones. Como guía general, se recomienda una resolución mínima
-de 720p (1280 x 720 píxeles) para una experiencia de video de alta calidad.
-Esto proporciona una imagen clara y nítida sin desenfoque ni pixelación. Si
-se dispone de una conexión a internet de alta velocidad y de una
-computadora con una buena capacidad de procesamiento, se puede optar
-por una resolución mayor, como 1080p (1920 x 1080 píxeles) o incluso 4K
-(3840 x 2160 píxeles) si es compatible con la plataforma de videoconferencia
-utilizada.
-b) Capacidad de adaptación a diferentes velocidades de conexión a internet.
-c) Reducción de ruido y eco para una experiencia auditiva agradable.
-2. Usabilidad
-a) Interfaz fácil de usar e intuitiva.
-b) Funciones de control de audio y video accesibles y de fácil acceso.
-c) Funcionalidad de compartir pantalla, cambiar el fondo virtual y grabar la
-reunión.
-3. Seguridad
-Funciones de control de acceso y moderación para garantizar una reunión
-segura y sin interrupciones.
-4. Compatibilidad
-a) Compatibilidad con diferentes dispositivos y sistemas operativos, como
-computadoras, tablets y smartphones.
-b) Capacidad de integración con otras herramientas y aplicaciones, como
-calendarios y gestores de tareas.
-5. Soporte al cliente
-a) Soporte técnico disponible en caso de problemas técnicos.
-b) Recursos de formación y documentación disponibles para el usuario.
-2</promulgacion>
+ANÓTESE, PUBLÍQUESE Y ARCHÍVESE,</promulgacion>
 </ley>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ley xmlns="https://leychile.cl/schema/ley/v1" version="1.0" idioma="es-CL" id_norma="INST-5" tipo="Instructivo" numero="5" estado="vigente" fecha_version="2024-10-03" fecha_promulgacion="2024-10-03" fecha_publicacion="2024-10-03" generado="2026-02-11T14:50:13.937889" fuente="Biblioteca del Congreso Nacional de Chile" url_original="https://www.superir.gob.cl/wp-content/uploads/2024/10/RES_NUM_14477_A_O_2024.pdf">
+<ley xmlns="https://leychile.cl/schema/ley/v1" version="1.0" idioma="es-CL" id_norma="INST-5" tipo="Instructivo" numero="5" estado="vigente" fecha_version="2024-10-03" fecha_promulgacion="2024-10-03" fecha_publicacion="2024-10-03" generado="2026-02-11T15:27:13.270601" fuente="Biblioteca del Congreso Nacional de Chile" url_original="https://www.superir.gob.cl/wp-content/uploads/2024/10/RES_NUM_14477_A_O_2024.pdf">
   <metadatos>
     <titulo>INSTRUCTIVO SUPERIR N°5 - Incautación, resguardo y entrega de bienes</titulo>
     <identificacion>
@@ -23,6 +23,16 @@
       <version>2024-10-03</version>
     </fechas>
     <fuente>Superintendencia de Insolvencia y Reemprendimiento</fuente>
+    <numero_fuente>14477</numero_fuente>
+    <leyes_referenciadas>
+      <ley_ref>Ley 20.720</ley_ref>
+      <ley_ref>Ley 21.563</ley_ref>
+      <ley_ref>Ley 18.575</ley_ref>
+      <ley_ref>Ley 19.880</ley_ref>
+      <ley_ref>Ley 19.799</ley_ref>
+      <ley_ref>DFL 1-19.653</ley_ref>
+      <ley_ref>D.S. 181</ley_ref>
+    </leyes_referenciadas>
   </metadatos>
   <encabezado>VISTOS:
 
@@ -153,8 +163,8 @@ N.º 20.720, indicando, además, el nombre de la empresa deudora, su R.U.T.
 y el lugar, día y hora de inicio y término del respectivo inventario, el que será
 firmado por el liquidador y el ministro de fe que intervenga en la diligencia.</texto>
         <referencias>
-          <ref articulo="164"/>
           <ref articulo="165"/>
+          <ref articulo="164"/>
         </referencias>
       </articulo>
       <articulo id="6" tipo_original="Artículo" numero="6">
@@ -200,9 +210,9 @@ crédito respectiva, de conformidad a las reglas generales contenidas en los
 artículos 170 y 277, respectivamente, dependiendo del procedimiento de
 liquidación de que se trate.</texto>
         <referencias>
-          <ref articulo="129"/>
-          <ref articulo="240"/>
           <ref articulo="238"/>
+          <ref articulo="240"/>
+          <ref articulo="129"/>
         </referencias>
       </articulo>
       <articulo id="8" tipo_original="Artículo" numero="8">
@@ -374,9 +384,9 @@ deudora, tales como informes de auditores externos, importaciones,
 inventarios y en general, toda documentación de significación para la
 evaluación y análisis financiero, contable y legal de la empresa deudora.</texto>
         <referencias>
-          <ref articulo="36"/>
           <ref articulo="163"/>
           <ref articulo="169"/>
+          <ref articulo="36"/>
         </referencias>
       </articulo>
       <articulo id="11" tipo_original="Artículo" numero="11">
@@ -449,8 +459,8 @@ de cese anticipado de un liquidador deberá estarse a lo previsto en el
 Instructivo Superir N.º 1 de 2024, aprobado mediante Resolución Exenta N.º
 4389 de 4 de abril de 2024.</texto>
         <referencias>
-          <ref articulo="24"/>
           <ref articulo="2"/>
+          <ref articulo="24"/>
         </referencias>
       </articulo>
       <articulo id="13" tipo_original="Artículo" numero="13">
@@ -489,14 +499,14 @@ Incautación Remuneraciones del Deudor en Liquidación.</texto>
         <contexto>TÍTULO I Procedimiento de Liquidación Voluntaria de Empresa Deudora</contexto>
         <texto>° 20.720, respecto a la embargabilidad de las remuneraciones de la persona deudora sometida a un procedimiento concursal de liquidación, los liquidadores deberán tener presente lo siguiente: 1. Del carácter inembargable de las remuneraciones. El procedimiento concursal de liquidación es un juicio universal que afecta a todos los bienes presentes de la persona deudora, con excepción de aquellos inembargables, en relación con lo dispuesto en el número 1 del artículo 130 de la Ley N.º 20.720. De lo anterior, el artículo 276 del mismo cuerpo legal, establece expresamente la “inembargabilidad” de las remuneraciones, siendo ello una remisión a tal institución, establecida en el número 2 del artículo 445 del Código de Procedimiento Civil, y en el artículo 57 del Código del Trabajo, ubicado en el Capítulo VI del Libro Primero del código citado, que se denomina “De la protección de las remuneraciones”. En tal sentido, se desprende de las normas señaladas que, por regla general, la ley garantiza el carácter de inembargable de las remuneraciones, el que es contemplado, por tanto, como una limitación al derecho de garantía general de los acreedores, consagrado en el artículo 2465 del Código Civil. De acuerdo a ello, tales bienes no ingresarán al patrimonio concursado, no obstante, existir a su vez, excepciones establecidas expresamente en la normativa concursal y demás cuerpos legales que se pronuncian sobre la materia, como se expondrá. 2. Sobre el concepto de remuneración. Para los efectos de determinar qué bienes de la persona deudora se comprenden dentro del concepto de remuneración, deberá estarse a lo dispuesto en el artículo 41 del Código del Trabajo, que las define como: “… las contraprestaciones en dinero y las adicionales en especie avaluables en dinero que debe percibir el trabajador del empleador por causa del contrato de trabajo.” El mismo artículo, en su inciso segundo, señala, además, que: “No constituyen remuneración las asignaciones de movilización, de pérdida de caja, de desgaste de herramientas y de colación, los viáticos, las prestaciones familiares otorgadas en conformidad a la ley, las indemnizaciones establecidas en el artículo 163 y las demás que proceda pagar al extinguirse la relación contractual ni, en general, las devoluciones de gastos en que se incurra por causa del trabajo. A su vez, el artículo 42 del Código del Trabajo, estableció un catálogo de bienes que constituyen remuneración, el que no tiene el carácter de taxativo, sino meramente enunciativo. Todo lo anterior, deberá ser observado por el liquidador para determinar que bienes efectivamente ingresarán a la masa concursal, durante la administración del procedimiento. 3. De la embargabilidad de las remuneraciones del Deudor en la parte que exceden de cincuenta y seis unidades de fomento. Como se expuso, por regla general las remuneraciones de la persona deudora son inembargables; sin embargo, se establecen determinadas excepciones en la normativa concursal, las que se remiten a las señaladas en el Código del Trabajo. Al respecto, el artículo 276 de la Ley N.º 20.720, dispone que: “… sólo podrá embargarse la remuneración de la Persona Deudora hasta por tres meses después de dictada la resolución de liquidación de bienes de la Persona Deudora”, norma que debe ser interpretada en concordancia con el principio de protección de las remuneraciones contemplado en los artículos 54 y siguientes del Código del Trabajo. En efecto, el artículo 57 del Código del Trabajo, en su inciso primero dispone que: “Las remuneraciones de los trabajadores y las cotizaciones de seguridad social serán inembargables. No obstante, podrán ser embargadas las remuneraciones en la parte que excedan de cincuenta y seis unidades de fomento, las que deberán ser calculadas para su incautación, en conformidad con lo dispuesto en el Oficio Superir N.° 2008 de 16 de febrero de 2018, de instrucción general. Por su parte, atendido a que dicha norma se ubica en el</texto>
         <referencias>
-          <ref articulo="276"/>
-          <ref articulo="2465"/>
           <ref articulo="163"/>
           <ref articulo="42"/>
-          <ref articulo="130"/>
-          <ref articulo="41"/>
           <ref articulo="445"/>
           <ref articulo="57"/>
+          <ref articulo="130"/>
+          <ref articulo="2465"/>
+          <ref articulo="41"/>
+          <ref articulo="276"/>
         </referencias>
       </articulo>
     </titulo>
@@ -523,11 +533,11 @@ artículo 131 de la Ley N.º 20.720, y
 c) Cuando proceda la incautación del exceso de las
 remuneraciones, incluir los descuentos voluntarios en la base de cálculo.</texto>
         <referencias>
-          <ref articulo="276"/>
           <ref articulo="131"/>
-          <ref articulo="22"/>
           <ref articulo="8"/>
           <ref articulo="57"/>
+          <ref articulo="22"/>
+          <ref articulo="276"/>
         </referencias>
       </articulo>
       <articulo id="17" tipo_original="Artículo" numero="17">
@@ -619,10 +629,10 @@ presente Instructivo.</texto>
       </articulo>
     </titulo>
     <titulo id="4" tipo_original="Título" numero="III">
-      <titulo_seccion>TÍTULO III Conservación y Eliminación de Documentación de la Liquidación y</titulo_seccion>
+      <titulo_seccion>TÍTULO III Conservación y Eliminación de Documentación de la Liquidación y del Deudor.</titulo_seccion>
       <articulo id="22" tipo_original="Artículo" numero="22">
         <titulo_seccion>Artículo 22</titulo_seccion>
-        <contexto>TÍTULO III Conservación y Eliminación de Documentación de la Liquidación y</contexto>
+        <contexto>TÍTULO III Conservación y Eliminación de Documentación de la Liquidación y del Deudor.</contexto>
         <texto>Los documentos de los procedimientos
 concursales de liquidación ordinarios y simplificados deberán ser
 conservados por el liquidador, hasta un año después de aprobada la cuenta
@@ -631,7 +641,7 @@ deberá devolver estos documentos al deudor.</texto>
       </articulo>
       <articulo id="23" tipo_original="Artículo" numero="23">
         <titulo_seccion>Artículo 23</titulo_seccion>
-        <contexto>TÍTULO III Conservación y Eliminación de Documentación de la Liquidación y</contexto>
+        <contexto>TÍTULO III Conservación y Eliminación de Documentación de la Liquidación y del Deudor.</contexto>
         <texto>En aquellos casos en que, transcurrido el
 plazo señalado en el artículo anterior, el liquidador se vea en la imposibilidad
 de devolver los referidos documentos, sea porque el Deudor no ha podido
@@ -659,7 +669,7 @@ letra B precedente y acompañar copia de la referida acta.</texto>
       </articulo>
       <articulo id="24" tipo_original="Artículo" numero="24">
         <titulo_seccion>Artículo 24</titulo_seccion>
-        <contexto>TÍTULO III Conservación y Eliminación de Documentación de la Liquidación y</contexto>
+        <contexto>TÍTULO III Conservación y Eliminación de Documentación de la Liquidación y del Deudor.</contexto>
         <texto>No obstante, lo señalado en el artículo
 que precede, el liquidador no podrá destruir en caso alguno, la siguiente
 documentación:
@@ -684,7 +694,7 @@ del Código Tributario.</texto>
       </articulo>
       <articulo id="25" tipo_original="Artículo" numero="25">
         <titulo_seccion>Artículo 25</titulo_seccion>
-        <contexto>TÍTULO III Conservación y Eliminación de Documentación de la Liquidación y</contexto>
+        <contexto>TÍTULO III Conservación y Eliminación de Documentación de la Liquidación y del Deudor.</contexto>
         <texto>El liquidador deberá conservar al menos
 por 5 años contados desde la aprobación de la cuenta final de administración,
 los originales o copias autorizadas ante Notario Público o ante el Secretario
@@ -694,7 +704,7 @@ continuación del giro.</texto>
       </articulo>
       <articulo id="26" tipo_original="Artículo" numero="26">
         <titulo_seccion>Artículo 26</titulo_seccion>
-        <contexto>TÍTULO III Conservación y Eliminación de Documentación de la Liquidación y</contexto>
+        <contexto>TÍTULO III Conservación y Eliminación de Documentación de la Liquidación y del Deudor.</contexto>
         <texto>La facultad de autorizar la eliminación de
 parte de la documentación de los procedimientos concursales de liquidación,
 antes del plazo señalado en el párrafo 2º del numeral 3 del artículo 337 de
@@ -712,7 +722,7 @@ representen.</texto>
       </articulo>
       <articulo id="27" tipo_original="Artículo" numero="27">
         <titulo_seccion>Artículo 27</titulo_seccion>
-        <contexto>TÍTULO III Conservación y Eliminación de Documentación de la Liquidación y</contexto>
+        <contexto>TÍTULO III Conservación y Eliminación de Documentación de la Liquidación y del Deudor.</contexto>
         <texto>La facultad de autorizar la devolución al
 deudor de parte de la documentación incautada, antes del plazo señalado en
 el párrafo 2º del numeral 3 del artículo 337 de la Ley N.º 20.720, de acuerdo
@@ -728,7 +738,7 @@ se pretenden devolver.</texto>
       </articulo>
       <articulo id="28" tipo_original="Artículo" numero="28">
         <titulo_seccion>Artículo 28</titulo_seccion>
-        <contexto>TÍTULO III Conservación y Eliminación de Documentación de la Liquidación y</contexto>
+        <contexto>TÍTULO III Conservación y Eliminación de Documentación de la Liquidación y del Deudor.</contexto>
         <texto>La facultad del Superintendente de
 autorizar al liquidador para conservar reproducciones mecánicas,
 fotográficas o digitales que fueren parte de la documentación de los

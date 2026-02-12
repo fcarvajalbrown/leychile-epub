@@ -288,34 +288,34 @@ NCG_CATALOG: dict[str, dict[str, Any]] = {
     },
     "7": {
         "url": "https://www.superir.gob.cl/wp-content/document/normas/NCG_N7_Contenidos_Obligatorios.pdf",
-        "titulo_completo": "NORMA DE CARÁCTER GENERAL N°7 - Contenidos obligatorios del acta de incautación",
+        "titulo_completo": "NORMA DE CARÁCTER GENERAL N°7 - Forma y contenidos obligatorios de las cuentas provisorias y de la Cuenta Final de Administración",
         "resolucion_exenta": "",
         "anio_resolucion": "2014",
         "materias": [
-            "Contenidos obligatorios",
-            "Acta de incautación",
+            "Cuentas provisorias",
+            "Cuenta Final de Administración",
             "Liquidación",
         ],
         "leyes_habilitantes": ["20720"],
         "deroga": [],
         "modifica": [],
-        "nombres_comunes": ["NCG de Incautación"],
+        "nombres_comunes": ["NCG de Cuentas de Administración"],
         "categoria": "Liquidación",
     },
     "6": {
         "url": "https://www.superir.gob.cl/wp-content/document/normas/NCG_N6_Forma_de_Otorgar.pdf",
-        "titulo_completo": "NORMA DE CARÁCTER GENERAL N°6 - Forma de otorgar poder para actuar en procedimientos concursales",
+        "titulo_completo": "NORMA DE CARÁCTER GENERAL N°6 - Forma de otorgar la garantía para asegurar los pagos de acreedores de primera clase",
         "resolucion_exenta": "",
         "anio_resolucion": "2014",
         "materias": [
-            "Poder",
-            "Representación",
+            "Garantía",
+            "Acreedores de primera clase",
             "Procedimientos concursales",
         ],
         "leyes_habilitantes": ["20720"],
         "deroga": [],
         "modifica": [],
-        "nombres_comunes": ["NCG de Poderes"],
+        "nombres_comunes": ["NCG de Garantías"],
         "categoria": "Procedimiento",
     },
     "4": {
@@ -346,6 +346,23 @@ def setup_logging(verbose: bool = False) -> None:
     )
 
 
+def _find_text_file(ncg_num: str) -> Path | None:
+    """Busca archivo de texto pre-existente para una NCG.
+
+    Revisa en orden:
+    1. normas_ncg/texto/NCG_{num}.txt (transcripciones manuales)
+    2. biblioteca_xml/organismos/SUPERIR/NCG/texto/NCG_{num}.txt (extracciones previas)
+    """
+    candidates = [
+        Path("normas_ncg/texto") / f"NCG_{ncg_num}.txt",
+        Path("biblioteca_xml/organismos/SUPERIR/NCG/texto") / f"NCG_{ncg_num}.txt",
+    ]
+    for p in candidates:
+        if p.exists() and p.stat().st_size > 100:
+            return p
+    return None
+
+
 def process_single_ncg(
     ncg_num: str,
     info: dict[str, Any],
@@ -369,7 +386,13 @@ def process_single_ncg(
         log.info(f"Procesando NCG N°{ncg_num}")
         log.info(f"URL: {url}")
 
-        texto, pdf_path = extractor.download_and_extract(url)
+        # Primero buscar texto pre-existente (transcripciones manuales)
+        text_file = _find_text_file(ncg_num)
+        if text_file:
+            texto = text_file.read_text(encoding="utf-8")
+            log.info(f"Usando texto pre-existente: {text_file} ({len(texto):,} chars)")
+        else:
+            texto, pdf_path = extractor.download_and_extract(url)
 
         if text_output_dir:
             text_path = text_output_dir / f"NCG_{ncg_num}.txt"

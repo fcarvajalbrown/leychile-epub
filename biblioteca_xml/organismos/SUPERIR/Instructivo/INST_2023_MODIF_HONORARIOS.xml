@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ley xmlns="https://leychile.cl/schema/ley/v1" version="1.0" idioma="es-CL" id_norma="INST-1" tipo="Instructivo" numero="1" estado="vigente" fecha_version="2023-11-03" fecha_promulgacion="2023-11-03" fecha_publicacion="2023-11-03" generado="2026-02-11T14:50:17.454773" fuente="Biblioteca del Congreso Nacional de Chile" url_original="https://www.superir.gob.cl/wp-content/uploads/2023/11/RES_NUM_9074_A_O_2023.pdf">
+<ley xmlns="https://leychile.cl/schema/ley/v1" version="1.0" idioma="es-CL" id_norma="INST-1" tipo="Instructivo" numero="1" estado="vigente" fecha_version="2023-11-03" fecha_promulgacion="2023-11-03" fecha_publicacion="2023-11-03" generado="2026-02-11T15:27:16.338515" fuente="Biblioteca del Congreso Nacional de Chile" url_original="https://www.superir.gob.cl/wp-content/uploads/2023/11/RES_NUM_9074_A_O_2023.pdf">
   <metadatos>
     <titulo>Resolución que modifica instructivo de pago de honorarios (octubre 2023)</titulo>
     <identificacion>
@@ -22,6 +22,14 @@
       <version>2023-11-03</version>
     </fechas>
     <fuente>Superintendencia de Insolvencia y Reemprendimiento</fuente>
+    <numero_fuente>9074</numero_fuente>
+    <leyes_referenciadas>
+      <ley_ref>Ley 20.720</ley_ref>
+      <ley_ref>Ley 21.563</ley_ref>
+      <ley_ref>Ley 18.575</ley_ref>
+      <ley_ref>Ley 19.880</ley_ref>
+      <ley_ref>DFL 1/19.653</ley_ref>
+    </leyes_referenciadas>
   </metadatos>
   <encabezado>VISTOS:
 
@@ -127,9 +135,9 @@ Procedimiento Concursal de Liquidación Simplificada.</texto>
         <contexto>TÍTULO I Antecedentes para presentar la solicitud</contexto>
         <texto>Los antecedentes a acompañar a la solicitud de pago de honorarios son los siguientes: 1) Información sobre los vehículos motorizados de propiedad del deudor. El/la liquidador/a deberá acompañar información sobre los vehículos del deudor obtenida mediante consulta al Servicio de Registro Civil e Identificación a través del Portal de Sujetos Fiscalizados. También deberá acompañarse el registro histórico, con el fin de determinar que el deudor no transfirió un vehículo en el período de revocabilidad concursal. 2) Información sobre derechos hereditarios del deudor. Deberá acreditarse que el deudor no tiene derechos hereditarios que debieron ingresar al concurso. Esta acreditación deberá realizarse acompañando información sobre fecha de defunción y posesión efectiva de los padres obtenida mediante consulta al Servicio de Registro Civil e Identificación a través del Portal de Sujetos Fiscalizados, donde conste que los padres del deudor no han fallecido o que la fecha del fallecimiento es superior a diez años previos a la fecha de la resolución de liquidación. Si existen derechos hereditarios, pero la posesión efectiva no está tramitada, el/la liquidador/a podrá enajenar la cuota que le corresponda al deudor heredero, teniendo en consideración lo dispuesto en el Oficio Superir N.° 14006 de 6 de septiembre de 2023, de instrucción general de esta Superintendencia. Este numeral no será aplicable a procedimientos referidos a personas jurídicas. 3) Información tributaria del deudor. El/la liquidador/a deberá acreditar el cumplimiento de las obligaciones tributarias mientras tenga a su cargo el procedimiento concursal, de conformidad a lo establecido en la Circular N.° 64 de 13 de julio de 2015 del Servicio de Impuestos Internos y Oficio Superir N.° 299 de 12 de septiembre de 2017 en relación al artículo 8 N.° 6 del Código Tributario. Esta acreditación deberá realizarse acompañando la Carpeta Tributaria Electrónica para solicitar créditos del deudor, donde conste el cumplimiento. En la fiscalización se dará especial énfasis a las declaraciones de renta e IVA, cuando correspondan. Si el deudor está exento de presentar la declaración de renta, el/la liquidador/a tendrá la carga de acompañar antecedentes que así lo acrediten. La información tributaria acompañada deberá acreditar que las obligaciones tributarias estén actualizadas al momento de la presentación de la solicitud de pago. En caso de que proceda algún beneficio tributario, como por ejemplo la devolución por intereses de créditos hipotecarios o gastos de educación, el/la liquidador/a deberá requerir del deudor la información necesaria, y dar lugar a su incautación, en caso que resulte pertinente. 4) Información emitida por la Tesorería General de la República sobre devoluciones de impuestos retenidas, susceptibles de ingresar a la masa. Para entenderse cumplido este punto, el/la liquidador/a deberá acompañar una captura de pantalla del sistema dispuesto por la Tesorería General de la República para consultar si el deudor tiene devoluciones retenidas y acreditar las gestiones efectuadas para obtener las devoluciones que correspondan. Se exceptúan de esta obligación aquellos procedimientos en los cuales la declaración de renta correspondiente al período previo a la dictación de la resolución de liquidación dio como resultado cero en la devolución. Tampoco será exigible en los casos en que el deudor no esté obligado a realizar la declaración, cumpliéndose lo señalado en el numeral precedente. Asimismo, se exceptúan de esta obligación aquellos procedimientos concursales que hayan sido iniciados con posterioridad al periodo de declaración de renta y terminados antes del siguiente período, por cuanto en este caso no existen devoluciones que ingresar a la masa. 5) Información sobre inmuebles del deudor. Se debe acreditar que el deudor no tiene en su patrimonio inmuebles susceptibles de ingresar al concurso. Para esto, el/la liquidador/a deberá acompañar información del Servicio de Impuestos Internos, contenida en la carpeta tributaria, sobre los bienes raíces asociados al deudor, informando sobre la situación jurídica de los mismos. Asimismo, si de esta información consta que el deudor tiene inmuebles, el/la liquidador/a deberá obtener información del respectivo Conservador de Bienes Raíces y determinar si la inscripción se encuentra vigente, acompañando esta información a la solicitud de pago. 6) Información sobre derechos sociales del deudor. Se debe acreditar que el deudor no tiene en su patrimonio derechos sociales susceptibles de ingresar al concurso. Esta información deberá constar en la carpeta tributaria acompañada conforme al numeral 3 precedente. En caso de que figuren derechos sociales, debe constar su ingreso al concurso, u otra medida contemplada en la Ley. 7) Información sobre la aplicación del artículo 229 o artículo 279 B de la Ley. En caso de que los/las acreedores/as, o el/la liquidador/a en su caso, decidan adoptar la facultad de no perseverar en la persecución de bienes contemplada en el artículo 229 de la Ley N.° 20.720, se deberá acompañar a la solicitud de pago de honorarios las respectivas citaciones y el acta de la junta, o las certificaciones de no celebración, cumpliendo estrictamente lo dispuesto en el señalado artículo 229, observando también lo dispuesto en el Oficio Superir N.° 3023 de 24 de febrero de 2022, de instrucción general de esta Superintendencia, especialmente lo relativo a la determinación de los bienes y a la relación costo-beneficio que fundamente la decisión. Sin perjuicio de lo anterior, los documentos que se considerarán válidos para la fiscalización serán las publicaciones realizadas en el Boletín Concursal. Así, si estos faltaren o se detectare algún incumplimiento, se rechazará el punto. Tratándose de procedimientos simplificados, si el/la liquidador/a aplica la facultad contemplada en el artículo 279 B de la Ley, deberá acompañar la resolución del tribunal que apruebe la solicitud. Además, en caso de que los acreedores decidan adoptar la decisión de no perseverar en otra junta de acreedores, como la Junta Constitutiva de Acreedores, se deberá indicar expresamente en la solicitud de pago. 8) Copia de la demanda de acción revocatoria concursal, si se hubiere interpuesto, de conformidad con lo dispuesto en el</texto>
         <referencias>
+          <ref articulo="279"/>
           <ref articulo="8"/>
           <ref articulo="229"/>
-          <ref articulo="279"/>
         </referencias>
       </articulo>
       <capitulo id="3" tipo_original="Capítulo" numero="VI">
@@ -166,9 +174,9 @@ exigidos en el artículo 4° del presente Instructivo, con aquellos
 antecedentes que deba acompañar el deudor en la solicitud de inicio del
 procedimiento, corroborando su veracidad y completitud.</texto>
           <referencias>
-            <ref articulo="4"/>
-            <ref articulo="1699"/>
             <ref articulo="169"/>
+            <ref articulo="1699"/>
+            <ref articulo="4"/>
           </referencias>
         </articulo>
         <articulo id="6" tipo_original="Artículo" numero="6">
@@ -282,8 +290,8 @@ Superintendencia es un servicio público descentralizado.
 En cualquier caso, quedará sujeta a esta
 Superintendencia la valoración de los antecedentes aportados.</texto>
         <referencias>
-          <ref articulo="59"/>
           <ref articulo="60"/>
+          <ref articulo="59"/>
         </referencias>
       </articulo>
     </titulo>
@@ -459,11 +467,11 @@ una vez que se encuentre totalmente tramitado el presente acto
 administrativo, su publicación en el sitio web institucional de la
 Superintendencia de Insolvencia y Reemprendimiento.</texto>
         <referencias>
-          <ref articulo="3"/>
+          <ref articulo="57"/>
           <ref articulo="6"/>
           <ref articulo="40"/>
-          <ref articulo="57"/>
           <ref articulo="12"/>
+          <ref articulo="3"/>
         </referencias>
       </articulo>
     </titulo>

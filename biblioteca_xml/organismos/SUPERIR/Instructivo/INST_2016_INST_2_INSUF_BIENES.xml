@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ley xmlns="https://leychile.cl/schema/ley/v1" version="1.0" idioma="es-CL" id_norma="INST-2" tipo="Instructivo" numero="2" estado="vigente" fecha_publicacion="2016-11-02" generado="2026-02-11T14:50:21.010731" fuente="Biblioteca del Congreso Nacional de Chile" url_original="https://www.superir.gob.cl/wp-content/document/biblioteca_digital/instructivos/ley-20.720/Instructivo_2_02.11.16.pdf">
+<ley xmlns="https://leychile.cl/schema/ley/v1" version="1.0" idioma="es-CL" id_norma="INST-2" tipo="Instructivo" numero="2" estado="vigente" fecha_publicacion="2016-11-02" generado="2026-02-11T15:27:18.910243" fuente="Biblioteca del Congreso Nacional de Chile" url_original="https://www.superir.gob.cl/wp-content/document/biblioteca_digital/instructivos/ley-20.720/Instructivo_2_02.11.16.pdf">
   <metadatos>
     <titulo>INSTRUCTIVO SIR N°2/2016 - Concepto de insuficiencia de bienes (art. 267)</titulo>
     <identificacion>
@@ -81,9 +81,9 @@ honorario único y total de 30 unidades de fomento, el que será pagado por
 la Superintendencia de Insolvencia y Reemprendimiento, con cargo a su
 presupuesto.</texto>
       <referencias>
+        <ref articulo="267"/>
         <ref articulo="2472"/>
         <ref articulo="40"/>
-        <ref articulo="267"/>
       </referencias>
     </articulo>
     <articulo id="2" tipo_original="Artículo" numero="20">
