@@ -131,7 +131,7 @@ def main():
     """Convierte XMLs seleccionados a Markdown."""
     base_path = Path(__file__).parent.parent
     biblioteca_path = base_path / 'biblioteca_xml'
-    output_path = base_path / 'normas_md'
+    output_path = base_path / 'trabajo' / 'normas_md'
     output_path.mkdir(exist_ok=True)
     
     # Normas a convertir (selección diversa)

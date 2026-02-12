@@ -158,8 +158,8 @@ def main() -> int:
     )
     parser.add_argument(
         "--ncg-dir",
-        default="normas_ncg",
-        help="Directorio con NCGs a migrar (default: normas_ncg)",
+        default="biblioteca_xml/organismos/SUPERIR/NCG",
+        help="Directorio con NCGs (default: biblioteca_xml/organismos/SUPERIR/NCG)",
     )
     parser.add_argument(
         "--dry-run",

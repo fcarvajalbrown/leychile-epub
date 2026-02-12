@@ -57,9 +57,18 @@ src/leychile_epub/
 
 ## Datos
 
-- `biblioteca_xml/` - 91 archivos XML de normas chilenas
+- `biblioteca_xml/` - Biblioteca canónica de normas chilenas en XML
+  - `leyes/` - Leyes ordinarias
+  - `codigos/` - Códigos (Civil, Penal, Trabajo, etc.)
+  - `decretos/` - DFL, DL, decretos supremos
+  - `constitucion/` - Constitución Política
+  - `auto_acordados/` - Auto acordados judiciales
+  - `organismos/` - Normativa de organismos reguladores
+    - `CMF/NCG/` - Normas CMF
+    - `SUPERIR/NCG/` - NCGs SUPERIR (XML + texto + PDFs fuente)
+    - `SUPERIR/Instructivo/` - Instructivos SUPERIR
 - `schemas/ley_v1.xsd` - Esquema XSD para validación
-- `normas_md/` - Leyes en formato Markdown
+- `trabajo/normas_md/` - Leyes en Markdown (borradores de trabajo, no definitivos)
 
 ## API de la BCN
 

@@ -151,16 +151,16 @@ def run_md_a_xml(md_path: Path):
 def main():
     """Ejecuta tests para todos los Markdowns en normas_md/."""
     base_path = Path(__file__).parent.parent
-    normas_md_path = base_path / 'normas_md'
-    
+    normas_md_path = base_path / 'trabajo' / 'normas_md'
+
     if not normas_md_path.exists():
-        print("❌ Carpeta normas_md/ no encontrada")
+        print("❌ Carpeta trabajo/normas_md/ no encontrada")
         return
-    
+
     md_files = list(normas_md_path.glob('*.md'))
-    
+
     if not md_files:
-        print("❌ No hay archivos .md en normas_md/")
+        print("❌ No hay archivos .md en trabajo/normas_md/")
         return
     
     print("\n" + "="*70)

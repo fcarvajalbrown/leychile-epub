@@ -146,7 +146,8 @@ exports/
 store.json
 uv.lock
 .pdf_cache/
-normas_ncg/
+# PDFs fuente (binarios pesados)
+biblioteca_xml/organismos/SUPERIR/NCG/pdfs/
 
 # Replit
 replit.md

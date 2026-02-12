@@ -349,12 +349,9 @@ def setup_logging(verbose: bool = False) -> None:
 def _find_text_file(ncg_num: str) -> Path | None:
     """Busca archivo de texto pre-existente para una NCG.
 
-    Revisa en orden:
-    1. normas_ncg/texto/NCG_{num}.txt (transcripciones manuales)
-    2. biblioteca_xml/organismos/SUPERIR/NCG/texto/NCG_{num}.txt (extracciones previas)
+    Busca en biblioteca_xml/organismos/SUPERIR/NCG/texto/NCG_{num}.txt
     """
     candidates = [
-        Path("normas_ncg/texto") / f"NCG_{ncg_num}.txt",
         Path("biblioteca_xml/organismos/SUPERIR/NCG/texto") / f"NCG_{ncg_num}.txt",
     ]
     for p in candidates:
