@@ -73,6 +73,10 @@ format-check:
 type-check:
 	mypy src/leychile_epub --ignore-missing-imports
 
+# Validate SUPERIR NCG XMLs against schema
+validate-superir:
+	$(PYTHON) scripts/validate_superir.py --verbose
+
 # All checks combined
 check: format-check lint type-check test
 	@echo "✅ All checks passed!"

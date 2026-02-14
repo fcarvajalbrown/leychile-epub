@@ -34,8 +34,10 @@
       <ley_ref tipo="Ley" numero="19.799">Ley 19.799</ley_ref>
       <ley_ref tipo="DFL" numero="1-19.653">DFL 1-19.653</ley_ref>
       <ley_ref tipo="D.S." numero="181">D.S. 181</ley_ref>
-      <ley_ref tipo="NCG" numero="14">NCG 14</ley_ref>
     </leyes_referenciadas>
+    <ncg_referenciadas>
+      <ncg_ref numero="14" relacion="cita">NCG N° 14</ncg_ref>
+    </ncg_referenciadas>
   </metadatos>
   <vistos>
     <parrafo>Las facultades que me confiere la Ley N.° 20.720, que sustituyó el régimen concursal vigente por una Ley de Reorganización y Liquidación de Activos de Empresas y Personas; lo dispuesto en la Ley N.º 21.563, que Moderniza los Procedimientos Concursales Contemplados en la Ley N.° 20.720 y Crea Nuevos Procedimientos para Micro y Pequeñas Empresas; en el D.F.L. N.º 1-19.653, de 17 de noviembre de 2001, que fija el texto Refundido, Coordinado y Sistematizado de la Ley N.º 18.575, Orgánica Constitucional de Bases Generales de la Administración del Estado; en la Ley N.º 19.880, que establece Bases de los Procedimientos Administrativos que Rigen los Actos de los Órganos de la Administración del Estado; en la Ley N.º 19.799 sobre Documentos Electrónicos, Firma Electrónica y Servicios de Certificación de Dicha Firma; en el Decreto Supremo N.º 181 de 17 de agosto de 2002, del Ministerio de Economía, Fomento y Turismo, que Aprueba el Reglamento de la Ley N.º 19.799 sobre Documentos Electrónicos, Firma Electrónica y la Certificación de Dicha Firma; en la Resolución N.° 7 de 2019 de la Contraloría General de la República, que fija normas sobre Exención del Trámite de Toma de Razón, y en el Decreto N.° 8 de 19 de enero de 2023, del Ministerio de Economía, Fomento y Turismo.</parrafo>

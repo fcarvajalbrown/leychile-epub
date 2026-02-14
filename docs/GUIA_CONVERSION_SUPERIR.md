@@ -504,5 +504,108 @@ Al recibir un texto Markdown de una norma SUPERIR:
 
 ---
 
+---
+
+## 13. Normas de Carácter General (NCGs) - Schema `superir_v1.xsd`
+
+Las NCGs usan un schema distinto al de instructivos: `schemas/superir_v1.xsd` con namespace `https://superir.cl/schema/norma/v1`.
+
+### 13.1 Nomenclatura
+
+```
+NCG_{N}.xml    → NCG N° {N} de SUPERIR
+```
+
+Ubicación: `biblioteca_xml/organismos/SUPERIR/NCG/`
+
+### 13.2 Elemento raíz `<norma>`
+
+```xml
+<norma xmlns="https://superir.cl/schema/norma/v1"
+       tipo="Norma de Carácter General"
+       numero="22"
+       organismo="Superintendencia de Insolvencia y Reemprendimiento"
+       version="1.0"
+       estado="vigente"
+       generado="2026-02-14T12:00:00">
+```
+
+### 13.3 Estructura general
+
+```
+<norma>
+  <acto_administrativo/>      <!-- NCGs 14+ (resolución exenta) -->
+  <encabezado/>               <!-- lugar, fecha, identificación -->
+  <metadatos/>                <!-- título, materias, fechas, leyes, NCGs ref -->
+  <vistos/>                   <!-- base legal -->
+  <considerandos/>            <!-- razonamientos numerados -->
+  <formula_dictacion/>        <!-- NCGs tempranas (4-10) -->
+  <resolutivo/>               <!-- NCGs 14+ (puntos resolutivos) -->
+  <preambulo_ncg/>            <!-- opcional, texto introductorio -->
+  <cuerpo_normativo/>         <!-- articulado -->
+  <resolutivo_final/>         <!-- puntos resolutivos finales -->
+  <cierre/>                   <!-- fórmula, firmante, distribución -->
+  <anexo/>                    <!-- 0..N anexos con estructura semántica -->
+</norma>
+```
+
+### 13.4 Jerarquía del cuerpo normativo
+
+Cinco variantes documentadas:
+
+| Variante | Jerarquía | Ejemplo |
+|----------|-----------|---------|
+| A | `titulo → articulo` | NCG 4, 6, 14-26 |
+| B | `titulo → parrafo → articulo` | NCG 7 |
+| C | `titulo → capitulo → articulo` | NCG 16, 22, 24, 26 |
+| D | `capitulo → titulo → articulo` | NCG 28 |
+| E | `articulo` directo | NCG 27 |
+
+### 13.5 Referencias cruzadas entre NCGs
+
+Se usa `<ncg_referenciadas>` en metadatos (NO `ley_ref tipo="NCG"`):
+
+```xml
+<ncg_referenciadas>
+  <ncg_ref numero="14" relacion="cita">NCG N° 14</ncg_ref>
+  <ncg_ref numero="21" relacion="deroga">NCG N° 21</ncg_ref>
+</ncg_referenciadas>
+```
+
+Relaciones válidas: `cita`, `deroga`, `modifica`, `complementa`, `reemplaza`, `derogada_por`, `modificada_por`.
+
+### 13.6 Validación
+
+```bash
+make validate-superir
+# o directamente:
+python scripts/validate_superir.py --verbose
+```
+
+### 13.7 Corpus actual (18 NCGs)
+
+| NCG | Artículos | Anexos | Materia principal |
+|-----|-----------|--------|-------------------|
+| 4 | 4 | 0 | Modelo solicitud reorganización |
+| 6 | 6 | 0 | Garantía acreedores primera clase |
+| 7 | 21 | 4 | Cuentas provisorias y final |
+| 10 | 9 | 0 | Garantía de fiel desempeño |
+| 14 | 20 | 0 | Boletín Concursal |
+| 15 | 11 | 1 | Juntas de acreedores |
+| 16 | 22 | 0 | Exámenes de conocimiento |
+| 17 | 8 | 0 | Designación aleatoria |
+| 18 | 12 | 0 | Objeción cuenta final |
+| 19 | 4 | 2 | Certificado estado deudas |
+| 20 | 6 | 7 | Objeciones/impugnaciones créditos |
+| 22 | 10 | 12 | Plataforma electrónica liquidación |
+| 23 | 7 | 1 | Antecedentes y desempeño |
+| 24 | 3 | 1 | Acuerdo reorganización simplificada |
+| 25 | 13 | 0 | Plataformas electrónicas |
+| 26 | 20 | 2 | Indicadores gestión nóminas |
+| 27 | 9 | 0 | Cuentas provisorias liquidación |
+| 28 | 91 | 0 | Renegociación persona deudora |
+
+---
+
 *Documento generado para el proyecto LeyChile ePub Generator*
-*Basado en análisis de Instructivos SUPERIR N° 3/2018 y N° 1/2023*
+*Basado en análisis de Instructivos SUPERIR N° 3/2018 y N° 1/2023, y 18 NCGs vigentes*

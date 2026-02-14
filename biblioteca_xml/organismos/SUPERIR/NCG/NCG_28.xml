@@ -38,8 +38,10 @@
       <ley_ref tipo="DFL" numero="1-19.653">DFL 1-19.653</ley_ref>
       <ley_ref tipo="D.S." numero="181">D.S. 181</ley_ref>
       <ley_ref tipo="D.S." numero="08">D.S. 08</ley_ref>
-      <ley_ref tipo="NCG" numero="21">NCG 21</ley_ref>
     </leyes_referenciadas>
+    <ncg_referenciadas>
+      <ncg_ref numero="21" relacion="deroga">NCG N° 21</ncg_ref>
+    </ncg_referenciadas>
   </metadatos>
   <vistos>
     <parrafo>Las facultades que me confiere la Ley N° 20.720, que sustituye el régimen concursal vigente por una Ley de Reorganización y Liquidación de Activos de Empresas y Personas; lo dispuesto en el D.F.L. N° 1-19.653, de 17 de noviembre de 2001, que fija el texto Refundido, Coordinado y Sistematizado de la Ley N° 18.575, Orgánica Constitucional de Bases Generales de la Administración del Estado; en la Ley N° 19.880, que establece bases de los procedimientos administrativos que rigen los actos de los Órganos de la Administración del Estado; en la Ley N° 19.799 Sobre Documentos Electrónicos, Firma Electrónica y Servicios de Certificación de Dicha Firma; en el Decreto Supremo Nº 181 de 17 de agosto de 2022, del Ministerio de Economía, Fomento y Reconstrucción; que Aprueba el reglamento de la Ley Nº 19.799 sobre documentos electrónicos, firma electrónica y la certificación de dicha firma; en la Ley N° 19.628 sobre Protección de la Vida Privada; en la Resolución N° 36 de diciembre de 2024 de la Contraloría General de la República, que fija normas sobre exención del trámite de toma de razón; en la Ley N.º 21.563 que Moderniza los Procedimientos Concursales contemplados en la Ley Nº 20.720 y crea nuevos procedimientos para micro y pequeñas empresas, en el Decreto Supremo Nº 08 de 19 de enero de 2023 del Ministerio de Economía, Fomento y Turismo, y en la Resolución Exenta N° 21106 de 29 de octubre de 2025, que aprobó la Norma de Carácter General N° 28.</parrafo>

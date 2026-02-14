@@ -14,21 +14,59 @@
   - Identificación de firmantes y fórmulas de cierre
   - Estructura jerárquica: Título > Párrafo > Artículo (derecho concursal chileno)
   - Requisitos numerados (I, II, III) con items letrados dentro de artículos
+  - Referencias cruzadas entre NCGs del corpus
+  - Anexos con estructura semántica (formularios, tablas, firmas)
 
-  Jerarquía legal SUPERIR (dos variantes):
+  Jerarquía legal SUPERIR (cinco variantes):
     Variante A (NCGs simples): <titulo> → <articulo>
     Variante B (NCGs con párrafos): <titulo> → <parrafo> → <articulo>
     Variante C (NCGs con capítulos bajo títulos): <titulo> → <capitulo> → <articulo>
     Variante D (NCG 28 - capítulos sobre títulos): <capitulo> → <titulo> → <articulo>
     Variante E (disposiciones finales): <disposiciones_finales> → <articulo>
 
-  Versión: 1.0
+  Changelog:
+    v1.0 (2025-01): Versión inicial con estructura base y xs:any en anexos
+    v2.0 (2026-02): Referencias cruzadas NCG, tipos estructurados para anexos,
+                     eliminación de AnexosType no utilizado, restricciones de atributos
+
+  Versión: 2.0
   Namespace: https://superir.cl/schema/norma/v1
 -->
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
            targetNamespace="https://superir.cl/schema/norma/v1"
            xmlns:tns="https://superir.cl/schema/norma/v1"
            elementFormDefault="qualified">
+
+  <!-- ===================================================================
+       TIPOS SIMPLES RESTRINGIDOS
+       =================================================================== -->
+
+  <xs:simpleType name="EstadoNormaType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="vigente"/>
+      <xs:enumeration value="derogado"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="TipoNormaType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Norma de Carácter General"/>
+      <xs:enumeration value="Instructivo"/>
+      <xs:enumeration value="Resolución Exenta"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="RelacionNcgType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="cita"/>
+      <xs:enumeration value="deroga"/>
+      <xs:enumeration value="modifica"/>
+      <xs:enumeration value="complementa"/>
+      <xs:enumeration value="reemplaza"/>
+      <xs:enumeration value="derogada_por"/>
+      <xs:enumeration value="modificada_por"/>
+    </xs:restriction>
+  </xs:simpleType>
 
   <!-- ===================================================================
        ELEMENTO RAÍZ: <norma>
@@ -48,14 +86,13 @@
       <xs:element name="cuerpo_normativo" type="tns:CuerpoNormativoType" minOccurs="0"/>
       <xs:element name="resolutivo_final" type="tns:ResolutivoType" minOccurs="0"/>
       <xs:element name="cierre" type="tns:CierreType" minOccurs="0"/>
-      <xs:element name="anexos" type="tns:AnexosType" minOccurs="0"/>
-      <xs:element name="anexo" type="tns:AnexoStandaloneType" minOccurs="0" maxOccurs="unbounded"/>
+      <xs:element name="anexo" type="tns:AnexoType" minOccurs="0" maxOccurs="unbounded"/>
     </xs:sequence>
-    <xs:attribute name="tipo" type="xs:string" use="required"/>
+    <xs:attribute name="tipo" type="tns:TipoNormaType" use="required"/>
     <xs:attribute name="numero" type="xs:string" use="required"/>
     <xs:attribute name="organismo" type="xs:string" use="required"/>
     <xs:attribute name="version" type="xs:string" use="optional"/>
-    <xs:attribute name="estado" type="xs:string" use="optional"/>
+    <xs:attribute name="estado" type="tns:EstadoNormaType" use="optional"/>
     <xs:attribute name="generado" type="xs:string" use="optional"/>
   </xs:complexType>
 
@@ -73,7 +110,7 @@
   </xs:complexType>
 
   <!-- ===================================================================
-       METADATOS: Información enriquecida (materias, fechas, leyes)
+       METADATOS: Información enriquecida (materias, fechas, leyes, NCGs)
        =================================================================== -->
   <xs:complexType name="MetadatosType">
     <xs:sequence>
@@ -83,6 +120,7 @@
       <xs:element name="nombres_comunes" type="tns:NombresComunesType" minOccurs="0"/>
       <xs:element name="fechas" type="tns:FechasType" minOccurs="0"/>
       <xs:element name="leyes_referenciadas" type="tns:LeyesReferenciadasType" minOccurs="0"/>
+      <xs:element name="ncg_referenciadas" type="tns:NcgReferenciadasType" minOccurs="0"/>
     </xs:sequence>
   </xs:complexType>
 
@@ -117,6 +155,34 @@
       <xs:extension base="xs:string">
         <xs:attribute name="tipo" type="xs:string" use="optional"/>
         <xs:attribute name="numero" type="xs:string" use="optional"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+
+  <!-- Referencias cruzadas entre NCGs del corpus SUPERIR -->
+  <xs:complexType name="NcgReferenciadasType">
+    <xs:sequence>
+      <xs:element name="ncg_ref" type="tns:NcgRefType" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <!--
+    NcgRefType: referencia a otra NCG SUPERIR.
+    Ejemplo: <ncg_ref numero="14" relacion="cita">NCG N° 14</ncg_ref>
+    Relaciones:
+      cita         - esta NCG cita/referencia a la otra
+      deroga       - esta NCG deroga a la otra
+      modifica     - esta NCG modifica a la otra
+      complementa  - esta NCG complementa a la otra
+      reemplaza    - esta NCG reemplaza a la otra
+      derogada_por - esta NCG fue derogada por la otra (inversa)
+      modificada_por - esta NCG fue modificada por la otra (inversa)
+  -->
+  <xs:complexType name="NcgRefType">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute name="numero" type="xs:string" use="required"/>
+        <xs:attribute name="relacion" type="tns:RelacionNcgType" use="required"/>
       </xs:extension>
     </xs:simpleContent>
   </xs:complexType>
@@ -321,14 +387,14 @@
   </xs:complexType>
 
   <!-- ===================================================================
-       INCISO: Subdivisión numerada de un artículo
+       INCISO: Subdivisión numerada de un artículo.
+       Soporta contenido simple (texto) o complejo (con listados).
        =================================================================== -->
-  <xs:complexType name="IncisoType">
-    <xs:simpleContent>
-      <xs:extension base="xs:string">
-        <xs:attribute name="numero" type="xs:string" use="required"/>
-      </xs:extension>
-    </xs:simpleContent>
+  <xs:complexType name="IncisoType" mixed="true">
+    <xs:choice minOccurs="0" maxOccurs="unbounded">
+      <xs:element name="listado" type="tns:ListadoType"/>
+    </xs:choice>
+    <xs:attribute name="numero" type="xs:string" use="required"/>
   </xs:complexType>
 
   <!-- ===================================================================
@@ -413,41 +479,442 @@
   <!-- ===================================================================
        ANEXOS: Documentos adjuntos (modelos, formularios, tablas)
 
-       Dos formatos soportados:
-       1. <anexos> contenedor con <anexo> hijos (NCGs simples)
-       2. <anexo> standalone a nivel raíz (NCGs con anexos pendientes/detallados)
+       Cada <anexo> a nivel raíz representa un documento adjunto con
+       estructura semántica: secciones, tablas, formularios, firmas, etc.
+
+       Elementos de contenido:
+       - seccion: subdivisión con número/letra y nombre
+       - tabla: datos tabulares con columnas y filas
+       - encabezado_formulario: cabecera de formulario con declarante y campos
+       - formulario: modelo de formulario completo (cuentas, remates)
+       - firma/firmas: bloques de firma con rol
+       - nota: notas al pie numeradas
+       - declaracion_jurada/declaracion_juramento: declaraciones formales
+       - campo: campo de formulario tipado
+       - categoria: agrupación categorizada de items
+       - checkbox: ítem de selección
+       - fecha_emision: campo de fecha
+       - parrafo: texto libre
+
+       Se mantiene xs:any como fallback para contenido excepcional.
        =================================================================== -->
-  <xs:complexType name="AnexosType">
-    <xs:sequence>
-      <xs:element name="anexo" type="tns:AnexoType" maxOccurs="unbounded"/>
-    </xs:sequence>
-  </xs:complexType>
-
-  <!-- AnexoType: anexo dentro de <anexos> contenedor (formato simple) -->
   <xs:complexType name="AnexoType">
-    <xs:sequence>
-      <xs:element name="titulo" type="xs:string" minOccurs="0"/>
-      <xs:element name="texto" type="xs:string" minOccurs="0"/>
-    </xs:sequence>
+    <xs:choice minOccurs="0" maxOccurs="unbounded">
+      <!-- Estructura principal -->
+      <xs:element name="seccion" type="tns:SeccionAnexoType"/>
+      <xs:element name="tabla" type="tns:TablaAnexoType"/>
+      <xs:element name="tabla_resumen" type="tns:TablaAnexoType"/>
+      <xs:element name="encabezado_formulario" type="tns:EncabezadoFormularioType"/>
+      <xs:element name="formulario" type="tns:FormularioAnexoType"/>
+      <!-- Contenido textual -->
+      <xs:element name="parrafo" type="xs:string"/>
+      <xs:element name="nota" type="tns:NotaAnexoType"/>
+      <xs:element name="descripcion" type="xs:string"/>
+      <xs:element name="fecha_emision" type="xs:string"/>
+      <!-- Firmas -->
+      <xs:element name="firma" type="tns:FirmaAnexoType"/>
+      <xs:element name="firmas" type="tns:FirmasAnexoType"/>
+      <!-- Declaraciones y formularios legales -->
+      <xs:element name="declaracion_jurada" type="tns:DeclaracionAnexoType"/>
+      <xs:element name="declaracion_juramento" type="tns:DeclaracionAnexoType"/>
+      <xs:element name="declaracion_final" type="tns:DeclaracionAnexoType"/>
+      <xs:element name="antecedentes_adjuntos" type="tns:AntecedentesAdjuntosType"/>
+      <xs:element name="opcion_permanencia" type="tns:OpcionPermanenciaType"/>
+      <!-- Listados y categorías -->
+      <xs:element name="listado" type="tns:ListadoAnexoType"/>
+      <xs:element name="categoria" type="tns:CategoriaAnexoType"/>
+      <xs:element name="campo" type="tns:CampoAnexoType"/>
+      <xs:element name="checkbox" type="xs:string"/>
+      <xs:element name="naturaleza" type="xs:string"/>
+      <!-- Fallback para contenido excepcional -->
+      <xs:any namespace="##other" processContents="skip"/>
+    </xs:choice>
     <xs:attribute name="numero" type="xs:string" use="optional"/>
+    <xs:attribute name="titulo" type="xs:string" use="optional"/>
     <xs:attribute name="tipo" type="xs:string" use="optional"/>
-    <xs:attribute name="opcional" type="xs:boolean" use="optional"/>
-    <xs:attribute name="editable" type="xs:boolean" use="optional"/>
+    <xs:attribute name="pendiente" type="xs:boolean" use="optional"/>
   </xs:complexType>
 
-  <!--
-    AnexoStandaloneType: anexo a nivel raíz (formato extendido).
-    Usado para anexos pendientes de modelado o con estructura detallada.
-    Permite contenido flexible via xs:any para formularios complejos.
-  -->
-  <xs:complexType name="AnexoStandaloneType">
+  <!-- ===================================================================
+       SECCIÓN DE ANEXO: Subdivisión principal
+       Puede identificarse por numero (romano/arábigo) o letra.
+       Contiene mezcla de párrafos, tablas, campos, notas, subsecciones.
+       =================================================================== -->
+  <xs:complexType name="SeccionAnexoType">
+    <xs:choice minOccurs="0" maxOccurs="unbounded">
+      <xs:element name="parrafo" type="xs:string"/>
+      <xs:element name="tabla" type="tns:TablaAnexoType"/>
+      <xs:element name="tabla_resumen" type="tns:TablaAnexoType"/>
+      <xs:element name="campo" type="tns:CampoAnexoType"/>
+      <xs:element name="firma" type="tns:FirmaAnexoType"/>
+      <xs:element name="nota" type="tns:NotaAnexoType"/>
+      <xs:element name="nota_al_pie" type="tns:NotaAnexoType"/>
+      <xs:element name="notas" type="xs:string"/>
+      <xs:element name="listado" type="tns:ListadoAnexoType"/>
+      <xs:element name="item" type="tns:ItemAnexoType"/>
+      <xs:element name="checkbox" type="xs:string"/>
+      <xs:element name="opcion" type="tns:OpcionAnexoType"/>
+      <xs:element name="subseccion" type="tns:SubseccionAnexoType"/>
+      <xs:element name="declaracion" type="xs:string"/>
+      <xs:element name="declaracion_base" type="xs:string"/>
+      <xs:element name="descripcion" type="xs:string"/>
+      <xs:element name="diferencia_columnas" type="xs:string"/>
+      <xs:element name="categoria" type="tns:CategoriaAnexoType"/>
+      <xs:element name="resumen_ingresos_egresos" type="tns:ResumenIngresosEgresosType"/>
+      <xs:element name="lineas_cierre" type="tns:LineasCierreType"/>
+      <xs:element name="lineas" type="tns:LineasType"/>
+      <xs:element name="totalizador" type="tns:TotalizadorAnexoType"/>
+      <xs:element name="firmas" type="tns:FirmasAnexoType"/>
+      <!-- Fallback -->
+      <xs:any namespace="##other" processContents="skip"/>
+    </xs:choice>
+    <xs:attribute name="numero" type="xs:string" use="optional"/>
+    <xs:attribute name="letra" type="xs:string" use="optional"/>
+    <xs:attribute name="nombre" type="xs:string" use="optional"/>
+    <xs:attribute name="nota" type="xs:string" use="optional"/>
+  </xs:complexType>
+
+  <!-- ===================================================================
+       SUBSECCIÓN DE ANEXO: Nivel adicional dentro de sección
+       =================================================================== -->
+  <xs:complexType name="SubseccionAnexoType">
+    <xs:choice minOccurs="0" maxOccurs="unbounded">
+      <xs:element name="parrafo" type="xs:string"/>
+      <xs:element name="listado" type="tns:ListadoAnexoType"/>
+      <xs:element name="nota" type="tns:NotaAnexoType"/>
+      <xs:element name="campo" type="tns:CampoAnexoType"/>
+      <xs:element name="tabla" type="tns:TablaAnexoType"/>
+      <xs:element name="lineas" type="tns:LineasType"/>
+      <xs:element name="totalizador" type="tns:TotalizadorAnexoType"/>
+      <xs:element name="descripcion" type="xs:string"/>
+      <!-- Fallback -->
+      <xs:any namespace="##other" processContents="skip"/>
+    </xs:choice>
+    <xs:attribute name="numero" type="xs:string" use="optional"/>
+    <xs:attribute name="nombre" type="xs:string" use="optional"/>
+    <xs:attribute name="repetible" type="xs:string" use="optional"/>
+  </xs:complexType>
+
+  <!-- ===================================================================
+       TABLA DE ANEXO: Datos tabulares
+       =================================================================== -->
+  <xs:complexType name="TablaAnexoType">
+    <xs:choice minOccurs="0" maxOccurs="unbounded">
+      <xs:element name="columnas" type="xs:string"/>
+      <xs:element name="filas" type="tns:FilasAnexoType"/>
+      <xs:element name="filas_ejemplo" type="xs:string"/>
+      <xs:element name="valores_ejemplo" type="xs:string"/>
+      <xs:element name="subtotales" type="xs:string"/>
+      <xs:element name="subtotal" type="xs:string"/>
+      <xs:element name="categoria" type="tns:CategoriaTablaType"/>
+      <xs:element name="nota" type="tns:NotaAnexoType"/>
+      <xs:element name="tabla" type="tns:TablaAnexoType"/>
+      <xs:element name="lineas_cierre" type="tns:LineasCierreType"/>
+      <!-- Elementos de formularios contables (NCG 7) -->
+      <xs:element name="cuenta" type="tns:CuentaAnexoType"/>
+      <xs:element name="seccion_singularizacion" type="tns:SeccionSingularizacionType"/>
+      <!-- Fallback -->
+      <xs:any namespace="##other" processContents="skip"/>
+    </xs:choice>
+    <xs:attribute name="nombre" type="xs:string" use="optional"/>
+    <xs:attribute name="nota" type="xs:string" use="optional"/>
+  </xs:complexType>
+
+  <!-- FilasAnexoType: puede contener <fila> hijos o texto directo (filas separadas por ;) -->
+  <xs:complexType name="FilasAnexoType" mixed="true">
+    <xs:sequence>
+      <xs:element name="fila" type="tns:FilaAnexoType" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="FilaAnexoType">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute name="negrita" type="xs:string" use="optional"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+
+  <!-- Categoría dentro de tabla (indicadores financieros, NCG 20) -->
+  <xs:complexType name="CategoriaTablaType">
+    <xs:sequence>
+      <xs:element name="indicador" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+    <xs:attribute name="nombre" type="xs:string" use="optional"/>
+  </xs:complexType>
+
+  <!-- Cuenta contable (NCG 7) -->
+  <xs:complexType name="CuentaAnexoType">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute name="codigo" type="xs:string" use="optional"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+
+  <!-- Líneas de cierre contable (NCG 7) -->
+  <xs:complexType name="LineasCierreType">
+    <xs:sequence>
+      <xs:element name="linea" type="tns:LineaCierreType" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="LineaCierreType">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute name="letra" type="xs:string" use="optional"/>
+        <xs:attribute name="concepto" type="xs:string" use="optional"/>
+        <xs:attribute name="columnas" type="xs:string" use="optional"/>
+        <xs:attribute name="columna" type="xs:string" use="optional"/>
+        <xs:attribute name="regla" type="xs:string" use="optional"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+
+  <!-- CamposIdentificacionType: bloque de campos de identificación en formularios.
+       Puede ser texto simple o contener <campo> hijos (NCG 22). -->
+  <xs:complexType name="CamposIdentificacionType" mixed="true">
+    <xs:sequence>
+      <xs:element name="campo" type="tns:CampoAnexoType" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <!-- Resumen de ingresos y egresos (NCG 7, Carátula Cuenta Final) -->
+  <xs:complexType name="ResumenIngresosEgresosType">
     <xs:sequence>
       <xs:any namespace="##any" processContents="skip" minOccurs="0" maxOccurs="unbounded"/>
     </xs:sequence>
+  </xs:complexType>
+
+  <!-- Lineas: grupo de campos repetibles (NCG 7, formularios contables) -->
+  <xs:complexType name="LineasType">
+    <xs:choice minOccurs="0" maxOccurs="unbounded">
+      <xs:element name="campo" type="tns:CampoAnexoType"/>
+      <xs:element name="totalizador" type="tns:TotalizadorAnexoType"/>
+    </xs:choice>
+    <xs:attribute name="repetibles" type="xs:string" use="optional"/>
+  </xs:complexType>
+
+  <!-- Sección singularización en formularios contables (NCG 7) -->
+  <xs:complexType name="SeccionSingularizacionType">
+    <xs:choice minOccurs="0" maxOccurs="unbounded">
+      <xs:element name="descripcion" type="xs:string"/>
+      <xs:element name="campos_cheque" type="tns:CamposChequeType"/>
+      <xs:element name="campo" type="tns:CampoAnexoType"/>
+    </xs:choice>
+  </xs:complexType>
+
+  <xs:complexType name="CamposChequeType">
+    <xs:sequence>
+      <xs:element name="campo" type="tns:CampoAnexoType" maxOccurs="unbounded"/>
+    </xs:sequence>
+    <xs:attribute name="repetible" type="xs:boolean" use="optional"/>
+  </xs:complexType>
+
+  <!-- ===================================================================
+       ENCABEZADO DE FORMULARIO: Cabecera de modelos/formularios
+       =================================================================== -->
+  <xs:complexType name="EncabezadoFormularioType">
+    <xs:choice minOccurs="0" maxOccurs="unbounded">
+      <xs:element name="declarante" type="xs:string"/>
+      <xs:element name="declarante_persona_juridica" type="xs:string"/>
+      <xs:element name="declarante_persona_natural" type="xs:string"/>
+      <xs:element name="campos_identificacion" type="tns:CamposIdentificacionType"/>
+      <xs:element name="base_legal" type="xs:string"/>
+      <xs:element name="base_informacion" type="xs:string"/>
+      <xs:element name="naturaleza" type="xs:string"/>
+      <xs:element name="titulo_documento" type="xs:string"/>
+      <xs:element name="variante" type="tns:VarianteAnexoType"/>
+      <xs:element name="nota" type="tns:NotaAnexoType"/>
+      <xs:element name="campo" type="tns:CampoAnexoType"/>
+      <xs:element name="parrafo" type="xs:string"/>
+    </xs:choice>
+  </xs:complexType>
+
+  <!-- Variante de formulario (persona jurídica/natural, NCG 22) -->
+  <xs:complexType name="VarianteAnexoType">
+    <xs:choice minOccurs="0" maxOccurs="unbounded">
+      <xs:element name="texto" type="xs:string"/>
+      <xs:element name="nota" type="tns:NotaAnexoType"/>
+      <xs:element name="parrafo" type="xs:string"/>
+    </xs:choice>
     <xs:attribute name="numero" type="xs:string" use="optional"/>
-    <xs:attribute name="titulo" type="xs:string" use="optional"/>
-    <xs:attribute name="pendiente" type="xs:boolean" use="optional"/>
+    <xs:attribute name="aplicabilidad" type="xs:string" use="optional"/>
+  </xs:complexType>
+
+  <!-- ===================================================================
+       FORMULARIO: Modelo completo de formulario (cuentas, remates - NCG 7)
+       =================================================================== -->
+  <xs:complexType name="FormularioAnexoType">
+    <xs:choice minOccurs="0" maxOccurs="unbounded">
+      <xs:element name="descripcion" type="xs:string"/>
+      <xs:element name="seccion" type="tns:SeccionAnexoType"/>
+      <xs:element name="tabla" type="tns:TablaAnexoType"/>
+      <xs:element name="campo" type="tns:CampoAnexoType"/>
+      <xs:element name="campos" type="tns:CamposAnexoType"/>
+      <xs:element name="campos_encabezado" type="tns:CamposAnexoType"/>
+      <xs:element name="campos_por_inmueble" type="tns:CamposAnexoType"/>
+      <xs:element name="campos_adjudicacion" type="tns:CamposAnexoType"/>
+      <xs:element name="firma" type="tns:FirmaAnexoType"/>
+      <xs:element name="firmas" type="tns:FirmasAnexoType"/>
+      <xs:element name="totalizador" type="tns:TotalizadorAnexoType"/>
+      <xs:element name="seccion_singularizacion" type="tns:SeccionSingularizacionType"/>
+      <xs:element name="seccion_cheque" type="tns:CamposAnexoType"/>
+      <!-- Fallback -->
+      <xs:any namespace="##other" processContents="skip"/>
+    </xs:choice>
+    <xs:attribute name="numero" type="xs:string" use="optional"/>
+    <xs:attribute name="nombre" type="xs:string" use="optional"/>
+    <xs:attribute name="hoja" type="xs:string" use="optional"/>
+  </xs:complexType>
+
+  <!-- Grupo de campos -->
+  <xs:complexType name="CamposAnexoType">
+    <xs:choice minOccurs="0" maxOccurs="unbounded">
+      <xs:element name="campo" type="tns:CampoAnexoType"/>
+      <xs:element name="totalizador" type="tns:TotalizadorAnexoType"/>
+    </xs:choice>
+  </xs:complexType>
+
+  <!-- Totalizador (sumas, cálculos) -->
+  <xs:complexType name="TotalizadorAnexoType">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute name="concepto" type="xs:string" use="optional"/>
+        <xs:attribute name="tipo" type="xs:string" use="optional"/>
+        <xs:attribute name="calculo" type="xs:string" use="optional"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+
+  <!-- ===================================================================
+       CAMPO: Campo de formulario tipado
+       =================================================================== -->
+  <xs:complexType name="CampoAnexoType">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute name="nombre" type="xs:string" use="optional"/>
+        <xs:attribute name="numero" type="xs:string" use="optional"/>
+        <xs:attribute name="tipo" type="xs:string" use="optional"/>
+        <xs:attribute name="formato" type="xs:string" use="optional"/>
+        <xs:attribute name="ejemplo" type="xs:string" use="optional"/>
+        <xs:attribute name="repetible" type="xs:boolean" use="optional"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+
+  <!-- ===================================================================
+       FIRMA: Bloque de firma
+       =================================================================== -->
+  <xs:complexType name="FirmaAnexoType" mixed="true">
+    <xs:sequence>
+      <xs:element name="campo" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+    <xs:attribute name="rol" type="xs:string" use="optional"/>
+  </xs:complexType>
+
+  <xs:complexType name="FirmasAnexoType">
+    <xs:sequence>
+      <xs:element name="firma" type="tns:FirmaAnexoType" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <!-- ===================================================================
+       NOTA: Nota al pie numerada
+       =================================================================== -->
+  <xs:complexType name="NotaAnexoType">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute name="numero" type="xs:string" use="optional"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+
+  <!-- ===================================================================
+       DECLARACIÓN: Declaraciones juradas, juramentos, declaraciones finales
+       Tipo genérico para bloques de declaración formal.
+       =================================================================== -->
+  <!-- DeclaracionAnexoType: puede contener elementos o texto directo -->
+  <xs:complexType name="DeclaracionAnexoType" mixed="true">
+    <xs:choice minOccurs="0" maxOccurs="unbounded">
+      <xs:element name="titulo" type="xs:string"/>
+      <xs:element name="texto" type="xs:string"/>
+      <xs:element name="parrafo" type="xs:string"/>
+      <xs:element name="nota" type="tns:NotaAnexoType"/>
+      <xs:element name="firma" type="tns:FirmaAnexoType"/>
+    </xs:choice>
+  </xs:complexType>
+
+  <!-- ===================================================================
+       ANTECEDENTES ADJUNTOS: Lista de documentos a adjuntar
+       =================================================================== -->
+  <xs:complexType name="AntecedentesAdjuntosType">
+    <xs:choice minOccurs="0" maxOccurs="unbounded">
+      <xs:element name="parrafo" type="xs:string"/>
+      <xs:element name="checkbox" type="xs:string"/>
+      <xs:element name="item" type="tns:ItemAnexoType"/>
+    </xs:choice>
+  </xs:complexType>
+
+  <!-- ===================================================================
+       OPCIÓN DE PERMANENCIA: Bloque de opciones (NCG 26)
+       =================================================================== -->
+  <xs:complexType name="OpcionPermanenciaType">
+    <xs:choice minOccurs="0" maxOccurs="unbounded">
+      <xs:element name="instruccion" type="xs:string"/>
+      <xs:element name="opciones" type="tns:OpcionesAnexoType"/>
+    </xs:choice>
+  </xs:complexType>
+
+  <!-- OpcionesAnexoType: puede contener <opcion> hijos o texto directo ("Sí / No") -->
+  <xs:complexType name="OpcionesAnexoType" mixed="true">
+    <xs:sequence>
+      <xs:element name="opcion" type="tns:OpcionAnexoType" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="OpcionAnexoType">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute name="tipo" type="xs:string" use="optional"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+
+  <!-- ===================================================================
+       CATEGORÍA DE ANEXO: Agrupación categorizada de items
+       Usada en NCG 15 (bienes muebles) y NCG 20 (indicadores).
+       =================================================================== -->
+  <xs:complexType name="CategoriaAnexoType">
+    <xs:choice minOccurs="0" maxOccurs="unbounded">
+      <xs:element name="item" type="tns:ItemAnexoType"/>
+      <xs:element name="parrafo" type="xs:string"/>
+      <xs:element name="indicador" type="xs:string"/>
+    </xs:choice>
+    <xs:attribute name="numero" type="xs:string" use="optional"/>
+    <xs:attribute name="nombre" type="xs:string" use="optional"/>
+  </xs:complexType>
+
+  <!-- ===================================================================
+       ITEM DE ANEXO: Item genérico (letrado, numerado, checkbox)
+       =================================================================== -->
+  <xs:complexType name="ItemAnexoType" mixed="true">
+    <xs:choice minOccurs="0" maxOccurs="unbounded">
+      <xs:element name="parrafo" type="xs:string"/>
+      <xs:element name="sublistado" type="tns:SublistadoType"/>
+    </xs:choice>
+    <xs:attribute name="letra" type="xs:string" use="optional"/>
+    <xs:attribute name="numero" type="xs:string" use="optional"/>
     <xs:attribute name="tipo" type="xs:string" use="optional"/>
+  </xs:complexType>
+
+  <!-- ===================================================================
+       LISTADO DE ANEXO: Lista dentro de anexos
+       =================================================================== -->
+  <xs:complexType name="ListadoAnexoType">
+    <xs:sequence>
+      <xs:element name="item" type="tns:ItemAnexoType" maxOccurs="unbounded"/>
+    </xs:sequence>
   </xs:complexType>
 
 </xs:schema>

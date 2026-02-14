@@ -24,9 +24,11 @@
     </fechas>
     <leyes_referenciadas>
       <ley_ref tipo="Ley" numero="20.720">Ley 20.720</ley_ref>
-      <ley_ref tipo="NCG" numero="3">NCG 3</ley_ref>
-      <ley_ref tipo="NCG" numero="1">NCG 1</ley_ref>
     </leyes_referenciadas>
+    <ncg_referenciadas>
+      <ncg_ref numero="1" relacion="cita">NCG N° 1</ncg_ref>
+      <ncg_ref numero="3" relacion="cita">NCG N° 3</ncg_ref>
+    </ncg_referenciadas>
   </metadatos>
   <vistos>
     <parrafo>Las facultades conferidas en los artículos 46° y 49° de la Ley N.° 20.720, sobre Reorganización y Liquidación de Activos de Empresas y Personas (en adelante, la &quot;Ley&quot;).</parrafo>

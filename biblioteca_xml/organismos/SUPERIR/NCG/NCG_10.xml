@@ -26,8 +26,10 @@
       <ley_ref tipo="Ley" numero="19.799">Ley 19.799</ley_ref>
       <ley_ref tipo="Ley" numero="19.880">Ley 19.880</ley_ref>
       <ley_ref tipo="Ley" numero="18.175">Ley 18.175</ley_ref>
-      <ley_ref tipo="NCG" numero="1">NCG 1</ley_ref>
     </leyes_referenciadas>
+    <ncg_referenciadas>
+      <ncg_ref numero="1" relacion="reemplaza">NCG N° 1</ncg_ref>
+    </ncg_referenciadas>
   </metadatos>
   <vistos>
     <parrafo>Las facultades conferidas en el artículo 16° de la Ley N°20.720, de Reorganización y Liquidación de Activos de Empresas y Personas (en adelante, la &quot;Ley&quot;), esta Superintendencia de Insolvencia y Reemprendimiento (en adelante, la &quot;Superintendencia&quot;) ha estimado pertinente dictar la presente Norma de Carácter General, con el objeto de regular la garantía de fiel desempeño que debe ser otorgada por los Veedores y Liquidadores.</parrafo>
