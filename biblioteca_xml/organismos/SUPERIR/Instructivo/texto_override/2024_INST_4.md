@@ -1,0 +1,176 @@
+# RESOLUCIÓN EXENTA N.° 13139
+
+**MAT.:** APRUEBA INSTRUCTIVO SUPERIR N.° 4 QUE IMPARTE INSTRUCCIONES SOBRE HECHOS RELEVANTES QUE DEBEN INFORMAR LOS SUJETOS FISCALIZADOS A LA SUPERINTENDENCIA DE INSOLVENCIA Y REEMPRENDIMIENTO.
+
+**SANTIAGO, 05 SEPTIEMBRE 2024**
+
+---
+
+## VISTO:
+
+Las facultades que me confiere la Ley N.° 20.720, que sustituye el régimen concursal vigente por una Ley de Reorganización y Liquidación de Activos de Empresas y Personas; lo dispuesto en la Ley N.° 21.563, que Moderniza los Procedimientos Concursales Contemplados en la Ley N.° 20.720 y Crea Nuevos Procedimientos para Micro y Pequeñas Empresas; en el D.F.L. N.° 1-19.653, de 17 de noviembre de 2001, que fija el texto Refundido, Coordinado y Sistematizado de la Ley N.° 18.575, Orgánica Constitucional de Bases Generales de la Administración del Estado; en la Ley N.° 19.880, que establece Bases de los Procedimientos Administrativos que Rigen los Actos de los Órganos de la Administración del Estado; en la Ley N.º 19.799 sobre Documentos Electrónicos, Firma Electrónica y Servicios de Certificación de Dicha Firma; en el Decreto Supremo N.º 181 de 17 de agosto de 2002, del Ministerio de Economía; Fomento y Turismo, que Aprueba el Reglamento de la Ley N.º 19.799 sobre Documentos Electrónicos, Firma Electrónica y la Certificación de Dicha Firma en la Resolución N.° 7 de 2019 de la Contraloría General de la República, que fija normas sobre Exención del Trámite de Toma de Razón; y, en el Decreto N.° 8 de 19 de enero de 2023, del Ministerio de Economía, Fomento y Turismo.
+
+## CONSIDERANDO:
+
+**1°** Que, de conformidad a lo dispuesto en los artículos 331 y siguientes de la Ley N.º 20.720, en adelante "la Ley", la Superintendencia de Insolvencia y Reemprendimiento, en adelante la "Superintendencia", es una persona jurídica de derecho público, creada por la Ley, como un servicio público descentralizado con personalidad jurídica y patrimonio propio, que se relaciona con el Presidente de la República, a través, del Ministerio de Economía, Fomento y Turismo, y tiene como función supervigilar y fiscalizar las actuaciones de los liquidadores, veedores, interventores designados de conformidad a la Ley, martilleros concursales, administradores de la continuación de las actividades económicas del deudor, asesores económicos de insolvencia, y, de toda persona que por ley quede sujeta a su supervigilancia y fiscalización. Asimismo, le corresponde desempeñar aquellas funciones que la referida ley le encomienda, así como las demás que se establezcan en otras leyes.
+
+**2°** Que, el artículo 332 en relación al numeral 1 del artículo 337 de la Ley, establecen como una de las funciones de la Superintendencia, la de supervigilar y fiscalizar las actuaciones de los/las Veedores/as, Liquidadores/as, Interventores/as, Martilleros/as Concursales, Administradores/as de la continuación de las actividades económicas del/de la deudor/a, Asesores/as económicos de insolvencia y, en general, de toda persona que por ley quede sujeta a su supervigilancia y fiscalización.
+
+**3°** Que, el artículo 337 de la Ley dispone que, para el cumplimiento de sus funciones, la Superintendencia tendrá las atribuciones y deberes que allí señala, otorgándole en su numeral 2 la facultad de: *"Interpretar administrativamente las leyes, reglamentos y demás normas que rigen a los fiscalizados, sin perjuicio de las facultades jurisdiccionales que correspondan a los tribunales competentes."*
+
+**4°** Por su parte, el numeral 4 del citado artículo 337, otorga a esta Superintendencia la facultad de: *"Impartir a los Veedores, Liquidadores, administradores de la continuación de las actividades económicas, Martilleros Concursales que se sometan voluntariamente al control de la Superintendencia y asesores económicos de insolvencias, instrucciones de carácter obligatorio sobre las materias sometidas a su control y, en especial, fijar normas para la presentación de informes, estados de avance y cuentas provisorias o definitivas que deban presentar los fiscalizados."*
+
+**5°** Que, el artículo 25 de la Ley establece los deberes y obligaciones que debe cumplir el/la veedor/a en el ejercicio de sus funciones. Lo anterior, se encuentra relacionado con el artículo 15 del mismo cuerpo legal, que regula la responsabilidad civil por la que responderá el/la veedor/a, la cual alcanza hasta la culpa levísima, tal como lo establece el precepto legal indicado.
+
+**6°** Que, el artículo 69 de la Ley establece las obligaciones del interventor, no obstante, tendrá las atribuciones y deberes que señale el acuerdo de reorganización judicial aprobado por el tribunal competente, siendo aplicable, en cuanto a su responsabilidad civil, la del veedor señalada en el numeral precedente.
+
+**7°** Que, el artículo 36 de la Ley, establece los deberes y obligaciones que resultan aplicables a los liquidadores/as, cuya responsabilidad civil alcanza hasta la culpa levísima, y que deberá perseguirse, tanto la responsabilidad del veedor como la del liquidador en el correspondiente juicio de sumario, conforme a las reglas establecidas en el artículo 35 de la Ley.
+
+**8°** Que, el artículo 31 de la Ley dispuso que: *"Será aplicable a los Liquidadores lo dispuesto en el Título 1 del Capítulo II de la presente ley respecto de los Veedores, en todo aquello que no esté expresamente regulado en el presente Título y, en todo caso, siempre que no sea contrario a la naturaleza de la función que desempeñan."*
+
+**9°** Que, el artículo 2 en su numeral 20 y el artículo 213, ambos de la Ley N.° 20.720, en concordancia con la Ley N.° 18.118 de 22 de mayo de 1982, que regula el ejercicio de la actividad del Martillero Público, establece que el principal deber del/la Martillero/a es realizar los bienes del deudor, en conformidad a lo encomendado por la Junta de Acreedores, y de acuerdo con lo establecido en la Ley concursal. En este orden de ideas, el/la Martillero/a responde hasta la culpa leve en el cumplimiento de su encargo, de conformidad al artículo 2.129 del Código Civil.
+
+**10°** Que, los artículos 231 y siguientes de la Ley, establecen la posibilidad de que se desarrollen actividades económicas con los activos del deudor, cuya responsabilidad del administrador, conforme al artículo 238 de la Ley, alcanzará hasta la culpa levísima y subsistirá hasta la aprobación de su cuenta definitiva de gestión, la que se podrá perseguir en juicio sumario.
+
+**11°** Que, el artículo Undécimo de la Ley N.° 20.416 de 3 de febrero de 2010, que fijó la Ley de Reorganización o Cierre de Micro y Pequeñas Empresas en Crisis, en su artículo 3, establece la figura del Asesor Económico de Insolvencia, que de conformidad a lo previsto en el considerando 2° es un sujeto fiscalizado por la Superintendencia.
+
+En el artículo 13 de dicha norma, se estableció que la responsabilidad civil de los Asesores Económicos de Insolvencia, alcanza hasta la culpa levísima en el ejercicio de su cargo y que podrá ser perseguida con arreglo al juicio sumario.
+
+**12°** Que, el artículo 27 del Libro IV del Código de Comercio, por su parte, establece las atribuciones y deberes de los/las síndicos de quiebras, quienes responden de culpa levísima, conforme al artículo 38 del mismo cuerpo legal, y se perseguirá en juicio sumario y sólo una vez presentada la cuenta definitiva.
+
+**13°** Que, en el ejercicio de su facultad fiscalizadora, esta Superintendencia ha tomado conocimiento de hechos de relevancia económica, jurídica, contable y financiera, los cuales podrían influir en el cumplimiento de los deberes de los sujetos fiscalizados contemplados en la Ley N.° 20.720, en el Artículo Undécimo de la Ley N.° 20.416 y los comprendidos en el Libro IV del Código de Comercio.
+
+**14°** Que, atendido lo expuesto y de conformidad con lo dispuesto en el artículo 3 de la Ley N.º 19.880 y demás normas legales pertinentes,
+
+## RESUELVO:
+
+**1°** APRUÉBASE el siguiente Instructivo que imparte instrucciones a sujetos fiscalizados sobre su obligación de informar hechos relevantes a la Superintendencia de Insolvencia y Reemprendimiento.
+
+---
+
+# INSTRUCTIVO SUPERIR N.º 4
+
+## Título I - Obligación de los/as sujetos fiscalizados de informar hechos relevantes a la Superintendencia
+
+**Artículo 1°.** Los/as sujetos fiscalizados deberán informar en forma veraz, suficiente y oportuna a la Superintendencia, en cuanto tomaren conocimiento de todo hecho, acontecimiento, circunstancia o antecedente relevante que afecte significativamente la situación económica, financiera, contable, patrimonial y/o jurídica del sujeto fiscalizado, del deudor o de los/as otros sujetos fiscalizados que participen o hubieren participado en un mismo procedimiento concursal.
+
+**Artículo 2°.** Para el cumplimiento de la obligación de informar, los sujetos fiscalizados deben considerar como hechos relevantes, todo acto u omisión, fortuito o de fuerza mayor o voluntario, que afecten en forma significativa la situación económica, financiera, patrimonial y/o jurídica, de la persona del sujeto fiscalizado, del/la deudor/a, o de los demás sujetos fiscalizados que participen o hubieren participado en el procedimiento concursal respectivo y, que perturbaren, amenazaren o privaren el cumplimiento oportuno de las obligaciones que el sujeto fiscalizado detenta en virtud de la Ley.
+
+En cuanto al procedimiento para que los sujetos fiscalizados informen hechos relevantes a la Superintendencia, se deberá estar a lo dispuesto en el Título III del presente Instructivo.
+
+---
+
+## Título II - Hechos relevantes que deben ser informados por los/as sujetos fiscalizados a la Superintendencia
+
+**Artículo 3°.** Los hechos relevantes que, conforme al presente instructivo, deben ser informados por los sujetos fiscalizados a la Superintendencia, se clasificarán como: (i) hechos relevantes que pudieren tener implicancia concursal; (ii) hechos relevantes que pudieren tener implicancia penal; (iii) hechos relevantes con implicancia sobre la persona del sujeto fiscalizado y/o inhabilidades sobrevinientes.
+
+**Artículo 4°.** Hechos relevantes que pudieren tener implicancia concursal. Se entienden hechos relevantes que pudieren tener implicancia en materia concursal, todos aquellos actos, omisiones, situaciones voluntarias, fortuitas o de fuerza mayor, que sean capaces de afectar en forma significativa, la correcta y oportuna tramitación de los procedimientos que se encuentren bajo la administración o gestión del sujeto fiscalizado, y que perturbaren, amenazaren o privaren el cumplimiento de sus deberes y obligaciones, los derechos y obligaciones del/de la deudor/a, y/o los derechos de los acreedores. A modo de ejemplo, podrían considerarse los siguientes hechos:
+
+1. Interposición de medidas precautorias y de conservación de los activos del deudor.
+2. Ejercicio de acciones reivindicatorias en contra del deudor.
+3. Ejercicio de acciones revocatorias concursales en contra del deudor.
+4. Solicitud de declaración de mala fe en contra del deudor presentada ante el tribunal competente.
+5. Resolución judicial que acoja o rechace la solicitud de declaración de mala fe del deudor.
+6. Ejercicio de la facultad de no perseverar en la persecución de uno o más bienes determinados del deudor.
+7. Variaciones notorias o inusuales respecto del activo o pasivo declarado por el deudor.
+
+**Artículo 5°.** Hechos relevantes que pudieren tener implicancia penal. Se entienden hechos relevantes que tienen implicancia penal, todos aquellos actos u omisiones que pudieren constituir, eventualmente, algún ilícito penal tipificado en nuestro ordenamiento jurídico, y que perturbaren, amenazaren o privaren el cumplimiento de sus deberes y obligaciones, de los derechos y obligaciones del/de la deudor/a, y/o los derechos de los acreedores. A modo de ejemplo, podrían considerarse los siguientes hechos:
+
+1. Formalización de investigación penal en contra del sujeto fiscalizado, con indicación del número de RUC y/o RIT asignado a la investigación o procedimiento penal, en contra del sujeto fiscalizado o del deudor.
+2. Aplicación de alguna medida cautelar personal o real, de carácter penal a los sujetos fiscalizados o al/la deudor/a, decretada por un Juez de Garantía.¹
+3. Condena firme o ejecutoriada por la comisión de algún delito económico y/o de corrupción tipificado en nuestro ordenamiento jurídico.
+4. Interposición de una denuncia o querella en contra del deudor o en contra de otros sujetos fiscalizados.
+5. Resolución que fije alguna audiencia penal, ante el Juez de Garantía.
+6. Solicitud de diligencias investigativas, solicitadas ante el Ministerio Público y/o Juzgado de Garantía competente.
+7. Interposición de acciones civiles ante el tribunal competente en materia penal.
+
+> ¹ Medidas cautelares personales: prisión preventiva, prohibición de salir del país, arresto domiciliario, sujeción a la vigilancia de una persona o institución determinada, obligación de presentarse periódicamente ante el juez o ante la autoridad que él designare, entre otros. Medidas cautelares reales: nombramiento de uno o más interventores, prohibición de celebrar actos y contratos, retención de bienes, secuestro de la cosa objeto de litigio, entre otros.
+
+**Artículo 6°.** Hechos relevantes con implicancia sobre la persona del sujeto fiscalizado y/o inhabilidades sobrevinientes. Se entenderá para estos efectos como hecho relevante con implicancia sobre la persona del sujeto fiscalizado, todos aquellos actos omisiones, situaciones voluntarias, fortuitas o de fuerza mayor, que impliquen una afectación tal que impida continuar con la tramitación del procedimiento concursal o gestión propia de su cargo o que le resten imparcialidad, según corresponda. A modo de ejemplo, podrían considerarse los siguientes hechos:
+
+1. Imposibilidad, inhabilidad o incapacidad sobreviniente que impida al sujeto fiscalizado continuar con la tramitación de uno o más procedimientos concursales en que haya sido designado. Estas imposibilidades, inhabilidades o incapacidades sobrevinientes podrán tener un origen legal, físico y/o mental.
+2. Cuando se encuentre afecto a una causal de inhabilidad, abstención, prohibición o cualquier conflicto de interés que afecte alguna función propia de su cargo.
+3. Peligro eventual en la libertad personal o seguridad individual del sujeto fiscalizado y/o deudor.
+4. Notoria insolvencia del sujeto fiscalizado.
+5. Ser víctima de fraude bancario, que pudiere afectar al procedimiento concursal y/o el cumplimiento de los deberes y obligaciones del sujeto fiscalizado.
+
+**Artículo 7°.** Las obligaciones contenidas en el presente Instructivo, serán aplicables, en lo que resulte pertinente, a los/las síndicos de quiebras, respecto de las quiebras que administren de conformidad al Libro IV del Código de Comercio y a los Asesores Económicos de Insolvencia regulados en el Artículo Undécimo de la Ley N.° 20.416.
+
+**Artículo 8°.** En virtud de lo previsto en el numeral 2 del artículo 337 de la Ley N.° 20.720, se interpreta administrativamente la voz notoria insolvencia contemplada en la letra d) del numeral 7 del artículo 337 de la Ley y en el artículo 6 del presente instructivo, en el sentido que el sujeto fiscalizado se haya en notoria insolvencia cuando detenta la calidad de deudor en un procedimiento concursal de liquidación, lo que se acreditará con la respectiva resolución de liquidación dictada por el tribunal competente.
+
+**Artículo 9°.** En virtud de lo previsto en el numeral 2 del artículo 337 de la Ley N.° 20.720, se interpreta administrativamente la voz inhabilidad sobreviniente contemplada en el numeral 5 del artículo 24 de la Ley y en este Instructivo, como cualquier situación de hecho o de derecho que impida al sujeto fiscalizado ejercer sus labores contempladas en la normativa concursal, siempre que dichas situaciones de hecho o de derecho se encuentren respaldados documentadamente y fundadamente, los que analizará la Superintendencia de Insolvencia y Reemprendimiento a efectos de lo previsto en el artículo 8 del presente Instructivo.
+
+De igual forma, se considera inhabilidad sobreviniente el hecho de perder el sujeto fiscalizado una o más calidades de las contempladas en el artículo 13 y/o del artículo 17, en relación con el artículo 31 de la Ley que hace aplicable a los liquidadores las reglas de los veedores, en todo aquello que no se encuentre regulado expresamente.
+
+---
+
+## Título III - Procedimiento para que los sujetos fiscalizados informen hechos relevantes a la Superintendencia
+
+**Artículo 10°.** Para el cumplimiento de las obligaciones derivadas del presente Instructivo, los sujetos fiscalizados, deberán informar a esta Superintendencia, dentro del plazo de 10 días hábiles administrativos contados desde el acaecimiento del hecho, o bien desde que tomó conocimiento, según corresponda, a través del Módulo de Comunicación Directa, bajo la nomenclatura, *informa hecho relevante*, tratándose de los hechos contenidos en el artículo 4 del presente Instructivo.
+
+En el caso de los hechos contenidos en los artículos 5 y 6, estos deberán ser comunicados al correo electrónico hechorelevante@superir.gob.cl.
+
+En el caso de los/las asesores/as económicos de insolvencia, los/las administradores/as de la continuación de las actividades económicas del deudor y los/las síndicos de quiebras, dentro del plazo señalado en el párrafo precedente, deberán informar los hechos relevantes descritos en el presente Instructivo, a través del correo electrónico hechorelevante@superir.gob.cl
+
+**Artículo 11°.** La comunicación que hagan los sujetos fiscalizados a la Superintendencia deberá contener la siguiente información:
+
+a) Indicación expresa de que se refiere a un hecho relevante.
+
+b) Indicación expresa del sujeto fiscalizado o del deudor, a quien afecta el/los hecho/s informado/s.
+
+c) Fecha en que ocurre el hecho relevante.
+
+d) Descripción de la situación que configura el hecho relevante, en caso que corresponda, así como del o los efectos que pudiere generar para los procedimientos concursales bajo su administración y/o gestión.
+
+e) Medidas adoptadas para mitigar los efectos informados.
+
+f) Documentación que respalde el/los hechos informados.
+
+Sin perjuicio de lo anterior, la Superintendencia podrá solicitar antecedentes adicionales en caso que lo requiera.
+
+---
+
+## Título IV - Disposiciones finales
+
+**Artículo 12°.** Los hechos relevantes que se mencionan en el presente Instructivo no implican una enumeración taxativa o *numerus clausus*. Así, cualquier otro hecho relevante que revista características similares a las indicadas en el presente Instructivo, y que pudiere tener un impacto en el desarrollo del procedimiento concursal o en la persona del sujeto fiscalizado, debe considerarse igualmente como hecho relevante de aquellos que deben ser informados a la Superintendencia.
+
+Por otra parte, no se incluyen dentro de estos hechos, aquellas obligaciones que se encuentren contenidas en las Leyes y otros actos administrativos emanados de esta Superintendencia, y que correspondan a un hecho relevante, debiendo, en tal caso, estar a dichos estatutos para su debido cumplimiento.
+
+**Artículo 13°.** Responsabilidad. De conformidad a lo previsto en el inciso penúltimo del artículo 338 de la Ley, que establece que la Superintendencia podrá determinar la gravedad de las infracciones administrativas, se establece que el incumplimiento a las disposiciones de este instructivo será calificado como una falta grave para los efectos de lo previsto en el numeral 2 del artículo 338.
+
+La responsabilidad por el incumplimiento a las normas del presente Instructivo, será determinada a través de un procedimiento administrativo sancionatorio por infracción a las normas concursales, de conformidad a lo previsto en el artículo 340 y siguientes de la Ley N.° 20.720, en relación con lo previsto en el numeral 2 del artículo 338 del mismo cuerpo legal, sin perjuicio de las demás infracciones que pudiesen concurrir durante el desempeño de su cargo.
+
+De igual forma, respecto de los hechos relevantes que tengan implicancia penal y aquellos con implicancia sobre la persona del sujeto fiscalizado y/o inhabilidades sobrevinientes, la Superintendencia ponderará la gravedad del mismo pudiendo decretar la suspensión o exclusión de la nómina respectiva y/o solicitar la remoción del sujeto fiscalizado ante el tribunal respectivo.
+
+**Artículo 14°.** Vigencia. El presente Instructivo comenzará a regir a contar de su notificación por correo electrónico a los sujetos fiscalizados, sin perjuicio de su publicación en el Diario Oficial.
+
+**Artículo 15°.** Disposición transitoria. Los sujetos fiscalizados que a la notificación del presente Instructivo se encuentren en cualquiera de las situaciones descritas precedentemente, tendrán un plazo de 15 días hábiles administrativos para dar cumplimiento a las disposiciones contenidas precedentemente, contado desde la notificación del presente Instructivo.
+
+---
+
+**2°.** NOTIFÍQUESE la presente resolución a los/las Sujetos Fiscalizados que se encuentren vigentes en las nóminas de la Superintendencia de Insolvencia y Reemprendimiento, y a aquellos sujetos fiscalizados que hayan dejado de pertenecer a alguna de las nóminas y que tengan procedimientos vigentes bajo su administración.
+
+**3°.** PUBLÍQUESE la presente resolución en el Diario Oficial.
+
+**4°.** DISPÓNGASE como medida de publicidad, una vez que se encuentre totalmente tramitado el presente acto administrativo, su publicación en el sitio web institucional de la Superintendencia de Insolvencia y Reemprendimiento.
+
+---
+
+**ANÓTESE, NOTIFÍQUESE Y ARCHÍVESE,**
+
+**HUGO SÁNCHEZ RAMÍREZ**
+**SUPERINTENDENTE DE INSOLVENCIA Y REEMPRENDIMIENTO**
+
+PVL/CVS/CBP/FRC/EGZ/SUS/FRR/CNC/CCL/NGU
+
+**DISTRIBUCIÓN:**
+Señores/as:
+- Liquidadores/as
+- Veedores/as
+- Interventores/as
+- Martilleros/as
+- Administradores/as de la continuación de las actividades económicas del deudor
+- Asesores/as económicos de insolvencia
+- Síndicos/as de quiebras
+
+Presente

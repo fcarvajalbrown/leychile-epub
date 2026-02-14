@@ -1,0 +1,381 @@
+# RESOLUCIÓN EXENTA N.° 12473
+
+**MAT.:** APRUEBA INSTRUCTIVO SUPERIR N.° 3 QUE IMPARTE INSTRUCCIONES A LOS VEEDORES Y VEEDORAS EN EL PROCEDIMIENTO CONCURSAL DE REORGANIZACIÓN JUDICIAL, DE REORGANIZACIÓN SIMPLIFICADA Y DE REORGANIZACIÓN EXTRAJUDICIAL
+
+**SANTIAGO, 26 AGOSTO 2024**
+
+---
+
+## VISTO:
+
+Las facultades que me confiere la Ley N.º 20.720, que sustituyó el régimen concursal vigente por una Ley de Reorganización y Liquidación de Activos de Empresas y Personas; lo dispuesto en la Ley N.° 21.563 que Moderniza los Procedimientos Concursales contemplados en la Ley N.° 20.720 y crea nuevos procedimientos para Micro y Pequeñas Empresas; en el D.F.L. N.° 1-19.653 de 17 de noviembre de 2001, que fija el Texto Refundido, Coordinado y Sistematizado de la Ley N.º 18.575 Orgánica Constitucional de Bases Generales de la Administración del Estado; en la Ley N.° 19.880, que establece Bases de los Procedimientos Administrativos que rigen los Actos de los Órganos del Estado; en la Ley N.º 19.799 sobre Documentos Electrónicos, Firma Electrónica y Servicios de Certificación de Dicha Firma; en el Decreto Supremo N.º 181 de 17 de agosto de 2002, del Ministerio de Economía; Fomento y Turismo, que Aprueba el Reglamento de la Ley N.º 19.799 sobre Documentos Electrónicos, Firma Electrónica y la Certificación de Dicha Firma; en la Resolución N.° 7 de 2019, de la Contraloría General de la República, que fija normas sobre exención del trámite de toma de razón; y en el Decreto N.° 8 de 19 de enero de 2023, del Ministerio de Economía, Fomento y Turismo.
+
+## CONSIDERANDO:
+
+**1.°** Que, de conformidad a lo dispuesto en los artículos 331 y siguientes de la Ley N.º 20.720, en adelante "la Ley", la Superintendencia de Insolvencia y Reemprendimiento, en adelante la "Superintendencia", es una persona jurídica de derecho público, creada por la Ley, como un servicio público descentralizado con personalidad jurídica y patrimonio propio, que se relaciona con el Presidente de la República, a través, del Ministerio de Economía, Fomento y Turismo, y tiene como función supervigilar y fiscalizar las actuaciones de los liquidadores, veedores, interventores designados de conformidad a la Ley, martilleros concursales, administradores de la continuación de las actividades económicas del deudor, asesores económicos de insolvencia, y, de toda persona que por ley quede sujeta a su supervigilancia y fiscalización. Asimismo, le corresponde desempeñar aquellas funciones que la referida ley le encomienda, así como las demás que se establezcan en otras leyes.
+
+**2°** Que, el artículo 332 en relación al numeral 1 del artículo 337 de la Ley, establecen como una de las funciones de la Superintendencia, la de supervigilar y fiscalizar las actuaciones de los/las Veedores/as, Liquidadores/as, Interventores/as, Martilleros/as Concursales, Administradores/as de la continuación de las actividades económicas del/de la deudor/a, Asesores/as económicos de insolvencia y, en general, de toda persona que por ley quede sujeta a su supervigilancia y fiscalización.
+
+**3°** Que, el artículo 337 de la Ley dispone que, para el cumplimiento de sus funciones, la Superintendencia tendrá las atribuciones y deberes que allí señala, otorgándole en su numeral 2 la facultad de: *"Interpretar administrativamente las leyes, reglamentos y demás normas que rigen a los fiscalizados, sin perjuicio de las facultades jurisdiccionales que correspondan a los tribunales competentes."*
+
+**4°** Por su parte, el numeral 4 del citado artículo 337, otorga a esta Superintendencia la facultad de: *"Impartir a los Veedores, Liquidadores, administradores de la continuación de las actividades económicas, Martilleros Concursales que se sometan voluntariamente al control de la Superintendencia y asesores económicos de insolvencias, instrucciones de carácter obligatorio sobre las materias sometidas a su control y, en especial, fijar normas para la presentación de informes, estados de avance y cuentas provisorias o definitivas que deban presentar los fiscalizados."*
+
+**5.°** Que, atendido lo expuesto y de conformidad con lo dispuesto en el artículo 3 de la Ley N.° 19.880 y demás normas legales pertinentes,
+
+## RESUELVO:
+
+**1°.** APRUÉBASE el siguiente Instructivo Superir N.° 3 que imparte instrucciones a los veedores y veedoras en el procedimiento concursal de reorganización judicial, reorganización simplificada y reorganización extrajudicial y sus anexos, denominados Anexo N.° 1 "Modelo de Nómina de Créditos Reconocidos", Anexo N.° 2 "Modelo de Cuenta Mensual en Procedimiento Concursal de Reorganización", cuyos textos se adjuntan a la presente resolución y forman parte integrante de la misma:
+
+---
+
+# INSTRUCTIVO SUPERIR N.° 3
+
+## Título I - De las obligaciones de los Veedores y Veedoras
+
+### Párrafo I - Obligaciones Generales
+
+**Artículo 1°.** Los Veedores y Veedoras que fueren designados en un Procedimiento Concursal de Reorganización Judicial, de Reorganización Simplificada o de Reorganización Extrajudicial deberán, en cumplimiento de sus obligaciones legales, observar lo siguiente:
+
+**a)** Calificar los poderes de los acreedores para actuar en el Procedimiento Concursal de Reorganización Judicial y concurrir a la Junta de Acreedores, con indicación expresa de la facultad que les confiere a sus apoderados de conocer, modificar y adoptar el Acuerdo de Reorganización, conforme al numeral 6° del artículo 57, en relación con el artículo 106 y el artículo 286 B numeral 7 de la Ley N.° 20.720, dependiendo del procedimiento de reorganización que se trate.
+
+En el evento que los poderes no sean calificados conforme a lo señalado, se le instruye informar al tribunal que conoce del Procedimiento Concursal de Reorganización respectivo para que resuelva.
+
+**b)** Analizar pormenorizadamente los estados financieros, balance de 8 columnas o tributario, estados de resultados o cualquier otro informe financiero o contable, de la empresa deudora, a efectos de determinar si han existido actos de disposición que pudiere ser objeto de acción revocatoria concursal, de conformidad con lo dispuesto en los artículos 287 y siguientes de la Ley N.° 20.720, debiendo, en caso que proceda, informar a los acreedores sobre la revocabilidad e interponer la acción respectiva, en caso de ser procedente.
+
+**c)** Publicar en el Boletín Concursal dentro de los dos días siguientes al vencimiento del plazo de verificación, todos los créditos presentados en el expediente, con su documentación respectiva, conforme al artículo 70 y al artículo 286 G, ambos de la Ley N.° 20.720, dependiendo del procedimiento de reorganización de que se trate.
+
+**d)** Analizar los créditos contenidos en el Certificado del Estado de Deudas del Deudor de conformidad a lo previsto en el artículo 56 N.° 4 y artículo 286 A y aquellos verificados en el expediente, con el fin que determine si procede la objeción de éstos, conforme al inciso 3° del artículo 70 y del inciso 3° del artículo 286 G, ambos de la Ley N.° 20.720.
+
+**e)** En caso de presentarse objeciones a los créditos, arbitrar las medidas necesarias para subsanarlas y, si correspondiere, emitir un informe sobre la existencia de fundamentos plausibles para ser considerados por el tribunal competente, en conformidad al inciso 1° artículo 71 y del artículo 286 H, ambos de Ley N.° 20.720.
+
+**f)** Confeccionar la Nómina de Créditos Reconocidos, la que deberá contener:
+
+**i.** Indicación del pasivo total del procedimiento: se deberán señalar los créditos contenidos en el estado de deudas de la empresa deudora y aquellos verificados en conformidad a lo establecido en el artículo 70 y 286 G de la Ley N.° 20.720, que no hayan sido objetados, incluidos los créditos de las Personas Relacionadas con la Empresa Deudora, debidamente individualizados, señalando qué tipo de relación les afecta.
+
+**ii.** En el procedimiento de reorganización judicial, indicación del pasivo total con derecho a concurrir y votar en la junta llamada a conocer la propuesta de acuerdo de reorganización judicial: se deberá indicar aquellos acreedores que hayan presentado sus personerías, de acuerdo a lo establecido en el artículo 57 N.° 6 y 78 de la Ley N.° 20.720, dejando de manifiesto que sólo estos podrán ejercer su derecho a voto en la Junta de Acreedores llamada a conocer y adoptar la propuesta de Acuerdo de Reorganización Judicial presentada por la empresa deudora, conforme a lo establecido en el inciso 5° del artículo 70 y en los artículos 78 y 79 de la citada Ley.
+
+Lo anterior, sin perjuicio que dicha nómina sea modificada o ampliada, conforme a lo dispuesto en el artículo 71 y 286 G de la Ley N.° 20.720, dependiendo del procedimiento que se trate.
+
+En el evento que existan créditos garantizados con un bien calificado como no esencial, conforme el inciso 2° del artículo 94 de Ley N.° 20.720, deberá incluirlo como valista, para los efectos de su voto, por la diferencia que exista entre el avalúo comercial del bien y el monto total del crédito.
+
+**iii.** En el procedimiento de reorganización simplificado, indicación del pasivo total con derecho a concurrir y votar la propuesta de acuerdo de reorganización: se deberá indicar aquellos acreedores que hayan presentado sus personerías, de acuerdo al artículo 286 B, número 7° y 286 K de la Ley N.° 20.720, dejando de manifiesto que sólo estos podrán ejercer su derecho a voto el día de la votación de la propuesta presentada por la empresa deudora, conforme a lo establecido en el artículo 286 N de la citada Ley.
+
+Lo anterior, sin perjuicio que la nómina de créditos reconocidos a que se refiere el artículo 286 G sea ampliada o modificada.
+
+En el evento que existan créditos garantizados con un bien calificado como no esencial, conforme al artículo 286 Q de la Ley N.° 20.720, deberá incluirlo como valista, por el saldo del crédito no cubierto por la garantía.
+
+Para el cumplimiento de lo señalado en la presente letra f), se adjunta el **Anexo I: Modelo de Nómina de Créditos Reconocidos**, al presente instructivo, el que deberá ser acompañado al tribunal en la oportunidad procesal correspondiente.
+
+**g)** Rendir mensualmente cuenta de su actuación y de los negocios de la Empresa Deudora de conformidad a lo previsto en el N.° 9 del artículo 25, a través del Módulo de Comunicación Directa del Portal de Sujetos Fiscalizados, utilizando la materia "Cuenta Mensual", dentro de los primeros 5 días siguientes al mes informado, con el fin de dar cumplimiento a las obligaciones impuestas en el Párrafo 3 del Título 1 del Capítulo III (artículos 72 y siguientes) y el N.° 4 del artículo 25 de la Ley N.° 20.720, observando lo siguiente:
+
+**(i)** Referirse expresamente a los negocios de la Empresa Deudora en el Procedimiento Concursal de Reorganización Judicial o reorganización simplificada, según corresponda.
+
+**(ii)** Dar cuenta de cualquier acto o conducta que signifique una administración negligente o dolosa de los negocios de la Empresa Deudora.
+
+Sobre este punto, el Veedor o Veedora al analizar la documentación de la letra b) de este artículo 1°, deberá informar al tribunal competente y a esta Superintendencia, cualquier incumplimiento o infracción al deber de cuidado que diga relación con una administración negligente o dolosa, de conformidad con el N.° 8) del artículo 25 de la Ley N.° 20.720 y que, en definitiva, pueda ocasionar un perjuicio a los acreedores, a la viabilidad de la Empresa Deudora, y en su caso, a la posibilidad de poder cumplirse o no la propuesta de Acuerdo de Reorganización Judicial, debiendo señalar estas observaciones también en el informe de la propuesta en comento, en relación con el N.º 8 del artículo 57 del mismo cuerpo legal, y artículo 5° del presente Instructivo.
+
+A modo de ejemplo, si durante la gestión del Veedor o Veedora se incrementa la deuda laboral mensualmente, en forma desproporcionada con los ingresos de la Empresa Deudora, existiría por parte de la misma, un incumplimiento o infracción a su deber de cuidado respecto de determinados acreedores, esto es, los trabajadores y trabajadoras de la misma.
+
+El aumento de la deuda laboral, entonces, podría implicar una administración negligente de la Empresa Deudora, a través de sus administradores, puesto que estos deben responder no solo a la sociedad en sí misma, sino también a los accionistas y acreedores, lo que no podrá desatenderse bajo el pretexto del inicio de un Procedimiento Concursal de Reorganización, considerando en paralelo, los deberes del Veedor o Veedora, en la reestructuración de la misma, mediante la negociación del Acuerdo con sus acreedores, de conformidad con lo dispuesto en el artículo 25 de la Ley N.° 20.720.
+
+En caso contrario, esto es, cuando la Empresa Deudora no pueda cumplir con sus obligaciones laborales y demás deberes que le asisten en la ejecución de su giro, ésta deberá transparentar su situación o estado real, lo que deberá ser requerido por el Veedor o Veedora, adoptando las medidas necesarias para mantener la integridad de los activos, de conformidad con el N.º 8 del artículo 25 de la normativa antedicha.
+
+Al respecto, si bien se ha señalado doctrinariamente que los créditos de los acreedores laborales no son reorganizables, hoy, dicha situación tiene un reconocimiento legal, lo que ha sido refrendado en el artículo 60 A, en su inciso segundo, incorporado en virtud de la Ley N.° 21.563, que Moderniza los Procedimientos Concursales contemplados en la Ley N.º 20.720 y Crea Nuevos Procedimientos para Micro y Pequeñas Empresas, por lo que no podrán desatenderse los derechos de los trabajadores en el procedimiento de reorganización judicial, según lo dispuesto en el mismo inciso primero del artículo 60 A, ya señalado.
+
+Conjuntamente, con la incorporación del nuevo N.º 10 del artículo 25 antes citado, el Veedor o Veedora debe velar por el correcto y oportuno cumplimiento de las obligaciones laborales y de seguridad social del Deudor, por tanto, aun cuando los trabajadores no formen parte de la propuesta de Acuerdo de conformidad al artículo 60 A señalado, la Empresa Deudora debe seguir cumpliendo con tales deberes.
+
+**(iii)** Dar cuenta y referirse a cada una de sus obligaciones como Veedor o Veedora, establecidas en el artículo 25 de la Ley N.° 20.720 y adjuntar la documentación de respaldo de sus actuaciones, si procediere.
+
+**(iv)** En materia financiera contable, en cumplimiento de las obligaciones y deberes a que se refieren los numerales 1°, 4°, 8° y 9° del citado artículo 25, el Veedor o Veedora deberá referirse, en cada cuenta mensual, al menos a lo siguiente:
+
+**iv.a)** Pagos efectuados a proveedores durante el período de Protección Financiera Concursal, indicando si dichos proveedores mantienen el suministro a la Empresa Deudora y si se cumplieron los demás requisitos establecidos en el artículo 72 o en el artículo 286 I, respectivamente, de la Ley N.° 20.720.
+
+En caso que algunos de los pagos efectuados conforme a la norma mencionada impliquen un cambio en el monto de los créditos incluidos en la Nómina de Créditos Reconocidos, el Veedor o Veedora deberá presentar una rectificación de ésta, con la finalidad que se refleje el real pasivo de la Empresa Deudora.
+
+**iv.b)** Préstamos contratados por la Empresa Deudora durante la Protección Financiera Concursal, indicando si tales préstamos fueron destinados para el financiamiento de sus operaciones, así como informar que estas clases de operaciones de financiamiento no superan el 20% de su pasivo señalado en la certificación contable referida en el artículo 55, de acuerdo a lo dispuesto en el artículo 74 de la Ley N.° 20.720. En el caso del procedimiento concursal de reorganización simplificada, deberá estarse a lo previsto en el artículo 286 J de la Ley N.° 20.720.
+
+**iv.c)** Informar si la Empresa Deudora ha enajenado activos, previendo que su valor no exceda el 20% de su activo fijo contable, en los términos y condiciones establecidos en el artículo 74 de la Ley N.° 20.720. En el caso del procedimiento concursal de reorganización simplificada, deberá estarse a lo previsto en el artículo 286 J de la Ley N.° 20.720.
+
+**iv.d)** Actos o contratos que se otorguen o suscriban con motivo de las operaciones que se regulan en el Párrafo 3 del Título 1 del Capítulo III de la Ley N.° 20.720, indicando si el producto de éstos fue ingresado efectivamente a la Empresa Deudora y se destinen única y exclusivamente a financiar su giro de conformidad al artículo 76 de la Ley N.° 20.720. En el caso de los procedimientos de reorganización simplificados se deberá informar respecto de actos o contratos con motivo de las operaciones establecidas en el artículo 286 J del mismo cuerpo legal.
+
+**iv.e)** Análisis a las cuentas activos, pasivos, pérdidas y ganancias, cuyo alcance y muestra deberá ser representativa del negocio del Deudor, siendo su conclusión fundada en los antecedentes que tuvo a la vista.
+
+El análisis contable deberá ser efectuado de acuerdo al **Anexo II: Modelo de Cuenta Mensual en Procedimiento Concursal de Reorganización**, que se adjunta al presente Instructivo.
+
+**iv.f)** Incluir actuaciones realizadas por el Veedor o Veedora y por la Empresa Deudora, correspondientes al mes inmediatamente anterior a su rendición.
+
+**(v)** Indicar la etapa en la cual se encuentra el Procedimiento de Reorganización, debiendo efectuar un informe sobre los aspectos procesales de mayor relevancia del periodo respectivo, a fin de otorgar la debida información a los acreedores.
+
+**(vi)** Dejar constancia del envío por correo electrónico de las referidas cuentas mensuales a cada uno de los acreedores de la Empresa Deudora, conforme lo establece el numeral 9° del citado artículo 25, adjuntando el documento que acredite dicha actuación.
+
+Con el fin de dar cumplimiento a lo dispuesto en el artículo 25 N.º 1, 7, 8 y 9, el Veedor o Veedora requerirá la documentación necesaria a la Empresa Deudora para la rendición de su cuenta, en el caso que esta se negare a proporcionarla, deberá solicitar al tribunal que aperciba al Deudor y/o sus representantes a la entrega respectiva, conforme lo previsto en el artículo 238 del Código de Procedimiento Civil.
+
+Al respecto, se observa que la confección de las cuentas mensuales conforme al numeral 9° del artículo 25 de Ley N.° 20.720, a los artículos 13 y 14 de la Norma de Carácter General N.° 7, de 8 de octubre de 2014, de esta Superintendencia y a lo instruido en este numeral, tanto en los aspectos jurídicos como financiero-contables, serán consideradas como antecedentes fundantes de la cuenta final de su gestión, que deberá rendir conforme el artículo 29 de la citada Ley.
+
+**(vii)** Acompañar la Cuenta Final de Gestión a la Superintendencia, en cumplimiento de lo dispuesto en el artículo 29 de la Ley N.° 20.720, en relación con los artículos 50 y 51 de la Ley, mediante el Módulo de Comunicación Directa del Portal de Sujetos Fiscalizados, en el plazo de 30 días contado desde la resolución que aprueba el acuerdo de reorganización o desde la resolución de liquidación, en su caso.
+
+### Párrafo II - Del Informe del Veedor en Reorganización Judicial
+
+**Artículo 2°.** De conformidad a lo dispuesto en el artículo 57 N.° 8 de la Ley, el Veedor o Veedora debe acompañar al tribunal y publicar en el Boletín Concursal, su informe sobre la propuesta de Acuerdo de Reorganización Judicial presentada por la empresa deudora, a lo menos tres días antes de la fecha fijada para la celebración de la Junta de Acreedores que votará dicha propuesta.
+
+Según la citada norma, dicho informe deberá contener la calificación fundada acerca de: a) Si la propuesta es susceptible de ser cumplida, habida consideración de las condiciones del Deudor; b) El monto probable de recuperación que le correspondería a cada acreedor en sus respectivas categorías, en caso de un Procedimiento Concursal de Liquidación, considerando el valor comercial de los bienes, su depreciación estimable en caso de liquidación y el monto de créditos preferentes, garantizados y valistas y c) Si la propuesta se ajusta a la Ley.
+
+Para el cumplimiento de la norma referida, los Veedores y Veedoras deberán mantener registro en formato electrónico, el que deberá estar a disposición de esta Superintendencia, de los documentos que fundamenten su informe sobre la propuesta de Acuerdo de Reorganización Judicial, regulado en el citado N.º 8 del artículo 57 de la Ley, tales como libros de compra y venta, registros contables, estados financieros, contratos y cualquier otro antecedente tenido a la vista para la confección del referido informe.
+
+Al respecto, se le hace presente que la no exhibición o entrega de dichos documentos, incluidos los libros, cuentas, archivos, documentos, contabilidad y bienes relativos al procedimiento se considerará falta grave para los efectos del número 3) de 337 de la Ley.
+
+**Artículo 3°.** El Veedor o Veedora publicará en el Boletín Concursal y acompañará al tribunal competente, a lo menos diez días antes de la fecha fijada para la Junta de Acreedores, la propuesta de Acuerdo de Reorganización Judicial que presente el Deudor, lo anterior en conformidad a lo establecido en los numeral 4 y 5 del artículo 57 de la Ley N.° 20.720.
+
+En caso que la Empresa Deudora presente modificaciones al Acuerdo de Reorganización Judicial o una nueva propuesta de Acuerdo, el Veedor o Veedora deberá presentar informe de tal modificación, en relación con el N.º 40 del artículo 2° y N.º 8 del artículo 57 señalado, a lo menos tres días antes de la fecha fijada para la celebración de la Junta de Acreedores que votará el Acuerdo con sus modificaciones o la nueva propuesta.
+
+El Informe al cual hace referencia el numeral 8) del artículo 57 de la Ley N.° 20.720, deberá contener lo siguiente:
+
+**1.** Análisis financiero por medio de índices o ratios que determine el estado de solvencia y viabilidad financiera de la Empresa Deudora sometida al procedimiento concursal de reorganización judicial.
+
+Para tal efecto, dicho análisis deberá estar fundado en una proyección del Estado de Situación Financiera o balance clasificado, del Estado de Resultado, del flujo de caja o cualquier otro estado financiero que sirvió de base a la Empresa Deudora para elaborar la Propuesta de Acuerdo de Reorganización Judicial; esto es, los índices financieros deberán calcularse en base a los montos, conceptos y/o partidas contables contenidos en la proyección de dichos estados financieros, debiéndose interpretar y justificar sus resultados.
+
+Esta información deberá estar contenida en la siguiente "Tabla de Análisis de Índices Financieros (ratios)" la que muestra aquellos índices financieros mínimos, que deberán ser informados por el Veedor o Veedora para efectos de complementar el informe previsto en el N.° 8 del artículo 57 de la Ley N.° 20.720, debiendo agregarse cualquier otro análisis, ratio o índice que permita reflejar adecuadamente la situación económica-financiera futura de la Empresa Deudora.
+
+#### Tabla de Análisis de Índices Financieros (ratios)
+
+| Categoría | Indicador | Fórmula | Resultado |
+|---|---|---|---|
+| Indicadores de Eficiencia | Rotación Activos | Ventas / Activos | Interpretación y Justificación del resultado del indicador |
+| Indicadores de Eficiencia | Días Cliente | Cuentas por Cobrar / Ventas * 360 | Interpretación y Justificación del resultado del indicador |
+| Indicadores de Eficiencia | Impacto de los gastos de administración y venta | Gastos Adm. y Ventas / Ventas | Interpretación y Justificación del resultado del indicador |
+| Indicadores de Eficiencia | Rotación de inventario | Costo de ventas / Inventario | Interpretación y Justificación del resultado del indicador |
+| Indicadores de Eficiencia | Período promedio de pago | Cuentas por pagar / Costos de ventas | Interpretación y Justificación del resultado del indicador |
+| Indicadores de Liquidez | Prueba Ácida | (Activos Circulantes - Inventario) / Pasivo Circulante | Interpretación y Justificación del resultado del indicador |
+| Indicadores de Liquidez | Liquidez Corriente | Activo Circulante / Pasivo Circulante | Interpretación y Justificación del resultado del indicador |
+| Indicadores de Endeudamiento | Razón deuda a patrimonio | Pasivo total / Patrimonio total | Interpretación y Justificación del resultado del indicador |
+| Indicadores de Endeudamiento | Razón de endeudamiento | Pasivo total / Activos totales | Interpretación y Justificación del resultado del indicador |
+| Indicadores de Rentabilidad | Margen de utilidad bruta | (Ventas - Costos de ventas) / Ventas | Interpretación y Justificación del resultado del indicador |
+| Indicadores de Rentabilidad | Margen de utilidad operativa | Utilidad operativa / Ventas | Interpretación y Justificación del resultado del indicador |
+| Indicadores de Rentabilidad | Margen de utilidad neta | Utilidad neta / Ventas | Interpretación y Justificación del resultado del indicador |
+| Indicadores de Rentabilidad | Rendimiento sobre el patrimonio (ROE) | Utilidad neta / Patrimonio total | Interpretación y Justificación del resultado del indicador |
+| Indicadores de Rentabilidad | ROA | Margen Operacional / Activos | Interpretación y Justificación del resultado del indicador |
+| Indicadores de Rentabilidad | Cobertura de la deuda | Margen operacional / Deuda | Interpretación y Justificación del resultado del indicador |
+
+**2.** La letra a) del numeral 8 del artículo 57 de la Ley N.° 20.720, establece que el informe del Veedor o Veedora deberá contener la calificación fundada respecto a si la propuesta es susceptible de ser cumplida, habida consideración de las condiciones del Deudor. En virtud de la presente instrucción, deberá referirse a la capacidad de la empresa para pagar sus deudas acordadas en el plan de pago con los acreedores, considerando un Flujo de Caja proyectado y confeccionado por el Veedor o Veedora, a través del cual se pueda concluir que la Empresa Deudora tendrá fondos para cubrir el saldo de la deuda, de acuerdo al siguiente modelo:
+
+#### Modelo flujo de caja proyectado y sus variaciones
+
+| GLOSA | AÑO 1 MONTO (MM$) | AÑO 2 MONTO (MM$) | AÑO …10 MONTO (MM$) |
+|---|---|---|---|
+| VENTA | | | |
+| (-) COSTO VENTA | | | |
+| MARGEN BRUTO | | | |
+| (-) GASTO DE ADMINISTRACIÓN | | | |
+| EBITDA | | | |
+| (-) DEPRECIACIÓN + AMORTIZACIÓN | | | |
+| MARGEN OPERACIONAL (EBIT) | | | |
+| (-) IMPUESTO SOBRE EBIT (25%) | | | |
+| MARGEN OPERACIONAL DESPUÉS DE IMPUESTOS (NOPAT) | | | |
+| (+) DEPRECIACIÓN + AMORTIZACIÓN | | | |
+| (-) CAPEX (FLUJO DE INVERSIÓN) | | | |
+| (-) VARIACIÓN DEL CAPITAL DE TRABAJO | | | |
+| FLUJO DE CAJA | | | |
+
+El flujo anterior deberá confeccionarse a partir de los estados financieros emitidos por la empresa deudora a la fecha más cercana a la de su informe, debidamente firmados por el contador y representante legal de la empresa y de las proyecciones financieras pertinentes;
+
+**3.** La letra b) de numeral 8 del artículo 57 de la Ley, exige al Veedor o Veedora calificar fundadamente, el monto probable de recuperación que le correspondería a cada acreedor en sus respectivas categorías, en caso de un Procedimiento Concursal de Liquidación, considerando el valor comercial de los bienes, su depreciación estimable en caso de liquidación y el monto de créditos preferentes, garantizados y valistas. Lo anterior, deberá quedar contenido en la siguiente tabla:
+
+#### Modelo ingresos - egresos: Monto probable de recuperación
+
+**Ingresos**
+
+| Concepto | $ |
+|---|---|
+| Intereses y Reajustes Ganados | |
+| Arriendo Percibido | |
+| Venta de Bienes Muebles | |
+| Venta de Bienes Inmuebles | |
+| Fondos Incautados | |
+| Ingresos por Cobranza | |
+| Ingresos de Administración | |
+| Otros Ingresos | |
+| **TOTAL** | |
+
+**Egresos**
+
+| Concepto | $ |
+|---|---|
+| Honorarios Liquidador | |
+| Honorarios Varios | |
+| Gastos Menores | |
+| Publicaciones de Enajenaciones | |
+| Gasto de Martillo | |
+| Gasto de Vigilancia | |
+| Notificaciones | |
+| Mantención de Activos | |
+| Gastos de Traslados | |
+| Documentos Incobrables | |
+| Bodegaje | |
+| **TOTAL** | |
+
+**RESULTADO:**
+
+**Pasivos por pagar - Monto probable de recuperación que le correspondería a cada acreedor en sus respectivas categorías y/o el monto probable de recuperación que correspondería a cada clase.**
+
+| Concepto | $ |
+|---|---|
+| Pago Administrativo de Créditos | |
+| Pago Créditos de Primera Clase | |
+| Pago Créditos de Segunda Clase | |
+| Pago Créditos de Tercera Clase | |
+| Pago Créditos de Cuarta Clase | |
+| Pago Créditos Valistas | |
+| **TOTAL** | |
+
+**RESULTADO:**
+
+**Artículo 4°.** De acuerdo a lo dispuesto en el numeral 1) del artículo 56 de la Ley N.° 20.720, en su solicitud de reorganización, la empresa deudora deberá acompañar una relación de sus bienes, con expresión del avalúo comercial, del lugar en que se encuentren y de los gravámenes que los afecten.
+
+Con relación a lo referido, el informe del Veedor o Veedora, deberá valorar el estado, avalúo y existencia de los bienes declarados por el deudor, debiendo informar si dichas declaraciones coinciden o no con lo constatado.
+
+**Artículo 5°.** En caso de existir antecedentes que acrediten una administración negligente o dolosa en los negocios de la Empresa Deudora, el Veedor o Veedora deberá informar al tribunal competente y a esta Superintendencia, cualquier incumplimiento o infracción al deber de cuidado que diga relación con ello, de conformidad con el N.º 8) del artículo 25 de la Ley N.º 20.720, todo lo anterior, en los términos de la letra g) punto (ii) del artículo 1° del presente Instructivo, debiendo incorporar tales observaciones en el informe de la propuesta de Acuerdo de Reorganización, de sus modificaciones o de la nueva propuesta de Acuerdo.
+
+### Párrafo III - Del Informe del Veedor en Reorganización Simplificada
+
+**Artículo 6°.** De conformidad a lo dispuesto en el artículo 286B N.° 5 de la Ley, en relación con lo previsto en el artículo 6 del mismo cuerpo legal, el Veedor o Veedora debe acompañar al tribunal y publicar en el Boletín Concursal, su informe sobre la propuesta de Acuerdo de Reorganización Simplificada presentada por la empresa deudora, a lo menos tres días antes de la fecha fijada para la celebración de la Junta de Acreedores que votará dicha propuesta.
+
+Según la citada norma, dicho informe deberá referirse fundadamente acerca de: a) La viabilidad de la propuesta, y b) Si la propuesta presentada por el Deudor se ajusta a la ley.
+
+Para el cumplimiento de la norma referida, los Veedores y Veedoras deberán mantener registro en formato electrónico, el que deberá estar a disposición de esta Superintendencia, de los documentos que fundamenten su informe sobre la propuesta de Acuerdo de Reorganización Simplificada, regulado en el citado N.º 5 del artículo 286B de la Ley, de acuerdo al régimen tributario de cada empresa deudora en particular, tales como libros de compra y venta, registro de ingresos y egresos, libro de Caja, libro de remuneraciones, registros contables, estados financieros, contratos y cualquier otro antecedente tenido a la vista para la confección del referido informe.
+
+Al respecto, se le hace presente que la no exhibición o entrega de dichos documentos, incluidos los libros, cuentas, archivos, documentos, contabilidad y bienes relativos al procedimiento se considerará falta grave para los efectos del número 3) del artículo 337 de la Ley.
+
+**Artículo 7°.** El Veedor o Veedora deberá publicar en el Boletín Concursal y acompañará al tribunal competente, a lo menos tres días antes de la fecha de votación del acuerdo, su informe sobre la propuesta de Acuerdo de Reorganización Simplificada que presente el Deudor, lo anterior en conformidad a lo establecido en el artículo 286, en relación con lo previsto en el Capítulo III de la Ley N.° 20.720. El Informe señalado deberá contener lo siguiente:
+
+**1.** Análisis financiero por medio de índices o ratios que determine la viabilidad financiera de la propuesta de la Empresa Deudora sometida al procedimiento concursal de Reorganización Simplificada.
+
+Para tal efecto, dicho análisis deberá estar sustentado, a lo menos, en una proyección del flujo de caja y registro de ingresos y egresos o, los estados financieros que sean atingentes a cada régimen tributario en particular (Estado de Situación Financiera, Balance Clasificado, Balance General de 8 columna o Tributario, Estado de Resultado) o cualquier otro estado financiero que sirvió de base a la Empresa Deudora, con la supervisión y asistencia del Veedor, para elaborar la Propuesta de Acuerdo de Reorganización Judicial Simplificada; esto es, los índices financieros deberán calcularse en base a los montos, conceptos y/o partidas contables contenidos en estos estados financieros, debiéndose interpretar y justificar sus resultados.
+
+La información deberá ser presentada según la "Tabla de Análisis de Índices Financieros (ratios)", propuesta con ratios mínimos, contenida en el Artículo 3° del presente Instructivo, que deberán ser informados por el Veedor o Veedora, dependiendo del régimen tributario en que se encuentre la Empresa Deudora e información financiero contable disponible, para efectos de complementar el informe previsto en el N.° 5 del artículo 286B de la Ley N.° 20.720, debiendo agregar cualquier otro análisis, ratio o índice que permita reflejar adecuadamente la viabilidad financiera de la propuesta de la Empresa Deudora.
+
+**2.** El numeral 5 del artículo 286B de la Ley N.° 20.720, establece que el informe del Veedor o Veedora deberá referirse a la viabilidad de la propuesta, el que deberá confeccionarse habida consideración de cada régimen tributario en particular e información con que cuente el veedor o veedora. En virtud de la presente instrucción, la fundamentación deberá referirse a la capacidad de la empresa para pagar sus deudas según la propuesta realizada, debiendo considerar un Flujo de Caja proyectado, confeccionado por el Veedor o Veedora, con la intención de que se pueda concluir si la Empresa Deudora tendrá fondos para cubrir las deudas, considerando el Modelo de Flujo de Caja proyectado y sus variaciones de acuerdo a lo dispuesto en el Artículo 3° del presente Instructivo.
+
+El mencionado flujo se deberá confeccionar a partir de la información con que cuente el Veedor o Veedora habida consideración a cada régimen tributario en particular de la empresa deudora, observando cualquier otro análisis al que pueda acceder y, a la fecha más cercana al del informe a emitir.
+
+**Artículo 8°.** En caso que la Empresa Deudora presente modificaciones al Acuerdo de Reorganización Simplificado o una nueva propuesta de Acuerdo, el Veedor o Veedora deberá presentar informe de tal modificación, en relación con lo previsto en el artículo 286 B N.º 5 de la Ley, a lo menos tres días antes de la fecha fijada para la celebración de la fecha destinada a la votación del Acuerdo con sus modificaciones o la nueva propuesta.
+
+---
+
+## Título II - Disposiciones Finales
+
+**Artículo 9°.** Los informes a los que hace referencia el presente Instructivo en los párrafos II y III del Título I, deberán ser puestos a disposición de esta Superintendencia, a través del Módulo de Comunicación Directa del Portal de Sujetos Fiscalizados, indicando la materia "Informe sobre propuesta de reorganización", dentro del plazo establecido en el artículo 57 N.° 8 y 286 B, N.° 5 respectivamente, ambos de la Ley N.° 20.720, esto es a lo menos tres días antes de la fecha fijada para la celebración de la junta de acreedores que votará el Acuerdo de Reorganización Judicial o a la fecha de la votación del Acuerdo.
+
+**Artículo 10°.** El incumplimiento a las normas contenidas en el presente Instructivo podrá ser constitutivo de infracción administrativa, de conformidad a lo dispuesto en el artículo 338 de la Ley N.° 20.720.
+
+Asimismo, la inobservancia de las instrucciones comprendidas en este Instructivo, podrá constituir una causal para la presentación de objeciones a las cuentas finales de gestión rendidas en los procedimientos concursales de reorganización, de conformidad a lo dispuesto en el artículo 52, en relación con lo previsto en el artículo 29 de la Ley N.° 20.720.
+
+**Artículo 11°.** Las obligaciones contenidas en este Instructivo, serán aplicables, en lo que resulte pertinente, a los procedimientos de reorganización extrajudiciales contemplados en los artículos 102 y siguientes de la Ley N.° 20.720.
+
+**Artículo 12°.** Vigencia. El presente Instructivo comenzará a regir transcurrido tres meses desde la fecha de su notificación por correo electrónico a los/las veedores/as, sin perjuicio de su publicación en el Diario Oficial.
+
+---
+
+**2°.** DÉJASE SIN EFECTO a contar de la entrada en vigencia del presente Instructivo, el Oficio Superir N.° 2542 de 6 de junio de 2016.
+
+**3°.** NOTIFÍQUESE la presente resolución a los/las Veedores/as pertenecientes a las nóminas de la Superintendencia de Insolvencia y Reemprendimiento.
+
+**4°.** PUBLÍQUESE la presente resolución en el Diario Oficial.
+
+**5°.** DISPÓNGASE como medida de publicidad, una vez que se encuentre totalmente tramitado el presente acto administrativo, su publicación en el sitio web institucional de la Superintendencia de Insolvencia y Reemprendimiento.
+
+---
+
+**ANÓTESE, NOTIFÍQUESE Y ARCHÍVESE,**
+
+**HUGO SÁNCHEZ RAMÍREZ**
+**SUPERINTENDENTE DE INSOLVENCIA Y REEMPRENDIMIENTO**
+
+PVL/CVS/CBP/EGZ/FRC/SUS/DTC/MLS/SCP/RAA
+
+**DISTRIBUCIÓN:**
+Señores/as Veedores/as
+Presente
+
+---
+
+# ANEXO I - MODELO NÓMINA DE CRÉDITOS RECONOCIDOS
+
+De conformidad a lo establecido en los artículos 70, 71, 78, 79, 286 G, 286 L y 286 N de la Ley N.º 20.720, la nómina de créditos reconocidos que determina el pasivo de la Empresa Deudora de autos y a aquellos acreedores que podrán ejercer su derecho a voto, es la siguiente:
+
+| N.º | Acreedor | RUT | Monto del Crédito | Preferencia (hipotecario / prendario / valista) | Persona Relacionada (N.º 26 Art. 2) | Poder acreditado para ejercer el derecho a voto |
+|---|---|---|---|---|---|---|
+| 1 | | | | | Sí / NO | Sí / NO |
+| 2 | | | | | | |
+| 3 | | | | | | |
+| 4 | | | | | | |
+| 5 | | | | | | |
+| 6 | | | | | | |
+| 7 | | | | | | |
+| 8 | | | | | | |
+| 9 | | | | | | |
+| 10 | | | | | | |
+
+\* El monto indicado corresponde a aquella parte valista del crédito original de [$...] que se indicó garantizado por un bien [hipotecado/prendado] valorizado en [$...], el cual fue declarado como no esencial conforme al artículo 94 y 286 Q de la Ley N.° 20.720, determinando judicialmente que su valor comercial asciende a [$...].
+
+\* En caso que el acreedor hipotecario o prendario vote la propuesta de los acreedores valistas conforme lo dispuesto en el artículo 61 de la Ley N.° 20.720, deberá dejarse constancia en la nómina de créditos reconocidos si la renuncia se hiciere antes de la Junta de Acreedores, o en la nómina de créditos levantada en dicha junta si la renuncia se hiciera durante su celebración.
+
+---
+
+# ANEXO II - MODELO DE CUENTA MENSUAL EN PROCEDIMIENTO CONCURSAL DE REORGANIZACIÓN
+
+### Activo
+
+| Cuenta | Debe | Haber | Saldo | Anexo |
+|---|---|---|---|---|
+| Banco | $ | $ | $ | 1 |
+| Caja | $ | $ | $ | 2 |
+| Documentos por Cobrar | $ | $ | $ | 3 |
+
+**Comentario:**
+
+### Pasivo
+
+| Cuenta | Debe | Haber | Saldo | Anexo |
+|---|---|---|---|---|
+| Proveedores | $ | $ | $ | 4 |
+| Acreedores | $ | $ | $ | 5 |
+| Préstamos | $ | $ | $ | 6 |
+
+**Comentario:**
+
+### Pérdida
+
+| Cuenta | Debe | Haber | Saldo | Anexo |
+|---|---|---|---|---|
+| Remuneraciones | $ | $ | $ | 7 |
+| Arriendos | $ | $ | $ | 8 |
+| Asesorías | $ | $ | $ | 9 |
+
+**Comentario:**
+
+### Ganancia
+
+| Cuenta | Debe | Haber | Saldo | Anexo |
+|---|---|---|---|---|
+| Ingresos por Venta | $ | $ | $ | 10 |
+| Ingresos Varios | $ | $ | $ | 11 |
+| Otros Ingresos | $ | $ | $ | 12 |
+
+**Comentario:**
+
+---
+
+### Conceptos Cuenta Mensual de Procedimiento Concursal de Reorganización
+
+| Rubro | Debe | Haber | Saldo |
+|---|---|---|---|
+| Activo | Por aumentos conforme a adquisiciones y cobros | Por disminuciones conforme a bajas de bienes y pagos | Por diferencia |
+| Pasivo | Por la disminución de la deuda | Por el aumento de una deuda y responsabilidad con terceros | Por la diferencia entre la deuda y sus pagos |
+| Pérdida | Por pagos de gastos | Otros Ajustes | Por diferencia |
+| Ganancia | Ajustes | Por ventas, Otros | Por diferencia |
+
+**Anexo:** Se debe respaldar con documentación los movimientos contables y su saldo en cuenta.
+
+**Comentario:** Cualquier anotación de importancia, por parte del Veedor o Veedora, que clarifique de mejor manera los movimientos realizados. Asimismo, dar cuenta de un acto o conducta que signifique una administración negligente o dolosa de los negocios del deudor, comprendiendo la negligencia, la circunstancia de no poner a disposición del Veedor o Veedora la documentación requerida.
+
+**Nota:** Las cuentas mencionadas en el cuadro adjunto, son meras representaciones de los rubros que componen un Balance General de 8 columna o Tributario, cada empresa posee su plan de cuentas conforme a sus nomenclaturas y movimientos particulares. Asimismo, las cuentas a utilizar en el ítem de activo, pasivo, pérdida y ganancia, deben ser las más representativas y de mayores movimientos contables bajo la supervisión del Veedor o Veedora.

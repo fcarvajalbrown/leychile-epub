@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ley xmlns="https://leychile.cl/schema/ley/v1" version="1.0" idioma="es-CL" id_norma="NCG-26" tipo="Norma de Carácter General" numero="26" estado="vigente" fecha_version="2024-05-07" fecha_promulgacion="2024-05-07" fecha_publicacion="2024-04-16" generado="2026-02-12T11:14:27.855082" fuente="Biblioteca del Congreso Nacional de Chile" url_original="https://www.superir.gob.cl/wp-content/uploads/2024/05/RES_NUM_6048_ANO_2024.pdf">
+<ley xmlns="https://leychile.cl/schema/ley/v1" version="1.1" idioma="es-CL" id_norma="NCG-26" tipo="Norma de Carácter General" numero="26" estado="vigente" fecha_version="2024-05-07" fecha_promulgacion="2024-05-07" fecha_publicacion="2024-04-16" generado="2026-02-12T21:30:05.221904" fuente="Biblioteca del Congreso Nacional de Chile" url_original="https://www.superir.gob.cl/wp-content/uploads/2024/05/RES_NUM_6048_ANO_2024.pdf">
   <metadatos>
     <titulo>NORMA DE CARÁCTER GENERAL N°26 - Requisitos para liquidación voluntaria de personas deudoras</titulo>
     <identificacion>
@@ -25,24 +25,20 @@
     <fuente>Superintendencia de Insolvencia y Reemprendimiento</fuente>
     <numero_fuente>6048</numero_fuente>
     <leyes_referenciadas>
-      <ley_ref>Ley 20.720</ley_ref>
-      <ley_ref>Ley 18.575</ley_ref>
-      <ley_ref>Ley 19.880</ley_ref>
-      <ley_ref>Ley 19.799</ley_ref>
-      <ley_ref>Ley 19.628</ley_ref>
-      <ley_ref>Ley 21.563</ley_ref>
-      <ley_ref>DFL 1-19.653</ley_ref>
-      <ley_ref>D.S. 181</ley_ref>
-      <ley_ref>D.S. 8</ley_ref>
+      <ley_ref tipo="Ley" numero="20.720">Ley 20.720</ley_ref>
+      <ley_ref tipo="Ley" numero="18.575">Ley 18.575</ley_ref>
+      <ley_ref tipo="Ley" numero="19.880">Ley 19.880</ley_ref>
+      <ley_ref tipo="Ley" numero="19.799">Ley 19.799</ley_ref>
+      <ley_ref tipo="Ley" numero="19.628">Ley 19.628</ley_ref>
+      <ley_ref tipo="Ley" numero="21.563">Ley 21.563</ley_ref>
+      <ley_ref tipo="DFL" numero="1-19.653">DFL 1-19.653</ley_ref>
+      <ley_ref tipo="D.S." numero="181">D.S. 181</ley_ref>
+      <ley_ref tipo="D.S." numero="8">D.S. 8</ley_ref>
     </leyes_referenciadas>
   </metadatos>
-  <encabezado>VISTOS:
-
-Las facultades que me confiere la Ley N.° 20.720, que sustituye el régimen concursal vigente por una Ley de Reorganización y Liquidación de Activos de Empresas y Personas; lo dispuesto en el D.F.L. N.° 1-19.653, de 17 de noviembre de 2001, que fija el texto Refundido, Coordinado y Sistematizado de la Ley N.° 18.575, Orgánica Constitucional de Bases Generales de la Administración del Estado; en la Ley N.° 19.880, que establece bases de los procedimientos administrativos que rigen los actos de los Órganos de la Administración del Estado; en la Ley N.° 19.799 Sobre Documentos Electrónicos, Firma Electrónica y Servicios de Certificación de Dicha Firma; en el Decreto Supremo N.° 181 de 17 de agosto de 2022, del Ministerio de Economía, Fomento y Turismo, que aprueba el reglamento de la Ley N.º 19.799 sobre documentos electrónicos, firma electrónica y la certificación de dicha firma; en la Ley N.° 19.628 sobre Protección de la Vida Privada; en la Resolución N.° 7 de 2019 de la Contraloría General de la República, que fija normas sobre exención del trámite de toma de razón; en la Ley N.° 21.563 que Moderniza los Procedimientos Concursales contemplados en la Ley N.° 20.720 y crea nuevos procedimientos para micro y pequeñas empresas; y en el Decreto Supremo N.° 8, de 19 de enero de 2023, del Ministerio de Economía, Fomento y Turismo.
-
-CONSIDERANDO:
-
-1. Que, de conformidad a lo dispuesto en los artículos 331 y siguientes de la Ley N.° 20.720 de Reorganización y Liquidación de Activos de Empresas y Personas, modificada por la Ley N.° 21.563, en su artículo 337, en adelante “la Ley”, la Superintendencia de Insolvencia y Reemprendimiento, en adelante la “Superintendencia”, es una persona jurídica de derecho público, creada por la Ley, como un servicio público descentralizado con personalidad jurídica y patrimonio propio, que se relaciona con el Presidente de la República a través del Ministerio de Economía, Fomento y Turismo, que tiene como función supervigilar y fiscalizar las actuaciones de los Liquidadores Concursales, Veedores Concursales, Interventores designados conforme a la Ley, Martilleros Concursales, Administradores de la Continuación de las Actividades Económicas del Deudor, Asesores Económicos de Insolvencia y de toda persona que por ley quede sujeta a su supervigilancia y fiscalización.
+  <encabezado>
+    <vistos>Las facultades que me confiere la Ley N.° 20.720, que sustituye el régimen concursal vigente por una Ley de Reorganización y Liquidación de Activos de Empresas y Personas; lo dispuesto en el D.F.L. N.° 1-19.653, de 17 de noviembre de 2001, que fija el texto Refundido, Coordinado y Sistematizado de la Ley N.° 18.575, Orgánica Constitucional de Bases Generales de la Administración del Estado; en la Ley N.° 19.880, que establece bases de los procedimientos administrativos que rigen los actos de los Órganos de la Administración del Estado; en la Ley N.° 19.799 Sobre Documentos Electrónicos, Firma Electrónica y Servicios de Certificación de Dicha Firma; en el Decreto Supremo N.° 181 de 17 de agosto de 2022, del Ministerio de Economía, Fomento y Turismo, que aprueba el reglamento de la Ley N.º 19.799 sobre documentos electrónicos, firma electrónica y la certificación de dicha firma; en la Ley N.° 19.628 sobre Protección de la Vida Privada; en la Resolución N.° 7 de 2019 de la Contraloría General de la República, que fija normas sobre exención del trámite de toma de razón; en la Ley N.° 21.563 que Moderniza los Procedimientos Concursales contemplados en la Ley N.° 20.720 y crea nuevos procedimientos para micro y pequeñas empresas; y en el Decreto Supremo N.° 8, de 19 de enero de 2023, del Ministerio de Economía, Fomento y Turismo.</vistos>
+    <considerandos>1. Que, de conformidad a lo dispuesto en los artículos 331 y siguientes de la Ley N.° 20.720 de Reorganización y Liquidación de Activos de Empresas y Personas, modificada por la Ley N.° 21.563, en su artículo 337, en adelante “la Ley”, la Superintendencia de Insolvencia y Reemprendimiento, en adelante la “Superintendencia”, es una persona jurídica de derecho público, creada por la Ley, como un servicio público descentralizado con personalidad jurídica y patrimonio propio, que se relaciona con el Presidente de la República a través del Ministerio de Economía, Fomento y Turismo, que tiene como función supervigilar y fiscalizar las actuaciones de los Liquidadores Concursales, Veedores Concursales, Interventores designados conforme a la Ley, Martilleros Concursales, Administradores de la Continuación de las Actividades Económicas del Deudor, Asesores Económicos de Insolvencia y de toda persona que por ley quede sujeta a su supervigilancia y fiscalización.
 
 Asimismo, le corresponde desempeñar aquellas funciones que la referida ley le encomienda, así como las demás que se establezcan en otras leyes.
 
@@ -50,9 +46,7 @@ Asimismo, le corresponde desempeñar aquellas funciones que la referida ley le e
 
 Los Veedores que pertenezcan a la Categoría A gestionarán los procedimientos regulados en el Capítulo III. Los Veedores que pertenezcan a la Categoría B gestionarán los procedimientos regulados en el Título 3 del Capítulo V.
 
-Por defecto, todo Veedor que se incorpore a la Nómina de Veedores en virtud del artículo 13 será incorporado en la Categoría B. Para acceder a la Categoría A, los Veedores deberán presentar una solicitud a la Superintendencia y cumplir con los requisitos e indicadores de gestión positivos determinados por la Superintendencia por medio de una
-
-norma de carácter general.
+Por defecto, todo Veedor que se incorpore a la Nómina de Veedores en virtud del artículo 13 será incorporado en la Categoría B. Para acceder a la Categoría A, los Veedores deberán presentar una solicitud a la Superintendencia y cumplir con los requisitos e indicadores de gestión positivos determinados por la Superintendencia por medio de una norma de carácter general.
 
 Hermanos Amunátegui 228, Santiago, Chile Fono: (56 2) 2495 2500 www.superir.gob.cl
 
@@ -68,8 +62,9 @@ Por defecto, todo Liquidador que se incorpore a la Nómina de Liquidadores en vi
 
 Los Liquidadores que pertenezcan a la Categoría A podrán solicitar mantenerse inscritos en ambas categorías. Los requisitos para proceder al cambio de categorías a la o a las que pertenezca un Liquidador se regulará por la Superintendencia mediante la norma de carácter general señalada en el inciso anterior”.
 
-4. Que, atendido lo expuesto y de conformidad con lo dispuesto en el artículo 3 de la Ley N.° 19.880 y en las normas legales pertinentes;</encabezado>
-  <contenido total_articulos="20" total_libros="0" total_titulos="4" total_capitulos="0">
+4. Que, atendido lo expuesto y de conformidad con lo dispuesto en el artículo 3 de la Ley N.° 19.880 y en las normas legales pertinentes;</considerandos>
+  </encabezado>
+  <contenido total_articulos="20" total_libros="0" total_titulos="2" total_capitulos="0">
     <titulo id="1" tipo_original="Título" numero="I">
       <titulo_seccion>Título I Definiciones</titulo_seccion>
       <articulo id="1" tipo_original="Artículo" numero="1">
@@ -164,14 +159,12 @@ Los Liquidadores que pertenezcan a la Categoría A podrán solicitar mantenerse 
         <contenido>
           <parrafo>El puntaje mínimo requerido para que un Veedor Concursal sea traspasado de la Categoría B a la Categoría A, será de 26 puntos, conforme a la siguiente tabla:</parrafo>
           <parrafo>Criterio Puntaje Puntaje Ponderado Puntaje Puntaje Puntaje Puntaje Mínimo Máximo Mínimo Máximo Ponderado Ponderado Ponderado Ponderado Mínimo de Máximo Corte Experiencia 50 100 40% 20 40 8 40 Desempeño 50 100 60% 30 60 18 60 Puntaje Global 26 100</parrafo>
+          <parrafo>Título III Requisitos e Indicadores de Gestión Positivos de Liquidadores Concursales</parrafo>
         </contenido>
       </articulo>
-    </titulo>
-    <titulo id="3" tipo_original="Título" numero="III">
-      <titulo_seccion>Título III Requisitos e Indicadores de Gestión Positivos de Liquidadores Concursales</titulo_seccion>
       <articulo id="9" tipo_original="Artículo" numero="9">
         <titulo_seccion>Artículo 9. Requisitos que deben cumplir los Liquidadores Concursales</titulo_seccion>
-        <contexto>Título III Requisitos e Indicadores de Gestión Positivos de Liquidadores Concursales</contexto>
+        <contexto>Título II Requisitos e Indicadores de Gestión Positivos de Veedores Concursales</contexto>
         <contenido>
           <parrafo>Los Liquidadores Concursales que, perteneciendo a la Categoría B, soliciten ingresar a la Categoría A, deberán cumplir con los requisitos que se indican a continuación: 1) Contar con, a lo menos, un año corrido en la Categoría B y encontrarse vigente en la nómina, al momento de presentar la solicitud de cambio de categoría a la Superintendencia. 2) El número de procedimientos concursales tramitados no podrá ser inferior a 10 Liquidaciones Simplificadas en el año corrido previo a la solicitud de cambio de nómina, el que se contará desde el ingreso de la solicitud a la Superintendencia. 3) Obtener, a lo menos, el puntaje mínimo requerido regulado en el Artículo</parrafo>
           <inciso numero="1">de la presente Norma de Carácter General.</inciso>
@@ -182,7 +175,7 @@ Los Liquidadores que pertenezcan a la Categoría A podrán solicitar mantenerse 
       </articulo>
       <articulo id="10" tipo_original="Artículo" numero="10">
         <titulo_seccion>Artículo 10. Indicador de experiencia</titulo_seccion>
-        <contexto>Título III Requisitos e Indicadores de Gestión Positivos de Liquidadores Concursales</contexto>
+        <contexto>Título II Requisitos e Indicadores de Gestión Positivos de Veedores Concursales</contexto>
         <contenido>
           <parrafo>Corresponde al número de Procedimientos Concursales de Liquidación Simplificada tramitados, sean vigentes o terminados, respecto de la base mínima de 10 Liquidaciones Simplificadas señaladas en el requisito número 2 del artículo 9° de la presente Norma de Carácter General, dentro del año corrido anterior, el que se contará desde el ingreso de la solicitud a la Superintendencia.</parrafo>
           <parrafo>I Experiencia = Cantidad de Liquidaciones Simplificadas tramitadas en el período de evaluación respecto a la base mínima de Liquidaciones Simplificadas señalada en el número 2 del artículo 9° de la presente Norma de Carácter General.</parrafo>
@@ -196,7 +189,7 @@ Los Liquidadores que pertenezcan a la Categoría A podrán solicitar mantenerse 
       </articulo>
       <articulo id="11" tipo_original="Artículo" numero="11">
         <titulo_seccion>Artículo 11</titulo_seccion>
-        <contexto>Título III Requisitos e Indicadores de Gestión Positivos de Liquidadores Concursales</contexto>
+        <contexto>Título II Requisitos e Indicadores de Gestión Positivos de Veedores Concursales</contexto>
         <contenido>
           <parrafo>Asignación de puntaje por experiencia: Se asignará puntaje conforme a la cantidad de procedimientos concursales tramitados, sean vigentes o terminados, descritos precedentemente y de conformidad a la siguiente tabla:</parrafo>
           <parrafo>Resultado del Indicador de Experiencia Puntaje Indicador de experiencia menor a 1 0 Indicador de experiencia igual a 1 50 Indicador de experiencia mayor a 1 y menor a 1,5 75 Indicador de experiencia mayor o igual a 1,5 100</parrafo>
@@ -204,7 +197,7 @@ Los Liquidadores que pertenezcan a la Categoría A podrán solicitar mantenerse 
       </articulo>
       <articulo id="12" tipo_original="Artículo" numero="12">
         <titulo_seccion>Artículo 12. Indicador de desempeño</titulo_seccion>
-        <contexto>Título III Requisitos e Indicadores de Gestión Positivos de Liquidadores Concursales</contexto>
+        <contexto>Título II Requisitos e Indicadores de Gestión Positivos de Veedores Concursales</contexto>
         <contenido>
           <parrafo>Corresponde a la cantidad de procedimientos terminados por el Liquidador Concursal en relación a la totalidad de procedimientos a su cargo, dentro del año corrido anterior contado desde el ingreso de la solicitud a la Superintendencia.</parrafo>
           <parrafo>I Desempeño = Cantidad de Liquidaciones Simplificadas terminadas respecto al total de Liquidaciones Simplificadas tramitadas en el año corrido anterior contado desde el ingreso de la solicitud a la Superintendencia.</parrafo>
@@ -216,7 +209,7 @@ Los Liquidadores que pertenezcan a la Categoría A podrán solicitar mantenerse 
       </articulo>
       <articulo id="13" tipo_original="Artículo" numero="13">
         <titulo_seccion>Artículo 13. Asignación de puntaje por desempeño</titulo_seccion>
-        <contexto>Título III Requisitos e Indicadores de Gestión Positivos de Liquidadores Concursales</contexto>
+        <contexto>Título II Requisitos e Indicadores de Gestión Positivos de Veedores Concursales</contexto>
         <contenido>
           <parrafo>Se asignará puntaje conforme a aquellos procedimientos de terminados en un porcentaje de al menos el 50% respecto al total de procedimientos asignados al Liquidador Concursal dentro del año corrido anterior contado desde el ingreso de la solicitud a la Superintendencia y conforme a la siguiente tabla:</parrafo>
           <parrafo>Indicador de Desempeño Puntaje Menor a 50% 25 50% a 65% 50 66% a 75% 75 76% a 100% 100</parrafo>
@@ -224,7 +217,7 @@ Los Liquidadores que pertenezcan a la Categoría A podrán solicitar mantenerse 
       </articulo>
       <articulo id="14" tipo_original="Artículo" numero="14">
         <titulo_seccion>Artículo 14. Fórmula de cálculo del indicador de gestión positiva de Liquidadores Concursales</titulo_seccion>
-        <contexto>Título III Requisitos e Indicadores de Gestión Positivos de Liquidadores Concursales</contexto>
+        <contexto>Título II Requisitos e Indicadores de Gestión Positivos de Veedores Concursales</contexto>
         <contenido>
           <parrafo>El indicador de gestión positiva de Liquidadores Concursales está compuesto por los indicadores descritos anteriormente y se expresa en la siguiente tabla:</parrafo>
           <parrafo>I Gestión Positiva = F Experiencia x 50% + F Desempeño x 50%</parrafo>
@@ -232,39 +225,38 @@ Los Liquidadores que pertenezcan a la Categoría A podrán solicitar mantenerse 
       </articulo>
       <articulo id="15" tipo_original="Artículo" numero="15">
         <titulo_seccion>Artículo 15. Puntaje mínimo requerido para solicitar cambio de categoría</titulo_seccion>
-        <contexto>Título III Requisitos e Indicadores de Gestión Positivos de Liquidadores Concursales</contexto>
+        <contexto>Título II Requisitos e Indicadores de Gestión Positivos de Veedores Concursales</contexto>
         <contenido>
           <parrafo>El puntaje mínimo requerido para que un Liquidador Concursal sea traspasado de Categoría B a la Categoría A, será de 25 puntos, conforme a la siguiente tabla:</parrafo>
           <parrafo>Criterio Puntaje Puntaje Ponderado Puntaje Puntaje Puntaje Puntaje Mínimo Máximo Mínimo Máximo Ponderado Ponderado Ponderado Ponderado Mínimo de Máximo Corte Experiencia 50 100 50% 25 100 12,5 50 Desempeño 50 100 50% 25 100 12,5 50 Puntaje Global 25 100</parrafo>
+          <parrafo>Título IV Del Procedimiento para Solicitar la Modificación de Categoría de las Nóminas de Veedores Concursales y Liquidadores Concursales</parrafo>
         </contenido>
       </articulo>
-    </titulo>
-    <titulo id="4" tipo_original="Título" numero="IV">
-      <titulo_seccion>Título IV Del Procedimiento para Solicitar la Modificación de Categoría de las Nóminas de Veedores Concursales y Liquidadores Concursales</titulo_seccion>
       <articulo id="16" tipo_original="Artículo" numero="16">
         <titulo_seccion>Artículo 16. De la solicitud de modificación de categoría de la Nómina de Veedores Concursales</titulo_seccion>
-        <contexto>Título IV Del Procedimiento para Solicitar la Modificación de Categoría de las Nóminas de Veedores Concursales y Liquidadores Concursales</contexto>
+        <contexto>Título II Requisitos e Indicadores de Gestión Positivos de Veedores Concursales</contexto>
         <contenido>
-          <parrafo>Para solicitar el cambio de la Categoría B a la Categoría A, regulado en el artículo 9 de la Ley, deberán cumplir los siguientes requisitos copulativos: 1) Presentar la solicitud de acuerdo al modelo que se encuentra disponible en el Anexo N.° 1 de la presente Norma de Carácter General. 2) Cumplir con los requisitos e indicadores de gestión positivos establecidos para el cambio de la Categoría B a la Categoría A, dispuestos en el</parrafo>
-          <parrafo>artículo 2° de la presente Norma de Carácter General. 3) Presentar la declaración jurada de acuerdo al modelo que se encuentra disponible en el Anexo N.° 1 de la presente Norma de Carácter General.</parrafo>
+          <parrafo>Para solicitar el cambio de la Categoría B a la Categoría A, regulado en el artículo 9 de la Ley, deberán cumplir los siguientes requisitos copulativos: 1) Presentar la solicitud de acuerdo al modelo que se encuentra disponible en el Anexo N.° 1 de la presente Norma de Carácter General. 2) Cumplir con los requisitos e indicadores de gestión positivos establecidos para el cambio de la Categoría B a la Categoría A, dispuestos en el artículo 2° de la presente Norma de Carácter General. 3) Presentar la declaración jurada de acuerdo al modelo que se encuentra disponible en el Anexo N.° 1 de la presente Norma de Carácter General.</parrafo>
         </contenido>
         <referencias>
-          <ref articulo="9"/>
           <ref articulo="2"/>
+          <ref articulo="9"/>
         </referencias>
       </articulo>
       <articulo id="17" tipo_original="Artículo" numero="17">
         <titulo_seccion>Artículo 17. De la solicitud de modificación de categoría de la Nómina de Liquidadores Concursales</titulo_seccion>
-        <contexto>Título IV Del Procedimiento para Solicitar la Modificación de Categoría de las Nóminas de Veedores Concursales y Liquidadores Concursales</contexto>
-        <texto>Para solicitar el cambio de la Categoría B a la Categoría A, regulado en el artículo 30 de la Ley, deberán cumplir los siguientes requisitos copulativos: 1) Presentar la solicitud de acuerdo al modelo que se encuentra disponible en el Anexo N.° 2 de la presente Norma de Carácter General. 2) Cumplir con los requisitos e indicadores de gestión positivos establecidos para el cambio de la Categoría B a la Categoría A, dispuestos en el  artículo 9° de la presente Norma de Carácter General. 3) Presentar la declaración jurada de acuerdo al modelo que se encuentra disponible en el Anexo N.° 2 de la presente Norma de Carácter General.</texto>
+        <contexto>Título II Requisitos e Indicadores de Gestión Positivos de Veedores Concursales</contexto>
+        <contenido>
+          <parrafo>Para solicitar el cambio de la Categoría B a la Categoría A, regulado en el artículo 30 de la Ley, deberán cumplir los siguientes requisitos copulativos: 1) Presentar la solicitud de acuerdo al modelo que se encuentra disponible en el Anexo N.° 2 de la presente Norma de Carácter General. 2) Cumplir con los requisitos e indicadores de gestión positivos establecidos para el cambio de la Categoría B a la Categoría A, dispuestos en el artículo 9° de la presente Norma de Carácter General. 3) Presentar la declaración jurada de acuerdo al modelo que se encuentra disponible en el Anexo N.° 2 de la presente Norma de Carácter General.</parrafo>
+        </contenido>
         <referencias>
-          <ref articulo="30"/>
           <ref articulo="9"/>
+          <ref articulo="30"/>
         </referencias>
       </articulo>
       <articulo id="18" tipo_original="Artículo" numero="18">
         <titulo_seccion>Artículo 18. Presentación formal de la solicitud de modificación de categorías</titulo_seccion>
-        <contexto>Título IV Del Procedimiento para Solicitar la Modificación de Categoría de las Nóminas de Veedores Concursales y Liquidadores Concursales</contexto>
+        <contexto>Título II Requisitos e Indicadores de Gestión Positivos de Veedores Concursales</contexto>
         <contenido>
           <parrafo>La solicitud debe ser presentada a través de la Oficina de Partes de esta Superintendencia.</parrafo>
           <parrafo>La solicitud presentada será evaluada por la Superintendencia tomando en cuenta los requisitos y los parámetros antes señalados y será resuelta conforme a los plazos de la Ley N.° 19.880, mediante resolución fundada.</parrafo>
@@ -277,12 +269,14 @@ Los Liquidadores que pertenezcan a la Categoría A podrán solicitar mantenerse 
       </articulo>
       <articulo id="19" tipo_original="Artículo" numero="19">
         <titulo_seccion>Artículo 19. Ámbito de aplicación</titulo_seccion>
-        <contexto>Título IV Del Procedimiento para Solicitar la Modificación de Categoría de las Nóminas de Veedores Concursales y Liquidadores Concursales</contexto>
-        <texto>La presente Norma de Carácter General sólo tiene por objeto regular las materias que en la misma se tratan en relación a los procedimientos concursales regulados en la Ley o para el acceso del postulante a la Nómina de Veedores Concursales o a la Nómina de Liquidadores Concursales, en su caso.</texto>
+        <contexto>Título II Requisitos e Indicadores de Gestión Positivos de Veedores Concursales</contexto>
+        <contenido>
+          <parrafo>La presente Norma de Carácter General sólo tiene por objeto regular las materias que en la misma se tratan en relación a los procedimientos concursales regulados en la Ley o para el acceso del postulante a la Nómina de Veedores Concursales o a la Nómina de Liquidadores Concursales, en su caso.</parrafo>
+        </contenido>
       </articulo>
       <articulo id="20" tipo_original="Artículo" numero="20">
         <titulo_seccion>Artículo 20</titulo_seccion>
-        <contexto>Título IV Del Procedimiento para Solicitar la Modificación de Categoría de las Nóminas de Veedores Concursales y Liquidadores Concursales</contexto>
+        <contexto>Título II Requisitos e Indicadores de Gestión Positivos de Veedores Concursales</contexto>
         <contenido>
           <parrafo>Los términos, condiciones y requisitos de la presente Norma de Carácter General se considerarán vigentes desde su total tramitación.</parrafo>
           <inciso numero="1">PUBLÍQUESE la presente resolución en el Diario Oficial.</inciso>
@@ -291,11 +285,21 @@ Los Liquidadores que pertenezcan a la Categoría A podrán solicitar mantenerse 
       </articulo>
     </titulo>
   </contenido>
-  <promulgacion>RESUELVO:
+  <disposiciones_finales>
+    <texto>RESUELVO:
 
 1. APRUÉBESE la siguiente Norma de Carácter General, que determina requisitos e indicadores de gestión positivos para efectos de incorporación y mantención en las nóminas de Veedores Concursales y Liquidadores Concursales:
 
 NORMA DE CARÁCTER GENERAL
 
-ANÓTESE, PUBLÍQUESE Y ARCHÍVESE.</promulgacion>
+ANÓTESE, PUBLÍQUESE Y ARCHÍVESE.</texto>
+  </disposiciones_finales>
+  <anexos>
+    <anexo numero="1">
+      <titulo>ANEXO N.° 1 SOLICITUD DE CAMBIO DE CATEGORÍA EN LA NÓMINA DE VEEDORES CONCURSALES En caso de cumplir los Sí requisitos y desear seguir perteneciendo a la Categoría B, marque con una equis (X) la No opción correspondiente. DECLARACIÓN JURADA SIMPLE Yo, ________________________________________________________, mediante la presente, declaro que pertenezco a la Categoría B de la Nómina de Veedores Concursales al menos hace un año y que actualmente me encuentro vigente en la misma. Asimismo, declaro que he tramitado al menos 4 Reorganizaciones Simplificadas durante el año corrido anterior a la presente solicitud. ______________________________ Firma</titulo>
+    </anexo>
+    <anexo numero="2">
+      <titulo>ANEXO N.° 2 SOLICITUD DE CAMBIO DE CATEGORÍA EN LA NÓMINA DE LIQUIDADORES CONCURSALES En caso de cumplir los Sí requisitos y desear seguir perteneciendo a la Categoría B, marque con una equis (X) la No opción correspondiente. DECLARACIÓN JURADA SIMPLE Yo, ________________________________________________________, mediante la presente, declaro que pertenezco a la Categoría B de la Nómina de Liquidadores Concursales al menos hace un año y que actualmente me encuentro vigente en la misma. Asimismo, declaro que he tramitado al menos 10 Liquidaciones Simplificadas durante el año corrido anterior a la presente solicitud. ______________________________ Firma 9</titulo>
+    </anexo>
+  </anexos>
 </ley>

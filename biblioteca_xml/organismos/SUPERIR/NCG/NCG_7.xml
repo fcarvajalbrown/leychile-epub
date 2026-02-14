@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ley xmlns="https://leychile.cl/schema/ley/v1" version="1.0" idioma="es-CL" id_norma="NCG-7" tipo="Norma de Carácter General" numero="7" estado="vigente" fecha_version="2014-10-08" fecha_promulgacion="2014-10-08" fecha_publicacion="2014-10-08" generado="2026-02-12T11:22:35.702898" fuente="Biblioteca del Congreso Nacional de Chile" url_original="https://www.superir.gob.cl/wp-content/document/normas/NCG_N7_Contenidos_Obligatorios.pdf">
+<ley xmlns="https://leychile.cl/schema/ley/v1" version="1.1" idioma="es-CL" id_norma="NCG-7" tipo="Norma de Carácter General" numero="7" estado="vigente" fecha_version="2014-10-08" fecha_promulgacion="2014-10-08" fecha_publicacion="2014-10-08" generado="2026-02-12T21:30:05.130710" fuente="Biblioteca del Congreso Nacional de Chile" url_original="https://www.superir.gob.cl/wp-content/document/normas/NCG_N7_Contenidos_Obligatorios.pdf">
   <metadatos>
     <titulo>NORMA DE CARÁCTER GENERAL N°7 - Forma y contenidos obligatorios de las cuentas provisorias y de la Cuenta Final de Administración</titulo>
     <identificacion>
@@ -24,18 +24,14 @@
     </fechas>
     <fuente>Superintendencia de Insolvencia y Reemprendimiento</fuente>
     <leyes_referenciadas>
-      <ley_ref>Ley 20.720</ley_ref>
-      <ley_ref>NCG 3</ley_ref>
-      <ley_ref>NCG 1</ley_ref>
+      <ley_ref tipo="Ley" numero="20.720">Ley 20.720</ley_ref>
+      <ley_ref tipo="NCG" numero="3">NCG 3</ley_ref>
+      <ley_ref tipo="NCG" numero="1">NCG 1</ley_ref>
     </leyes_referenciadas>
   </metadatos>
-  <encabezado>VISTOS:
-
-Las facultades conferidas en los artículos 46° y 49° de la Ley N.° 20.720, sobre Reorganización y Liquidación de Activos de Empresas y Personas (en adelante, la "Ley").
-
-CONSIDERANDO:
-
-1° Que el artículo 46° de la Ley dispone que la Superintendencia fijará la forma y contenidos obligatorios de las cuentas provisorias que deba rendir el Liquidador, las que deberán incluir, a lo menos, un desglose detallado de los ingresos y gastos durante los últimos tres meses de administración, con observancia de la normativa contable, tributaria y financiera aplicable, disponiendo además que lo anterior se realizará mediante la dictación de una Norma de Carácter General por parte de esta Superintendencia.
+  <encabezado>
+    <vistos>Las facultades conferidas en los artículos 46° y 49° de la Ley N.° 20.720, sobre Reorganización y Liquidación de Activos de Empresas y Personas (en adelante, la &quot;Ley&quot;).</vistos>
+    <considerandos>1° Que el artículo 46° de la Ley dispone que la Superintendencia fijará la forma y contenidos obligatorios de las cuentas provisorias que deba rendir el Liquidador, las que deberán incluir, a lo menos, un desglose detallado de los ingresos y gastos durante los últimos tres meses de administración, con observancia de la normativa contable, tributaria y financiera aplicable, disponiendo además que lo anterior se realizará mediante la dictación de una Norma de Carácter General por parte de esta Superintendencia.
 
 2° Que, a su vez, el artículo 49° de la Ley dispone que la Superintendencia fijará la forma y contenidos obligatorios de la Cuenta Final de Administración, con observancia de la normativa contable, tributaria y financiera aplicable, disponiendo además que lo anterior se realizará mediante la dictación de una Norma de Carácter General por parte de esta Superintendencia.
 
@@ -49,7 +45,8 @@ Que, en conformidad a lo anterior, se dicta la siguiente:
 
 NORMA DE CARÁCTER GENERAL
 
-TÍTULO I Cuentas Provisorias</encabezado>
+TÍTULO I Cuentas Provisorias</considerandos>
+  </encabezado>
   <contenido total_articulos="21" total_libros="0" total_titulos="6" total_capitulos="0">
     <titulo id="1" tipo_original="Título" numero="I">
       <titulo_seccion>TÍTULO I Cuentas Provisorias</titulo_seccion>
@@ -84,7 +81,9 @@ TÍTULO I Cuentas Provisorias</encabezado>
       <articulo id="4" tipo_original="Artículo" numero="4">
         <titulo_seccion>Artículo 4. Oportunidad</titulo_seccion>
         <contexto>TÍTULO II Cuentas Finales de Administración que deben rendir los Liquidadores</contexto>
-        <texto>Encontrándose ejecutoriada la sentencia que acogió el recurso de apelación establecido en el inciso final del artículo 129° de la Ley, el Liquidador deberá rendir Cuenta Final de su Administración.</texto>
+        <contenido>
+          <parrafo>Encontrándose ejecutoriada la sentencia que acogió el recurso de apelación establecido en el inciso final del artículo 129° de la Ley, el Liquidador deberá rendir Cuenta Final de su Administración.</parrafo>
+        </contenido>
         <referencias>
           <ref articulo="129"/>
         </referencias>
@@ -94,7 +93,6 @@ TÍTULO I Cuentas Provisorias</encabezado>
         <contexto>TÍTULO II Cuentas Finales de Administración que deben rendir los Liquidadores</contexto>
         <contenido>
           <parrafo>El Deudor, los acreedores individualmente considerados y la Superintendencia podrán impugnar la Cuenta Final de Administración indicada en el artículo anterior, dentro del plazo de cinco días a que se refiere el inciso segundo del artículo 52° de la Ley, el que se contará desde la publicación de la referida cuenta en el Boletín Concursal.</parrafo>
-          <parrafo>Párrafo II Normativa aplicable a la cuenta rendida por el Liquidador que cesa anticipadamente en el cargo</parrafo>
         </contenido>
         <referencias>
           <ref articulo="52"/>
@@ -105,7 +103,6 @@ TÍTULO I Cuentas Provisorias</encabezado>
         <contexto>TÍTULO II Cuentas Finales de Administración que deben rendir los Liquidadores</contexto>
         <contenido>
           <parrafo>Las Cuentas Finales de Administración que rindan los Liquidadores por haber cesado anticipadamente en el cargo, conforme a lo dispuesto en el número 3 del artículo 50° de la Ley, se regirán por las normas generales aplicables, aun cuando continúe la tramitación del Procedimiento Concursal de Liquidación.</parrafo>
-          <parrafo>Párrafo III Requisitos de la Cuenta Final de Administración del Liquidador</parrafo>
         </contenido>
         <referencias>
           <ref articulo="50"/>
@@ -135,7 +132,9 @@ TÍTULO I Cuentas Provisorias</encabezado>
       <articulo id="8" tipo_original="Artículo" numero="8">
         <titulo_seccion>Artículo 8. Continuación de las actividades económicas del deudor</titulo_seccion>
         <contexto>TÍTULO II Cuentas Finales de Administración que deben rendir los Liquidadores</contexto>
-        <texto>Cuando en el Procedimiento Concursal de Liquidación se hubieren continuado las actividades económicas del deudor, en forma provisional o definitiva, total o parcial, la Cuenta Final deberá acompañar el balance final de dicha continuación y su correspondiente estado de resultados, ajustados a las normas contables y financieras dictadas por la Superintendencia. Sin estos antecedentes no se considerará rendida completamente la gestión del Liquidador.</texto>
+        <contenido>
+          <parrafo>Cuando en el Procedimiento Concursal de Liquidación se hubieren continuado las actividades económicas del deudor, en forma provisional o definitiva, total o parcial, la Cuenta Final deberá acompañar el balance final de dicha continuación y su correspondiente estado de resultados, ajustados a las normas contables y financieras dictadas por la Superintendencia. Sin estos antecedentes no se considerará rendida completamente la gestión del Liquidador.</parrafo>
+        </contenido>
       </articulo>
       <articulo id="9" tipo_original="Artículo" numero="9">
         <titulo_seccion>Artículo 9. Publicación de la Cuenta Final de Administración en el Boletín Concursal</titulo_seccion>
@@ -143,7 +142,6 @@ TÍTULO I Cuentas Provisorias</encabezado>
         <contenido>
           <parrafo>La publicación de las Cuentas Finales de Administración en el Boletín Concursal deberá efectuarla el Liquidador conforme a la Norma de Carácter General N° 3 de esta Superintendencia.</parrafo>
           <parrafo>Asimismo, deberá ingresar la información contenida en ellas a través de su perfil en la Plataforma Electrónica, en formato Excel.</parrafo>
-          <parrafo>Párrafo IV Provisión de Fondos para Gastos Posteriores a la Cuenta Final</parrafo>
         </contenido>
       </articulo>
       <articulo id="10" tipo_original="Artículo" numero="10">
@@ -160,7 +158,9 @@ TÍTULO I Cuentas Provisorias</encabezado>
       <articulo id="11" tipo_original="Artículo" numero="11">
         <titulo_seccion>Artículo 11. Gasto de mantención cuenta corriente</titulo_seccion>
         <contexto>TÍTULO II Cuentas Finales de Administración que deben rendir los Liquidadores</contexto>
-        <texto>El Liquidador deberá mantener los fondos en una cuenta individual a nombre del Procedimiento Concursal de Liquidación hasta su devolución al Deudor, procurando minimizar los cargos bancarios por mantención.</texto>
+        <contenido>
+          <parrafo>El Liquidador deberá mantener los fondos en una cuenta individual a nombre del Procedimiento Concursal de Liquidación hasta su devolución al Deudor, procurando minimizar los cargos bancarios por mantención.</parrafo>
+        </contenido>
       </articulo>
       <articulo id="12" tipo_original="Artículo" numero="12">
         <titulo_seccion>Artículo 12. Instrumentos financieros para consignar saldos</titulo_seccion>
@@ -190,7 +190,9 @@ TÍTULO I Cuentas Provisorias</encabezado>
       <articulo id="14" tipo_original="Artículo" numero="14">
         <titulo_seccion>Artículo 14. Contenido</titulo_seccion>
         <contexto>TÍTULO III Cuentas mensuales que deben rendir los Veedores</contexto>
-        <texto>Las cuentas mensuales deberán contener el detalle de todas las actuaciones del período, referidas a las obligaciones del artículo 25° y del Capítulo III de la Ley, adjuntando la documentación de respaldo e indicando la etapa del Procedimiento de Reorganización.</texto>
+        <contenido>
+          <parrafo>Las cuentas mensuales deberán contener el detalle de todas las actuaciones del período, referidas a las obligaciones del artículo 25° y del Capítulo III de la Ley, adjuntando la documentación de respaldo e indicando la etapa del Procedimiento de Reorganización.</parrafo>
+        </contenido>
         <referencias>
           <ref articulo="25"/>
         </referencias>
@@ -201,7 +203,9 @@ TÍTULO I Cuentas Provisorias</encabezado>
       <articulo id="15" tipo_original="Artículo" numero="15">
         <titulo_seccion>Artículo 15. Normativa aplicable</titulo_seccion>
         <contexto>TÍTULO IV Cuentas Finales de Administración que deben rendir los Veedores</contexto>
-        <texto>Las Cuentas Finales de Administración que deban rendir los Veedores conforme al artículo 29° de la Ley se regirán, en lo pertinente, por lo dispuesto en el Título II de la presente Norma respecto de los Liquidadores.</texto>
+        <contenido>
+          <parrafo>Las Cuentas Finales de Administración que deban rendir los Veedores conforme al artículo 29° de la Ley se regirán, en lo pertinente, por lo dispuesto en el Título II de la presente Norma respecto de los Liquidadores.</parrafo>
+        </contenido>
         <referencias>
           <ref articulo="29"/>
         </referencias>
@@ -217,8 +221,8 @@ TÍTULO I Cuentas Provisorias</encabezado>
           <parrafo>Las objeciones se regirán por el artículo 52° de la Ley.</parrafo>
         </contenido>
         <referencias>
-          <ref articulo="52"/>
           <ref articulo="216"/>
+          <ref articulo="52"/>
         </referencias>
       </articulo>
       <articulo id="17" tipo_original="Artículo" numero="17">
@@ -243,12 +247,16 @@ TÍTULO I Cuentas Provisorias</encabezado>
       <articulo id="19" tipo_original="Artículo" numero="19">
         <titulo_seccion>Artículo 19. Ámbito de aplicación</titulo_seccion>
         <contexto>TÍTULO VI Disposiciones finales</contexto>
-        <texto>La presente Norma sólo regula los procedimientos concursales establecidos en la Ley N.° 20.720, no siendo aplicable a procedimientos anteriores regidos por el Libro IV del Código de Comercio y la Ley N.° 18.175, orgánica de la Superintendencia de Quiebras.</texto>
+        <contenido>
+          <parrafo>La presente Norma sólo regula los procedimientos concursales establecidos en la Ley N.° 20.720, no siendo aplicable a procedimientos anteriores regidos por el Libro IV del Código de Comercio y la Ley N.° 18.175, orgánica de la Superintendencia de Quiebras.</parrafo>
+        </contenido>
       </articulo>
       <articulo id="20" tipo_original="Artículo" numero="20">
         <titulo_seccion>Artículo 20. Términos definidos</titulo_seccion>
         <contexto>TÍTULO VI Disposiciones finales</contexto>
-        <texto>Los términos en mayúscula tendrán el significado del artículo 2° de la Ley.</texto>
+        <contenido>
+          <parrafo>Los términos en mayúscula tendrán el significado del artículo 2° de la Ley.</parrafo>
+        </contenido>
         <referencias>
           <ref articulo="2"/>
         </referencias>
@@ -256,13 +264,17 @@ TÍTULO I Cuentas Provisorias</encabezado>
       <articulo id="21" tipo_original="Artículo" numero="21">
         <titulo_seccion>Artículo 21. Vigencia</titulo_seccion>
         <contexto>TÍTULO VI Disposiciones finales</contexto>
-        <texto>La presente Norma se dicta en mérito de los principios de continuidad de la función pública, de eficiencia y eficacia consagrados en los artículos 3°, 5° y 8° de la Ley N.° 18.575, General de Bases de la Administración del Estado, y del artículo primero transitorio de la Ley N.° 20.720, sin perjuicio de que entrará a regir conjuntamente con la entrada en vigencia de la Ley, en los términos del mismo artículo primero transitorio.</texto>
+        <contenido>
+          <parrafo>La presente Norma se dicta en mérito de los principios de continuidad de la función pública, de eficiencia y eficacia consagrados en los artículos 3°, 5° y 8° de la Ley N.° 18.575, General de Bases de la Administración del Estado, y del artículo primero transitorio de la Ley N.° 20.720, sin perjuicio de que entrará a regir conjuntamente con la entrada en vigencia de la Ley, en los términos del mismo artículo primero transitorio.</parrafo>
+        </contenido>
       </articulo>
     </titulo>
   </contenido>
-  <promulgacion>Anótese y publíquese.
+  <disposiciones_finales>
+    <texto>Anótese y publíquese.
 
-JOSEFINA MONTENEGRO ARANEDA Superintendenta de Insolvencia y Reemprendimiento</promulgacion>
+JOSEFINA MONTENEGRO ARANEDA Superintendenta de Insolvencia y Reemprendimiento</texto>
+  </disposiciones_finales>
   <anexos>
     <anexo numero="1">
       <titulo>ANEXO I DE LA NORMA DE CARÁCTER GENERAL N° 7</titulo>

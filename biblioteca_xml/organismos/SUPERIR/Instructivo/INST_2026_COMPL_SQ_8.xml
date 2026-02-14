@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ley xmlns="https://leychile.cl/schema/ley/v1" version="1.0" idioma="es-CL" id_norma="INST-complementario" tipo="Instructivo" numero="complementario" estado="vigente" fecha_version="2026-01-16" fecha_promulgacion="2026-01-16" fecha_publicacion="2026-01-16" generado="2026-02-11T15:27:10.492108" fuente="Biblioteca del Congreso Nacional de Chile" url_original="https://www.superir.gob.cl/wp-content/uploads/2026/01/RES_NUM_999_A_O_2026.pdf">
+<ley xmlns="https://leychile.cl/schema/ley/v1" version="1.1" idioma="es-CL" id_norma="INST-complementario" tipo="Instructivo" numero="complementario" estado="vigente" fecha_version="2026-01-16" fecha_promulgacion="2026-01-16" fecha_publicacion="2026-01-16" generado="2026-02-13T02:35:54.376027" fuente="Biblioteca del Congreso Nacional de Chile" url_original="https://www.superir.gob.cl/wp-content/uploads/2026/01/RES_NUM_999_A_O_2026.pdf">
   <metadatos>
     <titulo>Resolución complementaria Instructivo SQ N°8 - Prelación de créditos y distribución de fondos</titulo>
     <identificacion>
@@ -25,204 +25,84 @@
     <fuente>Superintendencia de Insolvencia y Reemprendimiento</fuente>
     <numero_fuente>999</numero_fuente>
     <leyes_referenciadas>
-      <ley_ref>Ley 20.720</ley_ref>
-      <ley_ref>Ley 21.563</ley_ref>
-      <ley_ref>Ley 18.175</ley_ref>
-      <ley_ref>Ley 18.575</ley_ref>
-      <ley_ref>Ley 19.880</ley_ref>
-      <ley_ref>DFL 1-19.653</ley_ref>
+      <ley_ref tipo="Ley" numero="20.720">Ley 20.720</ley_ref>
+      <ley_ref tipo="Ley" numero="21.563">Ley 21.563</ley_ref>
+      <ley_ref tipo="Ley" numero="18.175">Ley 18.175</ley_ref>
+      <ley_ref tipo="Ley" numero="18.575">Ley 18.575</ley_ref>
+      <ley_ref tipo="Ley" numero="19.880">Ley 19.880</ley_ref>
+      <ley_ref tipo="DFL" numero="1-19.653">DFL 1-19.653</ley_ref>
     </leyes_referenciadas>
   </metadatos>
-  <encabezado>VISTOS:
+  <encabezado>
+    <vistos>Las facultades que me confiere la Ley N.º 20.720, que sustituye el régimen concursal vigente por una Ley de Reorganización y Liquidación de Activos de Empresas y Personas; lo dispuesto en la Ley N.º 21.563, que Moderniza los Procedimientos Concursales Contemplados en la Ley N.º 20.720 y Crea Nuevos Procedimientos para Micro y Pequeñas Empresas; lo previsto en el Libro IV del Código de Comercio; lo dispuesto en la Ley N.º 18.175 que contiene la Ley Orgánica de la Superintendencia de Quiebras; en el D.F.L. N.º 1-19.653, de 17 de noviembre de 2001, que fija el texto Refundido, Coordinado y Sistematizado de la Ley N.º 18.575, Orgánica Constitucional de Bases Generales de la Administración del Estado; en la Ley N.º 19.880, que establece Bases de los Procedimientos Administrativos que Rigen los Actos de los Órganos de la Administración del Estado; en la Resolución N.º 36 de 19 de diciembre de 2024 de la Contraloría General de la República, que fija normas sobre Exención del Trámite de Toma de Razón; lo contemplado en la Resolución Exenta RA N.º 120949/70/2024 de la Superintendencia de Insolvencia y Reemprendimiento y lo dispuesto por el inciso tercero del artículo 334 de la Ley N.º 20.720.</vistos>
+    <considerandos>1. Que, la Ley N.º 20.720 de Reorganización y Liquidación de Activos de Empresas y Personas, en su artículo sexto transitorio dispone que la Superintendencia de Insolvencia y Reemprendimiento se constituye, para todos los efectos, en la sucesora legal de la Superintendencia de Quiebras, en las materias de su competencia.
 
-Las facultades que me confiere la Ley N.º 20.720, que
-sustituye el régimen concursal vigente por una Ley de Reorganización y Liquidación
-de Activos de Empresas y Personas; lo dispuesto en la Ley N.º 21.563, que Moderniza
-los Procedimientos Concursales Contemplados en la Ley N.º 20.720 y Crea Nuevos
-Procedimientos para Micro y Pequeñas Empresas; lo previsto en el Libro IV del Código
-de Comercio; lo dispuesto en la Ley N.º 18.175 que contiene la Ley Orgánica de la
-Superintendencia de Quiebras; en el D.F.L. N.º 1-19.653, de 17 de noviembre de
-2001, que fija el texto Refundido, Coordinado y Sistematizado de la Ley N.º 18.575,
-Orgánica Constitucional de Bases Generales de la Administración del Estado; en la
-Ley N.º 19.880, que establece Bases de los Procedimientos Administrativos que Rigen
-los Actos de los Órganos de la Administración del Estado; en la Resolución N.º 36 de
-19 de diciembre de 2024 de la Contraloría General de la República, que fija normas
-sobre Exención del Trámite de Toma de Razón; lo contemplado en la Resolución
-Exenta RA N.º 120949/70/2024 de la Superintendencia de Insolvencia y
-Reemprendimiento y lo dispuesto por el inciso tercero del artículo 334 de la Ley N.º
-20.720.
+2. Que, le corresponde a esta Superintendencia, supervigilar y fiscalizar las actuaciones de los Veedores, Liquidadores, Martilleros Concursales, Interventores, administradores de la continuación de las actividades económicas del deudor, asesores económicos de insolvencia y, en general, de toda persona que por ley quede sujeta a su supervigilancia y fiscalización, de conformidad con el artículo 332, en relación con el numeral 1 del artículo 337 de la Ley N.º 20.720.
 
-CONSIDERANDO:
+3. Que, de conformidad al Título II de la Ley N.º 18.175, la Superintendencia tiene una serie de atribuciones y deberes respecto al cumplimiento de las funciones de los/las síndicos, dispuestos principalmente en el artículo 8° del mismo cuerpo legal, cuyo texto legal se encuentra vigente conforme lo dispone el artículo sexto transitorio de la Ley N.º 20.720, y que comprenden, entre otros, la de impartir a los síndicos y a los administradores de la continuación del giro instrucciones de carácter obligatorio sobre las materias sometidas a su control; fiscalizar las actuaciones de los síndicos en las quiebras, convenios o cesiones de bienes en todos los aspectos de su gestión; la de interpretar administrativamente las leyes, reglamentos y demás normas que rigen a los fiscalizados, sin perjuicio de las facultades jurisdiccionales que corresponden a los tribunales competentes.
 
-1. Que, la Ley N.º 20.720 de Reorganización y
-Liquidación de Activos de Empresas y Personas, en su artículo sexto transitorio
-dispone que la Superintendencia de Insolvencia y Reemprendimiento se constituye,
-para todos los efectos, en la sucesora legal de la Superintendencia de Quiebras, en
-las materias de su competencia.
-2. Que, le corresponde a esta Superintendencia,
-supervigilar y fiscalizar las actuaciones de los Veedores, Liquidadores, Martilleros
-Concursales, Interventores, administradores de la continuación de las actividades
-económicas del deudor, asesores económicos de insolvencia y, en general, de toda
-persona que por ley quede sujeta a su supervigilancia y fiscalización, de conformidad
-con el artículo 332, en relación con el numeral 1 del artículo 337 de la Ley N.º 20.720.
-3. Que, de conformidad al Título II de la Ley N.º 18.175,
-la Superintendencia tiene una serie de atribuciones y deberes respecto al
-cumplimiento de las funciones de los/las síndicos, dispuestos principalmente en el
-artículo 8° del mismo cuerpo legal, cuyo texto legal se encuentra vigente conforme
-lo dispone el artículo sexto transitorio de la Ley N.º 20.720, y que comprenden, entre
-otros, la de impartir a los síndicos y a los administradores de la continuación del giro
-instrucciones de carácter obligatorio sobre las materias sometidas a su control;
-fiscalizar las actuaciones de los síndicos en las quiebras, convenios o cesiones de
-bienes en todos los aspectos de su gestión; la de interpretar administrativamente las
-leyes, reglamentos y demás normas que rigen a los fiscalizados, sin perjuicio de las
-facultades jurisdiccionales que corresponden a los tribunales competentes.
-4. Que, a su vez, el numeral 4) del artículo 337 de la Ley
-N.º 20.720, otorga a esta Superintendencia de Insolvencia y Reemprendimiento, la
-atribución de “Impartir a los Veedores, Liquidadores, administradores de la
-continuación de las actividades económicas, Martilleros Concursales que se sometan
-voluntariamente al control de la Superintendencia y asesores económicos de
-insolvencias, instrucciones de carácter obligatorio sobre las materias sometidas a su
-control y, en especial, fijar normas para la presentación de informes, estados de
-avance y cuentas provisorias o definitivas que deban presentar los fiscalizados.”
-5. De conformidad con lo dispuesto en el artículo 27 del
-Libro IV del Código de Comercio, el/la síndico representa los intereses generales de
-los acreedores, en lo concerniente a la quiebra y representa los derechos del fallido,
-en cuanto puedan interesar a la masa.
-6. De acuerdo con ello, el/la síndico deberá realizar las
-gestiones necesarias para alcanzar la máxima satisfacción de los créditos reconocidos
-en el procedimiento de quiebra, y los que se paguen administrativamente,
-considerando que el interés principal de los acreedores es el pago o abono de sus
-acreencias.
-7. Es preciso tener presente que, el artículo 22 del Libro
-IV del Código de Comercio, establece las causales de exclusión de la nómina nacional
-de síndicos, y, el artículo 32 del mismo cuerpo normativo, dispone las causales de
-cese anticipado en el cargo de síndico, encontrándose dentro de dichas causales, la
-de haber dejado de formar parte de la nómina nacional de síndicos, salvo el caso del
-N.º 9 del artículo 22 referido a la renuncia presentada ante el Ministerio de Justicia y
-Derechos Humanos, en cuyo caso, los/las ex síndicos deberán continuar en el
-desempeño de sus funciones hasta la cesación de la quiebra, ejerciendo el cargo de
-síndico en las quiebras donde antes de dicha renuncia ya lo eran, según lo dispuesto
-por el numeral 5 del artículo 32 del Libro IV del Código de Comercio.
-8. De esta manera, corresponde a una obligación de
-los/las síndicos y ex síndicos excluidos por renuncia, efectuar los repartos de fondos
-en los procedimientos a su cargo, según lo establece el N.º 18 del artículo 27, en
-relación con lo dispuesto por el N.º 5 del artículo 32 y el N.º 9 del artículo 22, todos
-del Libro IV del Código de Comercio.
-9. Por otro lado, el artículo 151 del Libro IV del Código
-de Comercio, dispone el deber del síndico de hacer repartos de fondos a los
-acreedores comunes, valistas o quirografarios cada vez que se reúna una cantidad
-suficiente que permita un abono no inferior al cinco por ciento de sus acreencias.
-10. Que, el reparto de fondos debe ser realizado
-conforme a la nómina de créditos formada con arreglo al artículo 143 del Libro IV del
-Código de Comercio. Esta nómina incluye a los acreedores cuyos créditos no hubieren
-sido impugnados, con anotación de las preferencias y los montos de capital e
-intereses.
-11. Para determinar la procedencia de un reparto de
-fondos a los acreedores comunes o valistas, en un monto inferior al cinco por ciento
-de sus créditos, es necesario interpretar el artículo 151 del Libro IV del Código de
-Comercio, de forma armónica con el resto de la normativa concursal, considerando
-la función y deberes de los/as síndicos y ex síndicos de acuerdo con lo dispuesto en
-el ya mencionado artículo 27.
-12. De conformidad con lo indicado, el artículo 151 del
-cuerpo legal citado, impone al síndico la obligación de repartir fondos a los acreedores
-comunes cada vez que se cumpla el umbral establecido de cinco por ciento, con el
-fin de evitar incurrir en mayores costos a la masa concursal y a los acreedores, al
-momento de presentar un reparto de fondos, pretendiendo evitar los costos de
-transacción que tienen los repartos, buscando un justo equilibrio entre estos costos
-y el interés de los acreedores de obtener el pago de sus acreencias de la forma más
-oportuna posible.
-13. En tal sentido, si una vez reservados fondos
-suficientes para cubrir los gastos de la quiebra, el pago de los créditos impugnados
-y de los acreedores residentes en el extranjero que no hayan alcanzado a
-comparecer, existiera un remanente que permita efectuar una distribución de fondos
-a los acreedores comunes que en derecho corresponda, el/la síndico o ex síndico,
-deberá instar a la presentación de la propuesta de reparto de fondos correspondiente,
-hasta su total tramitación y pago, aun cuando el monto de la distribución sea inferior
-al cinco por ciento de las acreencias que se contemplen en tal distribución.
-14. Lo anterior, tomando en consideración que, la
-finalidad del procedimiento de quiebra es el pago de las obligaciones del fallido, por
-lo que resulta contrario a dicho fin, dilatar el procedimiento cuando existen fondos
-disponibles y acreencias impagas, así como devolver fondos al fallido existiendo
-créditos pendientes de pago en el concurso.
-15. Que, del ejercicio de su facultad fiscalizadora, esta
-Superintendencia constató dificultades relativas a la ejecución de repartos de fondos
-en los procedimientos de quiebras vigentes, particularmente, en aquellos casos en
-que el monto a repartir en los acreedores comunes, valistas o quirografarios, es
-inferior al porcentaje establecido en el artículo 151 del Libro IV del Código de
-Comercio.
-16. Atendido lo expuesto y de conformidad con lo
-dispuesto en el artículo 3 de la Ley N.º 19.880, y demás normas legales pertinentes;</encabezado>
+4. Que, a su vez, el numeral 4) del artículo 337 de la Ley N.º 20.720, otorga a esta Superintendencia de Insolvencia y Reemprendimiento, la atribución de “Impartir a los Veedores, Liquidadores, administradores de la continuación de las actividades económicas, Martilleros Concursales que se sometan voluntariamente al control de la Superintendencia y asesores económicos de insolvencias, instrucciones de carácter obligatorio sobre las materias sometidas a su control y, en especial, fijar normas para la presentación de informes, estados de avance y cuentas provisorias o definitivas que deban presentar los fiscalizados.”
+
+5. De conformidad con lo dispuesto en el artículo 27 del Libro IV del Código de Comercio, el/la síndico representa los intereses generales de los acreedores, en lo concerniente a la quiebra y representa los derechos del fallido, en cuanto puedan interesar a la masa.
+
+6. De acuerdo con ello, el/la síndico deberá realizar las gestiones necesarias para alcanzar la máxima satisfacción de los créditos reconocidos en el procedimiento de quiebra, y los que se paguen administrativamente, considerando que el interés principal de los acreedores es el pago o abono de sus acreencias.
+
+7. Es preciso tener presente que, el artículo 22 del Libro IV del Código de Comercio, establece las causales de exclusión de la nómina nacional de síndicos, y, el artículo 32 del mismo cuerpo normativo, dispone las causales de cese anticipado en el cargo de síndico, encontrándose dentro de dichas causales, la de haber dejado de formar parte de la nómina nacional de síndicos, salvo el caso del N.º 9 del artículo 22 referido a la renuncia presentada ante el Ministerio de Justicia y Derechos Humanos, en cuyo caso, los/las ex síndicos deberán continuar en el desempeño de sus funciones hasta la cesación de la quiebra, ejerciendo el cargo de síndico en las quiebras donde antes de dicha renuncia ya lo eran, según lo dispuesto por el numeral 5 del artículo 32 del Libro IV del Código de Comercio.
+
+8. De esta manera, corresponde a una obligación de los/las síndicos y ex síndicos excluidos por renuncia, efectuar los repartos de fondos en los procedimientos a su cargo, según lo establece el N.º 18 del artículo 27, en relación con lo dispuesto por el N.º 5 del artículo 32 y el N.º 9 del artículo 22, todos del Libro IV del Código de Comercio.
+
+9. Por otro lado, el artículo 151 del Libro IV del Código de Comercio, dispone el deber del síndico de hacer repartos de fondos a los acreedores comunes, valistas o quirografarios cada vez que se reúna una cantidad suficiente que permita un abono no inferior al cinco por ciento de sus acreencias.
+
+10. Que, el reparto de fondos debe ser realizado conforme a la nómina de créditos formada con arreglo al artículo 143 del Libro IV del Código de Comercio. Esta nómina incluye a los acreedores cuyos créditos no hubieren sido impugnados, con anotación de las preferencias y los montos de capital e intereses.
+
+11. Para determinar la procedencia de un reparto de fondos a los acreedores comunes o valistas, en un monto inferior al cinco por ciento de sus créditos, es necesario interpretar el artículo 151 del Libro IV del Código de Comercio, de forma armónica con el resto de la normativa concursal, considerando la función y deberes de los/as síndicos y ex síndicos de acuerdo con lo dispuesto en el ya mencionado artículo 27.
+
+12. De conformidad con lo indicado, el artículo 151 del cuerpo legal citado, impone al síndico la obligación de repartir fondos a los acreedores comunes cada vez que se cumpla el umbral establecido de cinco por ciento, con el fin de evitar incurrir en mayores costos a la masa concursal y a los acreedores, al momento de presentar un reparto de fondos, pretendiendo evitar los costos de transacción que tienen los repartos, buscando un justo equilibrio entre estos costos y el interés de los acreedores de obtener el pago de sus acreencias de la forma más oportuna posible.
+
+13. En tal sentido, si una vez reservados fondos suficientes para cubrir los gastos de la quiebra, el pago de los créditos impugnados y de los acreedores residentes en el extranjero que no hayan alcanzado a comparecer, existiera un remanente que permita efectuar una distribución de fondos a los acreedores comunes que en derecho corresponda, el/la síndico o ex síndico, deberá instar a la presentación de la propuesta de reparto de fondos correspondiente, hasta su total tramitación y pago, aun cuando el monto de la distribución sea inferior al cinco por ciento de las acreencias que se contemplen en tal distribución.
+
+14. Lo anterior, tomando en consideración que, la finalidad del procedimiento de quiebra es el pago de las obligaciones del fallido, por lo que resulta contrario a dicho fin, dilatar el procedimiento cuando existen fondos disponibles y acreencias impagas, así como devolver fondos al fallido existiendo créditos pendientes de pago en el concurso.
+
+15. Que, del ejercicio de su facultad fiscalizadora, esta Superintendencia constató dificultades relativas a la ejecución de repartos de fondos en los procedimientos de quiebras vigentes, particularmente, en aquellos casos en que el monto a repartir en los acreedores comunes, valistas o quirografarios, es inferior al porcentaje establecido en el artículo 151 del Libro IV del Código de Comercio.
+
+16. Atendido lo expuesto y de conformidad con lo dispuesto en el artículo 3 de la Ley N.º 19.880, y demás normas legales pertinentes;</considerandos>
+  </encabezado>
   <contenido total_articulos="2" total_libros="0" total_titulos="0" total_capitulos="0">
     <articulo id="1" tipo_original="Artículo" numero="62">
       <titulo_seccion>Artículo 62</titulo_seccion>
-      <texto>Los/las síndicos y ex síndicos, deberán
-proponer a los acreedores comunes, valistas o quirografarios, un reparto de fondos
-cuando la disponibilidad de fondos permita abonar a los acreedores reconocidos una
-cantidad suficiente, o así lo requieran los acreedores, el fallido o esta
-Superintendencia, aunque el reparto fuere inferior al cinco por ciento de las
-acreencias, sujetándose, para ello, a la forma dispuesta en el presente instructivo.
-Lo indicado se funda en que, el artículo 151 del Libro IV
-del Código de Comercio no prohíbe la realización de repartos de fondos, sino más
-bien, impone expresamente al síndico, la obligación de efectuar dichos repartos cada
-vez que se reúna una cantidad que permita realizar un abono no inferior al cinco por
-ciento de las acreencias, toda vez que la quiebra persigue el pago de todas las
-obligaciones del fallido, resultando contrario a dicho fin, dilatar la quiebra existiendo
-fondos disponibles, así como devolver fondos al fallido existiendo créditos pendientes
-de pago en el concurso.</texto>
+      <contenido>
+        <parrafo>Los/las síndicos y ex síndicos, deberán proponer a los acreedores comunes, valistas o quirografarios, un reparto de fondos cuando la disponibilidad de fondos permita abonar a los acreedores reconocidos una cantidad suficiente, o así lo requieran los acreedores, el fallido o esta Superintendencia, aunque el reparto fuere inferior al cinco por ciento de las acreencias, sujetándose, para ello, a la forma dispuesta en el presente instructivo.</parrafo>
+        <parrafo>Lo indicado se funda en que, el artículo 151 del Libro IV del Código de Comercio no prohíbe la realización de repartos de fondos, sino más bien, impone expresamente al síndico, la obligación de efectuar dichos repartos cada vez que se reúna una cantidad que permita realizar un abono no inferior al cinco por ciento de las acreencias, toda vez que la quiebra persigue el pago de todas las obligaciones del fallido, resultando contrario a dicho fin, dilatar la quiebra existiendo fondos disponibles, así como devolver fondos al fallido existiendo créditos pendientes de pago en el concurso.</parrafo>
+      </contenido>
       <referencias>
         <ref articulo="151"/>
       </referencias>
     </articulo>
     <articulo id="2" tipo_original="Artículo" numero="63">
       <titulo_seccion>Artículo 63</titulo_seccion>
-      <texto>Los/las síndicos y ex síndicos deberán
-distribuir los fondos de la quiebra, de conformidad con lo dispuesto en el inciso final
-del artículo 143, inciso final del artículo 154, y artículo 156 y siguientes, todos del
-Libro IV del Código de Comercio y lo previsto en el presente Instructivo, observando
-el principio de celeridad en tal gestión, considerando que el espíritu del legislador en
-la referida ley, propendió a reducir al mínimo el tiempo de tramitación de las
-quiebras, pero sin menoscabar por ello los legítimos derechos de todos.”.</texto>
+      <contenido>
+        <parrafo>Los/las síndicos y ex síndicos deberán distribuir los fondos de la quiebra, de conformidad con lo dispuesto en el inciso final del artículo 143, inciso final del artículo 154, y artículo 156 y siguientes, todos del Libro IV del Código de Comercio y lo previsto en el presente Instructivo, observando el principio de celeridad en tal gestión, considerando que el espíritu del legislador en la referida ley, propendió a reducir al mínimo el tiempo de tramitación de las quiebras, pero sin menoscabar por ello los legítimos derechos de todos.”.</parrafo>
+      </contenido>
       <referencias>
+        <ref articulo="156"/>
         <ref articulo="154"/>
         <ref articulo="143"/>
-        <ref articulo="156"/>
       </referencias>
     </articulo>
   </contenido>
-  <promulgacion>RESUELVO:
+  <disposiciones_finales>
+    <texto>RESUELVO:
 
-I. INCORPÓRASE el siguiente Título XVI al Instructivo
-S.Q. N.º 8 de 29 de diciembre de 2009 que “Instruye sobre prelación de créditos y
-repartos de fondos, interpreta administrativamente la ley y deroga oficios, circulares
-e instructivos que indica”, pasando los actuales artículos 62 y 63 del Título Final del
-mencionado instructivo, a ser los artículos 64 y 65, respectivamente:
-“TÍTULO XVI
-Instrucciones sobre propuesta y distribución de repartos de fondos de
-sumas inferiores al cinco por ciento de las acreencias.
+I. INCORPÓRASE el siguiente Título XVI al Instructivo S.Q. N.º 8 de 29 de diciembre de 2009 que “Instruye sobre prelación de créditos y repartos de fondos, interpreta administrativamente la ley y deroga oficios, circulares e instructivos que indica”, pasando los actuales artículos 62 y 63 del Título Final del mencionado instructivo, a ser los artículos 64 y 65, respectivamente: “TÍTULO XVI Instrucciones sobre propuesta y distribución de repartos de fondos de sumas inferiores al cinco por ciento de las acreencias.
 
-II. NOTIFÍQUESE la presente resolución a los/las
-síndicos que integran la Nómina Nacional de Síndicos del Ministerio de Justicia y
-Derechos Humanos y aquellos síndicos excluidos con procedimientos concursales de
-quiebras vigentes.
-III. DÉJASE establecido a los/las síndicos y ex síndicos
-que la presente resolución comenzará a regir a contar de su notificación por correo
-electrónico a los/las síndicos que integran la Nómina Nacional de Síndicos del
-Ministerio de Justicia y Derechos Humanos y aquellos síndicos excluidos con
-procedimientos concursales de quiebras vigentes. Asimismo, a partir de la entrada a
-la entrada en vigencia de la presente resolución los/las síndicos que se encuentren
-en cualquiera de las situaciones instruidas en el nuevo Título XVI del Instructivo S.Q.
-N.° 8 de 29 de diciembre de 2009, tendrán un plazo de 10 días hábiles, contado
-desde la fecha de su notificación, para cumplir con las instrucciones señaladas.
-IV. DISPÓNGASE como medida de publicidad, una vez
-que se encuentre totalmente tramitado el presente acto administrativo, su
-publicación en el sitio web institucional de la Superintendencia de Insolvencia y
-Reemprendimiento.
-ANÓTESE Y ARCHÍVESE,
-CRR/CPB/FRC/EGZ/DTC/HRM/MIR/RJU
-DISTRIBUCIÓN:
-Síndicos de Quiebras
-Ex Síndicos de Quiebras con procedimientos vigentes
-Funcionarios de la Superintendencia de Insolvencia y Reemprendimiento
-Presente
-5</promulgacion>
+II. NOTIFÍQUESE la presente resolución a los/las síndicos que integran la Nómina Nacional de Síndicos del Ministerio de Justicia y Derechos Humanos y aquellos síndicos excluidos con procedimientos concursales de quiebras vigentes.
+
+III. DÉJASE establecido a los/las síndicos y ex síndicos que la presente resolución comenzará a regir a contar de su notificación por correo electrónico a los/las síndicos que integran la Nómina Nacional de Síndicos del Ministerio de Justicia y Derechos Humanos y aquellos síndicos excluidos con procedimientos concursales de quiebras vigentes. Asimismo, a partir de la entrada a la entrada en vigencia de la presente resolución los/las síndicos que se encuentren en cualquiera de las situaciones instruidas en el nuevo Título XVI del Instructivo S.Q.
+
+N.° 8 de 29 de diciembre de 2009, tendrán un plazo de 10 días hábiles, contado desde la fecha de su notificación, para cumplir con las instrucciones señaladas.
+
+IV. DISPÓNGASE como medida de publicidad, una vez que se encuentre totalmente tramitado el presente acto administrativo, su publicación en el sitio web institucional de la Superintendencia de Insolvencia y Reemprendimiento.
+
+ANÓTESE Y ARCHÍVESE,</texto>
+  </disposiciones_finales>
 </ley>

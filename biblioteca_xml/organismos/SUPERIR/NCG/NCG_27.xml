@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ley xmlns="https://leychile.cl/schema/ley/v1" version="1.0" idioma="es-CL" id_norma="NCG-27" tipo="Norma de Carácter General" numero="27" estado="vigente" fecha_version="2024-09-04" fecha_promulgacion="2024-09-04" fecha_publicacion="2024-09-04" generado="2026-02-12T11:14:27.859590" fuente="Biblioteca del Congreso Nacional de Chile" url_original="https://www.superir.gob.cl/wp-content/uploads/2024/10/RES_NUM_13003_A_O_2024.pdf">
+<ley xmlns="https://leychile.cl/schema/ley/v1" version="1.1" idioma="es-CL" id_norma="NCG-27" tipo="Norma de Carácter General" numero="27" estado="vigente" fecha_version="2024-09-04" fecha_promulgacion="2024-09-04" fecha_publicacion="2024-09-04" generado="2026-02-12T21:30:05.229408" fuente="Biblioteca del Congreso Nacional de Chile" url_original="https://www.superir.gob.cl/wp-content/uploads/2024/10/RES_NUM_13003_A_O_2024.pdf">
   <metadatos>
     <titulo>NORMA DE CARÁCTER GENERAL N°27 - Cuenta definitiva de administración en procedimiento concursal de liquidación</titulo>
     <identificacion>
@@ -25,23 +25,19 @@
     <fuente>Superintendencia de Insolvencia y Reemprendimiento</fuente>
     <numero_fuente>13003</numero_fuente>
     <leyes_referenciadas>
-      <ley_ref>Ley 20.720</ley_ref>
-      <ley_ref>Ley 21.563</ley_ref>
-      <ley_ref>Ley 18.575</ley_ref>
-      <ley_ref>Ley 19.880</ley_ref>
-      <ley_ref>Ley 19.799</ley_ref>
-      <ley_ref>DFL 119.653</ley_ref>
-      <ley_ref>D.S. 181</ley_ref>
-      <ley_ref>NCG 14</ley_ref>
+      <ley_ref tipo="Ley" numero="20.720">Ley 20.720</ley_ref>
+      <ley_ref tipo="Ley" numero="21.563">Ley 21.563</ley_ref>
+      <ley_ref tipo="Ley" numero="18.575">Ley 18.575</ley_ref>
+      <ley_ref tipo="Ley" numero="19.880">Ley 19.880</ley_ref>
+      <ley_ref tipo="Ley" numero="19.799">Ley 19.799</ley_ref>
+      <ley_ref tipo="DFL" numero="119.653">DFL 119.653</ley_ref>
+      <ley_ref tipo="D.S." numero="181">D.S. 181</ley_ref>
+      <ley_ref tipo="NCG" numero="14">NCG 14</ley_ref>
     </leyes_referenciadas>
   </metadatos>
-  <encabezado>VISTOS:
-
-Las facultades que me confiere la Ley N.° 20.720, que sustituyó el régimen concursal vigente por una Ley de Reorganización y Liquidación de Activos de Empresas y Personas; lo dispuesto en la Ley N.º 21.563, que Moderniza los Procedimientos Concursales Contemplados en la Ley N.° 20.720 y Crea Nuevos Procedimientos para Micro y Pequeñas Empresas; en el D.F.L. N.º 119.653, de 17 de noviembre de 2001, que fija el texto Refundido, Coordinado y Sistematizado de la Ley N.º 18.575, Orgánica Constitucional de Bases Generales de la Administración del Estado; en la Ley N.º 19.880, que establece Bases de los Procedimientos Administrativos que Rigen los Actos de los Órganos de la Administración del Estado; en la Ley N.º 19.799 sobre Documentos Electrónicos, Firma Electrónica y Servicios de Certificación de Dicha Firma; en el Decreto Supremo N.º 181 de 17 de agosto de 2002, del Ministerio de Economía; Fomento y Turismo, que Aprueba el Reglamento de la Ley N.º 19.799 sobre Documentos Electrónicos, Firma Electrónica y la Certificación de Dicha Firma; en la Resolución N.° 7 de 2019 de la Contraloría General de la República, que fija normas sobre Exención del Trámite de Toma de Razón, y en el Decreto N.° 8 de 19 de enero de 2023, del Ministerio de Economía, Fomento y Turismo.
-
-CONSIDERANDO:
-
-1° Que, de conformidad a lo dispuesto en los artículos 331 y siguientes de la Ley N.° 20.720, en adelante “la Ley”, la Superintendencia de Insolvencia y Reemprendimiento, en adelante la “Superintendencia”, es una persona jurídica de derecho público, creada por la Ley, como un servicio público descentralizado, con personalidad jurídica y patrimonio propio, que se relaciona con el Presidente de la República, a través, del Ministerio de Economía, Fomento y Turismo, y tiene como función supervigilar y fiscalizar las actuaciones de los/las liquidadores/as, veedores/as, interventores/as designados de conformidad a la Ley, martilleros/as concursales, administradores/as de la continuación de las actividades económicas del deudor, asesores/as económicos/as de insolvencia, y, de toda persona que por ley quede sujeta a su supervigilancia y fiscalización.
+  <encabezado>
+    <vistos>Las facultades que me confiere la Ley N.° 20.720, que sustituyó el régimen concursal vigente por una Ley de Reorganización y Liquidación de Activos de Empresas y Personas; lo dispuesto en la Ley N.º 21.563, que Moderniza los Procedimientos Concursales Contemplados en la Ley N.° 20.720 y Crea Nuevos Procedimientos para Micro y Pequeñas Empresas; en el D.F.L. N.º 119.653, de 17 de noviembre de 2001, que fija el texto Refundido, Coordinado y Sistematizado de la Ley N.º 18.575, Orgánica Constitucional de Bases Generales de la Administración del Estado; en la Ley N.º 19.880, que establece Bases de los Procedimientos Administrativos que Rigen los Actos de los Órganos de la Administración del Estado; en la Ley N.º 19.799 sobre Documentos Electrónicos, Firma Electrónica y Servicios de Certificación de Dicha Firma; en el Decreto Supremo N.º 181 de 17 de agosto de 2002, del Ministerio de Economía; Fomento y Turismo, que Aprueba el Reglamento de la Ley N.º 19.799 sobre Documentos Electrónicos, Firma Electrónica y la Certificación de Dicha Firma; en la Resolución N.° 7 de 2019 de la Contraloría General de la República, que fija normas sobre Exención del Trámite de Toma de Razón, y en el Decreto N.° 8 de 19 de enero de 2023, del Ministerio de Economía, Fomento y Turismo.</vistos>
+    <considerandos>1° Que, de conformidad a lo dispuesto en los artículos 331 y siguientes de la Ley N.° 20.720, en adelante “la Ley”, la Superintendencia de Insolvencia y Reemprendimiento, en adelante la “Superintendencia”, es una persona jurídica de derecho público, creada por la Ley, como un servicio público descentralizado, con personalidad jurídica y patrimonio propio, que se relaciona con el Presidente de la República, a través, del Ministerio de Economía, Fomento y Turismo, y tiene como función supervigilar y fiscalizar las actuaciones de los/las liquidadores/as, veedores/as, interventores/as designados de conformidad a la Ley, martilleros/as concursales, administradores/as de la continuación de las actividades económicas del deudor, asesores/as económicos/as de insolvencia, y, de toda persona que por ley quede sujeta a su supervigilancia y fiscalización.
 
 Asimismo, le corresponde desempeñar aquellas funciones que la referida ley le encomienda, así como las demás que se establezcan en otras leyes.
 
@@ -57,7 +53,8 @@ Asimismo, le corresponde desempeñar aquellas funciones que la referida ley le e
 
 7° Que, el artículo 47 de la Ley señala que las cuentas provisorias deberán publicarse mensualmente en el Boletín Concursal y rendirse ante la Junta de Acreedores respectiva, la que deberá aprobarlas o rechazarlas en esa misma sesión;
 
-8º. Que, atendido lo expuesto y de conformidad con lo dispuesto en el artículo 3 de la Ley N.º 19.880 y demás normas legales pertinentes,</encabezado>
+8º. Que, atendido lo expuesto y de conformidad con lo dispuesto en el artículo 3 de la Ley N.º 19.880 y demás normas legales pertinentes,</considerandos>
+  </encabezado>
   <contenido total_articulos="9" total_libros="0" total_titulos="0" total_capitulos="0">
     <articulo id="1" tipo_original="Artículo" numero="1">
       <titulo_seccion>Artículo 1. Definición</titulo_seccion>
@@ -75,8 +72,7 @@ Asimismo, le corresponde desempeñar aquellas funciones que la referida ley le e
         <parrafo>Las cuentas provisorias deberán rendirse mensualmente, ante la junta de acreedores en los casos que procedan, con corte contable al último día del mes que se rinde, y publicarse en el Boletín Concursal, dentro del plazo de 15 días hábiles judiciales contados desde la fecha de su corte contable.</parrafo>
         <parrafo>Dentro del mismo plazo, las cuentas provisorias se deberán agregar al expediente judicial del respectivo procedimiento concursal de liquidación.</parrafo>
         <parrafo>Posteriormente, estas cuentas deberán rendirse ante la Junta de Acreedores, en la reunión más próxima a la fecha de publicación de la respectiva cuenta, en los procedimientos concursales de liquidación propiamente tales contemplados en el Capítulo IV de la Ley.</parrafo>
-        <parrafo>Tratándose del Procedimiento Concursal de Liquidación Simplificada, el/la liquidador/a deberá publicar las cuentas provisorias mensualmente, sin necesidad de rendirla a la Junta de Acreedores, salvo que extraordinariamente se celebre una junta de acreedores de conformidad con el</parrafo>
-        <parrafo>artículo 278 de la Ley.</parrafo>
+        <parrafo>Tratándose del Procedimiento Concursal de Liquidación Simplificada, el/la liquidador/a deberá publicar las cuentas provisorias mensualmente, sin necesidad de rendirla a la Junta de Acreedores, salvo que extraordinariamente se celebre una junta de acreedores de conformidad con el artículo 278 de la Ley.</parrafo>
         <parrafo>Cabe hacer presente que, el citado artículo no dispuso expresamente si el/la liquidador/a se encuentra legitimado para citar a junta de acreedores a efectos de tratar las materias que correspondan, por lo que podrá aplicar lo dispuesto en la interpretación administrativa contenida en la Resolución Exenta N.º 7338 de 7 de septiembre de 2023, sobre la citación a juntas de acreedores en los procedimientos concursales de liquidación simplificada.</parrafo>
       </contenido>
       <referencias>
@@ -94,13 +90,15 @@ Asimismo, le corresponde desempeñar aquellas funciones que la referida ley le e
         <parrafo>Respecto a la continuación definitiva de las actividades económicas del Deudor, ella se entenderá terminada transcurrido el plazo de un año contado desde el acuerdo respectivo, salvo que sea prorrogado, entendiéndose terminada una vez vencida la prórroga, o bien si se extiende el plazo hasta la realización de los activos como unidad económica, si ello se acordó con Quórum Especial, de conformidad con el numeral 5) del artículo 233 de la Ley.</parrafo>
       </contenido>
       <referencias>
-        <ref articulo="231"/>
         <ref articulo="233"/>
+        <ref articulo="231"/>
       </referencias>
     </articulo>
     <articulo id="4" tipo_original="Artículo" numero="4">
       <titulo_seccion>Artículo 4. Registro de las cuentas provisorias</titulo_seccion>
-      <texto>El liquidador deberá registrar las cuentas provisorias a través de su perfil en el Portal Sujetos Fiscalizados de la Plataforma Electrónica de esta Superintendencia, de acuerdo con el formato existente en dicha plataforma.</texto>
+      <contenido>
+        <parrafo>El liquidador deberá registrar las cuentas provisorias a través de su perfil en el Portal Sujetos Fiscalizados de la Plataforma Electrónica de esta Superintendencia, de acuerdo con el formato existente en dicha plataforma.</parrafo>
+      </contenido>
     </articulo>
     <articulo id="5" tipo_original="Artículo" numero="5">
       <titulo_seccion>Artículo 5. Publicación de las cuentas provisorias en el Boletín Concursal</titulo_seccion>
@@ -112,8 +110,7 @@ Asimismo, le corresponde desempeñar aquellas funciones que la referida ley le e
     <articulo id="6" tipo_original="Artículo" numero="6">
       <titulo_seccion>Artículo 6. Cuentas Provisorias en el Procedimiento de Liquidación simplificada</titulo_seccion>
       <contenido>
-        <parrafo>El liquidador deberá registrar y publicar las cuentas provisorias, de acuerdo con los incisos tercero y cuarto del</parrafo>
-        <parrafo>artículo 2° y demás disposiciones de la presente Norma de Carácter General. En el evento que se celebre junta extraordinaria, deberá rendirla en dicha junta.</parrafo>
+        <parrafo>El liquidador deberá registrar y publicar las cuentas provisorias, de acuerdo con los incisos tercero y cuarto del artículo 2° y demás disposiciones de la presente Norma de Carácter General. En el evento que se celebre junta extraordinaria, deberá rendirla en dicha junta.</parrafo>
       </contenido>
       <referencias>
         <ref articulo="2"/>
@@ -127,20 +124,25 @@ Asimismo, le corresponde desempeñar aquellas funciones que la referida ley le e
         <parrafo>En el caso de los procedimientos de liquidación simplificada, los/as liquidadores/as deberán responder dichas observaciones a los acreedores y al Deudor, enviando copia de ella a esta Superintendencia, a través del Módulo de Comunicación Directa, y publicándola en el Boletín Concursal, dentro del plazo de 10 días hábiles administrativos, contado desde la recepción de aquellas.</parrafo>
       </contenido>
       <referencias>
-        <ref articulo="36"/>
         <ref articulo="47"/>
+        <ref articulo="36"/>
       </referencias>
     </articulo>
     <articulo id="8" tipo_original="Artículo" numero="8">
       <titulo_seccion>Artículo 8. Vigencia</titulo_seccion>
-      <texto>La presente Norma de Carácter General comenzará a regir a contar de su notificación por correo electrónico a los sujetos fiscalizados, sin perjuicio de su publicación en el Diario Oficial.</texto>
+      <contenido>
+        <parrafo>La presente Norma de Carácter General comenzará a regir a contar de su notificación por correo electrónico a los sujetos fiscalizados, sin perjuicio de su publicación en el Diario Oficial.</parrafo>
+      </contenido>
     </articulo>
     <articulo id="9" tipo_original="Artículo" numero="9">
       <titulo_seccion>Artículo 9. Disposición transitoria</titulo_seccion>
-      <texto>Los sujetos fiscalizados que a la notificación de la presente Norma de Carácter General se encuentren en cualquiera de las situaciones descritas precedentemente, tendrán un plazo de 10 días hábiles administrativos, contado desde la notificación de la presente Norma de Carácter General, para dar cumplimiento a las instrucciones impartidas.</texto>
+      <contenido>
+        <parrafo>Los sujetos fiscalizados que a la notificación de la presente Norma de Carácter General se encuentren en cualquiera de las situaciones descritas precedentemente, tendrán un plazo de 10 días hábiles administrativos, contado desde la notificación de la presente Norma de Carácter General, para dar cumplimiento a las instrucciones impartidas.</parrafo>
+      </contenido>
     </articulo>
   </contenido>
-  <promulgacion>RESUELVO:
+  <disposiciones_finales>
+    <texto>RESUELVO:
 
 I. APRUÉBESE la siguiente Norma de Carácter General N.° 27, que fija la forma y contenidos obligatorios de la presentación de Cuentas Provisorias mensuales, en los procedimientos concursales de liquidación:
 
@@ -154,5 +156,6 @@ IV. DISPÓNGASE como medida de publicidad, una vez se encuentre totalmente trami
 
 V. DERÓGUENSE el Título I de la Norma de Carácter General N.º 7 de 8 de octubre de 2014, el Título IX del Instructivo SIR N.º 1 de 6 de octubre de 2015 y la letra d) del numeral 1 del Oficio SIR N.º 1076 de 16 de marzo de 2016, a contar de la entrada en vigencia de la presente Norma de Carácter General, sin perjuicio de continuar vigentes para regular los hechos ocurridos con anterioridad a su entrada en vigencia.
 
-ANÓTESE, NOTIFÍQUESE Y ARCHÍVESE.</promulgacion>
+ANÓTESE, NOTIFÍQUESE Y ARCHÍVESE.</texto>
+  </disposiciones_finales>
 </ley>

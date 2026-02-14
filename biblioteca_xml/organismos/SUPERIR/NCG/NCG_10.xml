@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ley xmlns="https://leychile.cl/schema/ley/v1" version="1.0" idioma="es-CL" id_norma="NCG-10" tipo="Norma de Carácter General" numero="10" estado="vigente" fecha_version="2019-12-31" fecha_promulgacion="2019-12-31" fecha_publicacion="2019-12-31" generado="2026-02-12T11:14:27.805374" fuente="Biblioteca del Congreso Nacional de Chile" url_original="https://www.superir.gob.cl/wp-content/uploads/2020/01/NORMA-N%C2%B010.pdf">
+<ley xmlns="https://leychile.cl/schema/ley/v1" version="1.1" idioma="es-CL" id_norma="NCG-10" tipo="Norma de Carácter General" numero="10" estado="vigente" fecha_version="2019-12-31" fecha_promulgacion="2019-12-31" fecha_publicacion="2019-12-31" generado="2026-02-12T21:30:05.138074" fuente="Biblioteca del Congreso Nacional de Chile" url_original="https://www.superir.gob.cl/wp-content/uploads/2020/01/NORMA-N%C2%B010.pdf">
   <metadatos>
     <titulo>NORMA DE CARÁCTER GENERAL N°10 - Modifica NCG N°1 sobre garantía de fiel desempeño</titulo>
     <identificacion>
@@ -23,20 +23,16 @@
     </fechas>
     <fuente>Superintendencia de Insolvencia y Reemprendimiento</fuente>
     <leyes_referenciadas>
-      <ley_ref>Ley 20.720</ley_ref>
-      <ley_ref>Ley 19.799</ley_ref>
-      <ley_ref>Ley 19.880</ley_ref>
-      <ley_ref>Ley 18.175</ley_ref>
-      <ley_ref>NCG 1</ley_ref>
+      <ley_ref tipo="Ley" numero="20.720">Ley 20.720</ley_ref>
+      <ley_ref tipo="Ley" numero="19.799">Ley 19.799</ley_ref>
+      <ley_ref tipo="Ley" numero="19.880">Ley 19.880</ley_ref>
+      <ley_ref tipo="Ley" numero="18.175">Ley 18.175</ley_ref>
+      <ley_ref tipo="NCG" numero="1">NCG 1</ley_ref>
     </leyes_referenciadas>
   </metadatos>
-  <encabezado>VISTOS:
-
-Las facultades conferidas en el artículo 16° de la Ley N.° 20.720, de Reorganización y Liquidación de Activos de Empresas y Personas (en adelante, la "Ley"), esta Superintendencia de Insolvencia y Reemprendimiento (en adelante, la "Superintendencia") ha estimado pertinente dictar la presente Norma de Carácter General, con el objeto de regular la garantía de fiel desempeño que debe ser otorgada por los Veedores y Liquidadores.
-
-CONSIDERANDO:
-
-1° Que los artículos 16° y 32 N.° 5) de la Ley establecen la obligación del Veedor y Liquidador, respectivamente, de otorgar y mantener vigente en la Superintendencia una garantía de fiel desempeño.
+  <encabezado>
+    <vistos>Las facultades conferidas en el artículo 16° de la Ley N.° 20.720, de Reorganización y Liquidación de Activos de Empresas y Personas (en adelante, la &quot;Ley&quot;), esta Superintendencia de Insolvencia y Reemprendimiento (en adelante, la &quot;Superintendencia&quot;) ha estimado pertinente dictar la presente Norma de Carácter General, con el objeto de regular la garantía de fiel desempeño que debe ser otorgada por los Veedores y Liquidadores.</vistos>
+    <considerandos>1° Que los artículos 16° y 32 N.° 5) de la Ley establecen la obligación del Veedor y Liquidador, respectivamente, de otorgar y mantener vigente en la Superintendencia una garantía de fiel desempeño.
 
 2° Que el inciso segundo del artículo 16° de la Ley mandata a esta Superintendencia a regular la naturaleza de esta garantía, la forma de rendirla, sus plazos, devolución, renovación y demás medidas, mediante una norma de carácter general.
 
@@ -46,7 +42,8 @@ CONSIDERANDO:
 
 NORMA DE CARÁCTER GENERAL
 
-TÍTULO I Garantía de fiel desempeño</encabezado>
+TÍTULO I Garantía de fiel desempeño</considerandos>
+  </encabezado>
   <contenido total_articulos="9" total_libros="0" total_titulos="2" total_capitulos="0">
     <titulo id="1" tipo_original="Título" numero="I">
       <titulo_seccion>TÍTULO I Garantía de fiel desempeño</titulo_seccion>
@@ -71,9 +68,9 @@ TÍTULO I Garantía de fiel desempeño</encabezado>
           <parrafo>La Superintendencia mantendrá la garantía en depósito por todo el tiempo en que el Veedor o el Liquidador forme parte de la respectiva nómina.</parrafo>
         </contenido>
         <referencias>
-          <ref articulo="11"/>
-          <ref articulo="14"/>
           <ref articulo="43"/>
+          <ref articulo="14"/>
+          <ref articulo="11"/>
         </referencias>
       </articulo>
       <articulo id="3" tipo_original="Artículo" numero="3">
@@ -98,8 +95,8 @@ TÍTULO I Garantía de fiel desempeño</encabezado>
           <parrafo>Tratándose de Veedores o Liquidadores que se encuentren suspendidos por no renovar su garantía, y que dicho retraso sea por más de treinta días hábiles contados desde el término de vigencia de la última garantía, serán excluidos de la respectiva nómina por aplicación del N.° 2 del artículo 18 en relación al N.° 5 del artículo 13 de la Ley.</parrafo>
         </contenido>
         <referencias>
-          <ref articulo="13"/>
           <ref articulo="2"/>
+          <ref articulo="13"/>
           <ref articulo="18"/>
         </referencias>
       </articulo>
@@ -125,7 +122,9 @@ TÍTULO I Garantía de fiel desempeño</encabezado>
       <articulo id="7" tipo_original="Artículo" numero="7">
         <titulo_seccion>Artículo 7. Términos definidos</titulo_seccion>
         <contexto>TÍTULO II Disposiciones finales</contexto>
-        <texto>Los términos en mayúscula utilizados en esta Norma de Carácter General tendrán el mismo significado que a ellos se les asigna en el artículo 2° de la Ley.</texto>
+        <contenido>
+          <parrafo>Los términos en mayúscula utilizados en esta Norma de Carácter General tendrán el mismo significado que a ellos se les asigna en el artículo 2° de la Ley.</parrafo>
+        </contenido>
         <referencias>
           <ref articulo="2"/>
         </referencias>
@@ -133,14 +132,20 @@ TÍTULO I Garantía de fiel desempeño</encabezado>
       <articulo id="8" tipo_original="Artículo" numero="8">
         <titulo_seccion>Artículo 8. Vigencia</titulo_seccion>
         <contexto>TÍTULO II Disposiciones finales</contexto>
-        <texto>La presente Norma de Carácter General entrará a regir el día 2 de enero de 2020.</texto>
+        <contenido>
+          <parrafo>La presente Norma de Carácter General entrará a regir el día 2 de enero de 2020.</parrafo>
+        </contenido>
       </articulo>
       <articulo id="9" tipo_original="Artículo" numero="9">
         <titulo_seccion>Artículo 9. Derogación</titulo_seccion>
         <contexto>TÍTULO II Disposiciones finales</contexto>
-        <texto>Derógase, a contar de la entrada en vigencia de la presente Norma de Carácter General, la Norma de Carácter General N.° 1 de 30 de abril de 2014, que regula la garantía de fiel desempeño.</texto>
+        <contenido>
+          <parrafo>Derógase, a contar de la entrada en vigencia de la presente Norma de Carácter General, la Norma de Carácter General N.° 1 de 30 de abril de 2014, que regula la garantía de fiel desempeño.</parrafo>
+        </contenido>
       </articulo>
     </titulo>
   </contenido>
-  <promulgacion>Anótese, notifíquese, publíquese y archívese.</promulgacion>
+  <disposiciones_finales>
+    <texto>Anótese, notifíquese, publíquese y archívese.</texto>
+  </disposiciones_finales>
 </ley>

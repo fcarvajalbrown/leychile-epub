@@ -78,8 +78,8 @@ PATRON_CIERRE = re.compile(
     re.MULTILINE | re.IGNORECASE,
 )
 PATRON_DIRECTIVA_RESOLUTIVA = re.compile(
-    r"^[IVX]+\.\s*(NOTIF[ÍI]QUESE|PUBL[ÍI]QUESE|DER[ÓO]GUENSE|DISP[ÓO]NGASE|"
-    r"AN[ÓO]TESE|REG[ÍI]STRESE|COMUN[ÍI]QUESE|ARCH[ÍI]VESE)",
+    r"^(?:[IVX]+|\d+°?)\.\s*(NOTIF[ÍI]QUESE|PUBL[ÍI]QUESE|DER[ÓO]GUENSE|DISP[ÓO]NGASE|"
+    r"AN[ÓO]TESE|REG[ÍI]STRESE|COMUN[ÍI]QUESE|ARCH[ÍI]VESE|D[ÉE]JASE|VIGENCIA)",
     re.MULTILINE | re.IGNORECASE,
 )
 
@@ -118,6 +118,10 @@ PATRON_NCG_REF = re.compile(
     r"(?:Norma\s+de\s+Car[áa]cter\s+General|NCG)\s+N[°º.]*\s*(\d+)",
     re.IGNORECASE,
 )
+PATRON_PARRAFO = re.compile(
+    r"^P[ÁA]RRAFO\s+([IVXLCDM]+|\d+)\s*[:\-.]?\s*(.*)$",
+    re.MULTILINE | re.IGNORECASE,
+)
 PATRON_DEROGACION = re.compile(
     r"(?:der[óo]g(?:a|ase|ese|uen)|dej(?:a|ese)\s+sin\s+efecto|queda\s+derogada)",
     re.IGNORECASE,
@@ -126,6 +130,7 @@ PATRON_DEROGACION = re.compile(
 # Nivel jerárquico de cada tipo de división
 NIVEL_JERARQUIA = {
     "Título": 0,
+    "Párrafo": 1,
     "Capítulo": 1,
     "Artículo": 2,
 }
@@ -224,26 +229,31 @@ class SuperirBaseParser:
         if sections.get("body"):
             estructuras = self._parse_body(sections["body"])
 
-        # 5. Construir encabezado (VISTOS + CONSIDERANDO)
+        # 5. Almacenar VISTOS y CONSIDERANDO por separado (encabezado estructurado)
+        vistos_texto = sections.get("vistos", "")
+        considerandos_texto = sections.get("considerando", "")
+
+        # Encabezado combinado (retrocompatibilidad)
         encabezado_parts = []
-        if sections.get("vistos"):
-            encabezado_parts.append(f"VISTOS:\n\n{sections['vistos']}")
-        if sections.get("considerando"):
-            encabezado_parts.append(f"CONSIDERANDO:\n\n{sections['considerando']}")
+        if vistos_texto:
+            encabezado_parts.append(f"VISTOS:\n\n{vistos_texto}")
+        if considerandos_texto:
+            encabezado_parts.append(f"CONSIDERANDO:\n\n{considerandos_texto}")
         encabezado_texto = "\n\n".join(encabezado_parts)
 
-        # 6. Construir promulgación (RESUELVO + cierre)
-        promulgacion_parts = []
+        # 6. Construir disposiciones finales (cierre normativo SUPERIR)
+        disp_finales_parts = []
         if sections.get("resuelvo_intro"):
-            promulgacion_parts.append(f"RESUELVO:\n\n{sections['resuelvo_intro']}")
+            disp_finales_parts.append(f"RESUELVO:\n\n{sections['resuelvo_intro']}")
         if sections.get("closing"):
-            promulgacion_parts.append(sections["closing"])
-        promulgacion_texto = "\n\n".join(promulgacion_parts)
+            disp_finales_parts.append(sections["closing"])
+        disposiciones_finales_texto = "\n\n".join(disp_finales_parts)
 
-        # 7. Materias
+        # 7. Materias y conceptos (separados según taxonomía)
         materias = list(catalog.get("materias", []))
         if not materias and metadata.materia:
             materias.append(metadata.materia)
+        conceptos = list(catalog.get("conceptos", []))
 
         # 8. Nombres de uso común
         nombres_comunes = list(catalog.get("nombres_comunes", []))
@@ -269,6 +279,7 @@ class SuperirBaseParser:
             metadatos=NormaMetadatos(
                 titulo=self._build_titulo(metadata, catalog),
                 materias=materias,
+                conceptos=conceptos,
                 nombres_uso_comun=nombres_comunes,
                 identificacion_fuente=fuente,
                 numero_fuente=metadata.resolucion_exenta,
@@ -276,9 +287,12 @@ class SuperirBaseParser:
             ),
             encabezado_texto=encabezado_texto,
             encabezado_derogado=False,
+            vistos_texto=vistos_texto,
+            considerandos_texto=considerandos_texto,
             estructuras=estructuras,
-            promulgacion_texto=promulgacion_texto,
+            promulgacion_texto="",
             promulgacion_derogado=False,
+            disposiciones_finales_texto=disposiciones_finales_texto,
             url_original=url,
         )
 
@@ -604,7 +618,16 @@ class SuperirBaseParser:
                 starts_new_para = False
 
                 # Nuevo elemento estructural → siempre separar
+                # SALVO que la línea previa termine en preposición/artículo
+                # (referencia inline: "contemplados en el\nCapítulo IV...")
                 if cls._is_new_unit_start(stripped):
+                    if prev and re.search(
+                        r"\b(?:el|la|los|las|del|al|en|de|un|una)\s*$",
+                        prev,
+                        re.IGNORECASE,
+                    ):
+                        result[-1] = prev + " " + stripped
+                        continue
                     starts_new_para = True
                 # Terminador de oración + mayúscula → nuevo párrafo
                 elif prev and prev[-1] in ".;:" and stripped[0].isupper():
@@ -766,8 +789,9 @@ class SuperirBaseParser:
 
                 if current_article.titulo_parte == f"Artículo {current_article.nombre_parte}":
                     texto_flat = " ".join(texto_completo.split("\n")[:3])
+                    # Exigir \s+ después del "." para no romper en "N.°", "D.S.", etc.
                     titulo_match = re.match(
-                        r"^([A-ZÁÉÍÓÚÑ][^.]{1,100})\.\s*",
+                        r"^([A-ZÁÉÍÓÚÑ](?:[^.]|\.(?=[°º])){1,100})\.\s+",
                         texto_flat,
                     )
                     if titulo_match:
@@ -816,9 +840,67 @@ class SuperirBaseParser:
                     continue
                 pending_titulo_desc = None
 
+            # ─── PÁRRAFO (división legal chilena, equivalente estructural a Capítulo) ───
+            match_parrafo = PATRON_PARRAFO.match(stripped)
+            if match_parrafo:
+                # Detectar referencia inline: "dispuesto en el\nPárrafo 2 del Título 3"
+                if current_article and article_lines:
+                    last_text = ""
+                    for al in reversed(article_lines):
+                        if al.strip():
+                            last_text = al.strip()
+                            break
+                    if last_text and last_text[-1] not in ".;:":
+                        article_lines.append(stripped)
+                        continue
+                finalize_article()
+                current_article = None
+                division_counter += 1
+
+                numero = match_parrafo.group(1)
+                descripcion = match_parrafo.group(2).strip()
+
+                current_capitulo = EstructuraFuncional(
+                    id_parte=str(division_counter),
+                    tipo_parte="Párrafo",
+                    nombre_parte=numero,
+                    titulo_parte=stripped if descripcion else f"PÁRRAFO {numero}",
+                    nivel=1,
+                )
+
+                if current_titulo:
+                    current_titulo.hijos.append(current_capitulo)
+                else:
+                    root_structures.append(current_capitulo)
+
+                if not descripcion:
+                    for j in range(i + 1, min(i + 3, len(lines))):
+                        next_line = lines[j].strip()
+                        if (
+                            next_line
+                            and not PATRON_ARTICULO.match(next_line)
+                            and not PATRON_TITULO.match(next_line)
+                            and not PATRON_CAPITULO.match(next_line)
+                            and not PATRON_PARRAFO.match(next_line)
+                        ):
+                            current_capitulo.titulo_parte += f" {next_line}"
+                            lines[j] = ""
+                            break
+                continue
+
             # ─── TÍTULO ───
             match_titulo = PATRON_TITULO.match(stripped)
             if match_titulo:
+                # Detectar referencia inline (misma lógica que Capítulo)
+                if current_article and article_lines:
+                    last_text = ""
+                    for al in reversed(article_lines):
+                        if al.strip():
+                            last_text = al.strip()
+                            break
+                    if last_text and last_text[-1] not in ".;:":
+                        article_lines.append(stripped)
+                        continue
                 finalize_article()
                 current_article = None
                 current_capitulo = None
@@ -843,6 +925,18 @@ class SuperirBaseParser:
             # ─── CAPÍTULO ───
             match_cap = PATRON_CAPITULO.match(stripped)
             if match_cap:
+                # Detectar referencia inline: "contemplados en el\nCapítulo IV"
+                # Si estamos dentro de un artículo y la última línea no termina
+                # con terminador de oración, esto es una referencia, no estructura.
+                if current_article and article_lines:
+                    last_text = ""
+                    for al in reversed(article_lines):
+                        if al.strip():
+                            last_text = al.strip()
+                            break
+                    if last_text and last_text[-1] not in ".;:":
+                        article_lines.append(stripped)
+                        continue
                 finalize_article()
                 current_article = None
                 division_counter += 1
@@ -913,8 +1007,9 @@ class SuperirBaseParser:
 
                 art_titulo = ""
                 art_first_text = resto
+                # Exigir \s+ después del "." para no romper en "N.°", "D.S.", etc.
                 titulo_match = re.match(
-                    r"^([A-ZÁÉÍÓÚÑ][^.]{1,80})\.\s*[:\-]?\s*(.*)",
+                    r"^([A-ZÁÉÍÓÚÑ](?:[^.]|\.(?=[°º])){1,80})\.\s+[:\-]?\s*(.*)",
                     resto,
                     re.DOTALL,
                 )

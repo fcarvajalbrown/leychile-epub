@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Anexos detallados de la NCG N.° 7 - SUPERIR
+  Estructura semántica para formularios contables concursales.
+  Estos anexos se insertan vía override manual en la generación XML.
+-->
+<anexos norma="NCG-7">
+<anexo numero="I" titulo="Modelo de presentación de la Cuenta Final de Administración">
+  <seccion letra="A" nombre="Carátula">
+    <campo nombre="Tipo de cuenta">Cuenta Final de Administración</campo>
+    <campo nombre="Fecha de corte" formato="Al [DD] de [Mes] de [Año]"/>
+    <campo nombre="Nombre del Deudor" ejemplo="Sociedad XX Limitada"/>
+    <resumen_ingresos_egresos>
+      <linea concepto="Ingresos Totales" valor="$.-"/>
+      <linea concepto="Egresos">
+        <sublinea concepto="Repartos de Fondos" valor="$.-"/>
+        <sublinea concepto="Honorarios Liquidador" valor="$.-"/>
+        <sublinea concepto="Honorarios Varios" valor="$.-"/>
+        <sublinea concepto="Otros Gastos de Administración" valor="$.-"/>
+        <sublinea concepto="Provisión para Gastos Finales" valor="$.-"/>
+      </linea>
+      <linea concepto="Total Igual Ingresos" valor="$.-"/>
+    </resumen_ingresos_egresos>
+  </seccion>
+  <seccion letra="B" nombre="Detalle de Ingresos y Egresos">
+    <tabla nombre="Ingresos">
+      <columnas>Código | Cuenta | Monto</columnas>
+      <cuenta codigo="4.01.001">Intereses y Reajustes Ganados</cuenta>
+      <cuenta codigo="4.01.002">Arriendos Percibidos</cuenta>
+      <cuenta codigo="4.01.003">Dividendos de Acciones Percibidos</cuenta>
+      <cuenta codigo="4.01.004">Ventas de Acciones y Valores</cuenta>
+      <cuenta codigo="4.01.005">Venta de Bienes Muebles</cuenta>
+      <cuenta codigo="4.01.006">Venta de Bienes Inmuebles</cuenta>
+      <cuenta codigo="4.01.007">Venta de Unidad Económica</cuenta>
+      <cuenta codigo="4.01.008">Venta Bases de Remate y Licitación</cuenta>
+      <cuenta codigo="4.01.009">Utilidad por Participación en otras Empresas</cuenta>
+      <cuenta codigo="4.01.010">Recuperación y/o Aplicación Impuestos</cuenta>
+      <cuenta codigo="4.01.011">Fondos Incautados</cuenta>
+      <cuenta codigo="4.01.012">Ingresos por Cobranzas</cuenta>
+      <cuenta codigo="4.01.013">Otros Ingresos</cuenta>
+    </tabla>
+    <tabla nombre="Egresos">
+      <columnas>Código | Cuenta | Monto</columnas>
+      <cuenta codigo="3.01.001">Honorarios Liquidador</cuenta>
+      <cuenta codigo="3.01.002">Honorarios Varios</cuenta>
+      <cuenta codigo="3.01.003">Gastos Menores</cuenta>
+      <cuenta codigo="3.01.004">Gastos Bancarios</cuenta>
+      <cuenta codigo="3.01.005">Publicaciones de Enajenaciones</cuenta>
+      <cuenta codigo="3.01.006">Gastos de Martillo</cuenta>
+      <cuenta codigo="3.01.007">Gastos de Vigilancia</cuenta>
+      <cuenta codigo="3.01.010">Publicaciones</cuenta>
+      <cuenta codigo="3.01.011">Notificaciones</cuenta>
+      <cuenta codigo="3.01.012">Seguros Generales</cuenta>
+      <cuenta codigo="3.01.013">Bodegaje</cuenta>
+      <cuenta codigo="3.01.014">Contribuciones Bienes Raíces</cuenta>
+      <cuenta codigo="3.01.015">Mantención de Activos</cuenta>
+      <cuenta codigo="3.01.016">Gastos de Viaje</cuenta>
+      <cuenta codigo="3.01.017">Comisiones</cuenta>
+      <cuenta codigo="3.01.018">Intereses pagados</cuenta>
+      <cuenta codigo="3.01.019">Arriendos pagados</cuenta>
+      <cuenta codigo="3.01.020">Otros Gastos</cuenta>
+      <cuenta codigo="3.02.001">Dividendos créditos sin necesidad de verificación previa</cuenta>
+      <cuenta codigo="3.02.002">Dividendos Créditos de Primera Clase</cuenta>
+      <cuenta codigo="3.02.011">Dividendos Créditos Prendarios</cuenta>
+      <cuenta codigo="3.02.012">Dividendos Créditos Hipotecarios</cuenta>
+      <cuenta codigo="3.02.013">Dividendos Créditos de Cuarta Clase</cuenta>
+      <cuenta codigo="3.02.014">Dividendos Créditos Valistas</cuenta>
+      <cuenta codigo="3.02.015">Dividendos Créditos Subordinados</cuenta>
+    </tabla>
+    <lineas_cierre>
+      <linea letra="c" concepto="Subtotal Ingresos y Egresos" columnas="Ingresos $ | Egresos $"/>
+      <linea letra="d" concepto="Provisión para Gastos Finales" columna="Egresos $"/>
+      <linea letra="e" concepto="Totales Iguales" columnas="Ingresos $ | Egresos $" regla="Egresos = Subtotal Egresos + Provisión Gastos Finales; debe igualar Ingresos"/>
+    </lineas_cierre>
+  </seccion>
+  <seccion letra="C" nombre="Balance General">
+    <nota_al_pie numero="1">Las notas explicativas constituyen una relación de antecedentes que aportan información adicional sobre las cifras contenidas en el Balance General, así como la entrega de información que no está directamente reflejada en éste, permitiendo una mejor comprensión del mismo, por ende, estas notas se incorporarán al Balance General cuando el Liquidador requiera aclarar y complementar algún ítem del Balance. Estas notas explicativas deberán ser firmadas por el Liquidador y por su contador.</nota_al_pie>
+    <tabla nombre="Balance General">
+      <columnas>Código | Cuentas | Débitos | Créditos | Saldos (Deudor / Acreedor) | Inventario (Activo / Pasivo) | Resultados (Egresos / Ingresos)</columnas>
+      <cuenta codigo="1.01.002">Banco XX del PCL</cuenta>
+      <cuenta codigo="1.01.010">Depósitos a Plazo</cuenta>
+      <cuenta codigo="1.01.020">Documentos por Cobrar</cuenta>
+      <cuenta codigo="2.02.001">Impuesto de Segunda Categoría</cuenta>
+      <cuenta codigo="3.01.001">Honorarios Liquidador</cuenta>
+      <cuenta codigo="3.01.002">Honorarios Varios</cuenta>
+      <cuenta codigo="3.01.004">Gastos Bancarios</cuenta>
+      <cuenta codigo="3.01.010">Publicaciones</cuenta>
+      <cuenta codigo="3.01.011">Notificaciones</cuenta>
+      <cuenta codigo="3.01.014">Contribuciones Bienes Raíces</cuenta>
+      <cuenta codigo="3.01.015">Mantención de Activos</cuenta>
+      <cuenta codigo="3.01.020">Otros Gastos</cuenta>
+      <cuenta codigo="3.02.002">Dividendos Créditos de Primera Clase</cuenta>
+      <cuenta codigo="3.02.011">Dividendo Créditos Prendarios</cuenta>
+      <cuenta codigo="3.03.001">Pérdidas y Ganancias</cuenta>
+      <cuenta codigo="4.01.001">Intereses y Reajustes Ganados</cuenta>
+      <cuenta codigo="4.01.005">Venta de Bienes Muebles</cuenta>
+      <cuenta codigo="4.01.006">Venta de Bienes Inmuebles</cuenta>
+      <cuenta codigo="4.01.013">Otros Ingresos</cuenta>
+    </tabla>
+    <lineas_cierre>
+      <linea concepto="Sub Totales"/>
+      <linea concepto="Resultado Pérdida / Ganancia"/>
+      <linea concepto="Totales"/>
+    </lineas_cierre>
+    <firmas>
+      <firma rol="Liquidador">Nombre y Firma</firma>
+      <firma rol="Contador">Nombre y Firma</firma>
+    </firmas>
+  </seccion>
+  <seccion letra="D" nombre="Libros Mayores de cada cuenta del Procedimiento Concursal de Liquidación"/>
+</anexo>
+<anexo numero="II" titulo="Modelo de presentación de Cuenta Remate Martillero Concursal - Bienes Inmuebles">
+  <formulario numero="1" nombre="Liquidación Bienes Inmuebles" hoja="1">
+    <descripcion>Un bloque repetible por cada inmueble rematado</descripcion>
+    <campos_por_inmueble>
+      <campo nombre="Acta de Adjudicación" tipo="referencia"/>
+      <campo nombre="Fecha" tipo="fecha"/>
+      <campo nombre="Monto Total Adjudicación" tipo="moneda"/>
+      <campo nombre="Garantía" tipo="moneda"/>
+      <campo nombre="Saldo Precio" tipo="moneda"/>
+      <campo nombre="Bien Inmueble inscrito a Fojas N.°" tipo="texto"/>
+      <campo nombre="Conservador de Bienes Raíces" tipo="texto"/>
+    </campos_por_inmueble>
+    <totalizador concepto="Total Adjudicaciones Bienes Inmuebles" tipo="moneda"/>
+    <seccion_singularizacion>
+      <descripcion>Singularización de cada uno de los inmuebles</descripcion>
+      <campos_cheque repetible="true">
+        <campo nombre="Cheque N.°" tipo="texto"/>
+        <campo nombre="Banco" tipo="texto"/>
+        <campo nombre="Suma" tipo="moneda"/>
+      </campos_cheque>
+    </seccion_singularizacion>
+    <firma rol="Martillero Concursal">Nombre y Firma</firma>
+  </formulario>
+  <formulario numero="2" nombre="Acta de Remate" hoja="2">
+    <descripcion>Un acta por cada inmueble objeto de enajenación (adjudicados o no)</descripcion>
+    <campos>
+      <campo nombre="Fecha" tipo="fecha"/>
+      <campo nombre="Lugar" tipo="texto"/>
+      <campo nombre="Fecha del acta" tipo="fecha completa (día, mes, año)"/>
+      <campo nombre="Notario Público" tipo="texto"/>
+      <campo nombre="Martillero Concursal" tipo="texto"/>
+      <campo nombre="Inmueble inscrito a fojas N.°" tipo="texto"/>
+      <campo nombre="Conservador de Bienes Raíces" tipo="texto"/>
+      <campo nombre="Procedimiento Concursal de Liquidación" tipo="texto (nombre deudor)"/>
+      <campo nombre="Nombre Adjudicatario" tipo="texto"/>
+      <campo nombre="Garantía" tipo="moneda"/>
+      <campo nombre="Saldo Precio" tipo="moneda"/>
+    </campos>
+    <firmas>
+      <firma rol="Notario Público">Nombre y Firma</firma>
+      <firma rol="Martillero Concursal">Nombre y Firma</firma>
+      <firma rol="Adjudicatario">Nombre y Firma</firma>
+    </firmas>
+  </formulario>
+</anexo>
+<anexo numero="III" titulo="Modelo de presentación de Cuenta Remate Martillero Concursal - Bienes Muebles">
+  <formulario nombre="Liquidación Bienes Muebles">
+    <seccion nombre="Ventas Netas">
+      <lineas repetibles="true">
+        <campo nombre="Liquidación Factura N.°" tipo="texto"/>
+        <campo nombre="Monto" tipo="moneda"/>
+      </lineas>
+      <campo nombre="IVA Crédito Fiscal" tipo="moneda"/>
+      <totalizador concepto="Total Ventas" tipo="moneda"/>
+    </seccion>
+    <seccion nombre="Menos: Gastos">
+      <subseccion nombre="Facturas Gastos Publicidad">
+        <lineas repetibles="true">
+          <campo nombre="Factura N.°" tipo="texto"/>
+          <campo nombre="Monto" tipo="moneda"/>
+        </lineas>
+      </subseccion>
+      <subseccion nombre="Facturas Gastos Traslados">
+        <lineas repetibles="true">
+          <campo nombre="Factura N.°" tipo="texto"/>
+          <campo nombre="Monto" tipo="moneda"/>
+        </lineas>
+      </subseccion>
+    </seccion>
+    <totalizador concepto="Total Liquidación" tipo="moneda" calculo="Total Ventas - Gastos Publicidad - Gastos Traslados"/>
+    <seccion_cheque>
+      <campo nombre="Cheque N.°" tipo="texto"/>
+      <campo nombre="Banco" tipo="texto"/>
+      <campo nombre="Suma" tipo="moneda"/>
+    </seccion_cheque>
+    <firma rol="Martillero Concursal">Nombre y Firma</firma>
+  </formulario>
+  <formulario nombre="Planilla de Remate">
+    <tabla>
+      <columnas>Lote | Ítem Inventario | Cantidad | Especie | Valor Mínimo | Valor Adjudicación | Nombre Adjudicatario</columnas>
+    </tabla>
+    <firma rol="Martillero Concursal">Nombre y Firma</firma>
+  </formulario>
+</anexo>
+<anexo numero="IV" titulo="Modelo de presentación de Cuenta Remate Martillero Concursal - Bienes Muebles (Unidad Económica)">
+  <formulario nombre="Acta de Realización Unidad Económica">
+    <campos_encabezado>
+      <campo nombre="Lugar" tipo="texto" ejemplo="En Santiago"/>
+      <campo nombre="Fecha" tipo="fecha completa"/>
+      <campo nombre="Notario Público" tipo="texto"/>
+      <campo nombre="Martillero Concursal" tipo="texto"/>
+      <campo nombre="Procedimiento Concursal de Liquidación" tipo="texto (nombre deudor)"/>
+    </campos_encabezado>
+    <seccion nombre="Composición de la Unidad Económica">
+      <subseccion nombre="Bienes Inmuebles" repetible="true">
+        <campo nombre="Bien Inmueble incautado a fojas N.°" tipo="texto"/>
+        <campo nombre="Conservador de Bienes Raíces" tipo="texto"/>
+      </subseccion>
+      <subseccion nombre="Bienes Muebles">
+        <descripcion>Individualización de cada una de las especies que se comprende o agregar anexo a la presente Acta. (Idéntico al inventario de bienes y las bases de la realización de bienes)</descripcion>
+      </subseccion>
+    </seccion>
+    <campos_adjudicacion>
+      <campo nombre="Nombre Adjudicatario" tipo="texto"/>
+      <campo nombre="Garantía" tipo="moneda"/>
+      <campo nombre="Saldo Precio" tipo="moneda"/>
+    </campos_adjudicacion>
+    <firmas>
+      <firma rol="Notario Público">Nombre y Firma</firma>
+      <firma rol="Martillero Concursal">Nombre y Firma</firma>
+      <firma rol="Adjudicatario">Nombre y Firma</firma>
+    </firmas>
+  </formulario>
+</anexo>
+</anexos>

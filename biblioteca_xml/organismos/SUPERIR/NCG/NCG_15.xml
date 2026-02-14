@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ley xmlns="https://leychile.cl/schema/ley/v1" version="1.0" idioma="es-CL" id_norma="NCG-15" tipo="Norma de Carácter General" numero="15" estado="vigente" fecha_version="2023-08-11" fecha_promulgacion="2023-08-11" fecha_publicacion="2023-08-11" generado="2026-02-12T11:14:27.814344" fuente="Biblioteca del Congreso Nacional de Chile" url_original="https://www.superir.gob.cl/wp-content/uploads/2023/08/RES_NUM_6598_ANO_2023_NCG_15_JUNTAS.pdf">
+<ley xmlns="https://leychile.cl/schema/ley/v1" version="1.1" idioma="es-CL" id_norma="NCG-15" tipo="Norma de Carácter General" numero="15" estado="vigente" fecha_version="2023-08-11" fecha_promulgacion="2023-08-11" fecha_publicacion="2023-08-11" generado="2026-02-12T21:30:05.152885" fuente="Biblioteca del Congreso Nacional de Chile" url_original="https://www.superir.gob.cl/wp-content/uploads/2023/08/RES_NUM_6598_ANO_2023_NCG_15_JUNTAS.pdf">
   <metadatos>
     <titulo>NORMA DE CARÁCTER GENERAL N°15 - Juntas de acreedores mediante medios tecnológicos</titulo>
     <identificacion>
@@ -25,20 +25,16 @@
     <fuente>Superintendencia de Insolvencia y Reemprendimiento</fuente>
     <numero_fuente>6598</numero_fuente>
     <leyes_referenciadas>
-      <ley_ref>Ley 20.720</ley_ref>
-      <ley_ref>Ley 21.563</ley_ref>
-      <ley_ref>Ley 18.575</ley_ref>
-      <ley_ref>Ley 19.880</ley_ref>
-      <ley_ref>DFL 1-19.653</ley_ref>
+      <ley_ref tipo="Ley" numero="20.720">Ley 20.720</ley_ref>
+      <ley_ref tipo="Ley" numero="21.563">Ley 21.563</ley_ref>
+      <ley_ref tipo="Ley" numero="18.575">Ley 18.575</ley_ref>
+      <ley_ref tipo="Ley" numero="19.880">Ley 19.880</ley_ref>
+      <ley_ref tipo="DFL" numero="1-19.653">DFL 1-19.653</ley_ref>
     </leyes_referenciadas>
   </metadatos>
-  <encabezado>VISTOS:
-
-Las facultades que me confiere la Ley N.° 20.720, que sustituye el régimen concursal vigente por una Ley de Reorganización y Liquidación de Activos de Empresas y Personas; lo dispuesto en la Ley N.° 21.563, que Moderniza los Procedimientos Concursales Contemplados en la Ley N.° 20.720 y Crea Nuevos Procedimientos para Micro y Pequeñas Empresas; en el D.F.L. N.° 1-19.653, de 17 de noviembre de 2001, que fija el texto Refundido, Coordinado y Sistematizado de la Ley N.° 18.575, Orgánica Constitucional de Bases Generales de la Administración del Estado; en la Ley N.° 19.880, que establece Bases de los Procedimientos Administrativos que Rigen los Actos de los Órganos de la Administración del Estado; en la Resolución N.° 7 de 2019 de la Contraloría General de la República, que fija normas sobre Exención del Trámite de Toma de Razón; y, en el Decreto N.° 8 de 19 de enero de 2023, del Ministerio de Economía, Fomento y Turismo.
-
-CONSIDERANDO:
-
-1° Que, de conformidad a lo dispuesto en los artículos 331 y siguientes de la Ley N.° 20.720 de Reorganización y Liquidación de Activos de Empresas y Personas, modificada por la Ley N.° 21.563, en adelante “la Ley”, la Superintendencia de Insolvencia y Reemprendimiento, en adelante la “Superintendencia”, es una persona jurídica de derecho público, creada por la Ley, como un servicio público descentralizado con personalidad jurídica y patrimonio propio, que se relaciona con el Presidente de la República a través del Ministerio de Economía, Fomento y Turismo, y tiene como función supervigilar y fiscalizar las actuaciones de los liquidadores, veedores, interventores designados conforme a esta Ley, administradores de la continuación de las actividades económicas del deudor, asesores económicos de insolvencia, y, de toda persona que por ley quede sujeta a su supervigilancia y fiscalización.
+  <encabezado>
+    <vistos>Las facultades que me confiere la Ley N.° 20.720, que sustituye el régimen concursal vigente por una Ley de Reorganización y Liquidación de Activos de Empresas y Personas; lo dispuesto en la Ley N.° 21.563, que Moderniza los Procedimientos Concursales Contemplados en la Ley N.° 20.720 y Crea Nuevos Procedimientos para Micro y Pequeñas Empresas; en el D.F.L. N.° 1-19.653, de 17 de noviembre de 2001, que fija el texto Refundido, Coordinado y Sistematizado de la Ley N.° 18.575, Orgánica Constitucional de Bases Generales de la Administración del Estado; en la Ley N.° 19.880, que establece Bases de los Procedimientos Administrativos que Rigen los Actos de los Órganos de la Administración del Estado; en la Resolución N.° 7 de 2019 de la Contraloría General de la República, que fija normas sobre Exención del Trámite de Toma de Razón; y, en el Decreto N.° 8 de 19 de enero de 2023, del Ministerio de Economía, Fomento y Turismo.</vistos>
+    <considerandos>1° Que, de conformidad a lo dispuesto en los artículos 331 y siguientes de la Ley N.° 20.720 de Reorganización y Liquidación de Activos de Empresas y Personas, modificada por la Ley N.° 21.563, en adelante “la Ley”, la Superintendencia de Insolvencia y Reemprendimiento, en adelante la “Superintendencia”, es una persona jurídica de derecho público, creada por la Ley, como un servicio público descentralizado con personalidad jurídica y patrimonio propio, que se relaciona con el Presidente de la República a través del Ministerio de Economía, Fomento y Turismo, y tiene como función supervigilar y fiscalizar las actuaciones de los liquidadores, veedores, interventores designados conforme a esta Ley, administradores de la continuación de las actividades económicas del deudor, asesores económicos de insolvencia, y, de toda persona que por ley quede sujeta a su supervigilancia y fiscalización.
 
 Asimismo, le corresponde desempeñar aquellas funciones que la referida ley le encomienda, así como las demás que se establezcan en otras leyes.
 
@@ -46,11 +42,10 @@ Asimismo, le corresponde desempeñar aquellas funciones que la referida ley le e
 
 3° Que, el artículo 6° A de la Ley N.° 20.720, incorporado por Ley N.° 21.563, dispone que: “Las audiencias de los Procedimientos Concursales de Renegociación y las Juntas de Acreedores que no se celebren en las dependencias del tribunal o en el lugar que éste determine, se podrán realizar por medios telemáticos conforme a la norma de carácter general que dictará al efecto la Superintendencia.”
 
-4° Que, las audiencias telemáticas del Procedimiento Concursal de Renegociación se encuentran reguladas por la
+4° Que, las audiencias telemáticas del Procedimiento Concursal de Renegociación se encuentran reguladas por la Norma de Carácter General especial, de esta Superintendencia, por lo que la presente norma regulará exclusivamente las juntas de acreedores/as que no se celebren en las dependencias del tribunal o en el lugar que este determine, dentro de los Procedimientos Concursales de Liquidación o Reorganización.
 
-Norma de Carácter General especial, de esta Superintendencia, por lo que la presente norma regulará exclusivamente las juntas de acreedores/as que no se celebren en las dependencias del tribunal o en el lugar que este determine, dentro de los Procedimientos Concursales de Liquidación o Reorganización.
-
-5° Que, atendido lo expuesto y de conformidad con lo dispuesto en el artículo 3 de la Ley N.° 19.880 y en las normas legales pertinentes,</encabezado>
+5° Que, atendido lo expuesto y de conformidad con lo dispuesto en el artículo 3 de la Ley N.° 19.880 y en las normas legales pertinentes,</considerandos>
+  </encabezado>
   <contenido total_articulos="11" total_libros="0" total_titulos="4" total_capitulos="0">
     <titulo id="1" tipo_original="Título" numero="I">
       <titulo_seccion>TÍTULO I Disposiciones comunes</titulo_seccion>
@@ -58,8 +53,7 @@ Norma de Carácter General especial, de esta Superintendencia, por lo que la pre
         <titulo_seccion>Artículo 1. Ámbito de aplicación</titulo_seccion>
         <contexto>TÍTULO I Disposiciones comunes</contexto>
         <contenido>
-          <parrafo>La presente norma de carácter general solo tiene por objeto regular las materias que en la misma se tratan, para efectos de cumplir con lo dispuesto en el</parrafo>
-          <parrafo>artículo 6 A de la Ley N.° 20.720, esto es, respecto de la realización telemática de juntas de acreedores/as no celebradas en el tribunal o en el lugar que este designe dentro de los procedimientos concursales de liquidación y reorganización, sean ordinarios o especiales, regulados en los Capítulos III, IV y V de la Ley. En caso alguno se entenderá aplicable a las audiencias judiciales y juntas de acreedores/as celebradas ante el tribunal o el lugar que este designe, de la forma prevista en el artículo 6 B de la Ley N.° 20.720, incorporado por la Ley N.° 21.563.</parrafo>
+          <parrafo>La presente norma de carácter general solo tiene por objeto regular las materias que en la misma se tratan, para efectos de cumplir con lo dispuesto en el artículo 6 A de la Ley N.° 20.720, esto es, respecto de la realización telemática de juntas de acreedores/as no celebradas en el tribunal o en el lugar que este designe dentro de los procedimientos concursales de liquidación y reorganización, sean ordinarios o especiales, regulados en los Capítulos III, IV y V de la Ley. En caso alguno se entenderá aplicable a las audiencias judiciales y juntas de acreedores/as celebradas ante el tribunal o el lugar que este designe, de la forma prevista en el artículo 6 B de la Ley N.° 20.720, incorporado por la Ley N.° 21.563.</parrafo>
         </contenido>
         <referencias>
           <ref articulo="6"/>
@@ -68,7 +62,9 @@ Norma de Carácter General especial, de esta Superintendencia, por lo que la pre
       <articulo id="2" tipo_original="Artículo" numero="2">
         <titulo_seccion>Artículo 2. Definición</titulo_seccion>
         <contexto>TÍTULO I Disposiciones comunes</contexto>
-        <texto>Se entenderá por junta telemática, aquella que se efectúe por medio de cualquier sistema tecnológico que admita una comunicación simultánea de la imagen, sonido y datos, que permita la interacción visual, auditiva y verbal entre personas geográficamente distantes.</texto>
+        <contenido>
+          <parrafo>Se entenderá por junta telemática, aquella que se efectúe por medio de cualquier sistema tecnológico que admita una comunicación simultánea de la imagen, sonido y datos, que permita la interacción visual, auditiva y verbal entre personas geográficamente distantes.</parrafo>
+        </contenido>
       </articulo>
       <articulo id="3" tipo_original="Artículo" numero="3">
         <titulo_seccion>Artículo 3</titulo_seccion>
@@ -85,7 +81,9 @@ Norma de Carácter General especial, de esta Superintendencia, por lo que la pre
       <articulo id="4" tipo_original="Artículo" numero="4">
         <titulo_seccion>Artículo 4</titulo_seccion>
         <contexto>TÍTULO II De las Juntas de Acreedores/as celebradas por medios telemáticos</contexto>
-        <texto>Las juntas de acreedores/as que no se celebren en las dependencias del tribunal o en el lugar que este determine, se podrán celebrar por medios telemáticos, en conformidad a lo establecido en el artículo 6 A de la Ley N.º 20.720, incorporado por la Ley N.º 21.563 y a las disposiciones de la presente Norma de Carácter General, emitida en cumplimiento de lo dispuesto en el citado artículo 6 A.</texto>
+        <contenido>
+          <parrafo>Las juntas de acreedores/as que no se celebren en las dependencias del tribunal o en el lugar que este determine, se podrán celebrar por medios telemáticos, en conformidad a lo establecido en el artículo 6 A de la Ley N.º 20.720, incorporado por la Ley N.º 21.563 y a las disposiciones de la presente Norma de Carácter General, emitida en cumplimiento de lo dispuesto en el citado artículo 6 A.</parrafo>
+        </contenido>
         <referencias>
           <ref articulo="6"/>
         </referencias>
@@ -143,7 +141,9 @@ Norma de Carácter General especial, de esta Superintendencia, por lo que la pre
       <articulo id="9" tipo_original="Artículo" numero="9">
         <titulo_seccion>Artículo 9</titulo_seccion>
         <contexto>TÍTULO III De la asistencia remota por uno o más interesados a juntas de acreedores/as celebradas de manera presencial</contexto>
-        <texto>De todo lo obrado en las juntas de acreedores/as celebradas de conformidad al artículo precedente, deberá dejarse constancia conforme a las reglas generales contenidas en el artículo 184 de la Ley, en relación con lo dispuesto en el artículo 3° de la presente norma.</texto>
+        <contenido>
+          <parrafo>De todo lo obrado en las juntas de acreedores/as celebradas de conformidad al artículo precedente, deberá dejarse constancia conforme a las reglas generales contenidas en el artículo 184 de la Ley, en relación con lo dispuesto en el artículo 3° de la presente norma.</parrafo>
+        </contenido>
         <referencias>
           <ref articulo="3"/>
           <ref articulo="184"/>
@@ -155,7 +155,9 @@ Norma de Carácter General especial, de esta Superintendencia, por lo que la pre
       <articulo id="10" tipo_original="Artículo" numero="10">
         <titulo_seccion>Artículo 10</titulo_seccion>
         <contexto>Título IV Disposiciones Finales</contexto>
-        <texto>Las notificaciones mediante correo electrónico a las que hace referencia la presente norma de carácter general se efectuarán en conformidad a lo dispuesto en los incisos 5º y 6º del artículo 6 de la Ley N.° 20.720.</texto>
+        <contenido>
+          <parrafo>Las notificaciones mediante correo electrónico a las que hace referencia la presente norma de carácter general se efectuarán en conformidad a lo dispuesto en los incisos 5º y 6º del artículo 6 de la Ley N.° 20.720.</parrafo>
+        </contenido>
         <referencias>
           <ref articulo="6"/>
         </referencias>
@@ -172,11 +174,18 @@ Norma de Carácter General especial, de esta Superintendencia, por lo que la pre
       </articulo>
     </titulo>
   </contenido>
-  <promulgacion>RESUELVO:
+  <disposiciones_finales>
+    <texto>RESUELVO:
 
 1º APRUÉBASE la siguiente Norma de Carácter General, que regula la celebración telemática de las juntas de acreedores/as que no se celebren en las dependencias del tribunal o en el lugar que este determine, dentro de los Procedimientos Concursales de Liquidación o Reorganización y su Anexo I, denominado “Requisitos técnicos mínimos de las plataformas para la realización telemática de las Juntas de Acreedores/as no celebradas ante el tribunal o en el lugar que este designe”, cuyo texto se adjunta a la presente resolución y forma parte integrante de la misma:
 
 NORMA DE CARÁCTER GENERAL N.° 15
 
-ANÓTESE, PUBLÍQUESE Y ARCHÍVESE,</promulgacion>
+ANÓTESE, PUBLÍQUESE Y ARCHÍVESE,</texto>
+  </disposiciones_finales>
+  <anexos>
+    <anexo numero="1">
+      <titulo>ANEXO I REQUISITOS TÉCNICOS MÍNIMOS DE LAS PLATAFORMAS PARA LA REALIZACIÓN TELEMÁTICA DE LAS JUNTAS DE ACREEDORES/AS NO CELEBRADAS ANTE EL TRIBUNAL O EN EL LUGAR QUE ESTE DESIGNE Para el cumplimiento de lo dispuesto en el artículo 3° de la presente Norma de Carácter General, el/la Liquidador/a o Veedor/a podrá considerar las siguientes pautas para efectos de asegurar la efectiva comparecencia de forma remota por videoconferencia de los/las asistentes: 1. Calidad de video y audio a) Resolución de video y audio de alta calidad para una experiencia nítida y sin interrupciones. Como guía general, se recomienda una resolución mínima de 720p (1280 x 720 píxeles) para una experiencia de video de alta calidad. Esto proporciona una imagen clara y nítida sin desenfoque ni pixelación. Si se dispone de una conexión a internet de alta velocidad y de una computadora con una buena capacidad de procesamiento, se puede optar por una resolución mayor, como 1080p (1920 x 1080 píxeles) o incluso 4K (3840 x 2160 píxeles) si es compatible con la plataforma de videoconferencia utilizada. b) Capacidad de adaptación a diferentes velocidades de conexión a internet. c) Reducción de ruido y eco para una experiencia auditiva agradable. 2. Usabilidad a) Interfaz fácil de usar e intuitiva. b) Funciones de control de audio y video accesibles y de fácil acceso. c) Funcionalidad de compartir pantalla, cambiar el fondo virtual y grabar la reunión. 3. Seguridad Funciones de control de acceso y moderación para garantizar una reunión segura y sin interrupciones. 4. Compatibilidad a) Compatibilidad con diferentes dispositivos y sistemas operativos, como computadoras, tablets y smartphones. b) Capacidad de integración con otras herramientas y aplicaciones, como calendarios y gestores de tareas. 5. Soporte al cliente a) Soporte técnico disponible en caso de problemas técnicos. b) Recursos de formación y documentación disponibles para el usuario. 2</titulo>
+    </anexo>
+  </anexos>
 </ley>

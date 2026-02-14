@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- XML de referencia para NCG 14 - estructura objetivo para superir_v1.xsd -->
+<!-- Observaciones:
+     - Primera NCG envuelta en Resolución Exenta (acto_administrativo)
+     - Resolutivo pre-NCG (punto 1 aprueba NCG) y resolutivo_final post-NCG (puntos 2-3)
+     - Preámbulo NCG entre resolutivo y cuerpo_normativo
+     - 7 títulos (máximo hasta ahora), 20 artículos
+     - Art 20 "Revocación" (variante de Derogación)
+     - Distribución interna en cierre (PVL/PCP/CVS/POR)
+     - Firmante: Hugo Sánchez Ramírez (2023)
+-->
+<norma tipo="Norma de Carácter General" numero="14" organismo="Superintendencia de Insolvencia y Reemprendimiento">
+  <acto_administrativo>
+    <tipo>RESOLUCIÓN EXENTA</tipo>
+    <numero>6597</numero>
+    <materia>APRUEBA LA NORMA DE CARÁCTER GENERAL N.° 14 SOBRE FORMALIDADES DE LAS PUBLICACIONES EN EL BOLETÍN CONCURSAL Y FORMA DE EFECTUAR NOTIFICACIONES POR MEDIO DE CORREO ELECTRÓNICO</materia>
+  </acto_administrativo>
+  <encabezado>
+    <lugar>SANTIAGO</lugar>
+    <fecha>11 AGOSTO 2023</fecha>
+  </encabezado>
+  <vistos>
+    <parrafo>Las facultades que me confiere la Ley N.° 20.720, que sustituye el régimen concursal vigente por una Ley de Reorganización y Liquidación de Activos de Empresas y Personas; lo dispuesto en la Ley N.° 21.563, que Moderniza los Procedimientos Concursales Contemplados en la Ley N.° 20.720 y Crea Nuevos Procedimientos para Micro y Pequeñas Empresas; lo dispuesto en el D.F.L. N.° 1-19.653, de 17 de noviembre de 2001, que fija el texto Refundido, Coordinado y Sistematizado de la Ley N.° 18.575, Orgánica Constitucional de Bases Generales de la Administración del Estado; en la Ley N.° 19.880, que establece bases de los procedimientos administrativos que rigen los actos de los Órganos de la Administración del Estado; en la Ley N.° 19.799 Sobre Documentos Electrónicos, Firma Electrónica y Servicios de Certificación de Dicha Firma; en la Ley N.° 19.628 sobre Protección de la Vida Privada; en la Ley N.° 20.285 sobre Acceso a la Información Pública; en la Resolución N.° 7 de 2019 de la Contraloría General de la República, que fija normas sobre exención del trámite de toma de razón; en el Decreto Supremo N.° 8 de 19 de enero de 2023, del Ministerio de Economía, Fomento y Turismo.</parrafo>
+  </vistos>
+  <considerandos>
+    <considerando numero="1">
+      <parrafo>Que, de conformidad a lo dispuesto en los artículos 331 y siguientes de la Ley N.° 20.720, modificada por la Ley N.° 21.563, la Superintendencia de Insolvencia y Reemprendimiento, en adelante la "Superintendencia", es una persona jurídica de derecho público, creada por la Ley N.° 20.720 (en adelante "la ley"), como un servicio público descentralizado con personalidad jurídica y patrimonio propio, que se relaciona con el Presidente de la República a través del Ministerio de Economía, Fomento y Turismo, y tiene como función supervisar y fiscalizar las actuaciones de los veedores, liquidadores, martilleros concursales, administradores de la continuación de las actividades económicas del deudor, asesores económicos de insolvencia, síndicos de quiebras, administradores de la continuación del giro y, en general, de toda persona que por ley quede sujeta a su supervigilancia y fiscalización. Así como las demás que se establezcan en otras leyes.</parrafo>
+    </considerando>
+    <considerando numero="2">
+      <parrafo>Que, el artículo 6 de la mencionada Ley dispone que la notificación por avisos ordenada por el tribunal en la tramitación de Procedimientos Concursales regulados ésta, deberá realizarse mediante una publicación en el Boletín Concursal, estableciendo, además, que mediante norma de carácter general la Superintendencia de Insolvencia y Reemprendimiento establecerá la forma de efectuar publicaciones en el Boletín Concursal, los requisitos técnicos de operación y seguridad del mismo y la obligación de actualizarlo diariamente por quien corresponda. Dicha norma regulará también la forma de notificación vía correo electrónico.</parrafo>
+    </considerando>
+    <considerando numero="3">
+      <parrafo>Que, la Ley Nº 19.628, sobre Protección a la Vida Privada, garantiza a las personas el derecho a la protección de los datos de carácter personal y establece el tratamiento de datos personales.</parrafo>
+    </considerando>
+    <considerando numero="4">
+      <parrafo>Que, en su artículo 6, la mencionada Ley señala que los datos personales del Deudor deberán ser eliminados o cancelados cuando su almacenamiento carezca de fundamento legal o cuando hayan caducado en un plazo no superior a 30 días.</parrafo>
+    </considerando>
+    <considerando numero="5">
+      <parrafo>Que, atendido lo expuesto y de conformidad a con lo dispuesto en el artículo 3 de la Ley N.° 19.880 y en las normas legales pertinentes,</parrafo>
+    </considerando>
+  </considerandos>
+  <resolutivo>
+    <punto numero="1">APRUÉBESE la siguiente Norma de Carácter General, sobre formalidades de las publicaciones en el Boletín Concursal y forma de efectuar notificaciones por medio de Correo Electrónico:</punto>
+  </resolutivo>
+  <preambulo_ncg>
+    <parrafo>La presente Norma de Carácter General regula las materias mandatadas por la Ley N.° 20.720, en lo relativo a forma de realizar publicaciones en el Boletín concursal y la notificación por medios electrónicos de actuaciones realizadas en el contexto de Procedimientos Concursales regulados en la mencionada Ley.</parrafo>
+  </preambulo_ncg>
+  <cuerpo_normativo>
+    <titulo numero="I" nombre="Del Boletín Concursal">
+      <articulo numero="1" epigrafe="Definición">
+        <parrafo>El Boletín Concursal (en adelante, "El Boletín"), es la plataforma electrónica web a cargo de la Superintendencia, gratuita y de libre acceso al público, en la que se publicarán todas las resoluciones que se dicten y las actuaciones que se realicen en los Procedimientos concursales regulados en la Ley, salvo que ésta ordene otra forma de notificación.</parrafo>
+      </articulo>
+      <articulo numero="2" epigrafe="Características técnicas de operación del Boletín">
+        <parrafo>El Boletín se encuentra construido con tecnologías de código abierto y de libre licenciamiento.</parrafo>
+      </articulo>
+      <articulo numero="3" epigrafe="Seguridad del Boletín">
+        <parrafo>De conformidad con la Ley, los usuarios autorizados y obligados a realizar las publicaciones en el Boletín son los Veedores, Liquidadores y la Superintendencia de Insolvencia y Reemprendimiento, también podrán publicar los Martilleros Concursales nominados en un procedimiento concursal en los términos establecidos por la Ley.</parrafo>
+        <parrafo>Para efectos de garantizar la seguridad, la plataforma cuenta con un sistema de autenticación de dichos usuarios. Para ello, se les otorga un sistema de credenciales y contraseñas propias, resguardado por la Institución.</parrafo>
+        <parrafo>El uso de estas credenciales es personal e intransferible, y es de exclusiva responsabilidad de los mandatados para publicar.</parrafo>
+        <parrafo>El Boletín cuenta con un sistema de verificación de ingreso que lo protege frente a amenazas externas de acuerdo a las políticas de seguridad de la información de la Superintendencia.</parrafo>
+      </articulo>
+    </titulo>
+    <titulo numero="II" nombre="Aspectos generales de las publicaciones en el Boletín Concursal">
+      <articulo numero="4" epigrafe="Naturaleza de los documentos que pueden ser objeto de publicación en el Boletín Concursal">
+        <parrafo>Son documentos objeto de publicación en el Boletín los siguientes:</parrafo>
+        <listado>
+          <item letra="a">Todas las resoluciones emanadas de los tribunales ordinarios de justicia o de los tribunales arbitrales, que conozcan de un Procedimiento Concursal regido por la Ley Nº 20.720.</item>
+          <item letra="b">Todos aquellos antecedentes, resoluciones y actuaciones que formen parte de un Procedimiento Concursal, sea que éstos emanen de la Superintendencia, Liquidadores, Veedores y Martilleros Concursales que ejerzan sus funciones en un Procedimiento Concursal, o de las partes o terceros que intervengan en el mismo de acuerdo a lo ordenado en la Ley.</item>
+          <item letra="c">Todas las resoluciones emanadas de la Superintendencia, en caso de tratarse de un Procedimiento Concursal de Renegociación.</item>
+          <item letra="d">Todas las actuaciones de cooperación y comunicación directa efectuadas de conformidad a lo dispuesto en los artículos 324° y 325° de la Ley, en materia de Insolvencia Transfronteriza.</item>
+        </listado>
+      </articulo>
+      <articulo numero="5" epigrafe="Sujetos que pueden acceder o efectuar publicaciones en el Boletín Concursal">
+        <parrafo>Para cualquier interesado, el acceso a la información del Boletín es público e ilimitado, sin perjuicio de lo dispuesto en el inciso final del Artículo 6 de la Ley Nº. 20720, relativo al artículo 6 de la Ley Nº 19.628, sobre protección de la vida privada.</parrafo>
+        <parrafo>Sólo se encontrarán habilitados para publicar en el Boletín Concursal los Veedores, Liquidadores, Martilleros Concursales y funcionarios de la Superintendencia.</parrafo>
+      </articulo>
+      <articulo numero="6" epigrafe="Autenticación para la publicación en el Boletín">
+        <parrafo>Los Veedores, Liquidadores y Martilleros Concursales que requieran publicar en el Boletín Concursal deberán hacerlo mediante el mecanismo de identificación otorgado por la Superintendencia, a través del portal web destinado para tal efecto.</parrafo>
+      </articulo>
+      <articulo numero="7" epigrafe="Formalidades de la documentación">
+        <parrafo>Los documentos que deban publicarse en el Boletín Concursal deberán ser digitalizados en formato .PDF, con un límite máximo de 10 megabytes (MB) por documento.</parrafo>
+        <parrafo>Las resoluciones emanadas de tribunales ordinarios de justicia o de tribunales arbitrales podrán digitalizarse mediante copia simple, manteniendo disponible la información que permita su autenticación mediante el sistema otorgado por el Poder Judicial, para tal efecto.</parrafo>
+        <parrafo>Los documentos emanados por los entes fiscalizados, publicados en los términos establecidos en esta Norma de Carácter general, se entenderán para todos los efectos legales como suscritos con firma electrónica simple, de conformidad a lo establecido en el artículo 2 letra f) de la Ley Nº 19.799 Sobre Documentos Electrónicos, Firma Electrónica y Servicios de Certificación de Dicha Firma.</parrafo>
+      </articulo>
+      <articulo numero="8" epigrafe="Responsabilidad">
+        <parrafo>Para todos los efectos legales, se entenderá que, por la sola publicación de un documento en el Boletín Concursal, el Veedor, Liquidador y Martillero Concursal, según corresponda, se hace responsable de la autenticidad e integridad del documento publicado.</parrafo>
+        <parrafo>La finalidad y uso de los datos que se publicarán en el Boletín Concursal son los previstos en la Ley Nº 20.720. Cualquier tratamiento o reproducción de la información pública contenida en el Boletín Concursal por cualquier persona, deberá efectuarse con estricta sujeción a lo establecido en la Ley Nº 19.628, Sobre Protección a la Vida Privada.</parrafo>
+        <parrafo>La Superintendencia no será responsable del contenido de las publicaciones que efectúen los sujetos que pueden acceder o efectuar publicaciones en el Boletín Concursal, los que serán directamente responsables de su contenido.</parrafo>
+      </articulo>
+    </titulo>
+    <titulo numero="III" nombre="Sobre las publicaciones en particular">
+      <articulo numero="9" epigrafe="Publicación de documentos">
+        <parrafo>Los sujetos indicados en el inciso primero del artículo 3° de la presente Norma de Carácter General, identificarán y adjuntarán el documento digitalizado, aceptando los términos y condiciones de publicación.</parrafo>
+        <parrafo>Una copia de dicho documento, con el código de verificación que el Boletín Concursal le asigne e incorpore al mismo, se enviará al correo electrónico registrado de dicho sujeto, lo que permitirá corroborar la publicación efectuada. El referido código permitirá la validación de la información publicada.</parrafo>
+        <parrafo>Los documentos podrán ser publicados hasta la medianoche del día hábil correspondiente. Asimismo, el Boletín Concursal se actualizará a medianoche conteniendo todos los documentos publicados durante dicho día hábil.</parrafo>
+        <parrafo>Una vez actualizado el Boletín Concursal, las publicaciones no podrán ser editadas o eliminadas de éste.</parrafo>
+        <parrafo>Los documentos publicados en días inhábiles se entenderán publicados el día hábil siguiente de conformidad con el artículo 7° de la Ley Nº 20.720.</parrafo>
+      </articulo>
+      <articulo numero="10" epigrafe="Rectificación de publicaciones">
+        <parrafo>En caso de requerirse la rectificación, modificación o eliminación de alguna de las publicaciones realizadas en el Boletín Concursal, una resolución del tribunal correspondiente al Procedimiento Concursal o de la Superintendencia, según corresponda, deberá ordenarla.</parrafo>
+        <parrafo>Dicha resolución deberá ser publicada en el Boletín, para proceder a la modificación o eliminación requerida.</parrafo>
+      </articulo>
+    </titulo>
+    <titulo numero="IV" nombre="Sobre la eliminación, modificación o bloqueo de las publicaciones de los Procedimientos Concursales finalizados">
+      <articulo numero="11" epigrafe="Eliminación de publicaciones en el Boletín">
+        <parrafo>Una vez finalizado un Procedimiento Concursal en los términos establecidos por la Ley, la Superintendencia procederá a la eliminación o bloqueo de los datos personales del Deudor y de la causa publicados en el Boletín Concursal, en un plazo de treinta días hábiles.</parrafo>
+        <parrafo>Transcurrido dicho plazo, las publicaciones relativas al Procedimiento Concursal terminado dejarán de estar disponibles.</parrafo>
+        <parrafo>Para estos efectos, se entenderá que un Procedimiento Concursal ha finalizado cuando se realice la publicación de las siguientes resoluciones en el Boletín Concursal:</parrafo>
+        <listado>
+          <item letra="a">Ejecutoriada la resolución judicial que aprueba la cuenta final de gestión del Veedor en procedimientos Concursales de Reorganización de Empresa Deudora o simplificados.</item>
+          <item letra="b">Ejecutoriada la resolución judicial que declare la Liquidación Refleja de la Empresa Deudora sometida a un Procedimiento Concursal de Reorganización por alguna de las causales establecidas en la Ley.</item>
+          <item letra="c">Ejecutoriada la resolución judicial que aprueba el Acuerdo de Reorganización Extrajudicial.</item>
+          <item letra="d">Ejecutoriada la resolución judicial que declara el término del Procedimiento Concursal de Liquidación de Empresa Deudora o Simplificada.</item>
+          <item letra="e">Firme la resolución dictada por la Superintendencia que declara finalizado el Procedimiento Concursal de Renegociación de Persona Deudora.</item>
+          <item letra="f">Firme la resolución dictada por la Superintendencia que declara el término anticipado del Procedimiento Concursal de Renegociación de Persona Deudora.</item>
+        </listado>
+      </articulo>
+      <articulo numero="12" epigrafe="Solicitud de eliminación de publicaciones en el Boletín">
+        <parrafo>En los casos no comprendidos en el artículo anterior, el interesado podrá requerir a la Superintendencia la eliminación de antecedentes publicados en el Boletín Concursal; para ello, deberá acompañar resolución judicial o administrativa, fundada, que ponga término a la tramitación de un procedimiento concursal.</parrafo>
+      </articulo>
+    </titulo>
+    <titulo numero="V" nombre="Sobre la notificación a través de correo electrónico">
+      <articulo numero="13" epigrafe="Indicación de una dirección de Correo Electrónico">
+        <parrafo>Los Veedores, Liquidadores y Martilleros Concursales que formen parte de la nómina respectiva, deberán informar y mantener actualizada su dirección de Correo Electrónico ante la Superintendencia, la que se entenderá habilitada para toda comunicación con el Servicio, pudiendo ser notificado de toda resolución y actuación que se dicte o realice en los procedimientos administrativos y actuaciones llevadas a cabo por la misma.</parrafo>
+        <parrafo>Asimismo, los Deudores, acreedores y terceros interesados deberán indicar una dirección de Correo Electrónico Válida en su primera actuación ante la Superintendencia.</parrafo>
+        <parrafo>Para el caso de los acreedores en Procedimientos Concursales de Reorganización de Empresa Deudora y Simplificados, individualizados tanto en el Certificado comprendido en el artículo 55 como en la declaración jurada regulada en el artículo 286 A, respectivamente, se estará a la dirección de Correo electrónico señalada en dicho documento, siendo su signatario responsable de la veracidad y exactitud de la información entregada.</parrafo>
+        <parrafo>En un Procedimiento Concursal de Liquidación Voluntaria de Empresa Deudora o Simplificada, el deudor deberá, en su solicitud de nominación de Liquidador Titular y Suplente, indicar la dirección de correo electrónico de sus acreedores siendo responsables de la veracidad y exactitud de la información entregada.</parrafo>
+        <parrafo>Sin perjuicio de lo anterior, los acreedores podrán señalar una casilla de correo electrónico para efectos de las notificaciones señaladas en los artículos Nº 22 y 37, acreditando la personería del representante legal, en caso de personas jurídicas, la cual será válida para efectuar las notificaciones señaladas en dichos artículos.</parrafo>
+        <parrafo>En caso de un Procedimiento Concursal de Renegociación, en la solicitud de inicio, el Deudor deberá indicar la dirección de correo electrónico de sus acreedores o sus representantes legales, siendo responsable de la autenticidad e integridad de la información entregada.</parrafo>
+        <parrafo>La notificación por Correo Electrónico enviada a la dirección señalada por cualquiera de los fiscalizados o usuarios será válida, aun cuando aquella no se encontrare vigente, estuviere en desuso o no permitiere su recepción por el destinatario. Se entenderá notificado el destinatario desde el envío del Correo Electrónico a la referida dirección. En ningún caso, la Superintendencia será responsable por la no recepción de dicha comunicación.</parrafo>
+      </articulo>
+      <articulo numero="14" epigrafe="Rectificación o cambio de la dirección de Correo Electrónico">
+        <parrafo>En caso de que la dirección de Correo Electrónico informada pierda validez, entre en desuso o sea incorrecta, el fiscalizado o usuario deberá informar de esta circunstancia a la Superintendencia a la brevedad, indicando una nueva dirección válida que permita su notificación.</parrafo>
+      </articulo>
+    </titulo>
+    <titulo numero="VI" nombre="Disposiciones Comunes">
+      <articulo numero="15" epigrafe="Sobre la constancia en el expediente respectivo">
+        <parrafo>De acuerdo con lo señalado en el artículo 6° de la Ley, de todas las notificaciones que se practiquen mediante Correo Electrónico o a través del Boletín Concursal, se dejará constancia en el expediente digital respectivo, no siendo necesaria certificación de la misma. La falta de constancia no afectará la validez de la notificación practicada.</parrafo>
+      </articulo>
+      <articulo numero="16" epigrafe="Listado de publicaciones">
+        <parrafo>El Boletín Concursal contará de manera permanente con un link que permitirá a los usuarios descargar en formato de texto plano y estructurado el listado de las publicaciones de los procedimientos concursales mientras se mantengan vigentes.</parrafo>
+      </articulo>
+    </titulo>
+    <titulo numero="VII" nombre="Disposiciones Finales">
+      <articulo numero="17" epigrafe="Ámbito de aplicación">
+        <parrafo>La presente Norma de Carácter General sólo tiene por objeto regular las materias que en la misma se tratan para los Procedimientos Concursales y Administrativos regulados en la Ley.</parrafo>
+      </articulo>
+      <articulo numero="18" epigrafe="Términos definidos">
+        <parrafo>Los términos en mayúscula utilizados en esta Norma de Carácter General tendrán el mismo significado que a ellos se les asigna en el artículo 2° de la Ley.</parrafo>
+      </articulo>
+      <articulo numero="19" epigrafe="Vigencia">
+        <parrafo>La presente Norma de Carácter General entrará a regir el día 11 de agosto de 2023, conjuntamente con la entrada en vigencia de la Ley N.° 21.563.</parrafo>
+      </articulo>
+      <articulo numero="20" epigrafe="Revocación">
+        <parrafo>Déjase sin efecto a contar de la entrada en vigencia de la presente norma, la Norma de Carácter General N.° 13 de fecha 10 de diciembre de 2021.</parrafo>
+      </articulo>
+    </titulo>
+  </cuerpo_normativo>
+  <resolutivo_final>
+    <punto numero="2">PUBLÍQUESE la presente resolución en el Diario Oficial.</punto>
+    <punto numero="3">DISPÓNGASE como medida de publicidad, la publicación de la presente resolución en el sitio web institucional de la Superintendencia de Insolvencia y Reemprendimiento.</punto>
+  </resolutivo_final>
+  <cierre>
+    <formula>ANÓTESE, PUBLÍQUESE Y ARCHÍVESE,</formula>
+    <firmante>
+      <nombre>HUGO SÁNCHEZ RAMÍREZ</nombre>
+      <cargo>SUPERINTENDENTE DE INSOLVENCIA Y REEMPRENDIMIENTO</cargo>
+    </firmante>
+    <distribucion>PVL/PCP/CVS/POR</distribucion>
+  </cierre>
+</norma>

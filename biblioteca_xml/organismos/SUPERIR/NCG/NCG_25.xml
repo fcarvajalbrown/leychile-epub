@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ley xmlns="https://leychile.cl/schema/ley/v1" version="1.0" idioma="es-CL" id_norma="NCG-25" tipo="Norma de Carácter General" numero="25" estado="vigente" fecha_version="2023-10-13" fecha_promulgacion="2023-10-13" fecha_publicacion="2023-10-11" generado="2026-02-12T11:14:27.850737" fuente="Biblioteca del Congreso Nacional de Chile" url_original="https://www.superir.gob.cl/wp-content/uploads/2023/10/RES_NUM_8322_ANO_2023.pdf">
+<ley xmlns="https://leychile.cl/schema/ley/v1" version="1.1" idioma="es-CL" id_norma="NCG-25" tipo="Norma de Carácter General" numero="25" estado="vigente" fecha_version="2023-10-13" fecha_promulgacion="2023-10-13" fecha_publicacion="2023-10-11" generado="2026-02-12T21:30:05.214791" fuente="Biblioteca del Congreso Nacional de Chile" url_original="https://www.superir.gob.cl/wp-content/uploads/2023/10/RES_NUM_8322_ANO_2023.pdf">
   <metadatos>
     <titulo>NORMA DE CARÁCTER GENERAL N°25 - Uso de medios electrónicos en procedimientos concursales</titulo>
     <identificacion>
@@ -25,20 +25,16 @@
     <fuente>Superintendencia de Insolvencia y Reemprendimiento</fuente>
     <numero_fuente>8322</numero_fuente>
     <leyes_referenciadas>
-      <ley_ref>Ley 20.720</ley_ref>
-      <ley_ref>Ley 21.563</ley_ref>
-      <ley_ref>Ley 18.575</ley_ref>
-      <ley_ref>Ley 19.880</ley_ref>
-      <ley_ref>DFL 1-19.653</ley_ref>
+      <ley_ref tipo="Ley" numero="20.720">Ley 20.720</ley_ref>
+      <ley_ref tipo="Ley" numero="21.563">Ley 21.563</ley_ref>
+      <ley_ref tipo="Ley" numero="18.575">Ley 18.575</ley_ref>
+      <ley_ref tipo="Ley" numero="19.880">Ley 19.880</ley_ref>
+      <ley_ref tipo="DFL" numero="1-19.653">DFL 1-19.653</ley_ref>
     </leyes_referenciadas>
   </metadatos>
-  <encabezado>VISTOS:
-
-Las facultades que me confiere la Ley N.° 20.720, que sustituye el régimen concursal vigente por una Ley de Reorganización y Liquidación de Activos de Empresas y Personas; lo dispuesto en la Ley N.° 21.563, que Moderniza los Procedimientos Concursales Contemplados en la Ley N.° 20.720 y Crea Nuevos Procedimientos para Micro y Pequeñas Empresas; en el D.F.L. N.° 1-19.653, de 17 de noviembre de 2001, que fija el texto Refundido, Coordinado y Sistematizado de la Ley N.° 18.575, Orgánica Constitucional de Bases Generales de la Administración del Estado; en la Ley N.° 19.880, que establece Bases de los Procedimientos Administrativos que Rigen los Actos de los Órganos de la Administración del Estado; en la Resolución N.° 7 de 2019 de la Contraloría General de la República, que fija normas sobre Exención del Trámite de Toma de Razón; y, en el Decreto N.° 8 de 19 de enero de 2023, del Ministerio de Economía, Fomento y Turismo.
-
-CONSIDERANDO:
-
-1° Que, de conformidad a lo dispuesto en los artículos 331 y siguientes de la Ley N.° 20.720, en adelante “la Ley”, modificada por la Ley N.° 21.563, la Superintendencia de Insolvencia y Reemprendimiento, en adelante la “Superintendencia”, es una persona jurídica de derecho público, creada por la Ley, como un servicio público descentralizado con personalidad jurídica y patrimonio propio, que se relaciona con el Presidente de la República, a través, del Ministerio de Economía, Fomento y Turismo, y tiene como función supervigilar y fiscalizar las actuaciones de los liquidadores, veedores, interventores designados de conformidad a la Ley, martilleros concursales, administradores de la continuación de las actividades económicas del deudor, asesores económicos de insolvencia, y, de toda persona que por ley quede sujeta a su supervigilancia y fiscalización. Asimismo, le corresponde desempeñar aquellas funciones que la referida ley le encomienda, así como las demás que se establezcan en otras leyes.
+  <encabezado>
+    <vistos>Las facultades que me confiere la Ley N.° 20.720, que sustituye el régimen concursal vigente por una Ley de Reorganización y Liquidación de Activos de Empresas y Personas; lo dispuesto en la Ley N.° 21.563, que Moderniza los Procedimientos Concursales Contemplados en la Ley N.° 20.720 y Crea Nuevos Procedimientos para Micro y Pequeñas Empresas; en el D.F.L. N.° 1-19.653, de 17 de noviembre de 2001, que fija el texto Refundido, Coordinado y Sistematizado de la Ley N.° 18.575, Orgánica Constitucional de Bases Generales de la Administración del Estado; en la Ley N.° 19.880, que establece Bases de los Procedimientos Administrativos que Rigen los Actos de los Órganos de la Administración del Estado; en la Resolución N.° 7 de 2019 de la Contraloría General de la República, que fija normas sobre Exención del Trámite de Toma de Razón; y, en el Decreto N.° 8 de 19 de enero de 2023, del Ministerio de Economía, Fomento y Turismo.</vistos>
+    <considerandos>1° Que, de conformidad a lo dispuesto en los artículos 331 y siguientes de la Ley N.° 20.720, en adelante “la Ley”, modificada por la Ley N.° 21.563, la Superintendencia de Insolvencia y Reemprendimiento, en adelante la “Superintendencia”, es una persona jurídica de derecho público, creada por la Ley, como un servicio público descentralizado con personalidad jurídica y patrimonio propio, que se relaciona con el Presidente de la República, a través, del Ministerio de Economía, Fomento y Turismo, y tiene como función supervigilar y fiscalizar las actuaciones de los liquidadores, veedores, interventores designados de conformidad a la Ley, martilleros concursales, administradores de la continuación de las actividades económicas del deudor, asesores económicos de insolvencia, y, de toda persona que por ley quede sujeta a su supervigilancia y fiscalización. Asimismo, le corresponde desempeñar aquellas funciones que la referida ley le encomienda, así como las demás que se establezcan en otras leyes.
 
 2º Que, la Ley N.° 20.720 de Reorganización y Liquidación de Activos de Empresas y Personas, en su artículo 337, dispone que para el cumplimiento de sus funciones, la Superintendencia tendrá las atribuciones y deberes que allí señala, otorgándole en su numeral 4 la facultad de: “Impartir a los Veedores, Liquidadores, administradores de la continuación de las actividades económicas, Martilleros Concursales que se sometan voluntariamente al control de la Superintendencia y asesores económicos de insolvencias, instrucciones de carácter obligatorio sobre las materias sometidas a su control y, en especial, fijar normas para la presentación de informes, estados de avance y cuentas provisorias o definitivas que deban presentar los fiscalizados. ”
 
@@ -46,7 +42,8 @@ CONSIDERANDO:
 
 4º Que, el inciso 2º del artículo 279 de la Ley N.° 20.720, modificado por la Ley N.º 21.563, dispuso que el uso de las plataformas electrónicas para la enajenación de bienes muebles en los procedimientos de liquidación simplificada deberá ser autorizada por la Superintendencia, para lo cual dictará una norma de carácter general. Esta norma también regulará las menciones mínimas que deberán tener las publicaciones de los bienes en dichas plataformas.
 
-5° Que, atendido lo expuesto y de conformidad a con lo dispuesto en el artículo 3 de la Ley N.° 19.880 y en las normas legales pertinentes,</encabezado>
+5° Que, atendido lo expuesto y de conformidad a con lo dispuesto en el artículo 3 de la Ley N.° 19.880 y en las normas legales pertinentes,</considerandos>
+  </encabezado>
   <contenido total_articulos="13" total_libros="0" total_titulos="2" total_capitulos="0">
     <titulo id="1" tipo_original="Título" numero="I">
       <titulo_seccion>TÍTULO I De los requisitos y uso de plataformas electrónicas para la enajenación de bienes muebles</titulo_seccion>
@@ -79,7 +76,9 @@ CONSIDERANDO:
       <articulo id="3" tipo_original="Artículo" numero="3">
         <titulo_seccion>Artículo 3. Menciones mínimas que deben contener las publicaciones de venta mediante plataformas electrónicas</titulo_seccion>
         <contexto>TÍTULO I De los requisitos y uso de plataformas electrónicas para la enajenación de bienes muebles</contexto>
-        <texto>Las publicaciones de venta de bienes mediante plataformas electrónicas deberán contener, al menos, los siguientes antecedentes:  a) Nombre del procedimiento concursal de liquidación;  b) Tribunal del procedimiento y rol de la causa;  c) Singularización y descripción detallada de los bienes, señalando sus características específicas, indicar si se trata de bienes nuevos o usados, estado funcional y de conservación de los bienes. En caso de vehículos motorizados, se deberá informar sobre permiso de circulación, revisión técnica vigente o vencida, existencia de prohibiciones y/o prenda;  d) Precio de venta del o los bienes;  e) Porcentaje o valor de comisión por venta del o los bienes, señalando que es costo del comprador;  f) Bienes gravados con IVA u otros impuestos;  g) Fechas de publicación en la plataforma;  g) Condiciones de entrega y lugar donde se encuentran el o los bienes para ser retirados por el comprador;  h) Condiciones de pago;  i) Correo electrónico o teléfono de contacto del/de la Liquidador/a;  j) Fotografía del o los bienes en venta;  k) Gastos asociados a la venta de cargo del comprador.  l) En el aviso de venta de un vehículo se debe hacer presente que el adquirente tiene un plazo de 30 días para proceder a la inscripción de transferencia de dominio, en conformidad a la normativa vigente.  Estas publicaciones podrán incluir bienes muebles individuales o por lote y en este último caso se deberán singularizar cada uno de los bienes que componen el respectivo lote, consignando el detalle y el precio de venta de éstos.  Por ello, es relevante la información de los bienes a enajenar y las condiciones de la venta que el/la Liquidador/a proporcione al operador de la Plataforma Electrónica, en atención a que esta será la información que se entregará a los potenciales compradores, a través de las publicaciones de venta de bienes en la plataforma.  Para efectos de fijar el precio de venta de los bienes, el/la Liquidador/a deberá evaluar un precio de mercado, procurando obtener el mayor beneficio para la masa, de acuerdo con sus deberes generales contenidos en el artículo 36 de la Ley, manteniendo registro electrónico de los antecedentes tenidos a la vista para establecer el precio, el que deberá poner a disposición de esta Superintendencia cuando se requiera.1 Para la venta de vehículos motorizados, el precio no podrá ser inferior a su tasación fiscal y, en caso que el/la Liquidador/a estime que por el estado de conservación del vehículo no puede alcanzar ese valor, deberá mantener registro de los antecedentes tenidos a la vista para fijar un precio inferior.  En el evento que no se enajenen los bienes muebles publicados en las Plataformas Electrónicas, en el periodo de 45 días, el/la Liquidador/a podrá solicitar al tribunal no perseverar en la realización del respectivo bien, en conformidad a lo dispuesto en el artículo 279 B, de la Ley N.º 20.720. Para ello el/la Liquidador/a deberá respaldar esta decisión con los documentos que acrediten que estos bienes permanecieron publicados en la plataforma por el tiempo mínimo requerido.</texto>
+        <contenido>
+          <parrafo>Las publicaciones de venta de bienes mediante plataformas electrónicas deberán contener, al menos, los siguientes antecedentes:  a) Nombre del procedimiento concursal de liquidación;  b) Tribunal del procedimiento y rol de la causa;  c) Singularización y descripción detallada de los bienes, señalando sus características específicas, indicar si se trata de bienes nuevos o usados, estado funcional y de conservación de los bienes. En caso de vehículos motorizados, se deberá informar sobre permiso de circulación, revisión técnica vigente o vencida, existencia de prohibiciones y/o prenda;  d) Precio de venta del o los bienes;  e) Porcentaje o valor de comisión por venta del o los bienes, señalando que es costo del comprador;  f) Bienes gravados con IVA u otros impuestos;  g) Fechas de publicación en la plataforma;  g) Condiciones de entrega y lugar donde se encuentran el o los bienes para ser retirados por el comprador;  h) Condiciones de pago;  i) Correo electrónico o teléfono de contacto del/de la Liquidador/a;  j) Fotografía del o los bienes en venta;  k) Gastos asociados a la venta de cargo del comprador.  l) En el aviso de venta de un vehículo se debe hacer presente que el adquirente tiene un plazo de 30 días para proceder a la inscripción de transferencia de dominio, en conformidad a la normativa vigente.  Estas publicaciones podrán incluir bienes muebles individuales o por lote y en este último caso se deberán singularizar cada uno de los bienes que componen el respectivo lote, consignando el detalle y el precio de venta de éstos.  Por ello, es relevante la información de los bienes a enajenar y las condiciones de la venta que el/la Liquidador/a proporcione al operador de la Plataforma Electrónica, en atención a que esta será la información que se entregará a los potenciales compradores, a través de las publicaciones de venta de bienes en la plataforma.  Para efectos de fijar el precio de venta de los bienes, el/la Liquidador/a deberá evaluar un precio de mercado, procurando obtener el mayor beneficio para la masa, de acuerdo con sus deberes generales contenidos en el artículo 36 de la Ley, manteniendo registro electrónico de los antecedentes tenidos a la vista para establecer el precio, el que deberá poner a disposición de esta Superintendencia cuando se requiera.1 Para la venta de vehículos motorizados, el precio no podrá ser inferior a su tasación fiscal y, en caso que el/la Liquidador/a estime que por el estado de conservación del vehículo no puede alcanzar ese valor, deberá mantener registro de los antecedentes tenidos a la vista para fijar un precio inferior.  En el evento que no se enajenen los bienes muebles publicados en las Plataformas Electrónicas, en el periodo de 45 días, el/la Liquidador/a podrá solicitar al tribunal no perseverar en la realización del respectivo bien, en conformidad a lo dispuesto en el artículo 279 B, de la Ley N.º 20.720. Para ello el/la Liquidador/a deberá respaldar esta decisión con los documentos que acrediten que estos bienes permanecieron publicados en la plataforma por el tiempo mínimo requerido.</parrafo>
+        </contenido>
         <referencias>
           <ref articulo="279"/>
           <ref articulo="36"/>
@@ -88,7 +87,9 @@ CONSIDERANDO:
       <articulo id="4" tipo_original="Artículo" numero="4">
         <titulo_seccion>Artículo 4. Precios de Venta</titulo_seccion>
         <contexto>TÍTULO I De los requisitos y uso de plataformas electrónicas para la enajenación de bienes muebles</contexto>
-        <texto>El precio de venta de cada uno de los bienes o de los lotes ofrecidos, a través de Plataforma Electrónica, deben ser determinados previamente por el/la Liquidador/a, considerando el tipo de bienes, valor comercial estimado, valor de tasación fiscal si corresponde, en consideración al estado en que se encuentren y costos asociados que puedan generarse para la masa, de manera de propender un beneficio económico con esta venta de bienes.</texto>
+        <contenido>
+          <parrafo>El precio de venta de cada uno de los bienes o de los lotes ofrecidos, a través de Plataforma Electrónica, deben ser determinados previamente por el/la Liquidador/a, considerando el tipo de bienes, valor comercial estimado, valor de tasación fiscal si corresponde, en consideración al estado en que se encuentren y costos asociados que puedan generarse para la masa, de manera de propender un beneficio económico con esta venta de bienes.</parrafo>
+        </contenido>
       </articulo>
       <articulo id="5" tipo_original="Artículo" numero="5">
         <titulo_seccion>Artículo 5. Comisión de enajenación mediante plataforma electrónica</titulo_seccion>
@@ -115,12 +116,16 @@ CONSIDERANDO:
       <articulo id="7" tipo_original="Artículo" numero="7">
         <titulo_seccion>Artículo 7</titulo_seccion>
         <contexto>TÍTULO I De los requisitos y uso de plataformas electrónicas para la enajenación de bienes muebles</contexto>
-        <texto>En toda enajenación de bienes, los/las Liquidadores/as deberán dar estricto cumplimiento a las normas tributarias vigentes, reteniendo y enterando en arcas fiscales los impuestos que graben la respectiva enajenación de bienes.</texto>
+        <contenido>
+          <parrafo>En toda enajenación de bienes, los/las Liquidadores/as deberán dar estricto cumplimiento a las normas tributarias vigentes, reteniendo y enterando en arcas fiscales los impuestos que graben la respectiva enajenación de bienes.</parrafo>
+        </contenido>
       </articulo>
       <articulo id="8" tipo_original="Artículo" numero="8">
         <titulo_seccion>Artículo 8</titulo_seccion>
         <contexto>TÍTULO I De los requisitos y uso de plataformas electrónicas para la enajenación de bienes muebles</contexto>
-        <texto>En el caso de venta de vehículos por plataformas electrónicas, el/la Liquidador/a deberá informar al/a la comprador/a que debe realizar la inscripción del vehículo en el Registro Nacional de Vehículos Motorizados, en el plazo de 30 días desde la fecha de adquisición, en conformidad inciso 4° del artículo 42 de la Ley N.° 18.290, cuyo texto refundido se fijó por DFL N.º 1 publicado en el D.O. el 29 de octubre de 2009.</texto>
+        <contenido>
+          <parrafo>En el caso de venta de vehículos por plataformas electrónicas, el/la Liquidador/a deberá informar al/a la comprador/a que debe realizar la inscripción del vehículo en el Registro Nacional de Vehículos Motorizados, en el plazo de 30 días desde la fecha de adquisición, en conformidad inciso 4° del artículo 42 de la Ley N.° 18.290, cuyo texto refundido se fijó por DFL N.º 1 publicado en el D.O. el 29 de octubre de 2009.</parrafo>
+        </contenido>
         <referencias>
           <ref articulo="42"/>
         </referencias>
@@ -128,17 +133,23 @@ CONSIDERANDO:
       <articulo id="9" tipo_original="Artículo" numero="9">
         <titulo_seccion>Artículo 9. Respaldo de las enajenaciones mediante Plataforma Electrónicas</titulo_seccion>
         <contexto>TÍTULO I De los requisitos y uso de plataformas electrónicas para la enajenación de bienes muebles</contexto>
-        <texto>Una vez efectuada la venta, los/las Liquidadores/as deberán respaldar las enajenaciones con los respectivos documentos idóneos, ya sea con facturas o boletas de ventas o servicios, y liquidación factura, si corresponde.</texto>
+        <contenido>
+          <parrafo>Una vez efectuada la venta, los/las Liquidadores/as deberán respaldar las enajenaciones con los respectivos documentos idóneos, ya sea con facturas o boletas de ventas o servicios, y liquidación factura, si corresponde.</parrafo>
+        </contenido>
       </articulo>
       <articulo id="10" tipo_original="Artículo" numero="10">
         <titulo_seccion>Artículo 10. Del reporte de la venta electrónica</titulo_seccion>
         <contexto>TÍTULO I De los requisitos y uso de plataformas electrónicas para la enajenación de bienes muebles</contexto>
-        <texto>Celebrada la venta por plataforma electrónica, el liquidador deberá informar a esta Superintendencia, por medio del Portal Sujetos Fiscalizados, dentro de un plazo de 5 días y con los antecedentes de respaldo que correspondan, obtenidos a través de la plataforma sobre los bienes enajenados, el monto obtenido, el nombre y Rol Único Tributario de la o las personas que adquirieron los bienes, la copia de los respectivos documentos como boletas, facturas de ventas y liquidaciones factura que respalden la enajenación, así como el depósito de los fondos efectuado en la cuenta corriente de la liquidación y gastos asociados, con su respectivos respaldos.</texto>
+        <contenido>
+          <parrafo>Celebrada la venta por plataforma electrónica, el liquidador deberá informar a esta Superintendencia, por medio del Portal Sujetos Fiscalizados, dentro de un plazo de 5 días y con los antecedentes de respaldo que correspondan, obtenidos a través de la plataforma sobre los bienes enajenados, el monto obtenido, el nombre y Rol Único Tributario de la o las personas que adquirieron los bienes, la copia de los respectivos documentos como boletas, facturas de ventas y liquidaciones factura que respalden la enajenación, así como el depósito de los fondos efectuado en la cuenta corriente de la liquidación y gastos asociados, con su respectivos respaldos.</parrafo>
+        </contenido>
       </articulo>
       <articulo id="11" tipo_original="Artículo" numero="11">
         <titulo_seccion>Artículo 11. Prohibiciones</titulo_seccion>
         <contexto>TÍTULO I De los requisitos y uso de plataformas electrónicas para la enajenación de bienes muebles</contexto>
-        <texto>Se prohíbe a los/las Liquidadores/as y Martilleros/as concursales, por sí o por interpósita persona, construir y/o administrar una plataforma que permita vender los bienes de los/las deudores/as sujetos/as a procedimiento concursales, toda vez que a los/las primeros les está prohibido recibir a cualquier título otro pago distinto de los regulados en el artículo 39 de la Ley N.º 20.720, según lo dispone dicha norma en su numeral 9) y los/las segundos/as tienen prohibición expresa señalada en el artículo 279 de la Ley N.º 20.720, que no permite su mediación en las plataformas, además de la prohibición de mantener, poseer, explotar o tener interés, directo o indirecto, en negocios o casas de venta de bienes usados que sean susceptibles de ser vendidos al martillo, contemplada en la letra c) del artículo 17 de la Ley N.º 18.118.</texto>
+        <contenido>
+          <parrafo>Se prohíbe a los/las Liquidadores/as y Martilleros/as concursales, por sí o por interpósita persona, construir y/o administrar una plataforma que permita vender los bienes de los/las deudores/as sujetos/as a procedimiento concursales, toda vez que a los/las primeros les está prohibido recibir a cualquier título otro pago distinto de los regulados en el artículo 39 de la Ley N.º 20.720, según lo dispone dicha norma en su numeral 9) y los/las segundos/as tienen prohibición expresa señalada en el artículo 279 de la Ley N.º 20.720, que no permite su mediación en las plataformas, además de la prohibición de mantener, poseer, explotar o tener interés, directo o indirecto, en negocios o casas de venta de bienes usados que sean susceptibles de ser vendidos al martillo, contemplada en la letra c) del artículo 17 de la Ley N.º 18.118.</parrafo>
+        </contenido>
         <referencias>
           <ref articulo="279"/>
           <ref articulo="17"/>
@@ -170,11 +181,13 @@ CONSIDERANDO:
       </articulo>
     </titulo>
   </contenido>
-  <promulgacion>RESUELVO:
+  <disposiciones_finales>
+    <texto>RESUELVO:
 
 1º. APRUÉBASE la siguiente Norma de Carácter General, que regula el uso de las plataformas electrónicas para la enajenación de bienes muebles, en los procedimientos concursales de liquidación simplificada y las menciones mínimas que deben contener las publicaciones de los bienes en dichas plataformas:
 
 NORMA DE CARÁCTER GENERAL N.° 25
 
-ANÓTESE Y ARCHÍVESE,</promulgacion>
+ANÓTESE Y ARCHÍVESE,</texto>
+  </disposiciones_finales>
 </ley>

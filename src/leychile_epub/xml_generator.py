@@ -115,14 +115,16 @@ class LawXMLGenerator:
         self._add_metadata(root, norma)
 
         # Agregar encabezado si existe
-        if norma.encabezado_texto:
+        if norma.encabezado_texto or norma.vistos_texto or norma.considerandos_texto:
             self._add_encabezado(root, norma)
 
         # Agregar contenido estructurado
         self._add_contenido(root, norma)
 
-        # Agregar promulgación si existe
-        if norma.promulgacion_texto:
+        # Agregar promulgación (BCN) o disposiciones finales (SUPERIR)
+        if norma.disposiciones_finales_texto:
+            self._add_disposiciones_finales(root, norma)
+        elif norma.promulgacion_texto:
             self._add_promulgacion(root, norma)
 
         # Agregar anexos si existen
@@ -138,6 +140,13 @@ class LawXMLGenerator:
         logger.info(f"XML generado: {output_path}")
         return output_path
 
+    # Tipos de norma que usan disposiciones_finales en vez de promulgación
+    TIPOS_SUPERIR = {"Norma de Carácter General", "Instructivo"}
+
+    def _is_superir(self, norma: Norma) -> bool:
+        """Determina si la norma es de tipo SUPERIR."""
+        return norma.identificador.tipo in self.TIPOS_SUPERIR
+
     def _create_root(self, norma: Norma) -> ET.Element:
         """Crea el elemento raíz del XML.
 
@@ -151,7 +160,7 @@ class LawXMLGenerator:
 
         # Atributos del documento
         root.set("xmlns", "https://leychile.cl/schema/ley/v1")
-        root.set("version", "1.0")
+        root.set("version", "1.1")
         root.set("idioma", "es-CL")
 
         # Identificadores
@@ -207,12 +216,19 @@ class LawXMLGenerator:
                 org_elem = ET.SubElement(organismos, "organismo")
                 org_elem.text = org
 
-        # Materias (temas)
+        # Materias (solo temas, no entidades)
         if norma.metadatos.materias:
             materias = ET.SubElement(metadata, "materias")
             for materia in norma.metadatos.materias:
                 mat_elem = ET.SubElement(materias, "materia")
                 mat_elem.text = materia
+
+        # Conceptos (entidades, instituciones, roles)
+        if norma.metadatos.conceptos:
+            conceptos = ET.SubElement(metadata, "conceptos")
+            for concepto in norma.metadatos.conceptos:
+                con_elem = ET.SubElement(conceptos, "concepto")
+                con_elem.text = concepto
 
         # Nombres de uso común
         if norma.metadatos.nombres_uso_comun:
@@ -246,12 +262,17 @@ class LawXMLGenerator:
             nfuente = ET.SubElement(metadata, "numero_fuente")
             nfuente.text = norma.metadatos.numero_fuente
 
-        # Leyes referenciadas
+        # Leyes referenciadas (con atributos estructurados)
         if norma.metadatos.leyes_referenciadas:
             leyes_ref = ET.SubElement(metadata, "leyes_referenciadas")
             for ref in norma.metadatos.leyes_referenciadas:
                 ley_elem = ET.SubElement(leyes_ref, "ley_ref")
                 ley_elem.text = ref
+                # Parsear tipo y número de la referencia
+                tipo_num = self._parse_ley_ref(ref)
+                if tipo_num:
+                    ley_elem.set("tipo", tipo_num[0])
+                    ley_elem.set("numero", tipo_num[1])
 
         # Es tratado internacional
         if norma.es_tratado:
@@ -263,7 +284,10 @@ class LawXMLGenerator:
                     pais_elem.text = pais
 
     def _add_encabezado(self, root: ET.Element, norma: Norma) -> None:
-        """Agrega el encabezado de la ley.
+        """Agrega el encabezado estructurado de la norma.
+
+        Para normas SUPERIR genera <vistos> y <considerandos> separados.
+        Para leyes BCN genera <texto> con el contenido plano.
 
         Args:
             root: Elemento raíz.
@@ -272,7 +296,19 @@ class LawXMLGenerator:
         encabezado = ET.SubElement(root, "encabezado")
         if norma.encabezado_derogado:
             encabezado.set("derogado", "true")
-        encabezado.text = norma.encabezado_texto
+
+        # Si hay vistos/considerandos separados → estructura
+        if norma.vistos_texto or norma.considerandos_texto:
+            if norma.vistos_texto:
+                vistos = ET.SubElement(encabezado, "vistos")
+                vistos.text = norma.vistos_texto
+            if norma.considerandos_texto:
+                considerandos = ET.SubElement(encabezado, "considerandos")
+                considerandos.text = norma.considerandos_texto
+        elif norma.encabezado_texto:
+            # Fallback: texto plano (leyes BCN)
+            texto = ET.SubElement(encabezado, "texto")
+            texto.text = norma.encabezado_texto
 
     def _add_contenido(self, root: ET.Element, norma: Norma) -> None:
         """Agrega el contenido estructurado de la ley.
@@ -362,6 +398,12 @@ class LawXMLGenerator:
             else:
                 texto_elem = ET.SubElement(elem, "texto")
                 texto_elem.text = estructura.texto
+        elif tag_name == "articulo":
+            # Artículos sin texto: contenido vacío con nota del título
+            contenido = ET.SubElement(elem, "contenido")
+            if estructura.titulo_parte:
+                parrafo = ET.SubElement(contenido, "parrafo")
+                parrafo.text = estructura.titulo_parte
 
         # Procesar hijos recursivamente
         current_path = path + [self._get_display_title(estructura)]
@@ -372,6 +414,9 @@ class LawXMLGenerator:
         self, parent: ET.Element, estructura: EstructuraFuncional
     ) -> None:
         """Agrega el contenido estructurado de un artículo.
+
+        Siempre usa <contenido> con <parrafo>/<inciso> para consistencia
+        y para permitir referenciar párrafos e incisos con precisión.
 
         Args:
             parent: Elemento padre.
@@ -385,28 +430,25 @@ class LawXMLGenerator:
         # Dividir en párrafos
         paragraphs = texto.split("\n\n")
 
-        if len(paragraphs) > 1:
-            contenido = ET.SubElement(parent, "contenido")
-            inciso_num = 0
+        # Siempre usar <contenido> con <parrafo> (incluso para texto simple)
+        contenido = ET.SubElement(parent, "contenido")
+        inciso_num = 0
 
-            for para in paragraphs:
-                para = para.strip()
-                if not para:
-                    continue
+        for para in paragraphs:
+            para = para.strip()
+            if not para:
+                continue
 
-                # Verificar si es un inciso numerado
-                match = re.match(inciso_pattern, para)
-                if match:
-                    inciso_num += 1
-                    inciso = ET.SubElement(contenido, "inciso")
-                    inciso.set("numero", str(inciso_num))
-                    inciso.text = re.sub(inciso_pattern, "", para).strip()
-                else:
-                    parrafo = ET.SubElement(contenido, "parrafo")
-                    parrafo.text = para
-        else:
-            texto_elem = ET.SubElement(parent, "texto")
-            texto_elem.text = texto
+            # Verificar si es un inciso numerado
+            match = re.match(inciso_pattern, para)
+            if match:
+                inciso_num += 1
+                inciso = ET.SubElement(contenido, "inciso")
+                inciso.set("numero", str(inciso_num))
+                inciso.text = re.sub(inciso_pattern, "", para).strip()
+            else:
+                parrafo = ET.SubElement(contenido, "parrafo")
+                parrafo.text = para
 
         # Detectar referencias a otros artículos
         refs = self._extract_references(texto)
@@ -430,7 +472,7 @@ class LawXMLGenerator:
         return list({m.lower().replace(" ", "") for m in matches})
 
     def _add_promulgacion(self, root: ET.Element, norma: Norma) -> None:
-        """Agrega el texto de promulgación.
+        """Agrega el texto de promulgación (leyes BCN).
 
         Args:
             root: Elemento raíz.
@@ -440,6 +482,42 @@ class LawXMLGenerator:
         if norma.promulgacion_derogado:
             promulgacion.set("derogado", "true")
         promulgacion.text = norma.promulgacion_texto
+
+    def _add_disposiciones_finales(self, root: ET.Element, norma: Norma) -> None:
+        """Agrega las disposiciones finales (normas SUPERIR).
+
+        Reemplaza <promulgacion> para NCG e Instructivos, con el nombre
+        semántico correcto: notificación, vigencia, publicación, etc.
+
+        Args:
+            root: Elemento raíz.
+            norma: Objeto Norma.
+        """
+        disp = ET.SubElement(root, "disposiciones_finales")
+        texto = ET.SubElement(disp, "texto")
+        texto.text = norma.disposiciones_finales_texto
+
+    @staticmethod
+    def _parse_ley_ref(ref: str) -> tuple[str, str] | None:
+        """Parsea una referencia a norma en tipo y número.
+
+        Args:
+            ref: String como "Ley 20.720", "DFL 1-19.653", "NCG 7", "D.S. 8".
+
+        Returns:
+            Tupla (tipo, numero) o None si no se puede parsear.
+        """
+        patterns = [
+            (r"^Ley\s+(.+)$", "Ley"),
+            (r"^DFL\s+(.+)$", "DFL"),
+            (r"^D\.S\.\s+(.+)$", "D.S."),
+            (r"^NCG\s+(.+)$", "NCG"),
+        ]
+        for pattern, tipo in patterns:
+            match = re.match(pattern, ref)
+            if match:
+                return (tipo, match.group(1))
+        return None
 
     def _add_anexos(self, root: ET.Element, norma: Norma) -> None:
         """Agrega los anexos de la ley.

@@ -3,13 +3,15 @@
 Procesamiento batch de Normas de Carácter General (NCG) de la SUPERIR.
 
 Descarga los PDFs, extrae texto, parsea la estructura y genera
-archivos XML compatibles con el esquema ley_v1.xsd.
+archivos XML compatibles con el esquema ley_v1.xsd o superir_v1.xsd.
 
 Uso:
-    python scripts/process_ncg.py                    # Procesar todas las NCGs
-    python scripts/process_ncg.py --ncg 28 27 26     # Procesar NCGs específicas
-    python scripts/process_ncg.py --output ./mi_dir   # Directorio de salida personalizado
-    python scripts/process_ncg.py --text-only          # Solo extraer texto (sin generar XML)
+    python scripts/process_ncg.py                           # Procesar todas (ley_v1)
+    python scripts/process_ncg.py --ncg 28 27 26            # NCGs específicas
+    python scripts/process_ncg.py --schema superir_v1       # Usar schema SUPERIR
+    python scripts/process_ncg.py --ncg 4 6 7 --schema superir_v1  # SUPERIR para NCGs 4/6/7
+    python scripts/process_ncg.py --output ./mi_dir         # Directorio personalizado
+    python scripts/process_ncg.py --text-only               # Solo extraer texto
 
 Author: Luis Aguilera Arteaga <luis@aguilera.cl>
 """
@@ -25,6 +27,8 @@ sys.path.insert(0, str(Path(__file__).parent.parent / "src"))
 
 from leychile_epub.ncg_parser import NCGParser
 from leychile_epub.pdf_extractor import PDFExtractionError, PDFTextExtractor
+from leychile_epub.superir_structured_parser import SuperirStructuredParser
+from leychile_epub.superir_xml_generator import SuperirXMLGenerator
 from leychile_epub.xml_generator import LawXMLGenerator
 
 # ═══════════════════════════════════════════════════════════════════════════════
@@ -187,19 +191,19 @@ NCG_CATALOG: dict[str, dict[str, Any]] = {
     },
     "18": {
         "url": "https://www.superir.gob.cl/wp-content/uploads/2023/08/RES_NUM_6599_ANO_2023_NCG_18_CUENTA.pdf",
-        "titulo_completo": "NORMA DE CARÁCTER GENERAL N°18 - Forma y contenidos de la cuenta provisoria de administración",
+        "titulo_completo": "NORMA DE CARÁCTER GENERAL N°18 - Objeción de la cuenta final de administración",
         "resolucion_exenta": "6599",
         "anio_resolucion": "2023",
         "fecha_publicacion": "2023-08-11",
         "materias": [
-            "Cuenta provisoria",
-            "Administración",
+            "Objeción cuenta final",
+            "Cuenta final de administración",
             "Liquidación",
         ],
-        "leyes_habilitantes": ["20720"],
+        "leyes_habilitantes": ["20720", "21563"],
         "deroga": [],
         "modifica": [],
-        "nombres_comunes": ["NCG de Cuenta Provisoria"],
+        "nombres_comunes": ["NCG de Objeción Cuenta Final"],
         "categoria": "Liquidación",
     },
     "17": {
@@ -416,6 +420,68 @@ def process_single_ncg(
         return False
 
 
+def process_single_ncg_superir(
+    ncg_num: str,
+    info: dict[str, Any],
+    extractor: PDFTextExtractor,
+    parser: SuperirStructuredParser,
+    generator: SuperirXMLGenerator,
+    output_dir: Path,
+    text_output_dir: Path | None = None,
+    text_only: bool = False,
+) -> bool:
+    """Procesa una NCG con pipeline SUPERIR (superir_v1.xsd).
+
+    Returns:
+        True si fue exitoso, False si falló.
+    """
+    url = info["url"]
+    log = logging.getLogger("process_ncg")
+
+    try:
+        log.info(f"{'='*60}")
+        log.info(f"Procesando NCG N°{ncg_num} [schema: superir_v1]")
+        log.info(f"URL: {url}")
+
+        # Buscar texto pre-existente
+        text_file = _find_text_file(ncg_num)
+        if text_file:
+            texto = text_file.read_text(encoding="utf-8")
+            log.info(f"Usando texto pre-existente: {text_file} ({len(texto):,} chars)")
+        else:
+            texto, pdf_path = extractor.download_and_extract(url)
+
+        if text_output_dir:
+            text_path = text_output_dir / f"NCG_{ncg_num}.txt"
+            text_path.write_text(texto, encoding="utf-8")
+            log.info(f"Texto guardado: {text_path}")
+
+        if text_only:
+            log.info(f"NCG N°{ncg_num}: texto extraído ({len(texto):,} chars)")
+            return True
+
+        # Pipeline SUPERIR: parse → NormaSuperir → XML superir_v1.xsd
+        norma_superir = parser.parse(texto, url=url, doc_numero=ncg_num, catalog_entry=info)
+
+        xml_str = generator.generate(norma_superir)
+
+        # Guardar XML
+        xml_filename = f"NCG_{ncg_num}_superir.xml"
+        xml_path = output_dir / xml_filename
+        xml_path.write_text(xml_str, encoding="utf-8")
+
+        log.info(f"XML generado: {xml_path} ({xml_path.stat().st_size:,} bytes)")
+        return True
+
+    except PDFExtractionError as e:
+        log.error(f"NCG N°{ncg_num}: Error de extracción PDF - {e}")
+        return False
+    except Exception as e:
+        log.error(f"NCG N°{ncg_num}: Error inesperado - {e}")
+        log.debug("Detalle:", exc_info=True)
+        return False
+
+
 def main(argv: list[str] | None = None) -> int:
     """Punto de entrada principal."""
     arg_parser = argparse.ArgumentParser(
@@ -446,6 +512,12 @@ def main(argv: list[str] | None = None) -> int:
         "--save-text",
         action="store_true",
         help="Guardar también el texto extraído en archivos .txt",
+    )
+    arg_parser.add_argument(
+        "--schema",
+        choices=["ley_v1", "superir_v1"],
+        default="ley_v1",
+        help="Schema XSD a usar: ley_v1 (default) o superir_v1 (semántica SUPERIR)",
     )
     arg_parser.add_argument(
         "--verbose", "-v",
@@ -481,11 +553,17 @@ def main(argv: list[str] | None = None) -> int:
 
     # Inicializar componentes
     extractor = PDFTextExtractor(cache_dir=args.pdf_cache)
-    parser = NCGParser()
-    generator = LawXMLGenerator()
+    use_superir = args.schema == "superir_v1"
 
-    # Procesar
-    log.info(f"Procesando {len(ncgs_to_process)} NCGs de la SUPERIR")
+    if use_superir:
+        superir_parser = SuperirStructuredParser()
+        superir_generator = SuperirXMLGenerator()
+        log.info(f"Procesando {len(ncgs_to_process)} NCGs [schema: superir_v1.xsd]")
+    else:
+        ncg_parser = NCGParser()
+        ley_generator = LawXMLGenerator()
+        log.info(f"Procesando {len(ncgs_to_process)} NCGs [schema: ley_v1.xsd]")
+
     log.info(f"Salida: {output_dir.absolute()}")
 
     exitosas = 0
@@ -493,16 +571,28 @@ def main(argv: list[str] | None = None) -> int:
     errores: list[str] = []
 
     for ncg_num, info in sorted(ncgs_to_process.items(), key=lambda x: int(x[0])):
-        ok = process_single_ncg(
-            ncg_num=ncg_num,
-            info=info,
-            extractor=extractor,
-            parser=parser,
-            generator=generator,
-            output_dir=output_dir,
-            text_output_dir=text_output_dir,
-            text_only=args.text_only,
-        )
+        if use_superir:
+            ok = process_single_ncg_superir(
+                ncg_num=ncg_num,
+                info=info,
+                extractor=extractor,
+                parser=superir_parser,
+                generator=superir_generator,
+                output_dir=output_dir,
+                text_output_dir=text_output_dir,
+                text_only=args.text_only,
+            )
+        else:
+            ok = process_single_ncg(
+                ncg_num=ncg_num,
+                info=info,
+                extractor=extractor,
+                parser=ncg_parser,
+                generator=ley_generator,
+                output_dir=output_dir,
+                text_output_dir=text_output_dir,
+                text_only=args.text_only,
+            )
         if ok:
             exitosas += 1
         else:

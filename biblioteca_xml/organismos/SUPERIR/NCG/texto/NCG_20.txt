@@ -151,14 +151,18 @@ Para lo anterior, el/la Interventor/a deberá acompañar
 la siguiente documentación de respaldo válidamente emitida de acuerdo a la
 normativa legal, contable y tributaria, a efectos de considerar la contabilidad
 fidedigna, sin que el siguiente listado tenga el carácter de taxativo:
+
 i. Libro Mayor
+
 ii. Estado de resultados
-iii.Libros de Ingresos/Egresos
-iv.Balance General o provisorio, en su caso, a la
-fecha del periodo informado.
-v. Conciliación bancaria del último mes del periodo
-informado.
-vi.Flujo de caja
+
+iii. Libros de Ingresos/Egresos
+
+iv. Balance General o provisorio, en su caso, a la fecha del periodo informado.
+
+v. Conciliación bancaria del último mes del periodo informado.
+
+vi. Flujo de caja
 Artículo 3°. Plazo. El/la Interventor/a deberá
 presentar el informe sobre el estado de cumplimiento del Acuerdo de
 Reorganización, el último día del mes subsiguiente al de la fecha de cierre del
@@ -202,12 +206,14 @@ y Reemprendimiento.
 publicación de la presente resolución en el sitio web institucional de la
 Superintendencia de Insolvencia y Reemprendimiento.
 ANÓTESE, PUBLÍQUESE Y ARCHÍVESE,
+HUGO SÁNCHEZ RAMÍREZ
+SUPERINTENDENTE DE INSOLVENCIA Y REEMPRENDIMIENTO
 PVL/JAA/EGZ/DTC/RAA/SCP
 DISTRIBUCION:
 -Señores/as Veedores/as
 Presente
-ANEXO I1
-A. INDICADORES FINANCIEROS A APLICAR A LOS ESTADOS FINANCIEROS COMPARATIVOS2
+ANEXO I
+A. INDICADORES FINANCIEROS A APLICAR A LOS ESTADOS FINANCIEROS COMPARATIVOS
 EMPRESA DEUDORA
 PERIODO INFORMADO
 ESTADOS FINANCIEROS A ANALIZAR
@@ -223,10 +229,6 @@ Ventas
 Etc.
 Indicadores Interpretación y justificación
 Financieros Semestre t Semestre t+1 del resultado del indicador
-1 Este mismo análisis deberá ser aplicado al estado financiero flujo de caja que deberá confeccionar el/la Interventor/a durante la etapa de cumplimiento del
-acuerdo, conforme al ANEXO V adjunto a la presente Norma de Carácter General.
-2 Esta comparación se hará con los estados financieros del periodo anterior respecto a aquel que se está informando, o a aquellos estados financieros proyectados
-presentados en la propuesta de reorganización, en su caso.
 - Días Cliente = Cuenta por
 Cobrar/Ventas*180 - Días Cliente = Cuenta por Cobrar/Ventas*180
 Indicadores de
@@ -253,8 +255,8 @@ Indicador margen de
 utilidad último - Margen neto= utilidad neta/ventas netas X - Margen neto= utilidad neta/ventas netas X
 periodo comparado 100 100
 ANEXO I
-B. INDICADORES FINANCIEROS A APLICAR A LOS ESTADOS FINANCIEROS PROYECTADOS3
-Cuenta Estado Financiero Estado Financiero Variación (+-) $ % Justificación de Variación 4
+B. INDICADORES FINANCIEROS A APLICAR A LOS ESTADOS FINANCIEROS PROYECTADOS
+Cuenta Estado Financiero Estado Financiero Variación (+-) $ % Justificación de Variación
 proyectado ($) semestre
 informado ($)
 Caja
@@ -272,7 +274,6 @@ Ventas/Ventas Ventas/Ventas
 Rentabilidad - ROA = Margen Operacional/Activos - ROA = Margen Operacional/Activos
 último periodo - Cobertura de la deuda = Margen operacional - Cobertura de la deuda = Margen operacional /
 proyectado / Deuda (Intereses + capital) Deuda (Intereses + capital)
-3 Este análisis se aplicará en caso que existan estados financieros proyectados al inicio del periodo de intervención.
 solvencia a largo
 plazo - Deuda a largo plazo = Deuda a largo plazo / - Deuda a largo plazo = Deuda a largo plazo /
 último periodo Deuda a largo plazo + Neto Patrimonial Deuda a largo plazo + Neto Patrimonial
@@ -348,9 +349,6 @@ or Capita Interés total N.° pago vencimient pactadas pendientes 6
 l pagado 5 o de la
 cuota
 Nombre y Firma
-5 Monto total corresponde a la suma de los montos pagados por capital e interés
-6En estas observaciones deberán incluirse todas aquellas detectadas por el/la Interventor/a, las cuales podrán referir, por ejemplo, las diferencias detectadas en el
-monto o fecha del pago de las cuotas.
 ANEXO V
 A. MODELO FLUJO DE CAJA PROYECTADO Y SUS VARIACIONES
 Flujo caja proyectado
@@ -391,4 +389,3 @@ DE IMPUESTOS (NOPAT)
 TRABAJO
 FLUJO DE CAJA
 Nombre y Firma
-11

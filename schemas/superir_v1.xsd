@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Schema XML para normas de la Superintendencia de Insolvencia y Reemprendimiento (SUPERIR).
+
+  Cubre:
+  - Normas de Carácter General (NCG)
+  - Instructivos
+  - Resoluciones Exentas modificatorias
+
+  Diseño semántico orientado a:
+  - Consulta estructurada por agentes de IA
+  - Extracción de considerandos individuales
+  - Navegación por epígrafes de artículos
+  - Identificación de firmantes y fórmulas de cierre
+  - Estructura jerárquica: Título > Párrafo > Artículo (derecho concursal chileno)
+  - Requisitos numerados (I, II, III) con items letrados dentro de artículos
+
+  Jerarquía legal SUPERIR:
+    <titulo> → <parrafo> (división "Párrafo" chileno) → <articulo>
+    <titulo> → <capitulo> (cuando aplica) → <articulo>
+    <titulo> → <articulo> (directo, sin división intermedia)
+
+  Versión: 1.0
+  Namespace: https://superir.cl/schema/norma/v1
+-->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="https://superir.cl/schema/norma/v1"
+           xmlns:tns="https://superir.cl/schema/norma/v1"
+           elementFormDefault="qualified">
+
+  <!-- ===================================================================
+       ELEMENTO RAÍZ: <norma>
+       =================================================================== -->
+  <xs:element name="norma" type="tns:NormaType"/>
+
+  <xs:complexType name="NormaType">
+    <xs:sequence>
+      <xs:element name="acto_administrativo" type="tns:ActoAdministrativoType" minOccurs="0"/>
+      <xs:element name="encabezado" type="tns:EncabezadoType"/>
+      <xs:element name="metadatos" type="tns:MetadatosType" minOccurs="0"/>
+      <xs:element name="vistos" type="tns:VistosType"/>
+      <xs:element name="considerandos" type="tns:ConsiderandosType"/>
+      <xs:element name="formula_dictacion" type="xs:string" minOccurs="0"/>
+      <xs:element name="resolutivo" type="tns:ResolutivoType" minOccurs="0"/>
+      <xs:element name="preambulo_ncg" type="tns:PreambuloNcgType" minOccurs="0"/>
+      <xs:element name="cuerpo_normativo" type="tns:CuerpoNormativoType" minOccurs="0"/>
+      <xs:element name="resolutivo_final" type="tns:ResolutivoType" minOccurs="0"/>
+      <xs:element name="cierre" type="tns:CierreType" minOccurs="0"/>
+      <xs:element name="anexos" type="tns:AnexosType" minOccurs="0"/>
+      <xs:element name="anexo" type="tns:AnexoStandaloneType" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+    <xs:attribute name="tipo" type="xs:string" use="required"/>
+    <xs:attribute name="numero" type="xs:string" use="required"/>
+    <xs:attribute name="organismo" type="xs:string" use="required"/>
+    <xs:attribute name="version" type="xs:string" use="optional"/>
+    <xs:attribute name="estado" type="xs:string" use="optional"/>
+    <xs:attribute name="generado" type="xs:string" use="optional"/>
+  </xs:complexType>
+
+  <!-- ===================================================================
+       ENCABEZADO: Datos de identificación del documento
+       =================================================================== -->
+  <xs:complexType name="EncabezadoType">
+    <xs:sequence>
+      <xs:element name="identificacion" type="xs:string" minOccurs="0"/>
+      <xs:element name="organismo" type="xs:string" minOccurs="0"/>
+      <xs:element name="referencia" type="xs:string" minOccurs="0"/>
+      <xs:element name="lugar" type="xs:string" minOccurs="0"/>
+      <xs:element name="fecha" type="xs:string" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <!-- ===================================================================
+       METADATOS: Información enriquecida (materias, fechas, leyes)
+       =================================================================== -->
+  <xs:complexType name="MetadatosType">
+    <xs:sequence>
+      <xs:element name="titulo" type="xs:string" minOccurs="0"/>
+      <xs:element name="resolucion_exenta" type="xs:string" minOccurs="0"/>
+      <xs:element name="materias" type="tns:MateriasType" minOccurs="0"/>
+      <xs:element name="nombres_comunes" type="tns:NombresComunesType" minOccurs="0"/>
+      <xs:element name="fechas" type="tns:FechasType" minOccurs="0"/>
+      <xs:element name="leyes_referenciadas" type="tns:LeyesReferenciadasType" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="MateriasType">
+    <xs:sequence>
+      <xs:element name="materia" type="xs:string" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="NombresComunesType">
+    <xs:sequence>
+      <xs:element name="nombre" type="xs:string" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="FechasType">
+    <xs:sequence>
+      <xs:element name="promulgacion" type="xs:string" minOccurs="0"/>
+      <xs:element name="publicacion" type="xs:string" minOccurs="0"/>
+      <xs:element name="version" type="xs:string" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="LeyesReferenciadasType">
+    <xs:sequence>
+      <xs:element name="ley_ref" type="tns:LeyRefType" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="LeyRefType">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute name="tipo" type="xs:string" use="optional"/>
+        <xs:attribute name="numero" type="xs:string" use="optional"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+
+  <!-- ===================================================================
+       VISTOS: Facultades legales invocadas
+       =================================================================== -->
+  <xs:complexType name="VistosType">
+    <xs:sequence>
+      <xs:element name="parrafo" type="xs:string" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <!-- ===================================================================
+       CONSIDERANDOS: Razonamientos individuales numerados
+       =================================================================== -->
+  <xs:complexType name="ConsiderandosType">
+    <xs:sequence>
+      <xs:element name="considerando" type="tns:ConsiderandoType" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="ConsiderandoType">
+    <xs:sequence>
+      <xs:element name="parrafo" type="xs:string" maxOccurs="unbounded"/>
+    </xs:sequence>
+    <xs:attribute name="numero" type="xs:positiveInteger" use="required"/>
+  </xs:complexType>
+
+  <!-- ===================================================================
+       CUERPO NORMATIVO: Títulos > Párrafos/Capítulos > Artículos
+       =================================================================== -->
+  <xs:complexType name="CuerpoNormativoType">
+    <xs:sequence>
+      <xs:element name="titulo" type="tns:TituloType" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <!--
+    TituloType: contenedor de nivel superior.
+    Puede contener directamente artículos, o agruparlos en
+    párrafos (término legal chileno) o capítulos.
+    Usa xs:choice para permitir cualquier mezcla y orden.
+  -->
+  <xs:complexType name="TituloType">
+    <xs:choice minOccurs="0" maxOccurs="unbounded">
+      <xs:element name="capitulo" type="tns:CapituloType"/>
+      <xs:element name="parrafo" type="tns:ParrafoDivisionType"/>
+      <xs:element name="articulo" type="tns:ArticuloType"/>
+    </xs:choice>
+    <xs:attribute name="numero" type="xs:string" use="required"/>
+    <xs:attribute name="nombre" type="xs:string" use="optional"/>
+  </xs:complexType>
+
+  <!--
+    CapituloType: división "Capítulo" dentro de un título.
+    Contiene artículos.
+  -->
+  <xs:complexType name="CapituloType">
+    <xs:sequence>
+      <xs:element name="articulo" type="tns:ArticuloType" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+    <xs:attribute name="numero" type="xs:string" use="required"/>
+    <xs:attribute name="nombre" type="xs:string" use="optional"/>
+  </xs:complexType>
+
+  <!--
+    ParrafoDivisionType: división "Párrafo" (término legal chileno) dentro de un título.
+    Equivale a un capítulo en estructura pero refleja la terminología concursal.
+    Ejemplo: "Párrafo I - Obligación de rendir cuenta..."
+    Nota: NO confundir con <parrafo> texto (xs:string) dentro de artículos.
+  -->
+  <xs:complexType name="ParrafoDivisionType">
+    <xs:sequence>
+      <xs:element name="articulo" type="tns:ArticuloType" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+    <xs:attribute name="numero" type="xs:string" use="required"/>
+    <xs:attribute name="nombre" type="xs:string" use="optional"/>
+  </xs:complexType>
+
+  <!-- ===================================================================
+       ARTÍCULO: Unidad normativa con epígrafe
+       Permite interleaving de párrafos, listados, requisitos, etc.
+       =================================================================== -->
+  <xs:complexType name="ArticuloType">
+    <xs:sequence>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="parrafo" type="xs:string"/>
+        <xs:element name="listado" type="tns:ListadoType"/>
+        <xs:element name="inciso" type="tns:IncisoType"/>
+        <xs:element name="requisito" type="tns:RequisitoType"/>
+        <xs:element name="referencia_anexo" type="xs:string"/>
+      </xs:choice>
+      <xs:element name="referencias" type="tns:ReferenciasType" minOccurs="0"/>
+    </xs:sequence>
+    <xs:attribute name="numero" type="xs:string" use="required"/>
+    <xs:attribute name="epigrafe" type="xs:string" use="optional"/>
+    <xs:attribute name="transitorio" type="xs:boolean" use="optional"/>
+  </xs:complexType>
+
+  <!-- ===================================================================
+       LISTADO: Lista dentro de artículos.
+       Items pueden usar letra (a, b, c) o numero (i, ii, 1, 2, 3).
+       Items complejos pueden contener párrafos y sublistados.
+       =================================================================== -->
+  <xs:complexType name="ListadoType">
+    <xs:sequence>
+      <xs:element name="item" type="tns:ItemListadoType" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <!--
+    ItemListadoType: item de un listado.
+    - Simple: <item letra="a">Texto directo</item>
+    - Numerado: <item numero="1">Texto directo</item>
+    - Complejo: <item letra="a" nombre="Nombre">
+                   <parrafo>Texto introductorio</parrafo>
+                   <sublistado><subitem numero="i">...</subitem></sublistado>
+                 </item>
+    - Complejo con párrafos post-sublistado (NCG 19 Art 1° E):
+                 <item letra="E">
+                   <parrafo>Texto introductorio</parrafo>
+                   <sublistado><subitem letra="a">...</subitem></sublistado>
+                   <parrafo>Texto posterior al sublistado</parrafo>
+                 </item>
+  -->
+  <xs:complexType name="ItemListadoType" mixed="true">
+    <xs:choice minOccurs="0" maxOccurs="unbounded">
+      <xs:element name="parrafo" type="xs:string"/>
+      <xs:element name="sublistado" type="tns:SublistadoType"/>
+    </xs:choice>
+    <xs:attribute name="letra" type="xs:string"/>
+    <xs:attribute name="numero" type="xs:string"/>
+    <xs:attribute name="nombre" type="xs:string"/>
+  </xs:complexType>
+
+  <xs:complexType name="SublistadoType">
+    <xs:sequence>
+      <xs:element name="subitem" type="tns:SubitemType" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="SubitemType">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute name="numero" type="xs:string" use="optional"/>
+        <xs:attribute name="letra" type="xs:string" use="optional"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+
+  <!-- ===================================================================
+       REQUISITO: Subdivisión numerada con romanos (I, II, III) de artículos
+       Usado en normas con estructura compleja (ej: NCG 7, Art. 6°)
+       Puede contener párrafos de texto y/o items letrados.
+       =================================================================== -->
+  <xs:complexType name="RequisitoType">
+    <xs:choice minOccurs="0" maxOccurs="unbounded">
+      <xs:element name="parrafo" type="xs:string"/>
+      <xs:element name="item" type="tns:RequisitoItemType"/>
+    </xs:choice>
+    <xs:attribute name="numero" type="xs:string" use="required"/>
+    <xs:attribute name="nombre" type="xs:string" use="optional"/>
+  </xs:complexType>
+
+  <!--
+    RequisitoItemType: item letrado dentro de un requisito.
+    Puede ser texto simple o contener párrafos estructurados.
+    Ejemplo simple: <item letra="a" nombre="Ingresos">Deberá detallarse...</item>
+    Ejemplo complejo: <item letra="d" nombre="Provisión"><parrafo>...</parrafo></item>
+  -->
+  <xs:complexType name="RequisitoItemType" mixed="true">
+    <xs:sequence>
+      <xs:element name="parrafo" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+    <xs:attribute name="letra" type="xs:string" use="required"/>
+    <xs:attribute name="nombre" type="xs:string" use="optional"/>
+  </xs:complexType>
+
+  <!-- ===================================================================
+       INCISO: Subdivisión numerada de un artículo
+       =================================================================== -->
+  <xs:complexType name="IncisoType">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute name="numero" type="xs:string" use="required"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+
+  <!-- ===================================================================
+       REFERENCIAS: Artículos referenciados
+       =================================================================== -->
+  <xs:complexType name="ReferenciasType">
+    <xs:sequence>
+      <xs:element name="ref" type="tns:RefType" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="RefType">
+    <xs:attribute name="articulo" type="xs:string" use="optional"/>
+    <xs:attribute name="norma" type="xs:string" use="optional"/>
+  </xs:complexType>
+
+  <!-- ===================================================================
+       ACTO ADMINISTRATIVO: Resolución Exenta que envuelve la NCG
+       Usado cuando la NCG se aprueba mediante resolución formal.
+       =================================================================== -->
+  <xs:complexType name="ActoAdministrativoType">
+    <xs:sequence>
+      <xs:element name="tipo" type="xs:string"/>
+      <xs:element name="numero" type="xs:string"/>
+      <xs:element name="materia" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <!-- ===================================================================
+       RESOLUTIVO: Puntos resolutivos del acto administrativo
+       Usado tanto antes de la NCG (resolutivo) como después (resolutivo_final).
+       =================================================================== -->
+  <xs:complexType name="ResolutivoType">
+    <xs:sequence>
+      <xs:element name="punto" type="tns:PuntoResolutivoType" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="PuntoResolutivoType">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute name="numero" type="xs:string" use="required"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+
+  <!-- ===================================================================
+       PREÁMBULO NCG: Texto introductorio de la NCG propiamente tal
+       Va entre el resolutivo y el cuerpo normativo.
+       =================================================================== -->
+  <xs:complexType name="PreambuloNcgType">
+    <xs:sequence>
+      <xs:element name="parrafo" type="xs:string" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <!-- ===================================================================
+       CIERRE: Fórmula de cierre y firmante
+       =================================================================== -->
+  <xs:complexType name="CierreType">
+    <xs:sequence>
+      <xs:element name="formula" type="xs:string"/>
+      <xs:element name="firmante" type="tns:FirmanteType" minOccurs="0"/>
+      <xs:element name="distribucion" type="xs:string" minOccurs="0"/>
+      <xs:element name="notificacion" type="tns:NotificacionType" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="NotificacionType">
+    <xs:sequence>
+      <xs:element name="destinatarios" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="FirmanteType">
+    <xs:sequence>
+      <xs:element name="nombre" type="xs:string"/>
+      <xs:element name="cargo" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <!-- ===================================================================
+       ANEXOS: Documentos adjuntos (modelos, formularios, tablas)
+
+       Dos formatos soportados:
+       1. <anexos> contenedor con <anexo> hijos (NCGs simples)
+       2. <anexo> standalone a nivel raíz (NCGs con anexos pendientes/detallados)
+       =================================================================== -->
+  <xs:complexType name="AnexosType">
+    <xs:sequence>
+      <xs:element name="anexo" type="tns:AnexoType" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <!-- AnexoType: anexo dentro de <anexos> contenedor (formato simple) -->
+  <xs:complexType name="AnexoType">
+    <xs:sequence>
+      <xs:element name="titulo" type="xs:string" minOccurs="0"/>
+      <xs:element name="texto" type="xs:string" minOccurs="0"/>
+    </xs:sequence>
+    <xs:attribute name="numero" type="xs:string" use="optional"/>
+    <xs:attribute name="tipo" type="xs:string" use="optional"/>
+    <xs:attribute name="opcional" type="xs:boolean" use="optional"/>
+    <xs:attribute name="editable" type="xs:boolean" use="optional"/>
+  </xs:complexType>
+
+  <!--
+    AnexoStandaloneType: anexo a nivel raíz (formato extendido).
+    Usado para anexos pendientes de modelado o con estructura detallada.
+    Permite contenido flexible via xs:any para formularios complejos.
+  -->
+  <xs:complexType name="AnexoStandaloneType">
+    <xs:sequence>
+      <xs:any namespace="##any" processContents="skip" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+    <xs:attribute name="numero" type="xs:string" use="optional"/>
+    <xs:attribute name="titulo" type="xs:string" use="optional"/>
+    <xs:attribute name="pendiente" type="xs:boolean" use="optional"/>
+    <xs:attribute name="tipo" type="xs:string" use="optional"/>
+  </xs:complexType>
+
+</xs:schema>

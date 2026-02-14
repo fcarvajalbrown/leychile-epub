@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ley xmlns="https://leychile.cl/schema/ley/v1" version="1.0" idioma="es-CL" id_norma="NCG-18" tipo="Norma de Carácter General" numero="18" estado="vigente" fecha_version="2023-08-11" fecha_promulgacion="2023-08-11" fecha_publicacion="2023-08-11" generado="2026-02-12T11:14:27.827717" fuente="Biblioteca del Congreso Nacional de Chile" url_original="https://www.superir.gob.cl/wp-content/uploads/2023/08/RES_NUM_6599_ANO_2023_NCG_18_CUENTA.pdf">
+<ley xmlns="https://leychile.cl/schema/ley/v1" version="1.1" idioma="es-CL" id_norma="NCG-18" tipo="Norma de Carácter General" numero="18" estado="vigente" fecha_version="2023-08-11" fecha_promulgacion="2023-08-11" fecha_publicacion="2023-08-11" generado="2026-02-12T21:30:05.175476" fuente="Biblioteca del Congreso Nacional de Chile" url_original="https://www.superir.gob.cl/wp-content/uploads/2023/08/RES_NUM_6599_ANO_2023_NCG_18_CUENTA.pdf">
   <metadatos>
     <titulo>NORMA DE CARÁCTER GENERAL N°18 - Forma y contenidos de la cuenta provisoria de administración</titulo>
     <identificacion>
@@ -25,26 +25,20 @@
     <fuente>Superintendencia de Insolvencia y Reemprendimiento</fuente>
     <numero_fuente>6599</numero_fuente>
     <leyes_referenciadas>
-      <ley_ref>Ley 20.720</ley_ref>
-      <ley_ref>Ley 21.563</ley_ref>
-      <ley_ref>Ley 18.575</ley_ref>
-      <ley_ref>Ley 19.880</ley_ref>
-      <ley_ref>Ley 19.799</ley_ref>
-      <ley_ref>DFL 1-19.653</ley_ref>
-      <ley_ref>D.S. 181</ley_ref>
+      <ley_ref tipo="Ley" numero="20.720">Ley 20.720</ley_ref>
+      <ley_ref tipo="Ley" numero="21.563">Ley 21.563</ley_ref>
+      <ley_ref tipo="Ley" numero="18.575">Ley 18.575</ley_ref>
+      <ley_ref tipo="Ley" numero="19.880">Ley 19.880</ley_ref>
+      <ley_ref tipo="Ley" numero="19.799">Ley 19.799</ley_ref>
+      <ley_ref tipo="DFL" numero="1-19.653">DFL 1-19.653</ley_ref>
+      <ley_ref tipo="D.S." numero="181">D.S. 181</ley_ref>
     </leyes_referenciadas>
   </metadatos>
-  <encabezado>VISTOS:
+  <encabezado>
+    <vistos>Las facultades que me confiere la Ley N.° 20.720, que sustituye el régimen concursal vigente por una Ley de Reorganización y Liquidación de Activos de Empresas y Personas; lo dispuesto en la Ley N.° 21.563, que Moderniza los Procedimientos Concursales Contemplados en la Ley N.° 20.720 y Crea Nuevos Procedimientos para Micro y Pequeñas Empresas; en el D.F.L. N.° 1-19.653, de 17 de noviembre de 2001, que fija el texto Refundido, Coordinado y Sistematizado de la Ley N.° 18.575, Orgánica Constitucional de Bases Generales de la Administración del Estado; en la Ley N.° 19.880, que establece Bases de los Procedimientos Administrativos que Rigen los Actos de los Órganos de la Administración del Estado; en la Ley N.° 19.799 sobre Documentos Electrónicos, Firma Electrónica y Servicios de Certificación de Dicha Firma; en el Decreto Supremo N.º 181 de 17 de agosto de 2002, del Ministerio de Economía;
 
-Las facultades que me confiere la Ley N.° 20.720, que sustituye el régimen concursal vigente por una Ley de Reorganización y Liquidación de Activos de Empresas y Personas; lo dispuesto en la Ley N.° 21.563, que Moderniza los Procedimientos Concursales Contemplados en la Ley N.° 20.720 y Crea Nuevos Procedimientos para Micro y Pequeñas Empresas; en el D.F.L. N.° 1-19.653, de 17 de noviembre de 2001, que fija el texto Refundido, Coordinado y Sistematizado de la Ley N.° 18.575, Orgánica Constitucional de Bases Generales de la Administración del Estado; en la Ley N.° 19.880, que establece Bases de los Procedimientos Administrativos que Rigen los Actos de los Órganos de la Administración del Estado; en la Ley N.° 19.799 sobre Documentos Electrónicos, Firma Electrónica y Servicios de Certificación de Dicha Firma; en el Decreto Supremo N.º 181 de 17 de agosto de 2002, del Ministerio de Economía;
-
-Fomento y Turismo, que Aprueba el Reglamento de la Ley N.º 19.799 sobre Documentos Electrónicos, Firma Electrónica y la Certificación de Dicha Firma; en la Resolución N.° 7 de 2019 de la Contraloría General de la República, que fija normas sobre Exención del Trámite de Toma de Razón; y, en el Decreto N.° 8 de
-
-19 de enero de 2023, del Ministerio de Economía, Fomento y Turismo.
-
-CONSIDERANDO:
-
-1° Que, de conformidad a lo dispuesto en los artículos 331 y siguientes de la Ley N.° 20.720, en adelante “la Ley”, modificada por la Ley N.º 21.563, la Superintendencia de Insolvencia y Reemprendimiento, en adelante la “Superintendencia”, es una persona jurídica de derecho público, creada por la Ley, como un servicio público descentralizado con personalidad jurídica y patrimonio propio, que se relaciona con el Presidente de la República a través del Ministerio de Economía, Fomento y Turismo, y tiene como función supervigilar y fiscalizar las actuaciones de los liquidadores, veedores, interventores designados conforme a la Ley, martilleros concursales, administradores de la continuación de las actividades económicas del deudor, asesores económicos de insolvencia, y, de toda persona que por ley quede sujeta
+Fomento y Turismo, que Aprueba el Reglamento de la Ley N.º 19.799 sobre Documentos Electrónicos, Firma Electrónica y la Certificación de Dicha Firma; en la Resolución N.° 7 de 2019 de la Contraloría General de la República, que fija normas sobre Exención del Trámite de Toma de Razón; y, en el Decreto N.° 8 de 19 de enero de 2023, del Ministerio de Economía, Fomento y Turismo.</vistos>
+    <considerandos>1° Que, de conformidad a lo dispuesto en los artículos 331 y siguientes de la Ley N.° 20.720, en adelante “la Ley”, modificada por la Ley N.º 21.563, la Superintendencia de Insolvencia y Reemprendimiento, en adelante la “Superintendencia”, es una persona jurídica de derecho público, creada por la Ley, como un servicio público descentralizado con personalidad jurídica y patrimonio propio, que se relaciona con el Presidente de la República a través del Ministerio de Economía, Fomento y Turismo, y tiene como función supervigilar y fiscalizar las actuaciones de los liquidadores, veedores, interventores designados conforme a la Ley, martilleros concursales, administradores de la continuación de las actividades económicas del deudor, asesores económicos de insolvencia, y, de toda persona que por ley quede sujeta
 
 a su supervigilancia y fiscalización. Asimismo, le corresponde desempeñar aquellas funciones que la referida ley le encomienda, así como las demás que se establezcan en otras leyes.
 
@@ -60,7 +54,8 @@ Norma de Carácter General, la Superintendencia de Insolvencia y Reemprendimient
 
 Lo anterior, sin perjuicio de las instrucciones que este Servicio puede impartir dentro del ámbito de sus atribuciones conferidas en virtud del numeral 4 del artículo 337 de la Ley.
 
-6° Que, atendido lo expuesto y de conformidad a con lo dispuesto en el artículo 3 de la Ley N.° 19.880 y en las normas legales pertinentes,</encabezado>
+6° Que, atendido lo expuesto y de conformidad a con lo dispuesto en el artículo 3 de la Ley N.° 19.880 y en las normas legales pertinentes,</considerandos>
+  </encabezado>
   <contenido total_articulos="12" total_libros="0" total_titulos="4" total_capitulos="0">
     <titulo id="1" tipo_original="Título" numero="I">
       <titulo_seccion>TÍTULO I Regula materias relativas a la objeción de la cuenta final de administración rendida en el procedimiento concursal de liquidación regulado en Capítulo IV, de conformidad a lo dispuesto en el artículo 52 de la Ley N.° 20.720</titulo_seccion>
@@ -72,9 +67,9 @@ Lo anterior, sin perjuicio de las instrucciones que este Servicio puede impartir
           <parrafo>Por su parte, de conformidad al numeral 4 del inciso cuarto del citado artículo 52 de la Ley, los objetantes dispondrán de diez días para insistir en sus objeciones ante el tribunal, y deberán acompañar una copia de sus insistencias a la Superintendencia dentro del mismo día, a través del medio electrónico señalado en el artículo 3° de la presente Norma de Carácter General.</parrafo>
         </contenido>
         <referencias>
-          <ref articulo="52"/>
-          <ref articulo="3"/>
           <ref articulo="2"/>
+          <ref articulo="3"/>
+          <ref articulo="52"/>
         </referencias>
       </articulo>
       <articulo id="2" tipo_original="Artículo" numero="2">
@@ -106,49 +101,44 @@ Lo anterior, sin perjuicio de las instrucciones que este Servicio puede impartir
         <titulo_seccion>Artículo 4</titulo_seccion>
         <contexto>TÍTULO II Obligaciones del/de la Liquidador/a respecto a las publicaciones en el Boletín Concursal</contexto>
         <contenido>
-          <parrafo>El numeral 1 del inciso cuarto del</parrafo>
-          <parrafo>artículo 52 de la Ley, establece que el/la Liquidador/a deberá publicar en el Boletín Concursal las objeciones que se hubieren deducido, en un plazo de dos días contados desde el término del plazo para objetar, e informará esta circunstancia al tribunal.</parrafo>
+          <parrafo>El numeral 1 del inciso cuarto del artículo 52 de la Ley, establece que el/la Liquidador/a deberá publicar en el Boletín Concursal las objeciones que se hubieren deducido, en un plazo de dos días contados desde el término del plazo para objetar, e informará esta circunstancia al tribunal.</parrafo>
           <parrafo>El vencimiento de este plazo sin que el/la Liquidador/a hubiere realizado las publicaciones antedichas, faculta a esta Superintendencia para proceder a su publicación, considerándose una falta grave, de conformidad a lo dispuesto en el número 2) del artículo 338 de la Ley.</parrafo>
         </contenido>
         <referencias>
-          <ref articulo="52"/>
           <ref articulo="338"/>
+          <ref articulo="52"/>
         </referencias>
       </articulo>
       <articulo id="5" tipo_original="Artículo" numero="5">
         <titulo_seccion>Artículo 5</titulo_seccion>
         <contexto>TÍTULO II Obligaciones del/de la Liquidador/a respecto a las publicaciones en el Boletín Concursal</contexto>
         <contenido>
-          <parrafo>En concordancia con lo señalado en el</parrafo>
-          <parrafo>artículo anterior y en uso de la facultad que le otorga a esta Superintendencia el</parrafo>
-          <parrafo>artículo 337 de la Ley, en su numeral 4, los/las Liquidadores/as deberán dar debido cumplimiento a lo dispuesto en el numeral 1 del inciso cuarto del artículo</parrafo>
+          <parrafo>En concordancia con lo señalado en el artículo anterior y en uso de la facultad que le otorga a esta Superintendencia el artículo 337 de la Ley, en su numeral 4, los/las Liquidadores/as deberán dar debido cumplimiento a lo dispuesto en el numeral 1 del inciso cuarto del artículo</parrafo>
           <parrafo>52 de la Ley, publicando en el Boletín Concursal la respetiva objeción a la cuenta, con la nomenclatura “Objeción Cuenta Final”, dentro del plazo señalado en la norma indicada.</parrafo>
           <parrafo>Del mismo modo, los/las Liquidadores/as deberán acompañar al tribunal copia de la referida publicación, dentro del plazo de 2 días hábiles siguientes a dicha publicación, con el respectivo código de verificación que dé cuenta de la efectividad de haber practicado la publicación en el Boletín Concursal.</parrafo>
         </contenido>
         <referencias>
-          <ref articulo="337"/>
           <ref articulo="52"/>
+          <ref articulo="337"/>
         </referencias>
       </articulo>
       <articulo id="6" tipo_original="Artículo" numero="6">
         <titulo_seccion>Artículo 6</titulo_seccion>
         <contexto>TÍTULO II Obligaciones del/de la Liquidador/a respecto a las publicaciones en el Boletín Concursal</contexto>
         <contenido>
-          <parrafo>El numeral 4 del inciso cuarto del</parrafo>
-          <parrafo>artículo 52 de la Ley, establece que, en caso de que se presentaren insistencias a las objeciones a la cuenta final de administración, el/la Liquidador/a deberá publicarlas en el Boletín Concursal, en un plazo de dos días contado desde el término del plazo para insistir en las objeciones, e informará esta circunstancia al tribunal.</parrafo>
+          <parrafo>El numeral 4 del inciso cuarto del artículo 52 de la Ley, establece que, en caso de que se presentaren insistencias a las objeciones a la cuenta final de administración, el/la Liquidador/a deberá publicarlas en el Boletín Concursal, en un plazo de dos días contado desde el término del plazo para insistir en las objeciones, e informará esta circunstancia al tribunal.</parrafo>
           <parrafo>El vencimiento de este plazo sin que el/la Liquidador/a hubiere practicado las publicaciones antedichas, facultará a la Superintendencia para proceder a su publicación, considerándose una falta grave de conformidad a lo dispuesto en el número 2) del artículo 338 de la Ley.</parrafo>
         </contenido>
         <referencias>
-          <ref articulo="52"/>
           <ref articulo="338"/>
+          <ref articulo="52"/>
         </referencias>
       </articulo>
       <articulo id="7" tipo_original="Artículo" numero="7">
         <titulo_seccion>Artículo 7</titulo_seccion>
         <contexto>TÍTULO II Obligaciones del/de la Liquidador/a respecto a las publicaciones en el Boletín Concursal</contexto>
         <contenido>
-          <parrafo>En relación con lo señalado en el</parrafo>
-          <parrafo>artículo que precede, los/las Liquidadores/as deberán publicar en el Boletín Concursal la respetiva insistencia, con la nomenclatura “Insistencia Cuenta Final”, dentro del plazo señalado por la norma referida.</parrafo>
+          <parrafo>En relación con lo señalado en el artículo que precede, los/las Liquidadores/as deberán publicar en el Boletín Concursal la respetiva insistencia, con la nomenclatura “Insistencia Cuenta Final”, dentro del plazo señalado por la norma referida.</parrafo>
           <parrafo>Del mismo modo, los/las Liquidadores/as deberán acompañar al tribunal copia de la referida publicación, dentro del plazo de 2 días hábiles siguientes a dicha publicación, con el respectivo código de verificación que dé cuenta de la efectividad de haber practicado las publicaciones en el Boletín Concursal.</parrafo>
         </contenido>
       </articulo>
@@ -186,7 +176,9 @@ Lo anterior, sin perjuicio de las instrucciones que este Servicio puede impartir
       <articulo id="10" tipo_original="Artículo" numero="10">
         <titulo_seccion>Artículo 10. Cómputo de plazos</titulo_seccion>
         <contexto>TÍTULO IV Disposiciones finales</contexto>
-        <texto>Los plazos establecidos en la presente Norma de Carácter General, para practicar las publicaciones en el Boletín Concursal, terminarán a la medianoche del último día del respectivo plazo, de acuerdo a lo establecido en el artículo 9° de la Norma de Carácter General N.° 14 de 11 de agosto de 2023 o la que la reemplace.</texto>
+        <contenido>
+          <parrafo>Los plazos establecidos en la presente Norma de Carácter General, para practicar las publicaciones en el Boletín Concursal, terminarán a la medianoche del último día del respectivo plazo, de acuerdo a lo establecido en el artículo 9° de la Norma de Carácter General N.° 14 de 11 de agosto de 2023 o la que la reemplace.</parrafo>
+        </contenido>
         <referencias>
           <ref articulo="9"/>
         </referencias>
@@ -194,7 +186,9 @@ Lo anterior, sin perjuicio de las instrucciones que este Servicio puede impartir
       <articulo id="11" tipo_original="Artículo" numero="11">
         <titulo_seccion>Artículo 11. Revocación</titulo_seccion>
         <contexto>TÍTULO IV Disposiciones finales</contexto>
-        <texto>Revócase a contar de la entrada en vigencia de la presente Norma de Carácter General, la Resolución Exenta N.° 11902 de 13 de noviembre de 2018, que interpreta administrativamente el artículo 52 de la Ley N.° 20.720, con el objeto de llenar los vacíos respecto de la forma de presentar las objeciones e insistencias a la cuenta final.</texto>
+        <contenido>
+          <parrafo>Revócase a contar de la entrada en vigencia de la presente Norma de Carácter General, la Resolución Exenta N.° 11902 de 13 de noviembre de 2018, que interpreta administrativamente el artículo 52 de la Ley N.° 20.720, con el objeto de llenar los vacíos respecto de la forma de presentar las objeciones e insistencias a la cuenta final.</parrafo>
+        </contenido>
         <referencias>
           <ref articulo="52"/>
         </referencias>
@@ -212,11 +206,13 @@ Lo anterior, sin perjuicio de las instrucciones que este Servicio puede impartir
       </articulo>
     </titulo>
   </contenido>
-  <promulgacion>RESUELVO:
+  <disposiciones_finales>
+    <texto>RESUELVO:
 
 1º APRUÉBASE la siguiente Norma de Carácter General, que regula el medio electrónico a través del cual deberán acompañarse a esta Superintendencia las copias de las objeciones a la cuenta final de administración, presentadas ante el tribunal y las copias de las insistencias a las objeciones a la cuenta final y las instrucciones que contiene:
 
 NORMA DE CARÁCTER GENERAL N.° 18
 
-ANÓTESE, PUBLÍQUESE Y ARCHÍVESE,</promulgacion>
+ANÓTESE, PUBLÍQUESE Y ARCHÍVESE,</texto>
+  </disposiciones_finales>
 </ley>

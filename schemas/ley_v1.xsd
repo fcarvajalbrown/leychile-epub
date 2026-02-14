@@ -1,11 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
   Esquema XSD para Normas Legales Chilenas
-  Versión: 1.0
+  Versión: 1.1
   Proyecto: LeyChile ePub Generator
-  
+
   Este esquema define la estructura estándar para representar leyes, decretos,
-  códigos y otras normas legales chilenas en formato XML.
+  códigos, NCGs, instructivos y otras normas legales chilenas en formato XML.
+
+  Cambios v1.1:
+  - Encabezado estructurado con <vistos>, <considerandos> (punto 4 feedback)
+  - Nuevo elemento <conceptos> en metadatos (punto 3 feedback)
+  - Nuevo elemento <disposiciones_finales> para SUPERIR (punto 9 feedback)
+  - RefType enriquecido con cuerpo, libro, inciso (punto 8 feedback)
+  - LeyRefType estructurado con atributos tipo/numero (punto 8 feedback)
+  - fecha_estado en atributos raíz (punto 2 feedback)
+  - Artículos siempre con contenido estructurado (punto 7 feedback)
 -->
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
            targetNamespace="https://leychile.cl/schema/ley/v1"
@@ -15,11 +24,13 @@
   <!-- ═══════════════════════════════════════════════════════════════════════
        ELEMENTO RAÍZ
        ═══════════════════════════════════════════════════════════════════════ -->
-  
+
   <xs:element name="ley" type="ley:LeyType">
     <xs:annotation>
       <xs:documentation>
         Elemento raíz que representa una norma legal chilena completa.
+        Se usa "ley" como contenedor genérico para todo tipo de norma
+        (leyes, decretos, códigos, NCG, instructivos, etc.).
       </xs:documentation>
     </xs:annotation>
   </xs:element>
@@ -100,20 +111,31 @@
   <xs:complexType name="LeyType">
     <xs:sequence>
       <xs:element name="metadatos" type="ley:MetadatosType"/>
-      <xs:element name="encabezado" type="xs:string"/>
+      <xs:element name="encabezado" type="ley:EncabezadoType" minOccurs="0"/>
       <xs:element name="contenido" type="ley:ContenidoType"/>
       <xs:element name="promulgacion" type="xs:string" minOccurs="0">
         <xs:annotation>
-          <xs:documentation>Texto de promulgación y cierre (RESUELVO, firmas).</xs:documentation>
+          <xs:documentation>
+            Texto de promulgación para leyes de la BCN.
+            Para normas SUPERIR, usar disposiciones_finales en su lugar.
+          </xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="disposiciones_finales" type="ley:DisposicionesFinalesType" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation>
+            Cierre del documento normativo (SUPERIR): notificación, vigencia,
+            publicación, distribución. Reemplaza a promulgacion para NCG/Instructivos.
+          </xs:documentation>
         </xs:annotation>
       </xs:element>
       <xs:element name="anexos" type="ley:AnexosType" minOccurs="0"/>
     </xs:sequence>
-    
+
     <!-- Atributos obligatorios -->
     <xs:attribute name="version" type="xs:string" use="required">
       <xs:annotation>
-        <xs:documentation>Versión del esquema XML (ej: "1.0")</xs:documentation>
+        <xs:documentation>Versión del esquema XML (ej: "1.0", "1.1")</xs:documentation>
       </xs:annotation>
     </xs:attribute>
     <xs:attribute name="idioma" type="ley:IdiomaType" use="required">
@@ -128,19 +150,89 @@
       </xs:annotation>
     </xs:attribute>
     <xs:attribute name="estado" type="ley:EstadoType" use="required"/>
-    
+
     <!-- Atributos opcionales -->
     <xs:attribute name="id_norma" type="xs:string">
       <xs:annotation>
-        <xs:documentation>ID único en la BCN</xs:documentation>
+        <xs:documentation>ID único en la BCN o sistema de origen.</xs:documentation>
       </xs:annotation>
     </xs:attribute>
     <xs:attribute name="fecha_version" type="xs:date"/>
     <xs:attribute name="fecha_promulgacion" type="xs:date"/>
     <xs:attribute name="fecha_publicacion" type="xs:date"/>
+    <xs:attribute name="fecha_estado" type="xs:date">
+      <xs:annotation>
+        <xs:documentation>
+          Fecha del último cambio de estado (vigente/derogada/parcial).
+          Útil para trazabilidad de vigencias.
+        </xs:documentation>
+      </xs:annotation>
+    </xs:attribute>
     <xs:attribute name="generado" type="xs:dateTime"/>
     <xs:attribute name="fuente" type="xs:string"/>
     <xs:attribute name="url_original" type="xs:anyURI"/>
+  </xs:complexType>
+
+  <!-- ═══════════════════════════════════════════════════════════════════════
+       ENCABEZADO ESTRUCTURADO
+       ═══════════════════════════════════════════════════════════════════════ -->
+
+  <xs:complexType name="EncabezadoType">
+    <xs:annotation>
+      <xs:documentation>
+        Encabezado del documento normativo. Para normas SUPERIR se estructura
+        en vistos y considerandos; para leyes BCN puede contener solo texto.
+        Permite queries como "dame el considerando 3" o "qué leyes se citan en VISTOS".
+      </xs:documentation>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element name="texto" type="xs:string" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation>
+            Texto plano del encabezado (usado para leyes BCN donde no se
+            estructura VISTOS/CONSIDERANDO separadamente).
+          </xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="vistos" type="xs:string" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation>
+            Sección VISTOS: facultades legales y antecedentes que
+            fundamentan la dictación de la norma.
+          </xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="considerandos" type="xs:string" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation>
+            Sección CONSIDERANDO: razones de hecho y derecho que
+            motivan la dictación de la norma. Numerados (1°, 2°, etc.).
+          </xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+    <xs:attribute name="derogado" type="xs:boolean"/>
+  </xs:complexType>
+
+  <!-- ═══════════════════════════════════════════════════════════════════════
+       DISPOSICIONES FINALES (CIERRE PARA NORMAS SUPERIR)
+       ═══════════════════════════════════════════════════════════════════════ -->
+
+  <xs:complexType name="DisposicionesFinalesType">
+    <xs:annotation>
+      <xs:documentation>
+        Disposiciones finales del documento normativo (reemplaza "promulgacion"
+        para NCG e Instructivos SUPERIR). Contiene: notificación, vigencia,
+        publicación, publicidad, distribución y archivado.
+      </xs:documentation>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element name="texto" type="xs:string" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation>Texto completo de las disposiciones finales.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
   </xs:complexType>
 
   <!-- ═══════════════════════════════════════════════════════════════════════
@@ -156,7 +248,23 @@
       </xs:element>
       <xs:element name="identificacion" type="ley:IdentificacionType"/>
       <xs:element name="organismos" type="ley:OrganismosType" minOccurs="0"/>
-      <xs:element name="materias" type="ley:MateriasType" minOccurs="0"/>
+      <xs:element name="materias" type="ley:MateriasType" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation>
+            Materias temáticas de la norma (ej: "Prelación de créditos",
+            "Repartos de fondos", "Liquidación"). Solo temas, no entidades.
+          </xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="conceptos" type="ley:ConceptosType" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation>
+            Conceptos, entidades e instituciones mencionados en la norma
+            (ej: "Síndicos", "Acreedores valistas", "Liquidadores").
+            Separados de materias temáticas para facilitar búsquedas.
+          </xs:documentation>
+        </xs:annotation>
+      </xs:element>
       <xs:element name="nombres_comunes" type="ley:NombresComunesType" minOccurs="0"/>
       <xs:element name="fechas" type="ley:FechasType" minOccurs="0"/>
       <xs:element name="fuente" type="xs:string" minOccurs="0"/>
@@ -196,6 +304,18 @@
     </xs:sequence>
   </xs:complexType>
 
+  <xs:complexType name="ConceptosType">
+    <xs:annotation>
+      <xs:documentation>
+        Lista de conceptos, entidades e instituciones relevantes.
+        Separados de materias temáticas para taxonomía más precisa.
+      </xs:documentation>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element name="concepto" type="xs:string" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
   <xs:complexType name="NombresComunesType">
     <xs:sequence>
       <xs:element name="nombre" type="xs:string" maxOccurs="unbounded"/>
@@ -219,14 +339,32 @@
       </xs:documentation>
     </xs:annotation>
     <xs:sequence>
-      <xs:element name="ley_ref" type="xs:string" maxOccurs="unbounded">
-        <xs:annotation>
-          <xs:documentation>
-            Referencia a una norma (ej: "Ley 20.720", "DFL 1-19.653", "D.S. 8").
-          </xs:documentation>
-        </xs:annotation>
-      </xs:element>
+      <xs:element name="ley_ref" type="ley:LeyRefType" maxOccurs="unbounded"/>
     </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="LeyRefType">
+    <xs:annotation>
+      <xs:documentation>
+        Referencia estructurada a una norma. El texto del elemento contiene
+        la referencia legible (ej: "Ley 20.720"). Los atributos opcionales
+        permiten búsquedas estructuradas.
+      </xs:documentation>
+    </xs:annotation>
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute name="tipo" type="xs:string">
+          <xs:annotation>
+            <xs:documentation>Tipo de norma: Ley, DFL, D.S., NCG, etc.</xs:documentation>
+          </xs:annotation>
+        </xs:attribute>
+        <xs:attribute name="numero" type="xs:string">
+          <xs:annotation>
+            <xs:documentation>Número de la norma referenciada.</xs:documentation>
+          </xs:annotation>
+        </xs:attribute>
+      </xs:extension>
+    </xs:simpleContent>
   </xs:complexType>
 
   <!-- ═══════════════════════════════════════════════════════════════════════
@@ -379,7 +517,9 @@
     <xs:annotation>
       <xs:documentation>
         Unidad fundamental del articulado.
-        Puede contener texto simple o contenido estructurado.
+        Siempre usa contenido estructurado con parrafos e incisos.
+        El id es un contador interno secuencial; numero es el número
+        jurídico del artículo (arábigo o romano, con posibles sufijos).
       </xs:documentation>
     </xs:annotation>
     <xs:sequence>
@@ -393,13 +533,20 @@
       <!-- Para doble articulado (artículos dentro de artículos) -->
       <xs:element name="seccion" type="ley:SeccionType" minOccurs="0" maxOccurs="unbounded"/>
     </xs:sequence>
-    <xs:attribute name="id" type="xs:string" use="required"/>
+    <xs:attribute name="id" type="xs:string" use="required">
+      <xs:annotation>
+        <xs:documentation>
+          ID interno secuencial, único dentro del documento.
+          No confundir con "numero" que es el número jurídico.
+        </xs:documentation>
+      </xs:annotation>
+    </xs:attribute>
     <xs:attribute name="tipo_original" type="xs:string"/>
     <xs:attribute name="numero" type="xs:string" use="required">
       <xs:annotation>
         <xs:documentation>
-          Número del artículo. Puede incluir sufijos como "BIS", "TER".
-          Ejemplos: "1", "3 BIS", "10 (DEL ART. 2)"
+          Número jurídico del artículo. Puede incluir sufijos como "BIS", "TER".
+          Ejemplos: "1", "3 BIS", "10 (DEL ART. 2)", "transitorio"
         </xs:documentation>
       </xs:annotation>
     </xs:attribute>
@@ -411,6 +558,8 @@
     <xs:annotation>
       <xs:documentation>
         Contenido estructurado de un artículo, con párrafos e incisos.
+        Se prefiere siempre este formato sobre texto plano para
+        permitir referenciar "inciso 2" o "párrafo 3" con precisión.
       </xs:documentation>
     </xs:annotation>
     <xs:choice minOccurs="0" maxOccurs="unbounded">
@@ -453,7 +602,7 @@
   <xs:complexType name="ReferenciasType">
     <xs:annotation>
       <xs:documentation>
-        Lista de referencias a otros artículos mencionados en el texto.
+        Lista de referencias a otros artículos o normas mencionados en el texto.
       </xs:documentation>
     </xs:annotation>
     <xs:sequence>
@@ -464,7 +613,8 @@
   <xs:complexType name="RefType">
     <xs:annotation>
       <xs:documentation>
-        Referencia a un artículo específico.
+        Referencia estructurada a un artículo específico de una norma.
+        Atributos enriquecidos para permitir queries precisas.
       </xs:documentation>
     </xs:annotation>
     <xs:attribute name="articulo" type="xs:string" use="required">
@@ -475,6 +625,23 @@
     <xs:attribute name="norma" type="xs:string">
       <xs:annotation>
         <xs:documentation>ID o número de otra norma referenciada.</xs:documentation>
+      </xs:annotation>
+    </xs:attribute>
+    <xs:attribute name="cuerpo" type="xs:string">
+      <xs:annotation>
+        <xs:documentation>
+          Cuerpo legal referenciado (ej: "Código de Comercio", "Ley 20.720").
+        </xs:documentation>
+      </xs:annotation>
+    </xs:attribute>
+    <xs:attribute name="libro" type="xs:string">
+      <xs:annotation>
+        <xs:documentation>Libro del cuerpo legal (ej: "IV").</xs:documentation>
+      </xs:annotation>
+    </xs:attribute>
+    <xs:attribute name="inciso" type="xs:string">
+      <xs:annotation>
+        <xs:documentation>Inciso específico (ej: "final", "2", "primero").</xs:documentation>
       </xs:annotation>
     </xs:attribute>
   </xs:complexType>

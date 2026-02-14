@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ley xmlns="https://leychile.cl/schema/ley/v1" version="1.0" idioma="es-CL" id_norma="INST-1" tipo="Instructivo" numero="1" estado="vigente" fecha_version="2025-04-22" fecha_promulgacion="2025-04-22" fecha_publicacion="2025-04-22" generado="2026-02-11T15:27:12.127609" fuente="Biblioteca del Congreso Nacional de Chile" url_original="https://www.superir.gob.cl/wp-content/uploads/2025/04/RES_NUM_7164_2025.pdf">
+<ley xmlns="https://leychile.cl/schema/ley/v1" version="1.1" idioma="es-CL" id_norma="INST-1" tipo="Instructivo" numero="1" estado="vigente" fecha_version="2025-04-22" fecha_promulgacion="2025-04-22" fecha_publicacion="2025-04-22" generado="2026-02-13T02:35:57.790881" fuente="Biblioteca del Congreso Nacional de Chile" url_original="https://www.superir.gob.cl/wp-content/uploads/2025/04/RES_NUM_7164_2025.pdf">
   <metadatos>
     <titulo>Resolución que modifica Instructivo SUPERIR N°1/2024 - Cese de liquidadores y sustitutos</titulo>
     <identificacion>
@@ -25,270 +25,97 @@
     <fuente>Superintendencia de Insolvencia y Reemprendimiento</fuente>
     <numero_fuente>7164</numero_fuente>
     <leyes_referenciadas>
-      <ley_ref>Ley 20.720</ley_ref>
-      <ley_ref>Ley 18.575</ley_ref>
-      <ley_ref>Ley 19.880</ley_ref>
-      <ley_ref>DFL 1-19.653</ley_ref>
+      <ley_ref tipo="Ley" numero="20.720">Ley 20.720</ley_ref>
+      <ley_ref tipo="Ley" numero="18.575">Ley 18.575</ley_ref>
+      <ley_ref tipo="Ley" numero="19.880">Ley 19.880</ley_ref>
+      <ley_ref tipo="DFL" numero="1-19.653">DFL 1-19.653</ley_ref>
     </leyes_referenciadas>
   </metadatos>
-  <encabezado>VISTOS:
+  <encabezado>
+    <vistos>Las facultades que le confiere a la Superintendencia de Insolvencia y Reemprendimiento la Ley N.° 20.720, en adelante “la Ley”, que sustituyó el régimen concursal por una Ley de Reorganización y Liquidación de Empresas y Personas; lo dispuesto en el D.F.L. N.º 1-19.653, de 24 de noviembre de 2001, que fija el texto Refundido, Coordinado y Sistematizado de la Ley N.º 18.575, Orgánica Constitucional de Bases Generales de la Administración del Estado; en la Ley N.º 19.880, que establece bases de los procedimientos administrativos que rigen los actos de los Órganos de la Administración del Estado; en la Resolución N.° 36 de 19 de diciembre de 2024, de la Contraloría General de la República, que fija normas sobre exención del trámite de toma de razón y, en el Decreto N.° 8 de 19 de enero de 2023, del Ministerio de Economía, Fomento y Turismo;</vistos>
+    <considerandos>1°. Que, de conformidad a lo dispuesto en los artículos 331 y siguientes de la Ley N.º 20.720, en adelante “la Ley”, la Superintendencia de Insolvencia y Reemprendimiento, en adelante la “Superintendencia”, es una persona jurídica de derecho público, creada por la Ley, como un servicio público descentralizado con personalidad jurídica y patrimonio propio, que se relaciona con el Presidente de la República, a través, del Ministerio de Economía, Fomento y Turismo, y tiene como función supervigilar y fiscalizar las actuaciones de los liquidadores, veedores, interventores designados de conformidad a la Ley, martilleros concursales, administradores de la continuación de las actividades económicas del deudor, asesores económicos de insolvencia, y, de toda persona que por ley quede sujeta a su supervigilancia y fiscalización. Asimismo, le corresponde desempeñar aquellas funciones que la referida ley le encomienda, así como las demás que se establezcan en otras leyes.
 
-Las facultades que le confiere a la
-Superintendencia de Insolvencia y Reemprendimiento la Ley N.° 20.720, en
-adelante “la Ley”, que sustituyó el régimen concursal por una Ley de
-Reorganización y Liquidación de Empresas y Personas; lo dispuesto en el
-D.F.L. N.º 1-19.653, de 24 de noviembre de 2001, que fija el texto
-Refundido, Coordinado y Sistematizado de la Ley N.º 18.575, Orgánica
-Constitucional de Bases Generales de la Administración del Estado; en la Ley
-N.º 19.880, que establece bases de los procedimientos administrativos que
-rigen los actos de los Órganos de la Administración del Estado; en la
-Resolución N.° 36 de 19 de diciembre de 2024, de la Contraloría General de
-la República, que fija normas sobre exención del trámite de toma de razón
-y, en el Decreto N.° 8 de 19 de enero de 2023, del Ministerio de Economía,
-Fomento y Turismo;
+2°. Que, el artículo 332 en relación al numeral 1 del artículo 337 de la Ley, establecen como una de las funciones de la Superintendencia, la de supervigilar y fiscalizar las actuaciones de los/las Veedores/as, Liquidadores/as, Interventores/as, Martilleros/as Concursales, Administradores/as de la continuación de las actividades económicas del/de la deudor/a, Asesores/as económicos de insolvencia y, en general, de toda persona que por ley quede sujeta a su supervigilancia y fiscalización.
 
-CONSIDERANDO:
+3°. Que, el artículo 337 de la Ley dispone que, para el cumplimiento de sus funciones, la Superintendencia tendrá las atribuciones y deberes que allí señala, otorgándole en su numeral 2 la facultad de: “Interpretar administrativamente las leyes, reglamentos y demás normas que rigen a los fiscalizados, sin perjuicio de las facultades jurisdiccionales que correspondan a los tribunales competentes.”
 
-1°. Que, de conformidad a lo dispuesto en los
-artículos 331 y siguientes de la Ley N.º 20.720, en adelante “la Ley”, la
-Superintendencia de Insolvencia y Reemprendimiento, en adelante la
-“Superintendencia”, es una persona jurídica de derecho público, creada por
-la Ley, como un servicio público descentralizado con personalidad jurídica y
-patrimonio propio, que se relaciona con el Presidente de la República, a
-través, del Ministerio de Economía, Fomento y Turismo, y tiene como función
-supervigilar y fiscalizar las actuaciones de los liquidadores, veedores,
-interventores designados de conformidad a la Ley, martilleros concursales,
-administradores de la continuación de las actividades económicas del deudor,
-asesores económicos de insolvencia, y, de toda persona que por ley quede
-sujeta a su supervigilancia y fiscalización. Asimismo, le corresponde
-desempeñar aquellas funciones que la referida ley le encomienda, así como
-las demás que se establezcan en otras leyes.
-2°. Que, el artículo 332 en relación al numeral 1
-del artículo 337 de la Ley, establecen como una de las funciones de la
-Superintendencia, la de supervigilar y fiscalizar las actuaciones de los/las
-Veedores/as, Liquidadores/as, Interventores/as, Martilleros/as Concursales,
-Administradores/as de la continuación de las actividades económicas del/de
-la deudor/a, Asesores/as económicos de insolvencia y, en general, de toda
-persona que por ley quede sujeta a su supervigilancia y fiscalización.
-3°. Que, el artículo 337 de la Ley dispone que,
-para el cumplimiento de sus funciones, la Superintendencia tendrá las
-atribuciones y deberes que allí señala, otorgándole en su numeral 2 la
-facultad de: “Interpretar administrativamente las leyes, reglamentos y
-demás normas que rigen a los fiscalizados, sin perjuicio de las facultades
-jurisdiccionales que correspondan a los tribunales competentes.”
-4°. Por su parte, el numeral 4 del citado artículo
-337, otorga a esta Superintendencia la facultad de: “Impartir a los Veedores,
-Liquidadores, administradores de la continuación de las actividades
-económicas, Martilleros Concursales que se sometan voluntariamente al
-control de la Superintendencia y asesores económicos de insolvencias,
-instrucciones de carácter obligatorio sobre las materias sometidas a su
-control y, en especial, fijar normas para la presentación de informes, estados
-de avance y cuentas provisorias o definitivas que deban presentar los
-fiscalizados.”.
-5°. Que, por medio de Resolución Exenta N.°
-4389 de 4 de abril de 2024, se aprobó el Instructivo SUPERIR N.° 1, que
-imparte instrucciones a Liquidadores/as que cesen anticipadamente en el
-cargo, a Liquidadores/as suplentes y a Liquidadores/as que asuman la
-titularidad del cargo, conforme al artículo 38 de La Ley N.° 20.720 y deja sin
-efecto Resolución Exenta N.° 8002 de 3 de agosto de 2018.
-6°. Que, en el marco del ejercicio de sus
-funciones y atribuciones, este Servicio ha estimado pertinente actualizar el
-Instructivo mencionado en el considerando precedente, para efectos de
-aclarar y perfeccionar las instrucciones en él contenidas.
-7°. Que, la presente modificación al Instructivo
-SUPERIR N.° 1, de 2024, no ha sido sometida al proceso de consulta pública,
-atendida la oportunidad en que deben surtir efecto las respectivas
-instrucciones.
-8°. Que, atendido lo expuesto y de conformidad
-a lo dispuesto en el artículo 3 de la Ley N.º 19.880 y en las normas legales
-pertinentes,</encabezado>
-  <contenido total_articulos="11" total_libros="0" total_titulos="4" total_capitulos="0">
+4°. Por su parte, el numeral 4 del citado artículo 337, otorga a esta Superintendencia la facultad de: “Impartir a los Veedores, Liquidadores, administradores de la continuación de las actividades económicas, Martilleros Concursales que se sometan voluntariamente al control de la Superintendencia y asesores económicos de insolvencias, instrucciones de carácter obligatorio sobre las materias sometidas a su control y, en especial, fijar normas para la presentación de informes, estados de avance y cuentas provisorias o definitivas que deban presentar los fiscalizados.”.
+
+5°. Que, por medio de Resolución Exenta N.° 4389 de 4 de abril de 2024, se aprobó el Instructivo SUPERIR N.° 1, que imparte instrucciones a Liquidadores/as que cesen anticipadamente en el cargo, a Liquidadores/as suplentes y a Liquidadores/as que asuman la titularidad del cargo, conforme al artículo 38 de La Ley N.° 20.720 y deja sin efecto Resolución Exenta N.° 8002 de 3 de agosto de 2018.
+
+6°. Que, en el marco del ejercicio de sus funciones y atribuciones, este Servicio ha estimado pertinente actualizar el Instructivo mencionado en el considerando precedente, para efectos de aclarar y perfeccionar las instrucciones en él contenidas.
+
+7°. Que, la presente modificación al Instructivo SUPERIR N.° 1, de 2024, no ha sido sometida al proceso de consulta pública, atendida la oportunidad en que deben surtir efecto las respectivas instrucciones.
+
+8°. Que, atendido lo expuesto y de conformidad a lo dispuesto en el artículo 3 de la Ley N.º 19.880 y en las normas legales pertinentes,</considerandos>
+  </encabezado>
+  <contenido total_articulos="11" total_libros="0" total_titulos="3" total_capitulos="0">
     <articulo id="1" tipo_original="Artículo" numero="5">
       <titulo_seccion>Artículo 5</titulo_seccion>
-      <texto>Para determinar los honorarios
-del/de la liquidador/a que cesó anticipadamente en el cargo y del/de la
-liquidador/a que asuma la titularidad, se deberán distinguir los
-procedimientos concursales en que se haya efectuado reparto de fondos de
-aquellos que no se hubiere efectuado.
-Así, en caso que se hubiere presentado
-propuesta de reparto de fondos de forma previa al cese en el cargo, los
-honorarios del/de la liquidador/a habrán sido calculados conforme a la tabla
-progresiva por tramos prevista en el artículo 40 de la Ley.
-En aquellos procedimientos en que, existiendo
-fondos disponibles, no se hubiera presentado propuesta de reparto, se
-deberá estar a lo dispuesto en el numeral 8) del artículo 39 de la Ley, es
-decir, los honorarios del/de la liquidador/a que cesó anticipadamente en el
-cargo y del/de la liquidador/a que asuma, deberán ser acordados entre el/la
-liquidador/a y la junta de acreedores. Faltando dicho acuerdo, resolverá el
-tribunal competente sin ulterior recurso.
-En relación con lo dispuesto en el inciso
-anterior, y solo una vez asumido en el cargo el/la nuevo/a liquidador/a,
-tanto el/la que hubiere cesado anticipadamente en el cargo como el/la
-liquidador/a que le corresponda asumir, podrán citar a la respectiva junta
-de acreedores para la determinación de sus honorarios, y a falta de acuerdo,
-solicitar la respectiva resolución al tribunal del concurso.
-Por lo anterior, el/la liquidador/a que cesa
-anticipadamente en el cargo deberá abstenerse de presentar una propuesta
-de reparto de fondos una vez cesado en el cargo, en virtud de cualquier
-causal.
-Si se hubiera presentado propuesta de reparto
-de fondos por el/la liquidador/a que cesó anticipadamente en el cargo, y en
-caso que aun existan fondos disponibles, solo el/la nuevo/a liquidador/a que
-asuma podrá percibir honorarios por el nuevo reparto que se presente.
-Asimismo, en caso que los fondos disponibles
-no alcanzaren para presentar una nueva propuesta de reparto, de acuerdo
-a lo dispuesto en el inciso segundo del artículo 8 del Instructivo SUPERIR
-N.° 1 de 3 de noviembre de 2023, que regula el pago de honorarios con
-cargo al presupuesto de la Superintendencia de Insolvencia y
-Reemprendimiento establecido en el artículo 40 de la Ley N.° 20.720, el/la
-nuevo/a liquidador/a que asume, podrá cobrar directamente sus honorarios
-con cargo a los fondos disponibles.</texto>
+      <contenido>
+        <parrafo>Para determinar los honorarios del/de la liquidador/a que cesó anticipadamente en el cargo y del/de la liquidador/a que asuma la titularidad, se deberán distinguir los procedimientos concursales en que se haya efectuado reparto de fondos de aquellos que no se hubiere efectuado.</parrafo>
+        <parrafo>Así, en caso que se hubiere presentado propuesta de reparto de fondos de forma previa al cese en el cargo, los honorarios del/de la liquidador/a habrán sido calculados conforme a la tabla progresiva por tramos prevista en el artículo 40 de la Ley.</parrafo>
+        <parrafo>En aquellos procedimientos en que, existiendo fondos disponibles, no se hubiera presentado propuesta de reparto, se deberá estar a lo dispuesto en el numeral 8) del artículo 39 de la Ley, es decir, los honorarios del/de la liquidador/a que cesó anticipadamente en el cargo y del/de la liquidador/a que asuma, deberán ser acordados entre el/la liquidador/a y la junta de acreedores. Faltando dicho acuerdo, resolverá el tribunal competente sin ulterior recurso.</parrafo>
+        <parrafo>En relación con lo dispuesto en el inciso anterior, y solo una vez asumido en el cargo el/la nuevo/a liquidador/a, tanto el/la que hubiere cesado anticipadamente en el cargo como el/la liquidador/a que le corresponda asumir, podrán citar a la respectiva junta de acreedores para la determinación de sus honorarios, y a falta de acuerdo, solicitar la respectiva resolución al tribunal del concurso.</parrafo>
+        <parrafo>Por lo anterior, el/la liquidador/a que cesa anticipadamente en el cargo deberá abstenerse de presentar una propuesta de reparto de fondos una vez cesado en el cargo, en virtud de cualquier causal.</parrafo>
+        <parrafo>Si se hubiera presentado propuesta de reparto de fondos por el/la liquidador/a que cesó anticipadamente en el cargo, y en caso que aun existan fondos disponibles, solo el/la nuevo/a liquidador/a que asuma podrá percibir honorarios por el nuevo reparto que se presente.</parrafo>
+        <parrafo>Asimismo, en caso que los fondos disponibles no alcanzaren para presentar una nueva propuesta de reparto, de acuerdo a lo dispuesto en el inciso segundo del artículo 8 del Instructivo SUPERIR N.° 1 de 3 de noviembre de 2023, que regula el pago de honorarios con cargo al presupuesto de la Superintendencia de Insolvencia y Reemprendimiento establecido en el artículo 40 de la Ley N.° 20.720, el/la nuevo/a liquidador/a que asume, podrá cobrar directamente sus honorarios con cargo a los fondos disponibles.</parrafo>
+      </contenido>
       <referencias>
+        <ref articulo="39"/>
         <ref articulo="40"/>
         <ref articulo="8"/>
-        <ref articulo="39"/>
       </referencias>
     </articulo>
     <articulo id="2" tipo_original="Artículo" numero="6">
       <titulo_seccion>Artículo 6</titulo_seccion>
-      <texto>Si al presentar la Cuenta Final de
-Administración, el/la Liquidador/a que asume en calidad de titular por cese
-anticipado en el cargo, determina que sus honorarios corresponden a un
-monto inferior a 30 unidades de fomento, deberá comunicar dicha
-circunstancia a la Superintendencia, para obtener el pago del saldo restante,
-conforme a las instrucciones contenidas en el citado Instructivo SUPERIR
-N.° 1, de 2023.
-Sin perjuicio de lo anterior, si un/a liquidador/a
-hubiere asumido en calidad de titular por cese anticipado, no debiendo haber
-aceptado el cargo en conformidad a lo previsto en el artículo 2° del presente
-Instructivo, no podrá cobrar sus honorarios con cargo al presupuesto de
-esta Superintendencia, salvo instrucción expresa de este organismo o el
-respectivo tribunal, de asumir como liquidador/a titular.”.
-5°. REEMPLÁZASE el actual artículo 7°, que
-pasó a ser artículo 9°, por el siguiente:
-“Artículo 9°. Disposición transitoria. Los/as
-liquidadores/as que a la fecha de dictación del presente Instructivo se
-encuentren en cualquiera de las situaciones descritas precedentemente,
-tendrán un plazo de 10 días hábiles, contado desde la fecha de notificación
-del presente Instructivo, para cumplir con las instrucciones señaladas en los
-Títulos I, II y III del presente Instructivo.”.
-II. FÍJASE el texto refundido del Instructivo
-SUPERIR N.°1, de 2024, que imparte instrucciones a Liquidadores/as que
-cesen anticipadamente en el cargo, a Liquidadores/as suplentes y a
-Liquidadores/as que asuman la titularidad del cargo, conforme al artículo 38
-de la Ley N.° 20.720, modificado por el presente acto administrativo, cuyo
-tenor es el siguiente:
-INSTRUCTIVO SUPERIR N.° 1</texto>
+      <contenido>
+        <parrafo>Si al presentar la Cuenta Final de Administración, el/la Liquidador/a que asume en calidad de titular por cese anticipado en el cargo, determina que sus honorarios corresponden a un monto inferior a 30 unidades de fomento, deberá comunicar dicha circunstancia a la Superintendencia, para obtener el pago del saldo restante, conforme a las instrucciones contenidas en el citado Instructivo SUPERIR N.° 1, de 2023.</parrafo>
+        <parrafo>Sin perjuicio de lo anterior, si un/a liquidador/a hubiere asumido en calidad de titular por cese anticipado, no debiendo haber aceptado el cargo en conformidad a lo previsto en el artículo 2° del presente Instructivo, no podrá cobrar sus honorarios con cargo al presupuesto de esta Superintendencia, salvo instrucción expresa de este organismo o el respectivo tribunal, de asumir como liquidador/a titular.”.</parrafo>
+        <inciso numero="1">. REEMPLÁZASE el actual artículo 7°, que pasó a ser artículo 9°, por el siguiente: “Artículo 9°. Disposición transitoria. Los/as liquidadores/as que a la fecha de dictación del presente Instructivo se encuentren en cualquiera de las situaciones descritas precedentemente, tendrán un plazo de 10 días hábiles, contado desde la fecha de notificación del presente Instructivo, para cumplir con las instrucciones señaladas en los Títulos I, II y III del presente Instructivo.”.</inciso>
+        <parrafo>II. FÍJASE el texto refundido del Instructivo SUPERIR N.°1, de 2024, que imparte instrucciones a Liquidadores/as que cesen anticipadamente en el cargo, a Liquidadores/as suplentes y a Liquidadores/as que asuman la titularidad del cargo, conforme al artículo 38 de la Ley N.° 20.720, modificado por el presente acto administrativo, cuyo tenor es el siguiente:</parrafo>
+        <parrafo>INSTRUCTIVO SUPERIR N.° 1</parrafo>
+        <parrafo>Título I Obligaciones de los/las liquidadores/as que cesan anticipadamente en su cargo</parrafo>
+      </contenido>
       <referencias>
-        <ref articulo="9"/>
-        <ref articulo="2"/>
         <ref articulo="38"/>
+        <ref articulo="9"/>
         <ref articulo="7"/>
+        <ref articulo="2"/>
       </referencias>
     </articulo>
-    <titulo id="1" tipo_original="Título" numero="I">
-      <titulo_seccion>TÍTULO I Obligaciones de los/las liquidadores/as que cesan</titulo_seccion>
-      <articulo id="3" tipo_original="Artículo" numero="1">
-        <titulo_seccion>Artículo 1</titulo_seccion>
-        <contexto>TÍTULO I Obligaciones de los/las liquidadores/as que cesan</contexto>
-        <texto>El/la liquidador/a titular que
-hubiere cesado anticipadamente en su cargo por cualquier causa, deberá
-distinguir aquellos procedimientos en los que existan gestiones pendientes,
-de aquellos que no.
-De esta forma, en los procedimientos
-concursales en que se hubieren agotado los fondos y no existan activos
-susceptibles de ingresar a la masa, no será necesario que asuma un/a
-liquidador/a suplente o un/a liquidador/a designado/a conforme al artículo
-38 de la Ley, por lo que el/la liquidador/a que cesó anticipadamente en el
-cargo deberá rendir su cuenta final de administración dentro del plazo de 30
-días desde que hubiere concurrido la causal prevista en el número 3) del
-artículo 50 de la Ley y, habiendo transcurrido los plazos para objetarla sin
-que se hubieren presentado objeciones o habiéndose desechado en todas
-sus partes la o las objeciones deducidas, deberá solicitar al tribunal su
-aprobación y posterior dictación de la resolución judicial que declare
-terminado el procedimiento.
-En caso contrario, esto es, encontrándose
-gestiones pendientes que impidan la conclusión del procedimiento, el/la
-liquidador/a que cesó anticipadamente en el cargo, deberá hacer presente
-dicha situación al tribunal respectivo, cuando corresponda, e informar al/a
-la liquidador/a suplente que deberá asumir como titular dentro del plazo de
-5 días hábiles desde que se hubiere configurado el cese anticipado por
-cualquier causa.
-En caso que el/la liquidador/a suplente no
-pudiere asumir, se aplicará lo dispuesto en los incisos segundo y tercero del
-artículo 38 de la Ley.
-Asimismo, el/la liquidador/a deberá rendir
-cuenta de su administración en el plazo de 30 días desde el cese anticipado
-en el cargo, conforme a lo previsto en el numeral 3) del artículo 50 de la
-Ley, en relación con lo previsto en el inciso primero del artículo 38 del mismo
-cuerpo legal, que establece una enumeración no taxativa de situaciones que
-constituyen cese anticipado.
-Además, una vez que el/la liquidador/a
-suplente o aquel/aquella designado/a conforme al artículo 38 de la Ley, haya
-asumido en el cargo, el/la liquidador/a que cesó anticipadamente deberá
-dar cumplimiento a lo dispuesto en el inciso final del artículo 24 de la Ley,
-esto es, hacer entrega de los antecedentes y fondos del Procedimiento
-Concursal a dicho/a liquidador/a, dentro de los diez días siguientes a la fecha
-en que este/esta último/a haya asumido.
-Se hace presente que, conforme a lo señalado
-en el inciso final del artículo 24 de la Ley, en caso de incumplimiento de lo
-señalado en el párrafo precedente y anteprecedente, el tribunal competente,
-de oficio o a petición de cualquier interesado, requerirá el cumplimiento
-según lo previsto en el artículo 238 del Código de Procedimiento Civil, en
-cuyo caso la multa será de 10 a 200 unidades tributarias mensuales. Sin
-perjuicio de lo anterior, la Superintendencia podrá aplicar las sanciones que
-correspondan.</texto>
-        <referencias>
-          <ref articulo="24"/>
-          <ref articulo="238"/>
-          <ref articulo="38"/>
-          <ref articulo="50"/>
-        </referencias>
-      </articulo>
-    </titulo>
-    <titulo id="2" tipo_original="Título" numero="II">
-      <titulo_seccion>TÍTULO II Obligaciones de los/las liquidadores/as suplentes y aquellos/as</titulo_seccion>
+    <articulo id="3" tipo_original="Artículo" numero="1">
+      <titulo_seccion>Artículo 1</titulo_seccion>
+      <contenido>
+        <parrafo>El/la liquidador/a titular que hubiere cesado anticipadamente en su cargo por cualquier causa, deberá distinguir aquellos procedimientos en los que existan gestiones pendientes, de aquellos que no.</parrafo>
+        <parrafo>De esta forma, en los procedimientos concursales en que se hubieren agotado los fondos y no existan activos susceptibles de ingresar a la masa, no será necesario que asuma un/a liquidador/a suplente o un/a liquidador/a designado/a conforme al artículo</parrafo>
+        <parrafo>38 de la Ley, por lo que el/la liquidador/a que cesó anticipadamente en el cargo deberá rendir su cuenta final de administración dentro del plazo de 30 días desde que hubiere concurrido la causal prevista en el número 3) del artículo 50 de la Ley y, habiendo transcurrido los plazos para objetarla sin que se hubieren presentado objeciones o habiéndose desechado en todas sus partes la o las objeciones deducidas, deberá solicitar al tribunal su aprobación y posterior dictación de la resolución judicial que declare terminado el procedimiento.</parrafo>
+        <parrafo>En caso contrario, esto es, encontrándose gestiones pendientes que impidan la conclusión del procedimiento, el/la liquidador/a que cesó anticipadamente en el cargo, deberá hacer presente dicha situación al tribunal respectivo, cuando corresponda, e informar al/a la liquidador/a suplente que deberá asumir como titular dentro del plazo de 5 días hábiles desde que se hubiere configurado el cese anticipado por cualquier causa.</parrafo>
+        <parrafo>En caso que el/la liquidador/a suplente no pudiere asumir, se aplicará lo dispuesto en los incisos segundo y tercero del artículo 38 de la Ley.</parrafo>
+        <parrafo>Asimismo, el/la liquidador/a deberá rendir cuenta de su administración en el plazo de 30 días desde el cese anticipado en el cargo, conforme a lo previsto en el numeral 3) del artículo 50 de la Ley, en relación con lo previsto en el inciso primero del artículo 38 del mismo cuerpo legal, que establece una enumeración no taxativa de situaciones que constituyen cese anticipado.</parrafo>
+        <parrafo>Además, una vez que el/la liquidador/a suplente o aquel/aquella designado/a conforme al artículo 38 de la Ley, haya asumido en el cargo, el/la liquidador/a que cesó anticipadamente deberá dar cumplimiento a lo dispuesto en el inciso final del artículo 24 de la Ley, esto es, hacer entrega de los antecedentes y fondos del Procedimiento Concursal a dicho/a liquidador/a, dentro de los diez días siguientes a la fecha en que este/esta último/a haya asumido.</parrafo>
+        <parrafo>Se hace presente que, conforme a lo señalado en el inciso final del artículo 24 de la Ley, en caso de incumplimiento de lo señalado en el párrafo precedente y anteprecedente, el tribunal competente, de oficio o a petición de cualquier interesado, requerirá el cumplimiento según lo previsto en el artículo 238 del Código de Procedimiento Civil, en cuyo caso la multa será de 10 a 200 unidades tributarias mensuales. Sin perjuicio de lo anterior, la Superintendencia podrá aplicar las sanciones que correspondan.</parrafo>
+      </contenido>
+      <referencias>
+        <ref articulo="24"/>
+        <ref articulo="238"/>
+        <ref articulo="50"/>
+        <ref articulo="38"/>
+      </referencias>
+    </articulo>
+    <titulo id="1" tipo_original="Título" numero="II">
+      <titulo_seccion>Título II Obligaciones de los/las liquidadores/as suplentes y aquellos/as que asumen como titular conforme al artículo 38 de la Ley N.° 20.720</titulo_seccion>
       <articulo id="4" tipo_original="Artículo" numero="2">
         <titulo_seccion>Artículo 2</titulo_seccion>
-        <contexto>TÍTULO II Obligaciones de los/las liquidadores/as suplentes y aquellos/as</contexto>
-        <texto>El/La liquidador/a que hubiere sido
-designado/a en calidad de suplente en un procedimiento en que hubiere
-operado el cese anticipado, deberá asumir en el cargo mediante un escrito
-presentado al tribunal respectivo, dentro de los dos días siguientes a la
-cesación del/de la liquidador/a titular o desde que toma conocimiento del
-cese anticipado, cualquiera sea la causa del cese, de acuerdo a lo establecido
-en el inciso segundo del artículo 24 de la Ley, en caso que existan gestiones
-pendientes, de acuerdo a lo señalado en el inciso segundo del artículo 1° de
-este Instructivo, debiendo dar curso progresivo al procedimiento según el
-estado procesal en que se encuentre.
-Para el cumplimiento de la obligación
-contemplada en el inciso anterior, el/la liquidador/a suplente deberá
-considerar como gestiones pendientes, todo acto que implique la
-administración del procedimiento. A modo ejemplar, y sin que ello implique
-una enumeración taxativa, se menciona la diligencia de incautación o
-requerimiento de entrega de bienes, la confección de inventario, la
-designación de martillero concursal, la confección de bases de remate, la
-realización de bienes, cualquiera sea la forma de realización de los mismos,
-las propuestas de repartos de fondos en el procedimiento, la distribución de
-los mismos, los pagos administrativos, entre otros.
-Cualquier otra gestión que implique la
-administración del procedimiento, de la cual está privado el/la liquidador/a
-que cesó anticipadamente en el cargo, que presente características similares
-a las indicadas en el inciso anterior, y que pudiera afectar el desarrollo del
-procedimiento concursal, deberá considerarse igualmente como gestión
-pendiente.
-Ante la falta de certeza, esta Superintendencia
-determinará si corresponde o no que el/la liquidador/a suplente asuma el
-cargo en calidad de titular, previo requerimiento por parte del/de la
-liquidador/a suplente, a través del correo electrónico
-ofpartes@superir.gob.cl, indicando en el asunto “Requiere pronunciamiento
-Instructivo SUPERIR N.°1, 2024”.
-El/la liquidador/a suplente que haya asumido la
-titularidad en el cargo, y que no hubiere recibido los antecedentes o fondos
-del procedimiento dentro del plazo establecido en el inciso final del artículo
-24 de la Ley, deberá requerir su cumplimiento, por intermedio del tribunal
-del procedimiento concursal respectivo, bajo el apercibimiento previsto en
-el mismo inciso del cuerpo legal citado.</texto>
+        <contexto>Título II Obligaciones de los/las liquidadores/as suplentes y aquellos/as que asumen como titular conforme al artículo 38 de la Ley N.° 20.720</contexto>
+        <contenido>
+          <parrafo>El/La liquidador/a que hubiere sido designado/a en calidad de suplente en un procedimiento en que hubiere operado el cese anticipado, deberá asumir en el cargo mediante un escrito presentado al tribunal respectivo, dentro de los dos días siguientes a la cesación del/de la liquidador/a titular o desde que toma conocimiento del cese anticipado, cualquiera sea la causa del cese, de acuerdo a lo establecido en el inciso segundo del artículo 24 de la Ley, en caso que existan gestiones pendientes, de acuerdo a lo señalado en el inciso segundo del artículo 1° de este Instructivo, debiendo dar curso progresivo al procedimiento según el estado procesal en que se encuentre.</parrafo>
+          <parrafo>Para el cumplimiento de la obligación contemplada en el inciso anterior, el/la liquidador/a suplente deberá considerar como gestiones pendientes, todo acto que implique la administración del procedimiento. A modo ejemplar, y sin que ello implique una enumeración taxativa, se menciona la diligencia de incautación o requerimiento de entrega de bienes, la confección de inventario, la designación de martillero concursal, la confección de bases de remate, la realización de bienes, cualquiera sea la forma de realización de los mismos, las propuestas de repartos de fondos en el procedimiento, la distribución de los mismos, los pagos administrativos, entre otros.</parrafo>
+          <parrafo>Cualquier otra gestión que implique la administración del procedimiento, de la cual está privado el/la liquidador/a que cesó anticipadamente en el cargo, que presente características similares a las indicadas en el inciso anterior, y que pudiera afectar el desarrollo del procedimiento concursal, deberá considerarse igualmente como gestión pendiente.</parrafo>
+          <parrafo>Ante la falta de certeza, esta Superintendencia determinará si corresponde o no que el/la liquidador/a suplente asuma el cargo en calidad de titular, previo requerimiento por parte del/de la liquidador/a suplente, a través del correo electrónico ofpartes@superir.gob.cl, indicando en el asunto “Requiere pronunciamiento Instructivo SUPERIR N.°1, 2024”.</parrafo>
+          <parrafo>El/la liquidador/a suplente que haya asumido la titularidad en el cargo, y que no hubiere recibido los antecedentes o fondos del procedimiento dentro del plazo establecido en el inciso final del artículo</parrafo>
+          <parrafo>24 de la Ley, deberá requerir su cumplimiento, por intermedio del tribunal del procedimiento concursal respectivo, bajo el apercibimiento previsto en el mismo inciso del cuerpo legal citado.</parrafo>
+        </contenido>
         <referencias>
           <ref articulo="1"/>
           <ref articulo="24"/>
@@ -296,338 +123,138 @@ el mismo inciso del cuerpo legal citado.</texto>
       </articulo>
       <articulo id="5" tipo_original="Artículo" numero="3">
         <titulo_seccion>Artículo 3</titulo_seccion>
-        <contexto>TÍTULO II Obligaciones de los/las liquidadores/as suplentes y aquellos/as</contexto>
-        <texto>En caso que, el/la liquidador/a que
-haya asumido la titularidad en el cargo, tome conocimiento que el/la ex
-liquidador/a titular dispone de fondos no ingresados al procedimiento
-concursal, y/o no informados en la cuenta provisoria respectiva, y, en
-definitiva, no hizo entrega de ellos al/la liquidador/a titular actual, además
-de solicitar el apercibimiento señalado en el párrafo anterior, deberá
-informar tal circunstancia a esta Superintendencia mediante Módulo de
-Comunicación Directa del Portal de Sujetos Fiscalizados, dentro del plazo de
-2 días hábiles, contado desde la fecha de la presentación de la solicitud al
-tribunal, seleccionando la materia “Informa fondos no ingresados Instructivo
-SUPERIR N.° 1, 2024”.
-Adicionalmente, el/la liquidador/a que haya
-asumido la titularidad en el cargo, deberá evaluar la procedencia de
-interponer la respectiva denuncia o querella criminal ante los organismos
-pertinentes, en contra del/de la ex liquidador/a que realizare alguna de las
-conductas señaladas en el párrafo anterior, dado que, al no ingresar al
-procedimiento concursal fondos que tiene disponible y/o no informar o
-entregar los mismos, podría configurar, eventualmente, alguno de los
-delitos económicos previstos y sancionados en el Código Penal y en leyes
-especiales.
-Si resulta procedente, dicha denuncia o querella
-deberá ser interpuesta en el plazo de 30 días desde que el/la liquidador/a
-hubiere asumido el cargo en calidad de titular y comunicada a la
-Superintendencia a través del Módulo de Comunicación Directa del Portal de
-Sujetos Fiscalizados, seleccionando la materia “Informa interposición
-querella o denuncia penal Instructivo SUPERIR N.° 1, 2024”, en un plazo de
-3 días desde su presentación. Para el cumplimiento de este deber, deberá
-exponer detalladamente los hechos de los que hubiere tomado
-conocimiento, y que eventualmente pudieren configurar algún ilícito penal.
-Además, deberá informar dentro del plazo de
-15 días hábiles contado desde la interposición, los datos de la investigación
-penal, tales como fiscal adjunto, fiscalía local, RUC y/o RIT y Juzgado de
-Garantía, a través del Módulo de Comunicación Directa del Portal de Sujetos
-Fiscalizados, seleccionando la materia “Informa datos de investigación penal
-Instructivo SUPERIR N.° 1, 2024”.
-Por su parte, el deber expuesto anteriormente,
-resulta concordante con lo dispuesto en el artículo 465 del Código Penal, por
-cuanto el/la liquidador/a tiene la legitimación activa para dar inicio a la
-persecución e investigación penal a cargo del Ministerio Público.
-En caso de que el/la liquidador/a que asumió
-como titular en el procedimiento, determine que no corresponde interponer
-la denuncia o querella, deberá informar a la Superintendencia esa decisión,
-en el plazo de 30 días desde que hubiere asumido el cargo en calidad de
-titular, a través del Módulo de Comunicación Directa del Portal de Sujetos
-Fiscalizados, seleccionando la materia “Informa no presentación de querella
-o denuncia penal Instructivo SUPERIR N.° 1, 2024”, indicando los
-fundamentos legales y de hecho que justifican su decisión.
-Las mismas obligaciones tendrá el/la
-liquidador/a suplente que asuma la titularidad del cargo, en caso de que no
-se tuviere conocimiento respecto al destino de los bienes incautados e
-inventariados en el procedimiento, siendo retirados por el/la ex liquidador/a
-titular, a través del martillero/a concursal respectivo/a, o por oferta de
-compra directa, o entregados de conformidad con el artículo 275 de la Ley.
-Para el caso en que el/la liquidador/a que haya
-asumido como titular en el procedimiento, tome conocimiento que los bienes
-muebles entregados por el deudor y/o incautados e inventariados se
-encuentran en poder del martillero concursal sin enajenación, y requerida
-su entrega, cuando corresponda, este no los ponga a su disposición, deberá
-evaluar la procedencia de interponer la respectiva denuncia o querella por
-el delito de apropiación indebida, previsto y sancionado en el artículo 470
-N.º 1 del Código Penal. Asimismo, deberá informar a esta Superintendencia
-la interposición de la respectiva querella o denuncia, en los mismos términos
-señalados en los incisos precedentes de este artículo.
-El liquidador que haya asumido en el
-procedimiento, tendrá la misma obligación señalada en el inciso anterior,
-cuando se trate de los fondos obtenidos en remate o subasta pública,
-respecto del martillero concursal que no hubiere rendido y entregado dichos
-fondos.
-Por otra parte, no constando la distribución
-efectiva del reparto de fondos, por la falta de entrega de antecedentes por
-parte del/de la liquidador/a que cesó anticipadamente en el cargo, el/la
-liquidador/a que asuma, deberá realizar gestiones por escrito para
-corroborar la efectividad del pago con los acreedores incluidos en la
-propuesta de reparto, y constándole que todos o alguno de ellos no recibió
-el pago efectivo, deberá proceder a interponer denuncia o querella de
-conformidad a lo dispuesto en el inciso tercero del presente artículo, sin
-perjuicio de haber agotado las gestiones para obtener la restitución de los
-fondos con el/la liquidador/a que cesó anticipadamente en el cargo.
-Para el caso que, interpuesta una denuncia o
-querella de conformidad con lo dispuesto en presente artículo, el/la
-liquidador/a que cesó anticipadamente o el martillero concursal, en su caso,
-hiciere entrega de los fondos o bienes del procedimiento concursal, el/la
-liquidador/a que asumió como titular deberá informar esta circunstancia a
-la Superintendencia a través del Módulo de Comunicación Directa del Portal
-de Sujetos Fiscalizados, seleccionando la materia “Informa entrega de
-fondos Instructivo SUPERIR N.° 1, 2024.</texto>
+        <contexto>Título II Obligaciones de los/las liquidadores/as suplentes y aquellos/as que asumen como titular conforme al artículo 38 de la Ley N.° 20.720</contexto>
+        <contenido>
+          <parrafo>En caso que, el/la liquidador/a que haya asumido la titularidad en el cargo, tome conocimiento que el/la ex liquidador/a titular dispone de fondos no ingresados al procedimiento concursal, y/o no informados en la cuenta provisoria respectiva, y, en definitiva, no hizo entrega de ellos al/la liquidador/a titular actual, además de solicitar el apercibimiento señalado en el párrafo anterior, deberá informar tal circunstancia a esta Superintendencia mediante Módulo de Comunicación Directa del Portal de Sujetos Fiscalizados, dentro del plazo de 2 días hábiles, contado desde la fecha de la presentación de la solicitud al tribunal, seleccionando la materia “Informa fondos no ingresados Instructivo SUPERIR N.° 1, 2024”.</parrafo>
+          <parrafo>Adicionalmente, el/la liquidador/a que haya asumido la titularidad en el cargo, deberá evaluar la procedencia de interponer la respectiva denuncia o querella criminal ante los organismos pertinentes, en contra del/de la ex liquidador/a que realizare alguna de las conductas señaladas en el párrafo anterior, dado que, al no ingresar al procedimiento concursal fondos que tiene disponible y/o no informar o entregar los mismos, podría configurar, eventualmente, alguno de los delitos económicos previstos y sancionados en el Código Penal y en leyes especiales.</parrafo>
+          <parrafo>Si resulta procedente, dicha denuncia o querella deberá ser interpuesta en el plazo de 30 días desde que el/la liquidador/a hubiere asumido el cargo en calidad de titular y comunicada a la Superintendencia a través del Módulo de Comunicación Directa del Portal de Sujetos Fiscalizados, seleccionando la materia “Informa interposición querella o denuncia penal Instructivo SUPERIR N.° 1, 2024”, en un plazo de 3 días desde su presentación. Para el cumplimiento de este deber, deberá exponer detalladamente los hechos de los que hubiere tomado conocimiento, y que eventualmente pudieren configurar algún ilícito penal.</parrafo>
+          <parrafo>Además, deberá informar dentro del plazo de 15 días hábiles contado desde la interposición, los datos de la investigación penal, tales como fiscal adjunto, fiscalía local, RUC y/o RIT y Juzgado de Garantía, a través del Módulo de Comunicación Directa del Portal de Sujetos Fiscalizados, seleccionando la materia “Informa datos de investigación penal Instructivo SUPERIR N.° 1, 2024”.</parrafo>
+          <parrafo>Por su parte, el deber expuesto anteriormente, resulta concordante con lo dispuesto en el artículo 465 del Código Penal, por cuanto el/la liquidador/a tiene la legitimación activa para dar inicio a la persecución e investigación penal a cargo del Ministerio Público.</parrafo>
+          <parrafo>En caso de que el/la liquidador/a que asumió como titular en el procedimiento, determine que no corresponde interponer la denuncia o querella, deberá informar a la Superintendencia esa decisión, en el plazo de 30 días desde que hubiere asumido el cargo en calidad de titular, a través del Módulo de Comunicación Directa del Portal de Sujetos Fiscalizados, seleccionando la materia “Informa no presentación de querella o denuncia penal Instructivo SUPERIR N.° 1, 2024”, indicando los fundamentos legales y de hecho que justifican su decisión.</parrafo>
+          <parrafo>Las mismas obligaciones tendrá el/la liquidador/a suplente que asuma la titularidad del cargo, en caso de que no se tuviere conocimiento respecto al destino de los bienes incautados e inventariados en el procedimiento, siendo retirados por el/la ex liquidador/a titular, a través del martillero/a concursal respectivo/a, o por oferta de compra directa, o entregados de conformidad con el artículo 275 de la Ley.</parrafo>
+          <parrafo>Para el caso en que el/la liquidador/a que haya asumido como titular en el procedimiento, tome conocimiento que los bienes muebles entregados por el deudor y/o incautados e inventariados se encuentran en poder del martillero concursal sin enajenación, y requerida su entrega, cuando corresponda, este no los ponga a su disposición, deberá evaluar la procedencia de interponer la respectiva denuncia o querella por el delito de apropiación indebida, previsto y sancionado en el artículo 470 N.º 1 del Código Penal. Asimismo, deberá informar a esta Superintendencia la interposición de la respectiva querella o denuncia, en los mismos términos señalados en los incisos precedentes de este artículo.</parrafo>
+          <parrafo>El liquidador que haya asumido en el procedimiento, tendrá la misma obligación señalada en el inciso anterior, cuando se trate de los fondos obtenidos en remate o subasta pública, respecto del martillero concursal que no hubiere rendido y entregado dichos fondos.</parrafo>
+          <parrafo>Por otra parte, no constando la distribución efectiva del reparto de fondos, por la falta de entrega de antecedentes por parte del/de la liquidador/a que cesó anticipadamente en el cargo, el/la liquidador/a que asuma, deberá realizar gestiones por escrito para corroborar la efectividad del pago con los acreedores incluidos en la propuesta de reparto, y constándole que todos o alguno de ellos no recibió el pago efectivo, deberá proceder a interponer denuncia o querella de conformidad a lo dispuesto en el inciso tercero del presente artículo, sin perjuicio de haber agotado las gestiones para obtener la restitución de los fondos con el/la liquidador/a que cesó anticipadamente en el cargo.</parrafo>
+          <parrafo>Para el caso que, interpuesta una denuncia o querella de conformidad con lo dispuesto en presente artículo, el/la liquidador/a que cesó anticipadamente o el martillero concursal, en su caso, hiciere entrega de los fondos o bienes del procedimiento concursal, el/la liquidador/a que asumió como titular deberá informar esta circunstancia a la Superintendencia a través del Módulo de Comunicación Directa del Portal de Sujetos Fiscalizados, seleccionando la materia “Informa entrega de fondos Instructivo SUPERIR N.° 1, 2024.</parrafo>
+        </contenido>
         <referencias>
-          <ref articulo="275"/>
           <ref articulo="465"/>
+          <ref articulo="275"/>
           <ref articulo="470"/>
         </referencias>
       </articulo>
       <articulo id="6" tipo_original="Artículo" numero="4">
         <titulo_seccion>Artículo 4</titulo_seccion>
-        <contexto>TÍTULO II Obligaciones de los/las liquidadores/as suplentes y aquellos/as</contexto>
-        <texto>Las disposiciones contenidas en el
-presente Título II y en los Títulos III y IV de este Instructivo, serán también
-aplicables a los/as liquidadores/as que asuman en el cargo en virtud de lo
-previsto en el artículo 38 de la Ley N.° 20.720.</texto>
+        <contexto>Título II Obligaciones de los/las liquidadores/as suplentes y aquellos/as que asumen como titular conforme al artículo 38 de la Ley N.° 20.720</contexto>
+        <contenido>
+          <parrafo>Las disposiciones contenidas en el presente Título II y en los Títulos III y IV de este Instructivo, serán también aplicables a los/as liquidadores/as que asuman en el cargo en virtud de lo previsto en el artículo 38 de la Ley N.° 20.720.</parrafo>
+        </contenido>
         <referencias>
           <ref articulo="38"/>
         </referencias>
       </articulo>
     </titulo>
-    <titulo id="3" tipo_original="Título" numero="III">
-      <titulo_seccion>TÍTULO III Honorarios del/de la liquidador/a titular que cesó anticipadamente</titulo_seccion>
+    <titulo id="2" tipo_original="Título" numero="III">
+      <titulo_seccion>Título III Honorarios del/de la liquidador/a titular que cesó anticipadamente en el cargo y del/de la liquidador/a que asuma en calidad de titular.</titulo_seccion>
       <articulo id="7" tipo_original="Artículo" numero="5">
         <titulo_seccion>Artículo 5</titulo_seccion>
-        <contexto>TÍTULO III Honorarios del/de la liquidador/a titular que cesó anticipadamente</contexto>
-        <texto>Para determinar los honorarios
-del/de la liquidador/a que cesó anticipadamente en el cargo y del/de la
-liquidadora/a que asuma la titularidad, se deberán distinguir los
-procedimientos concursales en que se haya efectuado reparto de fondos de
-aquellos que no se hubiere efectuado.
-Así, en caso que se hubiere presentado
-propuesta de reparto de fondos de forma previa al cese en el cargo, los
-honorarios del/de la liquidador/a habrán sido calculados conforme a la tabla
-progresiva por tramos prevista en el artículo 40 de la Ley.
-En aquellos procedimientos en que, existiendo
-fondos disponibles, no se hubiera presentado propuesta de reparto, se
-deberá estar a lo dispuesto en el numeral 8) del artículo 39 de la Ley, es
-decir, los honorarios del/de la liquidador/a que cesó anticipadamente en el
-cargo y del/de la liquidador/a que asuma, deberán ser acordados entre el/la
-liquidador/a y la junta de acreedores. Faltando dicho acuerdo, resolverá el
-tribunal competente sin ulterior recurso.
-En relación con lo dispuesto en el inciso
-anterior, y solo una vez asumido en el cargo el/la nuevo/a liquidador/a,
-tanto el/la que hubiere cesado anticipadamente en el cargo como el/la
-liquidador/a que le corresponda asumir, podrán citar a la respectiva junta
-de acreedores para la determinación de sus honorarios, y a falta de acuerdo,
-solicitar la respectiva resolución al tribunal del concurso.
-Por lo anterior, el/la liquidador/a que cesa
-anticipadamente en el cargo deberá abstenerse de presentar una propuesta
-de reparto de fondos una vez cesado en el cargo, en virtud de cualquier
-causal.
-Si se hubiera presentado propuesta de reparto
-de fondos por el/la liquidador/a que cesó anticipadamente en el cargo, y en
-caso que aun existan fondos disponibles, solo el/la nuevo/a liquidador/a que
-asuma podrá percibir honorarios por el nuevo reparto que se presente.
-Asimismo, en caso que los fondos disponibles
-no alcanzaren para presentar una nueva propuesta de reparto, de acuerdo
-a lo dispuesto en el inciso segundo del artículo 8 del Instructivo SUPERIR
-N.° 1, de 3 de noviembre de 2023, que regula el pago de honorarios con
-cargo al presupuesto de la Superintendencia de Insolvencia y
-Reemprendimiento establecido en el artículo 40 de la Ley N.° 20.720, el/la
-nuevo/a liquidador/a que asume, podrá cobrar directamente sus honorarios
-con cargo a los fondos disponibles.</texto>
+        <contexto>Título III Honorarios del/de la liquidador/a titular que cesó anticipadamente en el cargo y del/de la liquidador/a que asuma en calidad de titular.</contexto>
+        <contenido>
+          <parrafo>Para determinar los honorarios del/de la liquidador/a que cesó anticipadamente en el cargo y del/de la liquidadora/a que asuma la titularidad, se deberán distinguir los procedimientos concursales en que se haya efectuado reparto de fondos de aquellos que no se hubiere efectuado.</parrafo>
+          <parrafo>Así, en caso que se hubiere presentado propuesta de reparto de fondos de forma previa al cese en el cargo, los honorarios del/de la liquidador/a habrán sido calculados conforme a la tabla progresiva por tramos prevista en el artículo 40 de la Ley.</parrafo>
+          <parrafo>En aquellos procedimientos en que, existiendo fondos disponibles, no se hubiera presentado propuesta de reparto, se deberá estar a lo dispuesto en el numeral 8) del artículo 39 de la Ley, es decir, los honorarios del/de la liquidador/a que cesó anticipadamente en el cargo y del/de la liquidador/a que asuma, deberán ser acordados entre el/la liquidador/a y la junta de acreedores. Faltando dicho acuerdo, resolverá el tribunal competente sin ulterior recurso.</parrafo>
+          <parrafo>En relación con lo dispuesto en el inciso anterior, y solo una vez asumido en el cargo el/la nuevo/a liquidador/a, tanto el/la que hubiere cesado anticipadamente en el cargo como el/la liquidador/a que le corresponda asumir, podrán citar a la respectiva junta de acreedores para la determinación de sus honorarios, y a falta de acuerdo, solicitar la respectiva resolución al tribunal del concurso.</parrafo>
+          <parrafo>Por lo anterior, el/la liquidador/a que cesa anticipadamente en el cargo deberá abstenerse de presentar una propuesta de reparto de fondos una vez cesado en el cargo, en virtud de cualquier causal.</parrafo>
+          <parrafo>Si se hubiera presentado propuesta de reparto de fondos por el/la liquidador/a que cesó anticipadamente en el cargo, y en caso que aun existan fondos disponibles, solo el/la nuevo/a liquidador/a que asuma podrá percibir honorarios por el nuevo reparto que se presente.</parrafo>
+          <parrafo>Asimismo, en caso que los fondos disponibles no alcanzaren para presentar una nueva propuesta de reparto, de acuerdo a lo dispuesto en el inciso segundo del artículo 8 del Instructivo SUPERIR N.° 1, de 3 de noviembre de 2023, que regula el pago de honorarios con cargo al presupuesto de la Superintendencia de Insolvencia y Reemprendimiento establecido en el artículo 40 de la Ley N.° 20.720, el/la nuevo/a liquidador/a que asume, podrá cobrar directamente sus honorarios con cargo a los fondos disponibles.</parrafo>
+        </contenido>
         <referencias>
+          <ref articulo="39"/>
           <ref articulo="40"/>
           <ref articulo="8"/>
-          <ref articulo="39"/>
         </referencias>
       </articulo>
       <articulo id="8" tipo_original="Artículo" numero="6">
         <titulo_seccion>Artículo 6</titulo_seccion>
-        <contexto>TÍTULO III Honorarios del/de la liquidador/a titular que cesó anticipadamente</contexto>
-        <texto>Si al presentar la Cuenta Final de
-Administración, el/la Liquidador/a que asume en calidad de titular por cese
-anticipado en el cargo, determina que sus honorarios corresponden a un
-monto inferior a 30 unidades de fomento, deberá comunicar dicha
-circunstancia a la Superintendencia, para obtener el pago del saldo restante,
-conforme a las instrucciones contenidas en el citado Instructivo SUPERIR
-N.° 1, de 2023.
-Sin perjuicio de lo anterior, si un/a liquidador/a
-hubiere asumido en calidad de titular por cese anticipado, no debiendo haber
-aceptado el cargo en conformidad a lo previsto en el artículo 2° del presente
-Instructivo, no podrá cobrar sus honorarios con cargo al presupuesto de
-esta Superintendencia, salvo instrucción expresa de este organismo o el
-respectivo tribunal, de asumir como liquidador/a titular.</texto>
+        <contexto>Título III Honorarios del/de la liquidador/a titular que cesó anticipadamente en el cargo y del/de la liquidador/a que asuma en calidad de titular.</contexto>
+        <contenido>
+          <parrafo>Si al presentar la Cuenta Final de Administración, el/la Liquidador/a que asume en calidad de titular por cese anticipado en el cargo, determina que sus honorarios corresponden a un monto inferior a 30 unidades de fomento, deberá comunicar dicha circunstancia a la Superintendencia, para obtener el pago del saldo restante, conforme a las instrucciones contenidas en el citado Instructivo SUPERIR N.° 1, de 2023.</parrafo>
+          <parrafo>Sin perjuicio de lo anterior, si un/a liquidador/a hubiere asumido en calidad de titular por cese anticipado, no debiendo haber aceptado el cargo en conformidad a lo previsto en el artículo 2° del presente Instructivo, no podrá cobrar sus honorarios con cargo al presupuesto de esta Superintendencia, salvo instrucción expresa de este organismo o el respectivo tribunal, de asumir como liquidador/a titular.</parrafo>
+        </contenido>
         <referencias>
           <ref articulo="2"/>
         </referencias>
       </articulo>
     </titulo>
-    <titulo id="4" tipo_original="Título" numero="IV">
-      <titulo_seccion>TÍTULO IV Disposiciones finales</titulo_seccion>
+    <titulo id="3" tipo_original="Título" numero="IV">
+      <titulo_seccion>Título IV Disposiciones finales</titulo_seccion>
       <articulo id="9" tipo_original="Artículo" numero="7">
         <titulo_seccion>Artículo 7</titulo_seccion>
-        <contexto>TÍTULO IV Disposiciones finales</contexto>
-        <texto>En relación con las instrucciones
-impartidas en el presente instructivo, se hace presente que, en caso de
-incumplimiento, el sujeto fiscalizado podrá ser objeto de un procedimiento
-administrativo sancionatorio por infracción a las normas concursales, de
-conformidad a lo previsto en el artículo 340 y siguientes de la Ley, sin
-perjuicio de las infracciones de fondo que pudiesen concurrir durante su
-desempeño.</texto>
+        <contexto>Título IV Disposiciones finales</contexto>
+        <contenido>
+          <parrafo>En relación con las instrucciones impartidas en el presente instructivo, se hace presente que, en caso de incumplimiento, el sujeto fiscalizado podrá ser objeto de un procedimiento administrativo sancionatorio por infracción a las normas concursales, de conformidad a lo previsto en el artículo 340 y siguientes de la Ley, sin perjuicio de las infracciones de fondo que pudiesen concurrir durante su desempeño.</parrafo>
+        </contenido>
         <referencias>
           <ref articulo="340"/>
         </referencias>
       </articulo>
       <articulo id="10" tipo_original="Artículo" numero="8">
         <titulo_seccion>Artículo 8. Vigencia</titulo_seccion>
-        <contexto>TÍTULO IV Disposiciones finales</contexto>
-        <texto>El presente Instructivo
-comenzará a regir a contar de su notificación por correo electrónico a los/las
-liquidadores/as, sin perjuicio de su publicación en el Diario Oficial.</texto>
+        <contexto>Título IV Disposiciones finales</contexto>
+        <contenido>
+          <parrafo>El presente Instructivo comenzará a regir a contar de su notificación por correo electrónico a los/las liquidadores/as, sin perjuicio de su publicación en el Diario Oficial.</parrafo>
+        </contenido>
       </articulo>
       <articulo id="11" tipo_original="Artículo" numero="9">
         <titulo_seccion>Artículo 9. Disposición transitoria</titulo_seccion>
-        <contexto>TÍTULO IV Disposiciones finales</contexto>
-        <texto>Los/as
-liquidadores/as que, a la fecha de dictación del presente Instructivo o sus
-modificaciones, se encuentren en cualquiera de las situaciones descritas
-precedentemente, tendrán un plazo de 10 días hábiles, contado desde la
-fecha de notificación del presente Instructivo o sus modificaciones, para
-cumplir con las instrucciones señaladas en los Títulos I, II y III anteriores,
-según corresponda.”.
-III. VIGENCIA. Las disposiciones contenidas
-en la presente resolución, comenzarán a regir desde su notificación por
-correo electrónico a los/las Liquidadores/as pertenecientes a la nómina de la
-Superintendencia de Insolvencia y Reemprendimiento y aquellos/as
-liquidadores/as excluidos con procedimientos concursales vigentes.</texto>
+        <contexto>Título IV Disposiciones finales</contexto>
+        <contenido>
+          <parrafo>Los/as liquidadores/as que, a la fecha de dictación del presente Instructivo o sus modificaciones, se encuentren en cualquiera de las situaciones descritas precedentemente, tendrán un plazo de 10 días hábiles, contado desde la fecha de notificación del presente Instructivo o sus modificaciones, para cumplir con las instrucciones señaladas en los Títulos I, II y III anteriores, según corresponda.”.</parrafo>
+        </contenido>
       </articulo>
     </titulo>
   </contenido>
-  <promulgacion>RESUELVO:
+  <disposiciones_finales>
+    <texto>RESUELVO:
 
-I. MODIFÍCASE el Instructivo SUPERIR N.° 1,
-aprobado mediante Resolución Exenta N.° 4389 de 4 de abril de 2024, que
-imparte instrucciones a liquidadores/as que cesen anticipadamente en el
-cargo, a liquidadores/as suplentes y a liquidadores/as que asuman la
-titularidad del cargo, conforme al artículo 38 de la Ley N.° 20.720 y deja sin
-efecto Resolución Exenta N.° 8002 de 3 de agosto de 2018, en los siguientes
-términos:
-1°. INTERCÁLASE en el artículo 2°, los
-siguientes nuevos incisos segundo, tercero y cuarto, pasando el actual inciso
-segundo a ser quinto:
-“Para el cumplimiento de la obligación
-contemplada en el inciso anterior, el/la liquidador/a suplente deberá
-considerar como gestiones pendientes, todo acto que implique la
-administración del procedimiento. A modo ejemplar, y sin que ello implique
-una enumeración taxativa, se menciona la diligencia de incautación o
-requerimiento de entrega de bienes, la confección de inventario, la
-designación de martillero concursal, la confección de bases de remate, la
-realización de bienes, cualquiera sea la forma de realización de los mismos,
-las propuestas de repartos de fondos en el procedimiento, la distribución de
-los mismos, los pagos administrativos, entre otros.
-Cualquier otra gestión que implique la
-administración del procedimiento, de la cual está privado el/la liquidador/a
-que cesó anticipadamente en el cargo, que presente características similares
-a las indicadas en el inciso anterior, y que pudiera afectar el desarrollo del
-procedimiento concursal, deberá considerarse igualmente como gestión
-pendiente.
-Ante la falta de certeza, esta Superintendencia
-determinará si corresponde o no que el/la liquidador/a suplente asuma el
-cargo en calidad de titular, previo requerimiento por parte del/de la
-liquidador/a suplente, a través del correo electrónico
-ofpartes@superir.gob.cl, indicando en el asunto ‘Requiere pronunciamiento
-Instructivo SUPERIR N.°1, de 2024’.”.
-2°. MODIFÍCASE el artículo 3°, en el siguiente
-sentido:
-a) Reemplázase, en el inciso primero, la frase
-“Informa fondos no ingresados”, por la frase “Informa fondos no ingresados
-Instructivo SUPERIR N.° 1, 2024”.
-b) Reemplázase, en el inciso tercero, la frase
-“Informa querella o denuncia penal”, por la frase “Informa interposición
-querella o denuncia penal Instructivo SUPERIR N.° 1, 2024”.
-c) Intercálase a continuación del inciso tercero,
-el siguiente inciso cuarto nuevo, pasando los actuales incisos cuarto, quinto
-y sexto, a ser incisos quinto, sexto y séptimo, respectivamente:
-”Además, deberá informar dentro del plazo de
-15 días hábiles contado desde la interposición, los datos de la investigación
-penal, tales como fiscal adjunto, fiscalía local, RUC y/o RIT y Juzgado de
-Garantía, a través del Módulo de Comunicación Directa del Portal de Sujetos
-Fiscalizados, seleccionando la materia ‘Informa datos de investigación penal
-Instructivo SUPERIR N.° 1, 2024’.”.
-d) Reemplázase, en el actual inciso quinto, que
-pasó a ser inciso sexto, la frase “Informa no presentación de querella o
-denuncia penal”, por la frase “Informa no presentación de querella o
-denuncia penal Instructivo SUPERIR N.° 1, 2024”.
-e) Agrégase a continuación del inciso final, los
-siguientes nuevos incisos octavo, noveno, décimo y undécimo:
-“Para el caso en que el/la liquidador/a que haya
-asumido como titular en el procedimiento, tome conocimiento que los bienes
-muebles entregados por el deudor y/o incautados e inventariados se
-encuentran en poder del martillero concursal sin enajenación, y requerida
-su entrega, cuando corresponda, este no los ponga a su disposición, deberá
-evaluar la procedencia de interponer la respectiva denuncia o querella por
-el delito de apropiación indebida, previsto y sancionado en el artículo 470
-N.º 1 del Código Penal. Asimismo, deberá informar a esta Superintendencia
-la interposición de la respectiva querella o denuncia, en los mismos términos
-señalados en los incisos precedentes de este artículo.
-El liquidador que haya asumido en el
-procedimiento, tendrá la misma obligación señalada en el inciso anterior,
-cuando se trate de los fondos obtenidos en remate o subasta pública,
-respecto del martillero concursal que no hubiere rendido y entregado dichos
-fondos.
-Por otra parte, no constando la distribución
-efectiva del reparto de fondos, por la falta de entrega de antecedentes por
-parte del/de la liquidador/a que cesó anticipadamente en el cargo, el/la
-liquidador/a que asuma, deberá realizar gestiones por escrito para
-corroborar la efectividad del pago con los acreedores incluidos en la
-propuesta de reparto, y constándole que todos o alguno de ellos no recibió
-el pago efectivo, deberá proceder a interponer denuncia o querella de
-conformidad a lo dispuesto en el inciso tercero del presente artículo, sin
-perjuicio de haber agotado las gestiones para obtener la restitución de los
-fondos con el/la liquidador/a que cesó anticipadamente en el cargo.
-Para el caso que, interpuesta una denuncia o
-querella de conformidad con lo dispuesto en presente artículo, el/la
-liquidador/a que cesó anticipadamente o el martillero concursal, en su caso,
-hiciere entrega de los fondos o bienes del procedimiento concursal, el/la
-liquidador/a que asumió como titular deberá informar esta circunstancia a
-la Superintendencia a través del Módulo de Comunicación Directa del Portal
-de Sujetos Fiscalizados, seleccionando la materia ‘Informa entrega de
-fondos Instructivo SUPERIR N.° 1, 2024’.”.
-3°. REEMPLÁZASE en el artículo 4°, la frase
-“y el Título III de este instructivo”, por la frase “y en los Títulos III y IV de
-este Instructivo”.
-4°. INTERCÁLASE como nuevo Título III, el
-siguiente, pasando el actual Título III, a ser el Título IV y los actuales
-artículos 5°, 6° y 7°, a ser 7°, 8° y 9°, respectivamente:
-“Título III
-Honorarios del/de la liquidador/a titular que cesó anticipadamente
-en el cargo y del/de la liquidador/a que asuma en calidad de
-titular
+I. MODIFÍCASE el Instructivo SUPERIR N.° 1, aprobado mediante Resolución Exenta N.° 4389 de 4 de abril de 2024, que imparte instrucciones a liquidadores/as que cesen anticipadamente en el cargo, a liquidadores/as suplentes y a liquidadores/as que asuman la titularidad del cargo, conforme al artículo 38 de la Ley N.° 20.720 y deja sin efecto Resolución Exenta N.° 8002 de 3 de agosto de 2018, en los siguientes términos:
 
-IV. NOTIFÍQUESE por correo electrónico la
-presente resolución a los/las Liquidadores/as pertenecientes a la nómina de
-la Superintendencia de Insolvencia y Reemprendimiento y aquellos/as
-liquidadores/as excluidos con procedimientos concursales vigentes.
-V. PUBLÍQUESE la presente resolución en el
-Diario Oficial.
-VI. DISPÓNGASE como medida de publicidad,
-una vez que se encuentre totalmente tramitado el presente acto
-administrativo, su publicación en el sitio web institucional de la
-Superintendencia de Insolvencia y Reemprendimiento.
-ANÓTESE Y ARCHÍVESE,
-CAA/JAA/FRC/EGZ/FRR/DTC/JVP/NGU
-DISTRIBUCIÓN:
-Señores/as Liquidadores/as y ex
-Liquidadores/as
-Presente
-15</promulgacion>
+1°. INTERCÁLASE en el artículo 2°, los siguientes nuevos incisos segundo, tercero y cuarto, pasando el actual inciso segundo a ser quinto: “Para el cumplimiento de la obligación contemplada en el inciso anterior, el/la liquidador/a suplente deberá considerar como gestiones pendientes, todo acto que implique la administración del procedimiento. A modo ejemplar, y sin que ello implique una enumeración taxativa, se menciona la diligencia de incautación o requerimiento de entrega de bienes, la confección de inventario, la designación de martillero concursal, la confección de bases de remate, la realización de bienes, cualquiera sea la forma de realización de los mismos, las propuestas de repartos de fondos en el procedimiento, la distribución de los mismos, los pagos administrativos, entre otros.
+
+Cualquier otra gestión que implique la administración del procedimiento, de la cual está privado el/la liquidador/a que cesó anticipadamente en el cargo, que presente características similares a las indicadas en el inciso anterior, y que pudiera afectar el desarrollo del procedimiento concursal, deberá considerarse igualmente como gestión pendiente.
+
+Ante la falta de certeza, esta Superintendencia determinará si corresponde o no que el/la liquidador/a suplente asuma el cargo en calidad de titular, previo requerimiento por parte del/de la liquidador/a suplente, a través del correo electrónico ofpartes@superir.gob.cl, indicando en el asunto ‘Requiere pronunciamiento Instructivo SUPERIR N.°1, de 2024’.”.
+
+2°. MODIFÍCASE el artículo 3°, en el siguiente sentido:
+
+a) Reemplázase, en el inciso primero, la frase “Informa fondos no ingresados”, por la frase “Informa fondos no ingresados Instructivo SUPERIR N.° 1, 2024”.
+
+b) Reemplázase, en el inciso tercero, la frase “Informa querella o denuncia penal”, por la frase “Informa interposición querella o denuncia penal Instructivo SUPERIR N.° 1, 2024”.
+
+c) Intercálase a continuación del inciso tercero, el siguiente inciso cuarto nuevo, pasando los actuales incisos cuarto, quinto y sexto, a ser incisos quinto, sexto y séptimo, respectivamente: ”Además, deberá informar dentro del plazo de 15 días hábiles contado desde la interposición, los datos de la investigación penal, tales como fiscal adjunto, fiscalía local, RUC y/o RIT y Juzgado de Garantía, a través del Módulo de Comunicación Directa del Portal de Sujetos Fiscalizados, seleccionando la materia ‘Informa datos de investigación penal Instructivo SUPERIR N.° 1, 2024’.”.
+
+d) Reemplázase, en el actual inciso quinto, que pasó a ser inciso sexto, la frase “Informa no presentación de querella o denuncia penal”, por la frase “Informa no presentación de querella o denuncia penal Instructivo SUPERIR N.° 1, 2024”.
+
+e) Agrégase a continuación del inciso final, los siguientes nuevos incisos octavo, noveno, décimo y undécimo: “Para el caso en que el/la liquidador/a que haya asumido como titular en el procedimiento, tome conocimiento que los bienes muebles entregados por el deudor y/o incautados e inventariados se encuentran en poder del martillero concursal sin enajenación, y requerida su entrega, cuando corresponda, este no los ponga a su disposición, deberá evaluar la procedencia de interponer la respectiva denuncia o querella por el delito de apropiación indebida, previsto y sancionado en el artículo 470 N.º 1 del Código Penal. Asimismo, deberá informar a esta Superintendencia la interposición de la respectiva querella o denuncia, en los mismos términos señalados en los incisos precedentes de este artículo.
+
+El liquidador que haya asumido en el procedimiento, tendrá la misma obligación señalada en el inciso anterior, cuando se trate de los fondos obtenidos en remate o subasta pública, respecto del martillero concursal que no hubiere rendido y entregado dichos fondos.
+
+Por otra parte, no constando la distribución efectiva del reparto de fondos, por la falta de entrega de antecedentes por parte del/de la liquidador/a que cesó anticipadamente en el cargo, el/la liquidador/a que asuma, deberá realizar gestiones por escrito para corroborar la efectividad del pago con los acreedores incluidos en la propuesta de reparto, y constándole que todos o alguno de ellos no recibió el pago efectivo, deberá proceder a interponer denuncia o querella de conformidad a lo dispuesto en el inciso tercero del presente artículo, sin perjuicio de haber agotado las gestiones para obtener la restitución de los fondos con el/la liquidador/a que cesó anticipadamente en el cargo.
+
+Para el caso que, interpuesta una denuncia o querella de conformidad con lo dispuesto en presente artículo, el/la liquidador/a que cesó anticipadamente o el martillero concursal, en su caso, hiciere entrega de los fondos o bienes del procedimiento concursal, el/la liquidador/a que asumió como titular deberá informar esta circunstancia a la Superintendencia a través del Módulo de Comunicación Directa del Portal de Sujetos Fiscalizados, seleccionando la materia ‘Informa entrega de fondos Instructivo SUPERIR N.° 1, 2024’.”.
+
+3°. REEMPLÁZASE en el artículo 4°, la frase “y el Título III de este instructivo”, por la frase “y en los Títulos III y IV de este Instructivo”.
+
+4°. INTERCÁLASE como nuevo Título III, el siguiente, pasando el actual Título III, a ser el Título IV y los actuales artículos 5°, 6° y 7°, a ser 7°, 8° y 9°, respectivamente: “Título III Honorarios del/de la liquidador/a titular que cesó anticipadamente en el cargo y del/de la liquidador/a que asuma en calidad de titular
+
+III. VIGENCIA. Las disposiciones contenidas en la presente resolución, comenzarán a regir desde su notificación por correo electrónico a los/las Liquidadores/as pertenecientes a la nómina de la Superintendencia de Insolvencia y Reemprendimiento y aquellos/as liquidadores/as excluidos con procedimientos concursales vigentes.
+
+IV. NOTIFÍQUESE por correo electrónico la presente resolución a los/las Liquidadores/as pertenecientes a la nómina de la Superintendencia de Insolvencia y Reemprendimiento y aquellos/as liquidadores/as excluidos con procedimientos concursales vigentes.
+
+V. PUBLÍQUESE la presente resolución en el Diario Oficial.
+
+VI. DISPÓNGASE como medida de publicidad, una vez que se encuentre totalmente tramitado el presente acto administrativo, su publicación en el sitio web institucional de la Superintendencia de Insolvencia y Reemprendimiento.
+
+ANÓTESE Y ARCHÍVESE,</texto>
+  </disposiciones_finales>
 </ley>

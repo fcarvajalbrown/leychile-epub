@@ -1,0 +1,141 @@
+<?xml version="1.0" ?>
+<norma xmlns="https://superir.cl/schema/norma/v1" tipo="Norma de Carácter General" numero="20" organismo="Superintendencia de Insolvencia y Reemprendimiento" version="1.0" estado="vigente" generado="2026-02-14T14:14:38.111647+00:00">
+  <acto_administrativo>
+    <tipo>RESOLUCIÓN EXENTA</tipo>
+    <numero>6617</numero>
+    <materia/>
+  </acto_administrativo>
+  <encabezado>
+    <lugar>SANTIAGO</lugar>
+    <fecha>2023-08-11</fecha>
+  </encabezado>
+  <metadatos>
+    <titulo>NORMA DE CARÁCTER GENERAL N°20 - Procedimiento de objeciones e impugnaciones de créditos</titulo>
+    <resolucion_exenta>6617</resolucion_exenta>
+    <materias>
+      <materia>Objeciones</materia>
+      <materia>Impugnaciones de créditos</materia>
+      <materia>Procedimiento concursal</materia>
+    </materias>
+    <nombres_comunes>
+      <nombre>NCG de Objeciones de Créditos</nombre>
+    </nombres_comunes>
+    <fechas>
+      <promulgacion>2023-08-11</promulgacion>
+      <publicacion>2023-08-11</publicacion>
+      <version>2023-08-11</version>
+    </fechas>
+    <leyes_referenciadas>
+      <ley_ref tipo="Ley" numero="20.720">Ley 20.720</ley_ref>
+      <ley_ref tipo="Ley" numero="21.563">Ley 21.563</ley_ref>
+      <ley_ref tipo="Ley" numero="18.575">Ley 18.575</ley_ref>
+      <ley_ref tipo="Ley" numero="19.880">Ley 19.880</ley_ref>
+      <ley_ref tipo="DFL" numero="1-19.653">DFL 1-19.653</ley_ref>
+    </leyes_referenciadas>
+  </metadatos>
+  <vistos>
+    <parrafo>Las facultades que me confiere la Ley N.° 20.720, que sustituye el régimen concursal vigente por una Ley de Reorganización y Liquidación de Activos de Empresas y Personas; lo dispuesto en la Ley N.° 21.563, que Moderniza los Procedimientos Concursales Contemplados en la Ley N.° 20.720 y Crea Nuevos Procedimientos para Micro y Pequeñas Empresas; en el D.F.L. N.° 1-19.653, de 17 de noviembre de 2001, que fija el texto Refundido, Coordinado y Sistematizado de la Ley N.° 18.575, Orgánica Constitucional de Bases Generales de la Administración del Estado; en la Ley N.° 19.880, que establece Bases de los Procedimientos Administrativos que Rigen los Actos de los Órganos de la Administración del Estado; en la Resolución N.° 7 de 2019 de la Contraloría General de la República, que fija normas sobre Exención del Trámite de Toma de Razón; y, en el Decreto N.° 8 de 19 de enero de 2023, del Ministerio de Economía, Fomento y Turismo.</parrafo>
+  </vistos>
+  <considerandos>
+    <considerando numero="1">
+      <parrafo>Que, de conformidad a lo dispuesto en los artículos 331 y siguientes de la Ley N.° 20.720 de Reorganización y Liquidación de Activos de Empresas y Personas, modificada por la Ley N.° 21.563, en adelante “la Ley”, la Superintendencia de Insolvencia y Reemprendimiento, en adelante la “Superintendencia”, es una persona jurídica de derecho público, creada por la Ley, como un servicio público descentralizado con personalidad jurídica y patrimonio propio, que se relaciona con el Presidente de la República a través del Ministerio de Economía, Fomento y Turismo, y tiene como función supervigilar y fiscalizar las actuaciones de los liquidadores, veedores, interventores designados conforme a la Ley, administradores de la continuación de las actividades económicas del deudor, asesores económicos de insolvencia, y, de toda persona que por ley quede sujeta a su supervigilancia y fiscalización. Asimismo, le corresponde desempeñar aquellas funciones que la referida ley le encomienda, así como las demás que se establezcan en otras leyes.</parrafo>
+    </considerando>
+    <considerando numero="2">
+      <parrafo>Que, la Ley, en su artículo 337, dispone que para el cumplimiento de sus funciones, la Superintendencia tendrá las atribuciones y deberes que allí señala, otorgándole en su numeral 4 la facultad de: “Impartir a los Veedores, Liquidadores, administradores de la continuación de las actividades económicas, Martilleros Concursales que se sometan voluntariamente al control de la Superintendencia y asesores económicos de insolvencias, instrucciones de carácter obligatorio sobre las materias sometidas a su control y, en especial, fijar normas para la presentación de informes, estados de avance y cuentas provisorias o definitivas que deban presentar los fiscalizados”.</parrafo>
+    </considerando>
+    <considerando numero="3">
+      <parrafo>Que, el inciso segundo del artículo 69 establece que, el interventor deberá presentar semestralmente, de forma fundada por escrito, a la Superintendencia, al tribunal y a los acreedores, un informe sobre el estado de cumplimiento del Acuerdo mientras se encuentre vigente en su cargo.</parrafo>
+      <parrafo>El contenido de este informe se regulará mediante norma de carácter general dictada por la Superintendencia.</parrafo>
+    </considerando>
+    <considerando numero="4">
+      <parrafo>Que, atendido lo expuesto y de conformidad con lo dispuesto en el artículo 3 de la Ley N.° 19.880 y en las normas legales pertinentes,</parrafo>
+    </considerando>
+  </considerandos>
+  <resolutivo>
+    <punto numero="1">APRUÉBASE la siguiente Norma de Carácter General, que regula, en el Procedimiento Concursal de Reorganización, las menciones que debe contener el Informe del/de la Veedor/a Interventor/a sobre el Acuerdo de Reorganización aprobado, según lo dispuesto en el artículo 69 de la Ley, y sus anexos, denominados Anexo I-A “Indicadores Financieros a aplicar a los Estados Financieros comparativos”, Anexo I-B “Indicadores Financieros a aplicar a los Estados Financieros proyectados”, Anexo II “Certificación omisiones y/o errores en los Estados Financieros y registros contables de la empresa deudora en Reorganización”, Anexo III “Ingresos y Gastos”, Anexo IV “Cuadro de cumplimiento pagos efectuados según plan de pago del Acuerdo de Reorganización”, Anexo V-A “Modelo Flujo de Caja Proyectado y sus variaciones” y Anexo V-B “Modelo Flujo de Caja comparativo y sus variaciones”, cuyos textos se adjuntan a la presente resolución y forman parte integrante de la misma:</punto>
+  </resolutivo>
+  <cuerpo_normativo>
+    <titulo numero="I" nombre="INFORME SOBRE EL ESTADO DE CUMPLIMIENTO DEL ACUERDO DE REORGANIZACIÓN, A PRESENTAR EN LA SUPERINTENDENCIA Y AL TRIBUNAL COMPETENTE">
+      <articulo numero="1" epigrafe="Contenido">
+        <parrafo>De conformidad a lo dispuesto en el artículo 69 de la Ley N.° 20.720, el/la Interventor/a deberá presentar semestralmente, por escrito, a la Superintendencia y al tribunal, un informe sobre el estado de cumplimiento del Acuerdo de Reorganización mientras se encuentre vigente en su cargo.</parrafo>
+        <parrafo>Al respecto, en virtud de las facultades conferidas en el artículo 25, en particular, lo dispuesto en el numeral 1° de dicha norma, el/la veedor/a deberá, especialmente, imponerse de los libros, y otra documentación contable, financiera o tributaria de las operaciones del Deudor/a, deber que mantendrá en su calidad de Interventor/a.</parrafo>
+        <parrafo>En virtud de lo anterior, para el cumplimiento de lo dispuesto en el artículo 69 de la Ley, el citado informe deberá contener lo siguiente:</parrafo>
+        <listado>
+          <item letra="A">
+            <parrafo>Constatar e informar el normal funcionamiento de la Empresa Deudora o, en su defecto, cualquier situación financiera, administrativa, organizacional o de la industria que afecte el cumplimiento del Acuerdo de Reorganización. Esto deberá ser complementado con un análisis financiero aplicado a sus Estados Financieros, correspondiente al semestre informado, a través de indicadores financieros debidamente interpretados.</parrafo>
+            <sublistado>
+              <subitem numero="a.1">Lo anterior deberá ser informado considerando los indicadores financieros comparativos y flujo de caja comparativo, de acuerdo al formato contenido en Anexo I y V, respectivamente, elaborados y debidamente firmados por el/la Interventor/a y su asesor contable.</subitem>
+            </sublistado>
+            <parrafo>En caso de que el/la Interventor/a constate que la empresa deudora no cuenta con información contable que permita calcular alguno de los indicadores financieros requeridos, deberá señalarlo en el informe y proponer otros indicadores financieros dentro del ámbito de la eficiencia, solvencia, liquidez y rentabilidad.</parrafo>
+            <sublistado>
+              <subitem numero="a.2">En caso de haberse constatado a través del análisis financiero, situaciones que afecten el cumplimiento del Acuerdo de Reorganización, el/la Interventor/a deberá informar, si existen gestiones y medidas adoptadas por la Empresa Deudora tendientes a mejorar los indicadores financieros señalados precedentemente.</subitem>
+            </sublistado>
+          </item>
+          <item letra="B">
+            <parrafo>Informar sobre la debida contabilización de los activos y pasivos de la Empresa Deudora u omisiones y/o errores que se detecten en los registros contables y que afecten los Estados Financieros correspondientes al semestre a informar. Para tal efecto, deberá acompañar el Anexo II debidamente firmado por el/la Interventor/a y su asesor/a contable que respalden lo mencionado.</parrafo>
+            <parrafo>En el caso que existan omisiones y/o errores en los registros contables, el informe deberá contener las partidas, fechas, montos y conceptos afectados, dejando establecido los antecedentes de su regularización.</parrafo>
+            <parrafo>Para efecto de lo señalado precedentemente, se deberá utilizar el modelo del Anexo II.</parrafo>
+          </item>
+          <item letra="C">Constatar e informar sobre los ingresos y gastos de la Empresa Deudora, correspondiente al semestre a informar, y en especial sobre la eficiencia operacional en relación con los gastos operacionales involucrados, como así también, la oportunidad en el pago de proveedores. Estos dos últimos aspectos deberán ser informados a través de los indicadores financieros, debidamente interpretados y justificados, que se establecen en Anexo III.</item>
+          <item letra="D">
+            <parrafo>Constatar e informar todos los pagos que se realicen para el servicio de la deuda, adjuntando un Cuadro de Cumplimiento en que se indique fecha y monto de pago, número de la cuota que se está pagando, fecha de vencimiento de la cuota pagada, número de cuotas que quedan por pagar, acreedor a quien se paga, explicar diferencias en los montos pagados y las fechas de pago, si existieran, y la conclusión del/de la Interventor/a del estado de cumplimiento de la deuda reorganizada.</parrafo>
+            <parrafo>Para la confección del Cuadro de Cumplimiento mencionado precedentemente, se deberá utilizar el modelo Anexo IV.</parrafo>
+          </item>
+          <item letra="E">Informar sobre cualquier ingreso extraordinario percibido por la empresa, de cualquier origen, cuando en el Acuerdo de Reorganización se hubiere incluido una cláusula en que la Empresa Deudora se hubiere obligado a efectuar un pago anticipado de todo o parte de los créditos afectos al Acuerdo, a consecuencia de dicho ingreso.</item>
+          <item letra="F">Finalmente, deberá informar si la Empresa Deudora mantiene al día el cumplimiento de todas las obligaciones comerciales, financieras, laborales, de seguridad social y tributarias, que no se encuentran afectas al Acuerdo de Reorganización. Para tal efecto, deberá acompañar una certificación debidamente firmada por el/la Interventor/a, contador/a de la Empresa Deudora y representante legal de esta.</item>
+        </listado>
+      </articulo>
+      <articulo numero="2" epigrafe="Documentación">
+        <parrafo>Con el objeto de sustentar el análisis y a fin de cumplir el objetivo de la presente norma de carácter general, se deberá informar fundada y documentadamente, acompañando a esta Superintendencia y al tribunal competente, toda documentación que sustente la información señalada en el artículo 1°.</parrafo>
+        <parrafo>Para lo anterior, el/la Interventor/a deberá acompañar la siguiente documentación de respaldo válidamente emitida de acuerdo a la normativa legal, contable y tributaria, a efectos de considerar la contabilidad fidedigna, sin que el siguiente listado tenga el carácter de taxativo:</parrafo>
+        <listado>
+          <item numero="i">Libro Mayor</item>
+          <item numero="ii">Estado de resultados</item>
+          <item numero="iii">Libros de Ingresos/Egresos</item>
+          <item numero="iv">Balance General o provisorio, en su caso, a la fecha del periodo informado.</item>
+          <item numero="v">Conciliación bancaria del último mes del periodo informado.</item>
+          <item numero="vi">Flujo de caja</item>
+        </listado>
+      </articulo>
+      <articulo numero="3" epigrafe="Plazo">
+        <parrafo>El/la Interventor/a deberá presentar el informe sobre el estado de cumplimiento del Acuerdo de Reorganización, el último día del mes subsiguiente al de la fecha de cierre del respectivo semestre informado, a través del Módulo de Comunicación Directa del Portal de Sujetos Fiscalizados. La no presentación de este informe en el plazo establecido precedentemente, constituirá infracción conforme a lo previsto en el artículo 338 de la Ley N.° 20.720.</parrafo>
+        <parrafo>Asimismo, el/la Interventor/a deberá acompañar una copia del señalado informe semestral al tribunal del procedimiento, en el plazo establecido en el párrafo anterior.</parrafo>
+        <parrafo>El semestre respectivo comenzará a computarse desde la fecha de la resolución que aprueba el acuerdo de reorganización por haber vencido el plazo para impugnarlo o, en caso de haber sido impugnado, no hubieren sido interpuestas por acreedores/as de una determinada clase o categoría, que representen en su conjunto a lo menos el 30% del pasivo con derecho a voto de su respectiva clase o categoría, de conformidad lo previsto en el artículo 89 de la Ley.</parrafo>
+      </articulo>
+      <articulo numero="4" epigrafe="Reporte electrónico">
+        <parrafo>La información contenida en los Anexos I, II, III, IV y V señalados en el artículo 1°, deberá ser reportada por el/la Interventor/a a través del Módulo de Comunicación Directa del Portal de Sujetos Fiscalizados, en formato electrónico, de acuerdo con las instrucciones que al efecto imparta esta Superintendencia.</parrafo>
+      </articulo>
+    </titulo>
+    <titulo numero="II" nombre="DISPOSICIONES FINALES">
+      <articulo numero="5" epigrafe="Ámbito de aplicación">
+        <parrafo>La presente norma de carácter general solo tiene por objeto regular la materia que en la misma se tratan para cumplir con el requisito establecido en el inciso segundo del artículo 69 de la Ley N.° 20.720, en los Procedimientos Concursales de Reorganización. En caso alguno se entenderán aplicables a los procedimientos de liquidación voluntaria o forzosa del Capítulo IV o de las liquidaciones simplificadas del Título II del Capítulo V de la Ley N.º 20.720.</parrafo>
+      </articulo>
+      <articulo numero="6" epigrafe="Vigencia">
+        <parrafo>La presente Norma de Carácter General entrará a regir el día 11 de agosto de 2023, conjuntamente con la entrada en vigencia de la Ley N.º 21.563.</parrafo>
+      </articulo>
+    </titulo>
+  </cuerpo_normativo>
+  <resolutivo_final>
+    <punto numero="2">PUBLÍQUESE la presente resolución en el Diario Oficial.</punto>
+    <punto numero="3">NOTIFÍQUESE la presente resolución a los/las Veedores/as pertenecientes a las nóminas de la Superintendencia de Insolvencia y Reemprendimiento.</punto>
+    <punto numero="4">DISPÓNGASE como medida de publicidad, la publicación de la presente resolución en el sitio web institucional de la Superintendencia de Insolvencia y Reemprendimiento.</punto>
+  </resolutivo_final>
+  <cierre>
+    <formula>ANÓTESE, PUBLÍQUESE Y ARCHÍVESE,</formula>
+    <firmante>
+      <nombre>HUGO SÁNCHEZ RAMÍREZ</nombre>
+      <cargo>SUPERINTENDENTE DE INSOLVENCIA Y REEMPRENDIMIENTO</cargo>
+    </firmante>
+    <distribucion>PVL/JAA/EGZ/DTC/RAA/SCP</distribucion>
+    <notificacion>
+      <destinatarios>Señores/as Veedores/as</destinatarios>
+    </notificacion>
+  </cierre>
+  <anexo numero="I-A" titulo="Indicadores Financieros a aplicar a los Estados Financieros comparativos" pendiente="true"/>
+  <anexo numero="I-B" titulo="Indicadores Financieros a aplicar a los Estados Financieros proyectados" pendiente="true"/>
+  <anexo numero="II" titulo="Certificación omisiones y/o errores en los Estados Financieros y registros contables de la empresa deudora en Reorganización" pendiente="true"/>
+  <anexo numero="III" titulo="Ingresos y Gastos" pendiente="true"/>
+  <anexo numero="IV" titulo="Cuadro de cumplimiento pagos efectuados según plan de pago del Acuerdo de Reorganización" pendiente="true"/>
+  <anexo numero="V-A" titulo="Modelo Flujo de Caja Proyectado y sus variaciones" pendiente="true"/>
+  <anexo numero="V-B" titulo="Modelo Flujo de Caja comparativo y sus variaciones" pendiente="true"/>
+</norma>

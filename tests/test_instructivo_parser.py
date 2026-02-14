@@ -155,9 +155,19 @@ class TestInstructivoParser:
         norma = self.parser.parse(SAMPLE_INSTRUCTIVO)
         assert "VISTOS:" in norma.encabezado_texto
 
-    def test_promulgacion_has_closing(self):
+    def test_disposiciones_finales_has_closing(self):
         norma = self.parser.parse(SAMPLE_INSTRUCTIVO)
-        assert "PUBLÍQUESE" in norma.promulgacion_texto
+        assert "PUBLÍQUESE" in norma.disposiciones_finales_texto
+        assert norma.promulgacion_texto == ""
+
+    def test_vistos_texto_separated(self):
+        norma = self.parser.parse(SAMPLE_INSTRUCTIVO)
+        assert norma.vistos_texto
+        assert "Ley" in norma.vistos_texto
+
+    def test_considerandos_texto_separated(self):
+        norma = self.parser.parse(SAMPLE_INSTRUCTIVO)
+        assert norma.considerandos_texto
 
     def test_titulo_built(self):
         norma = self.parser.parse(SAMPLE_INSTRUCTIVO)

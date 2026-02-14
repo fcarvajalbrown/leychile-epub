@@ -1,0 +1,120 @@
+# RESOLUCIÓN EXENTA N.° 4389
+
+**MAT.:** APRUEBA INSTRUCTIVO QUE IMPARTE INSTRUCCIONES A LIQUIDADORES/AS QUE CESEN ANTICIPADAMENTE EN EL CARGO, A LIQUIDADORES/AS SUPLENTES Y A LIQUIDADORES/AS QUE ASUMAN LA TITULARIDAD DEL CARGO, CONFORME AL ARTÍCULO 38 DE LA LEY N.° 20.720; DEJA SIN EFECTO RESOLUCIÓN EXENTA N.° 8002 DE 3 DE AGOSTO DE 2018.
+
+**SANTIAGO, 04 ABRIL 2024**
+
+---
+
+## VISTO:
+
+Las facultades que me confiere la Ley N.° 20.720, que sustituye el régimen concursal vigente por una Ley de Reorganización y Liquidación de Activos de Empresas y Personas; lo dispuesto en la Ley N.° 21.563, que Moderniza los Procedimientos Concursales Contemplados en la Ley N.° 20.720 y Crea Nuevos Procedimientos para Micro y Pequeñas Empresas; en el D.F.L. N.° 1-19.653, de 17 de noviembre de 2001, que fija el texto Refundido, Coordinado y Sistematizado de la Ley N.° 18.575, Orgánica Constitucional de Bases Generales de la Administración del Estado; en la Ley N.° 19.880, que establece Bases de los Procedimientos Administrativos que Rigen los Actos de los Órganos de la Administración del Estado; en la Resolución N.° 7 de 2019 de la Contraloría General de la República, que fija normas sobre Exención del Trámite de Toma de Razón; y, en el Decreto N.° 8 de 19 de enero de 2023, del Ministerio de Economía, Fomento y Turismo.
+
+## CONSIDERANDO:
+
+**1°** Que, de conformidad a lo dispuesto en los artículos 331 y siguientes de la Ley N.° 20.720, en adelante "la Ley", la Superintendencia de Insolvencia y Reemprendimiento, en adelante la "Superintendencia", es una persona jurídica de derecho público, creada por la Ley, como un servicio público descentralizado con personalidad jurídica y patrimonio propio, que se relaciona con el Presidente de la República, a través, del Ministerio de Economía, Fomento y Turismo, y tiene como función supervigilar y fiscalizar las actuaciones de los/las liquidadores/as, veedores/as, interventores/as designados de conformidad a la Ley, martilleros/as concursales, administradores/as de la continuación de las actividades económicas del deudor, asesores/as económicos/as de insolvencia, y, de toda persona que por ley quede sujeta a su supervigilancia y fiscalización. Asimismo, le corresponde desempeñar aquellas funciones que la referida ley le encomienda, así como las demás que se establezcan en otras leyes.
+
+**2°** Que, el artículo 337 de la Ley dispone que para el cumplimiento de sus funciones, la Superintendencia tendrá las atribuciones y deberes que allí señala, otorgándole en su numeral 4 la facultad de: *"Impartir a los Veedores, Liquidadores, administradores de la continuación de las actividades económicas, Martilleros Concursales que se sometan voluntariamente al control de la Superintendencia y asesores económicos de insolvencias, instrucciones de carácter obligatorio sobre las materias sometidas a su control y, en especial, fijar normas para la presentación de informes, estados de avance y cuentas provisorias o definitivas que deban presentar los fiscalizados."*
+
+**3°** Que, a través del ejercicio de su facultad fiscalizadora, esta Superintendencia constató que existen sujetos fiscalizados que dejaron de pertenecer a las nóminas de liquidadores/as y que, sin embargo, continúan administrando procedimientos concursales.
+
+**4°** Que, el artículo 23 de la Ley dispone: *"El Veedor cesará en el cargo por el término del Procedimiento Concursal de Reorganización o por cese anticipado en el mismo. Sin perjuicio de lo anterior, subsistirá su responsabilidad hasta la aprobación de su Cuenta Final de su Administración".*
+
+**5°** Que, el artículo 24 de la Ley dispone: *"Para los efectos de esta ley, se entenderá que el Veedor cesa anticipadamente en su cargo: (…) 4) Por haber dejado de formar parte de la Nómina de Veedores, sin perjuicio de continuar en el cargo hasta que asuma el Veedor Suplente o el que se designe."*
+
+**6°** Que, el citado artículo 24, dispone que *"El Veedor que haya cesado anticipadamente en su cargo deberá rendir cuenta de su gestión y hacer entrega de los antecedentes del Procedimiento Concursal al Veedor suplente, dentro de los diez días siguientes a la fecha en que este último haya asumido".*
+
+**7°** Que, el artículo 18 de la Ley establece las causales de exclusión de la nómina de veedores, aplicables también a los liquidadores.
+
+**8°** Que, el inciso final del artículo 19 dispone: *"Excluido el Veedor de la Nómina de Veedores, subsistirá la obligación de rendir cuenta de su gestión, así como la responsabilidad legal que pudiere haber incurrido".*
+
+**9°** Que, el artículo 31 de la Ley dispone que: *"Será aplicable a los Liquidadores lo dispuesto en el Título 1 del Capítulo II de la presente ley respecto de los Veedores, en todo aquello que no esté expresamente regulado en el presente Título y, en todo caso, siempre que no sea contrario a la naturaleza de la función que desempeñan."*
+
+**10°** Que, el artículo 38 de la Ley dispone: *"El Liquidador cesará anticipadamente en el cargo (…) por lo dispuesto en los artículos 23 y 24, que serán aplicables, en lo que corresponda, al Liquidador".*
+
+**11°** Que, el artículo 49 de la Ley dispone que: *"La Superintendencia fijará la forma y contenidos obligatorios de la Cuenta Final de Administración mediante norma de carácter general, con observancia de la normativa contable, tributaria y financiera aplicable".*
+
+**12°** Que, la Norma de Carácter General N.° 7 de 8 de octubre de 2014 regula la forma y contenido obligatorio de las cuentas provisorias y de la cuenta final de administración, regulando la cesación anticipada en el cargo, en su artículo 6°.
+
+**13°** Que, el artículo 50 de la Ley dispone que: *"El liquidador deberá acompañar al Tribunal y a la Superintendencia su Cuenta Final de Administración dentro de los treinta días siguientes a que se verifique cualquiera de las circunstancias que a continuación se señalan: (...) 3) Cese anticipado de su cargo".*
+
+**14°** Que, atendido lo expuesto y de conformidad con lo dispuesto en el artículo 3 de la Ley N.° 19.880 y demás normas legales pertinentes,
+
+## RESUELVO:
+
+**1°.** APRUÉBASE el siguiente Instructivo que imparte instrucciones a liquidadores/as que cesen anticipadamente en el cargo, a liquidadores/as suplentes y a liquidadores/as que asuman la titularidad del cargo, conforme al artículo 38 de la Ley N.° 20.720.
+
+---
+
+# INSTRUCTIVO SUPERIR N.° 1
+
+## Título I - Obligaciones de los/las liquidadores/as que cesan anticipadamente en su cargo
+
+**Artículo 1°.** El/la liquidador/a titular que hubiere cesado anticipadamente en su cargo por cualquier causa, deberá distinguir aquellos procedimientos en los que existan gestiones pendientes, de aquellos que no.
+
+De esta forma, en los procedimientos concursales en que se hubieren agotado los fondos y no existan activos susceptibles de ingresar a la masa, no será necesario que asuma un/a liquidador/a suplente o un/a liquidador/a designado/a conforme al artículo 38 de la Ley, por lo que el/la liquidador/a que cesó anticipadamente en el cargo deberá rendir su cuenta final de administración dentro del plazo de 30 días desde que hubiere concurrido la causal prevista en el número 3) del artículo 50 de la Ley y, habiendo transcurrido los plazos para objetarla sin que se hubieren presentado objeciones o habiéndose desechado en todas sus partes la o las objeciones deducidas, deberá solicitar al tribunal su aprobación y posterior dictación de la resolución judicial que declare terminado el procedimiento.
+
+En caso contrario, esto es, encontrándose gestiones pendientes que impidan la conclusión del procedimiento, el/la liquidador/a que cesó anticipadamente en el cargo, deberá hacer presente dicha situación al tribunal respectivo, cuando corresponda, e informar al/a la liquidador/a suplente que deberá asumir como titular dentro del plazo de 5 días hábiles desde que se hubiere configurado el cese anticipado por cualquier causa.
+
+En caso que el/la liquidador/a suplente no pudiere asumir, se aplicará lo dispuesto en los incisos segundo y tercero del artículo 38 de la Ley.
+
+Asimismo, el/la liquidador/a deberá rendir cuenta de su administración en el plazo de 30 días desde el cese anticipado en el cargo, conforme a lo previsto en el numeral 3) del artículo 50 de la Ley, en relación con lo previsto en el inciso primero del artículo 38 del mismo cuerpo legal, que establece una enumeración no taxativa de situaciones que constituyen cese anticipado.
+
+Además, una vez que el/la liquidador/a suplente o aquel/aquella designado/a conforme al artículo 38 de la Ley, haya asumido en el cargo, el/la liquidador/a que cesó anticipadamente deberá dar cumplimiento a lo dispuesto en el inciso final del artículo 24 de la Ley, esto es, hacer entrega de los antecedentes y fondos del Procedimiento Concursal a dicho/a liquidador/a, dentro de los diez días siguientes a la fecha en que este/esta último/a haya asumido.
+
+Se hace presente que, conforme a lo señalado en el inciso final del artículo 24 de la Ley, en caso de incumplimiento de lo señalado en el párrafo precedente y anteprecedente, el tribunal competente, de oficio o a petición de cualquier interesado, requerirá el cumplimiento según lo previsto en el artículo 238 del Código de Procedimiento Civil, en cuyo caso la multa será de 10 a 200 unidades tributarias mensuales. Sin perjuicio de lo anterior, la Superintendencia podrá aplicar las sanciones que correspondan.
+
+---
+
+## Título II - Obligaciones de los/las liquidadores suplentes y aquellos/as que asumen como titular conforme al artículo 38 de la Ley N.° 20.720
+
+**Artículo 2°.** El/La liquidador/a que hubiere sido designado/a en calidad de suplente en un procedimiento en que hubiere operado el cese anticipado, deberá asumir en el cargo mediante un escrito presentado al tribunal respectivo, dentro de los dos días siguientes a la cesación del/de la liquidador/a titular o desde que toma conocimiento del cese anticipado, cualquiera sea la causa del cese, de acuerdo a lo establecido en el inciso segundo del artículo 24 de la Ley, en caso que existan gestiones pendientes, de acuerdo a lo señalado en el inciso segundo del artículo 1° de este Instructivo, debiendo dar curso progresivo al procedimiento según el estado procesal en que se encuentre.
+
+El/la liquidador/a suplente que haya asumido la titularidad en el cargo, y que no hubiere recibido los antecedentes o fondos del procedimiento dentro del plazo establecido en el inciso final del artículo 24 de la Ley, deberá requerir su cumplimiento, por intermedio del tribunal del procedimiento concursal respectivo, bajo el apercibimiento previsto en el mismo inciso del cuerpo legal citado.
+
+**Artículo 3°.** En caso que, el/la liquidador/a que haya asumido la titularidad en el cargo, tome conocimiento que el/la ex liquidador/a titular dispone de fondos no ingresados al procedimiento concursal, y/o no informados en la cuenta provisoria respectiva, y, en definitiva, no hizo entrega de ellos al/la liquidador/a titular actual, además de solicitar el apercibimiento señalado en el párrafo anterior, deberá informar tal circunstancia a esta Superintendencia mediante Módulo de Comunicación Directa del Portal de Sujetos Fiscalizados, dentro del plazo de 2 días hábiles, contado desde la fecha de la presentación de la solicitud al tribunal, seleccionando la materia "Informa fondos no ingresados".
+
+Adicionalmente, el/la liquidador/a que haya asumido la titularidad en el cargo, deberá evaluar la procedencia de interponer la respectiva denuncia o querella criminal ante los organismos pertinentes, en contra del/de la ex liquidador/a que realizare alguna de las conductas señaladas en el párrafo anterior, dado que, al no ingresar al procedimiento concursal fondos que tiene disponible y/o no informar o entregar los mismos, podría configurar, eventualmente, alguno de los delitos económicos previstos y sancionados en el Código Penal y en leyes especiales.
+
+Si resulta procedente, dicha denuncia o querella deberá ser interpuesta en el plazo de 30 días desde que el/la liquidador/a hubiere asumido el cargo en calidad de titular y comunicada a la Superintendencia a través del Módulo de Comunicación Directa del Portal de Sujetos Fiscalizados, seleccionando la materia "Informa querella o denuncia penal", en un plazo de 3 días desde su presentación. Para el cumplimiento de este deber, deberá exponer detalladamente los hechos de los que hubiere tomado conocimiento, y que eventualmente pudieren configurar algún ilícito penal.
+
+Por su parte, el deber expuesto anteriormente, resulta concordante con lo dispuesto en el artículo 465 del Código Penal, por cuanto el/la liquidador/a tiene la legitimación activa para dar inicio a la persecución e investigación penal a cargo del Ministerio Público.
+
+En caso de que el/la liquidador/a que asumió como titular en el procedimiento, determine que no corresponde interponer la denuncia o querella, deberá informar a la Superintendencia esa decisión, en el plazo de 30 días desde que hubiere asumido el cargo en calidad de titular, a través del Módulo de Comunicación Directa del Portal de Sujetos Fiscalizados, seleccionando la materia "Informa no presentación de querella o denuncia penal", indicando los fundamentos legales y de hecho que justifican su decisión.
+
+Las mismas obligaciones tendrá el/la liquidador/a suplente que asuma la titularidad del cargo, en caso de que no se tuviere conocimiento respecto al destino de los bienes incautados e inventariados en el procedimiento, siendo retirados por el/la ex liquidador/a titular, a través del martillero/a concursal respectivo/a, o por oferta de compra directa, o entregados de conformidad con el artículo 275 de la Ley.
+
+**Artículo 4°.** Las disposiciones contenidas en el presente Título II y el Título III de este instructivo, serán también aplicables a los/as liquidadores/as que asuman en el cargo en virtud de lo previsto en el artículo 38 de la Ley N.° 20.720.
+
+---
+
+## Título III - Disposiciones finales
+
+**Artículo 5°.** En relación con las instrucciones impartidas en el presente instructivo, se hace presente que, en caso de incumplimiento, el sujeto fiscalizado podrá ser objeto de un procedimiento administrativo sancionatorio por infracción a las normas concursales, de conformidad a lo previsto en el artículo 340 y siguientes de la Ley, sin perjuicio de las infracciones de fondo que pudiesen concurrir durante su desempeño.
+
+**Artículo 6°.** Vigencia. El presente Instructivo comenzará a regir a contar de su notificación por correo electrónico a los/las liquidadores/as, sin perjuicio de su publicación en el Diario Oficial.
+
+**Artículo 7°.** Disposición transitoria. Los/as liquidadores/as que a la dictación del presente Instructivo se encuentren en cualquiera de las situaciones descritas precedentemente, tendrán un plazo de 10 días hábiles, contado desde la fecha de notificación del presente instructivo, para cumplir con las instrucciones señaladas en los Títulos I y II del presente instructivo.
+
+---
+
+**2°.** DÉJASE SIN EFECTO a contar de la entrada en vigencia del presente Instructivo, la Resolución Exenta N.° 8002 de 3 de agosto de 2018, que establece plan y criterios para la fiscalización de las cuentas finales de administración y gestión de sujetos que han cesado anticipadamente en su cargo.
+
+**3°.** NOTIFÍQUESE la presente resolución a los/las Liquidadores/as pertenecientes a la nómina de la Superintendencia de Insolvencia y Reemprendimiento y aquellos/as liquidadores/as excluidos con procedimientos concursales vigentes.
+
+**4°.** PUBLÍQUESE la presente resolución en el Diario Oficial.
+
+**5°.** DISPÓNGASE como medida de publicidad, una vez que se encuentre totalmente tramitado el presente acto administrativo, su publicación en el sitio web institucional de la Superintendencia de Insolvencia y Reemprendimiento.
+
+---
+
+**ANÓTESE, NOTIFÍQUESE Y ARCHÍVESE,**
+
+**HUGO SÁNCHEZ RAMÍREZ**
+**SUPERINTENDENTE DE INSOLVENCIA Y REEMPRENDIMIENTO**
+
+PVL/CVS/JAA/EGZ/SUS/NGU/CCL/DTC
+
+**DISTRIBUCIÓN:**
+Señores/as Liquidadores/as
+Presente

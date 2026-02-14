@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ley xmlns="https://leychile.cl/schema/ley/v1" version="1.0" idioma="es-CL" id_norma="INST-2" tipo="Instructivo" numero="2" estado="vigente" fecha_publicacion="2016-11-02" generado="2026-02-11T15:27:18.910243" fuente="Biblioteca del Congreso Nacional de Chile" url_original="https://www.superir.gob.cl/wp-content/document/biblioteca_digital/instructivos/ley-20.720/Instructivo_2_02.11.16.pdf">
+<ley xmlns="https://leychile.cl/schema/ley/v1" version="1.1" idioma="es-CL" id_norma="INST-2" tipo="Instructivo" numero="2" estado="vigente" fecha_publicacion="2016-11-02" generado="2026-02-13T02:36:06.040972" fuente="Biblioteca del Congreso Nacional de Chile" url_original="https://www.superir.gob.cl/wp-content/document/biblioteca_digital/instructivos/ley-20.720/Instructivo_2_02.11.16.pdf">
   <metadatos>
     <titulo>INSTRUCTIVO SIR N°2/2016 - Concepto de insuficiencia de bienes (art. 267)</titulo>
     <identificacion>
@@ -21,106 +21,48 @@
     </fechas>
     <fuente>Superintendencia de Insolvencia y Reemprendimiento</fuente>
   </metadatos>
-  <encabezado>VISTOS:
+  <encabezado>
+    <vistos>Las facultades que le confieren a la Superintendencia de Insolvencia y Reemprendimiento, en adelante la &quot;superintendencia&quot;, el artículo 337 en sus numerales 2 Y 4 de la Ley N.o 20.720, de Reorganización y Liquidación de Activos de Empresas y Personas, en adelante, la &quot;Ley&quot;.</vistos>
+    <considerandos>1o. Que, el artículo 337 N.&quot; 2 de la Ley, otorga a esta Superintendencia la facultad de interpretar administrativamente las leyes, reglamentos y demás normas que rigen a los sujetos fiscalizados, sin perjuicio de las facultades jurisdiccionales que corresponden a los tri buna les competentes ; 2o. Que, el aftículo 337 N.o 4 de la Ley, faculta a la Superintendencia para impaftir a los sujetos fiscalizados instrucciones de carácter obligatorio sobre las materias sometidas a su control;
 
-Las facultades que le confieren a la
-Superintendencia de Insolvencia y Reemprendimiento, en adelante la
-"superintendencia", el artículo 337 en sus numerales 2 Y 4 de la Ley N.o
-20.720, de Reorganización y Liquidación de Activos de Empresas y
-Personas, en adelante, la "Ley".
+30. Que, en relación con los honorarios que le corresponden al Liquidador, en los Procedimientos Concursales de Renegociación, cuando se acuerda la ejecución de los bienes del deudor, el artículo 267 de la Ley establece en su inciso 70, que ascenderán a un total de 30 unidades de fomento de acuerdo al artículo 40 del mismo cuerpo legal. 4o. Que, por su parte el aftículo 40 de la citada Ley, en su inciso final establece que: &quot;Si luego de practicada la diligencia de incautación y confección de inventario a que se refiere el numeral 2) del artículo 76j, se constatare por el Liquidador que el Deudor carece de bienes, o que éstos son insuficientes para el pago de los honorarios que pudieren corresponderle, éste sólo tendrá derecho a una remuneración de 30 unidades de fomento, que serán pagadas por la Superintendencia con cargo a su presupuesto.&quot; 5o. Que, la Ley N.o 20.720 no define lo que debe entenderse por insuficiencia de bienes, por lo que se hace necesario i nterpreta r a d m i n istrativa me nte este concepto.
 
-CONSIDERANDO:
+60. Que, en razón de lo expuesto, esta Superintendencia efectúa la siguiente interpretación administrativa e instruye.
 
-1o. Que, el artículo 337 N." 2 de la Ley, otorga a
-esta Superintendencia la facultad de interpretar administrativamente las
-leyes, reglamentos y demás normas que rigen a los sujetos fiscalizados,
-sin perjuicio de las facultades jurisdiccionales que corresponden a los
-tri buna les competentes ;
-2o. Que, el aftículo 337 N.o 4 de la Ley, faculta a
-la Superintendencia para impaftir a los sujetos fiscalizados instrucciones
-de carácter obligatorio sobre las materias sometidas a su control;
-30. Que, en relación con los honorarios que le
-corresponden al Liquidador, en los Procedimientos Concursales de
-Renegociación, cuando se acuerda la ejecución de los bienes del deudor, el
-artículo 267 de la Ley establece en su inciso 70, que ascenderán a un total
-de 30 unidades de fomento de acuerdo al artículo 40 del mismo cuerpo
-legal.
-4o. Que, por su parte el aftículo 40 de la citada
-Ley, en su inciso final establece que: "Si luego de practicada la diligencia
-de incautación y confección de inventario a que se refiere el numeral 2) del
-artículo 76j, se constatare por el Liquidador que el Deudor carece de
-bienes, o que éstos son insuficientes para el pago de los honorarios que
-pudieren corresponderle, éste sólo tendrá derecho a una remuneración de
-30 unidades de fomento, que serán pagadas por la Superintendencia con
-cargo a su presupuesto."
-5o. Que, la Ley N.o 20.720 no define lo que debe
-entenderse por insuficiencia de bienes, por lo que se hace necesario
-i nterpreta r a d m i n istrativa me nte este concepto.
-60. Que, en razón de lo expuesto, esta
-Superintendencia efectúa la siguiente interpretación administrativa
-e
-instruye.
 Superintendencia de lnsolvencia y Reemprendimiento
 
-INTERPRETACIóN ADMINISTRATIVA
-E
-INSTRUYE:</encabezado>
+INTERPRETACIóN ADMINISTRATIVA E INSTRUYE:</considerandos>
+  </encabezado>
   <contenido total_articulos="4" total_libros="0" total_titulos="0" total_capitulos="0">
     <articulo id="1" tipo_original="Artículo" numero="10">
       <titulo_seccion>Artículo 10</titulo_seccion>
-      <texto>Para los efectos de lo dispuesto en
-el artículo 267 de la Ley, en relación con el inciso final del artículo 40 del
-mismo cuerpo legal, se interpreta administrativamente que los bienes son
-insuficientes para el pago de los honorarios del Liquidador, cuando con el
-producto de la realización de los bienes del deudory los otros fondos de su
-propiedad, no se alcanzaren a pagar los créditos que gozan de las
-preferencias establecidas en los números t al4 del artículo 2472 del Código
-Civil, preferencia esta última que comprende los honorarios del Liquidador.
-En estos casos, corresponderá al Liquidador un
-honorario único y total de 30 unidades de fomento, el que será pagado por
-la Superintendencia de Insolvencia y Reemprendimiento, con cargo a su
-presupuesto.</texto>
+      <contenido>
+        <parrafo>Para los efectos de lo dispuesto en el artículo 267 de la Ley, en relación con el inciso final del artículo 40 del mismo cuerpo legal, se interpreta administrativamente que los bienes son insuficientes para el pago de los honorarios del Liquidador, cuando con el producto de la realización de los bienes del deudory los otros fondos de su propiedad, no se alcanzaren a pagar los créditos que gozan de las preferencias establecidas en los números t al4 del artículo 2472 del Código Civil, preferencia esta última que comprende los honorarios del Liquidador.</parrafo>
+        <parrafo>En estos casos, corresponderá al Liquidador un honorario único y total de 30 unidades de fomento, el que será pagado por la Superintendencia de Insolvencia y Reemprendimiento, con cargo a su presupuesto.</parrafo>
+      </contenido>
       <referencias>
-        <ref articulo="267"/>
         <ref articulo="2472"/>
+        <ref articulo="267"/>
         <ref articulo="40"/>
       </referencias>
     </articulo>
     <articulo id="2" tipo_original="Artículo" numero="20">
       <titulo_seccion>Artículo 20</titulo_seccion>
-      <texto>Para proceder al pago de estos
-honorarios, los Liquidadores deberán efectuar una solicitud ante esta
-Superintendencia, acompañando todos los antecedentes que acrediten la
-insuficiencia de bienes en los términos indicados en el a¡tículo anterior,
-tales como, facturas de venta, boletas o contratos que den cuenta de la
-venta directa efectuada.</texto>
+      <contenido>
+        <parrafo>Para proceder al pago de estos honorarios, los Liquidadores deberán efectuar una solicitud ante esta Superintendencia, acompañando todos los antecedentes que acrediten la insuficiencia de bienes en los términos indicados en el a¡tículo anterior, tales como, facturas de venta, boletas o contratos que den cuenta de la venta directa efectuada.</parrafo>
+      </contenido>
     </articulo>
     <articulo id="3" tipo_original="Artículo" numero="30">
       <titulo_seccion>Artículo 30</titulo_seccion>
-      <texto>En los casos en que no exista
-insuficiencia de bienes en los términos señalados en el aftículo primero de
-este Instructivo, al Liquidador le corresponderá un honorario único y total
-de 30 unidades de fomento, el que será solventado con el producto de la
-realización de los bienes del deudor y de los demás fondos de su propiedad.</texto>
+      <contenido>
+        <parrafo>En los casos en que no exista insuficiencia de bienes en los términos señalados en el aftículo primero de este Instructivo, al Liquidador le corresponderá un honorario único y total de 30 unidades de fomento, el que será solventado con el producto de la realización de los bienes del deudor y de los demás fondos de su propiedad.</parrafo>
+      </contenido>
     </articulo>
     <articulo id="4" tipo_original="Artículo" numero="40">
       <titulo_seccion>Artículo 40</titulo_seccion>
-      <texto>= La presente
-interpretación
-administrativa será obligatoria para todos los Liquidadores designados en
-un acuerdo de ejecución dentro de un Procedimiento Concursal de
-Renegociación y entrará a regir a partir de su notificación por correo
-electrónico.
-ublíq y archívese.
-(,,
-nÉs peruNYgoo RO
-SUPERINTENDENTE DE INSOLVENCIA Y
-RE - E , IV IPRENDIIVI rENro (rP)
-,l
-i
-/
-f,,,é,,WÑ,,8ü
-Superintendencia de lnsolvencia y Reemprendimiento/ 2</texto>
+      <contenido>
+        <parrafo>= La presente interpretación administrativa será obligatoria para todos los Liquidadores designados en un acuerdo de ejecución dentro de un Procedimiento Concursal de Renegociación y entrará a regir a partir de su notificación por correo electrónico. ublíq y archívese. (,, nÉs peruNYgoo RO SUPERINTENDENTE DE INSOLVENCIA Y RE - E , IV IPRENDIIVI rENro (rP) ,l i / f,,,é,,WÑ,,8ü Superintendencia de lnsolvencia y Reemprendimiento/ 2</parrafo>
+      </contenido>
     </articulo>
   </contenido>
 </ley>

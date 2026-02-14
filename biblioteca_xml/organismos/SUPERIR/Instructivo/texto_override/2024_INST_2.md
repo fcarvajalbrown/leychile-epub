@@ -1,0 +1,144 @@
+# RESOLUCIÓN EXENTA N.º 11679
+
+**MAT.:** APRUEBA INSTRUCTIVO QUE INFORMA E IMPARTE INSTRUCCIONES A LOS/AS SÍNDICOS Y EX SÍNDICOS EN APLICACIÓN DE SOBRESEIMIENTO DEFINITIVO Y SOBRESEIMIENTO TEMPORAL EN LOS PROCEDIMIENTOS DE QUIEBRAS VIGENTES REGIDOS POR EL LIBRO IV DEL CÓDIGO DE COMERCIO
+
+**SANTIAGO, 13 AGOSTO 2024**
+
+---
+
+## VISTOS:
+
+Las facultades que me confiere la Ley N.° 20.720, que sustituye el régimen concursal vigente por una Ley de Reorganización y Liquidación de Activos de Empresas y Personas; lo dispuesto en la Ley N.° 21.563, que Moderniza los Procedimientos Concursales Contemplados en la Ley N.° 20.720 y Crea Nuevos Procedimientos para Micro y Pequeñas Empresas; lo previsto en el Libro IV del Código de Comercio; lo dispuesto en la Ley N.° 18.175 que contiene la Ley Orgánica de la ex Superintendencia de Quiebras; en el D.F.L. N.° 1-19.653, de 17 de noviembre de 2001, que fija el texto Refundido, Coordinado y Sistematizado de la Ley N.° 18.575, Orgánica Constitucional de Bases Generales de la Administración del Estado; en la Ley N.° 19.880, que establece Bases de los Procedimientos Administrativos que Rigen los Actos de los Órganos de la Administración del Estado; en la Ley N.º 19.799 sobre Documentos Electrónicos, Firma Electrónica y Servicios de Certificación de Dicha Firma; en el Decreto Supremo N.º 181 de 17 de agosto de 2002, del Ministerio de Economía; Fomento y Turismo, que Aprueba el Reglamento de la Ley N.º 19.799 sobre Documentos Electrónicos, Firma Electrónica y la Certificación de Dicha Firma en la Resolución N.° 7 de 2019 de la Contraloría General de la República, que fija normas sobre Exención del Trámite de Toma de Razón; y, en el Decreto N.° 8 de 19 de enero de 2023, del Ministerio de Economía, Fomento y Turismo.
+
+## CONSIDERANDO:
+
+**1.** Que, la Ley N.º 20.720 de Reorganización y Liquidación de Activos de Empresas y Personas, en su artículo sexto transitorio dispone que la Superintendencia de Insolvencia y Reemprendimiento se constituye, para todos los efectos, en la sucesora legal de la Superintendencia de Quiebras, en las materias de su competencia.
+
+**2.** Que, le corresponderá a esta Superintendencia supervigilar y fiscalizar las actuaciones de los Veedores, Liquidadores, Martilleros Concursales, Interventores, administradores de la continuación de las actividades económicas del deudor, asesores económicos de insolvencia y, en general, de toda persona que por ley quede sujeta a su supervigilancia y fiscalización, de conformidad con el artículo 332, en relación con el numeral 1 del artículo 337 de la Ley N.° 20.720.
+
+**3.** Que, de conformidad al Título II de la Ley N.° 18.175, la Superintendencia tiene una serie de atribuciones y deberes respecto al cumplimiento de las funciones de los síndicos, establecidos principalmente en el artículo 8, a saber: *"1. Fiscalizar las actuaciones de los síndicos en las quiebras, convenios o cesiones de bienes en todos los aspectos de su gestión, sean técnicos, jurídicos o financieros, así como las de los administradores de la continuación del giro.*
+
+*La facultad de fiscalizar comprende la de interpretar administrativamente las leyes, reglamentos y demás normas que rigen a las personas fiscalizadas, sin perjuicio de las facultades jurisdiccionales que corresponden a los tribunales competentes;*
+
+*2. Examinar, cuando lo estime necesario, los libros, cuentas, archivos, documentos, contabilidad y bienes relativos a la quiebra, convenio o cesión de bienes. La no exhibición o entrega de lo señalado en este inciso por parte del síndico a la Superintendencia para su examen, se considerará falta grave para los efectos del Nº 9 de este artículo...*
+
+*3. Impartir a los síndicos y a los administradores de la continuación del giro instrucciones de carácter obligatorio sobre las materias sometidas a su control..."*
+
+**4.** Que, el artículo sexto transitorio de la Ley N.º 21.563, contiene los presupuestos legales para la procedencia del sobreseimiento definitivo de los procedimientos de quiebras vigentes.
+
+**5.** Que, a su vez, el artículo décimo tercero transitorio de la Ley N.° 20.720, incorporado por la Ley N.° 21.563, estableció los requisitos para configurar el sobreseimiento temporal de los procedimientos de quiebra vigentes.
+
+**6.** Que, el numeral 2) del artículo 337 de la Ley N.º 20.720, otorga a la Superintendencia de Insolvencia y Reemprendimiento, la facultad de *"interpretar administrativamente las leyes, reglamentos y demás normas que rigen a los fiscalizados, sin perjuicio de las facultades jurisdiccionales que correspondan a los tribunales competentes"*.
+
+**7.** Que, atendido lo expuesto y de conformidad con el artículo 3 de la Ley N.º 19.880 y demás normas legales pertinentes,
+
+## RESUELVO:
+
+**1°.** APRUÉBASE el siguiente Instructivo que informa normativa aplicable a los sobreseimientos definitivos y temporales, e imparte instrucciones a los/as síndicos y ex síndicos que tienen procedimientos de quiebras vigentes a su cargo, de conformidad a lo establecido en el artículo 27 del Libro IV del Código de Comercio, artículo 337 N.º 4 de la Ley N.° 20.720, lo establecido en el artículo sexto transitorio del mismo cuerpo legal, en relación con lo dispuesto en el artículo 8 de la Ley N.º 18.175.
+
+---
+
+# INSTRUCTIVO SUPERIR N.° 2
+
+## Título I - Informa aplicación de requisitos del sobreseimiento definitivo contemplado en el artículo sexto transitorio de la Ley N.º 21.563
+
+**Artículo 1°.** Que, el artículo sexto transitorio de la Ley N.º 21.563, señala del sobreseimiento definitivo que:
+
+*"En las quiebras, convenios y cesiones de bienes iniciados bajo la vigencia de las disposiciones contenidas en el Libro IV del Código de Comercio, y que se encontraban en tramitación al momento de la entrada en vigencia de la Ley N.° 20.720, se sobreseerá definitivamente, aun cuando las deudas no se hubieren alcanzado a cubrir con el producto de la realización de los bienes de la quiebra, siempre que concurran los siguientes requisitos:*
+
+*1. Que se haya aprobado la cuenta definitiva del síndico. Tal circunstancia se certificará cuando haya transcurrido el plazo señalado en el artículo 30 del Libro IV del Código de Comercio, sin que la Superintendencia o algún acreedor haya objetado la cuenta, o cuando, habiéndose objetado, el tribunal la haya aprobado o tenido por subsanadas las observaciones informadas por la Superintendencia y que motivaron la objeción de la cuenta, sea de ella o de algún acreedor. Este requisito se refiere sólo a la cuenta final rendida por el síndico que no haya sido cesado anticipadamente en el cargo.*
+
+*2. Que el procedimiento penal de calificación de la quiebra haya concluido por sobreseimiento definitivo o por sentencia absolutoria, y en el caso de sentencia condenatoria, que se acredite el cumplimiento de la pena."*
+
+La disposición citada establece, por tanto, los presupuestos legales para que sea aplicable el sobreseimiento definitivo en un procedimiento de quiebra.
+
+**Artículo 2°.** En relación con el requisito de aprobación de la cuenta definitiva de administración, aquella se tendrá por aprobada si no se hubiere objetado dentro de plazo legal ante el tribunal competente, o si habiéndose objetado, se haya tenido por aprobada o tenido por subsanadas las observaciones informadas por la Superintendencia y que motivaron la objeción de la cuenta, sea de ella o de algún acreedor, de conformidad a lo establecido en los artículos 30 y 31 del Libro IV del Código de Comercio.
+
+**Artículo 3°.** A fin de constatar la presentación o no presentación de objeciones a la cuenta definitiva de administración del síndico, se estará al procedimiento judicial contenido en los artículos 30 y 31 del Libro IV del Código de Comercio.
+
+De acuerdo a lo expuesto, la Superintendencia revisará el expediente de la quiebra, especialmente el cuaderno donde conste la rendición de la cuenta definitiva del síndico, en especial que la resolución que la tuvo por acompañada y cite a la junta especial, haya sido notificada mediante su inserción en el Diario Oficial, lo que indicará en el oficio respectivo y el hecho que de acuerdo al procedimiento judicial, la cuenta se encuentra aprobada, no siendo necesario para estos efectos que se requiera la emisión de un certificado por parte de esta Superintendencia, ya que al efecto opera lo señalado en el artículo 64 del Código de Procedimiento Civil, que le es aplicable en virtud de lo señalado en el artículo 1 del mismo cuerpo legal.
+
+En efecto, si de la revisión del expediente judicial no constan objeciones presentadas dentro de plazo legal, se concluye de forma inequívoca la procedencia de la resolución judicial que tiene por aprobada la cuenta definitiva.
+
+De acuerdo con lo señalado, una vez aprobada la cuenta definitiva de administración, y según lo dispuesto en el numeral 2) del artículo sexto transitorio de la Ley N.º 21.563, se podrá solicitar inmediatamente el sobreseimiento definitivo de la quiebra.
+
+Lo expuesto, no aplicará en la cuenta definitiva por cese anticipado en el cargo, por cuanto el inciso final del numeral 1 del artículo sexto transitorio ya citado, se refiere solo a la cuenta final rendida por el síndico que no haya sido cesado anticipadamente en el cargo.
+
+**Artículo 4°.** Que, en cuanto a la forma de tramitación del sobreseimiento definitivo, de conformidad a lo contemplado en el artículo 166 del Libro IV del Código de Comercio, en relación con el artículo 6 del mismo cuerpo normativo, la solicitud de sobreseimiento definitivo se notificará por medio de aviso inserto en el Diario Oficial, y dentro del plazo de 15 días siguientes a la notificación, podrán deducirse oposiciones a la solicitud de sobreseimiento definitivo, las que se tramitarán como incidentes entre el fallido y el opositor. La resolución será apelable en ambos efectos.
+
+**Artículo 5°.** Una vez ejecutoriada la sentencia que declare el sobreseimiento definitivo, cesará el estado de quiebra y se cancelarán las inscripciones que se hubieren practicado en la oficina del Conservador de Bienes Raíces, de acuerdo a lo dispuesto por el artículo 167 del Libro IV del Código de Comercio.
+
+Lo anterior, para efectos de que el/la síndico efectúe las gestiones pertinentes en los procedimientos de quiebras a su cargo, y que se encuentren concluidos por la referida sentencia ejecutoriada.
+
+---
+
+## Título II - Informa aplicación de requisitos del sobreseimiento temporal establecido en el artículo décimo tercero transitorio de la Ley N.º 20.720, incorporado por la Ley N.º 21.563
+
+**Artículo 6°.** El artículo décimo tercero transitorio de la Ley N.º 20.720, incorporado por la Ley N.º 21.563, establece respecto del sobreseimiento temporal, que:
+
+*"En todas aquellas quiebras iniciadas antes de la entrada en vigencia de la presente ley, que carezcan de bienes o en que éstos no alcancen a cubrir los gastos necesarios para su prosecución, el respectivo tribunal, de oficio o a petición de parte o de la Superintendencia de Insolvencia y Reemprendimiento, podrá decretar el sobreseimiento temporal. La resolución se notificará por medio de aviso inserto en el Diario Oficial. La carencia de bienes o la insuficiencia de éstos para cubrir los gastos de la quiebra, podrá ser acreditada mediante un informe contable emitido por la Superintendencia, que se adjuntará a la solicitud respectiva.*
+
+*Si transcurrido el plazo de dos años desde que se hubiere notificado el sobreseimiento temporal, no se hubiere solicitado que éste se deje sin efecto, en los términos del artículo 162 del Libro IV del Código de Comercio, el respectivo tribunal, de oficio, a petición de parte o de la Superintendencia, podrá decretar el sobreseimiento definitivo."*
+
+**Artículo 7°.** El sobreseimiento temporal puede ser declarado a solicitud de parte, de la Superintendencia de Insolvencia y Reemprendimiento, o de oficio por el tribunal del procedimiento, cuando se acredite el presupuesto básico de carencia de bienes o la insuficiencia de éstos para cubrir los gastos de la quiebra.
+
+Respecto del presupuesto básico del sobreseimiento temporal, esto es, la carencia de bienes o la insuficiencia de estos para cubrir los gastos de la quiebra, ello podrá ser acreditado mediante un informe contable emitido por la Superintendencia de Insolvencia y Reemprendimiento, el que podrá emitirse de oficio, o a requerimiento previo del/la síndico o del fallido (deudor) o de algún acreedor, el que se adjuntará a la solicitud que se haga al tribunal respectivo.
+
+Que, para que la Superintendencia pueda elaborar el informe contable referido, se requiere de información actualizada del estado contable y jurídico de la quiebra, que deberá ser remitida a la Superintendencia de Insolvencia y Reemprendimiento por el/la síndico o ex síndico a cargo del procedimiento de quiebra, o bien pueda esta acceder a esta en instituciones que proporcionen dicha información a requerimiento directo de la Superintendencia.
+
+Para el caso de requerimiento del informe contable por parte de el/la síndico o ex síndico, este/a deberá efectuar su solicitud a través de la Oficina de Partes de esta Superintendencia, sea en forma presencial, o bien, a través del correo electrónico ofpartes@superir.gob.cl, informando nombre del procedimiento de quiebra, rol y tribunal respectivo.
+
+**Artículo 8°.** A su vez, se informa, que la tramitación del sobreseimiento temporal del artículo décimo tercero transitorio de la Ley N.º 20.720, es distinta de la tramitación del sobreseimiento definitivo contemplado en el artículo sexto transitorio de la Ley N.° 21.563.
+
+Esto dice relación con los efectos de cada sobreseimiento, observando que el definitivo pone término a la quiebra, mientras que el temporal permite su reanudación, de conformidad con el artículo 161 del Libro IV del Código de Comercio.
+
+En tal sentido, el sobreseimiento temporal no contempla la notificación previa de tal solicitud, ya que cualquier interesado, dentro de los 2 años siguientes a la declaración de sobreseimiento temporal, puede solicitar que continúe el juicio de quiebra, cumplidos los presupuestos del artículo 162 del Libro IV antes citado.
+
+Se observa lo anterior, considerando que al efectuarse la solicitud de sobreseimiento temporal algunos tribunales han resuelto que previo a decretarlo, se notifique por medio de aviso inserto en el Diario Oficial o mediante el artículo 52 del Código de Procedimiento Civil, en circunstancias, que el artículo décimo tercero transitorio de la Ley N.º 20.720, establece que se procederá a notificar por aviso la resolución judicial que decreta el sobreseimiento temporal.
+
+Por tanto, en caso de que el tribunal respectivo disponga otros requisitos, el/la síndico o ex síndico deberá interponer recurso de reposición judicial de conformidad a lo previsto en el numeral 1 del artículo 4 de la Ley N.° 20.720 o requerir su corrección de oficio, según lo dispuesto en el inciso final del artículo 84 del Código de Procedimiento Civil, informando lo antes expuesto, toda vez que los requisitos del sobreseimiento temporal se encuentran establecidos expresamente en el citado artículo décimo tercero transitorio.
+
+---
+
+## Título III - Instruye informar fondos disponibles y gestiones pendientes en los juicios de quiebras vigentes
+
+**Artículo 9°.** De acuerdo con lo señalado en el Título II referido a los sobreseimientos temporales del presente Instructivo, se instruye a los/las síndicos y ex síndicos, en los procedimientos de quiebras sujetos a su administración, informar fundadamente y remitir a esta Superintendencia, mediante Oficina de Partes, sea en forma presencial, o bien, a través del correo electrónico ofpartes@superir.gob.cl, dentro del plazo de 30 días hábiles administrativos, los antecedentes contables y jurídicos actualizados de los procedimientos a su cargo, con la individualización precisa del procedimiento, en especial los que se indican a continuación:
+
+A) Fondos disponibles existentes en cuentas corrientes bancarias abiertas para la administración de los dineros de cada quiebra, con el estado de la cuenta corriente emitida por el respectivo banco, incluyendo conciliación bancaria con su correspondiente cartola.
+
+B) Certificados de depósito bancario por inversiones tomadas en instituciones financieras.
+
+C) Balance general, debidamente firmado por el síndico y contador.
+
+D) Certificación de bienes incautados pendientes de enajenar, si los hubiere.
+
+Si el/la síndico o ex síndico no pudiere cumplir con el requisito señalado en la letra A) precedente, por cierre de la cuenta corriente de la quiebra, deberá informarlo con el certificado actualizado que emita la respectiva institución bancaria, la que deberá contener antecedentes relativos a los fondos del procedimiento.
+
+---
+
+## Título IV - Disposiciones finales
+
+**Artículo 10°.** Vigencia. El presente Instructivo comenzará a regir a contar de su notificación por correo electrónico a los/las síndicos y ex síndicos, sin perjuicio de su publicación en el Diario Oficial.
+
+**Artículo 11°.** Disposición transitoria. Los/las síndicos y ex síndicos que a la notificación del presente Instructivo se encuentren en cualquiera de las situaciones descritas precedentemente, tendrán un plazo de 10 días hábiles administrativos, contados desde la notificación del presente Instructivo por correo electrónico, para dar cumplimiento a las instrucciones impartidas.
+
+---
+
+**2°.** NOTIFÍQUESE la presente resolución a los/las Síndicos pertenecientes a la nómina de la Superintendencia de Insolvencia y Reemprendimiento y aquellos/as síndicos excluidos con procedimientos de quiebras vigentes.
+
+**3°.** PUBLÍQUESE la presente resolución en el Diario Oficial.
+
+**4°.** DISPÓNGASE como medida de publicidad, una vez que se encuentre totalmente tramitado el presente acto administrativo, su publicación en el sitio web institucional de la Superintendencia de Insolvencia y Reemprendimiento.
+
+---
+
+**ANÓTESE, NOTIFÍQUESE Y ARCHÍVESE,**
+
+**HUGO SÁNCHEZ RAMÍREZ**
+**SUPERINTENDENTE DE INSOLVENCIA Y REEMPRENDIMIENTO**
+
+PVL/CVS/CBP/EGZ/FRC/SUS/GMD/RJU
+
+**DISTRIBUCIÓN:**
+Señores/as Síndicos y ex Síndicos
+PRESENTE

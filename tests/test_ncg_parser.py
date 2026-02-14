@@ -272,9 +272,10 @@ class TestParseIntegration:
         norma = parser.parse(SAMPLE_NCG_TEXT)
         assert len(norma.estructuras) > 0
 
-    def test_norma_promulgacion(self, parser):
+    def test_norma_disposiciones_finales(self, parser):
         norma = parser.parse(SAMPLE_NCG_TEXT)
-        assert norma.promulgacion_texto
+        assert norma.disposiciones_finales_texto
+        assert norma.promulgacion_texto == ""
 
     def test_override_ncg_numero(self, parser):
         norma = parser.parse("Texto sin metadata.", ncg_numero="99")

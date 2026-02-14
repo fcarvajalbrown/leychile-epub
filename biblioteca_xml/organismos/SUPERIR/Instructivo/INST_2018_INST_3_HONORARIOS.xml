@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ley xmlns="https://leychile.cl/schema/ley/v1" version="1.0" idioma="es-CL" id_norma="INST-1" tipo="Instructivo" numero="1" estado="vigente" fecha_publicacion="2018-11-16" generado="2026-02-11T15:27:17.626169" fuente="Biblioteca del Congreso Nacional de Chile" url_original="https://www.superir.gob.cl/wp-content/document/biblioteca_digital/instructivos/ley-20.720/Instructivo_3.DE.16.11.18.pdf">
+<ley xmlns="https://leychile.cl/schema/ley/v1" version="1.1" idioma="es-CL" id_norma="INST-1" tipo="Instructivo" numero="1" estado="vigente" fecha_publicacion="2018-11-16" generado="2026-02-13T02:36:03.703157" fuente="Biblioteca del Congreso Nacional de Chile" url_original="https://www.superir.gob.cl/wp-content/document/biblioteca_digital/instructivos/ley-20.720/Instructivo_3.DE.16.11.18.pdf">
   <metadatos>
     <titulo>INSTRUCTIVO SIR N°3/2018 - Pago de honorarios de liquidadores con cargo al presupuesto</titulo>
     <identificacion>
@@ -21,231 +21,101 @@
     </fechas>
     <fuente>Superintendencia de Insolvencia y Reemprendimiento</fuente>
     <leyes_referenciadas>
-      <ley_ref>Ley 18.575</ley_ref>
-      <ley_ref>Ley 19.880</ley_ref>
-      <ley_ref>Ley 20.720</ley_ref>
-      <ley_ref>DFL 1/19.653</ley_ref>
+      <ley_ref tipo="Ley" numero="18.575">Ley 18.575</ley_ref>
+      <ley_ref tipo="Ley" numero="19.880">Ley 19.880</ley_ref>
+      <ley_ref tipo="Ley" numero="20.720">Ley 20.720</ley_ref>
+      <ley_ref tipo="DFL" numero="1/19.653">DFL 1/19.653</ley_ref>
     </leyes_referenciadas>
   </metadatos>
-  <encabezado>VISTOS:
+  <encabezado>
+    <vistos>Lo dispuesto en el D.F.L. N° 1/19.653 de 2001 que fijó el texto refundido, coordinado y sistematizado de la Ley N.° 18.575, Orgánica de Bases Generales de la Administración del Estado; en la Ley N.° 19.880 de Bases de los Procedimientos Administrativos que rigen los actos de los Organos de la Administración del Estado; en la Resolución N.° 1.600 de 2008 de la Contraloría General de la República, que establece normas sobre Exención del Trámite de Toma de Razón; en la Ley N.° 20.720 de Reorganización y Liquidación de Activos de Empresas y Personas; en el Decreto N.° 192 de 7 de noviembre de 2016 del Ministerio de Economía, Fomento y Turismo; las facultades que le confiere a la Superintendencia de Insolvencia y Reemprendimiento, en adelante la &quot;Superintendencia&quot;, el artículo 337 de la Ley N.° 20.720 de Reorganización y Liquidación de Activos de Empresas y Personas, en adelante, la &quot;Ley&quot;, y las necesidades de buen servicio de esta Superintendencia.</vistos>
+    <considerandos>1° Que, en el numeral 2 del artículo 337 de la Ley, se otorga a esta Superintendencia la facultad de interpretar administrativamente las leyes, reglamentos y demás normas que rigen a los veedores, liquidadores, administradores de la continuación de actividades económicas y martilleros concursales, sin perjuicio de las facultades jurisdiccionales que corresponden a los tribunales competentes;
 
-Lo dispuesto en el D.F.L. N° 1/19.653
-de 2001 que fijó el texto refundido, coordinado y sistematizado de la Ley N.°
-18.575, Orgánica de Bases Generales de la Administración del Estado; en la
-Ley N.° 19.880 de Bases de los Procedimientos Administrativos que rigen los
-actos de los Organos de la Administración del Estado; en la Resolución N.°
-1.600 de 2008 de la Contraloría General de la República, que establece
-normas sobre Exención del Trámite de Toma de Razón; en la Ley N.° 20.720
-de Reorganización y Liquidación de Activos de Empresas y Personas; en el
-Decreto N.° 192 de 7 de noviembre de 2016 del Ministerio de Economía,
-Fomento y Turismo; las facultades que le confiere a la Superintendencia de
-Insolvencia y Reemprendimiento, en adelante la "Superintendencia", el
-artículo 337 de la Ley N.° 20.720 de Reorganización y Liquidación de Activos
-de Empresas y Personas, en adelante, la "Ley", y las necesidades de buen
-servicio de esta Superintendencia.
+2° Que, en el numeral 4 del artículo 337 de la Ley, se otorga a esta Superintendencia la facultad de impartir a los sujetos fiscalizados, instrucciones de carácter obligatorio sobre las materias sometidas a su control;
 
-CONSIDERANDO:
+3° Que, el inciso final del artículo 40 de la Ley, establece que: &quot;Si luego de practicada la diligencia de incautación y confección de inventario a que se refiere el numeral 2) del artículo 163, se constatare por el Liquidador que el deudor carece de bienes, o que éstos son insuficientes para el pago de los honorarios que pudieren corresponderle, éste sólo tendrá derecho a una remuçleración de 30 unidades de fomento,
 
-1° Que, en el numeral 2 del artículo 337 de la
-Ley, se otorga a esta Superintendencia la facultad de interpretar
-administrativamente las leyes, reglamentos y demás normas que rigen a los
-veedores, liquidadores, administradores de la continuación de actividades
-económicas y martilleros concursales, sin perjuicio de las facultades
-jurisdiccionales que corresponden a los tribunales competentes;
-2° Que, en el numeral 4 del artículo 337 de la
-Ley, se otorga a esta Superintendencia la facultad de impartir a los sujetos
-fiscalizados, instrucciones de carácter obligatorio sobre las materias
-sometidas a su control;
-3° Que, el inciso final del artículo 40 de la Ley,
-establece que: "Si luego de practicada la diligencia de incautación y
-confección de inventario a que se refiere el numeral 2) del artículo 163, se
-constatare por el Liquidador que el deudor carece de bienes, o que éstos son
-insuficientes para el pago de los honorarios que pudieren corresponderle,
-éste sólo tendrá derecho a una remuçleración de 30 unidades de fomento,
+que serán pagadas por la Superintendencia con cargo a su presupuesto&quot;;
 
-que serán pagadas por la Superintendencia con cargo a su presupuesto";
-40 Que, conforme lo disponen los artículos 3 y 5
-de la Ley N.° 18.575 de Bases Generales de la Administración del Estado,
-corresponde a los Servicios Públicos velar por la eficaz e idónea
-administración de los recursos públicós;
-50 Que, esta Superintendencia en uso de sus
-facultades, dictó el Instructivo SIR N.° 1 de 6 de octubre de 2015, que regula
-materias relativas a obligaciones generales y especiales de los sujetos
-fiscalizados, en cuyo artículo 16 reguló el pago de los honorarios del
-liquidador con cargo al presupuesto 1e esta Superintendencia, disposición
-que fue sustituida mediante el Instructivo Superir N.° 1 de 15 de enero de
-2018;
-6° Que, con motivo de la revisión de las
-solicitudes de pago de honorarios presentadas ante esta Superintendencia,
-se ha constatado el incumplimiento de la obligación del liquidador de incautar
-la totalidad de bienes del deudor, conenida en el artículo 36 N.° 1, 129 N.°
-3 y 163 N.° 2 de la Ley N.° 20.720 y de las formalidades exigidas en los
-artículos 163 y siguientes de la Ley y artículos 28 y siguientes del Instructivo
-SIR N.° 1 de 6 de octubre de 2015, en relación a la diligencia de incautación
-e inventario de bienes. De igual forma, se ha constatado el incumplimiento
-de las instrucciones impartidas en el Oficio SIR N.° 1076 de 16 marzo de
-2016, en orden a solicitar al tribUnal del procedimiento oficiar a las
-instituciones que dicho oficio señala, a efectos de ubicar otros bienes del
-deudor, circunstancias que impiden autorizar el pago de honorarios con cargo
-al presupuesto de este Servicio, de acuerdo a lo dispuesto en el inciso final
-del artículo 40 de la Ley. Lo anterior, en la práctica, se ve incrementado en
-atención a que en los procedimientos concursales de liquidación los deudores
-no ponen a disposición del tribunal los antecedentes necesarios que permitan
-al liquidador incautar todos sus bienes, de conformidad a lo exigido en el
-artículo 115 de la Ley, en concordancia con el artículo 169 del mismo cuerpo
-legal;
-70 Que, lo descrito hace necesario regular con
-mayor precisión la manera de acreditar de forma fehaciente y certera la falta
-de bienes del deudor o que estos sean insuficientes para el pago de los
-honorarios del liquidador, con cargo al presupuesto de esta Superintendencia,
-de conformidad a lo dispuesto en el inciso final del artículo 40 de la Ley;
-8° Que, conforme a la facultad contemplada en
-el citado numeral 4 del artículo 337 de la Ley N.° 20.720, se dicta el
-siguiente:
-INSTRUCTIVO:</encabezado>
+40 Que, conforme lo disponen los artículos 3 y 5 de la Ley N.° 18.575 de Bases Generales de la Administración del Estado, corresponde a los Servicios Públicos velar por la eficaz e idónea administración de los recursos públicós;
+
+50 Que, esta Superintendencia en uso de sus facultades, dictó el Instructivo SIR N.° 1 de 6 de octubre de 2015, que regula materias relativas a obligaciones generales y especiales de los sujetos fiscalizados, en cuyo artículo 16 reguló el pago de los honorarios del liquidador con cargo al presupuesto 1e esta Superintendencia, disposición que fue sustituida mediante el Instructivo Superir N.° 1 de 15 de enero de 2018;
+
+6° Que, con motivo de la revisión de las solicitudes de pago de honorarios presentadas ante esta Superintendencia, se ha constatado el incumplimiento de la obligación del liquidador de incautar la totalidad de bienes del deudor, conenida en el artículo 36 N.° 1, 129 N.°
+
+3 y 163 N.° 2 de la Ley N.° 20.720 y de las formalidades exigidas en los artículos 163 y siguientes de la Ley y artículos 28 y siguientes del Instructivo SIR N.° 1 de 6 de octubre de 2015, en relación a la diligencia de incautación e inventario de bienes. De igual forma, se ha constatado el incumplimiento de las instrucciones impartidas en el Oficio SIR N.° 1076 de 16 marzo de 2016, en orden a solicitar al tribUnal del procedimiento oficiar a las instituciones que dicho oficio señala, a efectos de ubicar otros bienes del deudor, circunstancias que impiden autorizar el pago de honorarios con cargo al presupuesto de este Servicio, de acuerdo a lo dispuesto en el inciso final del artículo 40 de la Ley. Lo anterior, en la práctica, se ve incrementado en atención a que en los procedimientos concursales de liquidación los deudores no ponen a disposición del tribunal los antecedentes necesarios que permitan al liquidador incautar todos sus bienes, de conformidad a lo exigido en el artículo 115 de la Ley, en concordancia con el artículo 169 del mismo cuerpo legal;
+
+70 Que, lo descrito hace necesario regular con mayor precisión la manera de acreditar de forma fehaciente y certera la falta de bienes del deudor o que estos sean insuficientes para el pago de los honorarios del liquidador, con cargo al presupuesto de esta Superintendencia, de conformidad a lo dispuesto en el inciso final del artículo 40 de la Ley;
+
+8° Que, conforme a la facultad contemplada en el citado numeral 4 del artículo 337 de la Ley N.° 20.720, se dicta el siguiente:
+
+INSTRUCTIVO:</considerandos>
+  </encabezado>
   <contenido total_articulos="4" total_libros="0" total_titulos="0" total_capitulos="0">
     <articulo id="1" tipo_original="Artículo" numero="10">
-      <titulo_seccion>Artículo 10. Sustitúyase el artículo 16 del Instructivo SIR N</titulo_seccion>
-      <texto>° 1 de 6 de octubre de 2015, incorporado por Instructivo Superir N.° 1 de 15 de enero de 2018, referido al pago de los honorarios del liquidador con cargo al presupuesto de la Superintendencia de Insolvencia y Reemprendimiento, por el siguiente:</texto>
+      <titulo_seccion>Artículo 10</titulo_seccion>
+      <contenido>
+        <parrafo>Sustitúyase el artículo 16 del Instructivo SIR N.° 1 de 6 de octubre de 2015, incorporado por Instructivo Superir N.° 1 de 15 de enero de 2018, referido al pago de los honorarios del liquidador con cargo al presupuesto de la Superintendencia de Insolvencia y Reemprendimiento, por el siguiente:</parrafo>
+      </contenido>
+      <referencias>
+        <ref articulo="16"/>
+      </referencias>
     </articulo>
     <articulo id="2" tipo_original="Artículo" numero="16">
       <titulo_seccion>Artículo 16</titulo_seccion>
       <contenido>
         <parrafo>El liquidador que solicite el pago</parrafo>
-        <parrafo>de honorarios de 30 unidades de fomento, con cargo al presupuesto de esta
-Superintendencia, deberá efectuarlo a través del Módulo de Comunicación
-Directa, en el Portal Sujetos Fiscalizados, seleccionando el asunto "Requiere
-pago 30 UF", acreditando que realizó lá diligencia de incautación y confección
-de inventario, agotando todos los mdios para ubicar bienes del deudor a
-efectos de constatar que este carece çe bienes o que estos son insuficientes
-para el pago de dichos honorarios, conforme lo exige el inciso final del
-artículo 40 de la Ley.
-Para estos efectos, el liquidador deberá
-acompañar a su solicitud los siguientes antecedentes:
-1. Copia del acta de la diligencia de incautación
-e inventario de los bienes del deudor, que contenga todas las formalidades
-y menciones señaladas en los artículos 163 y siguientes de la Ley.
-2. Copia del acta de junta de acreedores en que
-conste el acuerdo de no perseverar en la persecución de uno o ms bienes
-incautados del deudor o de las certificaciones correspondientes, en el caso
-de no haberse celebrado dos juntas ordinarias consecutivas por falta de
-quórum en las que este asunto haya estado en sus respectivas tablas, en
-conformidad al artículo 229 de la Ley.
-3. Copia de certificado de anotaciones vigentes
-en el Registro de Vehículos Motorizados y/o certificado de inscripción en el
-Registro de Vehículos Motorizado y1(o certificado de placas patentes de
-vehículos oficial por RUN o RUT y/o información emitida por el Servicio de
-Registro Civil e Identificación, según corresponda, en los que conste la
-existencia o inexistencia de vehículos motorizados inscritos a nombre del
-deudor al momento de la dictación de la resolución de liquidación.
-4. El liquidador deberá acreditar, de alguna de
-las formas que se indican a continuación, que el deudor no tenía la calidad
-de heredero por parte de padre o n-adre, constatando que a la fecha de
-dictación de la resolución de liquidación, no se encontraba tramitada la
-inscripción de la resolución judicial o administrativa que otorgue la posesión
-efectiva de la herencia, para lo cual deberá acompañar la documentación que
-acredite la realización de al menos una de las siguientes gestiones:
-a) Requerir información al Servicio de Registro
-Civil e Identificación, esto es, certifi9ado de nacimiento del deudor con el
-nombre de sus ascendientes, certificados de defunción de los ascendientes
-si corresponde y comprobante del Registro Nacional de Posesiones Efectivas.
-b) Requerir información, en virtud de los
-certificados de defunción de los ascendientes, en el Conservador de Bienes
-Raíces del domicilio del deudor y del último domicilio de los causantes, de
-las inscripciones de la posesión efectiva y especial de herencia
-correspondientes.
-c) Requerir al deudor, en virtud de los certificados
-de defunción de los ascendientes, por intermedio del apercibimiento del
-tribunal y en virtud de lo dispuesto en el artículo 169 de la Ley, que acompañe
-en autos copia de las posesiones efectiVas correspondientes o informe si estas
-no han sido tramitadas por los herederos.
-Cualquiera de las alternativas que se utilice,
-deberá acreditar fehacientemente la existencia o inexistencia de herencias
-en favor del deudor y que no existen bienes asociados a herencias
-susceptibles de ser incautados y enajenados en el respectivo procedimiento
-de liquidación.
-5. En caso que el deudor persona natural o
-jurídica sea contribuyente, esto es, de conformidad a la definición estipulada
-en el número 5 del artículo 8 del Código Tributario, deberá acompañar copia
-de Carpeta Tributaria Electrónica estándar y/o antecedentes del Servicio de
-Impuestos Internos que den cuenta de la situación tributaria del deudor.
-6. Informe de las gestiones realizadas para
-obtener la devolución de impuestos ante la Tesorería General de la República,
-conforme lo instruido en el Oficio Superir N.° 299 de 12 de septiembre de
-2017, en los casos que corresponda.
-7. Información proporcionada por el Conservador
-de Bienes Raíces de la comuna en que resida el deudor, a requerimiento del
-liquidador o del tribunal, en que coñste la existencia o no de inmuebles
-inscritos a nombre del deudor, en los çasos que corresponda.
-8. Información del Registro de Comercio
-proporcionada por el Conservador de Bienes Raíces de la comuna o ciudad
-en que resida el deudor, a requerimiento del liquidador o del tribunal, relativa
-a sociedades en las que este tenga prticipación.
-9. Resolución que tiene por aprobada la cuenta
-final de administración.
-Para obtener la información señalada en los
-puntos que preceden, el liquidador podrá requerirla directamente en las
-respectivas instituciones que llevan los registros o bien, mediante oficio
-solicitado al tribunal del respectivo procedimiento de liquidación, de
-conformidad a lo instruido en Oficio SIR N.° 1076 de 16 de marzo de 2016,
-de carácter circular, los que deberán ser debidamente diligenciados.
-Si el liquidador no puede obtener la información
-exigida, deberá acompañar documentación de carácter oficial que acredite
-que realizó todas las gestiones tendientes a procurar dicha información, o en
-su defecto, adjuntar antecedentes que permitan suplir la documentación
-requerida, a fin de dejar constancia que las gestiones fueron realizadas
-durante el procedimiento y se ajustan a su deber de diligencia, en virtud de
-lo prescrito en el artículo 35 de la Ley, quedando sujeto a la valoración de
-esta Superintendencia la suficiencia de los antecedentes aportados.
-Asimismo, se hace presente, que en virtud de lo
-establecido en el inciso primero y número 1 del artículo 36 de la Ley, el
-liquidador deberá realizar todas las gestiones pertinentes para la
-recuperación de bienes, incluso aquellas que no se indiquen expresamente
-en el presente instructivo.
-Recibida la solicitud de pago de honorarios del
-liquidador, se examinará el cumplimiento de los presupuestos exigidos en el
-inciso final del artículo 40 de la Ley y los establecidos en este instructivo.
-Si la solicitud de pago del liquidador no cumple
-con los presupuestos del inciso finl del artículo 40 y/o no cumple las
-instrucciones contenidas en este Instructivo, será rechazada, sin perjuicio de
-la responsabilidad administrativa que eventualmente resulte aplicable al
-liquidador por los incumplimientos que se observen.
-En caso de rechazo de la solicitud de pago de
-honorarios, el liquidador podrá reponer administrativamente de dicha
-resolución, dentro del plazo de 5 días hábiles, contados desde su notificación,
-en conformidad a lo dispuesto en el artículo 59 de la Ley N.° 19.880, que
-establece las Bases de los Procedimientos Administrativos que Rigen los
-Actos de la Administración del Estado, a través del Módulo de Comunicación
-Directa, en el Portal Sujetos Fiscalizados. El recurso interpuesto será resuelto
-mediante resolución fundada, la que será notificada al liquidador en su
-oportunidad.</parrafo>
+        <parrafo>de honorarios de 30 unidades de fomento, con cargo al presupuesto de esta Superintendencia, deberá efectuarlo a través del Módulo de Comunicación Directa, en el Portal Sujetos Fiscalizados, seleccionando el asunto &quot;Requiere pago 30 UF&quot;, acreditando que realizó lá diligencia de incautación y confección de inventario, agotando todos los mdios para ubicar bienes del deudor a efectos de constatar que este carece çe bienes o que estos son insuficientes para el pago de dichos honorarios, conforme lo exige el inciso final del artículo 40 de la Ley.</parrafo>
+        <parrafo>Para estos efectos, el liquidador deberá acompañar a su solicitud los siguientes antecedentes:</parrafo>
+        <inciso numero="1">Copia del acta de la diligencia de incautación e inventario de los bienes del deudor, que contenga todas las formalidades y menciones señaladas en los artículos 163 y siguientes de la Ley.</inciso>
+        <inciso numero="2">Copia del acta de junta de acreedores en que conste el acuerdo de no perseverar en la persecución de uno o ms bienes incautados del deudor o de las certificaciones correspondientes, en el caso de no haberse celebrado dos juntas ordinarias consecutivas por falta de quórum en las que este asunto haya estado en sus respectivas tablas, en conformidad al artículo 229 de la Ley.</inciso>
+        <inciso numero="3">Copia de certificado de anotaciones vigentes en el Registro de Vehículos Motorizados y/o certificado de inscripción en el Registro de Vehículos Motorizado y1(o certificado de placas patentes de vehículos oficial por RUN o RUT y/o información emitida por el Servicio de Registro Civil e Identificación, según corresponda, en los que conste la existencia o inexistencia de vehículos motorizados inscritos a nombre del deudor al momento de la dictación de la resolución de liquidación.</inciso>
+        <inciso numero="4">El liquidador deberá acreditar, de alguna de las formas que se indican a continuación, que el deudor no tenía la calidad de heredero por parte de padre o n-adre, constatando que a la fecha de dictación de la resolución de liquidación, no se encontraba tramitada la inscripción de la resolución judicial o administrativa que otorgue la posesión efectiva de la herencia, para lo cual deberá acompañar la documentación que acredite la realización de al menos una de las siguientes gestiones:</inciso>
+        <parrafo>a) Requerir información al Servicio de Registro Civil e Identificación, esto es, certifi9ado de nacimiento del deudor con el nombre de sus ascendientes, certificados de defunción de los ascendientes si corresponde y comprobante del Registro Nacional de Posesiones Efectivas.</parrafo>
+        <parrafo>b) Requerir información, en virtud de los certificados de defunción de los ascendientes, en el Conservador de Bienes Raíces del domicilio del deudor y del último domicilio de los causantes, de las inscripciones de la posesión efectiva y especial de herencia correspondientes.</parrafo>
+        <parrafo>c) Requerir al deudor, en virtud de los certificados de defunción de los ascendientes, por intermedio del apercibimiento del tribunal y en virtud de lo dispuesto en el artículo 169 de la Ley, que acompañe en autos copia de las posesiones efectiVas correspondientes o informe si estas no han sido tramitadas por los herederos.</parrafo>
+        <parrafo>Cualquiera de las alternativas que se utilice, deberá acreditar fehacientemente la existencia o inexistencia de herencias en favor del deudor y que no existen bienes asociados a herencias susceptibles de ser incautados y enajenados en el respectivo procedimiento de liquidación.</parrafo>
+        <inciso numero="5">En caso que el deudor persona natural o jurídica sea contribuyente, esto es, de conformidad a la definición estipulada en el número 5 del artículo 8 del Código Tributario, deberá acompañar copia de Carpeta Tributaria Electrónica estándar y/o antecedentes del Servicio de Impuestos Internos que den cuenta de la situación tributaria del deudor.</inciso>
+        <inciso numero="6">Informe de las gestiones realizadas para obtener la devolución de impuestos ante la Tesorería General de la República, conforme lo instruido en el Oficio Superir N.° 299 de 12 de septiembre de 2017, en los casos que corresponda.</inciso>
+        <inciso numero="7">Información proporcionada por el Conservador de Bienes Raíces de la comuna en que resida el deudor, a requerimiento del liquidador o del tribunal, en que coñste la existencia o no de inmuebles inscritos a nombre del deudor, en los çasos que corresponda.</inciso>
+        <inciso numero="8">Información del Registro de Comercio proporcionada por el Conservador de Bienes Raíces de la comuna o ciudad en que resida el deudor, a requerimiento del liquidador o del tribunal, relativa a sociedades en las que este tenga prticipación.</inciso>
+        <inciso numero="9">Resolución que tiene por aprobada la cuenta final de administración.</inciso>
+        <parrafo>Para obtener la información señalada en los puntos que preceden, el liquidador podrá requerirla directamente en las respectivas instituciones que llevan los registros o bien, mediante oficio solicitado al tribunal del respectivo procedimiento de liquidación, de conformidad a lo instruido en Oficio SIR N.° 1076 de 16 de marzo de 2016, de carácter circular, los que deberán ser debidamente diligenciados.</parrafo>
+        <parrafo>Si el liquidador no puede obtener la información exigida, deberá acompañar documentación de carácter oficial que acredite que realizó todas las gestiones tendientes a procurar dicha información, o en su defecto, adjuntar antecedentes que permitan suplir la documentación requerida, a fin de dejar constancia que las gestiones fueron realizadas durante el procedimiento y se ajustan a su deber de diligencia, en virtud de lo prescrito en el artículo 35 de la Ley, quedando sujeto a la valoración de esta Superintendencia la suficiencia de los antecedentes aportados.</parrafo>
+        <parrafo>Asimismo, se hace presente, que en virtud de lo establecido en el inciso primero y número 1 del artículo 36 de la Ley, el liquidador deberá realizar todas las gestiones pertinentes para la recuperación de bienes, incluso aquellas que no se indiquen expresamente en el presente instructivo.</parrafo>
+        <parrafo>Recibida la solicitud de pago de honorarios del liquidador, se examinará el cumplimiento de los presupuestos exigidos en el inciso final del artículo 40 de la Ley y los establecidos en este instructivo.</parrafo>
+        <parrafo>Si la solicitud de pago del liquidador no cumple con los presupuestos del inciso finl del artículo 40 y/o no cumple las instrucciones contenidas en este Instructivo, será rechazada, sin perjuicio de la responsabilidad administrativa que eventualmente resulte aplicable al liquidador por los incumplimientos que se observen.</parrafo>
+        <parrafo>En caso de rechazo de la solicitud de pago de honorarios, el liquidador podrá reponer administrativamente de dicha resolución, dentro del plazo de 5 días hábiles, contados desde su notificación, en conformidad a lo dispuesto en el artículo 59 de la Ley N.° 19.880, que establece las Bases de los Procedimientos Administrativos que Rigen los Actos de la Administración del Estado, a través del Módulo de Comunicación Directa, en el Portal Sujetos Fiscalizados. El recurso interpuesto será resuelto mediante resolución fundada, la que será notificada al liquidador en su oportunidad.</parrafo>
       </contenido>
       <referencias>
         <ref articulo="169"/>
-        <ref articulo="229"/>
-        <ref articulo="36"/>
-        <ref articulo="8"/>
         <ref articulo="40"/>
+        <ref articulo="229"/>
         <ref articulo="59"/>
+        <ref articulo="8"/>
+        <ref articulo="36"/>
         <ref articulo="35"/>
       </referencias>
     </articulo>
     <articulo id="3" tipo_original="Artículo" numero="2">
-      <titulo_seccion>Artículo 2. La presente modificación al artículo 16 del Instructivo SIR N</titulo_seccion>
-      <texto>° 1 de 6 de octubre de 2015, comenzará a regir a partir de la fecha de notificación por correo electrónico de este instructivo a los sujetos fiscalizados pertinentes y será aplicable respecto de todas las solicitudes de pago ingresadas por Módulo de Comunicación Directa a contar de esa fecha.</texto>
+      <titulo_seccion>Artículo 2</titulo_seccion>
+      <contenido>
+        <parrafo>La presente modificación al artículo</parrafo>
+        <parrafo>16 del Instructivo SIR N.° 1 de 6 de octubre de 2015, comenzará a regir a partir de la fecha de notificación por correo electrónico de este instructivo a los sujetos fiscalizados pertinentes y será aplicable respecto de todas las solicitudes de pago ingresadas por Módulo de Comunicación Directa a contar de esa fecha.</parrafo>
+      </contenido>
+      <referencias>
+        <ref articulo="16"/>
+      </referencias>
     </articulo>
     <articulo id="4" tipo_original="Artículo" numero="3">
-      <titulo_seccion>Artículo 3. Derógase el Instructivo Superir N</titulo_seccion>
-      <texto>°
-1 de 15 de enero de 2018, a contar de la entrada en vigencia del presente
-instructivo. No obstante lo anterior, dichas instrucciones continuarán
-vigentes para regular las solicitudes de pago de honorarios con cargo a esta
-Superintendencia, que se hayan efecluado con anterioridad a la entrada en
-vigencia de este instructivo.</texto>
+      <titulo_seccion>Artículo 3</titulo_seccion>
+      <contenido>
+        <parrafo>Derógase el Instructivo Superir N.°</parrafo>
+        <parrafo>1 de 15 de enero de 2018, a contar de la entrada en vigencia del presente instructivo. No obstante lo anterior, dichas instrucciones continuarán vigentes para regular las solicitudes de pago de honorarios con cargo a esta Superintendencia, que se hayan efecluado con anterioridad a la entrada en vigencia de este instructivo.</parrafo>
+      </contenido>
     </articulo>
   </contenido>
-  <promulgacion>Anótese, notifíquese y archívese,
-CH 4MIRE
-INTÉÑbENTEJ INSOL - -rtCLA
-Y IEEJIP-RENDIM1ENTQ</promulgacion>
+  <disposiciones_finales>
+    <texto>Anótese, notifíquese y archívese, CH 4MIRE INTÉÑbENTEJ INSOL - -rtCLA Y IEEJIP-RENDIM1ENTQ</texto>
+  </disposiciones_finales>
 </ley>

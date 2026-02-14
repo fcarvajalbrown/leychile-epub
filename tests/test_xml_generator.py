@@ -276,3 +276,155 @@ class TestGenerate:
             result = gen.generate(sample_norma, tmpdir, "test_ley")
             content = result.read_text(encoding="utf-8")
             assert "promulgacion" in content
+
+    def test_xml_articles_always_use_contenido(self, sample_norma):
+        """Artículos siempre usan <contenido><parrafo> (punto 7 feedback)."""
+        gen = LawXMLGenerator()
+        with tempfile.TemporaryDirectory() as tmpdir:
+            result = gen.generate(sample_norma, tmpdir, "test_ley_p7")
+            content = result.read_text(encoding="utf-8")
+            # Incluso artículo simple debería tener <contenido><parrafo>
+            assert "<contenido>" in content
+            assert "<parrafo>" in content
+            # No debería haber <texto> dentro de artículos
+            root = ET.fromstring(content)
+            ns = {"ley": "https://leychile.cl/schema/ley/v1"}
+            for art in root.findall(".//ley:articulo", ns):
+                assert art.find("ley:contenido", ns) is not None
+
+    def test_xml_encabezado_texto_for_bcn(self, sample_norma):
+        """BCN law uses <encabezado><texto>."""
+        gen = LawXMLGenerator()
+        with tempfile.TemporaryDirectory() as tmpdir:
+            result = gen.generate(sample_norma, tmpdir, "test_enc_bcn")
+            content = result.read_text(encoding="utf-8")
+            root = ET.fromstring(content)
+            ns = {"ley": "https://leychile.cl/schema/ley/v1"}
+            enc = root.find("ley:encabezado", ns)
+            assert enc is not None
+            assert enc.find("ley:texto", ns) is not None
+            assert enc.find("ley:vistos", ns) is None
+
+
+class TestSuperirXMLGeneration:
+    """Tests para generación XML de normas SUPERIR (NCG/Instructivos)."""
+
+    @pytest.fixture
+    def superir_norma(self):
+        """Crea una Norma SUPERIR de ejemplo."""
+        return Norma(
+            norma_id="NCG-7",
+            es_tratado=False,
+            fecha_version="2014-10-08",
+            schema_version="1.0",
+            derogado=False,
+            identificador=NormaIdentificador(
+                tipo="Norma de Carácter General",
+                numero="7",
+                organismos=["Superintendencia de Insolvencia y Reemprendimiento"],
+                fecha_promulgacion="2014-10-08",
+                fecha_publicacion="2014-10-08",
+            ),
+            metadatos=NormaMetadatos(
+                titulo="NCG N°7 - Cuentas de Administración",
+                materias=["Cuentas provisorias", "Liquidación"],
+                conceptos=["Liquidadores", "Veedores"],
+                leyes_referenciadas=["Ley 20.720", "NCG 3", "DFL 1-19.653"],
+            ),
+            encabezado_texto="VISTOS:\n\nLas facultades...\n\nCONSIDERANDO:\n\n1° Que...",
+            vistos_texto="Las facultades conferidas en los artículos 46° y 49°.",
+            considerandos_texto="1° Que el artículo 46° de la Ley dispone...",
+            estructuras=[
+                EstructuraFuncional(
+                    id_parte="1",
+                    tipo_parte="Artículo",
+                    texto="Las cuentas provisorias deberán rendirse mensualmente.",
+                    nombre_parte="1",
+                    titulo_parte="Artículo 1. Oportunidad",
+                    nivel=1,
+                ),
+            ],
+            promulgacion_texto="",
+            disposiciones_finales_texto="NOTIFÍQUESE Y PUBLÍQUESE.\n\nHUGO SÁNCHEZ",
+        )
+
+    def test_encabezado_structured(self, superir_norma):
+        """SUPERIR genera <encabezado> con <vistos> y <considerandos> separados."""
+        gen = LawXMLGenerator()
+        with tempfile.TemporaryDirectory() as tmpdir:
+            result = gen.generate(superir_norma, tmpdir, "test_superir_enc")
+            content = result.read_text(encoding="utf-8")
+            root = ET.fromstring(content)
+            ns = {"ley": "https://leychile.cl/schema/ley/v1"}
+            enc = root.find("ley:encabezado", ns)
+            assert enc is not None
+            assert enc.find("ley:vistos", ns) is not None
+            assert enc.find("ley:considerandos", ns) is not None
+            assert enc.find("ley:texto", ns) is None
+            assert "46°" in enc.find("ley:vistos", ns).text
+
+    def test_disposiciones_finales_instead_of_promulgacion(self, superir_norma):
+        """SUPERIR usa <disposiciones_finales> en vez de <promulgacion>."""
+        gen = LawXMLGenerator()
+        with tempfile.TemporaryDirectory() as tmpdir:
+            result = gen.generate(superir_norma, tmpdir, "test_superir_disp")
+            content = result.read_text(encoding="utf-8")
+            root = ET.fromstring(content)
+            ns = {"ley": "https://leychile.cl/schema/ley/v1"}
+            disp = root.find("ley:disposiciones_finales", ns)
+            assert disp is not None
+            prom = root.find("ley:promulgacion", ns)
+            assert prom is None
+
+    def test_conceptos_in_metadata(self, superir_norma):
+        """Conceptos separados de materias en metadatos."""
+        gen = LawXMLGenerator()
+        with tempfile.TemporaryDirectory() as tmpdir:
+            result = gen.generate(superir_norma, tmpdir, "test_superir_con")
+            content = result.read_text(encoding="utf-8")
+            root = ET.fromstring(content)
+            ns = {"ley": "https://leychile.cl/schema/ley/v1"}
+            meta = root.find("ley:metadatos", ns)
+            conceptos = meta.find("ley:conceptos", ns)
+            assert conceptos is not None
+            items = [c.text for c in conceptos.findall("ley:concepto", ns)]
+            assert "Liquidadores" in items
+            assert "Veedores" in items
+
+    def test_ley_ref_structured(self, superir_norma):
+        """Leyes referenciadas tienen atributos tipo y numero."""
+        gen = LawXMLGenerator()
+        with tempfile.TemporaryDirectory() as tmpdir:
+            result = gen.generate(superir_norma, tmpdir, "test_superir_ref")
+            content = result.read_text(encoding="utf-8")
+            root = ET.fromstring(content)
+            ns = {"ley": "https://leychile.cl/schema/ley/v1"}
+            refs = root.findall(".//ley:ley_ref", ns)
+            assert len(refs) == 3
+            # Ley 20.720 should have tipo and numero
+            ley = refs[0]
+            assert ley.get("tipo") == "Ley"
+            assert ley.get("numero") == "20.720"
+            # NCG 3
+            ncg = refs[1]
+            assert ncg.get("tipo") == "NCG"
+            assert ncg.get("numero") == "3"
+
+    def test_parse_ley_ref_patterns(self):
+        """_parse_ley_ref parsea correctamente distintos tipos."""
+        result = LawXMLGenerator._parse_ley_ref("Ley 20.720")
+        assert result == ("Ley", "20.720")
+        result = LawXMLGenerator._parse_ley_ref("DFL 1-19.653")
+        assert result == ("DFL", "1-19.653")
+        result = LawXMLGenerator._parse_ley_ref("NCG 7")
+        assert result == ("NCG", "7")
+        result = LawXMLGenerator._parse_ley_ref("D.S. 8")
+        assert result == ("D.S.", "8")
+        result = LawXMLGenerator._parse_ley_ref("Otro texto")
+        assert result is None
+
+    def test_version_is_1_1(self, superir_norma):
+        """Schema version actualizada a 1.1."""
+        gen = LawXMLGenerator()
+        root = gen._create_root(superir_norma)
+        assert root.get("version") == "1.1"

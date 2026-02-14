@@ -19,6 +19,7 @@ Author: Luis Aguilera Arteaga <luis@aguilera.cl>
 
 import argparse
 import logging
+import re
 import sys
 from pathlib import Path
 from typing import Any
@@ -86,99 +87,147 @@ INSTRUCTIVO_CATALOG: dict[str, dict[str, Any]] = {
     },
     "2024_INST_6": {
         "url": "https://www.superir.gob.cl/wp-content/uploads/2024/11/RES_NUM_16245_A_O_2024.pdf",
-        "titulo_completo": "INSTRUCTIVO SUPERIR N°6 - Liquidaciones electrónicas de sueldo y firma electrónica",
+        "titulo_completo": "INSTRUCTIVO SUPERIR N°6 - Finiquitos laborales electrónicos y firma electrónica en el procedimiento concursal de liquidación",
         "resolucion_exenta": "16245",
         "fecha_publicacion": "2024-11-04",
         "materias": [
-            "Liquidaciones electrónicas",
+            "Finiquitos laborales electrónicos",
             "Firma electrónica",
-            "Procedimiento de liquidación",
+            "Procedimiento concursal de liquidación",
         ],
-        "nombres_comunes": ["Instructivo de Liquidaciones Electrónicas"],
+        "nombres_comunes": ["Instructivo de Finiquitos Electrónicos"],
         "categoria": "Liquidación",
         "doc_numero": "6",
     },
     "2024_INST_5": {
         "url": "https://www.superir.gob.cl/wp-content/uploads/2024/10/RES_NUM_14477_A_O_2024.pdf",
-        "titulo_completo": "INSTRUCTIVO SUPERIR N°5 - Incautación, resguardo y entrega de bienes",
+        "titulo_completo": "INSTRUCTIVO SUPERIR N°5 - Incautación, conservación y entrega de bienes en procedimientos concursales de liquidación ordinaria y simplificada",
         "resolucion_exenta": "14477",
         "fecha_publicacion": "2024-10-03",
         "materias": [
             "Incautación de bienes",
-            "Resguardo de activos",
+            "Conservación de bienes",
             "Entrega de bienes",
+            "Inventario de bienes",
+            "Procedimiento concursal de liquidación",
+            "Liquidación simplificada",
+            "Remuneraciones inembargables",
+            "Documentación contable",
         ],
-        "nombres_comunes": ["Instructivo de Incautación de Bienes"],
+        "nombres_comunes": [
+            "Instructivo de Incautación y Conservación de Bienes",
+            "Instructivo de Incautación de Bienes",
+        ],
         "categoria": "Liquidación",
         "doc_numero": "5",
     },
     "2024_INST_4": {
         "url": "https://www.superir.gob.cl/wp-content/uploads/2024/09/RES_NUM_13139_AO_2024.pdf",
-        "titulo_completo": "INSTRUCTIVO SUPERIR N°4 - Reporte de hechos esenciales",
+        "titulo_completo": "INSTRUCTIVO SUPERIR N°4 - Instrucciones sobre hechos relevantes que deben informar los sujetos fiscalizados a la Superintendencia de Insolvencia y Reemprendimiento",
         "resolucion_exenta": "13139",
         "fecha_publicacion": "2024-09-05",
         "materias": [
-            "Hechos esenciales",
-            "Reporte",
-            "Entidades fiscalizadas",
+            "Hechos relevantes",
+            "Sujetos fiscalizados",
+            "Obligación de informar",
+            "Implicancia concursal",
+            "Implicancia penal",
+            "Inhabilidades sobrevinientes",
+            "Procedimiento administrativo sancionatorio",
         ],
-        "nombres_comunes": ["Instructivo de Hechos Esenciales"],
+        "nombres_comunes": [
+            "Instructivo de Hechos Relevantes",
+            "Instructivo de Reporte de Hechos Relevantes",
+        ],
         "categoria": "Fiscalización",
         "doc_numero": "4",
     },
     "2024_INST_3": {
         "url": "https://www.superir.gob.cl/wp-content/uploads/2024/08/RES_NUM_12473_AO_2024.pdf",
-        "titulo_completo": "INSTRUCTIVO SUPERIR N°3 - Veedores en reorganización judicial y simplificada",
+        "titulo_completo": "INSTRUCTIVO SUPERIR N°3 - Instrucciones a los Veedores y Veedoras en el Procedimiento Concursal de Reorganización Judicial, de Reorganización Simplificada y de Reorganización Extrajudicial",
         "resolucion_exenta": "12473",
         "fecha_publicacion": "2024-08-26",
         "materias": [
             "Veedores",
             "Reorganización judicial",
             "Reorganización simplificada",
+            "Reorganización extrajudicial",
+            "Nómina de créditos reconocidos",
+            "Informe del veedor",
+            "Cuenta mensual",
+            "Cuenta final de gestión",
+            "Acuerdo de reorganización",
+            "Protección financiera concursal",
         ],
-        "nombres_comunes": ["Instructivo de Veedores"],
+        "nombres_comunes": [
+            "Instructivo de Veedores",
+            "Instructivo de Veedores en Reorganización",
+        ],
         "categoria": "Reorganización",
         "doc_numero": "3",
     },
     "2024_INST_2": {
         "url": "https://www.superir.gob.cl/wp-content/uploads/2024/08/RES_NUM_11679_AO_2024.pdf",
-        "titulo_completo": "INSTRUCTIVO SUPERIR N°2 - Síndicos en sobreseimientos definitivos y temporales",
+        "titulo_completo": "INSTRUCTIVO SUPERIR N°2 - Instrucciones a los Síndicos y Ex Síndicos en Aplicación de Sobreseimiento Definitivo y Sobreseimiento Temporal en los Procedimientos de Quiebras Vigentes Regidos por el Libro IV del Código de Comercio",
         "resolucion_exenta": "11679",
         "fecha_publicacion": "2024-08-13",
         "materias": [
             "Síndicos",
-            "Sobreseimientos",
-            "Libro IV",
+            "Sobreseimiento definitivo",
+            "Sobreseimiento temporal",
+            "Quiebras vigentes",
+            "Libro IV del Código de Comercio",
+            "Cuenta definitiva de administración",
+            "Fondos disponibles",
+            "Gestiones pendientes",
         ],
-        "nombres_comunes": ["Instructivo de Síndicos"],
+        "nombres_comunes": [
+            "Instructivo de Síndicos",
+            "Instructivo de Sobreseimientos en Quiebras",
+        ],
         "categoria": "Liquidación",
         "doc_numero": "2",
     },
     "2024_INST_1": {
         "url": "https://www.superir.gob.cl/wp-content/uploads/2024/04/RES_NUM_4389_ANO_2024.pdf",
-        "titulo_completo": "INSTRUCTIVO SUPERIR N°1/2024 - Cese de liquidadores y sustitutos (art. 38 Ley 20.720)",
+        "titulo_completo": "INSTRUCTIVO SUPERIR N°1 - Instrucciones a Liquidadores que Cesen Anticipadamente en el Cargo, a Liquidadores Suplentes y a Liquidadores que Asuman la Titularidad del Cargo, Conforme al Artículo 38 de la Ley N.° 20.720",
         "resolucion_exenta": "4389",
         "fecha_publicacion": "2024-04-04",
         "materias": [
-            "Cese de liquidadores",
-            "Liquidadores sustitutos",
-            "Artículo 38",
+            "Cese anticipado de liquidadores",
+            "Liquidadores suplentes",
+            "Liquidador titular",
+            "Cuenta final de administración",
+            "Entrega de antecedentes y fondos",
+            "Denuncia o querella penal",
+            "Procedimiento administrativo sancionatorio",
+            "Artículo 38 Ley 20.720",
         ],
-        "nombres_comunes": ["Instructivo de Cese de Liquidadores"],
+        "nombres_comunes": [
+            "Instructivo de Cese de Liquidadores",
+            "Instructivo de Liquidadores Suplentes",
+        ],
         "categoria": "Liquidación",
         "doc_numero": "1",
     },
     "2024_MODIF_HONORARIOS": {
         "url": "https://www.superir.gob.cl/wp-content/uploads/2024/02/RES_NUM_2549_ANO_2024.pdf",
-        "titulo_completo": "Resolución que modifica instructivo de pago de honorarios con cargo al presupuesto SUPERIR",
+        "titulo_completo": "Resolución Modificatoria - Modifica Resolución Exenta N.° 9074 que Fijó el Texto Refundido del Instructivo SUPERIR N.° 1 que Regula el Pago de Honorarios con Cargo al Presupuesto de la Superintendencia",
         "resolucion_exenta": "2549",
         "fecha_publicacion": "2024-02-28",
         "materias": [
             "Pago de honorarios",
             "Presupuesto SUPERIR",
-            "Modificación",
+            "Declaraciones juradas",
+            "Documentos electrónicos",
+            "Firma electrónica avanzada",
+            "Ley 21.582 supresión notarios",
+            "Modificación instructivo",
         ],
-        "nombres_comunes": ["Modificación Instructivo Honorarios 2024"],
+        "nombres_comunes": [
+            "Modificación Instructivo Honorarios 2024",
+            "Resolución Modificatoria Honorarios",
+        ],
         "categoria": "Honorarios",
         "doc_numero": "modif_honorarios_2024",
     },
@@ -349,6 +398,52 @@ INSTRUCTIVO_CATALOG: dict[str, dict[str, Any]] = {
 }
 
 
+def markdown_to_plain_text(md_text: str) -> str:
+    """Convierte markdown de instructivo a texto plano para el parser.
+
+    Elimina formato markdown preservando la estructura textual que
+    el parser SUPERIR necesita (VISTOS, CONSIDERANDO, RESUELVO,
+    Título, Artículo, etc.).
+    """
+    lines = md_text.split("\n")
+    result: list[str] = []
+
+    for line in lines:
+        stripped = line.strip()
+
+        # Eliminar separadores horizontales
+        if re.match(r"^-{3,}$", stripped):
+            continue
+
+        # Eliminar blockquotes (notas al pie) - quitar solo el marcador ">"
+        if stripped.startswith("> "):
+            stripped = stripped[2:]
+
+        # Headers markdown → texto plano (sin #)
+        header_match = re.match(r"^(#{1,4})\s+(.+)$", stripped)
+        if header_match:
+            stripped = header_match.group(2).strip()
+            # Limpiar guion decorativo en títulos: "Título I - Nombre" → "Título I Nombre"
+            stripped = re.sub(r"^(T[ií]tulo\s+[IVXLCDM]+)\s*-\s*", r"\1 ", stripped)
+            stripped = re.sub(
+                r"^(Párrafo\s+[IVXLCDM]+)\s*-\s*", r"\1 ", stripped, flags=re.IGNORECASE
+            )
+
+        # Eliminar bold markers **texto**
+        stripped = re.sub(r"\*\*(.+?)\*\*", r"\1", stripped)
+
+        # Eliminar italic markers *texto*
+        stripped = re.sub(r"\*(.+?)\*", r'"\1"', stripped)
+
+        # Quitar items markdown con guion "- item" → "item"
+        if re.match(r"^- ", stripped):
+            stripped = stripped[2:]
+
+        result.append(stripped)
+
+    return "\n".join(result)
+
+
 def setup_logging(verbose: bool = False) -> None:
     """Configura logging."""
     level = logging.DEBUG if verbose else logging.INFO
@@ -368,8 +463,14 @@ def process_single_instructivo(
     output_dir: Path,
     text_output_dir: Path | None = None,
     text_only: bool = False,
+    text_override_dir: Path | None = None,
 ) -> bool:
     """Procesa un Instructivo individual.
+
+    Args:
+        text_override_dir: Directorio con archivos .md o .txt de texto
+            limpio. Si existe un archivo {inst_id}.md o {inst_id}.txt,
+            se usa en lugar de descargar y extraer el PDF.
 
     Returns:
         True si fue exitoso, False si falló.
@@ -382,7 +483,23 @@ def process_single_instructivo(
         log.info(f"Procesando: {inst_id}")
         log.info(f"URL: {url}")
 
-        texto, pdf_path = extractor.download_and_extract(url)
+        # Intentar usar texto override (limpio, corregido manualmente)
+        texto = None
+        if text_override_dir:
+            for ext in (".md", ".txt"):
+                override_path = text_override_dir / f"{inst_id}{ext}"
+                if override_path.exists():
+                    raw = override_path.read_text(encoding="utf-8")
+                    if ext == ".md":
+                        texto = markdown_to_plain_text(raw)
+                    else:
+                        texto = raw
+                    log.info(f"Usando texto override: {override_path}")
+                    break
+
+        # Fallback: descargar PDF y extraer texto
+        if texto is None:
+            texto, pdf_path = extractor.download_and_extract(url)
 
         if text_output_dir:
             text_path = text_output_dir / f"{inst_id}.txt"
@@ -444,6 +561,14 @@ def main(argv: list[str] | None = None) -> int:
         help="Guardar también el texto extraído en archivos .txt",
     )
     arg_parser.add_argument(
+        "--text-override-dir",
+        default="biblioteca_xml/organismos/SUPERIR/Instructivo/texto_override",
+        help=(
+            "Directorio con archivos .md/.txt de texto limpio. "
+            "Si existe {id}.md o {id}.txt, se usa en vez del PDF."
+        ),
+    )
+    arg_parser.add_argument(
         "--verbose", "-v",
         action="store_true",
         help="Logging detallado",
@@ -475,6 +600,13 @@ def main(argv: list[str] | None = None) -> int:
         text_output_dir = output_dir / "texto"
         text_output_dir.mkdir(parents=True, exist_ok=True)
 
+    # Directorio de text overrides (texto limpio corregido manualmente)
+    text_override_dir = Path(args.text_override_dir)
+    if text_override_dir.exists():
+        overrides = list(text_override_dir.glob("*.md")) + list(text_override_dir.glob("*.txt"))
+        if overrides:
+            log.info(f"Text overrides encontrados: {len(overrides)} archivos en {text_override_dir}")
+
     # Inicializar componentes
     extractor = PDFTextExtractor(cache_dir=args.pdf_cache)
     parser = InstructivoParser()
@@ -498,6 +630,7 @@ def main(argv: list[str] | None = None) -> int:
             output_dir=output_dir,
             text_output_dir=text_output_dir,
             text_only=args.text_only,
+            text_override_dir=text_override_dir if text_override_dir.exists() else None,
         )
         if ok:
             exitosas += 1

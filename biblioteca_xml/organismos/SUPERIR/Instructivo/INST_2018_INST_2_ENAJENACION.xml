@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ley xmlns="https://leychile.cl/schema/ley/v1" version="1.0" idioma="es-CL" id_norma="INST-2" tipo="Instructivo" numero="2" estado="vigente" fecha_publicacion="2018-06-20" generado="2026-02-11T15:27:18.644866" fuente="Biblioteca del Congreso Nacional de Chile" url_original="https://www.superir.gob.cl/wp-content/document/biblioteca_digital/instructivos/ley-20.720/Instructivo_2.DE.20.06.18.pdf">
+<ley xmlns="https://leychile.cl/schema/ley/v1" version="1.1" idioma="es-CL" id_norma="INST-2" tipo="Instructivo" numero="2" estado="vigente" fecha_publicacion="2018-06-20" generado="2026-02-13T02:36:05.294513" fuente="Biblioteca del Congreso Nacional de Chile" url_original="https://www.superir.gob.cl/wp-content/document/biblioteca_digital/instructivos/ley-20.720/Instructivo_2.DE.20.06.18.pdf">
   <metadatos>
     <titulo>INSTRUCTIVO SIR N°2/2018 - Enajenación de activos en procedimientos concursales</titulo>
     <identificacion>
@@ -21,33 +21,20 @@
     </fechas>
     <fuente>Superintendencia de Insolvencia y Reemprendimiento</fuente>
     <leyes_referenciadas>
-      <ley_ref>Ley 20.720</ley_ref>
-      <ley_ref>Ley 18.118</ley_ref>
+      <ley_ref tipo="Ley" numero="20.720">Ley 20.720</ley_ref>
+      <ley_ref tipo="Ley" numero="18.118">Ley 18.118</ley_ref>
     </leyes_referenciadas>
   </metadatos>
-  <encabezado>VISTOS:
+  <encabezado>
+    <vistos>Las facultades que le confieren a la Superintendencia de Insolvencia y Reemprendimiento, en adelante la &quot;Superintendencia&quot;, el artículo 337 de la Ley N.° 20.720 de Reorganización y Liquidación de Activos de Empresas y Personas, en sus numerales N°s. 2 y 4.</vistos>
+    <considerandos>1°. Que el artículo 337 N.° 2 de la Ley otorga a la Superintendencia, la facultad de interpretar administrativamente las leyes, reglamentos y demás normas que rigen a los veedores, liquidadores, administradores de la continuación de actividades económicas y martilleros concursales, sin perjuicio de las facultades jurisdiccionales que corresponden a los Tribunales competentes;
 
-Las facultades que le confieren a la
-Superintendencia de Insolvencia y Reemprendimiento, en adelante la
-"Superintendencia", el artículo 337 de la Ley N.° 20.720 de Reorganización y
-Liquidación de Activos de Empresas y Personas, en sus numerales N°s. 2 y 4.
+2°. Que el artículo 337 N.° 4 de la Ley faculta a la Superintendencia para impartir a los sujetos fiscalizados, instrucciones de carácter obligatorio sobre las materias sometidas a su control; 3O Que la Superintendencia, en uso de sus facultades, dicta el siguiente:
 
-CONSIDERANDO:
-
-1°. Que el artículo 337 N.° 2 de la Ley otorga
-a la Superintendencia, la facultad de interpretar administrativamente las leyes,
-reglamentos y demás normas que rigen a los veedores, liquidadores,
-administradores de la continuación de actividades económicas y martilleros
-concursales, sin perjuicio de las facultades jurisdiccionales que corresponden a los
-Tribunales competentes;
-2°. Que el artículo 337 N.° 4 de la Ley faculta
-a la Superintendencia para impartir a los sujetos fiscalizados, instrucciones de
-carácter obligatorio sobre las materias sometidas a su control;
-3O Que la Superintendencia, en uso de sus
-facultades, dicta el siguiente:
 INSTRUCTIVO
-TÍTULO 1
-Realización impostergable de bienes.</encabezado>
+
+TÍTULO 1 Realización impostergable de bienes.</considerandos>
+  </encabezado>
   <contenido total_articulos="48" total_libros="0" total_titulos="8" total_capitulos="0">
     <titulo id="1" tipo_original="Título" numero="1">
       <titulo_seccion>TÍTULO 1 Realización impostergable de bienes.</titulo_seccion>
@@ -55,31 +42,12 @@ Realización impostergable de bienes.</encabezado>
         <titulo_seccion>Artículo 1</titulo_seccion>
         <contexto>TÍTULO 1 Realización impostergable de bienes.</contexto>
         <contenido>
-          <parrafo>El liquidador solo podrá proceder a la realización
-de bienes muebles del deudor expuestos a próximo deterioro o a una
-desvalorización inminente o los que exijan una conservación dispendiosa, en
-cualquier momento, en conformidad a lo dispuesto en el artículo 212 de la Ley N.°
-20.720, cuando determinados bienes se encuentren efectivamente en las
-situaciones contempladas en dicha norma, la que se interpreta
-administrativamente en los siguientes términos:
-a) Se debe entender por bienes expuestos a próximo deterioro,
-aquellos con fecha de vencimiento próxima o cuyo consumo o uso debe realizarse en
-un breve período de tiempo o que por su naturaleza se encuentren en esta condición.
-En ningún caso se puede considerar próximo deterioro, la
-existencia de situaciones ambientales, de higiene o de seguridad, toda vez que de
-conformidad a lo dispuesto en el N.° 1 del artículo 163 de la Ley N.° 20.720, el
-liquidador debe adoptar de inmediato las medidas conservativas necesarias para
-proteger y custodiar los bienes del deudor, si estima que peligran o corren riesgos
-donde se encuentran.
-Superintendencia de Insolvencia y Reemprendimiento/1</parrafo>
-          <parrafo>b) Se consideran bienes expuestos a desvalorización
-inminente, aquellos que de no ser enajenados antes de la primera junta de
-acreedores, con posterioridad a ella tendrán un valor muy inferior al que se
-obtendría al enajenarlos antes de dicha junta, como los juguetes que se deben
-vender antes de navidad o como la ropa de temporada.
-c) Se entenderá por conservación dispendiosa cuando el valor
-necesario para asegurar la integridad de los bienes sea desproporcionado en
-relación con su valor de realización.</parrafo>
+          <parrafo>El liquidador solo podrá proceder a la realización de bienes muebles del deudor expuestos a próximo deterioro o a una desvalorización inminente o los que exijan una conservación dispendiosa, en cualquier momento, en conformidad a lo dispuesto en el artículo 212 de la Ley N.° 20.720, cuando determinados bienes se encuentren efectivamente en las situaciones contempladas en dicha norma, la que se interpreta administrativamente en los siguientes términos:</parrafo>
+          <parrafo>a) Se debe entender por bienes expuestos a próximo deterioro, aquellos con fecha de vencimiento próxima o cuyo consumo o uso debe realizarse en un breve período de tiempo o que por su naturaleza se encuentren en esta condición.</parrafo>
+          <parrafo>En ningún caso se puede considerar próximo deterioro, la existencia de situaciones ambientales, de higiene o de seguridad, toda vez que de conformidad a lo dispuesto en el N.° 1 del artículo 163 de la Ley N.° 20.720, el liquidador debe adoptar de inmediato las medidas conservativas necesarias para proteger y custodiar los bienes del deudor, si estima que peligran o corren riesgos donde se encuentran.</parrafo>
+          <parrafo>Superintendencia de Insolvencia y Reemprendimiento/1</parrafo>
+          <parrafo>b) Se consideran bienes expuestos a desvalorización inminente, aquellos que de no ser enajenados antes de la primera junta de acreedores, con posterioridad a ella tendrán un valor muy inferior al que se obtendría al enajenarlos antes de dicha junta, como los juguetes que se deben vender antes de navidad o como la ropa de temporada.</parrafo>
+          <parrafo>c) Se entenderá por conservación dispendiosa cuando el valor necesario para asegurar la integridad de los bienes sea desproporcionado en relación con su valor de realización.</parrafo>
         </contenido>
         <referencias>
           <ref articulo="163"/>
@@ -89,32 +57,13 @@ relación con su valor de realización.</parrafo>
       <articulo id="2" tipo_original="Artículo" numero="2">
         <titulo_seccion>Artículo 2</titulo_seccion>
         <contexto>TÍTULO 1 Realización impostergable de bienes.</contexto>
-        <texto>En el caso de la enajenación de bienes muebles,
-en virtud de lo dispuesto en el artículo 212 de la Ley N.° 20.720, el liquidador
-deberá cumplir las siguientes instrucciones:
-a) A más tardar al día siguiente hábil de aquel en que se
-adopte la decisión de enajenar los bienes muebles pertenecientes al deudor, en la
-forma prevista en el artículo 212 de la Ley N.° 20.720 y con una anticipación de al
-menos 5 días hábiles a la celebración de la venta, el liquidador deberá remitir un
-informe a esta Superintendencia, en formato Excel, según modelo que se adjunta
-en anexo III, al final del presente instructivo, a través del Módulo de Comunicación
-Directa en su cuenta en el Portal Sujetos Fiscalizados, el que contendrá un detalle
-de los bienes que se venderán, forma de enajenación y los antecedentes que
-motivaron tal decisión.
-En el caso que no se pudiese dar el aviso con 5 días de
-anticipación, en atención a la situación de deterioro de los bienes, el aviso se
-deberá dar inmediatamente después de adoptada la decisión;
-b) Celebrada la venta, el liquidador deberá informar a esta
-Superintendencia por medio de su cuenta en el Portal Sujetos Fiscalizados, dentro
-de un plazo de 5 días y con los antecedentes de respaldo que correspondan, sobre
-los bienes enajenados, el producto obtenido, el nombre y Rol Unico Tributario de
-la o las personas que adquirieron los bienes, la copia de los respectivos contratos,
-así como el depósito de los fondos efectuado en la cuenta corriente de la
-liquidación. Además, deberá acompañar al expediente judicial del respectivo
-procedimiento concursal, copia de dicho informe y de sus respaldos; y
-c) En el caso de venta directa, el liquidador no podrá proponer
-a la Junta de Acreedores la contratación de ningún intermediario aun cuando su
-remuneración no sea de cargo de la masa, pues ello influye en el precio final.</texto>
+        <contenido>
+          <parrafo>En el caso de la enajenación de bienes muebles, en virtud de lo dispuesto en el artículo 212 de la Ley N.° 20.720, el liquidador deberá cumplir las siguientes instrucciones:</parrafo>
+          <parrafo>a) A más tardar al día siguiente hábil de aquel en que se adopte la decisión de enajenar los bienes muebles pertenecientes al deudor, en la forma prevista en el artículo 212 de la Ley N.° 20.720 y con una anticipación de al menos 5 días hábiles a la celebración de la venta, el liquidador deberá remitir un informe a esta Superintendencia, en formato Excel, según modelo que se adjunta en anexo III, al final del presente instructivo, a través del Módulo de Comunicación Directa en su cuenta en el Portal Sujetos Fiscalizados, el que contendrá un detalle de los bienes que se venderán, forma de enajenación y los antecedentes que motivaron tal decisión.</parrafo>
+          <parrafo>En el caso que no se pudiese dar el aviso con 5 días de anticipación, en atención a la situación de deterioro de los bienes, el aviso se deberá dar inmediatamente después de adoptada la decisión;</parrafo>
+          <parrafo>b) Celebrada la venta, el liquidador deberá informar a esta Superintendencia por medio de su cuenta en el Portal Sujetos Fiscalizados, dentro de un plazo de 5 días y con los antecedentes de respaldo que correspondan, sobre los bienes enajenados, el producto obtenido, el nombre y Rol Unico Tributario de la o las personas que adquirieron los bienes, la copia de los respectivos contratos, así como el depósito de los fondos efectuado en la cuenta corriente de la liquidación. Además, deberá acompañar al expediente judicial del respectivo procedimiento concursal, copia de dicho informe y de sus respaldos; y</parrafo>
+          <parrafo>c) En el caso de venta directa, el liquidador no podrá proponer a la Junta de Acreedores la contratación de ningún intermediario aun cuando su remuneración no sea de cargo de la masa, pues ello influye en el precio final.</parrafo>
+        </contenido>
         <referencias>
           <ref articulo="212"/>
         </referencias>
@@ -125,13 +74,17 @@ remuneración no sea de cargo de la masa, pues ello influye en el precio final.<
       <articulo id="3" tipo_original="Artículo" numero="3">
         <titulo_seccion>Artículo 3</titulo_seccion>
         <contexto>TÍTULO II Enajenación de bienes al martillo.</contexto>
-        <texto>La enajenación de bienes corporales muebles e
-inmuebles al martillo, solo podrá ser realizada por un martillero concursal.</texto>
+        <contenido>
+          <parrafo>La enajenación de bienes corporales muebles e inmuebles al martillo, solo podrá ser realizada por un martillero concursal.</parrafo>
+        </contenido>
       </articulo>
       <articulo id="4" tipo_original="Artículo" numero="4">
-        <titulo_seccion>Artículo 4. Los martilleros concursales están sujetos a las normas contenidas en la Ley N</titulo_seccion>
+        <titulo_seccion>Artículo 4</titulo_seccion>
         <contexto>TÍTULO II Enajenación de bienes al martillo.</contexto>
-        <texto>° 18.118 y su reglamento, ya que para ejercer como tal deben tener la calidad de martillero público, de acuerdo a lo dispuesto en los artículos 2 N.° 20 y 213 de la Ley N.° 20.720. Además, se encuentran sujetos a la fiscalización de esta Superintendencia y le son obligatorias sus Instrucciones, Superintendencia de Insolvencia y Reemprendimiento/2  en conformidad a lo dispuesto en los numerales 1 y 4 del artículo 337 de la citada Ley N.° 20.720. Asimismo, le son aplicables las normas y principios de probidad administrativa, por ejercer una función pública. Párrafo 2° Designación de Martilleros Concursales.</texto>
+        <contenido>
+          <parrafo>Los martilleros concursales están sujetos a las normas contenidas en la Ley N.° 18.118 y su reglamento, ya que para ejercer como tal deben tener la calidad de martillero público, de acuerdo a lo dispuesto en los artículos 2 N.° 20 y 213 de la Ley N.° 20.720. Además, se encuentran sujetos a la fiscalización de esta Superintendencia y le son obligatorias sus Instrucciones, Superintendencia de Insolvencia y Reemprendimiento/2</parrafo>
+          <parrafo>en conformidad a lo dispuesto en los numerales 1 y 4 del artículo 337 de la citada Ley N.° 20.720. Asimismo, le son aplicables las normas y principios de probidad administrativa, por ejercer una función pública.</parrafo>
+        </contenido>
         <referencias>
           <ref articulo="337"/>
         </referencias>
@@ -139,23 +92,12 @@ inmuebles al martillo, solo podrá ser realizada por un martillero concursal.</t
       <articulo id="5" tipo_original="Artículo" numero="5">
         <titulo_seccion>Artículo 5</titulo_seccion>
         <contexto>TÍTULO II Enajenación de bienes al martillo.</contexto>
-        <texto>Para la enajenación ordinaria de bienes al
-martillo, acordada por la Junta de Acreedores, dicho órgano concursal deberá
-designar al martillero concursal de una terna propuesta por el liquidador, la que
-deberá ser consignada en el acta de la junta de acreedores que adopte el acuerdo
-y confeccionada solo con aquellos martilleros concursales incluidos en la nómina
-llevada por esta Superintendencia, que no se encuentren suspendidos en sus
-funciones, no pudiendo designar genéricamente a aquellas casas de remate en que
-se desempeñen dos o más martilleros concursales ni a más de un martillero para
-un mismo remate.
-En la realización sumaria el martillero concursal será
-designado por el liquidador, en conformidad a lo dispuesto en el artículo 204 de la
-Ley N.° 20.720.
-Una vez designado el martillero concursal, el liquidador
-deberá vincularlo al respectivo procedimiento concursa!, en el Portal Sujetos
-Fiscalizados de esta Superintendencia.
-El martillero concursal debe desempeñar por sí mismo e!
-encargo y no podrá delegarlo.</texto>
+        <contenido>
+          <parrafo>Para la enajenación ordinaria de bienes al martillo, acordada por la Junta de Acreedores, dicho órgano concursal deberá designar al martillero concursal de una terna propuesta por el liquidador, la que deberá ser consignada en el acta de la junta de acreedores que adopte el acuerdo y confeccionada solo con aquellos martilleros concursales incluidos en la nómina llevada por esta Superintendencia, que no se encuentren suspendidos en sus funciones, no pudiendo designar genéricamente a aquellas casas de remate en que se desempeñen dos o más martilleros concursales ni a más de un martillero para un mismo remate.</parrafo>
+          <parrafo>En la realización sumaria el martillero concursal será designado por el liquidador, en conformidad a lo dispuesto en el artículo 204 de la Ley N.° 20.720.</parrafo>
+          <parrafo>Una vez designado el martillero concursal, el liquidador deberá vincularlo al respectivo procedimiento concursa!, en el Portal Sujetos Fiscalizados de esta Superintendencia.</parrafo>
+          <parrafo>El martillero concursal debe desempeñar por sí mismo e! encargo y no podrá delegarlo.</parrafo>
+        </contenido>
         <referencias>
           <ref articulo="204"/>
         </referencias>
@@ -163,57 +105,37 @@ encargo y no podrá delegarlo.</texto>
       <articulo id="6" tipo_original="Artículo" numero="6">
         <titulo_seccion>Artículo 6</titulo_seccion>
         <contexto>TÍTULO II Enajenación de bienes al martillo.</contexto>
-        <texto>En la proposición y contratación de martilleros
-concursales, los liquidadores deberán actuar en el interés general de los
-acreedores y de los derechos del deudor, evitando el traslado de los bienes o de
-los martilleros concursales a una ciudad distinta del lugar donde se incauten los
-bienes, toda vez que ello encarece el procedimiento de liquidación. A falta de
-martilleros en dicha ciudad, podrán designar o proponer la contratación de
-martilleros concursales cuyo domicilio se encuentre en la región donde estén los
-bienes o en la región contigua.
-Párrafo 3°
-Obligaciones comunes a la liquidación ordinaria y sumaria.</texto>
+        <contenido>
+          <parrafo>En la proposición y contratación de martilleros concursales, los liquidadores deberán actuar en el interés general de los acreedores y de los derechos del deudor, evitando el traslado de los bienes o de los martilleros concursales a una ciudad distinta del lugar donde se incauten los bienes, toda vez que ello encarece el procedimiento de liquidación. A falta de martilleros en dicha ciudad, podrán designar o proponer la contratación de martilleros concursales cuyo domicilio se encuentre en la región donde estén los bienes o en la región contigua.</parrafo>
+        </contenido>
       </articulo>
       <articulo id="7" tipo_original="Artículo" numero="7">
-        <titulo_seccion>Artículo 7. Los martilleros concursales deberán dar cumplimiento a lo dispuesto en el artículo 25 de la Ley N</titulo_seccion>
+        <titulo_seccion>Artículo 7</titulo_seccion>
         <contexto>TÍTULO II Enajenación de bienes al martillo.</contexto>
-        <texto>° 18.118, en orden a recibir los bienes que se le entreguen para la subasta, en calidad de depositario, debiendo otorgar al liquidador acta de recepción de los mismos, debidamente firmada por el martillero y por el liquidador, con indicación del lugar, día y hora en que se suscribió. Además, en el caso de procedimientos concursales de empresas, el liquidador deberá emitir una guía de despacho del deudor, a nombre del martillero concursal, en conformidad a lo establecido en el número 2 de la Resolución Ex. Sil N.° 91 de 25 de octubre de 2013 del Servicio de Impuestos Internos.</texto>
+        <contenido>
+          <parrafo>Los martilleros concursales deberán dar cumplimiento a lo dispuesto en el artículo 25 de la Ley N.° 18.118, en orden a recibir los bienes que se le entreguen para la subasta, en calidad de depositario, debiendo otorgar al liquidador acta de recepción de los mismos, debidamente firmada por el martillero y por el liquidador, con indicación del lugar, día y hora en que se suscribió.</parrafo>
+          <parrafo>Además, en el caso de procedimientos concursales de empresas, el liquidador deberá emitir una guía de despacho del deudor, a nombre del martillero concursal, en conformidad a lo establecido en el número 2 de la Resolución Ex. Sil N.° 91 de 25 de octubre de 2013 del Servicio de Impuestos Internos.</parrafo>
+        </contenido>
+        <referencias>
+          <ref articulo="25"/>
+        </referencias>
       </articulo>
       <articulo id="8" tipo_original="Artículo" numero="8">
         <titulo_seccion>Artículo 8</titulo_seccion>
         <contexto>TÍTULO II Enajenación de bienes al martillo.</contexto>
         <contenido>
-          <parrafo>El acta de recepción deberá levantarse de acuerdo
-al modelo que se adjunta al presente instructivo en el Anexo 1, singularizando los
-Superintendencia de Insolvencia y Reemprendimiento/3</parrafo>
-          <parrafo>bienes en la misma forma en que se encuentren descritos en el inventario de
-bienes confeccionado en el respectivo procedimiento de liquidación, con indicación
-de su especie, cantidad, calidad, estado de conservación y todo otro antecedente
-o especificación necesaria para su debida singularización, tales como, marca,
-modelo, número de serie, color, año de fabricación, placa única en el caso de
-vehículos motorizados, peso y dimensiones aproximadas, según ello sea posible.
-En el caso de los bienes inmuebles, se singularizarán por su ubicación, su
-respectivo rol de avalúos y los datos de su correspondiente inscripción de dominio,
-esto es, fojas, número y año del Registro de Propiedad del Conservador de Bienes
-Raíces respectivo, con indicación si están sujetos a gravámenes y/o prohibiciones.</parrafo>
+          <parrafo>El acta de recepción deberá levantarse de acuerdo al modelo que se adjunta al presente instructivo en el Anexo 1, singularizando los Superintendencia de Insolvencia y Reemprendimiento/3</parrafo>
+          <parrafo>bienes en la misma forma en que se encuentren descritos en el inventario de bienes confeccionado en el respectivo procedimiento de liquidación, con indicación de su especie, cantidad, calidad, estado de conservación y todo otro antecedente o especificación necesaria para su debida singularización, tales como, marca, modelo, número de serie, color, año de fabricación, placa única en el caso de vehículos motorizados, peso y dimensiones aproximadas, según ello sea posible.</parrafo>
+          <parrafo>En el caso de los bienes inmuebles, se singularizarán por su ubicación, su respectivo rol de avalúos y los datos de su correspondiente inscripción de dominio, esto es, fojas, número y año del Registro de Propiedad del Conservador de Bienes Raíces respectivo, con indicación si están sujetos a gravámenes y/o prohibiciones.</parrafo>
         </contenido>
       </articulo>
       <articulo id="9" tipo_original="Artículo" numero="9">
         <titulo_seccion>Artículo 9</titulo_seccion>
         <contexto>TÍTULO II Enajenación de bienes al martillo.</contexto>
-        <texto>El martillero concursal será responsable de la
-custodia y conservación de los bienes entregados por el liquidador, debiendo
-responder por su pérdida o deterioro, indemnizando a la masa e! valor comercial
-de los bienes, en caso de pérdida, el menor precio que se obtenga en caso de
-deterioro y de todos los daños y/o perjuicios que por estos hechos sobrevengan y
-que pudiesen afectar a la masa, salvo que ocurrieren por caso fortuito o por vicio
-inherente a las cosas.
-Por otra parte, los martilleros concursales no podrán cobrar
-bodegaje por la tenencia de los bienes que reciban para su enajenación, ni gastos
-operacionales por su enajenación, puesto que dichas actuaciones son connaturales
-a la actividad que desempeñan, para la cual deben contar con la infraestructura
-necesaria, para lo cual perciben una comisión única, en los términos del artículo
-215 de la Ley N.° 20.720.</texto>
+        <contenido>
+          <parrafo>El martillero concursal será responsable de la custodia y conservación de los bienes entregados por el liquidador, debiendo responder por su pérdida o deterioro, indemnizando a la masa e! valor comercial de los bienes, en caso de pérdida, el menor precio que se obtenga en caso de deterioro y de todos los daños y/o perjuicios que por estos hechos sobrevengan y que pudiesen afectar a la masa, salvo que ocurrieren por caso fortuito o por vicio inherente a las cosas.</parrafo>
+          <parrafo>Por otra parte, los martilleros concursales no podrán cobrar bodegaje por la tenencia de los bienes que reciban para su enajenación, ni gastos operacionales por su enajenación, puesto que dichas actuaciones son connaturales a la actividad que desempeñan, para la cual deben contar con la infraestructura necesaria, para lo cual perciben una comisión única, en los términos del artículo 215 de la Ley N.° 20.720.</parrafo>
+        </contenido>
         <referencias>
           <ref articulo="215"/>
         </referencias>
@@ -221,30 +143,18 @@ necesaria, para lo cual perciben una comisión única, en los términos del art�
       <articulo id="10" tipo_original="Artículo" numero="10">
         <titulo_seccion>Artículo 10</titulo_seccion>
         <contexto>TÍTULO II Enajenación de bienes al martillo.</contexto>
-        <texto>En el desempeño del encargo el martillero
-concursal deberá sujetarse estrictamente a lo señalado en las bases de remate
-previamente aprobadas por la Junta de Acreedores, en el caso de la realización
-ordinaria o a lo señalado en las bases presentadas por el liquidador, en el caso de
-la enajenación sumaria. No obstante, si del cumplimiento estricto resultare un
-daño grave para los bienes o para la masa, será su deber suspender la ejecución
-del encargo y darle aviso de inmediato al liquidador.
-En ningún caso podrá obrar contra las disposiciones expresas
-y claras de la Junta de Acreedores, en el caso de la realización ordinaria y a las
-instrucciones del liquidador, en el caso de la realización sumaria.</texto>
+        <contenido>
+          <parrafo>En el desempeño del encargo el martillero concursal deberá sujetarse estrictamente a lo señalado en las bases de remate previamente aprobadas por la Junta de Acreedores, en el caso de la realización ordinaria o a lo señalado en las bases presentadas por el liquidador, en el caso de la enajenación sumaria. No obstante, si del cumplimiento estricto resultare un daño grave para los bienes o para la masa, será su deber suspender la ejecución del encargo y darle aviso de inmediato al liquidador.</parrafo>
+          <parrafo>En ningún caso podrá obrar contra las disposiciones expresas y claras de la Junta de Acreedores, en el caso de la realización ordinaria y a las instrucciones del liquidador, en el caso de la realización sumaria.</parrafo>
+        </contenido>
       </articulo>
       <articulo id="11" tipo_original="Artículo" numero="11">
         <titulo_seccion>Artículo 11</titulo_seccion>
         <contexto>TÍTULO II Enajenación de bienes al martillo.</contexto>
-        <texto>En la realización sumaria las bases de remate
-deben ser confeccionadas por el liquidador, presentadas al Tribunal y publicadas
-en el Boletín Concursal, en conformidad a lo establecido en la letra b) del artículo
-204 de la Ley N.° 20.720.
-Por su parte, en la realización ordinaria el liquidador debe
-proponer las bases de remate a la Junta de Acreedores y una vez aprobadas por
-dicho órgano concursal, debe publicarlas en el Boletín Concursal, de acuerdo a lo
-establecido en el artículo 214 del mismo cuerpo legal.
-Párrafo 4°
-Publicaciones del remate.</texto>
+        <contenido>
+          <parrafo>En la realización sumaria las bases de remate deben ser confeccionadas por el liquidador, presentadas al Tribunal y publicadas en el Boletín Concursal, en conformidad a lo establecido en la letra b) del artículo 204 de la Ley N.° 20.720.</parrafo>
+          <parrafo>Por su parte, en la realización ordinaria el liquidador debe proponer las bases de remate a la Junta de Acreedores y una vez aprobadas por dicho órgano concursal, debe publicarlas en el Boletín Concursal, de acuerdo a lo establecido en el artículo 214 del mismo cuerpo legal.</parrafo>
+        </contenido>
         <referencias>
           <ref articulo="204"/>
           <ref articulo="214"/>
@@ -254,245 +164,115 @@ Publicaciones del remate.</texto>
         <titulo_seccion>Artículo 12</titulo_seccion>
         <contexto>TÍTULO II Enajenación de bienes al martillo.</contexto>
         <contenido>
-          <parrafo>Las publicaciones de los remates que deban
-efectuar los martilleros concursales en los procedimientos en que intervengan,
-deberán realizarse en el Boletín Concursal. En el caso de los inmuebles, se deberán
-efectuar al menos tres publicaciones, la primera con un mínimo de quince días de
-anticipación y la última el día anterior al remate y en el caso de los bienes muebles,
-Superintendencia de Insolvencia y Reemprendimiento/4</parrafo>
-          <parrafo>se deberán efectuar al menos 2 publicaciones, la primera con un mínimo de 5 días
-de anticipación y la última el día anterior del remate. Además, cuando los recursos
-de la respectiva liquidadón lo permitan, podrán efectuarse en medios de
-circulación regional y/o nacional, cuidando que su costo no sea excesivo en relación
-a los bienes que se deban enajenar y previo acuerdo de la Junta de Acreedores,
-con a lo menos cinco días de anticipación a la fecha del remate, para los bienes
-muebles y con a lo menos quince días de anticipación a la fecha de la subasta,
-para los bienes inmuebles.</parrafo>
+          <parrafo>Las publicaciones de los remates que deban efectuar los martilleros concursales en los procedimientos en que intervengan, deberán realizarse en el Boletín Concursal. En el caso de los inmuebles, se deberán efectuar al menos tres publicaciones, la primera con un mínimo de quince días de anticipación y la última el día anterior al remate y en el caso de los bienes muebles, Superintendencia de Insolvencia y Reemprendimiento/4</parrafo>
+          <parrafo>se deberán efectuar al menos 2 publicaciones, la primera con un mínimo de 5 días de anticipación y la última el día anterior del remate. Además, cuando los recursos de la respectiva liquidadón lo permitan, podrán efectuarse en medios de circulación regional y/o nacional, cuidando que su costo no sea excesivo en relación a los bienes que se deban enajenar y previo acuerdo de la Junta de Acreedores, con a lo menos cinco días de anticipación a la fecha del remate, para los bienes muebles y con a lo menos quince días de anticipación a la fecha de la subasta, para los bienes inmuebles.</parrafo>
         </contenido>
       </articulo>
       <articulo id="13" tipo_original="Artículo" numero="13">
         <titulo_seccion>Artículo 13</titulo_seccion>
         <contexto>TÍTULO II Enajenación de bienes al martillo.</contexto>
-        <texto>El martillero concursal deberá publicar en el
-Boletín Concursal todos los avisos que efectúe en los medios de circulación regional
-o nacional, de acuerdo a lo previsto en el artículo anterior.</texto>
+        <contenido>
+          <parrafo>El martillero concursal deberá publicar en el Boletín Concursal todos los avisos que efectúe en los medios de circulación regional o nacional, de acuerdo a lo previsto en el artículo anterior.</parrafo>
+        </contenido>
       </articulo>
       <articulo id="14" tipo_original="Artículo" numero="14">
         <titulo_seccion>Artículo 14</titulo_seccion>
         <contexto>TÍTULO II Enajenación de bienes al martillo.</contexto>
-        <texto>En las publicaciones de las enajenaciones que se
-efectúen en los procedimientos concursales de liquidación, se deberá indicar lo
-siguiente:
-a) Nombre del deudor del respectivo procedimiento concursal;
-b) El Tribunal donde se tramita;
-c) El rol de la causa;
-d) Nombre del martillero y número de registró,
-e) Singularización de los bienes a rematar;
-f) El mínimo para las posturas, si corresponde;
-g) Comisión del martillero;
-h) Bienes gravados con I.V.A. y gravámenes que afectan a los
-bienes a rematar y la forma en que se alzarán;
-i) Días y horas en que pueden inspeccionarse los bienes, y
-j) El lugar (calle, número, comuna y región), día y hora en
-que se realizará el remate.
-Además, los avisos de remate de procedimientos concursales,
-solo podrán contener bienes de deudores sujetos a procedimientos concursales,
-los que deberán estar debidamente identificados en el aviso respectivo.</texto>
+        <contenido>
+          <parrafo>En las publicaciones de las enajenaciones que se efectúen en los procedimientos concursales de liquidación, se deberá indicar lo siguiente:</parrafo>
+          <parrafo>a) Nombre del deudor del respectivo procedimiento concursal;</parrafo>
+          <parrafo>b) El Tribunal donde se tramita;</parrafo>
+          <parrafo>c) El rol de la causa;</parrafo>
+          <parrafo>d) Nombre del martillero y número de registró,</parrafo>
+          <parrafo>e) Singularización de los bienes a rematar;</parrafo>
+          <parrafo>f) El mínimo para las posturas, si corresponde;</parrafo>
+          <parrafo>g) Comisión del martillero;</parrafo>
+          <parrafo>h) Bienes gravados con I.V.A. y gravámenes que afectan a los bienes a rematar y la forma en que se alzarán;</parrafo>
+          <parrafo>i) Días y horas en que pueden inspeccionarse los bienes, y</parrafo>
+          <parrafo>j) El lugar (calle, número, comuna y región), día y hora en que se realizará el remate.</parrafo>
+          <parrafo>Además, los avisos de remate de procedimientos concursales, solo podrán contener bienes de deudores sujetos a procedimientos concursales, los que deberán estar debidamente identificados en el aviso respectivo.</parrafo>
+        </contenido>
       </articulo>
       <articulo id="15" tipo_original="Artículo" numero="15">
         <titulo_seccion>Artículo 15</titulo_seccion>
         <contexto>TÍTULO II Enajenación de bienes al martillo.</contexto>
         <contenido>
-          <parrafo>El martillero concursal deberá efectuar los
-remates de los procedimientos a su cargo, en el lugar, día y hora fijada, los que
-no podrán modificarse a su arbitrio. Para dicho efecto deberá contar con la
-autorización de la Junta de Acreedores, en el caso de la realización ordinaria o del
-liquidador por escrito, en el caso de la realización sumaria de los bienes, debiendo
-en este caso realizar nuevamente las publicaciones reguladas en los artículos
-anteriores.
-El día del remate, el martillero concursal deberá entregar a
-los fiscalizadores de esta Superintendencia, copia de la planilla preparada para el
-remate, en la que conste la singularización de los bienes a enajenar en cada
-procedimiento concursal, con sus mínimos si los hubiere y columnas para registrar
-el adjudicatario de cada bien, su R.U.T. y precio obtenido, todo ello según modelo
-que se adjunta en anexo IV, al final del presente instructivo.
-Podrá el Martillero Concursal formar lotes de bienes muebles
-a fin de facilitar el remate, siempre y cuando estos bienes o mercaderías
-pertenezcan a la respectiva liquidación. Queda prohibido incluir dentro de los lotes,
-bienes o mercaderías que no pertenezcan a la liquidación respectiva, y cuyo origen
-Superintendencia de Insolvencia y Reemprendimiento/5</parrafo>
-          <parrafo>sea otra liquidación u otros bienes que se le hayan encargado en comisión de venta
-por terceros, salvo que se trate de la enajenación de bienes como unidad
-económica.
-En el evento que un remate publicado no se realice, ya sea
-por suspensión, falta de postores o cualquier otro motivo, el martillero concursa!
-deberá informar a esta Superintendencia, los motivos por los que el remate no se
-realizó y rendir cuenta de los gastos efectuados, en un plazo no superior a 5 días
-hábiles. En el caso que la suspensión sea imputable al martillero, no podrá cargar
-a la masa los gastos en que hubiere incurrido en el fallido remate y si lo hiciere,
-deberá restituirlos al respectivo procedimiento concursal, debidamente
-actualizados.
-Párrafo 5°
-Rendición de cuenta del remate.</parrafo>
+          <parrafo>El martillero concursal deberá efectuar los remates de los procedimientos a su cargo, en el lugar, día y hora fijada, los que no podrán modificarse a su arbitrio. Para dicho efecto deberá contar con la autorización de la Junta de Acreedores, en el caso de la realización ordinaria o del liquidador por escrito, en el caso de la realización sumaria de los bienes, debiendo en este caso realizar nuevamente las publicaciones reguladas en los artículos anteriores.</parrafo>
+          <parrafo>El día del remate, el martillero concursal deberá entregar a los fiscalizadores de esta Superintendencia, copia de la planilla preparada para el remate, en la que conste la singularización de los bienes a enajenar en cada procedimiento concursal, con sus mínimos si los hubiere y columnas para registrar el adjudicatario de cada bien, su R.U.T. y precio obtenido, todo ello según modelo que se adjunta en anexo IV, al final del presente instructivo.</parrafo>
+          <parrafo>Podrá el Martillero Concursal formar lotes de bienes muebles a fin de facilitar el remate, siempre y cuando estos bienes o mercaderías pertenezcan a la respectiva liquidación. Queda prohibido incluir dentro de los lotes, bienes o mercaderías que no pertenezcan a la liquidación respectiva, y cuyo origen Superintendencia de Insolvencia y Reemprendimiento/5</parrafo>
+          <parrafo>sea otra liquidación u otros bienes que se le hayan encargado en comisión de venta por terceros, salvo que se trate de la enajenación de bienes como unidad económica.</parrafo>
+          <parrafo>En el evento que un remate publicado no se realice, ya sea por suspensión, falta de postores o cualquier otro motivo, el martillero concursa! deberá informar a esta Superintendencia, los motivos por los que el remate no se realizó y rendir cuenta de los gastos efectuados, en un plazo no superior a 5 días hábiles. En el caso que la suspensión sea imputable al martillero, no podrá cargar a la masa los gastos en que hubiere incurrido en el fallido remate y si lo hiciere, deberá restituirlos al respectivo procedimiento concursal, debidamente actualizados.</parrafo>
         </contenido>
       </articulo>
       <articulo id="16" tipo_original="Artículo" numero="16">
         <titulo_seccion>Artículo 16</titulo_seccion>
         <contexto>TÍTULO II Enajenación de bienes al martillo.</contexto>
         <contenido>
-          <parrafo>Los martilleros concursales deben rendir las
-cuentas de cada remate en que intervengan, en conformidad a lo dispuesto en el
-artículo 216 de la Ley N.° 20.720, esto es, 5 días hábiles después del respectivo
-remate y sin perjuicio de los requisitos contemplados en el Título V de las Normas
-de Carácter General N° 7 de 8 de octubre de 2014, los martilleros concursales
-deberán cumplir las siguientes instrucciones:
-10. En la cuenta se deberá singularizar cada uno de los bienes
-enajenados en la forma dispuesta en el artículo 8 que precede, con indicación de
-los ingresos que reportó cada uno de ellos, el monto total obtenido en el remate,
-los gastos del remate, los impuestos que deba enterar el liquidador y el saldo neto
-en favor de la masa. Además, se deberá incorporar copia de todos los avisos de
-remate publicados con motivo de la enajenación de los bienes de la respectiva
-liquidación, señalando la fecha y periódico o medio de difusión de cada uno de
-ellos;
-20. La cuenta deberá ser respaldada con la planilla del
-respectivo remate en formato Excel, liquidación facturas, facturas y boletas de
-venta y servicios que acrediten los gastos efectuados y las comisiones percibidas
-por el martillero concursal, las escrituras de compraventa o adjudicación de los
-bienes rematados y cualquier otro documento relativo a la subasta realizada;
-30• La planilla del remate deberá contener al menos, las
-siguientes columnas:
-a) Descripción de los lotes, especificando los bienes
-enajenados y los pendientes de enajenar, en la forma dispuesta en el artículo 8
-que precede;
-b) Valor mínimo fijado para cada bien, según las bases de
-remate publicadas en el Boletín Concursal;
-c) Valor de adjudicación obtenido en el remate;
-d) Individualización del adjudicatario, indicando al menos
-nombre completo y RUT del comprador, y
-e) Además, deberá singularizar los impuestos y gravámenes
-que afectan a los bienes rematados;
-40 En el caso de remates de bienes afectos al Impuesto al
-Valor Agregado y otros impuestos que pudieren gravar la enajenación, el martillero
-concursal deberá entregar los montos recaudados por este concepto al liquidador,
-Superintendencia de Insolvencia y Reemprendimiento/6</parrafo>
-          <parrafo>junto con el valor obtenido en la subasta, quien, en representación del deudor,
-declarará y pagará oportunamente dicho impuesto, según lo establecido en el
-inciso 2° del artículo 22 del Reglamento del D.L. 825;
-5°. Emitir las liquidaciones factura que sustentan el remate, a
-nombre del respectivo procedimiento concursal. Estas liquidaciones factura, como
-las facturas o boletas de ventas y servicios que respaldan la comisión del martHlero
-concursal, deben ser emitidas por este como persona natural;
-6°. Los gastos que incluya en su cuenta del remate, deben ser
-respaldados con los documentos tributarios pertinentes, a nombre del respectivo
-procedimiento concursal, y deberán estar aprobados por la Junta de Acreedores,
-en los casos que se requiera.
-En el caso de las publicaciones de avisos de remates, en las
-que dicho gasto habitualmente se distribuye entre varios procedimientos
-concursales y la empresa periodística solo emite una factura a nombre del
-martillero concursal, el gasto se debe respaldar con la factura extendida por el
-martillero concursal al respectivo procedimiento concursal y la factura original de
-la empresa periodística, emitida a nombre del martillero, con el respectivo detalle
-del prorrateo, a fin de que sea posible su validación. Sin estos requisitos el gasto
-será rechazado;
-7O Publicar en el Boletín Concursal la cuenta del remate, con
-todos sus respaldos, en forma completa, clara y legible, y acompañar al expediente
-judicial del respectivo procedimiento concursal, copia de la referida cuenta y de
-sus respaldos;
-8°. Dar inmediatamente aviso al liquidador, entregándole
-copia de la referida cuenta, los fondos resultantes de la subasta, mediante cheque
-nominativo o transferencia a nombre del respectivo procedimiento concursal, y los
-respaldos originales de las liquidaciones factura y de los gastos efectuados, en el
-plazo de 3 días hábiles contados desde la publicación de la cuenta del remate;
-9°. Devolver al liquidador los títulos y demás antecedentes
-que este le hubiere entregado;
-10°. Poner a disposición de los fiscalizadores de este Servicio
-toda la documentación que respalde su gestión y la que sea necesaria para cumplir
-la labor fiscalizadora, en especial la planilla de remate en formato Excel, liquidación
-factura, facturas, boletas de venta y servicios u otros documentos relativos a la
-subasta realizada, para su verificación o cotejo.
-Finalmente, por este acto se sustituye lo dispuesto en el inciso
-2° del artículo 16 de la Norma de Carácter General N.° 7 de 8 de octubre de 2014,
-quedando como sigue: Para estos efectos el liquidador deberá citar a junta de
-acreedores conforme al inciso segundo del artículo 51 de la Ley, notificando en el
-Boletín Concursal dicha citación dentro del plazo de 5 días siguientes a la
-publicación a que se refiere el inciso primero de este artículo. Sin embargo, en los
-procedimientos concursales que se aplique la realización sumaria del activo, el
-liquidador citará a junta de acreedores para la presentación de las cuentas de los
-remates rendidos por los martilleros concursales, una vez que se hayan enajenado
-todos los bienes del respectivo procedimiento concursal y en todo caso antes de la
-rendición de la cuenta final del liquidador, ello sin perjuicio del deber de los
-martilleros de rendir y publicar las cuentas de cada remate en que intervengan,
-en conformidad a lo dispuesto en el artículo 216 de la Ley N.° 20.720.
-Superintendencia de Insolvencia y Reemprendimiento/7</parrafo>
-          <parrafo>Desde la fecha en que se celebre o deba celebrarse la
-respectiva junta comenzará a correr el plazo para la objeción de las mencionadas
-cuentas de remate, según lo dispone el inciso 2° del artículo 52 de la Ley N.°
-20.720, en relación con lo dispuesto en el inciso final del artículo 216 del mismo
-cuerpo legal.</parrafo>
+          <parrafo>Los martilleros concursales deben rendir las cuentas de cada remate en que intervengan, en conformidad a lo dispuesto en el artículo 216 de la Ley N.° 20.720, esto es, 5 días hábiles después del respectivo remate y sin perjuicio de los requisitos contemplados en el Título V de las Normas de Carácter General N° 7 de 8 de octubre de 2014, los martilleros concursales deberán cumplir las siguientes instrucciones:</parrafo>
+          <inciso numero="1">En la cuenta se deberá singularizar cada uno de los bienes enajenados en la forma dispuesta en el artículo 8 que precede, con indicación de los ingresos que reportó cada uno de ellos, el monto total obtenido en el remate, los gastos del remate, los impuestos que deba enterar el liquidador y el saldo neto en favor de la masa. Además, se deberá incorporar copia de todos los avisos de remate publicados con motivo de la enajenación de los bienes de la respectiva liquidación, señalando la fecha y periódico o medio de difusión de cada uno de ellos;</inciso>
+          <inciso numero="2">La cuenta deberá ser respaldada con la planilla del respectivo remate en formato Excel, liquidación facturas, facturas y boletas de venta y servicios que acrediten los gastos efectuados y las comisiones percibidas por el martillero concursal, las escrituras de compraventa o adjudicación de los bienes rematados y cualquier otro documento relativo a la subasta realizada; 30• La planilla del remate deberá contener al menos, las siguientes columnas:</inciso>
+          <parrafo>a) Descripción de los lotes, especificando los bienes enajenados y los pendientes de enajenar, en la forma dispuesta en el artículo 8 que precede;</parrafo>
+          <parrafo>b) Valor mínimo fijado para cada bien, según las bases de remate publicadas en el Boletín Concursal;</parrafo>
+          <parrafo>c) Valor de adjudicación obtenido en el remate;</parrafo>
+          <parrafo>d) Individualización del adjudicatario, indicando al menos nombre completo y RUT del comprador, y</parrafo>
+          <parrafo>e) Además, deberá singularizar los impuestos y gravámenes que afectan a los bienes rematados;</parrafo>
+          <parrafo>40 En el caso de remates de bienes afectos al Impuesto al Valor Agregado y otros impuestos que pudieren gravar la enajenación, el martillero concursal deberá entregar los montos recaudados por este concepto al liquidador, Superintendencia de Insolvencia y Reemprendimiento/6</parrafo>
+          <parrafo>junto con el valor obtenido en la subasta, quien, en representación del deudor, declarará y pagará oportunamente dicho impuesto, según lo establecido en el inciso 2° del artículo 22 del Reglamento del D.L. 825;</parrafo>
+          <inciso numero="3">. Emitir las liquidaciones factura que sustentan el remate, a nombre del respectivo procedimiento concursal. Estas liquidaciones factura, como las facturas o boletas de ventas y servicios que respaldan la comisión del martHlero concursal, deben ser emitidas por este como persona natural;</inciso>
+          <inciso numero="4">. Los gastos que incluya en su cuenta del remate, deben ser respaldados con los documentos tributarios pertinentes, a nombre del respectivo procedimiento concursal, y deberán estar aprobados por la Junta de Acreedores, en los casos que se requiera.</inciso>
+          <parrafo>En el caso de las publicaciones de avisos de remates, en las que dicho gasto habitualmente se distribuye entre varios procedimientos concursales y la empresa periodística solo emite una factura a nombre del martillero concursal, el gasto se debe respaldar con la factura extendida por el martillero concursal al respectivo procedimiento concursal y la factura original de la empresa periodística, emitida a nombre del martillero, con el respectivo detalle del prorrateo, a fin de que sea posible su validación. Sin estos requisitos el gasto será rechazado; 7O Publicar en el Boletín Concursal la cuenta del remate, con todos sus respaldos, en forma completa, clara y legible, y acompañar al expediente judicial del respectivo procedimiento concursal, copia de la referida cuenta y de sus respaldos;</parrafo>
+          <inciso numero="5">. Dar inmediatamente aviso al liquidador, entregándole copia de la referida cuenta, los fondos resultantes de la subasta, mediante cheque nominativo o transferencia a nombre del respectivo procedimiento concursal, y los respaldos originales de las liquidaciones factura y de los gastos efectuados, en el plazo de 3 días hábiles contados desde la publicación de la cuenta del remate;</inciso>
+          <inciso numero="6">. Devolver al liquidador los títulos y demás antecedentes que este le hubiere entregado;</inciso>
+          <inciso numero="7">. Poner a disposición de los fiscalizadores de este Servicio toda la documentación que respalde su gestión y la que sea necesaria para cumplir la labor fiscalizadora, en especial la planilla de remate en formato Excel, liquidación factura, facturas, boletas de venta y servicios u otros documentos relativos a la subasta realizada, para su verificación o cotejo.</inciso>
+          <parrafo>Finalmente, por este acto se sustituye lo dispuesto en el inciso</parrafo>
+          <inciso numero="8">del artículo 16 de la Norma de Carácter General N.° 7 de 8 de octubre de 2014, quedando como sigue: Para estos efectos el liquidador deberá citar a junta de acreedores conforme al inciso segundo del artículo 51 de la Ley, notificando en el Boletín Concursal dicha citación dentro del plazo de 5 días siguientes a la publicación a que se refiere el inciso primero de este artículo. Sin embargo, en los procedimientos concursales que se aplique la realización sumaria del activo, el liquidador citará a junta de acreedores para la presentación de las cuentas de los remates rendidos por los martilleros concursales, una vez que se hayan enajenado todos los bienes del respectivo procedimiento concursal y en todo caso antes de la rendición de la cuenta final del liquidador, ello sin perjuicio del deber de los martilleros de rendir y publicar las cuentas de cada remate en que intervengan, en conformidad a lo dispuesto en el artículo 216 de la Ley N.° 20.720.</inciso>
+          <parrafo>Superintendencia de Insolvencia y Reemprendimiento/7</parrafo>
+          <parrafo>Desde la fecha en que se celebre o deba celebrarse la respectiva junta comenzará a correr el plazo para la objeción de las mencionadas cuentas de remate, según lo dispone el inciso 2° del artículo 52 de la Ley N.° 20.720, en relación con lo dispuesto en el inciso final del artículo 216 del mismo cuerpo legal.</parrafo>
         </contenido>
         <referencias>
-          <ref articulo="16"/>
-          <ref articulo="8"/>
-          <ref articulo="216"/>
           <ref articulo="51"/>
+          <ref articulo="8"/>
+          <ref articulo="16"/>
           <ref articulo="52"/>
           <ref articulo="22"/>
+          <ref articulo="216"/>
         </referencias>
       </articulo>
       <articulo id="17" tipo_original="Artículo" numero="17">
         <titulo_seccion>Artículo 17</titulo_seccion>
         <contexto>TÍTULO II Enajenación de bienes al martillo.</contexto>
-        <texto>En el evento que en las publicaciones de
-enajenaciones se omita señalar el nombre del procedimiento concursal y/o el rol
-de la causa y tribunal no se considerarán como gasto del concurso y no podrán ser
-rendidas como tal, en la liquidación.</texto>
+        <contenido>
+          <parrafo>En el evento que en las publicaciones de enajenaciones se omita señalar el nombre del procedimiento concursal y/o el rol de la causa y tribunal no se considerarán como gasto del concurso y no podrán ser rendidas como tal, en la liquidación.</parrafo>
+        </contenido>
       </articulo>
       <articulo id="18" tipo_original="Artículo" numero="18">
         <titulo_seccion>Artículo 18</titulo_seccion>
         <contexto>TÍTULO II Enajenación de bienes al martillo.</contexto>
-        <texto>En caso de incumplimiento de la obligación de
-rendir cuenta en el plazo estipulado en el artículo 216 de la Ley N.° 20.720 y/o de
-entregar los fondos resultantes de la respectiva enajenación, el martillero
-concursal deberá abonar a la masa reajustes y el interés corriente bancario,
-aumentado en un 50°h, calculados sobre el monto adeudado, entre la fecha en
-que debieron entregar los fondos y la fecha de su ingreso efectivo a la masa,
-conforme lo dispone el artículo 16 de la Ley 18.118.
-Asimismo, el liquidador deberá exigir al martillero concursal
-la presentación de dicha cuenta y el debido cumplimiento de lo instruido en este
-artículo e informar a esta Superintendencia, cualquiera de estos incumplimientos,
-mediante el Módulo de Comunicación Directa del Portal Sujetos Fiscalizados.</texto>
+        <contenido>
+          <parrafo>En caso de incumplimiento de la obligación de rendir cuenta en el plazo estipulado en el artículo 216 de la Ley N.° 20.720 y/o de entregar los fondos resultantes de la respectiva enajenación, el martillero concursal deberá abonar a la masa reajustes y el interés corriente bancario, aumentado en un 50°h, calculados sobre el monto adeudado, entre la fecha en que debieron entregar los fondos y la fecha de su ingreso efectivo a la masa, conforme lo dispone el artículo 16 de la Ley 18.118.</parrafo>
+          <parrafo>Asimismo, el liquidador deberá exigir al martillero concursal la presentación de dicha cuenta y el debido cumplimiento de lo instruido en este</parrafo>
+          <parrafo>artículo e informar a esta Superintendencia, cualquiera de estos incumplimientos, mediante el Módulo de Comunicación Directa del Portal Sujetos Fiscalizados.</parrafo>
+        </contenido>
         <referencias>
-          <ref articulo="16"/>
           <ref articulo="216"/>
+          <ref articulo="16"/>
         </referencias>
       </articulo>
       <articulo id="19" tipo_original="Artículo" numero="19">
         <titulo_seccion>Artículo 19</titulo_seccion>
         <contexto>TÍTULO II Enajenación de bienes al martillo.</contexto>
-        <texto>El modelo de cuenta del martillero concursal,
-contenido en el anexo III de la Norma de Carácter General N.° 7 de 8 de octubre
-de 2014, para su presentación deberá ser complementado con las exigencias
-contenidas en este párrafo.
-Párrafo 6°
-Comisión del martillero.</texto>
+        <contenido>
+          <parrafo>El modelo de cuenta del martillero concursal, contenido en el anexo III de la Norma de Carácter General N.° 7 de 8 de octubre de 2014, para su presentación deberá ser complementado con las exigencias contenidas en este párrafo.</parrafo>
+        </contenido>
       </articulo>
       <articulo id="20" tipo_original="Artículo" numero="20">
         <titulo_seccion>Artículo 20</titulo_seccion>
         <contexto>TÍTULO II Enajenación de bienes al martillo.</contexto>
-        <texto>El martillero concursal percibirá una comisión
-única por la enajenación de los bienes, que no podrá exceder de un 2v/o sobre el
-monto total de realización de bienes inmuebles y de un 7% sobre el monto total de
-realización de bienes muebles, según lo establece el artículo 215 de la Ley N.° 20.720.
-Consistiendo la remuneración del martillero concursal en una
-comisión única, no puede percibir ningún otro estipendio por las enajenaciones
-que se le hubieren encomendado. En consecuencia, no puede hacer ningún cobro
-adicional y silo hiciere deberá restituir a quien corresponda el monto de cualquier
-provecho directo o indirecto que obtuviere en el desempeño de su mandato,
-debidamente actualizado, sin perjuicio de la sanción que le pudiere aplicar esta
-Superintendencia.
-En el evento que la persona a quien se le deba efectuar la
-restitución no sea habida, deberá empozar los fondos en la Tesorería General de
-la República, debidamente actualizados, a nombre del respectivo interesado.</texto>
+        <contenido>
+          <parrafo>El martillero concursal percibirá una comisión única por la enajenación de los bienes, que no podrá exceder de un 2v/o sobre el monto total de realización de bienes inmuebles y de un 7% sobre el monto total de realización de bienes muebles, según lo establece el artículo 215 de la Ley N.° 20.720.</parrafo>
+          <parrafo>Consistiendo la remuneración del martillero concursal en una comisión única, no puede percibir ningún otro estipendio por las enajenaciones que se le hubieren encomendado. En consecuencia, no puede hacer ningún cobro adicional y silo hiciere deberá restituir a quien corresponda el monto de cualquier provecho directo o indirecto que obtuviere en el desempeño de su mandato, debidamente actualizado, sin perjuicio de la sanción que le pudiere aplicar esta Superintendencia.</parrafo>
+          <parrafo>En el evento que la persona a quien se le deba efectuar la restitución no sea habida, deberá empozar los fondos en la Tesorería General de la República, debidamente actualizados, a nombre del respectivo interesado.</parrafo>
+        </contenido>
         <referencias>
           <ref articulo="215"/>
         </referencias>
@@ -501,56 +281,47 @@ la República, debidamente actualizados, a nombre del respectivo interesado.</te
         <titulo_seccion>Artículo 21</titulo_seccion>
         <contexto>TÍTULO II Enajenación de bienes al martillo.</contexto>
         <contenido>
-          <parrafo>Los martilleros concursales deberán respaldar
-sus comisiones con sus propias boletas o facturas como persona natural, las que
-se deben emitir en el momento en que la remuneración se perciba o se ponga, en
-cualquier forma, a disposición del prestador del servicio, en conformidad a lo
-dispuesto en el artículo 55 del D.F.L. 825 de 1974.
-Los martilleros concursales no podrán percibir sus comisiones
-Superintendencia de Insolvencia y Reemprendimiento/8</parrafo>
-          <parrafo>y emitir la respectiva boleta o factura por medio de alguna sociedad en que tengan
-participación ni a través de una empresa individual de responsabilidad limitada.
-Párrafo 7°
-Prohibiciones a los martilleros concursales.</parrafo>
+          <parrafo>Los martilleros concursales deberán respaldar sus comisiones con sus propias boletas o facturas como persona natural, las que se deben emitir en el momento en que la remuneración se perciba o se ponga, en cualquier forma, a disposición del prestador del servicio, en conformidad a lo dispuesto en el artículo 55 del D.F.L. 825 de 1974.</parrafo>
+          <parrafo>Los martilleros concursales no podrán percibir sus comisiones Superintendencia de Insolvencia y Reemprendimiento/8</parrafo>
+          <parrafo>y emitir la respectiva boleta o factura por medio de alguna sociedad en que tengan participación ni a través de una empresa individual de responsabilidad limitada.</parrafo>
         </contenido>
         <referencias>
           <ref articulo="55"/>
         </referencias>
       </articulo>
       <articulo id="22" tipo_original="Artículo" numero="22">
-        <titulo_seccion>Artículo 22. Las prohibiciones contempladas en el artículo 17 de la Ley N</titulo_seccion>
+        <titulo_seccion>Artículo 22</titulo_seccion>
         <contexto>TÍTULO II Enajenación de bienes al martillo.</contexto>
-        <texto>° 18.118 y su reglamento, son aplicables a los martilleros concursales, conforme lo dispone el artículo 18 del mismo cuerpo legal. En consecuencia, les estará estrictamente prohibido: a) Adquirir por sí o por interpósita persona, bienes de terceros o vender bienes de su propiedad en las subastas que se realicen por su intermedio; b) Adquirir del subastador especies que este se hubiere adjudicado en subastas efectuadas por el mismo martillero; c) Mantener, poseer, explotar o tener interés, directo o indirecto, en negocios o casas de venta de bienes usados que sean susceptibles de ser vendidos al martillo. Esta prohibición alcanzará a su cónyuge, separado o no de bienes, a sus descendientes y ascendientes legítimos y naturales y a sus consanguíneos hasta al 4° grado colateral, inclusive; d) Alterar el juego normal de las posturas mediante maniobras de cualquier índole; e) Subastar especies distintas de aquellas entregadas para la subasta y dar éstas por rematadas, y f) Subastar especies que se hubieren rematado judicialmente, por estar afectas a prenda de la Ley de Prenda sin Desplazamiento, contenida en el artículo 14 de la Ley N.° 20.190, dentro de los seis meses inmediatamente anteriores. Todo martillero que reciba para remate especies susceptibles de ser prendadas en los términos de la Ley de Prenda sin Desplazamiento, contenida en el artículo 14 de la Ley N.° 20.190, deberá requerir del comitente una declaración jurada que acredite que tales especies no fueron adquiridas en remate judicial dentro de los seis meses anteriores. La falta de esta declaración jurada hará presumir incumplimiento a esta prohibición.</texto>
+        <contenido>
+          <parrafo>Las prohibiciones contempladas en el artículo 17 de la Ley N.° 18.118 y su reglamento, son aplicables a los martilleros concursales, conforme lo dispone el artículo 18 del mismo cuerpo legal. En consecuencia, les estará estrictamente prohibido:</parrafo>
+          <parrafo>a) Adquirir por sí o por interpósita persona, bienes de terceros o vender bienes de su propiedad en las subastas que se realicen por su intermedio;</parrafo>
+          <parrafo>b) Adquirir del subastador especies que este se hubiere adjudicado en subastas efectuadas por el mismo martillero;</parrafo>
+          <parrafo>c) Mantener, poseer, explotar o tener interés, directo o indirecto, en negocios o casas de venta de bienes usados que sean susceptibles de ser vendidos al martillo. Esta prohibición alcanzará a su cónyuge, separado o no de bienes, a sus descendientes y ascendientes legítimos y naturales y a sus consanguíneos hasta al 4° grado colateral, inclusive;</parrafo>
+          <parrafo>d) Alterar el juego normal de las posturas mediante maniobras de cualquier índole;</parrafo>
+          <parrafo>e) Subastar especies distintas de aquellas entregadas para la subasta y dar éstas por rematadas, y</parrafo>
+          <parrafo>f) Subastar especies que se hubieren rematado judicialmente, por estar afectas a prenda de la Ley de Prenda sin Desplazamiento, contenida en el artículo 14 de la Ley N.° 20.190, dentro de los seis meses inmediatamente anteriores.</parrafo>
+          <parrafo>Todo martillero que reciba para remate especies susceptibles de ser prendadas en los términos de la Ley de Prenda sin Desplazamiento, contenida en el artículo 14 de la Ley N.° 20.190, deberá requerir del comitente una declaración jurada que acredite que tales especies no fueron adquiridas en remate judicial dentro de los seis meses anteriores. La falta de esta declaración jurada hará presumir incumplimiento a esta prohibición.</parrafo>
+        </contenido>
         <referencias>
           <ref articulo="18"/>
+          <ref articulo="17"/>
           <ref articulo="14"/>
         </referencias>
       </articulo>
       <articulo id="23" tipo_original="Artículo" numero="23">
         <titulo_seccion>Artículo 23</titulo_seccion>
         <contexto>TÍTULO II Enajenación de bienes al martillo.</contexto>
-        <texto>El liquidador deberá velar para que el martillero
-concursal dé estricto cumplimiento a las normas contenidas en la Ley N.° 18.118,
-en su Reglamento y en la Ley N.° 20.720, como asimismo a las disposiciones
-contenidas en los instructivos emanados de esta Superintendencia.
-Párrafo 8°
-Reglas especiales para la enajenación de productos farmacéuticos.</texto>
+        <contenido>
+          <parrafo>El liquidador deberá velar para que el martillero concursal dé estricto cumplimiento a las normas contenidas en la Ley N.° 18.118, en su Reglamento y en la Ley N.° 20.720, como asimismo a las disposiciones contenidas en los instructivos emanados de esta Superintendencia.</parrafo>
+        </contenido>
       </articulo>
       <articulo id="24" tipo_original="Artículo" numero="24">
         <titulo_seccion>Artículo 24</titulo_seccion>
         <contexto>TÍTULO II Enajenación de bienes al martillo.</contexto>
         <contenido>
-          <parrafo>Para proceder a la enajenación de productos
-farmacéuticos y alimentos de uso médico, los liquidadores y los martilleros
-concursales deberán dar estricto cumplimiento a lo dispuesto en el D.S. N° 466
-del Ministerio de Salud, publicado en el Diario Oficial de 12 de marzo de 1985,
-especialmente respecto de lo establecido en las siguientes normas del mencionado
-D.S.:
-Superintendencia de Insolvencia y Reemprendimiento/9</parrafo>
-          <parrafo>"Artículo 88° Toda subasta de productos farmacéuticos y
-alimentos de uso médico deberá ser comunicada a la Secretaría Regional
-Ministerial de Salud respectivo, con 30 días de anticipación, acompañándose copia
-del inventario de productos que se va a subastar.</parrafo>
+          <parrafo>Para proceder a la enajenación de productos farmacéuticos y alimentos de uso médico, los liquidadores y los martilleros concursales deberán dar estricto cumplimiento a lo dispuesto en el D.S. N° 466 del Ministerio de Salud, publicado en el Diario Oficial de 12 de marzo de 1985, especialmente respecto de lo establecido en las siguientes normas del mencionado D.S.:</parrafo>
+          <parrafo>Superintendencia de Insolvencia y Reemprendimiento/9</parrafo>
+          <parrafo>&quot;Artículo 88° Toda subasta de productos farmacéuticos y alimentos de uso médico deberá ser comunicada a la Secretaría Regional Ministerial de Salud respectivo, con 30 días de anticipación, acompañándose copia del inventario de productos que se va a subastar.</parrafo>
         </contenido>
         <referencias>
           <ref articulo="88"/>
@@ -559,56 +330,32 @@ del inventario de productos que se va a subastar.</parrafo>
       <articulo id="25" tipo_original="Artículo" numero="89">
         <titulo_seccion>Artículo 89</titulo_seccion>
         <contexto>TÍTULO II Enajenación de bienes al martillo.</contexto>
-        <texto>Los productos farmacéuticos y alimentos de uso
-médico que se subasten sólo podrán ser adjudicados a propietarios de
-establecimientos farmacéuticos que acrediten su condición de tales ante el
-Martillero Público.</texto>
+        <contenido>
+          <parrafo>Los productos farmacéuticos y alimentos de uso médico que se subasten sólo podrán ser adjudicados a propietarios de establecimientos farmacéuticos que acrediten su condición de tales ante el Martillero Público.</parrafo>
+        </contenido>
       </articulo>
       <articulo id="26" tipo_original="Artículo" numero="90">
         <titulo_seccion>Artículo 90</titulo_seccion>
         <contexto>TÍTULO II Enajenación de bienes al martillo.</contexto>
-        <texto>Los estupefacientes y productos psicotrópicos y
-demás sometidos a controles legales especiales, constituirán lotes separados, a
-los que podrán hacer posturas únicamente quienes presenten, para estos efectos
-autorización del Instituto de Salud Pública de Chile.
-Dichos productos no podrán ser entregados sino mediante
-recibo firmado por el Director Técnico del establecimiento adquirente, que señale
-el nombre, características y cantidad de cada producto subastado.
-Los recibos serán remitidos por el Martillero Público a más
-tardar dentro de los diez días siguientes de finalizar el remate, al Instituto de Salud
-Pública de Chile mediante copia de las respectivas guías de entrega."
-Párrafo 9°
-Reglas especiales para la enajenación de armas de fuego, explosivos,
-fuegos artificiales y pirotécnicos, y otros elementos similares sometidos
-al control, de la Dirección General de Movilización NacionaL</texto>
+        <contenido>
+          <parrafo>Los estupefacientes y productos psicotrópicos y demás sometidos a controles legales especiales, constituirán lotes separados, a los que podrán hacer posturas únicamente quienes presenten, para estos efectos autorización del Instituto de Salud Pública de Chile.</parrafo>
+          <parrafo>Dichos productos no podrán ser entregados sino mediante recibo firmado por el Director Técnico del establecimiento adquirente, que señale el nombre, características y cantidad de cada producto subastado.</parrafo>
+          <parrafo>Los recibos serán remitidos por el Martillero Público a más tardar dentro de los diez días siguientes de finalizar el remate, al Instituto de Salud Pública de Chile mediante copia de las respectivas guías de entrega.&quot;</parrafo>
+        </contenido>
       </articulo>
       <articulo id="27" tipo_original="Artículo" numero="25">
         <titulo_seccion>Artículo 25</titulo_seccion>
         <contexto>TÍTULO II Enajenación de bienes al martillo.</contexto>
         <contenido>
-          <parrafo>La enajenación de armas de fuego, explosivos,
-fuegos artificiales y pirotécnicos, y otros elementos similares sometidos al control de
-la Dirección General de Movilización Nacional, bajo cualquier modalidad, solo se podrá
-efectuar a personas que cumplan con los requisitos contemplados en la Ley N.°
-17.798 sobre Control de Armas, cuyo texto refundido, coordinado y sistematizado fue
-fijado por Decreto Supremo N.° 400 del Ministerio de Defensa Nacional de 6 de
-diciembre de 1978, publicado en el Diario Oficial de 13 de abril de 1978.
-Asimismo, para la enajenación de los bienes indicados, los
-liquidadores y martilleros concursales deberán dar estricto cumplimiento a los
-requisitos y formalidades establecidos en la citada Ley N.° 17.798 sobre Control
-de Armas.
-De esta forma, para la enajenación de armas de fuego,
-deberán exigir a los interesados en adquirirlas, los siguientes antecedentes:
-a) Certificado de antecedentes para fines especiales;
-b) Fotocopia por ambos lados de la cédula de identidad
-vigente de la persona que inscribe el arma;
-c) Certificado médico emitido por un psiquiatra para acreditar
-que se encuentra psíquicamente apto, y
-d) Declaración jurada simple para acreditar domicilio.
-Superintendencia de Insolvencia y Reemprendimiento/lO</parrafo>
-          <parrafo>Además, deberán contar con el padrón original del arma del
-propietario y de no haber sido incautado el liquidador deberá solicitarlo a la
-Dirección General de Movilización Nacional.</parrafo>
+          <parrafo>La enajenación de armas de fuego, explosivos, fuegos artificiales y pirotécnicos, y otros elementos similares sometidos al control de la Dirección General de Movilización Nacional, bajo cualquier modalidad, solo se podrá efectuar a personas que cumplan con los requisitos contemplados en la Ley N.° 17.798 sobre Control de Armas, cuyo texto refundido, coordinado y sistematizado fue fijado por Decreto Supremo N.° 400 del Ministerio de Defensa Nacional de 6 de diciembre de 1978, publicado en el Diario Oficial de 13 de abril de 1978.</parrafo>
+          <parrafo>Asimismo, para la enajenación de los bienes indicados, los liquidadores y martilleros concursales deberán dar estricto cumplimiento a los requisitos y formalidades establecidos en la citada Ley N.° 17.798 sobre Control de Armas.</parrafo>
+          <parrafo>De esta forma, para la enajenación de armas de fuego, deberán exigir a los interesados en adquirirlas, los siguientes antecedentes:</parrafo>
+          <parrafo>a) Certificado de antecedentes para fines especiales;</parrafo>
+          <parrafo>b) Fotocopia por ambos lados de la cédula de identidad vigente de la persona que inscribe el arma;</parrafo>
+          <parrafo>c) Certificado médico emitido por un psiquiatra para acreditar que se encuentra psíquicamente apto, y</parrafo>
+          <parrafo>d) Declaración jurada simple para acreditar domicilio.</parrafo>
+          <parrafo>Superintendencia de Insolvencia y Reemprendimiento/lO</parrafo>
+          <parrafo>Además, deberán contar con el padrón original del arma del propietario y de no haber sido incautado el liquidador deberá solicitarlo a la Dirección General de Movilización Nacional.</parrafo>
         </contenido>
       </articulo>
     </titulo>
@@ -617,34 +364,21 @@ Dirección General de Movilización Nacional.</parrafo>
       <articulo id="28" tipo_original="Artículo" numero="26">
         <titulo_seccion>Artículo 26</titulo_seccion>
         <contexto>TÍTULO III Enajenación de valores mobiliarios que tengan cotización bursátil.</contexto>
-        <texto>Para la enajenación de valores mobiliarios que
-tengan cotización bursátil, el liquidador velará para que la comisión sea de las más
-bajas del mercado, encargándola a la corredora de valores, debidamente inscrita
-en la Superintendencia de Valores y Seguros, actual Comisión Para el Mercado
-Financiero que cobre la menor comisión.
-Dentro de los 5 días hábiles siguientes a la recepción de la
-liquidación de la enajenación de los valores, el liquidador deberá acompañar al
-expediente judicial del respectivo procedimiento de liquidación y remitir a esta
-Superintendencia, copia de ella y del comprobante de depósito en la cuenta
-corriente de la liquidación, de los fondos obtenidos en la venta.</texto>
+        <contenido>
+          <parrafo>Para la enajenación de valores mobiliarios que tengan cotización bursátil, el liquidador velará para que la comisión sea de las más bajas del mercado, encargándola a la corredora de valores, debidamente inscrita en la Superintendencia de Valores y Seguros, actual Comisión Para el Mercado Financiero que cobre la menor comisión.</parrafo>
+          <parrafo>Dentro de los 5 días hábiles siguientes a la recepción de la liquidación de la enajenación de los valores, el liquidador deberá acompañar al expediente judicial del respectivo procedimiento de liquidación y remitir a esta Superintendencia, copia de ella y del comprobante de depósito en la cuenta corriente de la liquidación, de los fondos obtenidos en la venta.</parrafo>
+        </contenido>
       </articulo>
     </titulo>
     <titulo id="4" tipo_original="Título" numero="IV">
       <titulo_seccion>TÍTULO IV Enajenación en una forma distinta.</titulo_seccion>
       <articulo id="29" tipo_original="Artículo" numero="27">
-        <titulo_seccion>Artículo 27. La Ley N</titulo_seccion>
+        <titulo_seccion>Artículo 27</titulo_seccion>
         <contexto>TÍTULO IV Enajenación en una forma distinta.</contexto>
-        <texto>° 20.720 no señala que se debe
-entender por Unidad Económica, motivo por el cual esta Superintendencia en el
-ejercicio de la facultad de interpretar administrativamente la ley, que le confiere
-el inciso 2° del N.° 2 del artículo 337 de la citada Ley N.° 20.720, la interpreta en
-el sentido que es Unidad Económica, todo conjunto de bienes que permiten realizar
-una actividad económica, cualquiera sea su denominación.
-De esta forma, cada vez que se acuerde la enajenación de una
-unidad económica o de un conjunto productivo de bienes o conjunto armónico de
-bienes, o unidad productiva, o cualquiera otra denominación que se dé a un
-conjunto de bienes que permitan realizar una actividad económica, se entenderá
-que se trata de una unidad económica.</texto>
+        <contenido>
+          <parrafo>La Ley N.° 20.720 no señala que se debe entender por Unidad Económica, motivo por el cual esta Superintendencia en el ejercicio de la facultad de interpretar administrativamente la ley, que le confiere el inciso 2° del N.° 2 del artículo 337 de la citada Ley N.° 20.720, la interpreta en el sentido que es Unidad Económica, todo conjunto de bienes que permiten realizar una actividad económica, cualquiera sea su denominación.</parrafo>
+          <parrafo>De esta forma, cada vez que se acuerde la enajenación de una unidad económica o de un conjunto productivo de bienes o conjunto armónico de bienes, o unidad productiva, o cualquiera otra denominación que se dé a un conjunto de bienes que permitan realizar una actividad económica, se entenderá que se trata de una unidad económica.</parrafo>
+        </contenido>
         <referencias>
           <ref articulo="337"/>
         </referencias>
@@ -652,38 +386,21 @@ que se trata de una unidad económica.</texto>
       <articulo id="30" tipo_original="Artículo" numero="28">
         <titulo_seccion>Artículo 28</titulo_seccion>
         <contexto>TÍTULO IV Enajenación en una forma distinta.</contexto>
-        <texto>La enajenación de bienes como unidad
-económica podrá efectuarse por licitación pública, cuyas bases deberán ser
-aprobadas por la Junta de Acreedores o en remate al martillo de acuerdo a las
-normas contenidas en el Título II del presente instructivo.</texto>
+        <contenido>
+          <parrafo>La enajenación de bienes como unidad económica podrá efectuarse por licitación pública, cuyas bases deberán ser aprobadas por la Junta de Acreedores o en remate al martillo de acuerdo a las normas contenidas en el Título II del presente instructivo.</parrafo>
+        </contenido>
       </articulo>
       <articulo id="31" tipo_original="Artículo" numero="29">
         <titulo_seccion>Artículo 29</titulo_seccion>
         <contexto>TÍTULO IV Enajenación en una forma distinta.</contexto>
         <contenido>
-          <parrafo>El término "licitación pública" no se encuentra
-definido en nuestra legislación concursal, por lo que para fijar su verdadero sentido
-y alcance debemos atenernos a su sentido natural y obvio, de acuerdo a lo
-dispuesto por el artículo 20 del Código Civil.
-El sentido natural y obvio de una palabra es el significado que
-a ella da el Diccionario de la Lengua Española de la Real Academia Española, que
-en la especie señala que "licitación" es el acto de enajenar una cosa mediante subasta;
-y "público" es todo aquello que está abierto a todos los habitantes del pueblo.
-En consecuencia, una licitación pública debe ser una subasta
-abierta a todas las personas sin limitación, tanto en cuanto a la facultad de efectuar
-Superintendencia de Insolvencia y Reemprendimiento/l 1</parrafo>
-          <parrafo>ofertas, como a la posibilidad de tener plena información sobre las demás ofertas
-efectuadas, sin que sea necesario que las ofertas se efectúen en sobre cerrado.
-Por otra parte, es necesario que tanto las bases de remate
-como las bases de licitación pública contemplen medidas mínimas para garantizar
-la seguridad de los oferentes y la transparencia y publicidad del acto.
-De esta forma, las bases de remate y licitación deberán
-contener, a lo menos, la individualización del procedimiento concursal; lugar, fecha
-y hora del remate o licitación; los bienes que conforman la unidad económica; el
-valor mínimo de adjudicación; garantías; forma de pago; medios de publicidad, y
-gasto estimado en difusión.
-Al respecto, se adjunta modelo referencial en Anexo II del
-presente instructivo, que contiene las menciones mínimas de las bases de remate.</parrafo>
+          <parrafo>El término &quot;licitación pública&quot; no se encuentra definido en nuestra legislación concursal, por lo que para fijar su verdadero sentido y alcance debemos atenernos a su sentido natural y obvio, de acuerdo a lo dispuesto por el artículo 20 del Código Civil.</parrafo>
+          <parrafo>El sentido natural y obvio de una palabra es el significado que a ella da el Diccionario de la Lengua Española de la Real Academia Española, que en la especie señala que &quot;licitación&quot; es el acto de enajenar una cosa mediante subasta; y &quot;público&quot; es todo aquello que está abierto a todos los habitantes del pueblo.</parrafo>
+          <parrafo>En consecuencia, una licitación pública debe ser una subasta abierta a todas las personas sin limitación, tanto en cuanto a la facultad de efectuar Superintendencia de Insolvencia y Reemprendimiento/l 1</parrafo>
+          <parrafo>ofertas, como a la posibilidad de tener plena información sobre las demás ofertas efectuadas, sin que sea necesario que las ofertas se efectúen en sobre cerrado.</parrafo>
+          <parrafo>Por otra parte, es necesario que tanto las bases de remate como las bases de licitación pública contemplen medidas mínimas para garantizar la seguridad de los oferentes y la transparencia y publicidad del acto.</parrafo>
+          <parrafo>De esta forma, las bases de remate y licitación deberán contener, a lo menos, la individualización del procedimiento concursal; lugar, fecha y hora del remate o licitación; los bienes que conforman la unidad económica; el valor mínimo de adjudicación; garantías; forma de pago; medios de publicidad, y gasto estimado en difusión.</parrafo>
+          <parrafo>Al respecto, se adjunta modelo referencial en Anexo II del presente instructivo, que contiene las menciones mínimas de las bases de remate.</parrafo>
         </contenido>
         <referencias>
           <ref articulo="20"/>
@@ -692,21 +409,17 @@ presente instructivo, que contiene las menciones mínimas de las bases de remate
       <articulo id="32" tipo_original="Artículo" numero="30">
         <titulo_seccion>Artículo 30</titulo_seccion>
         <contexto>TÍTULO IV Enajenación en una forma distinta.</contexto>
-        <texto>Las bases de la enajenación de la unidad
-económica deberán ser confeccionadas por el liquidador y una vez aprobadas por
-la Junta de Acreedores, el liquidador deberá publicarlas en el Boletín Concursal.</texto>
+        <contenido>
+          <parrafo>Las bases de la enajenación de la unidad económica deberán ser confeccionadas por el liquidador y una vez aprobadas por la Junta de Acreedores, el liquidador deberá publicarlas en el Boletín Concursal.</parrafo>
+        </contenido>
       </articulo>
       <articulo id="33" tipo_original="Artículo" numero="31">
         <titulo_seccion>Artículo 31</titulo_seccion>
         <contexto>TÍTULO IV Enajenación en una forma distinta.</contexto>
-        <texto>En las bases de licitación de toda unidad
-económica, tiene especial relevancia especificar en ellas la parte del precio total
-que corresponde a cada uno de los bienes afectos a gravámenes constituidos en
-favor de terceros, conforme lo dispone el artículo 219 de la Ley N.° 20.720.
-Para estos efectos, en las bases de licitación de la unidad
-económica se deberá estipular el porcentaje que le corresponde cada uno de los
-bienes afectos a gravámenes, en el precio total de la enajenación y el porcentaje
-que corresponde a los bienes no gravados en dicho precio total.</texto>
+        <contenido>
+          <parrafo>En las bases de licitación de toda unidad económica, tiene especial relevancia especificar en ellas la parte del precio total que corresponde a cada uno de los bienes afectos a gravámenes constituidos en favor de terceros, conforme lo dispone el artículo 219 de la Ley N.° 20.720.</parrafo>
+          <parrafo>Para estos efectos, en las bases de licitación de la unidad económica se deberá estipular el porcentaje que le corresponde cada uno de los bienes afectos a gravámenes, en el precio total de la enajenación y el porcentaje que corresponde a los bienes no gravados en dicho precio total.</parrafo>
+        </contenido>
         <referencias>
           <ref articulo="219"/>
         </referencias>
@@ -714,24 +427,19 @@ que corresponde a los bienes no gravados en dicho precio total.</texto>
       <articulo id="34" tipo_original="Artículo" numero="32">
         <titulo_seccion>Artículo 32</titulo_seccion>
         <contexto>TÍTULO IV Enajenación en una forma distinta.</contexto>
-        <texto>Las enajenaciones como unidad económica,
-mediante licitación pública, se efectúan de acuerdo a las bases que apruebe la
-Junta de Acreedores y en este procedimiento no es necesaria la intervención de
-intermediarios, motivo por el cual los liquidadores deberán abstenerse de proponer
-a la Junta de Acreedores la contratación de intermediarios.
-En el evento que la unidad económica se enajene al martillo,
-los martilleros concursales deberán cobrar una comisión del 2 % cuando la unidad
-económica comprenda inmuebles, ya que lo accesorio sigue la suerte de lo principal
-y en este caso los bienes muebles son un accesorio en la unidad económica. En el
-evento que la unidad económica solo comprenda bienes muebles de la liquidación,
-%
-su comisión será del 7</texto>
+        <contenido>
+          <parrafo>Las enajenaciones como unidad económica, mediante licitación pública, se efectúan de acuerdo a las bases que apruebe la Junta de Acreedores y en este procedimiento no es necesaria la intervención de intermediarios, motivo por el cual los liquidadores deberán abstenerse de proponer a la Junta de Acreedores la contratación de intermediarios.</parrafo>
+          <parrafo>En el evento que la unidad económica se enajene al martillo, los martilleros concursales deberán cobrar una comisión del 2 % cuando la unidad económica comprenda inmuebles, ya que lo accesorio sigue la suerte de lo principal y en este caso los bienes muebles son un accesorio en la unidad económica. En el evento que la unidad económica solo comprenda bienes muebles de la liquidación, % su comisión será del 7</parrafo>
+        </contenido>
       </articulo>
       <articulo id="35" tipo_original="Artículo" numero="33">
-        <titulo_seccion>Artículo 33. Las formas de enajenación distinta contempladas en el artículo 206 de la Ley N</titulo_seccion>
+        <titulo_seccion>Artículo 33</titulo_seccion>
         <contexto>TÍTULO IV Enajenación en una forma distinta.</contexto>
-        <texto>° 20.720, para la realización sumaria y en el numeral 3 del artículo 208 del mismo cuerpo legal, para las realizaciones ordinarias, no podrán implicar sustraer un procedimiento de enajenación de las formas reguladas en el presente instructivo, como por ejemplo la enajenación en remate ante martillero no concursal. Párrafo 2° Enajenación de bienes mediante el mecanismo de venta directa.</texto>
+        <contenido>
+          <parrafo>Las formas de enajenación distinta contempladas en el artículo 206 de la Ley N.° 20.720, para la realización sumaria y en el numeral 3 del artículo 208 del mismo cuerpo legal, para las realizaciones ordinarias, no podrán implicar sustraer un procedimiento de enajenación de las formas reguladas en el presente instructivo, como por ejemplo la enajenación en remate ante martillero no concursal.</parrafo>
+        </contenido>
         <referencias>
+          <ref articulo="206"/>
           <ref articulo="208"/>
         </referencias>
       </articulo>
@@ -739,22 +447,10 @@ su comisión será del 7</texto>
         <titulo_seccion>Artículo 34</titulo_seccion>
         <contexto>TÍTULO IV Enajenación en una forma distinta.</contexto>
         <contenido>
-          <parrafo>En el caso de la venta directa de bienes, por
-acuerdo de la Junta de Acreedores, adoptado en conformidad a lo dispuesto en el
-artículo 223 del mismo cuerpo legal, el liquidador deberá cumplir las siguientes
-Superintendencia de Insolvencia y Reemprendimiento/12</parrafo>
-          <parrafo>instrucciones:
-a) Celebrada la venta directa, el liquidador deberá informar a
-esta Superintendencia por medio de su cuenta en el Portal Sujetos Fiscalizados,
-dentro de un plazo de 5 días y con los antecedentes de respaldo que correspondan,
-sobre los bienes enajenados, el producto obtenido, el nombre y Rol Unico
-Tributario de la o las personas que adquirieron los bienes, la copia de los
-respectivos contratos, así como el depósito de los fondos efectuado en la cuenta
-corriente de la liquidación. Además, deberá acompaFiar al expediente judicial del
-respectivo procedimiento concursal, copia de dicho informe y de sus respaldos; y
-b) En el caso de venta directa, el liquidador no podrá proponer
-a la Junta de Acreedores la contratación de ningún intermediario aun cuando su
-remuneración no sea de cargo de la masa.</parrafo>
+          <parrafo>En el caso de la venta directa de bienes, por acuerdo de la Junta de Acreedores, adoptado en conformidad a lo dispuesto en el artículo 223 del mismo cuerpo legal, el liquidador deberá cumplir las siguientes Superintendencia de Insolvencia y Reemprendimiento/12</parrafo>
+          <parrafo>instrucciones:</parrafo>
+          <parrafo>a) Celebrada la venta directa, el liquidador deberá informar a esta Superintendencia por medio de su cuenta en el Portal Sujetos Fiscalizados, dentro de un plazo de 5 días y con los antecedentes de respaldo que correspondan, sobre los bienes enajenados, el producto obtenido, el nombre y Rol Unico Tributario de la o las personas que adquirieron los bienes, la copia de los respectivos contratos, así como el depósito de los fondos efectuado en la cuenta corriente de la liquidación. Además, deberá acompaFiar al expediente judicial del respectivo procedimiento concursal, copia de dicho informe y de sus respaldos; y</parrafo>
+          <parrafo>b) En el caso de venta directa, el liquidador no podrá proponer a la Junta de Acreedores la contratación de ningún intermediario aun cuando su remuneración no sea de cargo de la masa.</parrafo>
         </contenido>
         <referencias>
           <ref articulo="223"/>
@@ -762,36 +458,21 @@ remuneración no sea de cargo de la masa.</parrafo>
       </articulo>
     </titulo>
     <titulo id="5" tipo_original="Título" numero="V">
-      <titulo_seccion>TÍTULO V Enajenación de los créditos morosos y activos muebles de difícil</titulo_seccion>
+      <titulo_seccion>TÍTULO V Enajenación de los créditos morosos y activos muebles de difícil realización.</titulo_seccion>
       <articulo id="37" tipo_original="Artículo" numero="35">
         <titulo_seccion>Artículo 35</titulo_seccion>
-        <contexto>TÍTULO V Enajenación de los créditos morosos y activos muebles de difícil</contexto>
-        <texto>La Junta de Acreedores tiene la facultad de
-vender, en la forma y al precio que estime conveniente, los créditos morosos y
-activos muebles de difícil realización, conforme lo dispone el artículo 228 de la Ley
-20.720, cumpliendo los requisitos que en dicha norma se indican.
-Para los efectos de esta forma excepcional de enajenación de
-los bienes y sin perjuicio del debido cumplimiento de los requisitos contemplados
-en la norma citada, el liquidador deberá cumplir las siguientes instrucciones:
-a) Para los efectos de esta instrucción, ha de entenderse que
-son créditos de morosa o difícil realización, los de vencimiento a largo plazo que
-dilaten su cobro y consecuencialmente la conclusión del procedimiento de
-liquidación o que impongan la dificultad de un cobro de incierta recuperación.
-b) Ningún crédito podrá considerarse de morosa o difícil
-realización sin que previamente el liquidador llegue a dicho convencimiento, como
-resultado de una cabal evaluación y examen circunstanciado de las gestiones
-realizadas y cuentas analizadas, lo que deberá constar en un informe fundado y
-documentado del liquidador, el que será presentado a la Junta de Acreedores en
-la reunión que se trate la enajenación de estos bienes.
-c) Será de competencia de la Junta de Acreedores calificar la
-determinación de morosa o difícil realización que el liquidador le atribuya a los
-créditos o bienes, así como el precio mínimo, forma de pago y demás modalidades
-que se adopten para su enajenación.
-d) Efectuada la enajenación, el liquidador deberá dar
-cumplimiento a lo instruido en la letra b) del artículo 2 del presente instructivo.</texto>
+        <contexto>TÍTULO V Enajenación de los créditos morosos y activos muebles de difícil realización.</contexto>
+        <contenido>
+          <parrafo>La Junta de Acreedores tiene la facultad de vender, en la forma y al precio que estime conveniente, los créditos morosos y activos muebles de difícil realización, conforme lo dispone el artículo 228 de la Ley 20.720, cumpliendo los requisitos que en dicha norma se indican.</parrafo>
+          <parrafo>Para los efectos de esta forma excepcional de enajenación de los bienes y sin perjuicio del debido cumplimiento de los requisitos contemplados en la norma citada, el liquidador deberá cumplir las siguientes instrucciones:</parrafo>
+          <parrafo>a) Para los efectos de esta instrucción, ha de entenderse que son créditos de morosa o difícil realización, los de vencimiento a largo plazo que dilaten su cobro y consecuencialmente la conclusión del procedimiento de liquidación o que impongan la dificultad de un cobro de incierta recuperación.</parrafo>
+          <parrafo>b) Ningún crédito podrá considerarse de morosa o difícil realización sin que previamente el liquidador llegue a dicho convencimiento, como resultado de una cabal evaluación y examen circunstanciado de las gestiones realizadas y cuentas analizadas, lo que deberá constar en un informe fundado y documentado del liquidador, el que será presentado a la Junta de Acreedores en la reunión que se trate la enajenación de estos bienes.</parrafo>
+          <parrafo>c) Será de competencia de la Junta de Acreedores calificar la determinación de morosa o difícil realización que el liquidador le atribuya a los créditos o bienes, así como el precio mínimo, forma de pago y demás modalidades que se adopten para su enajenación.</parrafo>
+          <parrafo>d) Efectuada la enajenación, el liquidador deberá dar cumplimiento a lo instruido en la letra b) del artículo 2 del presente instructivo.</parrafo>
+        </contenido>
         <referencias>
-          <ref articulo="2"/>
           <ref articulo="228"/>
+          <ref articulo="2"/>
         </referencias>
       </articulo>
     </titulo>
@@ -801,15 +482,9 @@ cumplimiento a lo instruido en la letra b) del artículo 2 del presente instruct
         <titulo_seccion>Artículo 36</titulo_seccion>
         <contexto>TÍTULO VI Enajenación simplificada o sumaria del activo.</contexto>
         <contenido>
-          <parrafo>Cuando el liquidador proceda a la enajenación
-sumaria del activo en conformidad a lo dispuesto en los artículos 203 y siguientes
-de la Ley N.° 20.720, deberá dar cumplimiento a lo instruido en la letra b) del
-artículo 2 del presente instructivo, indicando la forma en que los bienes fueron
-Superintendencia de Insolvencia y Reemprendimiento/ 13</parrafo>
-          <parrafo>enajenados.
-Además, deberá velar para que la enajenación de todos los
-bienes del deudor se efectúe dentro del plazo de 4 meses, en cumplimiento a lo
-dispuesto en la letra h) del artículo 204 de la Ley N.° 20.720.</parrafo>
+          <parrafo>Cuando el liquidador proceda a la enajenación sumaria del activo en conformidad a lo dispuesto en los artículos 203 y siguientes de la Ley N.° 20.720, deberá dar cumplimiento a lo instruido en la letra b) del artículo 2 del presente instructivo, indicando la forma en que los bienes fueron Superintendencia de Insolvencia y Reemprendimiento/ 13</parrafo>
+          <parrafo>enajenados.</parrafo>
+          <parrafo>Además, deberá velar para que la enajenación de todos los bienes del deudor se efectúe dentro del plazo de 4 meses, en cumplimiento a lo dispuesto en la letra h) del artículo 204 de la Ley N.° 20.720.</parrafo>
         </contenido>
         <referencias>
           <ref articulo="204"/>
@@ -822,43 +497,30 @@ dispuesto en la letra h) del artículo 204 de la Ley N.° 20.720.</parrafo>
       <articulo id="39" tipo_original="Artículo" numero="37">
         <titulo_seccion>Artículo 37</titulo_seccion>
         <contexto>TÍTULO VII Normas comunes de la enajenación de bienes.</contexto>
-        <texto>El liquidador deberá requerir al Tribunal, el
-alzamiento y/o cancelación de los gravámenes y prohibiciones que afecten a los
-bienes que se enajenen en los procedimientos concursales bajo su administración,
-a más tardar 20 días después de la enajenación de los respectivos bienes. La
-tramitación de la inscripción de la transferencia de dominio y del alzamiento de los
-gravámenes y prohibiciones que afecten los bienes, corresponderá al adjudicatario.</texto>
+        <contenido>
+          <parrafo>El liquidador deberá requerir al Tribunal, el alzamiento y/o cancelación de los gravámenes y prohibiciones que afecten a los bienes que se enajenen en los procedimientos concursales bajo su administración, a más tardar 20 días después de la enajenación de los respectivos bienes. La tramitación de la inscripción de la transferencia de dominio y del alzamiento de los gravámenes y prohibiciones que afecten los bienes, corresponderá al adjudicatario.</parrafo>
+        </contenido>
       </articulo>
       <articulo id="40" tipo_original="Artículo" numero="38">
         <titulo_seccion>Artículo 38</titulo_seccion>
         <contexto>TÍTULO VII Normas comunes de la enajenación de bienes.</contexto>
-        <texto>Los liquidadores no podrán incluir en las bases
-de licitación o remates de los inmuebles que se enajenen en los procedimientos
-concursales, cláusulas o estipulaciones que impongan a los adquirentes, el pago
-de honorarios a un determinado profesional ni que impliquen para sus asesores o
-dependientes, ni para los asesores o dependientes de los martilleros concursales,
-comisiones, participaciones, honorarios y cualquier otro estipendio que se
-relacionen con la realización de bienes.</texto>
+        <contenido>
+          <parrafo>Los liquidadores no podrán incluir en las bases de licitación o remates de los inmuebles que se enajenen en los procedimientos concursales, cláusulas o estipulaciones que impongan a los adquirentes, el pago de honorarios a un determinado profesional ni que impliquen para sus asesores o dependientes, ni para los asesores o dependientes de los martilleros concursales, comisiones, participaciones, honorarios y cualquier otro estipendio que se relacionen con la realización de bienes.</parrafo>
+        </contenido>
       </articulo>
       <articulo id="41" tipo_original="Artículo" numero="39">
         <titulo_seccion>Artículo 39</titulo_seccion>
         <contexto>TÍTULO VII Normas comunes de la enajenación de bienes.</contexto>
-        <texto>Los costos de revisión de las escrituras de
-enajenación y de seguimiento de su inscripción en el Conservador de Bienes Raíces
-respectivo, deberán ser solventados por el respectivo liquidador, con cargo a sus
-honorarios.</texto>
+        <contenido>
+          <parrafo>Los costos de revisión de las escrituras de enajenación y de seguimiento de su inscripción en el Conservador de Bienes Raíces respectivo, deberán ser solventados por el respectivo liquidador, con cargo a sus honorarios.</parrafo>
+        </contenido>
       </articulo>
       <articulo id="42" tipo_original="Artículo" numero="40">
         <titulo_seccion>Artículo 40</titulo_seccion>
         <contexto>TÍTULO VII Normas comunes de la enajenación de bienes.</contexto>
-        <texto>En el evento que sea necesario efectuar
-contrataciones para la realización del activo, ellas se deberán acordar en
-conformidad a lo dispuesto en el artículo 41 de la Ley N.° 20.720, para cuyo efecto
-el liquidador deberá presentar a la Junta de Acreedores tres cotizaciones, en las
-que se incluyan todos los servicios que se prestarán a la masa. El contrato que se
-celebre al efecto deberá constar pór escrito y en él se deberá dejar claramente
-especificadas la individualización de las partes, el lugar y fecha de celebración, las
-labores o servicios que incluirá y el valor total de dicha contratación.</texto>
+        <contenido>
+          <parrafo>En el evento que sea necesario efectuar contrataciones para la realización del activo, ellas se deberán acordar en conformidad a lo dispuesto en el artículo 41 de la Ley N.° 20.720, para cuyo efecto el liquidador deberá presentar a la Junta de Acreedores tres cotizaciones, en las que se incluyan todos los servicios que se prestarán a la masa. El contrato que se celebre al efecto deberá constar pór escrito y en él se deberá dejar claramente especificadas la individualización de las partes, el lugar y fecha de celebración, las labores o servicios que incluirá y el valor total de dicha contratación.</parrafo>
+        </contenido>
         <referencias>
           <ref articulo="41"/>
         </referencias>
@@ -867,27 +529,10 @@ labores o servicios que incluirá y el valor total de dicha contratación.</text
         <titulo_seccion>Artículo 41</titulo_seccion>
         <contexto>TÍTULO VII Normas comunes de la enajenación de bienes.</contexto>
         <contenido>
-          <parrafo>En las bases de remate, licitación o de cualquier
-otra forma de enajenación de los bienes raíces del deudor, los liquidadores no
-podrán establecer estipulaciones que hagan de cargo del adquirente el pago de las
-contribuciones a los bienes raíces, consumos de energía eléctrica, agua potable,
-gas o cualquier otro, toda vez que ello implica sustraer de la liquidación a
-acreedores que deben pagarse en ella y afecta el precio final de la enajenación. Lo
-anterior además, constituye una forma preferente de pago al ser solucionados
-estos créditos por el adquirente.
-No obstante lo anterior, si el adquirente paga voluntariamente
-las contribuciones a los bienes raíces adeudadas, se podrá subrogar en los
-términos del número 5 del artículo 1610 del Código Civil.
-Si el notario se negare a autorizar la escritura y/o el respectivo
-Conservador de Bienes Raíces se negare a inscribir la transferencia de dominio de
-un inmueble enajenado en un procedimiento de liquidación, por existir deuda de
-contribuciones, el liquidador deberá solicitar al Tribunal se oficie al notario y/o al
-respectivo conservador, ordenándole la autorización de la escritura y/o la
-Superintendencia de Insolvencia y Reemprendimiento/ 14</parrafo>
-          <parrafo>inscripción de la transferencia de dominio del inmueble, por tratarse de
-obligaciones que se deben verificar y pagar en el concurso, de acuerdo a las
-normas de la Ley N.° 20.720, afectándole las resultas del concurso al Fisco de
-Chile, como a cualquier otro acreedor.</parrafo>
+          <parrafo>En las bases de remate, licitación o de cualquier otra forma de enajenación de los bienes raíces del deudor, los liquidadores no podrán establecer estipulaciones que hagan de cargo del adquirente el pago de las contribuciones a los bienes raíces, consumos de energía eléctrica, agua potable, gas o cualquier otro, toda vez que ello implica sustraer de la liquidación a acreedores que deben pagarse en ella y afecta el precio final de la enajenación. Lo anterior además, constituye una forma preferente de pago al ser solucionados estos créditos por el adquirente.</parrafo>
+          <parrafo>No obstante lo anterior, si el adquirente paga voluntariamente las contribuciones a los bienes raíces adeudadas, se podrá subrogar en los términos del número 5 del artículo 1610 del Código Civil.</parrafo>
+          <parrafo>Si el notario se negare a autorizar la escritura y/o el respectivo Conservador de Bienes Raíces se negare a inscribir la transferencia de dominio de un inmueble enajenado en un procedimiento de liquidación, por existir deuda de contribuciones, el liquidador deberá solicitar al Tribunal se oficie al notario y/o al respectivo conservador, ordenándole la autorización de la escritura y/o la Superintendencia de Insolvencia y Reemprendimiento/ 14</parrafo>
+          <parrafo>inscripción de la transferencia de dominio del inmueble, por tratarse de obligaciones que se deben verificar y pagar en el concurso, de acuerdo a las normas de la Ley N.° 20.720, afectándole las resultas del concurso al Fisco de Chile, como a cualquier otro acreedor.</parrafo>
         </contenido>
         <referencias>
           <ref articulo="1610"/>
@@ -896,17 +541,10 @@ Chile, como a cualquier otro acreedor.</parrafo>
       <articulo id="44" tipo_original="Artículo" numero="42">
         <titulo_seccion>Artículo 42</titulo_seccion>
         <contexto>TÍTULO VII Normas comunes de la enajenación de bienes.</contexto>
-        <texto>Una vez enajenados los bienes del respectivo
-procedimiento concursal, el liquidador deberá remitir a esta Superintendencia, una
-conciliación de la totalidad de los bienes incautados con los bienes realizados,
-basándose en los respectivos inventarios y los documentos de respaldo de las
-enajenaciones, consignando la forma de realización y su fecha. Además, deberá
-señalar aquellos bienes que se hubiesen excluido del correspondiente inventario,
-indicando la fecha de la resolución de exclusión. Se adjunta modelo de conciliación
-de bienes, en Anexo V.
-En el caso de los bienes en leasing que no se hayan enajenado
-en el concurso, deberá informar su destino, acompañando las actas de entrega y
-cualquier otro antecedente de ello.</texto>
+        <contenido>
+          <parrafo>Una vez enajenados los bienes del respectivo procedimiento concursal, el liquidador deberá remitir a esta Superintendencia, una conciliación de la totalidad de los bienes incautados con los bienes realizados, basándose en los respectivos inventarios y los documentos de respaldo de las enajenaciones, consignando la forma de realización y su fecha. Además, deberá señalar aquellos bienes que se hubiesen excluido del correspondiente inventario, indicando la fecha de la resolución de exclusión. Se adjunta modelo de conciliación de bienes, en Anexo V.</parrafo>
+          <parrafo>En el caso de los bienes en leasing que no se hayan enajenado en el concurso, deberá informar su destino, acompañando las actas de entrega y cualquier otro antecedente de ello.</parrafo>
+        </contenido>
       </articulo>
     </titulo>
     <titulo id="8" tipo_original="Título" numero="VII">
@@ -915,165 +553,70 @@ cualquier otro antecedente de ello.</texto>
         <titulo_seccion>Artículo 43</titulo_seccion>
         <contexto>TÍTULO VII Situación de los bienes del deudor gravados con prenda warrants.</contexto>
         <contenido>
-          <parrafo>En relación con los bienes del deudor que se
-encuentran gravados con prenda warrants, en conformidad a lo dispuesto en la
-Ley N.° 18.690 sobre Almacenes Generales de Depósito o Warrants, los
-liquidadores deberán tener presente las siguientes consideraciones:
-1. El artículo 135 de la Ley N.° 20.720 confiere a los
-acreedores cuyos créditos gozan de garantía real, como son los hipotecarios y
-prendarios, el derecho para ejecutar individualmente al deudor en los bienes
-afectos a la seguridad de sus respectivos créditos.
-Esta disposición está en armonía con otras normas contenidas
-en leyes especiales y entre ellas, con los artículos 14 y 16 de la Ley N.° 18.690
-sobre Almacenes Generales de Depósitos. En efecto, el citado artículo 14 señala
-que: "La subasta de la especie por falta de pago de la obligación garantida con ella
-no podrá suspenderse en caso de declarado el inicio de un procedimiento concursal
-o muerte del deudor, ni por otra causa que no sea orden escrita del juez
-competente, dictada previa consignación del valor de la obligación garantida y de
-sus intereses, gastos y derechos.
-El producto de la subasta sólo será embargable en lo que
-exceda de lo que corresponda pagar al acreedor prendario."
-Por su parte, el artículo 16 recién citado dispone que: "El
-acreedor prendario será pagado con el producto de la subasta con preferencia a
-cualquier otro acreedor, sin necesidad de acción judicial alguna, deduciéndose
-previamente lo que se adeudare por impuestos que graven el contrato de
-almacenaje y los gastos de subasta, como asimismo los valores adeudados al
-almacenista por los servicios prestados.
-El excedente del producto de la subasta será entregado al
-tenedor del certificado de depósito."
-2. Sin embargo, la situación de los bienes dados en prenda
-warrants difiere de los demás bienes dados en prenda o hipoteca, puesto que no
-ingresan a la masa, en conformidad a lo establecido en el N.° 1 del artículo 130
-de la Ley N.° 20.720, por ser inembargables, según lo dispone el inciso final del
-artículo 10 de la citada Ley N.° 18.690 sobre Almacenes Generales de Depósito, y
-Superintendencia de Insolvencia y Reemprendimiento/15</parrafo>
-          <parrafo>en consecuencia no pueden ser incautados ni enajenados en el procedimiento
-concursal de liquidación.
-En efecto, el remate de las especies depositadas en los
-Almacenes Generales de Depósito, deberá ser efectuado por encargo del
-almacenista, a través de martillero público, según lo dispone el inciso primero del
-artículo 13 de la referida Ley N.° 18.690 sobre Almacenes Generales de Depósito.
-No obstante lo anterior, el producto de la subasta es
-embargable en lo que exceda de lo que corresponda pagar al acreedor prendario,
-quien se paga una vez deducido previamente lo que se adeudare por impuestos
-que graven el contrato de almacenaje y los gastos de subasta, como asimismo los
-valores adeudados al almacenista por los servicios prestados, según lo disponen
-los artículos 14 y 16, ya transcritos.
-Asimismo, cabe puntualizar que de acuerdo al espíritu y
-contexto de la Ley sobre Almacenes Generales de Depósito, esta Superintendencia
-no ve inconveniente en que el producto de la realización de los bienes depositados
-en el almacén sean entregados al Almacenista para su posterior pago al acreedor,
-sin perjuicio de la obligación que tiene de informar a los liquidadores de tales
-circunstancias y poner a su disposición los excedentes si los hubieren.
-3. Por otra parte, en relación con los bienes del deudor que se
-encuentren depositados en Almacenes Generales de Depósito, no afectos a prenda,
-es necesario tener presente que, de conformidad al número 6 del artículo 129 de
-la Ley N.° 20.720, en el evento de ser declarada la liquidación de cualquier deudor,
-la sentencia definitiva impone "... la orden a las personas que tengan bienes o
-documentos pertenecientes al Deudor para que los pongan, dentro de tercero día,
-a disposición del Liquidador", disposición que en principio no exceptuaría, desde
-luego, a los almacenistas de Warrants. Para estos efectos se cumple con la
-obligación, tomando razón en el registro del almacén de que el liquidador es el
-representante legal del deudor, de cuyo dominio son las especies.
-Lo anterior es sin perjuicio de la facultad del liquidador de
-solicitar el término al contrato de depósito o perseverar en él.</parrafo>
+          <parrafo>En relación con los bienes del deudor que se encuentran gravados con prenda warrants, en conformidad a lo dispuesto en la Ley N.° 18.690 sobre Almacenes Generales de Depósito o Warrants, los liquidadores deberán tener presente las siguientes consideraciones:</parrafo>
+          <inciso numero="1">El artículo 135 de la Ley N.° 20.720 confiere a los acreedores cuyos créditos gozan de garantía real, como son los hipotecarios y prendarios, el derecho para ejecutar individualmente al deudor en los bienes afectos a la seguridad de sus respectivos créditos.</inciso>
+          <parrafo>Esta disposición está en armonía con otras normas contenidas en leyes especiales y entre ellas, con los artículos 14 y 16 de la Ley N.° 18.690 sobre Almacenes Generales de Depósitos. En efecto, el citado artículo 14 señala que: &quot;La subasta de la especie por falta de pago de la obligación garantida con ella no podrá suspenderse en caso de declarado el inicio de un procedimiento concursal o muerte del deudor, ni por otra causa que no sea orden escrita del juez competente, dictada previa consignación del valor de la obligación garantida y de sus intereses, gastos y derechos.</parrafo>
+          <parrafo>El producto de la subasta sólo será embargable en lo que exceda de lo que corresponda pagar al acreedor prendario.&quot; Por su parte, el artículo 16 recién citado dispone que: &quot;El acreedor prendario será pagado con el producto de la subasta con preferencia a cualquier otro acreedor, sin necesidad de acción judicial alguna, deduciéndose previamente lo que se adeudare por impuestos que graven el contrato de almacenaje y los gastos de subasta, como asimismo los valores adeudados al almacenista por los servicios prestados.</parrafo>
+          <parrafo>El excedente del producto de la subasta será entregado al tenedor del certificado de depósito.&quot;</parrafo>
+          <inciso numero="2">Sin embargo, la situación de los bienes dados en prenda warrants difiere de los demás bienes dados en prenda o hipoteca, puesto que no ingresan a la masa, en conformidad a lo establecido en el N.° 1 del artículo 130 de la Ley N.° 20.720, por ser inembargables, según lo dispone el inciso final del artículo 10 de la citada Ley N.° 18.690 sobre Almacenes Generales de Depósito, y Superintendencia de Insolvencia y Reemprendimiento/15</inciso>
+          <parrafo>en consecuencia no pueden ser incautados ni enajenados en el procedimiento concursal de liquidación.</parrafo>
+          <parrafo>En efecto, el remate de las especies depositadas en los Almacenes Generales de Depósito, deberá ser efectuado por encargo del almacenista, a través de martillero público, según lo dispone el inciso primero del artículo 13 de la referida Ley N.° 18.690 sobre Almacenes Generales de Depósito.</parrafo>
+          <parrafo>No obstante lo anterior, el producto de la subasta es embargable en lo que exceda de lo que corresponda pagar al acreedor prendario, quien se paga una vez deducido previamente lo que se adeudare por impuestos que graven el contrato de almacenaje y los gastos de subasta, como asimismo los valores adeudados al almacenista por los servicios prestados, según lo disponen los artículos 14 y 16, ya transcritos.</parrafo>
+          <parrafo>Asimismo, cabe puntualizar que de acuerdo al espíritu y contexto de la Ley sobre Almacenes Generales de Depósito, esta Superintendencia no ve inconveniente en que el producto de la realización de los bienes depositados en el almacén sean entregados al Almacenista para su posterior pago al acreedor, sin perjuicio de la obligación que tiene de informar a los liquidadores de tales circunstancias y poner a su disposición los excedentes si los hubieren.</parrafo>
+          <inciso numero="3">Por otra parte, en relación con los bienes del deudor que se encuentren depositados en Almacenes Generales de Depósito, no afectos a prenda, es necesario tener presente que, de conformidad al número 6 del artículo 129 de la Ley N.° 20.720, en el evento de ser declarada la liquidación de cualquier deudor, la sentencia definitiva impone &quot;... la orden a las personas que tengan bienes o documentos pertenecientes al Deudor para que los pongan, dentro de tercero día, a disposición del Liquidador&quot;, disposición que en principio no exceptuaría, desde luego, a los almacenistas de Warrants. Para estos efectos se cumple con la obligación, tomando razón en el registro del almacén de que el liquidador es el representante legal del deudor, de cuyo dominio son las especies.</inciso>
+          <parrafo>Lo anterior es sin perjuicio de la facultad del liquidador de solicitar el término al contrato de depósito o perseverar en él.</parrafo>
         </contenido>
         <referencias>
           <ref articulo="129"/>
           <ref articulo="14"/>
-          <ref articulo="16"/>
           <ref articulo="10"/>
+          <ref articulo="16"/>
           <ref articulo="130"/>
-          <ref articulo="135"/>
           <ref articulo="13"/>
+          <ref articulo="135"/>
         </referencias>
       </articulo>
       <articulo id="46" tipo_original="Artículo" numero="44">
         <titulo_seccion>Artículo 44</titulo_seccion>
         <contexto>TÍTULO VII Situación de los bienes del deudor gravados con prenda warrants.</contexto>
-        <texto>De acuerdo a lo anteriormente expuesto, se
-instruye a los liquidadores velar por el cumplimiento de la orden judicial señalada
-en el número 3 del artículo que precede, oficiando a los almacenistas de warrants
-a fin de que certifiquen lo siguiente:
-a) Si consta en sus registros el depósito de bienes
-pertenecientes al activo del deudor, y si ellos garantizan obligaciones contraídas
-con terceros;
-b) Si mantiene en su poder fondos provenientes de remates
-de bienes depositados por el deudor, indicando su cuantía, y
-c) Si ha pagado a los acreedores con el producto de las
-enajenaciones de mercaderías depositadas por el deudor, con expresión del
-nombre del acreedor, monto pagado, fecha de pago y monto de los excedentes si
-los hubieren.
-TÍTULO FINAL
-Entrada en Vigencia.
-Superintendencia de Insolvencia y Reemprendimiento/l 6</texto>
+        <contenido>
+          <parrafo>De acuerdo a lo anteriormente expuesto, se instruye a los liquidadores velar por el cumplimiento de la orden judicial señalada en el número 3 del artículo que precede, oficiando a los almacenistas de warrants a fin de que certifiquen lo siguiente:</parrafo>
+          <parrafo>a) Si consta en sus registros el depósito de bienes pertenecientes al activo del deudor, y si ellos garantizan obligaciones contraídas con terceros;</parrafo>
+          <parrafo>b) Si mantiene en su poder fondos provenientes de remates de bienes depositados por el deudor, indicando su cuantía, y</parrafo>
+          <parrafo>c) Si ha pagado a los acreedores con el producto de las enajenaciones de mercaderías depositadas por el deudor, con expresión del nombre del acreedor, monto pagado, fecha de pago y monto de los excedentes si los hubieren.</parrafo>
+          <parrafo>TÍTULO FINAL Entrada en Vigencia.</parrafo>
+          <parrafo>Superintendencia de Insolvencia y Reemprendimiento/l 6</parrafo>
+        </contenido>
       </articulo>
       <articulo id="47" tipo_original="Artículo" numero="45">
         <titulo_seccion>Artículo 45</titulo_seccion>
         <contexto>TÍTULO VII Situación de los bienes del deudor gravados con prenda warrants.</contexto>
-        <texto>El presente instructivo comenzará a regir,
-transcurridos 10 días hábiles, contados desde la fecha de su remisión a los sujetos
-fiscalizados.</texto>
+        <contenido>
+          <parrafo>El presente instructivo comenzará a regir, transcurridos 10 días hábiles, contados desde la fecha de su remisión a los sujetos fiscalizados.</parrafo>
+        </contenido>
       </articulo>
       <articulo id="48" tipo_original="Artículo" numero="46">
         <titulo_seccion>Artículo 46</titulo_seccion>
         <contexto>TÍTULO VII Situación de los bienes del deudor gravados con prenda warrants.</contexto>
-        <texto>A contar de la fecha de entrada en vigencia del
-presente instructivo, deróguense las instrucciones contenidas en los Oficios SIR
-Nos. 991 de 8 de mayo de 2015, 5689 de 8 de noviembre de 2016 y 6143 de 25
-de noviembre de 2016, como asimismo las instrucciones contenidas en los párrafos
-1 y II del Título VI del Instructivo SIR N.° 1 de 6 de octubre de 2015, y en el
-número 14 del artículo 20 del mencionado instructivo la frase "incluido el bodegaje
-o depósito de bienes efectuado por el Martillero en los casos que correspondan."
-Sin embargo, dichas instrucciones continuarán vigentes para
-regular las situaciones ocurridas con anterioridad a la fecha de entrada en vigencia
-del presente instructivo.</texto>
+        <contenido>
+          <parrafo>A contar de la fecha de entrada en vigencia del presente instructivo, deróguense las instrucciones contenidas en los Oficios SIR Nos. 991 de 8 de mayo de 2015, 5689 de 8 de noviembre de 2016 y 6143 de 25 de noviembre de 2016, como asimismo las instrucciones contenidas en los párrafos</parrafo>
+          <parrafo>1 y II del Título VI del Instructivo SIR N.° 1 de 6 de octubre de 2015, y en el número 14 del artículo 20 del mencionado instructivo la frase &quot;incluido el bodegaje o depósito de bienes efectuado por el Martillero en los casos que correspondan.&quot; Sin embargo, dichas instrucciones continuarán vigentes para regular las situaciones ocurridas con anterioridad a la fecha de entrada en vigencia del presente instructivo.</parrafo>
+        </contenido>
         <referencias>
           <ref articulo="20"/>
         </referencias>
       </articulo>
     </titulo>
   </contenido>
-  <promulgacion>Anótese, comuníquese y archívese.
-CHE
-NDENTEN
-SUP RIN É
-Y EEMPREN1IMJN
-Superintendencia de Insolvencia y Reemprendimiento! 17
+  <disposiciones_finales>
+    <texto>Anótese, comuníquese y archívese.
 
-Anexo 1
-Modelo Acta de Entrega al Martillero Concursal
-Procedimiento de Liquidación:
-Juzgado: Rol:
-Liquidador:
-Región:
-Tipo de Liquidación:
-Fecha de ingreso a bodega Ubicación bodega:
-En , a .. de de 20...., a las
-horas, en , el liquidador del
-procedimiento concursal de liquidación de ¡ don
-hace entrega al martillero concursal don , de
-los siguientes bienes del deudor, para su enajenación en remate al martillo:
-(Nota: Se deben singularizar los bienes en la misma forma que se señale en las respectivas actas
-de incautación.)
-1. Bienes Muebles:
-Singularización y características de los Estado de los
-Cantidad
-bienes Bienes
-2. Vehículos:
-Tipo de vehículo
-Placa patente
-AFo
-Marca
-Modelo
-N° de motor
-N° de chasis
-Color
-Kilometraje de ingreso
-Estado en que se encuentra
-Superintendencia de Insolvencia y Reemprendimiento/18
-
-3. Bienes Raíces:
+CHE NDENTEN SUP RIN É Y EEMPREN1IMJN Superintendencia de Insolvencia y Reemprendimiento! 17</texto>
+  </disposiciones_finales>
+  <anexos>
+    <anexo numero="1">
+      <titulo>Anexo 1 Modelo Acta de Entrega al Martillero Concursal Procedimiento de Liquidación: Juzgado: Rol: Liquidador: Región: Tipo de Liquidación: Fecha de ingreso a bodega Ubicación bodega: En , a .. de de 20...., a las horas, en , el liquidador del procedimiento concursal de liquidación de ¡ don hace entrega al martillero concursal don , de los siguientes bienes del deudor, para su enajenación en remate al martillo: (Nota: Se deben singularizar los bienes en la misma forma que se señale en las respectivas actas de incautación.) 1. Bienes Muebles: Singularización y características de los Estado de los Cantidad bienes Bienes 2. Vehículos: Tipo de vehículo Placa patente AFo Marca Modelo N° de motor N° de chasis Color Kilometraje de ingreso Estado en que se encuentra Superintendencia de Insolvencia y Reemprendimiento/18</titulo>
+      <texto>3. Bienes Raíces:
 a) Ubicación
 Inscripción C.B.R.: Fojas , N.° •, año ¡ Conservador
 Rol de Avalúo
@@ -1088,90 +631,19 @@ Rol de Avalúo
 Estado de conservación
 Nombre Firma Liquidador Concursal Nombre Firma Martillero Concursal
 Cédula de Identidad N.° Cédula de Identidad N.°
-Superintendencia de Insolvencia y Reemprendimiento/19
-
-Anexo II
-Modelo de Contenidos Mínimo de .Bases de Remates de Bienes Muebles o
-Inmuebles.
-Procedimiento de
-Liquidación
-Tipo de Liquidación
-Juzgado
-Rol Causa
-Liquidador Concursal
-Martillero Concursal
-Tipo de Realización
-Fecha de Remate
-Hora de Remate
-Lugar
-Región
-Bienes a Rematar (Detallar bienes inmuebles, vehículos, tipo de
-bienes muebles, tales como: muebles de
-oficina, muebles de hogar, artefactos eléctricos,
-otros, singularizéndolos en la misma forma que
-se señale en las respectivas actas de
-incautación.)
-Valor Mínimo de
-Adjudicación
-Forma de Pago
-Comisión
-Publicidad de Remate (Medios de publicidad)
-Número de publicaciones
-Gastos de Publicidad (Estimados)
-Observaciones
-Fecha
-Nombre y firma liquidador concursal
-Superintendencia de Insolvencia y Reemprendimiento/20
-
-Anexo III
-Modelo Informe Bienes a Enajenar en conformidad al artículo 212 de la
-Ley N.° 20.720.
-Mínimo del Monto
-Cantidad Singularización de los Bienes
-remate $ Enajenación $
-Monto Total
-Motivos de la determinación de enajenar los bienes que preceden en
-conformidad al Artículo 212 de la Ley 20.720:
-Nombre y firma liquidador concursal
-Nota: El mínimo del remate se debe consignar cuando se enajene al martillo y se fije un mínimo
-para la subasta.
-Superintendencia de Insolvencia y Reemprendimiento/2 1
-
-Anexo IV
-Modelo Planilla de Remate de Bienes
-Martillero Concursal:
-Fecha del remate:
-Lugal del remate:
-Monto Nombre R.U.T.
-Singularización Monto Afecto a Procedimiento
-Lote Cantidad Adjudica Adjudicata Adjudicata
-de los Bienes Mínimo I.V.A. Si/No de Liquidación
-ción $ rio rio
-Superintendencia de Insolvencia y Reemprendimiento/22
-
-Anexo V
-Modelo de Conciliación de Bienes
-CONCILIACIÓN DE BIENES AL XX.XX.2OXX
-LIQUIDACIÓN:
-Liquidador:
-Cantidad
-Fecha de N.°
-(Unidad, N.° Liquidación
-incautación, Factura o
-N.° Item de metros, Forma de Fecha de Factura o
-inventario o Bienes Lote Boleta
-Inventario litros, kilos, Enajenación Enajenación documento de
-acta de emitida
-toneladas, respaldo
-entrega por M.C.
-etc.)
-Remate
-Remate
-Venta Directa
-Unidad
-Economica
-Exclusión de Resolución de
-bienes exclusión (Fecha)
-Nombre y firma liquidador concursal
-Superintendencia de Insolvencia y Reernprendirniento/23</promulgacion>
+Superintendencia de Insolvencia y Reemprendimiento/19</texto>
+    </anexo>
+    <anexo numero="2">
+      <titulo>Anexo II Modelo de Contenidos Mínimo de .Bases de Remates de Bienes Muebles o Inmuebles. Procedimiento de Liquidación Tipo de Liquidación Juzgado Rol Causa Liquidador Concursal Martillero Concursal Tipo de Realización Fecha de Remate Hora de Remate Lugar Región Bienes a Rematar (Detallar bienes inmuebles, vehículos, tipo de bienes muebles, tales como: muebles de oficina, muebles de hogar, artefactos eléctricos, otros, singularizéndolos en la misma forma que se señale en las respectivas actas de incautación.) Valor Mínimo de Adjudicación Forma de Pago Comisión Publicidad de Remate (Medios de publicidad) Número de publicaciones Gastos de Publicidad (Estimados) Observaciones Fecha Nombre y firma liquidador concursal Superintendencia de Insolvencia y Reemprendimiento/20</titulo>
+    </anexo>
+    <anexo numero="3">
+      <titulo>Anexo III Modelo Informe Bienes a Enajenar en conformidad al artículo 212 de la Ley N.° 20.720. Mínimo del Monto Cantidad Singularización de los Bienes remate $ Enajenación $ Monto Total Motivos de la determinación de enajenar los bienes que preceden en conformidad al Artículo 212 de la Ley 20.720: Nombre y firma liquidador concursal Nota: El mínimo del remate se debe consignar cuando se enajene al martillo y se fije un mínimo para la subasta. Superintendencia de Insolvencia y Reemprendimiento/2 1</titulo>
+    </anexo>
+    <anexo numero="4">
+      <titulo>Anexo IV Modelo Planilla de Remate de Bienes Martillero Concursal: Fecha del remate: Lugal del remate: Monto Nombre R.U.T. Singularización Monto Afecto a Procedimiento Lote Cantidad Adjudica Adjudicata Adjudicata de los Bienes Mínimo I.V.A. Si/No de Liquidación ción $ rio rio Superintendencia de Insolvencia y Reemprendimiento/22</titulo>
+    </anexo>
+    <anexo numero="5">
+      <titulo>Anexo V Modelo de Conciliación de Bienes CONCILIACIÓN DE BIENES AL XX.XX.2OXX LIQUIDACIÓN: Liquidador: Cantidad Fecha de N.° (Unidad, N.° Liquidación incautación, Factura o N.° Item de metros, Forma de Fecha de Factura o inventario o Bienes Lote Boleta Inventario litros, kilos, Enajenación Enajenación documento de acta de emitida toneladas, respaldo entrega por M.C. etc.) Remate Remate Venta Directa Unidad Economica Exclusión de Resolución de bienes exclusión (Fecha) Nombre y firma liquidador concursal Superintendencia de Insolvencia y Reernprendirniento/23</titulo>
+    </anexo>
+  </anexos>
 </ley>

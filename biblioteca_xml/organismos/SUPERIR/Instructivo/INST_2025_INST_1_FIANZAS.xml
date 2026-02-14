@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ley xmlns="https://leychile.cl/schema/ley/v1" version="1.0" idioma="es-CL" id_norma="INST-1" tipo="Instructivo" numero="1" estado="vigente" fecha_version="2025-08-19" fecha_promulgacion="2025-08-19" fecha_publicacion="2025-08-19" generado="2026-02-11T15:27:11.473649" fuente="Biblioteca del Congreso Nacional de Chile" url_original="https://www.superir.gob.cl/wp-content/uploads/2025/09/RES_NUM_15573_AÑO_2025.pdf">
+<ley xmlns="https://leychile.cl/schema/ley/v1" version="1.1" idioma="es-CL" id_norma="INST-1" tipo="Instructivo" numero="1" estado="vigente" fecha_version="2025-08-19" fecha_promulgacion="2025-08-19" fecha_publicacion="2025-08-19" generado="2026-02-13T02:35:56.477785" fuente="Biblioteca del Congreso Nacional de Chile" url_original="https://www.superir.gob.cl/wp-content/uploads/2025/09/RES_NUM_15573_AÑO_2025.pdf">
   <metadatos>
     <titulo>INSTRUCTIVO SUPERIR N°1/2025 - Fianzas, preferencias y contragarantías en liquidación</titulo>
     <identificacion>
@@ -26,230 +26,125 @@
     <fuente>Superintendencia de Insolvencia y Reemprendimiento</fuente>
     <numero_fuente>15573</numero_fuente>
     <leyes_referenciadas>
-      <ley_ref>Ley 20.720</ley_ref>
-      <ley_ref>Ley 21.563</ley_ref>
-      <ley_ref>Ley 18.575</ley_ref>
-      <ley_ref>Ley 19.880</ley_ref>
-      <ley_ref>Ley 20.179</ley_ref>
-      <ley_ref>DFL 1-19.653</ley_ref>
+      <ley_ref tipo="Ley" numero="20.720">Ley 20.720</ley_ref>
+      <ley_ref tipo="Ley" numero="21.563">Ley 21.563</ley_ref>
+      <ley_ref tipo="Ley" numero="18.575">Ley 18.575</ley_ref>
+      <ley_ref tipo="Ley" numero="19.880">Ley 19.880</ley_ref>
+      <ley_ref tipo="Ley" numero="20.179">Ley 20.179</ley_ref>
+      <ley_ref tipo="DFL" numero="1-19.653">DFL 1-19.653</ley_ref>
     </leyes_referenciadas>
   </metadatos>
-  <encabezado>VISTOS:
+  <encabezado>
+    <vistos>Las facultades que le confiere a la Superintendencia de Insolvencia y Reemprendimiento la Ley N.° 20.720, que sustituyó el régimen concursal vigente por una Ley de Reorganización y Liquidación de Activos de Empresas y Personas; lo dispuesto en la Ley N.° 21.563, que Moderniza los Procedimientos Concursales Contemplados en la Ley N.° 20.720 y Crea Nuevos Procedimientos para Micro y Pequeñas Empresas; en el D.F.L. N.° 1-19.653, de 17 de noviembre de 2001, que fija el texto Refundido, Coordinado y Sistematizado de la Ley N.° 18.575, Orgánica Constitucional de Bases Generales de la Administración del Estado; en la Ley N.° 19.880, que establece Bases de los Procedimientos Administrativos que Rigen los Actos de los Órganos de la Administración del Estado; en la Resolución N.° 36 de 2024 de la Contraloría General de la República, que fija normas sobre Exención del Trámite de Toma de Razón; en la Ley N.° 20.179, que establece un marco legal para la constitución y operación de Sociedades de Garantía Recíproca y, en el Decreto N.° 8 de 19 de enero de 2023, del Ministerio de Economía, Fomento y Turismo.</vistos>
+    <considerandos>1°. Que, de conformidad a lo dispuesto en los artículos 331 y siguientes de la Ley N.° 20.720, en adelante “la Ley”, la Superintendencia de Insolvencia y Reemprendimiento, en adelante “la Superintendencia”, es una persona jurídica de derecho público, creada por la Ley, como un servicio público descentralizado con personalidad jurídica y patrimonio propio, que se relaciona con el Presidente de la República, a través, del Ministerio de Economía, Fomento y Turismo, y tiene como función supervigilar y fiscalizar las actuaciones de los liquidadores, veedores, interventores designados de conformidad a la Ley, martilleros concursales, administradores de la continuación de las actividades económicas del deudor, asesores económicos de insolvencia, y, de toda persona que por ley quede sujeta a su supervigilancia y fiscalización. Asimismo, le corresponde desempeñar aquellas funciones que la referida ley le encomienda, así como las demás que se establezcan en otras leyes.
 
-Las facultades que le confiere a la
-Superintendencia de Insolvencia y Reemprendimiento la Ley N.° 20.720, que
-sustituyó el régimen concursal vigente por una Ley de Reorganización y
-Liquidación de Activos de Empresas y Personas; lo dispuesto en la Ley N.°
-21.563, que Moderniza los Procedimientos Concursales Contemplados en la
-Ley N.° 20.720 y Crea Nuevos Procedimientos para Micro y Pequeñas
-Empresas; en el D.F.L. N.° 1-19.653, de 17 de noviembre de 2001, que fija
-el texto Refundido, Coordinado y Sistematizado de la Ley N.° 18.575,
-Orgánica Constitucional de Bases Generales de la Administración del Estado;
-en la Ley N.° 19.880, que establece Bases de los Procedimientos
-Administrativos que Rigen los Actos de los Órganos de la Administración del
-Estado; en la Resolución N.° 36 de 2024 de la Contraloría General de la
-República, que fija normas sobre Exención del Trámite de Toma de Razón;
-en la Ley N.° 20.179, que establece un marco legal para la constitución y
-operación de Sociedades de Garantía Recíproca y, en el Decreto N.° 8 de 19
-de enero de 2023, del Ministerio de Economía, Fomento y Turismo.
+2°. Que, el artículo 332 en relación con el numeral 1 del artículo 337 de la Ley, establece como una de las funciones de la Superintendencia, la de supervigilar y fiscalizar las actuaciones de los/las Veedores/as, Liquidadores/as, Interventores/as, Martilleros/as Concursales, Administradores/as de la continuación de las actividades económicas del/de la deudor/a, Asesores/as económicos de insolvencia y, en general, de toda persona que por ley quede sujeta a su supervigilancia y fiscalización.
 
-CONSIDERANDO:
+3°. Que, el artículo 337 de la Ley dispone que, para el cumplimiento de sus funciones, la Superintendencia tendrá las atribuciones y deberes que allí señala, otorgándole en su numeral 2 la facultad de: “Interpretar administrativamente las leyes, reglamentos y demás normas que rigen a los fiscalizados, sin perjuicio de las facultades jurisdiccionales que correspondan a los tribunales competentes.”
 
-1°. Que, de conformidad a lo dispuesto en los
-artículos 331 y siguientes de la Ley N.° 20.720, en adelante “la Ley”, la
-Superintendencia de Insolvencia y Reemprendimiento, en adelante “la
-Superintendencia”, es una persona jurídica de derecho público, creada por la
-Ley, como un servicio público descentralizado con personalidad jurídica y
-patrimonio propio, que se relaciona con el Presidente de la República, a
-través, del Ministerio de Economía, Fomento y Turismo, y tiene como función
-supervigilar y fiscalizar las actuaciones de los liquidadores, veedores,
-interventores designados de conformidad a la Ley, martilleros concursales,
-administradores de la continuación de las actividades económicas del deudor,
-asesores económicos de insolvencia, y, de toda persona que por ley quede
-sujeta a su supervigilancia y fiscalización. Asimismo, le corresponde
-desempeñar aquellas funciones que la referida ley le encomienda, así como
-las demás que se establezcan en otras leyes.
-2°. Que, el artículo 332 en relación con el
-numeral 1 del artículo 337 de la Ley, establece como una de las funciones de
-la Superintendencia, la de supervigilar y fiscalizar las actuaciones de los/las
-Veedores/as, Liquidadores/as, Interventores/as, Martilleros/as Concursales,
-Administradores/as de la continuación de las actividades económicas del/de
-la deudor/a, Asesores/as económicos de insolvencia y, en general, de toda
-persona que por ley quede sujeta a su supervigilancia y fiscalización.
-3°. Que, el artículo 337 de la Ley dispone que,
-para el cumplimiento de sus funciones, la Superintendencia tendrá las
-atribuciones y deberes que allí señala, otorgándole en su numeral 2 la
-facultad de: “Interpretar administrativamente las leyes, reglamentos y
-demás normas que rigen a los fiscalizados, sin perjuicio de las facultades
-jurisdiccionales que correspondan a los tribunales competentes.”
 4°. Por su parte, el numeral 4 del citado
-artículo 337, otorga a esta Superintendencia la facultad de: “Impartir a los
-Veedores, Liquidadores, administradores de la continuación de las
-actividades económicas, Martilleros Concursales que se sometan
-voluntariamente al control de la Superintendencia y asesores económicos de
-insolvencias, instrucciones de carácter obligatorio sobre las materias
-sometidas a su control y, en especial, fijar normas para la presentación de
-informes, estados de avance y cuentas provisorias o definitivas que deban
-presentar los fiscalizados”.
-5°. Que, la Ley N.° 20.179, publicada en el
-Diario Oficial de 20 de junio de 2007, estableció un marco legal para la
-constitución y operación de Sociedades de Garantía Recíproca.
-De conformidad con el artículo 3 letra a) del
-citado cuerpo legal, el objeto de la Sociedades Anónimas de Garantía
-Recíproca, en adelante “S.A.G.R.” o “Institución”, será exclusivo, y consistirá
-en el otorgamiento de garantías personales a los acreedores de sus
-beneficiarios, con la finalidad de caucionar obligaciones que ellos contraigan,
-relacionadas con sus actividades empresariales, productivas, profesionales o
-comerciales; pudiendo, asimismo, prestar asesoramiento técnico,
-económico, legal y financiero a los beneficiarios y administrar los fondos a
-que se hace referencia en el artículo 33 y las contragarantías que se hayan
-rendido a su favor, según los pactos que se celebren entre las partes.
-6°. Que, las personas que soliciten a la
-S.A.G.R. el afianzamiento de sus obligaciones, suscribirán previamente con
-esta un contrato denominado "Contrato de Garantía Recíproca", en el cual se
-deberán, a lo menos, dejar establecidas las menciones a que se refiere el
-artículo 11 de la Ley N.° 20.179. En términos generales, el referido contrato
-establecerá los derechos y obligaciones entre las partes.
-7°. Que, la garantía que la S.A.G.R. otorgue
-a sus beneficiarios se extenderá mediante la emisión de uno o más
-“Certificados de Fianza”, por el que se constituirá en fiadora de obligaciones
-de un beneficiario para con un acreedor.
-El referido certificado consignará la
-individualización de la entidad, del afianzado y del acreedor, la singularidad
-de las obligaciones afianzadas y el monto determinado o determinable al cual
-se extienda la fianza, sin perjuicio de los documentos o menciones
-adicionales que las partes convengan.
-8°. Que, el beneficiario quedará obligado
-frente a la institución por los pagos que ésta efectúe en cumplimiento de las
-obligaciones garantizadas.
-9°. Que, los créditos afianzados en la forma
-establecida en la Ley N.° 20.179 gozarán del privilegio establecido por el
-número 1 del artículo 2481 del Código Civil, sin perjuicio de lo que se
-señalará en relación al inciso final del artículo 30 de la Ley N.° 20.179.
-10°. Que, la obligación de la S.A.G.R. para
-con el acreedor garantizado se extingue por: a) el pago de la obligación
-principal caucionada; b) la modificación o novación de la obligación principal,
-sin intervención y consentimiento de la entidad; o c) las causas de extinción
-de las obligaciones en general y las obligaciones accesorias en particular.
-11°. Que, si el beneficiario no cumpliere con
-las obligaciones afianzadas por la S.A.G.R., ésta procederá al pago de ellas,
-pudiendo optar entre las opciones que concede el artículo 14 de la Ley N.°
-20.179.
-12°. Que, particularmente, el Título VII de la
-Ley N.° 20.179, “De la Disolución, Fusión y División de las Instituciones de
-Garantía Recíproca”, se refiere a la situación de “la quiebra”, hoy
-Procedimiento Concursal de Liquidación (simplificada en su caso), de una
-Institución de Garantía Recíproca; disponiendo, primeramente, en su artículo
-27 que “La disolución, liquidación, división, fusión y quiebra de las
-Instituciones de Garantía Recíproca se regirá por las normas aplicables a las
-sociedades anónimas, salvo las excepciones establecidas en la presente ley”.
-En seguida, y más particularmente, los
-artículos 30 y 31 de la Ley N.° 20.179, regulan el tratamiento que “el
-síndico”, hoy liquidador/a, debe dar a las fianzas y contragarantías
-entregadas por los beneficiarios de una S.A.G.R., “en quiebra” hoy en
-liquidación.
-13°. Que, a la fecha la Ley N.° 20.179 no ha
-sido modificada y/o concordada con la Ley N.° 20.720, en su texto original,
-publicada el 9 de enero de 2014, ni con la Ley N.° 21.563, que modernizó la
-primera normativa concursal, publicada el 10 de mayo de 2023, y que
-empezó a regir el 11 de agosto del mismo año.
-14°. Que, de conformidad a lo dispuesto en el
-artículo 6° transitorio de la Ley N.° 20.720, la Superintendencia de
-Insolvencia y Reemprendimiento es, para todos los efectos, la sucesora legal
-de la Superintendencia de Quiebras en las materias de su competencia, de
-manera que las menciones que la legislación general o especial realice a la
-Superintendencia de Quiebras se entenderán hechas a la Superintendencia
-de Insolvencia y Reemprendimiento, como aquellas realizadas respecto al
-Superintendente de Quiebras se entenderán hechas al Superintendente de
-Insolvencia y Reemprendimiento.
-15°. Que, en el ejercicio de su facultad
-fiscalizadora, esta Superintendencia observa que los/las liquidadores/as
-deben dar cumplimiento íntegro a la Ley N.° 20.179, en el supuesto de
-someterse la S.A.G.R. al Procedimiento Concursal de Liquidación y, en
-seguida, respecto de la administración y actuaciones a que deba dar lugar
-el/la liquidador/a titular respecto de las fianzas otorgadas por la S.A.G.R.,
-las preferencias y la/as contragarantía/s entregada/s por el deudor
-beneficiario.
-16°. Que, atendido lo expuesto y de
-conformidad con lo dispuesto en el artículo 3 de la Ley N.° 19.880 y demás
-normas legales pertinentes,</encabezado>
-  <contenido total_articulos="44" total_libros="0" total_titulos="9" total_capitulos="0">
+
+artículo 337, otorga a esta Superintendencia la facultad de: “Impartir a los Veedores, Liquidadores, administradores de la continuación de las actividades económicas, Martilleros Concursales que se sometan voluntariamente al control de la Superintendencia y asesores económicos de insolvencias, instrucciones de carácter obligatorio sobre las materias sometidas a su control y, en especial, fijar normas para la presentación de informes, estados de avance y cuentas provisorias o definitivas que deban presentar los fiscalizados”.
+
+5°. Que, la Ley N.° 20.179, publicada en el Diario Oficial de 20 de junio de 2007, estableció un marco legal para la constitución y operación de Sociedades de Garantía Recíproca.
+
+De conformidad con el artículo 3 letra a) del citado cuerpo legal, el objeto de la Sociedades Anónimas de Garantía Recíproca, en adelante “S.A.G.R.” o “Institución”, será exclusivo, y consistirá en el otorgamiento de garantías personales a los acreedores de sus beneficiarios, con la finalidad de caucionar obligaciones que ellos contraigan, relacionadas con sus actividades empresariales, productivas, profesionales o comerciales; pudiendo, asimismo, prestar asesoramiento técnico, económico, legal y financiero a los beneficiarios y administrar los fondos a que se hace referencia en el artículo 33 y las contragarantías que se hayan rendido a su favor, según los pactos que se celebren entre las partes.
+
+6°. Que, las personas que soliciten a la S.A.G.R. el afianzamiento de sus obligaciones, suscribirán previamente con esta un contrato denominado &quot;Contrato de Garantía Recíproca&quot;, en el cual se deberán, a lo menos, dejar establecidas las menciones a que se refiere el artículo 11 de la Ley N.° 20.179. En términos generales, el referido contrato establecerá los derechos y obligaciones entre las partes.
+
+7°. Que, la garantía que la S.A.G.R. otorgue a sus beneficiarios se extenderá mediante la emisión de uno o más “Certificados de Fianza”, por el que se constituirá en fiadora de obligaciones de un beneficiario para con un acreedor.
+
+El referido certificado consignará la individualización de la entidad, del afianzado y del acreedor, la singularidad de las obligaciones afianzadas y el monto determinado o determinable al cual se extienda la fianza, sin perjuicio de los documentos o menciones adicionales que las partes convengan.
+
+8°. Que, el beneficiario quedará obligado frente a la institución por los pagos que ésta efectúe en cumplimiento de las obligaciones garantizadas.
+
+9°. Que, los créditos afianzados en la forma establecida en la Ley N.° 20.179 gozarán del privilegio establecido por el número 1 del artículo 2481 del Código Civil, sin perjuicio de lo que se señalará en relación al inciso final del artículo 30 de la Ley N.° 20.179.
+
+10°. Que, la obligación de la S.A.G.R. para con el acreedor garantizado se extingue por: a) el pago de la obligación principal caucionada; b) la modificación o novación de la obligación principal, sin intervención y consentimiento de la entidad; o c) las causas de extinción de las obligaciones en general y las obligaciones accesorias en particular.
+
+11°. Que, si el beneficiario no cumpliere con las obligaciones afianzadas por la S.A.G.R., ésta procederá al pago de ellas, pudiendo optar entre las opciones que concede el artículo 14 de la Ley N.° 20.179.
+
+12°. Que, particularmente, el Título VII de la Ley N.° 20.179, “De la Disolución, Fusión y División de las Instituciones de Garantía Recíproca”, se refiere a la situación de “la quiebra”, hoy Procedimiento Concursal de Liquidación (simplificada en su caso), de una Institución de Garantía Recíproca; disponiendo, primeramente, en su artículo
+
+27 que “La disolución, liquidación, división, fusión y quiebra de las Instituciones de Garantía Recíproca se regirá por las normas aplicables a las sociedades anónimas, salvo las excepciones establecidas en la presente ley”.
+
+En seguida, y más particularmente, los artículos 30 y 31 de la Ley N.° 20.179, regulan el tratamiento que “el síndico”, hoy liquidador/a, debe dar a las fianzas y contragarantías entregadas por los beneficiarios de una S.A.G.R., “en quiebra” hoy en liquidación.
+
+13°. Que, a la fecha la Ley N.° 20.179 no ha sido modificada y/o concordada con la Ley N.° 20.720, en su texto original, publicada el 9 de enero de 2014, ni con la Ley N.° 21.563, que modernizó la primera normativa concursal, publicada el 10 de mayo de 2023, y que empezó a regir el 11 de agosto del mismo año.
+
+14°. Que, de conformidad a lo dispuesto en el artículo 6° transitorio de la Ley N.° 20.720, la Superintendencia de Insolvencia y Reemprendimiento es, para todos los efectos, la sucesora legal de la Superintendencia de Quiebras en las materias de su competencia, de manera que las menciones que la legislación general o especial realice a la Superintendencia de Quiebras se entenderán hechas a la Superintendencia de Insolvencia y Reemprendimiento, como aquellas realizadas respecto al Superintendente de Quiebras se entenderán hechas al Superintendente de Insolvencia y Reemprendimiento.
+
+15°. Que, en el ejercicio de su facultad fiscalizadora, esta Superintendencia observa que los/las liquidadores/as deben dar cumplimiento íntegro a la Ley N.° 20.179, en el supuesto de someterse la S.A.G.R. al Procedimiento Concursal de Liquidación y, en seguida, respecto de la administración y actuaciones a que deba dar lugar el/la liquidador/a titular respecto de las fianzas otorgadas por la S.A.G.R., las preferencias y la/as contragarantía/s entregada/s por el deudor beneficiario.
+
+16°. Que, atendido lo expuesto y de conformidad con lo dispuesto en el artículo 3 de la Ley N.° 19.880 y demás normas legales pertinentes,</considerandos>
+  </encabezado>
+  <contenido total_articulos="44" total_libros="0" total_titulos="8" total_capitulos="0">
     <titulo id="1" tipo_original="Título" numero="I">
-      <titulo_seccion>TÍTULO I Disposiciones Generales.</titulo_seccion>
+      <titulo_seccion>Título I Disposiciones Generales.</titulo_seccion>
       <articulo id="1" tipo_original="Artículo" numero="1">
         <titulo_seccion>Artículo 1</titulo_seccion>
-        <contexto>TÍTULO I Disposiciones Generales.</contexto>
-        <texto>El presente instructivo tiene por
-objeto regular el tratamiento que el/la liquidador/a debe dar a las fianzas
-otorgadas por la S.A.G.R., y a las contragarantías entregadas por el
-beneficiario durante la sustanciación del Procedimiento de Liquidación
-Concursal de una Sociedad Anónima de Garantía Recíproca, estableciendo
-los procedimientos y obligaciones para el/la liquidador/a, así como los
-derechos de los beneficiarios y acreedores, de acuerdo con la normativa
-vigente y aplicable en la especie.</texto>
+        <contexto>Título I Disposiciones Generales.</contexto>
+        <contenido>
+          <parrafo>El presente instructivo tiene por objeto regular el tratamiento que el/la liquidador/a debe dar a las fianzas otorgadas por la S.A.G.R., y a las contragarantías entregadas por el beneficiario durante la sustanciación del Procedimiento de Liquidación Concursal de una Sociedad Anónima de Garantía Recíproca, estableciendo los procedimientos y obligaciones para el/la liquidador/a, así como los derechos de los beneficiarios y acreedores, de acuerdo con la normativa vigente y aplicable en la especie.</parrafo>
+        </contenido>
       </articulo>
       <articulo id="2" tipo_original="Artículo" numero="2">
-        <titulo_seccion>Artículo 2. El procedimiento concursal de liquidación de una Sociedad Anónima de Garantía Recíproca (S</titulo_seccion>
-        <contexto>TÍTULO I Disposiciones Generales.</contexto>
-        <texto>A.G.R.) se rige por las disposiciones de la Ley N.° 20.179 y la Ley N.° 20.720, según corresponda. En todos aquellos aspectos no regulados expresamente en la Ley N.° 20.179, se aplicarán supletoriamente las disposiciones de la Ley N.° 20.720, en especial lo relativo a los procedimientos concursales de liquidación y a la actuación del liquidador.</texto>
+        <titulo_seccion>Artículo 2</titulo_seccion>
+        <contexto>Título I Disposiciones Generales.</contexto>
+        <contenido>
+          <parrafo>El procedimiento concursal de liquidación de una Sociedad Anónima de Garantía Recíproca (S.A.G.R.) se rige por las disposiciones de la Ley N.° 20.179 y la Ley N.° 20.720, según corresponda. En todos aquellos aspectos no regulados expresamente en la Ley N.° 20.179, se aplicarán supletoriamente las disposiciones de la Ley N.° 20.720, en especial lo relativo a los procedimientos concursales de liquidación y a la actuación del liquidador.</parrafo>
+        </contenido>
       </articulo>
       <articulo id="3" tipo_original="Artículo" numero="3">
         <titulo_seccion>Artículo 3</titulo_seccion>
-        <contexto>TÍTULO I Disposiciones Generales.</contexto>
-        <texto>Para los efectos del presente
-instructivo, se entenderá por:
-a) Acreedor afianzado o garantizado:
-Persona natural o jurídica que haya recibido una garantía personal de la
-Sociedad Anónima de Garantía Recíproca (S.A.G.R.), para asegurar el
-cumplimiento de una obligación del deudor beneficiario.
-b) Beneficiarios: Personas naturales o
-jurídicas que de conformidad al estatuto de la S.A.G.R., pueden optar a ser
-afianzados por ésta para caucionar sus obligaciones, de acuerdo la Ley N.°
-c) Certificado de Fianza: Documento
-otorgado por la S.A.G.R., mediante el cual se constituye en fiadora de
-obligaciones de un beneficiario para con uno o más acreedores.
-d) Contragarantía: Caución entregada por
-los beneficiarios a la Institución, como respaldo del cumplimiento de las
-obligaciones que, a su vez, ésta se obligue a garantizar o que les hubiese
-garantizado frente a terceros acreedores.
-e) Contrato de Garantía Recíproca: Acto
-jurídico celebrado entre los beneficiarios que soliciten el afianzamiento de
-sus obligaciones y la Institución, que establece los derechos y obligaciones
-entre las partes.
-f) Institución/es o Entidad/es de
-Garantía Recíproca: Sociedades Anónimas de Garantía Recíproca.</texto>
+        <contexto>Título I Disposiciones Generales.</contexto>
+        <contenido>
+          <parrafo>Para los efectos del presente instructivo, se entenderá por:</parrafo>
+          <parrafo>a) Acreedor afianzado o garantizado:</parrafo>
+          <parrafo>Persona natural o jurídica que haya recibido una garantía personal de la Sociedad Anónima de Garantía Recíproca (S.A.G.R.), para asegurar el cumplimiento de una obligación del deudor beneficiario.</parrafo>
+          <parrafo>b) Beneficiarios: Personas naturales o jurídicas que de conformidad al estatuto de la S.A.G.R., pueden optar a ser afianzados por ésta para caucionar sus obligaciones, de acuerdo la Ley N.°</parrafo>
+          <parrafo>c) Certificado de Fianza: Documento otorgado por la S.A.G.R., mediante el cual se constituye en fiadora de obligaciones de un beneficiario para con uno o más acreedores.</parrafo>
+          <parrafo>d) Contragarantía: Caución entregada por los beneficiarios a la Institución, como respaldo del cumplimiento de las obligaciones que, a su vez, ésta se obligue a garantizar o que les hubiese garantizado frente a terceros acreedores.</parrafo>
+          <parrafo>e) Contrato de Garantía Recíproca: Acto jurídico celebrado entre los beneficiarios que soliciten el afianzamiento de sus obligaciones y la Institución, que establece los derechos y obligaciones entre las partes.</parrafo>
+          <parrafo>f) Institución/es o Entidad/es de Garantía Recíproca: Sociedades Anónimas de Garantía Recíproca.</parrafo>
+        </contenido>
       </articulo>
       <articulo id="4" tipo_original="Artículo" numero="4">
         <titulo_seccion>Artículo 4. Resolución de Controversias</titulo_seccion>
-        <contexto>TÍTULO I Disposiciones Generales.</contexto>
-        <texto>En el transcurso del Procedimiento Concursal de Liquidación -propiamente
-tal o simplificada- de la Sociedad Anónima de Garantía Recíproca, cualquier
-controversia que surja entre el/la Deudor/a o beneficiario/a, el acreedor/a,
-el/la liquidador/a, y cualquier otro interesado en relación con el dominio, la
-posesión, la mera tenencia o la administración de los bienes sujetos al
-Procedimiento Concursal de Liquidación, o la sustanciación del
-procedimiento, será resuelta por los tribunales competentes de conformidad
-al artículo 131 de la Ley N.° 20.720.</texto>
+        <contexto>Título I Disposiciones Generales.</contexto>
+        <contenido>
+          <parrafo>En el transcurso del Procedimiento Concursal de Liquidación -propiamente tal o simplificada- de la Sociedad Anónima de Garantía Recíproca, cualquier controversia que surja entre el/la Deudor/a o beneficiario/a, el acreedor/a, el/la liquidador/a, y cualquier otro interesado en relación con el dominio, la posesión, la mera tenencia o la administración de los bienes sujetos al Procedimiento Concursal de Liquidación, o la sustanciación del procedimiento, será resuelta por los tribunales competentes de conformidad al artículo 131 de la Ley N.° 20.720.</parrafo>
+        </contenido>
         <referencias>
           <ref articulo="131"/>
         </referencias>
       </articulo>
     </titulo>
     <titulo id="2" tipo_original="Título" numero="II">
-      <titulo_seccion>TÍTULO II Fianza, Contrato de Garantía Recíproca, Contragarantía y Preferencias en el Procedimiento Concursal de Liquidación.</titulo_seccion>
+      <titulo_seccion>Título II Fianza, Contrato de Garantía Recíproca, Contragarantía y Preferencias en el Procedimiento Concursal de Liquidación.</titulo_seccion>
       <articulo id="5" tipo_original="Artículo" numero="5">
-        <titulo_seccion>Artículo 5. El Contrato de Garantía Recíproca no termina por la dictación de la Resolución de Liquidación de la S</titulo_seccion>
-        <contexto>TÍTULO II Fianza, Contrato de Garantía Recíproca, Contragarantía y Preferencias en el Procedimiento Concursal de Liquidación.</contexto>
-        <texto>A.G.R., manteniéndose vigente en todos sus términos, salvo que exista disposición legal en contrario o acuerdo expreso entre las partes. De esta forma, no se afectarán las obligaciones asumidas por la S.A.G.R. en los Certificados de Fianza otorgados, debiendo el/la Liquidador/a proceder conforme a lo establecido en el presente instructivo y en las Leyes Nros. 20.179 y 20.720. Conforme a lo anterior, el/la Liquidador/a no podrá poner término anticipado al contrato de garantía recíproca. Sin embargo, el/la Liquidador/a, con acuerdo del respectivo acreedor afianzado, podrá poner término a la fianza en conformidad con el inciso segundo del artículo 30 de la Ley N.° 20.179. Asimismo, se extinguirá la fianza en el caso que se hayan transferido, según lo dispuesto en el artículo 31 del mismo cuerpo legal.</texto>
+        <titulo_seccion>Artículo 5</titulo_seccion>
+        <contexto>Título II Fianza, Contrato de Garantía Recíproca, Contragarantía y Preferencias en el Procedimiento Concursal de Liquidación.</contexto>
+        <contenido>
+          <parrafo>El Contrato de Garantía Recíproca no termina por la dictación de la Resolución de Liquidación de la S.A.G.R., manteniéndose vigente en todos sus términos, salvo que exista disposición legal en contrario o acuerdo expreso entre las partes.</parrafo>
+          <parrafo>De esta forma, no se afectarán las obligaciones asumidas por la S.A.G.R. en los Certificados de Fianza otorgados, debiendo el/la Liquidador/a proceder conforme a lo establecido en el presente instructivo y en las Leyes Nros. 20.179 y 20.720.</parrafo>
+          <parrafo>Conforme a lo anterior, el/la Liquidador/a no podrá poner término anticipado al contrato de garantía recíproca. Sin embargo, el/la Liquidador/a, con acuerdo del respectivo acreedor afianzado, podrá poner término a la fianza en conformidad con el inciso segundo del artículo 30 de la Ley N.° 20.179. Asimismo, se extinguirá la fianza en el caso que se hayan transferido, según lo dispuesto en el artículo 31 del mismo cuerpo legal.</parrafo>
+        </contenido>
         <referencias>
-          <ref articulo="30"/>
           <ref articulo="31"/>
+          <ref articulo="30"/>
         </referencias>
       </articulo>
       <articulo id="6" tipo_original="Artículo" numero="6">
-        <titulo_seccion>Artículo 6. La obligación de pago a que se encuentra obligada la S</titulo_seccion>
-        <contexto>TÍTULO II Fianza, Contrato de Garantía Recíproca, Contragarantía y Preferencias en el Procedimiento Concursal de Liquidación.</contexto>
-        <texto>A.G.R. con ocasión del Contrato de Garantía Recíproca se origina ante el incumplimiento del deudor beneficiario para con su acreedor afianzado, notificándose para dichos efectos a la S.A.G.R., en su calidad de fiador, para que cumpla su obligación en la forma contratada. Por tanto, el/la Liquidador/a deberá revisar todos los contratos de garantía recíproca y/o los certificados de fianza, requiriendo copia de ellos a la Empresa Deudora en virtud del artículo 169 de la Ley N.° 20.720, y una vez notificado/a el/la liquidador/a de cualquier acción para obtener el pago de la fianza, anterior o posterior a la resolución de liquidación y en su calidad de representante legal de la S.A.G.R. deberá ejercer las acciones que correspondan, observando entre ellas, la oposición de la demanda ejecutiva, en su caso, de conformidad con lo dispuesto en el artículo 12 de la Ley N.° 20.179, principalmente, si hubiere pagos parciales efectuados por el deudor beneficiario al acreedor afianzado y en el caso que la S.A.G.R haya pagado la obligación afianzada, deberá iniciar las acciones tendientes a hacer efectivas las contragarantías otorgadas por el deudor beneficiario. En ningún caso el/la Liquidador/a podrá recibir pagos de los deudores beneficiarios por las cuotas correspondientes a los créditos otorgados por los acreedores afianzados que se encuentren vigentes y sin mora, ya que en estos casos la S.A.G.R. no es acreedora de dichos montos, por no haber pagado previamente tales fianzas, debiendo hacer entrega de los fondos al respectivo acreedor afianzado. En el evento que se verifiquen créditos por obligaciones relativas a fianzas de deudores beneficiarios que se encuentren al día en el pago de sus obligaciones, el/la liquidador/a deberá objetar el respectivo crédito, por no constituir obligaciones de la S.A.G.R. mientras el deudor no se constituya en mora, debiendo igualmente objetar el crédito verificado, en caso que el certificado de fianza se encuentre vencido, para lo cual deberá revisar la fecha consignada en el respectivo documento. Al respecto, el/la Liquidador/a deberá tener en consideración que el patrimonio de la S.A.G.R. es distinto al del deudor beneficiario, y al del acreedor afianzado, evitando cualquier distorsión en el concurso que implique, por ejemplo, el exceso en el pago de sus honorarios por fondos distribuidos o restituidos que no forman parte de la liquidación concursal, o cualquier circunstancia que altere las reglas del procedimiento, en perjuicio de los acreedores, del Deudor o de terceros.</texto>
+        <titulo_seccion>Artículo 6</titulo_seccion>
+        <contexto>Título II Fianza, Contrato de Garantía Recíproca, Contragarantía y Preferencias en el Procedimiento Concursal de Liquidación.</contexto>
+        <contenido>
+          <parrafo>La obligación de pago a que se encuentra obligada la S.A.G.R. con ocasión del Contrato de Garantía Recíproca se origina ante el incumplimiento del deudor beneficiario para con su acreedor afianzado, notificándose para dichos efectos a la S.A.G.R., en su calidad de fiador, para que cumpla su obligación en la forma contratada.</parrafo>
+          <parrafo>Por tanto, el/la Liquidador/a deberá revisar todos los contratos de garantía recíproca y/o los certificados de fianza, requiriendo copia de ellos a la Empresa Deudora en virtud del artículo 169 de la Ley N.° 20.720, y una vez notificado/a el/la liquidador/a de cualquier acción para obtener el pago de la fianza, anterior o posterior a la resolución de liquidación y en su calidad de representante legal de la S.A.G.R. deberá ejercer las acciones que correspondan, observando entre ellas, la oposición de la demanda ejecutiva, en su caso, de conformidad con lo dispuesto en el artículo 12 de la Ley N.° 20.179, principalmente, si hubiere pagos parciales efectuados por el deudor beneficiario al acreedor afianzado y en el caso que la S.A.G.R haya pagado la obligación afianzada, deberá iniciar las acciones tendientes a hacer efectivas las contragarantías otorgadas por el deudor beneficiario.</parrafo>
+          <parrafo>En ningún caso el/la Liquidador/a podrá recibir pagos de los deudores beneficiarios por las cuotas correspondientes a los créditos otorgados por los acreedores afianzados que se encuentren vigentes y sin mora, ya que en estos casos la S.A.G.R. no es acreedora de dichos montos, por no haber pagado previamente tales fianzas, debiendo hacer entrega de los fondos al respectivo acreedor afianzado.</parrafo>
+          <parrafo>En el evento que se verifiquen créditos por obligaciones relativas a fianzas de deudores beneficiarios que se encuentren al día en el pago de sus obligaciones, el/la liquidador/a deberá objetar el respectivo crédito, por no constituir obligaciones de la S.A.G.R. mientras el deudor no se constituya en mora, debiendo igualmente objetar el crédito verificado, en caso que el certificado de fianza se encuentre vencido, para lo cual deberá revisar la fecha consignada en el respectivo documento.</parrafo>
+          <parrafo>Al respecto, el/la Liquidador/a deberá tener en consideración que el patrimonio de la S.A.G.R. es distinto al del deudor beneficiario, y al del acreedor afianzado, evitando cualquier distorsión en el concurso que implique, por ejemplo, el exceso en el pago de sus honorarios por fondos distribuidos o restituidos que no forman parte de la liquidación concursal, o cualquier circunstancia que altere las reglas del procedimiento, en perjuicio de los acreedores, del Deudor o de terceros.</parrafo>
+        </contenido>
         <referencias>
           <ref articulo="169"/>
           <ref articulo="12"/>
@@ -257,78 +152,47 @@ al artículo 131 de la Ley N.° 20.720.</texto>
       </articulo>
       <articulo id="7" tipo_original="Artículo" numero="7">
         <titulo_seccion>Artículo 7</titulo_seccion>
-        <contexto>TÍTULO II Fianza, Contrato de Garantía Recíproca, Contragarantía y Preferencias en el Procedimiento Concursal de Liquidación.</contexto>
-        <texto>En caso de incumplimiento del
-deudor beneficiario en el pago de las cuotas respectivas, el acreedor
-afianzado podrá verificar su crédito en el concurso, con la preferencia del N.°
-1 del artículo 2481 del Código Civil, de conformidad con lo dispuesto en el
-artículo 12 de la Ley N.° 20.179, a fin de participar en las distribuciones que
-efectúe el/la liquidador/a, salvo en los casos del artículo 31 del mismo cuerpo
-legal, puesto que en dicho caso carecerán de la preferencia señalada,
-pudiendo requerir el pago de la fianza a la S.A.G.R. a quien se le haya
-transferido la respectiva fianza y contragarantía, o hacer efectiva la
-contragarantía en el caso que el/la liquidador/a se la haya cedido.
-Si el acreedor afianzado verifica su crédito,
-el/la Liquidador/a deberá determinar la diferencia y el porcentaje que le
-corresponde en el reparto, objetando e impugnándolo previamente si
-procediere.</texto>
+        <contexto>Título II Fianza, Contrato de Garantía Recíproca, Contragarantía y Preferencias en el Procedimiento Concursal de Liquidación.</contexto>
+        <contenido>
+          <parrafo>En caso de incumplimiento del deudor beneficiario en el pago de las cuotas respectivas, el acreedor afianzado podrá verificar su crédito en el concurso, con la preferencia del N.°</parrafo>
+          <parrafo>1 del artículo 2481 del Código Civil, de conformidad con lo dispuesto en el artículo 12 de la Ley N.° 20.179, a fin de participar en las distribuciones que efectúe el/la liquidador/a, salvo en los casos del artículo 31 del mismo cuerpo legal, puesto que en dicho caso carecerán de la preferencia señalada, pudiendo requerir el pago de la fianza a la S.A.G.R. a quien se le haya transferido la respectiva fianza y contragarantía, o hacer efectiva la contragarantía en el caso que el/la liquidador/a se la haya cedido.</parrafo>
+          <parrafo>Si el acreedor afianzado verifica su crédito, el/la Liquidador/a deberá determinar la diferencia y el porcentaje que le corresponde en el reparto, objetando e impugnándolo previamente si procediere.</parrafo>
+        </contenido>
         <referencias>
           <ref articulo="2481"/>
-          <ref articulo="12"/>
           <ref articulo="31"/>
+          <ref articulo="12"/>
         </referencias>
       </articulo>
       <articulo id="8" tipo_original="Artículo" numero="8">
         <titulo_seccion>Artículo 8</titulo_seccion>
-        <contexto>TÍTULO II Fianza, Contrato de Garantía Recíproca, Contragarantía y Preferencias en el Procedimiento Concursal de Liquidación.</contexto>
-        <texto>En ningún caso la inexistencia
-del contrato de garantía recíproca, su cumplimiento o incumplimiento o los
-vicios o errores que éste contuviere, relativos a su formalización, suscripción
-o contenido, afectarán la validez del certificado de fianza, ni sus efectos
-contra la entidad o terceros.</texto>
+        <contexto>Título II Fianza, Contrato de Garantía Recíproca, Contragarantía y Preferencias en el Procedimiento Concursal de Liquidación.</contexto>
+        <contenido>
+          <parrafo>En ningún caso la inexistencia del contrato de garantía recíproca, su cumplimiento o incumplimiento o los vicios o errores que éste contuviere, relativos a su formalización, suscripción o contenido, afectarán la validez del certificado de fianza, ni sus efectos contra la entidad o terceros.</parrafo>
+        </contenido>
       </articulo>
       <articulo id="9" tipo_original="Artículo" numero="9">
         <titulo_seccion>Artículo 9</titulo_seccion>
-        <contexto>TÍTULO II Fianza, Contrato de Garantía Recíproca, Contragarantía y Preferencias en el Procedimiento Concursal de Liquidación.</contexto>
-        <texto>El certificado de fianza, recibido
-por el acreedor afianzado, constituye el contrato de fianza entre este y la
-S.A.G.R., el cual debe ir precedido por el contrato a que se refiere el artículo
-11 de la Ley N.° 20.179.
-En la verificación de créditos el/la liquidador/a
-deberá estarse al contenido del certificado de fianza, y los comprobantes de
-los abonos efectuados por el deudor beneficiario, los que deberá
-proporcionar el acreedor afianzado en tal oportunidad, para efectos de
-determinar el saldo adeudado, debiendo requerirlos el liquidador. Lo anterior
-es sin perjuicio de que el deudor beneficiario proporcione copia de los recibos
-de los pagos por él efectuados, anteriores a la resolución de liquidación, lo
-que podrá ser requerido por el/la liquidador/a, por intermedio del tribunal
-del procedimiento.</texto>
+        <contexto>Título II Fianza, Contrato de Garantía Recíproca, Contragarantía y Preferencias en el Procedimiento Concursal de Liquidación.</contexto>
+        <contenido>
+          <parrafo>El certificado de fianza, recibido por el acreedor afianzado, constituye el contrato de fianza entre este y la S.A.G.R., el cual debe ir precedido por el contrato a que se refiere el artículo</parrafo>
+          <parrafo>11 de la Ley N.° 20.179.</parrafo>
+          <parrafo>En la verificación de créditos el/la liquidador/a deberá estarse al contenido del certificado de fianza, y los comprobantes de los abonos efectuados por el deudor beneficiario, los que deberá proporcionar el acreedor afianzado en tal oportunidad, para efectos de determinar el saldo adeudado, debiendo requerirlos el liquidador. Lo anterior es sin perjuicio de que el deudor beneficiario proporcione copia de los recibos de los pagos por él efectuados, anteriores a la resolución de liquidación, lo que podrá ser requerido por el/la liquidador/a, por intermedio del tribunal del procedimiento.</parrafo>
+        </contenido>
         <referencias>
           <ref articulo="11"/>
         </referencias>
       </articulo>
       <articulo id="10" tipo_original="Artículo" numero="10">
-        <titulo_seccion>Artículo 10. Las obligaciones de la S</titulo_seccion>
-        <contexto>TÍTULO II Fianza, Contrato de Garantía Recíproca, Contragarantía y Preferencias en el Procedimiento Concursal de Liquidación.</contexto>
-        <texto>A.G.R.
-como fiadora se extinguirán por las causales establecidas en el artículo 15
-de la Ley N.° 20.179, a saber:
-a) Por el pago de la obligación garantizada. La
-fianza se extinguirá cuando la obligación principal caucionada sea
-íntegramente pagada.
-b) Por la modificación o novación de la
-obligación principal, sin la intervención o consentimiento expreso de la
-S.A.G.R., esta quedará liberada de su responsabilidad como fiadora.
-c) Por las causas de extinción de las
-obligaciones en general y las obligaciones accesorias en particular.
-d) Además, caducan por el transcurso del
-plazo de 6 meses, regulado en el artículo 31 de la Ley N.° 20.179
-El/la Liquidador/a deberá determinar si se
-extinguió la fianza para efectos de disminuir el pasivo del concurso, toda vez
-que en tal caso la Empresa Deudora nada tendrá que pagar al acreedor cuya
-fianza se extinguió, debiendo éste, dirigirse contra el deudor beneficiario
-para obtener el cumplimiento de la obligación principal, la que en ningún
-caso deberá pagarse o abonarse en el procedimiento concursal.</texto>
+        <titulo_seccion>Artículo 10</titulo_seccion>
+        <contexto>Título II Fianza, Contrato de Garantía Recíproca, Contragarantía y Preferencias en el Procedimiento Concursal de Liquidación.</contexto>
+        <contenido>
+          <parrafo>Las obligaciones de la S.A.G.R. como fiadora se extinguirán por las causales establecidas en el artículo 15 de la Ley N.° 20.179, a saber:</parrafo>
+          <parrafo>a) Por el pago de la obligación garantizada. La fianza se extinguirá cuando la obligación principal caucionada sea íntegramente pagada.</parrafo>
+          <parrafo>b) Por la modificación o novación de la obligación principal, sin la intervención o consentimiento expreso de la S.A.G.R., esta quedará liberada de su responsabilidad como fiadora.</parrafo>
+          <parrafo>c) Por las causas de extinción de las obligaciones en general y las obligaciones accesorias en particular.</parrafo>
+          <parrafo>d) Además, caducan por el transcurso del plazo de 6 meses, regulado en el artículo 31 de la Ley N.° 20.179 El/la Liquidador/a deberá determinar si se extinguió la fianza para efectos de disminuir el pasivo del concurso, toda vez que en tal caso la Empresa Deudora nada tendrá que pagar al acreedor cuya fianza se extinguió, debiendo éste, dirigirse contra el deudor beneficiario para obtener el cumplimiento de la obligación principal, la que en ningún caso deberá pagarse o abonarse en el procedimiento concursal.</parrafo>
+        </contenido>
         <referencias>
           <ref articulo="15"/>
           <ref articulo="31"/>
@@ -336,240 +200,202 @@ caso deberá pagarse o abonarse en el procedimiento concursal.</texto>
       </articulo>
     </titulo>
     <titulo id="3" tipo_original="Título" numero="III">
-      <titulo_seccion>TÍTULO III Gestión de Fianzas y Contragarantías.</titulo_seccion>
+      <titulo_seccion>Título III Gestión de Fianzas y Contragarantías.</titulo_seccion>
       <articulo id="11" tipo_original="Artículo" numero="11">
         <titulo_seccion>Artículo 11. Singularización de Fianzas Vigentes y No Vigentes</titulo_seccion>
-        <contexto>TÍTULO III Gestión de Fianzas y Contragarantías.</contexto>
-        <texto>El/la liquidador/a, dentro de los primeros 30 días desde su aceptación en el cargo, deberá singularizar y clasificar todas las fianzas emitidas por la Sociedad Anónima de Garantía Recíproca, señalando las vigentes y las que no, procediendo para ello, de acuerdo con lo dispuesto en el inciso segundo del artículo 6° de este Instructivo, y dejando constancia en el acta de incautación e inventario o en las ampliaciones que correspondieren, o en el acta de entrega de bienes, de los contratos de garantía recíproca que fundan los certificados de fianza, así como las copias de estos, cuando correspondiere. La singularización por parte del/de la liquidador/a, deberá ser efectuada en los mismos términos del artículo 12 de la Ley N.° 20.179, individualizando a la entidad, al acreedor afianzado y al deudor beneficiario; la singularidad de las obligaciones afianzadas y el monto determinado o determinable al cual se extienda la fianza, sin perjuicio de incorporar antecedentes que permitan conciliar estos datos con los del certificado de fianza, como su número, fecha de emisión, vencimiento del mismo, y las contragarantías asociadas.</texto>
+        <contexto>Título III Gestión de Fianzas y Contragarantías.</contexto>
+        <contenido>
+          <parrafo>El/la liquidador/a, dentro de los primeros 30 días desde su aceptación en el cargo, deberá singularizar y clasificar todas las fianzas emitidas por la Sociedad Anónima de Garantía Recíproca, señalando las vigentes y las que no, procediendo para ello, de acuerdo con lo dispuesto en el inciso segundo del artículo 6° de este Instructivo, y dejando constancia en el acta de incautación e inventario o en las ampliaciones que correspondieren, o en el acta de entrega de bienes, de los contratos de garantía recíproca que fundan los certificados de fianza, así como las copias de estos, cuando correspondiere.</parrafo>
+          <parrafo>La singularización por parte del/de la liquidador/a, deberá ser efectuada en los mismos términos del artículo 12 de la Ley N.° 20.179, individualizando a la entidad, al acreedor afianzado y al deudor beneficiario; la singularidad de las obligaciones afianzadas y el monto determinado o determinable al cual se extienda la fianza, sin perjuicio de incorporar antecedentes que permitan conciliar estos datos con los del certificado de fianza, como su número, fecha de emisión, vencimiento del mismo, y las contragarantías asociadas.</parrafo>
+        </contenido>
         <referencias>
-          <ref articulo="6"/>
           <ref articulo="12"/>
+          <ref articulo="6"/>
         </referencias>
       </articulo>
       <articulo id="12" tipo_original="Artículo" numero="12">
         <titulo_seccion>Artículo 12. Evaluación de las fianzas vigentes</titulo_seccion>
-        <contexto>TÍTULO III Gestión de Fianzas y Contragarantías.</contexto>
-        <texto>Se considerarán fianzas vigentes aquellas que mantengan obligaciones pendientes de cumplimiento al momento de la resolución de liquidación del Procedimiento Concursal de Liquidación propiamente tal o simplificada. En caso de que el/la liquidador/a detecte errores en la determinación de la vigencia de una fianza, deberá efectuar la respectiva corrección dentro de los 10 días corridos siguientes, notificando a las partes interesadas, al acreedor afianzado y al deudor beneficiario, a través de publicación en el Boletín Concursal.</texto>
+        <contexto>Título III Gestión de Fianzas y Contragarantías.</contexto>
+        <contenido>
+          <parrafo>Se considerarán fianzas vigentes aquellas que mantengan obligaciones pendientes de cumplimiento al momento de la resolución de liquidación del Procedimiento Concursal de Liquidación propiamente tal o simplificada.</parrafo>
+          <parrafo>En caso de que el/la liquidador/a detecte errores en la determinación de la vigencia de una fianza, deberá efectuar la respectiva corrección dentro de los 10 días corridos siguientes, notificando a las partes interesadas, al acreedor afianzado y al deudor beneficiario, a través de publicación en el Boletín Concursal.</parrafo>
+        </contenido>
       </articulo>
       <articulo id="13" tipo_original="Artículo" numero="13">
         <titulo_seccion>Artículo 13. Evaluación de Fianzas No Vigentes</titulo_seccion>
-        <contexto>TÍTULO III Gestión de Fianzas y Contragarantías.</contexto>
-        <texto>Se catalogarán como no vigentes las fianzas cuyo plazo contenido en el certificado respectivo haya vencido o cuyas obligaciones hayan sido satisfechas en su totalidad o aquellas que se hayan extinguido por otro medio legal. El/la liquidador/a procederá a la revisión detallada de las fianzas no vigentes para determinar que efectivamente no existan obligaciones pendientes que deba asumir la Empresa Deudora. Esta evaluación incluirá la revisión de comprobantes de pago, comunicaciones entre la S.A.G.R. y los deudores beneficiarios, así como cualquier otro antecedente relevante. Si se detectara algún incumplimiento u obligación pendiente, la fianza podrá ser reactivada y tratada como vigente, a menos que el plazo del certificado de fianza se encuentre vencido. Párrafo II. Transferencia de Fianzas Vigentes.</texto>
+        <contexto>Título III Gestión de Fianzas y Contragarantías.</contexto>
+        <contenido>
+          <parrafo>Se catalogarán como no vigentes las fianzas cuyo plazo contenido en el certificado respectivo haya vencido o cuyas obligaciones hayan sido satisfechas en su totalidad o aquellas que se hayan extinguido por otro medio legal.</parrafo>
+          <parrafo>El/la liquidador/a procederá a la revisión detallada de las fianzas no vigentes para determinar que efectivamente no existan obligaciones pendientes que deba asumir la Empresa Deudora. Esta evaluación incluirá la revisión de comprobantes de pago, comunicaciones entre la S.A.G.R. y los deudores beneficiarios, así como cualquier otro antecedente relevante. Si se detectara algún incumplimiento u obligación pendiente, la fianza podrá ser reactivada y tratada como vigente, a menos que el plazo del certificado de fianza se encuentre vencido.</parrafo>
+        </contenido>
       </articulo>
       <articulo id="14" tipo_original="Artículo" numero="14">
         <titulo_seccion>Artículo 14</titulo_seccion>
-        <contexto>TÍTULO III Gestión de Fianzas y Contragarantías.</contexto>
-        <texto>Para asegurar la continuidad de
-las garantías otorgadas, el/la liquidador/a procederá a la transferencia de la
-totalidad de las fianzas que accedan a obligaciones vigentes, en los términos
-del inciso primero del artículo 30 de la Ley N.° 20.179, la que deberá
-realizarse en no más de 120 días contados desde la fecha en que quede
-ejecutoriada la resolución de liquidación.
-Tratándose de los procedimientos de
-liquidación simplificada, el liquidador deberá propender a la extinción de la
-fianza antes del plazo señalado, citando a junta de acreedores, de
-conformidad con lo dispuesto en la Resolución Exenta N.° 7338 de 7 de
-septiembre de 2023 de este Servicio.
-En todo caso, la transferencia de las fianzas
-se hará conjuntamente con las contragarantías rendidas u otorgadas por los
-respectivos deudores beneficiarios, en las mismas condiciones en que se
-encuentren pactadas a la fecha de la resolución que declare la liquidación y
-hasta su extinción, de acuerdo con la normativa contenida en la Ley N.°
-Las fianzas vigentes deberán ser transferidas
-a otras S.A.G.R. que se encuentren en condiciones de asumir dichas
-obligaciones. El proceso de transferencia deberá realizarse mediante un
-procedimiento de licitación pública, garantizando transparencia y
-competitividad. La finalidad es proteger los derechos de los deudores
-beneficiarios y acreedores afianzados, asegurando que las garantías se
-mantengan en vigor bajo la administración de una entidad solvente y capaz.
-Mientras se encuentre pendiente el plazo
-indicado en el inciso primero de este artículo, y el deudor beneficiario se
-encuentre cumpliendo la obligación de conformidad con las modalidades
-pactadas, el acreedor afianzado no podrá declarar el vencimiento de la
-obligación por la liquidación concursal o insolvencia del Deudor o fiador o por
-no cumplir el deudor beneficiario con la obligación de prestar una nueva
-fianza, conforme lo dispone el artículo 30 de la Ley N.° 20.179.
-No obstante, de conformidad con lo dispuesto
-en la Ley N.° 20.179, el/la liquidador/a, podrá concordar con los acreedores
-de las obligaciones principales garantizadas, formas distintas para extinguir
-las fianzas, por ejemplo, transfiriendo las contragarantías a los acreedores
-afianzados del deudor beneficiario respectivo, o bien, persiguiendo la
-extinción de tales fianzas por cualquier medio legal, debiendo informarlo
-oportunamente a la junta de acreedores para efectos de adoptar los acuerdos
-que correspondan o ratificar lo obrado por el/la Liquidador/a, todo lo anterior
-en concordancia con el inciso segundo del artículo 30 antedicho, siempre que
-ello no ocasione un perjuicio a la masa, al Deudor o a terceros interesados.</texto>
+        <contexto>Título III Gestión de Fianzas y Contragarantías.</contexto>
+        <contenido>
+          <parrafo>Para asegurar la continuidad de las garantías otorgadas, el/la liquidador/a procederá a la transferencia de la totalidad de las fianzas que accedan a obligaciones vigentes, en los términos del inciso primero del artículo 30 de la Ley N.° 20.179, la que deberá realizarse en no más de 120 días contados desde la fecha en que quede ejecutoriada la resolución de liquidación.</parrafo>
+          <parrafo>Tratándose de los procedimientos de liquidación simplificada, el liquidador deberá propender a la extinción de la fianza antes del plazo señalado, citando a junta de acreedores, de conformidad con lo dispuesto en la Resolución Exenta N.° 7338 de 7 de septiembre de 2023 de este Servicio.</parrafo>
+          <parrafo>En todo caso, la transferencia de las fianzas se hará conjuntamente con las contragarantías rendidas u otorgadas por los respectivos deudores beneficiarios, en las mismas condiciones en que se encuentren pactadas a la fecha de la resolución que declare la liquidación y hasta su extinción, de acuerdo con la normativa contenida en la Ley N.° Las fianzas vigentes deberán ser transferidas a otras S.A.G.R. que se encuentren en condiciones de asumir dichas obligaciones. El proceso de transferencia deberá realizarse mediante un procedimiento de licitación pública, garantizando transparencia y competitividad. La finalidad es proteger los derechos de los deudores beneficiarios y acreedores afianzados, asegurando que las garantías se mantengan en vigor bajo la administración de una entidad solvente y capaz.</parrafo>
+          <parrafo>Mientras se encuentre pendiente el plazo indicado en el inciso primero de este artículo, y el deudor beneficiario se encuentre cumpliendo la obligación de conformidad con las modalidades pactadas, el acreedor afianzado no podrá declarar el vencimiento de la obligación por la liquidación concursal o insolvencia del Deudor o fiador o por no cumplir el deudor beneficiario con la obligación de prestar una nueva fianza, conforme lo dispone el artículo 30 de la Ley N.° 20.179.</parrafo>
+          <parrafo>No obstante, de conformidad con lo dispuesto en la Ley N.° 20.179, el/la liquidador/a, podrá concordar con los acreedores de las obligaciones principales garantizadas, formas distintas para extinguir las fianzas, por ejemplo, transfiriendo las contragarantías a los acreedores afianzados del deudor beneficiario respectivo, o bien, persiguiendo la extinción de tales fianzas por cualquier medio legal, debiendo informarlo oportunamente a la junta de acreedores para efectos de adoptar los acuerdos que correspondan o ratificar lo obrado por el/la Liquidador/a, todo lo anterior en concordancia con el inciso segundo del artículo 30 antedicho, siempre que ello no ocasione un perjuicio a la masa, al Deudor o a terceros interesados.</parrafo>
+        </contenido>
         <referencias>
           <ref articulo="30"/>
         </referencias>
       </articulo>
       <articulo id="15" tipo_original="Artículo" numero="15">
-        <titulo_seccion>Artículo 15. La transferencia de fianzas deberá, en todo caso, sujetarse a las normas de la Ley N</titulo_seccion>
-        <contexto>TÍTULO III Gestión de Fianzas y Contragarantías.</contexto>
-        <texto>° 20.720, a las referidas a la prelación de créditos contenidas en el Código Civil y demás normativa aplicable. Párrafo III. Procedimiento de Licitación para la Transferencia de Fianzas.</texto>
+        <titulo_seccion>Artículo 15</titulo_seccion>
+        <contexto>Título III Gestión de Fianzas y Contragarantías.</contexto>
+        <contenido>
+          <parrafo>La transferencia de fianzas deberá, en todo caso, sujetarse a las normas de la Ley N.° 20.720, a las referidas a la prelación de créditos contenidas en el Código Civil y demás normativa aplicable.</parrafo>
+        </contenido>
       </articulo>
       <articulo id="16" tipo_original="Artículo" numero="16">
         <titulo_seccion>Artículo 16</titulo_seccion>
-        <contexto>TÍTULO III Gestión de Fianzas y Contragarantías.</contexto>
-        <texto>El/la Liquidador/a podrá
-convocar a uno o más procesos de licitación pública, en los cuales sólo
-podrán participar otras Instituciones de Garantía Recíproca que no se
-encuentren en alguna de las situaciones previstas en el Título VI de la Ley
-N.° 20.179, la que deberá realizarse en el plazo de 120 días contado desde
-la fecha en que quede ejecutoriada la resolución que declare la liquidación,
-cuyas bases se deberán publicar en el Boletín Concursal y si los recursos del
-respectivo procedimiento de liquidación lo permiten, en un diario de
-circulación nacional. La convocatoria especificará las condiciones y requisitos
-para participar, incluyendo la solvencia financiera y operativa de las S.A.G.R.
-interesadas.
-Durante la licitación, se evaluarán las
-propuestas basándose en criterios como la capacidad financiera, historial de
-cumplimiento, y plan de gestión de las fianzas. El objetivo es seleccionar a
-la entidad que ofrezca la mejor protección y continuidad para los deudores
-beneficiarios y acreedores.
-La transferencia de las fianzas se hará
-conjuntamente con las contragarantías rendidas por los respectivos deudores
-beneficiarios, en las mismas condiciones en que se encuentren pactadas a la
-fecha de la resolución de liquidación y hasta su extinción de conformidad a
-la Ley N.° 20.179, lo que deberá constar en las bases de la licitación. Todo
-lo anterior con sujeción a las normas de la Ley N.° 20.720, a las referidas a
-la prelación de créditos contenidas en el Código Civil y a las normas de la
-Ley N.° 20.179.
-La Institución que adquiera la calidad de
-fiadora se subrogará en todos los derechos y obligaciones que hubieren sido
-pactados entre la S.A.G.R. en liquidación, el deudor beneficiario y los
-acreedores de éste.</texto>
+        <contexto>Título III Gestión de Fianzas y Contragarantías.</contexto>
+        <contenido>
+          <parrafo>El/la Liquidador/a podrá convocar a uno o más procesos de licitación pública, en los cuales sólo podrán participar otras Instituciones de Garantía Recíproca que no se encuentren en alguna de las situaciones previstas en el Título VI de la Ley N.° 20.179, la que deberá realizarse en el plazo de 120 días contado desde la fecha en que quede ejecutoriada la resolución que declare la liquidación, cuyas bases se deberán publicar en el Boletín Concursal y si los recursos del respectivo procedimiento de liquidación lo permiten, en un diario de circulación nacional. La convocatoria especificará las condiciones y requisitos para participar, incluyendo la solvencia financiera y operativa de las S.A.G.R. interesadas.</parrafo>
+          <parrafo>Durante la licitación, se evaluarán las propuestas basándose en criterios como la capacidad financiera, historial de cumplimiento, y plan de gestión de las fianzas. El objetivo es seleccionar a la entidad que ofrezca la mejor protección y continuidad para los deudores beneficiarios y acreedores.</parrafo>
+          <parrafo>La transferencia de las fianzas se hará conjuntamente con las contragarantías rendidas por los respectivos deudores beneficiarios, en las mismas condiciones en que se encuentren pactadas a la fecha de la resolución de liquidación y hasta su extinción de conformidad a la Ley N.° 20.179, lo que deberá constar en las bases de la licitación. Todo lo anterior con sujeción a las normas de la Ley N.° 20.720, a las referidas a la prelación de créditos contenidas en el Código Civil y a las normas de la Ley N.° 20.179.</parrafo>
+          <parrafo>La Institución que adquiera la calidad de fiadora se subrogará en todos los derechos y obligaciones que hubieren sido pactados entre la S.A.G.R. en liquidación, el deudor beneficiario y los acreedores de éste.</parrafo>
+        </contenido>
       </articulo>
       <articulo id="17" tipo_original="Artículo" numero="17">
         <titulo_seccion>Artículo 17</titulo_seccion>
-        <contexto>TÍTULO III Gestión de Fianzas y Contragarantías.</contexto>
-        <texto>En el evento que una o más
-fianzas no fueren transferidas conforme al inciso primero del artículo 30° de
-la Ley N.° 20.179, el/la liquidador/a, con el acuerdo de los acreedores del
-deudor beneficiario respectivo, que tuviesen créditos afianzados por la
-Institución, podrá transferirles a éstos las contragarantías que el señalado
-deudor haya constituido a favor de la institución sometida a un
-procedimiento concursal de liquidación, siempre que este último no tenga
-otras obligaciones vencidas con la misma.</texto>
+        <contexto>Título III Gestión de Fianzas y Contragarantías.</contexto>
+        <contenido>
+          <parrafo>En el evento que una o más fianzas no fueren transferidas conforme al inciso primero del artículo 30° de la Ley N.° 20.179, el/la liquidador/a, con el acuerdo de los acreedores del deudor beneficiario respectivo, que tuviesen créditos afianzados por la Institución, podrá transferirles a éstos las contragarantías que el señalado deudor haya constituido a favor de la institución sometida a un procedimiento concursal de liquidación, siempre que este último no tenga otras obligaciones vencidas con la misma.</parrafo>
+        </contenido>
         <referencias>
           <ref articulo="30"/>
         </referencias>
       </articulo>
       <articulo id="18" tipo_original="Artículo" numero="18">
-        <titulo_seccion>Artículo 18. En todo caso, las contragarantías rendidas por los deudores beneficiarios de la S</titulo_seccion>
-        <contexto>TÍTULO III Gestión de Fianzas y Contragarantías.</contexto>
-        <texto>A.G.R. caucionarán exclusivamente el pago de las obligaciones propias afianzadas por la institución. El/la liquidador/a deberá ejecutar las contragarantías solo cuando haya pagado las obligaciones afianzadas, con el objeto de recuperar lo pagado en virtud de los contratos de fianza. En el evento que el/la liquidador/a haya transferido las contragarantías a los acreedores afianzados, como una forma distinta de extinguir la fianza, serán estos quienes harán efectivas dichas contragarantías para el pago de sus acreencias.</texto>
+        <titulo_seccion>Artículo 18</titulo_seccion>
+        <contexto>Título III Gestión de Fianzas y Contragarantías.</contexto>
+        <contenido>
+          <parrafo>En todo caso, las contragarantías rendidas por los deudores beneficiarios de la S.A.G.R. caucionarán exclusivamente el pago de las obligaciones propias afianzadas por la institución.</parrafo>
+          <parrafo>El/la liquidador/a deberá ejecutar las contragarantías solo cuando haya pagado las obligaciones afianzadas, con el objeto de recuperar lo pagado en virtud de los contratos de fianza.</parrafo>
+          <parrafo>En el evento que el/la liquidador/a haya transferido las contragarantías a los acreedores afianzados, como una forma distinta de extinguir la fianza, serán estos quienes harán efectivas dichas contragarantías para el pago de sus acreencias.</parrafo>
+        </contenido>
       </articulo>
       <articulo id="19" tipo_original="Artículo" numero="19">
-        <titulo_seccion>Artículo 19. La licitación pública a que se refiere el artículo 30° de la Ley N</titulo_seccion>
-        <contexto>TÍTULO III Gestión de Fianzas y Contragarantías.</contexto>
-        <texto>° 20.179, deberá cumplir los siguientes requisitos mínimos: a) Sólo podrán participar otras Instituciones de Garantía Recíproca que no se encuentren en alguna de las medidas para enfrentar situaciones de inestabilidad financiera e insolvencia previstas en el</texto>
+        <titulo_seccion>Artículo 19</titulo_seccion>
+        <contexto>Título III Gestión de Fianzas y Contragarantías.</contexto>
+        <contenido>
+          <parrafo>La licitación pública a que se refiere el artículo 30° de la Ley N.° 20.179, deberá cumplir los siguientes requisitos mínimos:</parrafo>
+          <parrafo>a) Sólo podrán participar otras Instituciones de Garantía Recíproca que no se encuentren en alguna de las medidas para enfrentar situaciones de inestabilidad financiera e insolvencia previstas en el Título VI de la Ley N.° 20.179.</parrafo>
+          <parrafo>b) Debe contemplar la totalidad de las fianzas que accedan a obligaciones vigentes.</parrafo>
+          <parrafo>c) Deberá realizarse en no más de 120 días contados desde la fecha en que quede ejecutoriada la resolución que declare la liquidación.</parrafo>
+          <parrafo>d) Debe señalar expresamente que esta transferencia se realizará conjuntamente con las contragarantías rendidas por los respectivos deudores, en las mismas condiciones en que se encuentren pactadas a la fecha de dictación de la resolución de liquidación, y hasta su extinción de conformidad a la Ley N.° 20.179.</parrafo>
+          <parrafo>Para ello, el/la Liquidador/a deberá efectuar un análisis previo de los certificados de fianza y de los contratos respectivos, requiriendo copia de ellos a la Empresa Deudora en virtud del artículo 169 de la Ley N.° 20.720, sin perjuicio de poder solicitar al acreedor afianzado o al deudor beneficiario los comprobantes de pago, incluso por medio del tribunal del procedimiento, a fin de determinar que el deudor beneficiario se encuentre cumpliendo con las obligaciones vigentes, para poder transferirlas mediante licitación pública, o por cualquier otra vía, de ser procedente.</parrafo>
+        </contenido>
+        <referencias>
+          <ref articulo="169"/>
+          <ref articulo="30"/>
+        </referencias>
       </articulo>
-    </titulo>
-    <titulo id="4" tipo_original="Título" numero="VI">
-      <titulo_seccion>Título VI de la Ley N.° 20.179.</titulo_seccion>
       <articulo id="20" tipo_original="Artículo" numero="20">
         <titulo_seccion>Artículo 20</titulo_seccion>
-        <contexto>Título VI de la Ley N.° 20.179.</contexto>
-        <texto>La adjudicación de las fianzas
-se realizará a la oferta que cumpla con los requisitos legales y ofrezca las
-mejores condiciones de continuidad y seguridad para los acreedores y
-beneficiarios. El/la liquidador/a deberá documentar debidamente el proceso
-de adjudicación señalado y mantener los registros a disposición de la
-Superintendencia de Insolvencia y Reemprendimiento, en caso que se
-requiera, en ejercicio de las facultades que le confiere el artículo 337 de la
-Ley N.° 20.720.
-Una vez adjudicadas, las condiciones de
-transferencia incluirán la formalización del traspaso de obligaciones, el
-registro de la nueva entidad garantizadora y la notificación a todos los
-interesados, debiendo el/la liquidador/a, además, publicar tales
-antecedentes, según las reglas generales del artículo 6° de la Ley N.°
-20.720, y lo dispuesto en el artículo 4° de la Norma de Carácter General N.°
-14 de 11 de agosto de 2023.</texto>
+        <contexto>Título III Gestión de Fianzas y Contragarantías.</contexto>
+        <contenido>
+          <parrafo>La adjudicación de las fianzas se realizará a la oferta que cumpla con los requisitos legales y ofrezca las mejores condiciones de continuidad y seguridad para los acreedores y beneficiarios. El/la liquidador/a deberá documentar debidamente el proceso de adjudicación señalado y mantener los registros a disposición de la Superintendencia de Insolvencia y Reemprendimiento, en caso que se requiera, en ejercicio de las facultades que le confiere el artículo 337 de la Ley N.° 20.720.</parrafo>
+          <parrafo>Una vez adjudicadas, las condiciones de transferencia incluirán la formalización del traspaso de obligaciones, el registro de la nueva entidad garantizadora y la notificación a todos los interesados, debiendo el/la liquidador/a, además, publicar tales antecedentes, según las reglas generales del artículo 6° de la Ley N.° 20.720, y lo dispuesto en el artículo 4° de la Norma de Carácter General N.°</parrafo>
+          <parrafo>14 de 11 de agosto de 2023.</parrafo>
+        </contenido>
         <referencias>
           <ref articulo="6"/>
-          <ref articulo="337"/>
           <ref articulo="4"/>
+          <ref articulo="337"/>
         </referencias>
       </articulo>
       <articulo id="21" tipo_original="Artículo" numero="21">
         <titulo_seccion>Artículo 21. Las fianzas que accedan a obligaciones que no se encuentren vigentes no serán objeto de transferencia</titulo_seccion>
-        <contexto>Título VI de la Ley N.° 20.179.</contexto>
-        <texto>Las contragarantías asociadas a dichas fianzas respecto de las cuales la S.A.G.R. no haya hecho pago alguno, deberán ser liberadas al deudor beneficiario, previa verificación de la inexistencia de otras obligaciones pendientes que pudieran afectar a la masa de la liquidación, debiendo el/la liquidador/a disminuir el pasivo. Párrafo V Tratamiento de Obligaciones Garantizadas No Vigentes.</texto>
+        <contexto>Título III Gestión de Fianzas y Contragarantías.</contexto>
+        <contenido>
+          <parrafo>Las contragarantías asociadas a dichas fianzas respecto de las cuales la S.A.G.R. no haya hecho pago alguno, deberán ser liberadas al deudor beneficiario, previa verificación de la inexistencia de otras obligaciones pendientes que pudieran afectar a la masa de la liquidación, debiendo el/la liquidador/a disminuir el pasivo.</parrafo>
+        </contenido>
       </articulo>
       <articulo id="22" tipo_original="Artículo" numero="22">
         <titulo_seccion>Artículo 22</titulo_seccion>
-        <contexto>Título VI de la Ley N.° 20.179.</contexto>
-        <texto>En el caso de obligaciones
-garantizadas no vigentes, el/la liquidador/a verificará que estas hayan sido
-completamente satisfechas o extinguidas, debiendo analizar la
-documentación pertinente para asegurarse de que no existan reclamaciones
-o disputas pendientes. Para ello, una vez asumida la titularidad del cargo,
-deberá requerir todos los antecedentes a la Empresa Deudora, incluso por
-intermedio del tribunal respectivo, bajo apercibimiento del artículo 169 de la
-Ley N.° 20.720, en los casos que correspondan.</texto>
+        <contexto>Título III Gestión de Fianzas y Contragarantías.</contexto>
+        <contenido>
+          <parrafo>En el caso de obligaciones garantizadas no vigentes, el/la liquidador/a verificará que estas hayan sido completamente satisfechas o extinguidas, debiendo analizar la documentación pertinente para asegurarse de que no existan reclamaciones o disputas pendientes. Para ello, una vez asumida la titularidad del cargo, deberá requerir todos los antecedentes a la Empresa Deudora, incluso por intermedio del tribunal respectivo, bajo apercibimiento del artículo 169 de la Ley N.° 20.720, en los casos que correspondan.</parrafo>
+        </contenido>
         <referencias>
           <ref articulo="169"/>
         </referencias>
       </articulo>
       <articulo id="23" tipo_original="Artículo" numero="23">
         <titulo_seccion>Artículo 23. Liberación de Contragarantías Asociadas a Obligaciones No Vigentes</titulo_seccion>
-        <contexto>Título VI de la Ley N.° 20.179.</contexto>
-        <texto>Cuando se confirme que las obligaciones garantizadas no vigentes han sido completamente satisfechas por el deudor beneficiario, y que no existen otras reclamaciones, el/la liquidador/a deberá proceder a la liberación de las contragarantías asociadas. La liberación se formalizará mediante la devolución de las contragarantías, y/o la cancelación de las inscripciones correspondientes en los registros pertinentes. Los deudores beneficiarios deberán ser notificados de la liberación, ya sea mediante correo electrónico o en su defecto a través del Boletín Concursal, asegurando que reciban toda la información necesaria para concluir sus obligaciones con la S.A.G.R. en liquidación.</texto>
+        <contexto>Título III Gestión de Fianzas y Contragarantías.</contexto>
+        <contenido>
+          <parrafo>Cuando se confirme que las obligaciones garantizadas no vigentes han sido completamente satisfechas por el deudor beneficiario, y que no existen otras reclamaciones, el/la liquidador/a deberá proceder a la liberación de las contragarantías asociadas. La liberación se formalizará mediante la devolución de las contragarantías, y/o la cancelación de las inscripciones correspondientes en los registros pertinentes. Los deudores beneficiarios deberán ser notificados de la liberación, ya sea mediante correo electrónico o en su defecto a través del Boletín Concursal, asegurando que reciban toda la información necesaria para concluir sus obligaciones con la S.A.G.R. en liquidación.</parrafo>
+        </contenido>
       </articulo>
       <articulo id="24" tipo_original="Artículo" numero="24">
-        <titulo_seccion>Artículo 24. El/la liquidador/a deberá garantizar que los deudores beneficiarios de las fianzas emitidas por la S</titulo_seccion>
-        <contexto>Título VI de la Ley N.° 20.179.</contexto>
-        <texto>A.G.R. reciban notificaciones oportunas por correo electrónico o en su defecto a través del Boletín Concursal, sobre el estado de sus fianzas y contragarantías, así como de cualquier acción que pueda afectar sus derechos, incluyendo la ejecución de contragarantías o su eventual transferencia. Toda la información proporcionada a los deudores beneficiarios deberá ser completa, precisa y comunicada de manera comprensible, permitiendo que estos puedan ejercer sus derechos dentro de los plazos establecidos. Las notificaciones deberán contener toda la documentación relevante. En caso de que el/la Liquidador/a no tenga los antecedentes necesarios para comunicar al deudor beneficiario sobre la liberación de las contragarantías asociadas, deberá requerirlos a la S.A.G.R. en liquidación, de conformidad con el artículo 169 de la Ley N.° 20.720.</texto>
+        <titulo_seccion>Artículo 24</titulo_seccion>
+        <contexto>Título III Gestión de Fianzas y Contragarantías.</contexto>
+        <contenido>
+          <parrafo>El/la liquidador/a deberá garantizar que los deudores beneficiarios de las fianzas emitidas por la S.A.G.R. reciban notificaciones oportunas por correo electrónico o en su defecto a través del Boletín Concursal, sobre el estado de sus fianzas y contragarantías, así como de cualquier acción que pueda afectar sus derechos, incluyendo la ejecución de contragarantías o su eventual transferencia.</parrafo>
+          <parrafo>Toda la información proporcionada a los deudores beneficiarios deberá ser completa, precisa y comunicada de manera comprensible, permitiendo que estos puedan ejercer sus derechos dentro de los plazos establecidos. Las notificaciones deberán contener toda la documentación relevante.</parrafo>
+          <parrafo>En caso de que el/la Liquidador/a no tenga los antecedentes necesarios para comunicar al deudor beneficiario sobre la liberación de las contragarantías asociadas, deberá requerirlos a la S.A.G.R. en liquidación, de conformidad con el artículo 169 de la Ley N.° 20.720.</parrafo>
+        </contenido>
         <referencias>
           <ref articulo="169"/>
         </referencias>
       </articulo>
     </titulo>
-    <titulo id="5" tipo_original="Título" numero="IV">
-      <titulo_seccion>TÍTULO IV Ejecución de Contragarantías por la S.A.G.R.</titulo_seccion>
+    <titulo id="4" tipo_original="Título" numero="IV">
+      <titulo_seccion>Título IV Ejecución de Contragarantías por la S.A.G.R.</titulo_seccion>
       <articulo id="25" tipo_original="Artículo" numero="25">
         <titulo_seccion>Artículo 25</titulo_seccion>
-        <contexto>TÍTULO IV Ejecución de Contragarantías por la S.A.G.R.</contexto>
-        <texto>Los/as liquidadores/as sólo
-podrán ejecutar las contragarantías otorgadas por el deudor beneficiario, en
-favor de la S.A.G.R. en liquidación en el evento de incumplimiento del deudor
-beneficiario, y una vez que la S.A.G.R., en su calidad de fiador, haya pagado
-las obligaciones garantizadas y el deudor beneficiario no le haya
-reembolsado los fondos pagados.
-La ejecución de dichas contragarantías se
-realizará de acuerdo con los términos contractuales y la normativa vigente,
-pudiendo acordarse la contratación especializada respecto a las acciones
-judiciales que correspondieren para su cobro, según lo dispuesto en el
-artículo 41 de la Ley N.° 20.720.</texto>
+        <contexto>Título IV Ejecución de Contragarantías por la S.A.G.R.</contexto>
+        <contenido>
+          <parrafo>Los/as liquidadores/as sólo podrán ejecutar las contragarantías otorgadas por el deudor beneficiario, en favor de la S.A.G.R. en liquidación en el evento de incumplimiento del deudor beneficiario, y una vez que la S.A.G.R., en su calidad de fiador, haya pagado las obligaciones garantizadas y el deudor beneficiario no le haya reembolsado los fondos pagados.</parrafo>
+          <parrafo>La ejecución de dichas contragarantías se realizará de acuerdo con los términos contractuales y la normativa vigente, pudiendo acordarse la contratación especializada respecto a las acciones judiciales que correspondieren para su cobro, según lo dispuesto en el artículo 41 de la Ley N.° 20.720.</parrafo>
+        </contenido>
         <referencias>
           <ref articulo="41"/>
         </referencias>
       </articulo>
       <articulo id="26" tipo_original="Artículo" numero="26">
         <titulo_seccion>Artículo 26. Comunicación de la Ejecución de Contragarantías</titulo_seccion>
-        <contexto>TÍTULO IV Ejecución de Contragarantías por la S.A.G.R.</contexto>
-        <texto>Previo a la ejecución de cualquier contragarantía, el/la liquidador/a deberá notificar formalmente a los deudores beneficiarios y acreedores afianzados, proporcionando detalles sobre las razones de la ejecución, el monto a ser cobrado y el procedimiento que se seguirá, mediante correo electrónico o en su defecto a través del Boletín Concursal, para que el deudor beneficiario tenga la posibilidad de restituir lo pagado a la SAGR, evitando la ejecución de la contragarantía, y el acreedor afianzado tenga la posibilidad de impugnar el pago o su insuficiencia. Esta notificación debe realizarse con una antelación mínima de 15 días hábiles de la ejecución, permitiendo a los interesados preparar cualquier defensa o alegación que consideren pertinente.</texto>
+        <contexto>Título IV Ejecución de Contragarantías por la S.A.G.R.</contexto>
+        <contenido>
+          <parrafo>Previo a la ejecución de cualquier contragarantía, el/la liquidador/a deberá notificar formalmente a los deudores beneficiarios y acreedores afianzados, proporcionando detalles sobre las razones de la ejecución, el monto a ser cobrado y el procedimiento que se seguirá, mediante correo electrónico o en su defecto a través del Boletín Concursal, para que el deudor beneficiario tenga la posibilidad de restituir lo pagado a la SAGR, evitando la ejecución de la contragarantía, y el acreedor afianzado tenga la posibilidad de impugnar el pago o su insuficiencia.</parrafo>
+          <parrafo>Esta notificación debe realizarse con una antelación mínima de 15 días hábiles de la ejecución, permitiendo a los interesados preparar cualquier defensa o alegación que consideren pertinente.</parrafo>
+        </contenido>
       </articulo>
     </titulo>
-    <titulo id="6" tipo_original="Título" numero="V">
-      <titulo_seccion>TÍTULO V Preferencias y formas de pago en la liquidación concursal.</titulo_seccion>
+    <titulo id="5" tipo_original="Título" numero="V">
+      <titulo_seccion>Título V Preferencias y formas de pago en la liquidación concursal.</titulo_seccion>
       <articulo id="27" tipo_original="Artículo" numero="27">
         <titulo_seccion>Artículo 27. Verificación de créditos de acreedores afianzados</titulo_seccion>
-        <contexto>TÍTULO V Preferencias y formas de pago en la liquidación concursal.</contexto>
-        <texto>En el caso que los deudores beneficiarios se encuentren en mora en el pago de las cuotas del crédito respectivo, el acreedor afianzado deberá verificar su crédito con la preferencia del N.° 1 del artículo 2481 del Código Civil, según lo dispuesto en el inciso quinto del artículo 12 de la Ley N.° 20.179, siempre que el certificado de fianza esté vigente. Si la S.A.G.R. en liquidación, pagó el crédito afianzado en su totalidad, previo a la resolución de liquidación, y posteriormente el/la liquidador/a ejecuta en el procedimiento concursal la contragarantía, estos fondos pasarán a formar parte de la masa concursal y estarán destinados al pago de todos los acreedores de acuerdo con las normas de prelación, con excepción de los acreedores afianzados ya pagados, y aquellos cuyas obligaciones que no se encuentren en mora, ya que en estos casos no habrá nacido el derecho del acreedor afianzado de exigir su cumplimiento a la S.A.G.R. en liquidación. El/la liquidador/a deberá observar que las obligaciones del deudor beneficiario respecto de su acreedor afianzado, seguirán vigentes, aun cuando se dicte la resolución de liquidación, según lo establece el artículo 30 de la Ley N.° 20.179, constituyendo ello una excepción a lo dispuesto en el artículo 136 de la Ley N.° 20.720. En la etapa de verificación de créditos, el/la liquidador/a deberá requerir al acreedor afianzado, que acompañe los antecedentes de pago efectuados por el deudor beneficiario, a fin de determinar el monto que le corresponde pagar a la S.A.G.R. en liquidación, debiendo objetar e impugnarlo en caso de que no los acompañe, de conformidad con el artículo 174 de la Ley N.° 20.720. Si en los antecedentes incautados no consta que el deudor beneficiario se haya constituido en mora en el pago de sus obligaciones, el/la liquidador/a deberá impugnar el respectivo crédito por este motivo, ya que no habría nacido el derecho del acreedor para ejecutar la fianza. Previo a la audiencia de impugnación de créditos, el/la liquidador/a deberá solicitar al tribunal del procedimiento que, además del acreedor afianzado, cite al deudor beneficiario, para efectos de informar los pagos que hubiere efectuado al acreedor afianzado que correspondiere. Lo anterior, puesto que la sentencia que resuelva las impugnaciones producirá efectos que podrían perjudicar al deudor beneficiario, en caso de que se ejecute posteriormente la contragarantía.</texto>
+        <contexto>Título V Preferencias y formas de pago en la liquidación concursal.</contexto>
+        <contenido>
+          <parrafo>En el caso que los deudores beneficiarios se encuentren en mora en el pago de las cuotas del crédito respectivo, el acreedor afianzado deberá verificar su crédito con la preferencia del N.° 1 del artículo 2481 del Código Civil, según lo dispuesto en el inciso quinto del artículo 12 de la Ley N.° 20.179, siempre que el certificado de fianza esté vigente.</parrafo>
+          <parrafo>Si la S.A.G.R. en liquidación, pagó el crédito afianzado en su totalidad, previo a la resolución de liquidación, y posteriormente el/la liquidador/a ejecuta en el procedimiento concursal la contragarantía, estos fondos pasarán a formar parte de la masa concursal y estarán destinados al pago de todos los acreedores de acuerdo con las normas de prelación, con excepción de los acreedores afianzados ya pagados, y aquellos cuyas obligaciones que no se encuentren en mora, ya que en estos casos no habrá nacido el derecho del acreedor afianzado de exigir su cumplimiento a la S.A.G.R. en liquidación.</parrafo>
+          <parrafo>El/la liquidador/a deberá observar que las obligaciones del deudor beneficiario respecto de su acreedor afianzado, seguirán vigentes, aun cuando se dicte la resolución de liquidación, según lo establece el artículo 30 de la Ley N.° 20.179, constituyendo ello una excepción a lo dispuesto en el artículo 136 de la Ley N.° 20.720.</parrafo>
+          <parrafo>En la etapa de verificación de créditos, el/la liquidador/a deberá requerir al acreedor afianzado, que acompañe los antecedentes de pago efectuados por el deudor beneficiario, a fin de determinar el monto que le corresponde pagar a la S.A.G.R. en liquidación, debiendo objetar e impugnarlo en caso de que no los acompañe, de conformidad con el artículo 174 de la Ley N.° 20.720.</parrafo>
+          <parrafo>Si en los antecedentes incautados no consta que el deudor beneficiario se haya constituido en mora en el pago de sus obligaciones, el/la liquidador/a deberá impugnar el respectivo crédito por este motivo, ya que no habría nacido el derecho del acreedor para ejecutar la fianza.</parrafo>
+          <parrafo>Previo a la audiencia de impugnación de créditos, el/la liquidador/a deberá solicitar al tribunal del procedimiento que, además del acreedor afianzado, cite al deudor beneficiario, para efectos de informar los pagos que hubiere efectuado al acreedor afianzado que correspondiere. Lo anterior, puesto que la sentencia que resuelva las impugnaciones producirá efectos que podrían perjudicar al deudor beneficiario, en caso de que se ejecute posteriormente la contragarantía.</parrafo>
+        </contenido>
         <referencias>
-          <ref articulo="2481"/>
-          <ref articulo="30"/>
-          <ref articulo="12"/>
-          <ref articulo="174"/>
           <ref articulo="136"/>
+          <ref articulo="174"/>
+          <ref articulo="12"/>
+          <ref articulo="30"/>
+          <ref articulo="2481"/>
         </referencias>
       </articulo>
       <articulo id="28" tipo_original="Artículo" numero="28">
         <titulo_seccion>Artículo 28. Nómina de créditos reconocidos</titulo_seccion>
-        <contexto>TÍTULO V Preferencias y formas de pago en la liquidación concursal.</contexto>
-        <texto>Si el/la liquidador/a tomare conocimiento de que alguno de los acreedores afianzados cuyo crédito se tuvo por verificado y reconocido, se extinguió su acreencia total o parcialmente por hechos sobrevinientes, ocurridos con posterioridad al reconocimiento de su crédito, deberá requerir al tribunal modificar la nómina de créditos reconocidos, excluyendo tal crédito o modificándolo en su monto, y en el caso que existiere controversia, solicitarlo en los términos del artículo 131 de la Ley N.° 20.720. En el caso que los créditos afianzados venzan con posterioridad a la resolución de liquidación, y no se hayan traspasado las fianzas y contragarantías a otra S.A.G.R., ni se haya extinguido la fianza por cualquier causa legal, deberá propender a alcanzar acuerdos en una forma distinta para extinguir la fianza, como es el caso de la transferencia de la contragarantía, según el inciso segundo del artículo 30 de la Ley N.°</texto>
+        <contexto>Título V Preferencias y formas de pago en la liquidación concursal.</contexto>
+        <contenido>
+          <parrafo>Si el/la liquidador/a tomare conocimiento de que alguno de los acreedores afianzados cuyo crédito se tuvo por verificado y reconocido, se extinguió su acreencia total o parcialmente por hechos sobrevinientes, ocurridos con posterioridad al reconocimiento de su crédito, deberá requerir al tribunal modificar la nómina de créditos reconocidos, excluyendo tal crédito o modificándolo en su monto, y en el caso que existiere controversia, solicitarlo en los términos del artículo 131 de la Ley N.° 20.720.</parrafo>
+          <parrafo>En el caso que los créditos afianzados venzan con posterioridad a la resolución de liquidación, y no se hayan traspasado las fianzas y contragarantías a otra S.A.G.R., ni se haya extinguido la fianza por cualquier causa legal, deberá propender a alcanzar acuerdos en una forma distinta para extinguir la fianza, como es el caso de la transferencia de la contragarantía, según el inciso segundo del artículo 30 de la Ley N.°</parrafo>
+        </contenido>
         <referencias>
           <ref articulo="131"/>
           <ref articulo="30"/>
@@ -577,207 +403,174 @@ artículo 41 de la Ley N.° 20.720.</texto>
       </articulo>
       <articulo id="29" tipo_original="Artículo" numero="29">
         <titulo_seccion>Artículo 29. Reparto y distinción de acreedores</titulo_seccion>
-        <contexto>TÍTULO V Preferencias y formas de pago en la liquidación concursal.</contexto>
-        <texto>Todos los créditos, incluidos los de los acreedores afianzados por la S.A.G.R. se deberán pagar mediante repartos de fondos, respetando las normas de prelación. En ningún caso los/las liquidadores/as podrán pagar las acreencias de los acreedores afianzados en una forma distinta. El traspaso de las contragarantías que extingue la fianza no constituye reparto de fondos para ningún efecto, aun cuando el/la liquidador/a rebaje el pasivo por tal motivo. En el caso que, uno o más deudores beneficiarios entregaren fondos al/a la liquidador/a, por obligaciones que debieron pagar a sus acreedores, el/la liquidador/a deberá hacer entrega de las sumas percibidas al acreedor afianzado que corresponda, puesto que en este caso solo se trata de un mero tenedor irregular de tales montos.</texto>
+        <contexto>Título V Preferencias y formas de pago en la liquidación concursal.</contexto>
+        <contenido>
+          <parrafo>Todos los créditos, incluidos los de los acreedores afianzados por la S.A.G.R. se deberán pagar mediante repartos de fondos, respetando las normas de prelación.</parrafo>
+          <parrafo>En ningún caso los/las liquidadores/as podrán pagar las acreencias de los acreedores afianzados en una forma distinta.</parrafo>
+          <parrafo>El traspaso de las contragarantías que extingue la fianza no constituye reparto de fondos para ningún efecto, aun cuando el/la liquidador/a rebaje el pasivo por tal motivo.</parrafo>
+          <parrafo>En el caso que, uno o más deudores beneficiarios entregaren fondos al/a la liquidador/a, por obligaciones que debieron pagar a sus acreedores, el/la liquidador/a deberá hacer entrega de las sumas percibidas al acreedor afianzado que corresponda, puesto que en este caso solo se trata de un mero tenedor irregular de tales montos.</parrafo>
+        </contenido>
       </articulo>
       <articulo id="30" tipo_original="Artículo" numero="30">
         <titulo_seccion>Artículo 30. Honorarios</titulo_seccion>
-        <contexto>TÍTULO V Preferencias y formas de pago en la liquidación concursal.</contexto>
-        <texto>No constituyen
-reparto de fondos los traspasos de las garantías y extinción de las fianzas,
-por lo que no procede que el/la liquidador/a los considere para el pago de
-sus honorarios. Sólo los repartos de fondos efectuados dentro del concurso
-constituyen la base de cálculo de los honorarios del liquidador, y con fondos
-que el/la liquidador/a efectivamente haya administrado.</texto>
+        <contexto>Título V Preferencias y formas de pago en la liquidación concursal.</contexto>
+        <contenido>
+          <parrafo>No constituyen reparto de fondos los traspasos de las garantías y extinción de las fianzas, por lo que no procede que el/la liquidador/a los considere para el pago de sus honorarios. Sólo los repartos de fondos efectuados dentro del concurso constituyen la base de cálculo de los honorarios del liquidador, y con fondos que el/la liquidador/a efectivamente haya administrado.</parrafo>
+        </contenido>
       </articulo>
       <articulo id="31" tipo_original="Artículo" numero="31">
         <titulo_seccion>Artículo 31. Distribución de Fondos Obtenidos</titulo_seccion>
-        <contexto>TÍTULO V Preferencias y formas de pago en la liquidación concursal.</contexto>
-        <texto>Los fondos recaudados a través de la ejecución de contragarantías se distribuirán estrictamente conforme al orden de prelación de créditos establecido en el Código Civil, conjuntamente con los demás ingresos de la S.A.G.R. en liquidación. En efecto, si el/la liquidador/a ejecutare la contragarantía, por haber pagado previamente la S.A.G.R. el respectivo crédito afianzado, subrogándose en sus derechos, los fondos que se obtengan por ello ingresarán a la masa concursal a fin de pagar a todos los acreedores del procedimiento, de acuerdo con el artículo 241 y siguientes de la Ley N.° 20.720.</texto>
+        <contexto>Título V Preferencias y formas de pago en la liquidación concursal.</contexto>
+        <contenido>
+          <parrafo>Los fondos recaudados a través de la ejecución de contragarantías se distribuirán estrictamente conforme al orden de prelación de créditos establecido en el Código Civil, conjuntamente con los demás ingresos de la S.A.G.R. en liquidación.</parrafo>
+          <parrafo>En efecto, si el/la liquidador/a ejecutare la contragarantía, por haber pagado previamente la S.A.G.R. el respectivo crédito afianzado, subrogándose en sus derechos, los fondos que se obtengan por ello ingresarán a la masa concursal a fin de pagar a todos los acreedores del procedimiento, de acuerdo con el artículo 241 y siguientes de la Ley N.° 20.720.</parrafo>
+        </contenido>
         <referencias>
           <ref articulo="241"/>
         </referencias>
       </articulo>
     </titulo>
-    <titulo id="7" tipo_original="Título" numero="VI">
-      <titulo_seccion>TÍTULO VI Caducidad de la Fianza por el Transcurso del Tiempo.</titulo_seccion>
+    <titulo id="6" tipo_original="Título" numero="VI">
+      <titulo_seccion>Título VI Caducidad de la Fianza por el Transcurso del Tiempo.</titulo_seccion>
       <articulo id="32" tipo_original="Artículo" numero="32">
         <titulo_seccion>Artículo 32. Caducidad de las fianzas</titulo_seccion>
-        <contexto>TÍTULO VI Caducidad de la Fianza por el Transcurso del Tiempo.</contexto>
-        <texto>Transcurridos seis meses, contados desde que quede ejecutoriada la
-resolución de liquidación, las fianzas que caucionen obligaciones vigentes
-caducarán por el solo ministerio de la ley, de manera que las contragarantías
-que no se hubiesen transferido o extinguido por cualquier causa, pasarán de
-pleno derecho y con sus mismas calidades a garantizar las obligaciones del
-beneficiario, afianzadas por la Institución.
-Tal caducidad generará la extinción de las
-obligaciones que la S.A.G.R. tenía respecto de los acreedores afianzados y
-consecuencialmente, dejarán de ser acreedores en el procedimiento
-concursal de liquidación, debiendo estos últimos dirigirse contra el
-patrimonio del deudor beneficiario, ejecutando las garantías respectivas.
-Sin perjuicio de lo indicado en el párrafo
-anterior, las fianzas se podrán extinguir por otros medios legales, de acuerdo
-al artículo 10 del presente Instructivo, y en todos estos casos, el/la
-liquidador/a deberá disminuir el pasivo en el procedimiento respectivo.
-Las contragarantías pasarán a garantizar los
-créditos de los acreedores afianzados previamente.</texto>
+        <contexto>Título VI Caducidad de la Fianza por el Transcurso del Tiempo.</contexto>
+        <contenido>
+          <parrafo>Transcurridos seis meses, contados desde que quede ejecutoriada la resolución de liquidación, las fianzas que caucionen obligaciones vigentes caducarán por el solo ministerio de la ley, de manera que las contragarantías que no se hubiesen transferido o extinguido por cualquier causa, pasarán de pleno derecho y con sus mismas calidades a garantizar las obligaciones del beneficiario, afianzadas por la Institución.  Tal caducidad generará la extinción de las obligaciones que la S.A.G.R. tenía respecto de los acreedores afianzados y consecuencialmente, dejarán de ser acreedores en el procedimiento concursal de liquidación, debiendo estos últimos dirigirse contra el patrimonio del deudor beneficiario, ejecutando las garantías respectivas.  Sin perjuicio de lo indicado en el párrafo anterior, las fianzas se podrán extinguir por otros medios legales, de acuerdo al artículo 10 del presente Instructivo, y en todos estos casos, el/la liquidador/a deberá disminuir el pasivo en el procedimiento respectivo.  Las contragarantías pasarán a garantizar los créditos de los acreedores afianzados previamente.</parrafo>
+        </contenido>
         <referencias>
           <ref articulo="10"/>
         </referencias>
       </articulo>
       <articulo id="33" tipo_original="Artículo" numero="33">
         <titulo_seccion>Artículo 33. Transferencia de las contragarantías</titulo_seccion>
-        <contexto>TÍTULO VI Caducidad de la Fianza por el Transcurso del Tiempo.</contexto>
-        <texto>En el evento de la caducidad de las fianzas, el/la liquidador/a deberá, en el plazo de 30 días hábiles contado desde que ello se produzca, transferir a los acreedores afianzados las respectivas contragarantías, que en virtud de la caducidad de las fianzas pasaron a garantizar directamente sus créditos. En caso que, según la ley, la transferencia de estas garantías haya debido efectuarse mediante inscripción en un Registro Público, el/la liquidador/a inscribirá en el mismo la resolución de liquidación concursal, acompañada de la certificación del secretario del tribunal respectivo de que han transcurrido más de seis meses desde que la sentencia quedó ejecutoriada sin que la fianza se haya transferido o extinguido de conformidad con lo señalado precedentemente. Esta nueva inscripción deberá anotarse al margen de la inscripción original a través de la cual se constituyó el respectivo derecho. Para dichos efectos, el/la liquidador/a requerirá la certificación correspondiente al secretario del tribunal del concurso.</texto>
+        <contexto>Título VI Caducidad de la Fianza por el Transcurso del Tiempo.</contexto>
+        <contenido>
+          <parrafo>En el evento de la caducidad de las fianzas, el/la liquidador/a deberá, en el plazo de 30 días hábiles contado desde que ello se produzca, transferir a los acreedores afianzados las respectivas contragarantías, que en virtud de la caducidad de las fianzas pasaron a garantizar directamente sus créditos.</parrafo>
+          <parrafo>En caso que, según la ley, la transferencia de estas garantías haya debido efectuarse mediante inscripción en un Registro Público, el/la liquidador/a inscribirá en el mismo la resolución de liquidación concursal, acompañada de la certificación del secretario del tribunal respectivo de que han transcurrido más de seis meses desde que la sentencia quedó ejecutoriada sin que la fianza se haya transferido o extinguido de conformidad con lo señalado precedentemente. Esta nueva inscripción deberá anotarse al margen de la inscripción original a través de la cual se constituyó el respectivo derecho.</parrafo>
+          <parrafo>Para dichos efectos, el/la liquidador/a requerirá la certificación correspondiente al secretario del tribunal del concurso.</parrafo>
+        </contenido>
       </articulo>
       <articulo id="34" tipo_original="Artículo" numero="34">
         <titulo_seccion>Artículo 34</titulo_seccion>
-        <contexto>TÍTULO VI Caducidad de la Fianza por el Transcurso del Tiempo.</contexto>
-        <texto>El/la liquidador/a procederá a
-la anotación de la nueva inscripción a que se refiere el artículo anterior, al
-margen de la inscripción original a través de la cual se constituyó el
-respectivo derecho.</texto>
+        <contexto>Título VI Caducidad de la Fianza por el Transcurso del Tiempo.</contexto>
+        <contenido>
+          <parrafo>El/la liquidador/a procederá a la anotación de la nueva inscripción a que se refiere el artículo anterior, al margen de la inscripción original a través de la cual se constituyó el respectivo derecho.</parrafo>
+        </contenido>
       </articulo>
       <articulo id="35" tipo_original="Artículo" numero="35">
         <titulo_seccion>Artículo 35</titulo_seccion>
-        <contexto>TÍTULO VI Caducidad de la Fianza por el Transcurso del Tiempo.</contexto>
-        <texto>En el caso que se hayan
-transferido las contragarantías por haberse extinguido las fianzas, por el
-transcurso del mencionado plazo de 6 meses, pasando las contragarantías a
-garantizar directamente las obligaciones del deudor beneficiario, que fueron
-afianzadas por la S.A.G.R. en liquidación, y para los efectos de la realización
-de dichas garantías, los acreedores de un mismo deudor beneficiario se
-comportarán entre ellos, respecto de dichas garantías, sin preferencia
-alguna, las que deberán hacer valer en juicio ejecutivo, no pudiendo
-perseguir el cumplimiento de su obligación en el patrimonio de la liquidación.
-Para estos efectos, el/la liquidador/a deberá
-poner en conocimiento de cada uno de los acreedores cuyas fianzas se
-extinguieron por el transcurso del plazo de 6 meses, el nombre, rol único
-tributario y domicilio de los demás acreedores garantizados del respectivo
-deudor beneficiario, debiendo ser citados todos en cada ejecución particular
-en la que se vaya a realizar alguna de estas garantías.
-Sin perjuicio de lo anterior, el deudor
-beneficiario podrá pactar con sus acreedores garantizados la sustitución de
-las garantías a que se refieren los incisos anteriores, de conformidad con las
-reglas generales o las normas de la Ley N.° 20.179.</texto>
+        <contexto>Título VI Caducidad de la Fianza por el Transcurso del Tiempo.</contexto>
+        <contenido>
+          <parrafo>En el caso que se hayan transferido las contragarantías por haberse extinguido las fianzas, por el transcurso del mencionado plazo de 6 meses, pasando las contragarantías a garantizar directamente las obligaciones del deudor beneficiario, que fueron afianzadas por la S.A.G.R. en liquidación, y para los efectos de la realización de dichas garantías, los acreedores de un mismo deudor beneficiario se comportarán entre ellos, respecto de dichas garantías, sin preferencia alguna, las que deberán hacer valer en juicio ejecutivo, no pudiendo perseguir el cumplimiento de su obligación en el patrimonio de la liquidación.</parrafo>
+          <parrafo>Para estos efectos, el/la liquidador/a deberá poner en conocimiento de cada uno de los acreedores cuyas fianzas se extinguieron por el transcurso del plazo de 6 meses, el nombre, rol único tributario y domicilio de los demás acreedores garantizados del respectivo deudor beneficiario, debiendo ser citados todos en cada ejecución particular en la que se vaya a realizar alguna de estas garantías.</parrafo>
+          <parrafo>Sin perjuicio de lo anterior, el deudor beneficiario podrá pactar con sus acreedores garantizados la sustitución de las garantías a que se refieren los incisos anteriores, de conformidad con las reglas generales o las normas de la Ley N.° 20.179.</parrafo>
+        </contenido>
       </articulo>
     </titulo>
-    <titulo id="8" tipo_original="Título" numero="VII">
-      <titulo_seccion>TÍTULO VII Obligaciones y Derechos de las Partes.</titulo_seccion>
+    <titulo id="7" tipo_original="Título" numero="VII">
+      <titulo_seccion>Título VII Obligaciones y Derechos de las Partes.</titulo_seccion>
       <articulo id="36" tipo_original="Artículo" numero="36">
         <titulo_seccion>Artículo 36. Obligaciones del/de la Liquidador/a</titulo_seccion>
-        <contexto>TÍTULO VII Obligaciones y Derechos de las Partes.</contexto>
-        <texto>Además de las obligaciones generales, dispuestas en las Leyes Nros. 20.720 y 20.179, el/la liquidador/a está obligado/a actuar con la máxima diligencia y transparencia durante el proceso de liquidación de la Sociedad Anónima de Garantía Recíproca. Debe proteger, a su vez, los intereses de los acreedores afianzados y deudores beneficiarios, asegurando el cumplimiento de las disposiciones legales y contractuales. Entre sus principales responsabilidades se incluyen la identificación y realización de los activos de la S.A.G.R., la administración de las contragarantías, y la correcta distribución de los fondos obtenidos. Además, a partir de la fecha de la Resolución de Liquidación, el/la liquidador/a deberá proporcionar informes trimestrales al tribunal y a la Superintendencia de Insolvencia y Reemprendimiento, a través del Módulo de Comunicación Directa del Portal de Sujetos Fiscalizados, detallando el estado de las fianzas, sus respectivas contragarantías, las actividades realizadas y los resultados obtenidos.</texto>
+        <contexto>Título VII Obligaciones y Derechos de las Partes.</contexto>
+        <contenido>
+          <parrafo>Además de las obligaciones generales, dispuestas en las Leyes Nros. 20.720 y 20.179, el/la liquidador/a está obligado/a actuar con la máxima diligencia y transparencia durante el proceso de liquidación de la Sociedad Anónima de Garantía Recíproca. Debe proteger, a su vez, los intereses de los acreedores afianzados y deudores beneficiarios, asegurando el cumplimiento de las disposiciones legales y contractuales.</parrafo>
+          <parrafo>Entre sus principales responsabilidades se incluyen la identificación y realización de los activos de la S.A.G.R., la administración de las contragarantías, y la correcta distribución de los fondos obtenidos. Además, a partir de la fecha de la Resolución de Liquidación, el/la liquidador/a deberá proporcionar informes trimestrales al tribunal y a la Superintendencia de Insolvencia y Reemprendimiento, a través del Módulo de Comunicación Directa del Portal de Sujetos Fiscalizados, detallando el estado de las fianzas, sus respectivas contragarantías, las actividades realizadas y los resultados obtenidos.</parrafo>
+        </contenido>
       </articulo>
       <articulo id="37" tipo_original="Artículo" numero="37">
         <titulo_seccion>Artículo 37. Derechos de los Acreedores Afianzados</titulo_seccion>
-        <contexto>TÍTULO VII Obligaciones y Derechos de las Partes.</contexto>
-        <texto>Los acreedores afianzados por la S.A.G.R. tienen el derecho de recibir información clara y precisa sobre el estado del proceso de liquidación. Esto incluirá detalles sobre las fianzas y contragarantías, así como sobre la distribución de fondos, lo que se practicará mediante la publicación en el Boletín Concursal de los informes indicados en el artículo que precede. Los acreedores afianzados tienen derecho a ser notificados por correo electrónico o, en su defecto, a través del Boletín Concursal, de cualquier acción relevante, como la ejecución de contragarantías, pudiendo presentar oposiciones o recursos legales en caso de considerarlo necesario.</texto>
+        <contexto>Título VII Obligaciones y Derechos de las Partes.</contexto>
+        <contenido>
+          <parrafo>Los acreedores afianzados por la S.A.G.R. tienen el derecho de recibir información clara y precisa sobre el estado del proceso de liquidación.</parrafo>
+          <parrafo>Esto incluirá detalles sobre las fianzas y contragarantías, así como sobre la distribución de fondos, lo que se practicará mediante la publicación en el Boletín Concursal de los informes indicados en el artículo que precede.</parrafo>
+          <parrafo>Los acreedores afianzados tienen derecho a ser notificados por correo electrónico o, en su defecto, a través del Boletín Concursal, de cualquier acción relevante, como la ejecución de contragarantías, pudiendo presentar oposiciones o recursos legales en caso de considerarlo necesario.</parrafo>
+        </contenido>
       </articulo>
       <articulo id="38" tipo_original="Artículo" numero="38">
         <titulo_seccion>Artículo 38. Derechos de los Deudores Beneficiarios</titulo_seccion>
-        <contexto>TÍTULO VII Obligaciones y Derechos de las Partes.</contexto>
-        <texto>Los deudores beneficiarios de las fianzas emitidas por la S.A.G.R. tienen derecho a ser informados sobre el estado de sus contragarantías y cualquier acción que pueda afectar sus intereses, en la misma forma señalada en el artículo anterior. Esto incluirá la transferencia de fianzas a otras entidades y la liberación de las contragarantías. Los deudores beneficiarios tienen el derecho de presentar oposiciones en caso de ejecución de contragarantías, siempre que consideren que no procede.</texto>
+        <contexto>Título VII Obligaciones y Derechos de las Partes.</contexto>
+        <contenido>
+          <parrafo>Los deudores beneficiarios de las fianzas emitidas por la S.A.G.R. tienen derecho a ser informados sobre el estado de sus contragarantías y cualquier acción que pueda afectar sus intereses, en la misma forma señalada en el artículo anterior. Esto incluirá la transferencia de fianzas a otras entidades y la liberación de las contragarantías.</parrafo>
+          <parrafo>Los deudores beneficiarios tienen el derecho de presentar oposiciones en caso de ejecución de contragarantías, siempre que consideren que no procede.</parrafo>
+        </contenido>
       </articulo>
       <articulo id="39" tipo_original="Artículo" numero="39">
-        <titulo_seccion>Artículo 39. Comunicación de la Situación Patrimonial de la S</titulo_seccion>
-        <contexto>TÍTULO VII Obligaciones y Derechos de las Partes.</contexto>
-        <texto>A.G.R. en Liquidación. El/la liquidador/a debe proporcionar a todos los interesados una descripción detallada de la situación patrimonial de la S.A.G.R. al inicio y hasta el término del procedimiento de liquidación. Esto incluye un inventario completo de los activos y pasivos, el estado de las fianzas y contragarantías, y cualquier otra información relevante, lo que deberá ser incorporado en el informe que se presente a la Junta Constitutiva de Acreedores, y demás juntas que se celebren, sin perjuicio de lo que se señale en las actas de la incautación o de entrega de bienes.</texto>
+        <titulo_seccion>Artículo 39</titulo_seccion>
+        <contexto>Título VII Obligaciones y Derechos de las Partes.</contexto>
+        <contenido>
+          <parrafo>Comunicación de la Situación Patrimonial de la S.A.G.R. en Liquidación. El/la liquidador/a debe proporcionar a todos los interesados una descripción detallada de la situación patrimonial de la S.A.G.R. al inicio y hasta el término del procedimiento de liquidación. Esto incluye un inventario completo de los activos y pasivos, el estado de las fianzas y contragarantías, y cualquier otra información relevante, lo que deberá ser incorporado en el informe que se presente a la Junta Constitutiva de Acreedores, y demás juntas que se celebren, sin perjuicio de lo que se señale en las actas de la incautación o de entrega de bienes.</parrafo>
+        </contenido>
       </articulo>
     </titulo>
-    <titulo id="9" tipo_original="Título" numero="VIII">
-      <titulo_seccion>TÍTULO VIII Subrogación de la S.A.G.R.</titulo_seccion>
+    <titulo id="8" tipo_original="Título" numero="VIII">
+      <titulo_seccion>Título VIII Subrogación de la S.A.G.R.</titulo_seccion>
       <articulo id="40" tipo_original="Artículo" numero="40">
-        <titulo_seccion>Artículo 40. En caso de que la S</titulo_seccion>
-        <contexto>TÍTULO VIII Subrogación de la S.A.G.R.</contexto>
-        <texto>A.G.R.
-haya pagado el crédito afianzado previo a la resolución de liquidación, el/la
-liquidador/a tendrá dos acciones para dirigirse en contra del deudor
-beneficiario: la acción de reembolso establecida en el artículo 2370 del
-Código Civil y la acción subrogatoria en los derechos del acreedor afianzado,
-conforme a lo dispuesto en el numeral tercero del artículo 1610 del mismo
-Código.
-La subrogación, como mecanismo legal,
-permite a la S.A.G.R. asumir la posición jurídica del acreedor beneficiario,
-adquiriendo todos los derechos y acciones que este tenía frente al deudor
-beneficiario. En virtud de esta subrogación, el/la liquidador/a, en
-representación de la S.A.G.R. en liquidación, deberá en su caso, exigir al
-deudor beneficiario el reembolso del monto pagado por la deuda afianzada,
-junto con los intereses y gastos asociados, de acuerdo con lo estipulado en
-el contrato de garantía recíproca y las disposiciones legales aplicables,
-ejecutando la contragarantía.
-La S.A.G.R. no gozará del beneficio de
-excusión, por expresa disposición del artículo 14 de la Ley N.° 20.179.</texto>
+        <titulo_seccion>Artículo 40</titulo_seccion>
+        <contexto>Título VIII Subrogación de la S.A.G.R.</contexto>
+        <contenido>
+          <parrafo>En caso de que la S.A.G.R. haya pagado el crédito afianzado previo a la resolución de liquidación, el/la liquidador/a tendrá dos acciones para dirigirse en contra del deudor beneficiario: la acción de reembolso establecida en el artículo 2370 del Código Civil y la acción subrogatoria en los derechos del acreedor afianzado, conforme a lo dispuesto en el numeral tercero del artículo 1610 del mismo Código.</parrafo>
+          <parrafo>La subrogación, como mecanismo legal, permite a la S.A.G.R. asumir la posición jurídica del acreedor beneficiario, adquiriendo todos los derechos y acciones que este tenía frente al deudor beneficiario. En virtud de esta subrogación, el/la liquidador/a, en representación de la S.A.G.R. en liquidación, deberá en su caso, exigir al deudor beneficiario el reembolso del monto pagado por la deuda afianzada, junto con los intereses y gastos asociados, de acuerdo con lo estipulado en el contrato de garantía recíproca y las disposiciones legales aplicables, ejecutando la contragarantía.</parrafo>
+          <parrafo>La S.A.G.R. no gozará del beneficio de excusión, por expresa disposición del artículo 14 de la Ley N.° 20.179.</parrafo>
+        </contenido>
         <referencias>
-          <ref articulo="14"/>
           <ref articulo="2370"/>
           <ref articulo="1610"/>
+          <ref articulo="14"/>
         </referencias>
       </articulo>
       <articulo id="41" tipo_original="Artículo" numero="41">
-        <titulo_seccion>Artículo 41. Aunque la S</titulo_seccion>
-        <contexto>TÍTULO VIII Subrogación de la S.A.G.R.</contexto>
-        <texto>A.G.R. se
-subrogue en los derechos del acreedor afianzado, el deudor beneficiario
-seguirá estando obligado frente a la entidad por las condiciones y términos
-pactados en el contrato de garantía recíproca, lo que incluye la posibilidad
-de que la S.A.G.R. imponga intereses sobre el monto pagado, así como otros
-cargos que hubiesen sido aplicables en el contrato original, lo que deberá
-considerar el/la liquidador/a, para determinar el activo del procedimiento
-concursal.</texto>
+        <titulo_seccion>Artículo 41</titulo_seccion>
+        <contexto>Título VIII Subrogación de la S.A.G.R.</contexto>
+        <contenido>
+          <parrafo>Aunque la S.A.G.R. se subrogue en los derechos del acreedor afianzado, el deudor beneficiario seguirá estando obligado frente a la entidad por las condiciones y términos pactados en el contrato de garantía recíproca, lo que incluye la posibilidad de que la S.A.G.R. imponga intereses sobre el monto pagado, así como otros cargos que hubiesen sido aplicables en el contrato original, lo que deberá considerar el/la liquidador/a, para determinar el activo del procedimiento concursal.</parrafo>
+        </contenido>
       </articulo>
       <articulo id="42" tipo_original="Artículo" numero="42">
-        <titulo_seccion>Artículo 42. Sin perjuicio de lo dispuesto en el N</titulo_seccion>
-        <contexto>TÍTULO VIII Subrogación de la S.A.G.R.</contexto>
-        <texto>° 3 del artículo 1610 del Código Civil, cuando la S.A.G.R. efectúe el pago total o parcial de la fianza comprometida, previo a la resolución de liquidación, se subrogará en los derechos del acreedor afianzado conforme a los contratos celebrados entre las partes y en su calidad de fiador. La S.A.G.R. podrá exigir el reembolso del valor total de la fianza otorgada tanto al deudor principal como a sus codeudores o avalistas, cualquiera sea la modalidad en que se haya realizado el pago de las obligaciones afianzadas, lo que deberá ser analizado por el/la liquidador/a en los términos de los artículos precedentes.</texto>
+        <titulo_seccion>Artículo 42</titulo_seccion>
+        <contexto>Título VIII Subrogación de la S.A.G.R.</contexto>
+        <contenido>
+          <parrafo>Sin perjuicio de lo dispuesto en el N.° 3 del artículo 1610 del Código Civil, cuando la S.A.G.R. efectúe el pago total o parcial de la fianza comprometida, previo a la resolución de liquidación, se subrogará en los derechos del acreedor afianzado conforme a los contratos celebrados entre las partes y en su calidad de fiador. La S.A.G.R. podrá exigir el reembolso del valor total de la fianza otorgada tanto al deudor principal como a sus codeudores o avalistas, cualquiera sea la modalidad en que se haya realizado el pago de las obligaciones afianzadas, lo que deberá ser analizado por el/la liquidador/a en los términos de los artículos precedentes.</parrafo>
+        </contenido>
         <referencias>
           <ref articulo="1610"/>
         </referencias>
       </articulo>
       <articulo id="43" tipo_original="Artículo" numero="43">
-        <titulo_seccion>Artículo 43. Sin perjuicio de lo previamente señalado, el derecho de subrogación que corresponde a la S</titulo_seccion>
-        <contexto>TÍTULO VIII Subrogación de la S.A.G.R.</contexto>
-        <texto>A.G.R. frente al deudor beneficiario, se encontrará limitado por las disposiciones de la ley y el contrato de garantía recíproca que las partes hubieren suscrito, en cada caso. Estas limitaciones tienen como objetivo proteger los derechos del deudor beneficiario y asegurar el adecuado ejercicio de las garantías, conforme a las obligaciones de diligencia impuestas por el contrato de garantía recíproca y la legislación vigente. Por tanto, el/la liquidador/a deberá revisar las cláusulas de los contratos de garantía recíproca, a fin de determinar las limitaciones establecidas para efectos de proteger los derechos del deudor beneficiario, sin perjuicio de los de la S.A.G.R. en liquidación, requiriendo a la Empresa Deudora la entrega de tales antecedentes en virtud de su deber de colaboración, contenido en el artículo 169 de la Ley N.° 20.720, incluso por intermedio del tribunal respectivo, bajo apercibimiento legal. Disposición final.</texto>
+        <titulo_seccion>Artículo 43</titulo_seccion>
+        <contexto>Título VIII Subrogación de la S.A.G.R.</contexto>
+        <contenido>
+          <parrafo>Sin perjuicio de lo previamente señalado, el derecho de subrogación que corresponde a la S.A.G.R. frente al deudor beneficiario, se encontrará limitado por las disposiciones de la ley y el contrato de garantía recíproca que las partes hubieren suscrito, en cada caso.</parrafo>
+          <parrafo>Estas limitaciones tienen como objetivo proteger los derechos del deudor beneficiario y asegurar el adecuado ejercicio de las garantías, conforme a las obligaciones de diligencia impuestas por el contrato de garantía recíproca y la legislación vigente.</parrafo>
+          <parrafo>Por tanto, el/la liquidador/a deberá revisar las cláusulas de los contratos de garantía recíproca, a fin de determinar las limitaciones establecidas para efectos de proteger los derechos del deudor beneficiario, sin perjuicio de los de la S.A.G.R. en liquidación, requiriendo a la Empresa Deudora la entrega de tales antecedentes en virtud de su deber de colaboración, contenido en el artículo 169 de la Ley N.° 20.720, incluso por intermedio del tribunal respectivo, bajo apercibimiento legal.</parrafo>
+          <parrafo>Disposición final.</parrafo>
+        </contenido>
         <referencias>
           <ref articulo="169"/>
         </referencias>
       </articulo>
       <articulo id="44" tipo_original="Artículo" numero="44">
         <titulo_seccion>Artículo 44. Vigencia</titulo_seccion>
-        <contexto>TÍTULO VIII Subrogación de la S.A.G.R.</contexto>
-        <texto>El presente
-Instructivo comenzará a regir a contar de su notificación por correo
-electrónico a los sujetos fiscalizados, sin perjuicio de su publicación en el
-Diario Oficial.</texto>
+        <contexto>Título VIII Subrogación de la S.A.G.R.</contexto>
+        <contenido>
+          <parrafo>El presente Instructivo comenzará a regir a contar de su notificación por correo electrónico a los sujetos fiscalizados, sin perjuicio de su publicación en el Diario Oficial.</parrafo>
+        </contenido>
       </articulo>
     </titulo>
   </contenido>
-  <promulgacion>RESUELVO:
+  <disposiciones_finales>
+    <texto>RESUELVO:
 
-I. APRUÉBASE el siguiente Instructivo
-Superir N.° 1 que regula el tratamiento de fianzas, preferencias y
-contragarantías en los procedimientos concursales de liquidación en que una
-Sociedad Anónima de Garantía Recíproca (S.A.G.R.) tenga la calidad de
-Deudor.
-INSTRUCTIVO SUPERIR N.° 1
-QUE REGULA EL TRATAMIENTO DE FIANZAS, PREFERENCIAS Y
-CONTRAGARANTÍAS EN LOS PROCEDIMIENTOS CONCURSALES DE
-LIQUIDACIÓN EN QUE UNA SOCIEDAD ANÓNIMA DE GARANTÍA
-RECÍPROCA TENGA LA CALIDAD DE DEUDOR.
+I. APRUÉBASE el siguiente Instructivo Superir N.° 1 que regula el tratamiento de fianzas, preferencias y contragarantías en los procedimientos concursales de liquidación en que una Sociedad Anónima de Garantía Recíproca (S.A.G.R.) tenga la calidad de Deudor.
 
-II. NOTIFÍQUESE la presente resolución a
-los/las liquidadores/as que se encuentren vigentes en las Nóminas de
-Liquidadores/as de la Superintendencia de Insolvencia y Reemprendimiento.
-III. PUBLÍQUESE la presente resolución en
-el Diario Oficial.
-IV. DISPÓNGASE como medida de
-publicidad, una vez que se encuentre totalmente tramitado el presente acto
-administrativo, su publicación en el sitio web institucional de la
-Superintendencia de Insolvencia y Reemprendimiento.
-ANÓTESE, Y ARCHÍVESE,
-PCG/JAA/FRC/EGZ/JCMV/SCP/DTC/SUS/FRR/EPS
-DISTRIBUCIÓN:
-Señores/as Liquidadores/as Concursales
-Presente
-19</promulgacion>
+INSTRUCTIVO SUPERIR N.° 1 QUE REGULA EL TRATAMIENTO DE FIANZAS, PREFERENCIAS Y CONTRAGARANTÍAS EN LOS PROCEDIMIENTOS CONCURSALES DE LIQUIDACIÓN EN QUE UNA SOCIEDAD ANÓNIMA DE GARANTÍA RECÍPROCA TENGA LA CALIDAD DE DEUDOR.
+
+II. NOTIFÍQUESE la presente resolución a los/las liquidadores/as que se encuentren vigentes en las Nóminas de Liquidadores/as de la Superintendencia de Insolvencia y Reemprendimiento.
+
+III. PUBLÍQUESE la presente resolución en el Diario Oficial.
+
+IV. DISPÓNGASE como medida de publicidad, una vez que se encuentre totalmente tramitado el presente acto administrativo, su publicación en el sitio web institucional de la Superintendencia de Insolvencia y Reemprendimiento.
+
+ANÓTESE, Y ARCHÍVESE,</texto>
+  </disposiciones_finales>
 </ley>

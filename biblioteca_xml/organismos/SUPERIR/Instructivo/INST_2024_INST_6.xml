@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ley xmlns="https://leychile.cl/schema/ley/v1" version="1.0" idioma="es-CL" id_norma="INST-6" tipo="Instructivo" numero="6" estado="vigente" fecha_version="2024-11-04" fecha_promulgacion="2024-11-04" fecha_publicacion="2024-11-04" generado="2026-02-11T15:27:12.410099" fuente="Biblioteca del Congreso Nacional de Chile" url_original="https://www.superir.gob.cl/wp-content/uploads/2024/11/RES_NUM_16245_A_O_2024.pdf">
+<ley xmlns="https://leychile.cl/schema/ley/v1" version="1.1" idioma="es-CL" id_norma="INST-6" tipo="Instructivo" numero="6" estado="vigente" fecha_version="2024-11-04" fecha_promulgacion="2024-11-04" fecha_publicacion="2024-11-04" generado="2026-02-13T02:35:58.492300" fuente="Biblioteca del Congreso Nacional de Chile" url_original="https://www.superir.gob.cl/wp-content/uploads/2024/11/RES_NUM_16245_A_O_2024.pdf">
   <metadatos>
-    <titulo>INSTRUCTIVO SUPERIR N°6 - Liquidaciones electrónicas de sueldo y firma electrónica</titulo>
+    <titulo>INSTRUCTIVO SUPERIR N°6 - Finiquitos laborales electrónicos y firma electrónica en el procedimiento concursal de liquidación</titulo>
     <identificacion>
       <tipo>Instructivo</tipo>
       <numero>6</numero>
@@ -10,12 +10,12 @@
       <organismo>Superintendencia de Insolvencia y Reemprendimiento</organismo>
     </organismos>
     <materias>
-      <materia>Liquidaciones electrónicas</materia>
+      <materia>Finiquitos laborales electrónicos</materia>
       <materia>Firma electrónica</materia>
-      <materia>Procedimiento de liquidación</materia>
+      <materia>Procedimiento concursal de liquidación</materia>
     </materias>
     <nombres_comunes>
-      <nombre>Instructivo de Liquidaciones Electrónicas</nombre>
+      <nombre>Instructivo de Finiquitos Electrónicos</nombre>
     </nombres_comunes>
     <fechas>
       <promulgacion>2024-11-04</promulgacion>
@@ -25,118 +25,46 @@
     <fuente>Superintendencia de Insolvencia y Reemprendimiento</fuente>
     <numero_fuente>16245</numero_fuente>
     <leyes_referenciadas>
-      <ley_ref>Ley 20.720</ley_ref>
-      <ley_ref>Ley 21.563</ley_ref>
-      <ley_ref>Ley 18.575</ley_ref>
-      <ley_ref>Ley 19.880</ley_ref>
-      <ley_ref>Ley 19.799</ley_ref>
-      <ley_ref>Ley 21.361</ley_ref>
-      <ley_ref>Ley 21.582</ley_ref>
-      <ley_ref>DFL 1-19.653</ley_ref>
-      <ley_ref>D.S. 181</ley_ref>
+      <ley_ref tipo="Ley" numero="20.720">Ley 20.720</ley_ref>
+      <ley_ref tipo="Ley" numero="21.563">Ley 21.563</ley_ref>
+      <ley_ref tipo="Ley" numero="18.575">Ley 18.575</ley_ref>
+      <ley_ref tipo="Ley" numero="19.880">Ley 19.880</ley_ref>
+      <ley_ref tipo="Ley" numero="19.799">Ley 19.799</ley_ref>
+      <ley_ref tipo="Ley" numero="21.361">Ley 21.361</ley_ref>
+      <ley_ref tipo="Ley" numero="21.582">Ley 21.582</ley_ref>
+      <ley_ref tipo="DFL" numero="1-19.653">DFL 1-19.653</ley_ref>
+      <ley_ref tipo="D.S." numero="181">D.S. 181</ley_ref>
     </leyes_referenciadas>
   </metadatos>
-  <encabezado>VISTOS:
+  <encabezado>
+    <vistos>Las facultades que le confiere la Ley N.° 20.720, que sustituye el régimen concursal vigente por una Ley de Reorganización y Liquidación de Activos de Empresas y Personas, a la Superintendencia de Insolvencia y Reemprendimiento; lo dispuesto en la Ley N.° 21.563, que Moderniza los Procedimientos Concursales Contemplados en la Ley N.° 20.720 y Crea Nuevos Procedimientos para Micro y Pequeñas Empresas; en el D.F.L. N.° 1-19.653 de 17 de noviembre de 2001, que fija el texto Refundido, Coordinado y Sistematizado de la Ley N.° 18.575, Orgánica Constitucional de Bases Generales de la Administración del Estado; en la Ley N.° 19.880, de Bases de los Procedimientos Administrativos que Rigen los Actos de los Órganos de la Administración del Estado; en la Ley N.º 19.799 sobre Documentos Electrónicos, Firma Electrónica y Servicios de Certificación de Dicha Firma; en el Decreto Supremo N.º 181 de 17 de agosto de 2002, del Ministerio de Economía; Fomento y Turismo, que Aprueba el Reglamento de la Ley N.º 19.799 sobre Documentos Electrónicos, Firma Electrónica y la Certificación de Dicha Firma; en la Resolución N.° 7 de 26 de marzo de 2019 de la Contraloría General de la República, que fija normas sobre Exención del Trámite de Toma de Razón; y, en el Decreto N.° 08 de 19 de enero de 2023, del Ministerio de Economía, Fomento y Turismo, y las necesidades de buen servicio de esta Superintendencia.</vistos>
+    <considerandos>1º Que, de conformidad con lo dispuesto en el artículo 331 y siguientes de la Ley N.° 20.720, en adelante “la Ley”, la Superintendencia de Insolvencia y Reemprendimiento, en adelante “la Superintendencia”, es una persona jurídica de derecho público, creada por Ley, como un servicio público descentralizado con personalidad jurídica y patrimonio propio, que se relaciona con el Presidente de la República, a través del Ministerio de Economía, Fomento y Turismo, y tiene como función supervigilar y fiscalizar las actuaciones de los/las liquidadores/as, veedores/as, interventores/as designados de conformidad a la Ley, martilleros/as concursales, administradores/as de la continuación de las actividades económicas del deudor, asesores/as económicos/as de insolvencia, y, de toda persona que por ley quede sujeta a su supervigilancia y fiscalización. Asimismo, le corresponde desempeñar aquellas funciones que la referida ley le encomienda, así como las demás que se establezcan en otras leyes;
 
-Las facultades que le confiere la Ley N.° 20.720,
-que sustituye el régimen concursal vigente por una Ley de Reorganización y
-Liquidación de Activos de Empresas y Personas, a la Superintendencia de
-Insolvencia y Reemprendimiento; lo dispuesto en la Ley N.° 21.563, que
-Moderniza los Procedimientos Concursales Contemplados en la Ley N.°
-20.720 y Crea Nuevos Procedimientos para Micro y Pequeñas Empresas; en
-el D.F.L. N.° 1-19.653 de 17 de noviembre de 2001, que fija el texto
-Refundido, Coordinado y Sistematizado de la Ley N.° 18.575, Orgánica
-Constitucional de Bases Generales de la Administración del Estado; en la Ley
-N.° 19.880, de Bases de los Procedimientos Administrativos que Rigen los
-Actos de los Órganos de la Administración del Estado; en la Ley N.º 19.799
-sobre Documentos Electrónicos, Firma Electrónica y Servicios de Certificación
-de Dicha Firma; en el Decreto Supremo N.º 181 de 17 de agosto de 2002,
-del Ministerio de Economía; Fomento y Turismo, que Aprueba el Reglamento
-de la Ley N.º 19.799 sobre Documentos Electrónicos, Firma Electrónica y la
-Certificación de Dicha Firma; en la Resolución N.° 7 de 26 de marzo de 2019
-de la Contraloría General de la República, que fija normas sobre Exención del
-Trámite de Toma de Razón; y, en el Decreto N.° 08 de 19 de enero de 2023,
-del Ministerio de Economía, Fomento y Turismo, y las necesidades de buen
-servicio de esta Superintendencia.
+2° Que, el artículo 337 de la Ley dispone que para el cumplimiento de sus funciones, la Superintendencia tendrá las atribuciones y deberes que allí señala, otorgándole en su numeral 4 la facultad de: “Impartir a los Veedores, Liquidadores, administradores de la continuación de las actividades económicas, Martilleros Concursales que se sometan voluntariamente al control de la Superintendencia y asesores económicos de insolvencias, instrucciones de carácter obligatorio sobre las materias sometidas a su control y, en especial, fijar normas para la presentación de informes, estados de avance y cuentas provisorias o definitivas que deban presentar los fiscalizados.”;
 
-CONSIDERANDO:
+3° Que, el artículo 163 bis del Código del Trabajo, dispone en su numeral 5, el deber de el/la liquidador/a de emitir el finiquito laboral a los ex trabajadores de la Empresa Deudora, agregando que “deberá ser autorizado por un Ministro de Fe, sea éste Notario Público o Inspector del Trabajo, aun cuando las cotizaciones previsionales se encuentren impagas.”
 
-1º Que, de conformidad con lo dispuesto en el
-artículo 331 y siguientes de la Ley N.° 20.720, en adelante “la Ley”, la
-Superintendencia de Insolvencia y Reemprendimiento, en adelante “la
-Superintendencia”, es una persona jurídica de derecho público, creada por
-Ley, como un servicio público descentralizado con personalidad jurídica y
-patrimonio propio, que se relaciona con el Presidente de la República, a
-través del Ministerio de Economía, Fomento y Turismo, y tiene como función
-supervigilar y fiscalizar las actuaciones de los/las liquidadores/as,
-veedores/as, interventores/as designados de conformidad a la Ley,
-martilleros/as concursales, administradores/as de la continuación de las
-actividades económicas del deudor, asesores/as económicos/as de
-insolvencia, y, de toda persona que por ley quede sujeta a su supervigilancia
-y fiscalización. Asimismo, le corresponde desempeñar aquellas funciones que
-la referida ley le encomienda, así como las demás que se establezcan en
-otras leyes;
-2° Que, el artículo 337 de la Ley dispone que para
-el cumplimiento de sus funciones, la Superintendencia tendrá las
-atribuciones y deberes que allí señala, otorgándole en su numeral 4 la
-facultad de: “Impartir a los Veedores, Liquidadores, administradores de la
-continuación de las actividades económicas, Martilleros Concursales que se
-sometan voluntariamente al control de la Superintendencia y asesores
-económicos de insolvencias, instrucciones de carácter obligatorio sobre las
-materias sometidas a su control y, en especial, fijar normas para la
-presentación de informes, estados de avance y cuentas provisorias o
-definitivas que deban presentar los fiscalizados.”;
-3° Que, el artículo 163 bis del Código del Trabajo,
-dispone en su numeral 5, el deber de el/la liquidador/a de emitir el finiquito
-laboral a los ex trabajadores de la Empresa Deudora, agregando que “deberá
-ser autorizado por un Ministro de Fe, sea éste Notario Público o Inspector del
-Trabajo, aun cuando las cotizaciones previsionales se encuentren impagas.”
-4° Que, la Ley N.° 21.361, incorporó el inciso
-octavo al artículo 162 del Código del Trabajo, estableciendo que se puede
-otorgar el finiquito laboral “en forma presencial o electrónica, indicando
-expresamente que es voluntario para el trabajador aceptar, firmar y recibir
-el pago en forma electrónica y que siempre podrá optar por la actuación
-presencial ante un ministro de fe.”
-5° Que, la misma Ley N.° 21.361 que adecua el
-Código del Trabajo en materia de documentos electrónicos laborales,
-incorporó el inciso tercero del artículo 177 del Código del Trabajo,
-estableciendo que “se considerará como ratificado ante el inspector del
-trabajo el finiquito que sea otorgado por el empleador en el
-sitio electrónico de la Dirección del Trabajo, que cumpla la normativa legal
-correspondiente y sea firmado electrónicamente por el trabajador en el
-mismo sitio.”
-6° Que, la Ley N.º 21.582, que suprime o modifica
-la intervención de notarios en trámites, actuaciones y gestiones
-determinadas, establece en su artículo 1° que “Los organismos del Estado
-no podrán exigir la presentación de autorizaciones notariales de firmas en
-documentos otorgados en soporte de papel o electrónico, para la ejecución
-de trámites que deban realizarse ante éstos, salvo que dicha autorización
-sea expresamente requerida por mandato legal o reglamentario.”
-7° Que, en la fiscalización efectuada a los/as
-liquidadores/as en relación con la emisión de los finiquitos laborales
-antedichos, se ha observado que, en general, estos han sido autorizados por
-Notario Público, obviando la posibilidad que contempla la actual normativa
-de realizar tal gestión mediante Inspector del Trabajo.
-8° Que, revisado el portal “Mi DT” de la página web
-de la Dirección del Trabajo, el/la Liquidador/a en su calidad de representante
-legal de la Empresa Deudora, de acuerdo con los artículos 36, 130 y demás
-normas pertinentes de la Ley N.° 20.720, así como del artículo 163 bis del
-Código del Trabajo, se encuentra facultado para emitir el finiquito laboral
-electrónico a través de tal plataforma;
-9° Que, atendido lo expuesto y de conformidad con
-lo dispuesto en el artículo 3° de la Ley N.º 19.880 y demás normas legales
-pertinentes,</encabezado>
-  <contenido total_articulos="11" total_libros="0" total_titulos="2" total_capitulos="1">
+4° Que, la Ley N.° 21.361, incorporó el inciso octavo al artículo 162 del Código del Trabajo, estableciendo que se puede otorgar el finiquito laboral “en forma presencial o electrónica, indicando expresamente que es voluntario para el trabajador aceptar, firmar y recibir el pago en forma electrónica y que siempre podrá optar por la actuación presencial ante un ministro de fe.”
+
+5° Que, la misma Ley N.° 21.361 que adecua el Código del Trabajo en materia de documentos electrónicos laborales, incorporó el inciso tercero del artículo 177 del Código del Trabajo, estableciendo que “se considerará como ratificado ante el inspector del trabajo el finiquito que sea otorgado por el empleador en el sitio electrónico de la Dirección del Trabajo, que cumpla la normativa legal correspondiente y sea firmado electrónicamente por el trabajador en el mismo sitio.”
+
+6° Que, la Ley N.º 21.582, que suprime o modifica la intervención de notarios en trámites, actuaciones y gestiones determinadas, establece en su artículo 1° que “Los organismos del Estado no podrán exigir la presentación de autorizaciones notariales de firmas en documentos otorgados en soporte de papel o electrónico, para la ejecución de trámites que deban realizarse ante éstos, salvo que dicha autorización sea expresamente requerida por mandato legal o reglamentario.”
+
+7° Que, en la fiscalización efectuada a los/as liquidadores/as en relación con la emisión de los finiquitos laborales antedichos, se ha observado que, en general, estos han sido autorizados por Notario Público, obviando la posibilidad que contempla la actual normativa de realizar tal gestión mediante Inspector del Trabajo.
+
+8° Que, revisado el portal “Mi DT” de la página web de la Dirección del Trabajo, el/la Liquidador/a en su calidad de representante legal de la Empresa Deudora, de acuerdo con los artículos 36, 130 y demás normas pertinentes de la Ley N.° 20.720, así como del artículo 163 bis del Código del Trabajo, se encuentra facultado para emitir el finiquito laboral electrónico a través de tal plataforma;
+
+9° Que, atendido lo expuesto y de conformidad con lo dispuesto en el artículo 3° de la Ley N.º 19.880 y demás normas legales pertinentes,</considerandos>
+  </encabezado>
+  <contenido total_articulos="11" total_libros="0" total_titulos="2" total_capitulos="0">
     <titulo id="1" tipo_original="Título" numero="I">
       <titulo_seccion>TÍTULO I NORMAS GENERALES</titulo_seccion>
       <articulo id="1" tipo_original="Artículo" numero="1">
         <titulo_seccion>Artículo 1</titulo_seccion>
         <contexto>TÍTULO I NORMAS GENERALES</contexto>
-        <texto>El/la Liquidador/a deberá poner a
-disposición del trabajador, el respectivo finiquito laboral, debiendo ser
-autorizado por un ministro de fe, sea este Notario Público o Inspector del
-Trabajo, de conformidad con el número 5 del artículo 163 bis del Código del
-Trabajo.</texto>
+        <contenido>
+          <parrafo>El/la Liquidador/a deberá poner a disposición del trabajador, el respectivo finiquito laboral, debiendo ser autorizado por un ministro de fe, sea este Notario Público o Inspector del Trabajo, de conformidad con el número 5 del artículo 163 bis del Código del Trabajo.</parrafo>
+        </contenido>
         <referencias>
           <ref articulo="163bis"/>
         </referencias>
@@ -144,55 +72,29 @@ Trabajo.</texto>
       <articulo id="2" tipo_original="Artículo" numero="2">
         <titulo_seccion>Artículo 2</titulo_seccion>
         <contexto>TÍTULO I NORMAS GENERALES</contexto>
-        <texto>El Finiquito Laboral Electrónico es aquel
-documento que permite a las partes dejar constancia del término del contrato
-de trabajo, de las obligaciones derivadas del mismo, del detalle de los pagos
-que corresponda efectuar con motivo de dicho término y de otros pactos
-relacionados con el mismo hecho. 1
-1 https://www.dt.gob.cl/portal/1628/w3-article-117372.html consultada el 10 de octubre de 2024.
-El trámite se encuentra disponible en el Portal MI DT,
-donde la Dirección del Trabajo, en su calidad de ministro de fe certificará,
-además de la identidad y el acuerdo entre las partes, que el pago se haya
-realizado mediante la plataforma de la Tesorería General de la República.
-Párrafo II
-Emisión del finiquito laboral electrónico</texto>
+        <contenido>
+          <parrafo>El Finiquito Laboral Electrónico es aquel documento que permite a las partes dejar constancia del término del contrato de trabajo, de las obligaciones derivadas del mismo, del detalle de los pagos que corresponda efectuar con motivo de dicho término y de otros pactos relacionados con el mismo hecho. 1</parrafo>
+          <parrafo>1 https://www.dt.gob.cl/portal/1628/w3-article-117372.html consultada el 10 de octubre de 2024.</parrafo>
+          <parrafo>El trámite se encuentra disponible en el Portal MI DT, donde la Dirección del Trabajo, en su calidad de ministro de fe certificará, además de la identidad y el acuerdo entre las partes, que el pago se haya realizado mediante la plataforma de la Tesorería General de la República.</parrafo>
+        </contenido>
       </articulo>
       <articulo id="3" tipo_original="Artículo" numero="3">
         <titulo_seccion>Artículo 3</titulo_seccion>
         <contexto>TÍTULO I NORMAS GENERALES</contexto>
-        <texto>El/la Liquidador/a deberá considerar para
-la emisión del finiquito laboral electrónico, las disposiciones contenidas en
-los artículos 162, 163 bis, 177 del Código del Trabajo, y demás disposiciones
-que resulten aplicables al Procedimiento Concursal de Liquidación.
-Para poder optar a la emisión del finiquito laboral
-electrónico, será necesario que el extrabajador no tenga cotizaciones
-previsionales impagas, en consideración a que la plataforma no permitirá la
-elaboración del finiquito en caso de que estas no se encuentren al día.
-En caso que se encuentren pagadas las cotizaciones
-laborales, el/la liquidador/a deberá dar lugar a la emisión del finiquito laboral
-electrónico de conformidad a las instrucciones contenidas en el presente
-Instructivo.</texto>
+        <contenido>
+          <parrafo>El/la Liquidador/a deberá considerar para la emisión del finiquito laboral electrónico, las disposiciones contenidas en los artículos 162, 163 bis, 177 del Código del Trabajo, y demás disposiciones que resulten aplicables al Procedimiento Concursal de Liquidación.</parrafo>
+          <parrafo>Para poder optar a la emisión del finiquito laboral electrónico, será necesario que el extrabajador no tenga cotizaciones previsionales impagas, en consideración a que la plataforma no permitirá la elaboración del finiquito en caso de que estas no se encuentren al día.</parrafo>
+          <parrafo>En caso que se encuentren pagadas las cotizaciones laborales, el/la liquidador/a deberá dar lugar a la emisión del finiquito laboral electrónico de conformidad a las instrucciones contenidas en el presente Instructivo.</parrafo>
+        </contenido>
       </articulo>
       <articulo id="4" tipo_original="Artículo" numero="4">
         <titulo_seccion>Artículo 4</titulo_seccion>
         <contexto>TÍTULO I NORMAS GENERALES</contexto>
-        <texto>Para la emisión del finiquito laboral
-electrónico, y una vez asumida la titularidad del cargo, el/la Liquidador/a
-deberá requerir al representante legal de la Empresa Deudora, los datos que
-permitan ingresar al portal “Mi DT”, de la Dirección del Trabajo, así como el
-correo electrónico registrado en él, ello en virtud del deber de colaboración
-del Deudor, establecido en el artículo 169 de la Ley N.º 20.720.
-Con tales antecedentes, el/la Liquidador/a deberá
-ingresar a la respectiva plataforma, seleccionando el perfil “empleador”, y
-emitir el finiquito laboral electrónico en relación con el RUT de la Empresa
-Deudora, toda vez que el “representante laboral electrónico” puede tener
-registrado un conjunto de empresas en el portal señalado.
-En caso que el Deudor no proporcione todos los
-antecedentes para la emisión del finiquito laboral electrónico, el/la
-Liquidador/a deberá requerir la entrega de ellos por medio del tribunal del
-procedimiento concursal, bajo apercibimiento de arresto hasta por dos meses
-o multa que no podrá exceder las 10 unidades tributarias mensuales, de
-acuerdo con el artículo 169 antes citado.</texto>
+        <contenido>
+          <parrafo>Para la emisión del finiquito laboral electrónico, y una vez asumida la titularidad del cargo, el/la Liquidador/a deberá requerir al representante legal de la Empresa Deudora, los datos que permitan ingresar al portal “Mi DT”, de la Dirección del Trabajo, así como el correo electrónico registrado en él, ello en virtud del deber de colaboración del Deudor, establecido en el artículo 169 de la Ley N.º 20.720.</parrafo>
+          <parrafo>Con tales antecedentes, el/la Liquidador/a deberá ingresar a la respectiva plataforma, seleccionando el perfil “empleador”, y emitir el finiquito laboral electrónico en relación con el RUT de la Empresa Deudora, toda vez que el “representante laboral electrónico” puede tener registrado un conjunto de empresas en el portal señalado.</parrafo>
+          <parrafo>En caso que el Deudor no proporcione todos los antecedentes para la emisión del finiquito laboral electrónico, el/la Liquidador/a deberá requerir la entrega de ellos por medio del tribunal del procedimiento concursal, bajo apercibimiento de arresto hasta por dos meses o multa que no podrá exceder las 10 unidades tributarias mensuales, de acuerdo con el artículo 169 antes citado.</parrafo>
+        </contenido>
         <referencias>
           <ref articulo="169"/>
         </referencias>
@@ -200,25 +102,12 @@ acuerdo con el artículo 169 antes citado.</texto>
       <articulo id="5" tipo_original="Artículo" numero="5">
         <titulo_seccion>Artículo 5</titulo_seccion>
         <contexto>TÍTULO I NORMAS GENERALES</contexto>
-        <texto>Previo a la emisión del finiquito laboral
-electrónico, y siempre que tenga los datos del empleador para ello, el/la
-Liquidador/a deberá informar al ex trabajador, en el aviso de término del
-contrato laboral, que otorgará el finiquito en tales términos, indicando
-expresamente que es voluntario para el trabajador aceptar y firmar en forma
-electrónica y que siempre podrá optar por la actuación presencial ante un
-ministro de fe, según el inciso octavo del artículo 162 del Código del Trabajo.
-Asimismo, deberá indicar que el extrabajador tiene un plazo de diez días
-hábiles para aceptar, con o sin reserva de acciones, o bien rechazar
-completamente la propuesta contenida en el finiquito electrónico.
-Para tales efectos, en la misma comunicación que haga
-el/la liquidador/a, se deberá señalar el plazo y la forma en que el/la
-trabajador/a deberá comunicar su intención de suscribir el finiquito
-presencialmente ante ministro de fe.
-Con todo, si, transcurridos 10 días hábiles sin que el ex
-trabajador responda la propuesta de Finiquito Laboral Electrónico, ésta
-quedará sin efecto, generándose un "Comprobante de caducidad de
-propuesta de finiquito laboral". En este caso, el/la liquidador/a deberá
-elaborar una nueva propuesta, por esta vía o de manera presencial.</texto>
+        <contenido>
+          <parrafo>Previo a la emisión del finiquito laboral electrónico, y siempre que tenga los datos del empleador para ello, el/la Liquidador/a deberá informar al ex trabajador, en el aviso de término del contrato laboral, que otorgará el finiquito en tales términos, indicando expresamente que es voluntario para el trabajador aceptar y firmar en forma electrónica y que siempre podrá optar por la actuación presencial ante un ministro de fe, según el inciso octavo del artículo 162 del Código del Trabajo.</parrafo>
+          <parrafo>Asimismo, deberá indicar que el extrabajador tiene un plazo de diez días hábiles para aceptar, con o sin reserva de acciones, o bien rechazar completamente la propuesta contenida en el finiquito electrónico.</parrafo>
+          <parrafo>Para tales efectos, en la misma comunicación que haga el/la liquidador/a, se deberá señalar el plazo y la forma en que el/la trabajador/a deberá comunicar su intención de suscribir el finiquito presencialmente ante ministro de fe.</parrafo>
+          <parrafo>Con todo, si, transcurridos 10 días hábiles sin que el ex trabajador responda la propuesta de Finiquito Laboral Electrónico, ésta quedará sin efecto, generándose un &quot;Comprobante de caducidad de propuesta de finiquito laboral&quot;. En este caso, el/la liquidador/a deberá elaborar una nueva propuesta, por esta vía o de manera presencial.</parrafo>
+        </contenido>
         <referencias>
           <ref articulo="162"/>
         </referencias>
@@ -226,56 +115,32 @@ elaborar una nueva propuesta, por esta vía o de manera presencial.</texto>
       <articulo id="6" tipo_original="Artículo" numero="6">
         <titulo_seccion>Artículo 6</titulo_seccion>
         <contexto>TÍTULO I NORMAS GENERALES</contexto>
-        <texto>Emitido el finiquito laboral en forma
-electrónica, el trabajador podrá firmarlo presencialmente ante el Inspector
-del Trabajo que corresponda, o en forma electrónica en el mismo sitio web
-en que fue emitido, y tendrá la misma validez que aquel firmado
-presencialmente, por lo que el/la Liquidador/a no podrá establecer otros
-requisitos para proceder a su pago, salvo que se haya aceptado parcialmente
-y se presentare demanda laboral que obligare a efectuar una reserva de
-fondos, o bien, si existieren circunstancias ajenas a tal crédito laboral que
-impidieren proceder al pago o abono respectivo.
-Párrafo II
-Rechazo del finiquito laboral electrónico</texto>
+        <contenido>
+          <parrafo>Emitido el finiquito laboral en forma electrónica, el trabajador podrá firmarlo presencialmente ante el Inspector del Trabajo que corresponda, o en forma electrónica en el mismo sitio web en que fue emitido, y tendrá la misma validez que aquel firmado presencialmente, por lo que el/la Liquidador/a no podrá establecer otros requisitos para proceder a su pago, salvo que se haya aceptado parcialmente y se presentare demanda laboral que obligare a efectuar una reserva de fondos, o bien, si existieren circunstancias ajenas a tal crédito laboral que impidieren proceder al pago o abono respectivo.</parrafo>
+        </contenido>
       </articulo>
       <articulo id="7" tipo_original="Artículo" numero="7">
         <titulo_seccion>Artículo 7</titulo_seccion>
         <contexto>TÍTULO I NORMAS GENERALES</contexto>
-        <texto>El trabajador podrá rechazar la propuesta
-del/la Liquidador/a y manifestar sus observaciones al finiquito,
-concluyéndose el proceso en la plataforma electrónica, por lo que el/la
-Liquidador/a deberá generar un nuevo finiquito de forma presencial, dentro
-de los 5 días siguientes de la notificación del rechazo del finiquito.
-Con todo, el/la liquidador/a que deba generar un nuevo
-finiquito de manera presencial por haber sido rechazado el suscrito de forma
-electrónica, deberá efectuar las respectivas reservas en caso de que existan
-fondos disponibles en el tiempo intermedio entre que se genera el nuevo
-finiquito y este sea suscrito por el ex trabajador.
-PÁRRAFO III
-Pago del Finiquito laboral electrónico.</texto>
+        <contenido>
+          <parrafo>El trabajador podrá rechazar la propuesta del/la Liquidador/a y manifestar sus observaciones al finiquito, concluyéndose el proceso en la plataforma electrónica, por lo que el/la Liquidador/a deberá generar un nuevo finiquito de forma presencial, dentro de los 5 días siguientes de la notificación del rechazo del finiquito.</parrafo>
+          <parrafo>Con todo, el/la liquidador/a que deba generar un nuevo finiquito de manera presencial por haber sido rechazado el suscrito de forma electrónica, deberá efectuar las respectivas reservas en caso de que existan fondos disponibles en el tiempo intermedio entre que se genera el nuevo finiquito y este sea suscrito por el ex trabajador.</parrafo>
+        </contenido>
       </articulo>
       <articulo id="8" tipo_original="Artículo" numero="8">
         <titulo_seccion>Artículo 8</titulo_seccion>
         <contexto>TÍTULO I NORMAS GENERALES</contexto>
-        <texto>Si el finiquito electrónico es aceptado por
-el extrabajador, el/la liquidador/a deberá proceder a su pago de acuerdo a
-las reglas generales contenidas en la Ley N.° 20.720, una vez que existan
-fondos disponibles para proceder al efecto.
-Por lo anterior, el plazo de 5 días establecido en la
-Plataforma de “Mi DT” para efectuar el pago del finiquito suscrito, no regirá
-para los casos regulados en el presente Instructivo.
-PÁRRAFO IV
-Emisión del finiquito en forma presencial</texto>
+        <contenido>
+          <parrafo>Si el finiquito electrónico es aceptado por el extrabajador, el/la liquidador/a deberá proceder a su pago de acuerdo a las reglas generales contenidas en la Ley N.° 20.720, una vez que existan fondos disponibles para proceder al efecto.</parrafo>
+          <parrafo>Por lo anterior, el plazo de 5 días establecido en la Plataforma de “Mi DT” para efectuar el pago del finiquito suscrito, no regirá para los casos regulados en el presente Instructivo.</parrafo>
+        </contenido>
       </articulo>
       <articulo id="9" tipo_original="Artículo" numero="9">
         <titulo_seccion>Artículo 9</titulo_seccion>
         <contexto>TÍTULO I NORMAS GENERALES</contexto>
-        <texto>Si el/la Liquidador/a no pudiere generar el
-finiquito electrónico por encontrarse las cotizaciones previsionales impagas,
-no obtuviera los antecedentes requeridos para emitir el finiquito en forma
-electrónica, o este fuere rechazado, deberá igualmente otorgarlo en forma
-presencial y dentro de plazo, en relación con el número 5 del artículo 163 bis
-del Código del Trabajo.</texto>
+        <contenido>
+          <parrafo>Si el/la Liquidador/a no pudiere generar el finiquito electrónico por encontrarse las cotizaciones previsionales impagas, no obtuviera los antecedentes requeridos para emitir el finiquito en forma electrónica, o este fuere rechazado, deberá igualmente otorgarlo en forma presencial y dentro de plazo, en relación con el número 5 del artículo 163 bis del Código del Trabajo.</parrafo>
+        </contenido>
         <referencias>
           <ref articulo="163bis"/>
         </referencias>
@@ -283,16 +148,9 @@ del Código del Trabajo.</texto>
       <articulo id="10" tipo_original="Artículo" numero="10">
         <titulo_seccion>Artículo 10</titulo_seccion>
         <contexto>TÍTULO I NORMAS GENERALES</contexto>
-        <texto>Respecto al finiquito en forma presencial,
-el/la Liquidador/a podrá emitirlo haciendo entrega de este al Inspector del
-Trabajo para su autorización, en su calidad de ministro de fe, debiendo
-informarle que aquel se relaciona con un Procedimiento Concursal de
-Liquidación, y que no resulta procedente para su autorización, la acreditación
-del pago de cotizaciones previsionales, puesto que en caso que se encuentren
-impagas, el término del contrato operó de pleno derecho por resolución de
-liquidación de la Empresa Deudora, en virtud del artículo 163 bis del Código
-del Trabajo, no operando la convalidación de los incisos quinto y sexto del
-artículo 162 del mismo cuerpo legal.</texto>
+        <contenido>
+          <parrafo>Respecto al finiquito en forma presencial, el/la Liquidador/a podrá emitirlo haciendo entrega de este al Inspector del Trabajo para su autorización, en su calidad de ministro de fe, debiendo informarle que aquel se relaciona con un Procedimiento Concursal de Liquidación, y que no resulta procedente para su autorización, la acreditación del pago de cotizaciones previsionales, puesto que en caso que se encuentren impagas, el término del contrato operó de pleno derecho por resolución de liquidación de la Empresa Deudora, en virtud del artículo 163 bis del Código del Trabajo, no operando la convalidación de los incisos quinto y sexto del artículo 162 del mismo cuerpo legal.</parrafo>
+        </contenido>
         <referencias>
           <ref articulo="162"/>
           <ref articulo="163bis"/>
@@ -300,41 +158,31 @@ artículo 162 del mismo cuerpo legal.</texto>
       </articulo>
     </titulo>
     <titulo id="2" tipo_original="Título" numero="II">
-      <titulo_seccion>TÍTULO II Párrafo I</titulo_seccion>
+      <titulo_seccion>TÍTULO II Párrafo I Aplicación</titulo_seccion>
       <articulo id="11" tipo_original="Artículo" numero="11">
         <titulo_seccion>Artículo 11</titulo_seccion>
-        <contexto>TÍTULO II Párrafo I</contexto>
-        <texto>El presente Instructivo será aplicable a
-los procedimientos concursales de liquidación ordinarios contemplados en el</texto>
+        <contexto>TÍTULO II Párrafo I Aplicación</contexto>
+        <contenido>
+          <parrafo>El presente Instructivo será aplicable a los procedimientos concursales de liquidación ordinarios contemplados en el Capítulo IV y los procedimientos concursales de liquidación simplificados contenidos en el Capítulo V, ambos de la Ley N.º 20.720.</parrafo>
+        </contenido>
       </articulo>
-      <capitulo id="3" tipo_original="Capítulo" numero="IV">
-        <titulo_seccion>Capítulo IV y los procedimientos concursales de liquidación simplificados</titulo_seccion>
-        <contexto>TÍTULO II Párrafo I</contexto>
-      </capitulo>
     </titulo>
   </contenido>
-  <promulgacion>RESUELVO:
+  <disposiciones_finales>
+    <texto>RESUELVO:
 
-I. APRUÉBASE el siguiente Instructivo que regula
-la emisión de finiquitos laborales electrónicos y su suscripción mediante
-firma electrónica en el Procedimiento Concursal de Liquidación:
-INSTRUCTIVO SUPERIR N.° 6
-QUE INSTRUYE SOBRE LA EMISIÓN DE FINIQUITOS LABORALES
-ELECTRÓNICOS Y SU SUSCRIPCIÓN MEDIANTE FIRMA ELECTRÓNICA
-EN EL PROCEDIMIENTO CONCURSAL DE LIQUIDACIÓN
+I. APRUÉBASE el siguiente Instructivo que regula la emisión de finiquitos laborales electrónicos y su suscripción mediante firma electrónica en el Procedimiento Concursal de Liquidación:
 
-III. NOTIFÍQUESE el presente instructivo a
-los/as liquidadores/as, por correo electrónico.
-IV. PUBLÍQUESE la presente resolución en el
-Diario Oficial.
-V. DISPÓNGASE como medida de publicidad, una
-vez que se encuentre totalmente tramitado el presente acto administrativo,
-su publicación en el sitio web institucional de la Superintendencia de
-Insolvencia y Reemprendimiento.
-ANÓTESE Y ARCHÍVESE.
-PVL/PCG/CVS/CBP/EGZ/FRC/DTC/SUS
-DISTRIBUCIÓN:
-Señores/as Liquidadores/as
-Presente
-7</promulgacion>
+INSTRUCTIVO SUPERIR N.° 6 QUE INSTRUYE SOBRE LA EMISIÓN DE FINIQUITOS LABORALES ELECTRÓNICOS Y SU SUSCRIPCIÓN MEDIANTE FIRMA ELECTRÓNICA EN EL PROCEDIMIENTO CONCURSAL DE LIQUIDACIÓN
+
+II. VIGENCIA. El presente instructivo comenzará a regir, a contar de su notificación por correo electrónico a los sujetos fiscalizados, sin perjuicio de su publicación en el Diario Oficial.
+
+III. NOTIFÍQUESE el presente instructivo a los/as liquidadores/as, por correo electrónico.
+
+IV. PUBLÍQUESE la presente resolución en el Diario Oficial.
+
+V. DISPÓNGASE como medida de publicidad, una vez que se encuentre totalmente tramitado el presente acto administrativo, su publicación en el sitio web institucional de la Superintendencia de Insolvencia y Reemprendimiento.
+
+ANÓTESE Y ARCHÍVESE.</texto>
+  </disposiciones_finales>
 </ley>

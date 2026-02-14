@@ -63,6 +63,7 @@ class NormaMetadatos:
 
     titulo: str = ""
     materias: list[str] = field(default_factory=list)
+    conceptos: list[str] = field(default_factory=list)
     nombres_uso_comun: list[str] = field(default_factory=list)
     paises_tratado: list[str] = field(default_factory=list)
     tipo_tratado: str = ""
@@ -124,9 +125,12 @@ class Norma:
     metadatos: NormaMetadatos = field(default_factory=NormaMetadatos)
     encabezado_texto: str = ""
     encabezado_derogado: bool = False
+    vistos_texto: str = ""
+    considerandos_texto: str = ""
     estructuras: list[EstructuraFuncional] = field(default_factory=list)
     promulgacion_texto: str = ""
     promulgacion_derogado: bool = False
+    disposiciones_finales_texto: str = ""
     anexos: list[dict[str, Any]] = field(default_factory=list)
 
     # Metadatos adicionales

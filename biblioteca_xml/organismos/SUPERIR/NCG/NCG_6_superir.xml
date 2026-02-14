@@ -1,0 +1,81 @@
+<?xml version="1.0" ?>
+<norma xmlns="https://superir.cl/schema/norma/v1" tipo="Norma de Carácter General" numero="6" organismo="Superintendencia de Insolvencia y Reemprendimiento" version="1.0" estado="vigente" generado="2026-02-13T19:09:01.440341+00:00">
+  <encabezado>
+    <identificacion>NORMA DE CARÁCTER GENERAL N.° 6</identificacion>
+    <organismo>SUPERINTENDENCIA DE INSOLVENCIA Y REEMPRENDIMIENTO</organismo>
+    <referencia>test</referencia>
+    <lugar>SANTIAGO</lugar>
+    <fecha>2014-10-08</fecha>
+  </encabezado>
+  <metadatos>
+    <titulo>NORMA DE CARÁCTER GENERAL N°6</titulo>
+    <materias>
+      <materia>test</materia>
+    </materias>
+    <nombres_comunes>
+      <nombre>NCG 6</nombre>
+    </nombres_comunes>
+    <fechas>
+      <promulgacion>2014-10-08</promulgacion>
+      <publicacion>2014-10-08</publicacion>
+      <version>2014-10-08</version>
+    </fechas>
+    <leyes_referenciadas>
+      <ley_ref tipo="Ley" numero="20.720">Ley 20.720</ley_ref>
+      <ley_ref tipo="Ley" numero="18.175">Ley 18.175</ley_ref>
+      <ley_ref tipo="Ley" numero="18.575">Ley 18.575</ley_ref>
+    </leyes_referenciadas>
+  </metadatos>
+  <vistos>
+    <parrafo>Las facultades conferidas en el artículo 75° de la Ley N.° 20.720, de Reorganización y Liquidación de Activos de Empresas y Personas (en adelante, la &quot;Ley&quot;).</parrafo>
+  </vistos>
+  <considerandos>
+    <considerando numero="1">
+      <parrafo>Que el artículo 75° de la Ley dispone que, en caso que no se acuerde la reorganización y se declare la liquidación de la Empresa Deudora, el acreedor prendario o hipotecario que autorice la enajenación de los bienes otorgados en prenda o hipoteca, cuyo valor comercial exceda el monto del respectivo crédito garantizado, podrá percibir de la venta el monto de su respectivo crédito.</parrafo>
+      <parrafo>Lo anterior procederá siempre que garantice el pago de los créditos de primera clase, mediante el otorgamiento de cualquier instrumento de garantía que reconozcan las leyes vigentes o que la Superintendencia autorice mediante una Norma de Carácter General.</parrafo>
+    </considerando>
+    <considerando numero="2">
+      <parrafo>Que es de la esencia de la disposición en comento que la garantía a la que se refiere el artículo 75° de la Ley sea de aquellas de fácil realización, para asegurar el pago de los créditos de primera clase.</parrafo>
+    </considerando>
+    <considerando numero="3">
+      <parrafo>Que el mencionado artículo 75° se refiere al otorgamiento de cualquier instrumento de garantía, excluyéndose toda garantía real y personal, en concordancia con lo dispuesto en el considerando anterior, relativo a la seguridad de los créditos de primera clase.</parrafo>
+    </considerando>
+  </considerandos>
+  <formula_dictacion>Que, en conformidad a lo anterior, esta Superintendencia de Insolvencia y Reemprendimiento (en adelante, la &quot;Superintendencia&quot;) dicta la siguiente:</formula_dictacion>
+  <cuerpo_normativo>
+    <titulo numero="I">
+      <articulo numero="1" epigrafe="Naturaleza">
+        <parrafo>Para los efectos del artículo 75° de la Ley se entenderán como instrumentos de garantía suficientes, además de aquellos que reconozcan las leyes, los siguientes:</parrafo>
+        <listado>
+          <item letra="a">Vale vista o boleta bancaria, extendida en forma irrevocable a nombre del Deudor en liquidación, nominativa, a la vista, de una duración no inferior a dos años.</item>
+          <item letra="b">Póliza de seguro de caución, en los términos expuestos en el artículo 582° del Código de Comercio, tomada por el acreedor en favor del Deudor.</item>
+        </listado>
+      </articulo>
+      <articulo numero="2" epigrafe="Monto, oportunidad y ejecución de la garantía">
+        <parrafo>Deberá estarse a lo regulado por esta Superintendencia en el instructivo correspondiente en relación al monto, oportunidad, ejecución y otros aspectos de la garantía señalada en el referido artículo 75°.</parrafo>
+      </articulo>
+      <articulo numero="3" epigrafe="Extensión">
+        <parrafo>Lo dispuesto en los artículos precedentes será también aplicable a aquellos casos en que el acreedor hipotecario o prendario ejecutare su garantía al margen del Procedimiento Concursal de Liquidación, conforme lo dispuesto en el artículo 135° de la Ley y en el artículo 2.479° del Código Civil.</parrafo>
+      </articulo>
+    </titulo>
+    <titulo numero="II" nombre="Disposiciones Finales">
+      <articulo numero="4" epigrafe="Ámbito de aplicación">
+        <parrafo>La presente Norma de Carácter General solo tiene por objeto regular las materias que en la misma se tratan para los procedimientos concursales regulados en la Ley.</parrafo>
+        <parrafo>En caso alguno se entenderán aplicables a los procedimientos de quiebra, convenios o cesiones de bienes actualmente en tramitación o que se inicien antes de la entrada en vigencia de la Ley, que, conforme a lo dispuesto en su artículo primero transitorio, seguirán rigiéndose por las disposiciones contenidas en el Libro IV del Código de Comercio y en la Ley N.° 18.175.</parrafo>
+      </articulo>
+      <articulo numero="5" epigrafe="Términos definidos">
+        <parrafo>Los términos en mayúscula utilizados en esta Norma de Carácter General tendrán el mismo significado que a ellos se les asigna en el artículo 2° de la Ley.</parrafo>
+      </articulo>
+      <articulo numero="6" epigrafe="Vigencia">
+        <parrafo>La presente Norma de Carácter General se dicta en mérito de los principios de continuidad de la función pública, de eficiencia y eficacia consagrados en los artículos 3°, 5° y 8° de la Ley N.° 18.575, General de Bases de la Administración del Estado, y del artículo primero transitorio de la Ley N.° 20.720, sin perjuicio de que entrará a regir conjuntamente con la entrada en vigencia de la Ley, en los términos del mismo artículo primero transitorio.</parrafo>
+      </articulo>
+    </titulo>
+  </cuerpo_normativo>
+  <cierre>
+    <formula>Anótese y publíquese.</formula>
+    <firmante>
+      <nombre>JOSEFINA MONTENEGRO ARANEDA</nombre>
+      <cargo>SUPERINTENDENTA DE INSOLVENCIA Y REEMPRENDIMIENTO</cargo>
+    </firmante>
+  </cierre>
+</norma>

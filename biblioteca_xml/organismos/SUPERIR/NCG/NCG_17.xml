@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ley xmlns="https://leychile.cl/schema/ley/v1" version="1.0" idioma="es-CL" id_norma="NCG-17" tipo="Norma de Carácter General" numero="17" estado="vigente" fecha_version="2023-08-11" fecha_promulgacion="2023-08-11" fecha_publicacion="2023-08-11" generado="2026-02-12T11:14:27.824261" fuente="Biblioteca del Congreso Nacional de Chile" url_original="https://www.superir.gob.cl/wp-content/uploads/2023/08/RES_NUM_6595_ANO_2023_NCG_17_NOMINACION.pdf">
+<ley xmlns="https://leychile.cl/schema/ley/v1" version="1.1" idioma="es-CL" id_norma="NCG-17" tipo="Norma de Carácter General" numero="17" estado="vigente" fecha_version="2023-08-11" fecha_promulgacion="2023-08-11" fecha_publicacion="2023-08-11" generado="2026-02-12T21:30:05.169462" fuente="Biblioteca del Congreso Nacional de Chile" url_original="https://www.superir.gob.cl/wp-content/uploads/2023/08/RES_NUM_6595_ANO_2023_NCG_17_NOMINACION.pdf">
   <metadatos>
     <titulo>NORMA DE CARÁCTER GENERAL N°17 - Nominación y designación aleatoria de veedores y liquidadores</titulo>
     <identificacion>
@@ -25,23 +25,19 @@
     <fuente>Superintendencia de Insolvencia y Reemprendimiento</fuente>
     <numero_fuente>6595</numero_fuente>
     <leyes_referenciadas>
-      <ley_ref>Ley 20.720</ley_ref>
-      <ley_ref>Ley 18.575</ley_ref>
-      <ley_ref>Ley 19.880</ley_ref>
-      <ley_ref>Ley 19.799</ley_ref>
-      <ley_ref>Ley 19.628</ley_ref>
-      <ley_ref>Ley 20.285</ley_ref>
-      <ley_ref>Ley 21.563</ley_ref>
-      <ley_ref>DFL 1-19.653</ley_ref>
+      <ley_ref tipo="Ley" numero="20.720">Ley 20.720</ley_ref>
+      <ley_ref tipo="Ley" numero="18.575">Ley 18.575</ley_ref>
+      <ley_ref tipo="Ley" numero="19.880">Ley 19.880</ley_ref>
+      <ley_ref tipo="Ley" numero="19.799">Ley 19.799</ley_ref>
+      <ley_ref tipo="Ley" numero="19.628">Ley 19.628</ley_ref>
+      <ley_ref tipo="Ley" numero="20.285">Ley 20.285</ley_ref>
+      <ley_ref tipo="Ley" numero="21.563">Ley 21.563</ley_ref>
+      <ley_ref tipo="DFL" numero="1-19.653">DFL 1-19.653</ley_ref>
     </leyes_referenciadas>
   </metadatos>
-  <encabezado>VISTOS:
-
-Las facultades que me confiere la Ley N.° 20.720, que sustituye el régimen concursal vigente por una Ley de Reorganización y Liquidación de Activos de Empresas y Personas; lo dispuesto en el D.F.L. N.° 1-19.653, de 17 de noviembre de 2001, que fija el texto Refundido, Coordinado y Sistematizado de la Ley N.° 18.575, Orgánica Constitucional de Bases Generales de la Administración del Estado; en la Ley N.° 19.880, que establece bases de los procedimientos administrativos que rigen los actos de los Órganos de la Administración del Estado; en la Ley N.° 19.799 Sobre Documentos Electrónicos, Firma Electrónica y Servicios de Certificación de Dicha Firma; en la Ley N.° 19.628 sobre Protección de la Vida Privada; en la Ley N.° 20.285 sobre Acceso a la Información Pública; en la Resolución N.° 7 de 2019 de la Contraloría General de la República, que fija normas sobre exención del trámite de toma de razón; en el Decreto N.° 8 de 19 de enero de 2023 del Ministerio de Economía, Fomento y Turismo.
-
-CONSIDERANDO:
-
-1. Que, de conformidad a lo dispuesto en los artículos 331 y siguientes de la Ley N.° 20.720, la Superintendencia de Insolvencia y Reemprendimiento, en adelante la “Superintendencia”, es una persona jurídica de derecho público, creada por la Ley N.º 20.720 (en adelante “la ley”), como un servicio público descentralizado con personalidad jurídica y patrimonio propio, que se relaciona con el Presidente de la República a través del Ministerio de Economía, Fomento y Turismo, y tiene como función supervigilar y fiscalizar las actuaciones de los veedores, liquidadores, martilleros concursales, administradores de la continuación de las actividades económicas del deudor, asesores económicos de insolvencia, síndicos de quiebras, administradores de la continuación del giro y, en general, de toda persona que por ley quede sujeta a su supervigilancia y fiscalización. Así como las demás que se establezcan en otras leyes.
+  <encabezado>
+    <vistos>Las facultades que me confiere la Ley N.° 20.720, que sustituye el régimen concursal vigente por una Ley de Reorganización y Liquidación de Activos de Empresas y Personas; lo dispuesto en el D.F.L. N.° 1-19.653, de 17 de noviembre de 2001, que fija el texto Refundido, Coordinado y Sistematizado de la Ley N.° 18.575, Orgánica Constitucional de Bases Generales de la Administración del Estado; en la Ley N.° 19.880, que establece bases de los procedimientos administrativos que rigen los actos de los Órganos de la Administración del Estado; en la Ley N.° 19.799 Sobre Documentos Electrónicos, Firma Electrónica y Servicios de Certificación de Dicha Firma; en la Ley N.° 19.628 sobre Protección de la Vida Privada; en la Ley N.° 20.285 sobre Acceso a la Información Pública; en la Resolución N.° 7 de 2019 de la Contraloría General de la República, que fija normas sobre exención del trámite de toma de razón; en el Decreto N.° 8 de 19 de enero de 2023 del Ministerio de Economía, Fomento y Turismo.</vistos>
+    <considerandos>1. Que, de conformidad a lo dispuesto en los artículos 331 y siguientes de la Ley N.° 20.720, la Superintendencia de Insolvencia y Reemprendimiento, en adelante la “Superintendencia”, es una persona jurídica de derecho público, creada por la Ley N.º 20.720 (en adelante “la ley”), como un servicio público descentralizado con personalidad jurídica y patrimonio propio, que se relaciona con el Presidente de la República a través del Ministerio de Economía, Fomento y Turismo, y tiene como función supervigilar y fiscalizar las actuaciones de los veedores, liquidadores, martilleros concursales, administradores de la continuación de las actividades económicas del deudor, asesores económicos de insolvencia, síndicos de quiebras, administradores de la continuación del giro y, en general, de toda persona que por ley quede sujeta a su supervigilancia y fiscalización. Así como las demás que se establezcan en otras leyes.
 
 2. Que, el Capítulo II de la Ley N° 20.720 regula la inclusión en la nómina respectiva, derechos y deberes, nominación, inhabilidades y exclusión de Veedores y Liquidadores.
 
@@ -57,7 +53,8 @@ CONSIDERANDO:
 
 8. Que, la Ley N.° 19.880, que establece las bases de los procedimientos administrativos que rigen los actos de los Órganos de la Administración del Estado, dispone en su artículo 1° la aplicación supletoria de sus disposiciones, en aquellos casos en los que la ley establezca procedimientos administrativos especiales, naturaleza que posee la nominación de Veedores y Liquidadores en el marco de procedimientos concursales de Reorganización y Liquidación, por tratarse de un procedimiento sustanciado ante un Órgano de la Administración del Estado, que encuentra su regulación específica en la Ley N.º 20.720.
 
-9. Que, atendido lo expuesto y de conformidad con lo dispuesto en el artículo 3 de la Ley N.° 19.880 y en las normas legales pertinentes;</encabezado>
+9. Que, atendido lo expuesto y de conformidad con lo dispuesto en el artículo 3 de la Ley N.° 19.880 y en las normas legales pertinentes;</considerandos>
+  </encabezado>
   <contenido total_articulos="8" total_libros="0" total_titulos="3" total_capitulos="0">
     <titulo id="1" tipo_original="Título" numero="I">
       <titulo_seccion>Título I Nominación mediante Sorteo ante la Superintendencia</titulo_seccion>
@@ -85,7 +82,9 @@ CONSIDERANDO:
       <articulo id="3" tipo_original="Artículo" numero="3">
         <titulo_seccion>Artículo 3. Notificación de la nominación por sorteo</titulo_seccion>
         <contexto>Título I Nominación mediante Sorteo ante la Superintendencia</contexto>
-        <texto>Una vez realizado el sorteo, se procederá a la notificación de los Veedores o Liquidadores seleccionados, por el medio más expedito, de conformidad con lo dispuesto en los artículos N° 22 y N° 37 de la Ley N° 20.720.</texto>
+        <contenido>
+          <parrafo>Una vez realizado el sorteo, se procederá a la notificación de los Veedores o Liquidadores seleccionados, por el medio más expedito, de conformidad con lo dispuesto en los artículos N° 22 y N° 37 de la Ley N° 20.720.</parrafo>
+        </contenido>
       </articulo>
     </titulo>
     <titulo id="2" tipo_original="Título" numero="II">
@@ -93,7 +92,9 @@ CONSIDERANDO:
       <articulo id="4" tipo_original="Artículo" numero="4">
         <titulo_seccion>Artículo 4. Publicidad de los resultados</titulo_seccion>
         <contexto>Título II Publicidad de los Resultados de la nominación realizada mediante sorteo</contexto>
-        <texto>La circunstancia de ser realizada por sorteo la nominación de Veedores y Liquidadores en un procedimiento concursal constará tanto en el Certificado de Nominación emitido por la Superintendencia y remitido al Tribunal correspondiente, como en los antecedentes del procedimiento concursal publicados en el Boletín Concursal.</texto>
+        <contenido>
+          <parrafo>La circunstancia de ser realizada por sorteo la nominación de Veedores y Liquidadores en un procedimiento concursal constará tanto en el Certificado de Nominación emitido por la Superintendencia y remitido al Tribunal correspondiente, como en los antecedentes del procedimiento concursal publicados en el Boletín Concursal.</parrafo>
+        </contenido>
       </articulo>
     </titulo>
     <titulo id="3" tipo_original="Título" numero="III">
@@ -101,12 +102,16 @@ CONSIDERANDO:
       <articulo id="5" tipo_original="Artículo" numero="5">
         <titulo_seccion>Artículo 5. Ámbito de Aplicación</titulo_seccion>
         <contexto>Título III Disposiciones Finales</contexto>
-        <texto>La presente NGC tiene por objeto la regulación de la nominación realizada por Sorteo de Veedores y Liquidadores en Procedimientos Concursales de Reorganización y Liquidación, respectivamente, de acuerdo con el mandato que realiza la Ley N° 20.720 a esta Superintendencia.</texto>
+        <contenido>
+          <parrafo>La presente NGC tiene por objeto la regulación de la nominación realizada por Sorteo de Veedores y Liquidadores en Procedimientos Concursales de Reorganización y Liquidación, respectivamente, de acuerdo con el mandato que realiza la Ley N° 20.720 a esta Superintendencia.</parrafo>
+        </contenido>
       </articulo>
       <articulo id="6" tipo_original="Artículo" numero="6">
         <titulo_seccion>Artículo 6. Términos definidos</titulo_seccion>
         <contexto>Título III Disposiciones Finales</contexto>
-        <texto>Los términos en mayúscula utilizados en esta Norma de Carácter General tendrán el mismo significado que a ellos se les asigna en el artículo 2° de la Ley.</texto>
+        <contenido>
+          <parrafo>Los términos en mayúscula utilizados en esta Norma de Carácter General tendrán el mismo significado que a ellos se les asigna en el artículo 2° de la Ley.</parrafo>
+        </contenido>
         <referencias>
           <ref articulo="2"/>
         </referencias>
@@ -114,7 +119,9 @@ CONSIDERANDO:
       <articulo id="7" tipo_original="Artículo" numero="7">
         <titulo_seccion>Artículo 7. Vigencia</titulo_seccion>
         <contexto>Título III Disposiciones Finales</contexto>
-        <texto>La presente Norma de Carácter General entrará a regir el día 11 de agosto de 2023, conjuntamente con la entrada en vigencia de la Ley N.º 21.563.</texto>
+        <contenido>
+          <parrafo>La presente Norma de Carácter General entrará a regir el día 11 de agosto de 2023, conjuntamente con la entrada en vigencia de la Ley N.º 21.563.</parrafo>
+        </contenido>
       </articulo>
       <articulo id="8" tipo_original="Artículo" numero="8">
         <titulo_seccion>Artículo 8. Revocación</titulo_seccion>
@@ -127,7 +134,8 @@ CONSIDERANDO:
       </articulo>
     </titulo>
   </contenido>
-  <promulgacion>RESUELVO:
+  <disposiciones_finales>
+    <texto>RESUELVO:
 
 1. APRUÉBASE la siguiente Norma de Carácter General, Sobre la nominación mediante sorteo de Veedores y Liquidadores en el marco de procedimientos concursales de Reorganización o Liquidación:
 
@@ -135,5 +143,6 @@ NORMA DE CARÁCTER GENERAL N.° 17 SOBRE LA NOMINACIÓN MEDIANTE SORTEO DE VEEDO
 
 La presente Norma de Carácter General regula las materias mandatadas por la Ley N.° 20.720, en lo relativo a la realización de sorteos para la nominación de Veedores y Liquidadores en Procedimientos Concursales, de conformidad con lo ordenado por la mencionada Ley en sus artículos N° 22 y 37.
 
-ANÓTESE, PUBLÍQUESE Y ARCHÍVESE,</promulgacion>
+ANÓTESE, PUBLÍQUESE Y ARCHÍVESE,</texto>
+  </disposiciones_finales>
 </ley>

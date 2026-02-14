@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ley xmlns="https://leychile.cl/schema/ley/v1" version="1.0" idioma="es-CL" id_norma="INST-1" tipo="Instructivo" numero="1" estado="vigente" fecha_version="2023-11-03" fecha_promulgacion="2023-11-03" fecha_publicacion="2023-11-03" generado="2026-02-11T15:27:16.338515" fuente="Biblioteca del Congreso Nacional de Chile" url_original="https://www.superir.gob.cl/wp-content/uploads/2023/11/RES_NUM_9074_A_O_2023.pdf">
+<ley xmlns="https://leychile.cl/schema/ley/v1" version="1.1" idioma="es-CL" id_norma="INST-1" tipo="Instructivo" numero="1" estado="vigente" fecha_version="2023-11-03" fecha_promulgacion="2023-11-03" fecha_publicacion="2023-11-03" generado="2026-02-13T02:36:01.749921" fuente="Biblioteca del Congreso Nacional de Chile" url_original="https://www.superir.gob.cl/wp-content/uploads/2023/11/RES_NUM_9074_A_O_2023.pdf">
   <metadatos>
     <titulo>Resolución que modifica instructivo de pago de honorarios (octubre 2023)</titulo>
     <identificacion>
@@ -24,107 +24,69 @@
     <fuente>Superintendencia de Insolvencia y Reemprendimiento</fuente>
     <numero_fuente>9074</numero_fuente>
     <leyes_referenciadas>
-      <ley_ref>Ley 20.720</ley_ref>
-      <ley_ref>Ley 21.563</ley_ref>
-      <ley_ref>Ley 18.575</ley_ref>
-      <ley_ref>Ley 19.880</ley_ref>
-      <ley_ref>DFL 1/19.653</ley_ref>
+      <ley_ref tipo="Ley" numero="20.720">Ley 20.720</ley_ref>
+      <ley_ref tipo="Ley" numero="21.563">Ley 21.563</ley_ref>
+      <ley_ref tipo="Ley" numero="18.575">Ley 18.575</ley_ref>
+      <ley_ref tipo="Ley" numero="19.880">Ley 19.880</ley_ref>
+      <ley_ref tipo="DFL" numero="1/19.653">DFL 1/19.653</ley_ref>
     </leyes_referenciadas>
   </metadatos>
-  <encabezado>VISTOS:
+  <encabezado>
+    <vistos>Las facultades que me confiere la Ley N.° 20.720, que sustituye el régimen concursal vigente por una Ley de Reorganización y Liquidación de Activos de Empresas y Personas; lo dispuesto en la Ley N.° 21.563, que Moderniza los Procedimientos Concursales Contemplados en la Ley N.° 20.720 y Crea Nuevos Procedimientos para Micro y Pequeñas Empresas; en el D.F.L. N.° 1/19.653, de 17 de noviembre de 2001, que fija el texto Refundido, Coordinado y Sistematizado de la Ley N.° 18.575, Orgánica Constitucional de Bases Generales de la Administración del Estado; en la Ley N.° 19.880, que establece Bases de los Procedimientos Administrativos que Rigen los Actos de los Órganos de la Administración del Estado; en la Resolución N.° 7 de 2019 de la Contraloría General de la República, que fija normas sobre Exención del Trámite de Toma de Razón; y, en el Decreto N.° 8 de 19 de enero de 2023, del Ministerio de Economía, Fomento y Turismo.</vistos>
+    <considerandos>1° Que, mediante Resolución Exenta N.° 8725 de 24 de octubre de 2023, se aprobó el Instructivo que regula el pago de honorarios con cargo al presupuesto de la Superintendencia de Insolvencia y Reemprendimiento establecido en el artículo 40 de la Ley N.° 20.720.
 
-Las facultades que me confiere la Ley N.°
-20.720, que sustituye el régimen concursal vigente por una Ley de
-Reorganización y Liquidación de Activos de Empresas y Personas; lo
-dispuesto en la Ley N.° 21.563, que Moderniza los Procedimientos
-Concursales Contemplados en la Ley N.° 20.720 y Crea Nuevos
-Procedimientos para Micro y Pequeñas Empresas; en el D.F.L. N.°
-1/19.653, de 17 de noviembre de 2001, que fija el texto Refundido,
-Coordinado y Sistematizado de la Ley N.° 18.575, Orgánica Constitucional
-de Bases Generales de la Administración del Estado; en la Ley N.° 19.880,
-que establece Bases de los Procedimientos Administrativos que Rigen los
-Actos de los Órganos de la Administración del Estado; en la Resolución
-N.° 7 de 2019 de la Contraloría General de la República, que fija normas
-sobre Exención del Trámite de Toma de Razón; y, en el Decreto N.° 8 de
-19 de enero de 2023, del Ministerio de Economía, Fomento y Turismo.
+2° Que, la citada resolución adolece de un error de forma, por cuanto no se señaló el número del Instructivo en su título.
 
-CONSIDERANDO:
+Hermanos Amunátegui 228 Santiago, Chile Fono: (56 2) 2495 25 90 www.superir.gob.cl
 
-1° Que, mediante Resolución Exenta N.° 8725
-de 24 de octubre de 2023, se aprobó el Instructivo que regula el pago de
-honorarios con cargo al presupuesto de la Superintendencia de Insolvencia
-y Reemprendimiento establecido en el artículo 40 de la Ley N.° 20.720.
-2° Que, la citada resolución adolece de un
-error de forma, por cuanto no se señaló el número del Instructivo en su
-título.
-Hermanos Amunátegui 228
-Santiago, Chile
-Fono: (56 2) 2495 25 90
-www.superir.gob.cl
+3° Que, asimismo, en la citada resolución no se hizo mención a la aprobación del anexo del citado Instructivo, denominado Anexo N.° 1 “Ingreso de las Solicitudes de Pago y de Recursos Posteriores”.
 
-3° Que, asimismo, en la citada resolución no
-se hizo mención a la aprobación del anexo del citado Instructivo,
-denominado Anexo N.° 1 “Ingreso de las Solicitudes de Pago y de Recursos
-Posteriores”.
-4° Que, si bien la citada resolución ordenó su
-publicación en el Diario Oficial, previo a su publicación es necesario
-modificarla y fijar el texto refundido del señalado instructivo.
-5° Que, por otra parte, en la citada resolución
-se omitió la eliminación del Párrafo III relativo al “Pago de los honorarios
-del liquidador con cargo al presupuesto de la Superintendencia de
-Insolvencia y Reemprendimiento” contenido en el Título II “Honorarios del
-Liquidador” del Instructivo SIR N.°1 de 6 de octubre de 2015, que contiene
-instrucciones relativas al pago de honorarios del liquidador que no se
-encuentran vigentes.
-6° Que, dada la naturaleza de las
-modificaciones señaladas en los considerandos anteriores, resulta
-procedente aplicar lo dispuesto en el artículo 62 de la Ley N.° 19.880 que
-establece que, en cualquier momento, la autoridad administrativa que
-dictó el acto podrá, de oficio, aclarar puntos dudosos y rectificar errores de
-copia, de referencia, y en general los puramente materiales que
-aparecieren de manifiesto en el acto administrativo.
-7° Que, atendido lo expuesto y de
-conformidad con lo dispuesto en el artículo 3 de la Ley N.° 19.880 y en las
-normas legales pertinentes,</encabezado>
-  <contenido total_articulos="13" total_libros="0" total_titulos="5" total_capitulos="1">
+4° Que, si bien la citada resolución ordenó su publicación en el Diario Oficial, previo a su publicación es necesario modificarla y fijar el texto refundido del señalado instructivo.
+
+5° Que, por otra parte, en la citada resolución se omitió la eliminación del Párrafo III relativo al “Pago de los honorarios del liquidador con cargo al presupuesto de la Superintendencia de Insolvencia y Reemprendimiento” contenido en el Título II “Honorarios del Liquidador” del Instructivo SIR N.°1 de 6 de octubre de 2015, que contiene instrucciones relativas al pago de honorarios del liquidador que no se encuentran vigentes.
+
+6° Que, dada la naturaleza de las modificaciones señaladas en los considerandos anteriores, resulta procedente aplicar lo dispuesto en el artículo 62 de la Ley N.° 19.880 que establece que, en cualquier momento, la autoridad administrativa que dictó el acto podrá, de oficio, aclarar puntos dudosos y rectificar errores de copia, de referencia, y en general los puramente materiales que aparecieren de manifiesto en el acto administrativo.
+
+7° Que, atendido lo expuesto y de conformidad con lo dispuesto en el artículo 3 de la Ley N.° 19.880 y en las normas legales pertinentes,</considerandos>
+  </encabezado>
+  <contenido total_articulos="13" total_libros="0" total_titulos="5" total_capitulos="0">
     <titulo id="1" tipo_original="Título" numero="II">
-      <titulo_seccion>Título II “Honorarios del Liquidador”, del Instructivo SIR N.°1 de 6 de</titulo_seccion>
+      <titulo_seccion>Título II “Honorarios del Liquidador”, del Instructivo SIR N.°1 de 6 de octubre de 2015, que instruye materias relativas a obligaciones generales y especiales de los sujetos fiscalizados por la Superintendencia de Insolvencia y Reemprendimiento, pasando el actual Párrafo IV a ser el Párrafo III del Título II señalado.”</titulo_seccion>
     </titulo>
     <titulo id="2" tipo_original="Título" numero="I">
-      <titulo_seccion>TÍTULO I Antecedentes para presentar la solicitud</titulo_seccion>
+      <titulo_seccion>Título I Antecedentes para presentar la solicitud</titulo_seccion>
       <articulo id="1" tipo_original="Artículo" numero="1">
         <titulo_seccion>Artículo 1</titulo_seccion>
-        <contexto>TÍTULO I Antecedentes para presentar la solicitud</contexto>
-        <texto>El/la liquidador/a que solicite el
-pago de honorarios con cargo al presupuesto de la Superintendencia, en
-los términos del artículo 40 inciso final de la Ley N.° 20.720, deberá
-ingresar una solicitud a través del Portal de Sujetos Fiscalizados, de
-acuerdo con las instrucciones contenidas en el Anexo N.° 1 del presente
-instructivo, acompañando documentos que acrediten que el/la liquidador/a
-cumplió los deberes que la Ley le encomienda.</texto>
+        <contexto>Título I Antecedentes para presentar la solicitud</contexto>
+        <contenido>
+          <parrafo>El/la liquidador/a que solicite el pago de honorarios con cargo al presupuesto de la Superintendencia, en los términos del artículo 40 inciso final de la Ley N.° 20.720, deberá ingresar una solicitud a través del Portal de Sujetos Fiscalizados, de acuerdo con las instrucciones contenidas en el Anexo N.° 1 del presente instructivo, acompañando documentos que acrediten que el/la liquidador/a cumplió los deberes que la Ley le encomienda.</parrafo>
+        </contenido>
         <referencias>
           <ref articulo="40"/>
         </referencias>
       </articulo>
       <articulo id="2" tipo_original="Artículo" numero="2">
         <titulo_seccion>Artículo 2</titulo_seccion>
-        <contexto>TÍTULO I Antecedentes para presentar la solicitud</contexto>
-        <texto>Se distinguirá, para efectos de la
-fiscalización del cumplimiento de los deberes que la ley le encomienda,
-entre procedimientos de personas y de empresas deudoras, y a su vez,
-entre procedimientos iniciados con anterioridad y con posterioridad a la
-entrada en vigencia de la Ley N.° 21.563. Además, se distinguirá entre
-procedimientos ordinarios y simplificados, tomando en consideración que
-el artículo quinto transitorio de la Ley N.° 21.563 establece que los
-procedimientos concursales de Liquidación de Bienes de la Persona
-Deudora que se hubieren iniciado con anterioridad a la entrada en vigencia
-de la presente ley se substanciarán de acuerdo a las normas del
-Procedimiento Concursal de Liquidación Simplificada.</texto>
+        <contexto>Título I Antecedentes para presentar la solicitud</contexto>
+        <contenido>
+          <parrafo>Se distinguirá, para efectos de la fiscalización del cumplimiento de los deberes que la ley le encomienda, entre procedimientos de personas y de empresas deudoras, y a su vez, entre procedimientos iniciados con anterioridad y con posterioridad a la entrada en vigencia de la Ley N.° 21.563. Además, se distinguirá entre procedimientos ordinarios y simplificados, tomando en consideración que el artículo quinto transitorio de la Ley N.° 21.563 establece que los procedimientos concursales de Liquidación de Bienes de la Persona Deudora que se hubieren iniciado con anterioridad a la entrada en vigencia de la presente ley se substanciarán de acuerdo a las normas del Procedimiento Concursal de Liquidación Simplificada.</parrafo>
+        </contenido>
       </articulo>
       <articulo id="3" tipo_original="Artículo" numero="3">
         <titulo_seccion>Artículo 3. Requisitos para solicitar el pago de honorarios</titulo_seccion>
-        <contexto>TÍTULO I Antecedentes para presentar la solicitud</contexto>
-        <texto>El/la liquidador/a que, una vez aprobada la cuenta final de administración, hubiere comunicado a la Superintendencia que sus honorarios resultaron inferiores a 30 Unidades de Fomento, en los términos del inciso final del artículo 40 de la Ley N.° 20.720, podrá solicitar el pago de sus honorarios con cargo al presupuesto de la Superintendencia. La solicitud de pago deberá presentarse una vez aprobada la cuenta final de administración conforme a lo establecido en el artículo 40 de la Ley N.° 20.720. Sin embargo, si el/la liquidador/a ingresa la solicitud con posterioridad a la dictación de la resolución de término del procedimiento, deberá tener presente que sólo podrá fundarla en hechos acaecidos durante la vigencia del procedimiento, por cuanto una vez dictada la resolución de término, el/la liquidador/a solo puede acreditar el cumplimiento de deberes mientras tuvo la calidad de liquidador/a vigente del respectivo procedimiento. El/la liquidador/a procurará solicitar el pago de honorarios preferentemente dentro de los 60 días siguientes a la fecha de la Resolución que aprueba la cuenta final de administración. Como requisito previo para ingresar la solicitud de pago, deberá estar publicada en el Boletín Concursal el acta de incautación e inventario (bajo la nomenclatura “Acta de Incautación e Inventario”), o el acta de entrega de bienes (bajo la nomenclatura “Acta de entrega de bienes”), según corresponda, y la resolución que tiene por aprobada la cuenta final de administración (bajo la nomenclatura “Resolución que tiene por aprobada la Cuenta Final de Administración”). Este requisito es comprobado automáticamente por el sistema informático, y sin estas publicaciones no será posible iniciar la solicitud de pago de honorarios. Asimismo, se corroborará que el/la liquidador/a haya reportado electrónicamente la cuenta final de administración a través del Portal de Sujetos Fiscalizados, de acuerdo con las instrucciones que al efecto imparta esta Superintendencia. El acta de incautación e inventario publicada deberá cumplir con todas las formalidades establecidas en los artículos 163 y siguientes de la Ley N.° 20.720, así como lo establecido en el título V del Instructivo SIR N.° 1 de 06 de octubre de 2015. En la fiscalización, se considerará especialmente, que el/la liquidador/a haya realizado la incautación en todos los domicilios y lugares informados formalmente en el procedimiento. En caso de no efectuarse la incautación en alguno de los domicilios o lugares, deberá constar la justificación en el procedimiento. Adicionalmente se verificará la información laboral y de remuneraciones en los casos de personas deudoras y la validez de las firmas del/de la liquidador/a y del ministro de fe que hayan realizado la diligencia. Lo dispuesto en el inciso anterior será válido para los procedimientos donde efectivamente se hayan realizado diligencias de incautación e inventario autorizadas por el tribunal, ya sean procedimientos ordinarios o, excepcionalmente, simplificados. Tratándose de las actas de entrega de bienes en los procedimientos de liquidación simplificada, su publicación deberá cumplir con lo establecido en el artículo 275 de la Ley, salvo que el tribunal disponga la realización de la diligencia de incautación, donde deberá observarse lo dispuesto en el inciso precedente.</texto>
+        <contexto>Título I Antecedentes para presentar la solicitud</contexto>
+        <contenido>
+          <parrafo>El/la liquidador/a que, una vez aprobada la cuenta final de administración, hubiere comunicado a la Superintendencia que sus honorarios resultaron inferiores a 30 Unidades de Fomento, en los términos del inciso final del artículo 40 de la Ley N.° 20.720, podrá solicitar el pago de sus honorarios con cargo al presupuesto de la Superintendencia.</parrafo>
+          <parrafo>La solicitud de pago deberá presentarse una vez aprobada la cuenta final de administración conforme a lo establecido en el artículo 40 de la Ley N.° 20.720. Sin embargo, si el/la liquidador/a ingresa la solicitud con posterioridad a la dictación de la resolución de término del procedimiento, deberá tener presente que sólo podrá fundarla en hechos acaecidos durante la vigencia del procedimiento, por cuanto una vez dictada la resolución de término, el/la liquidador/a solo puede acreditar el cumplimiento de deberes mientras tuvo la calidad de liquidador/a vigente del respectivo procedimiento.</parrafo>
+          <parrafo>El/la liquidador/a procurará solicitar el pago de honorarios preferentemente dentro de los 60 días siguientes a la fecha de la Resolución que aprueba la cuenta final de administración.</parrafo>
+          <parrafo>Como requisito previo para ingresar la solicitud de pago, deberá estar publicada en el Boletín Concursal el acta de incautación e inventario (bajo la nomenclatura “Acta de Incautación e Inventario”), o el acta de entrega de bienes (bajo la nomenclatura “Acta de entrega de bienes”), según corresponda, y la resolución que tiene por aprobada la cuenta final de administración (bajo la nomenclatura “Resolución que tiene por aprobada la Cuenta Final de Administración”).</parrafo>
+          <parrafo>Este requisito es comprobado automáticamente por el sistema informático, y sin estas publicaciones no será posible iniciar la solicitud de pago de honorarios.</parrafo>
+          <parrafo>Asimismo, se corroborará que el/la liquidador/a haya reportado electrónicamente la cuenta final de administración a través del Portal de Sujetos Fiscalizados, de acuerdo con las instrucciones que al efecto imparta esta Superintendencia.</parrafo>
+          <parrafo>El acta de incautación e inventario publicada deberá cumplir con todas las formalidades establecidas en los artículos 163 y siguientes de la Ley N.° 20.720, así como lo establecido en el título V del Instructivo SIR N.° 1 de 06 de octubre de 2015. En la fiscalización, se considerará especialmente, que el/la liquidador/a haya realizado la incautación en todos los domicilios y lugares informados formalmente en el procedimiento. En caso de no efectuarse la incautación en alguno de los domicilios o lugares, deberá constar la justificación en el procedimiento.</parrafo>
+          <parrafo>Adicionalmente se verificará la información laboral y de remuneraciones en los casos de personas deudoras y la validez de las firmas del/de la liquidador/a y del ministro de fe que hayan realizado la diligencia.</parrafo>
+          <parrafo>Lo dispuesto en el inciso anterior será válido para los procedimientos donde efectivamente se hayan realizado diligencias de incautación e inventario autorizadas por el tribunal, ya sean procedimientos ordinarios o, excepcionalmente, simplificados.</parrafo>
+          <parrafo>Tratándose de las actas de entrega de bienes en los procedimientos de liquidación simplificada, su publicación deberá cumplir con lo establecido en el artículo 275 de la Ley, salvo que el tribunal disponga la realización de la diligencia de incautación, donde deberá observarse lo dispuesto en el inciso precedente.</parrafo>
+        </contenido>
         <referencias>
           <ref articulo="275"/>
           <ref articulo="40"/>
@@ -132,81 +94,63 @@ Procedimiento Concursal de Liquidación Simplificada.</texto>
       </articulo>
       <articulo id="4" tipo_original="Artículo" numero="4">
         <titulo_seccion>Artículo 4. Documentos que deben acompañarse a la solicitud de pago de honorarios</titulo_seccion>
-        <contexto>TÍTULO I Antecedentes para presentar la solicitud</contexto>
-        <texto>Los antecedentes a acompañar a la solicitud de pago de honorarios son los siguientes: 1) Información sobre los vehículos motorizados de propiedad del deudor. El/la liquidador/a deberá acompañar información sobre los vehículos del deudor obtenida mediante consulta al Servicio de Registro Civil e Identificación a través del Portal de Sujetos Fiscalizados. También deberá acompañarse el registro histórico, con el fin de determinar que el deudor no transfirió un vehículo en el período de revocabilidad concursal. 2) Información sobre derechos hereditarios del deudor. Deberá acreditarse que el deudor no tiene derechos hereditarios que debieron ingresar al concurso. Esta acreditación deberá realizarse acompañando información sobre fecha de defunción y posesión efectiva de los padres obtenida mediante consulta al Servicio de Registro Civil e Identificación a través del Portal de Sujetos Fiscalizados, donde conste que los padres del deudor no han fallecido o que la fecha del fallecimiento es superior a diez años previos a la fecha de la resolución de liquidación. Si existen derechos hereditarios, pero la posesión efectiva no está tramitada, el/la liquidador/a podrá enajenar la cuota que le corresponda al deudor heredero, teniendo en consideración lo dispuesto en el Oficio Superir N.° 14006 de 6 de septiembre de 2023, de instrucción general de esta Superintendencia. Este numeral no será aplicable a procedimientos referidos a personas jurídicas. 3) Información tributaria del deudor. El/la liquidador/a deberá acreditar el cumplimiento de las obligaciones tributarias mientras tenga a su cargo el procedimiento concursal, de conformidad a lo establecido en la Circular N.° 64 de 13 de julio de 2015 del Servicio de Impuestos Internos y Oficio Superir N.° 299 de 12 de septiembre de 2017 en relación al artículo 8 N.° 6 del Código Tributario. Esta acreditación deberá realizarse acompañando la Carpeta Tributaria Electrónica para solicitar créditos del deudor, donde conste el cumplimiento. En la fiscalización se dará especial énfasis a las declaraciones de renta e IVA, cuando correspondan. Si el deudor está exento de presentar la declaración de renta, el/la liquidador/a tendrá la carga de acompañar antecedentes que así lo acrediten. La información tributaria acompañada deberá acreditar que las obligaciones tributarias estén actualizadas al momento de la presentación de la solicitud de pago. En caso de que proceda algún beneficio tributario, como por ejemplo la devolución por intereses de créditos hipotecarios o gastos de educación, el/la liquidador/a deberá requerir del deudor la información necesaria, y dar lugar a su incautación, en caso que resulte pertinente. 4) Información emitida por la Tesorería General de la República sobre devoluciones de impuestos retenidas, susceptibles de ingresar a la masa. Para entenderse cumplido este punto, el/la liquidador/a deberá acompañar una captura de pantalla del sistema dispuesto por la Tesorería General de la República para consultar si el deudor tiene devoluciones retenidas y acreditar las gestiones efectuadas para obtener las devoluciones que correspondan. Se exceptúan de esta obligación aquellos procedimientos en los cuales la declaración de renta correspondiente al período previo a la dictación de la resolución de liquidación dio como resultado cero en la devolución. Tampoco será exigible en los casos en que el deudor no esté obligado a realizar la declaración, cumpliéndose lo señalado en el numeral precedente. Asimismo, se exceptúan de esta obligación aquellos procedimientos concursales que hayan sido iniciados con posterioridad al periodo de declaración de renta y terminados antes del siguiente período, por cuanto en este caso no existen devoluciones que ingresar a la masa. 5) Información sobre inmuebles del deudor. Se debe acreditar que el deudor no tiene en su patrimonio inmuebles susceptibles de ingresar al concurso. Para esto, el/la liquidador/a deberá acompañar información del Servicio de Impuestos Internos, contenida en la carpeta tributaria, sobre los bienes raíces asociados al deudor, informando sobre la situación jurídica de los mismos. Asimismo, si de esta información consta que el deudor tiene inmuebles, el/la liquidador/a deberá obtener información del respectivo Conservador de Bienes Raíces y determinar si la inscripción se encuentra vigente, acompañando esta información a la solicitud de pago. 6) Información sobre derechos sociales del deudor. Se debe acreditar que el deudor no tiene en su patrimonio derechos sociales susceptibles de ingresar al concurso. Esta información deberá constar en la carpeta tributaria acompañada conforme al numeral 3 precedente. En caso de que figuren derechos sociales, debe constar su ingreso al concurso, u otra medida contemplada en la Ley. 7) Información sobre la aplicación del artículo 229 o artículo 279 B de la Ley. En caso de que los/las acreedores/as, o el/la liquidador/a en su caso, decidan adoptar la facultad de no perseverar en la persecución de bienes contemplada en el artículo 229 de la Ley N.° 20.720, se deberá acompañar a la solicitud de pago de honorarios las respectivas citaciones y el acta de la junta, o las certificaciones de no celebración, cumpliendo estrictamente lo dispuesto en el señalado artículo 229, observando también lo dispuesto en el Oficio Superir N.° 3023 de 24 de febrero de 2022, de instrucción general de esta Superintendencia, especialmente lo relativo a la determinación de los bienes y a la relación costo-beneficio que fundamente la decisión. Sin perjuicio de lo anterior, los documentos que se considerarán válidos para la fiscalización serán las publicaciones realizadas en el Boletín Concursal. Así, si estos faltaren o se detectare algún incumplimiento, se rechazará el punto. Tratándose de procedimientos simplificados, si el/la liquidador/a aplica la facultad contemplada en el artículo 279 B de la Ley, deberá acompañar la resolución del tribunal que apruebe la solicitud. Además, en caso de que los acreedores decidan adoptar la decisión de no perseverar en otra junta de acreedores, como la Junta Constitutiva de Acreedores, se deberá indicar expresamente en la solicitud de pago. 8) Copia de la demanda de acción revocatoria concursal, si se hubiere interpuesto, de conformidad con lo dispuesto en el</texto>
+        <contexto>Título I Antecedentes para presentar la solicitud</contexto>
+        <contenido>
+          <parrafo>Los antecedentes a acompañar a la solicitud de pago de honorarios son los siguientes: 1) Información sobre los vehículos motorizados de propiedad del deudor. El/la liquidador/a deberá acompañar información sobre los vehículos del deudor obtenida mediante consulta al Servicio de Registro Civil e Identificación a través del Portal de Sujetos Fiscalizados.</parrafo>
+          <parrafo>También deberá acompañarse el registro histórico, con el fin de determinar que el deudor no transfirió un vehículo en el período de revocabilidad concursal. 2) Información sobre derechos hereditarios del deudor. Deberá acreditarse que el deudor no tiene derechos hereditarios que debieron ingresar al concurso. Esta acreditación deberá realizarse acompañando información sobre fecha de defunción y posesión efectiva de los padres obtenida mediante consulta al Servicio de Registro Civil e Identificación a través del Portal de Sujetos Fiscalizados, donde conste que los padres del deudor no han fallecido o que la fecha del fallecimiento es superior a diez años previos a la fecha de la resolución de liquidación. Si existen derechos hereditarios, pero la posesión efectiva no está tramitada, el/la liquidador/a podrá enajenar la cuota que le corresponda al deudor heredero, teniendo en consideración lo dispuesto en el Oficio Superir N.° 14006 de 6 de septiembre de 2023, de instrucción general de esta Superintendencia.</parrafo>
+          <parrafo>Este numeral no será aplicable a procedimientos referidos a personas jurídicas. 3) Información tributaria del deudor. El/la liquidador/a deberá acreditar el cumplimiento de las obligaciones tributarias mientras tenga a su cargo el procedimiento concursal, de conformidad a lo establecido en la Circular N.° 64 de 13 de julio de 2015 del Servicio de Impuestos Internos y Oficio Superir N.° 299 de 12 de septiembre de 2017 en relación al artículo 8 N.° 6 del Código Tributario.</parrafo>
+          <parrafo>Esta acreditación deberá realizarse acompañando la Carpeta Tributaria Electrónica para solicitar créditos del deudor, donde conste el cumplimiento. En la fiscalización se dará especial énfasis a las declaraciones de renta e IVA, cuando correspondan. Si el deudor está exento de presentar la declaración de renta, el/la liquidador/a tendrá la carga de acompañar antecedentes que así lo acrediten. La información tributaria acompañada deberá acreditar que las obligaciones tributarias estén actualizadas al momento de la presentación de la solicitud de pago.</parrafo>
+          <parrafo>En caso de que proceda algún beneficio tributario, como por ejemplo la devolución por intereses de créditos hipotecarios o gastos de educación, el/la liquidador/a deberá requerir del deudor la información necesaria, y dar lugar a su incautación, en caso que resulte pertinente. 4) Información emitida por la Tesorería General de la República sobre devoluciones de impuestos retenidas, susceptibles de ingresar a la masa. Para entenderse cumplido este punto, el/la liquidador/a deberá acompañar una captura de pantalla del sistema dispuesto por la Tesorería General de la República para consultar si el deudor tiene devoluciones retenidas y acreditar las gestiones efectuadas para obtener las devoluciones que correspondan. Se exceptúan de esta obligación aquellos procedimientos en los cuales la declaración de renta correspondiente al período previo a la dictación de la resolución de liquidación dio como resultado cero en la devolución. Tampoco será exigible en los casos en que el deudor no esté obligado a realizar la declaración, cumpliéndose lo señalado en el numeral precedente.</parrafo>
+          <parrafo>Asimismo, se exceptúan de esta obligación aquellos procedimientos concursales que hayan sido iniciados con posterioridad al periodo de declaración de renta y terminados antes del siguiente período, por cuanto en este caso no existen devoluciones que ingresar a la masa. 5) Información sobre inmuebles del deudor. Se debe acreditar que el deudor no tiene en su patrimonio inmuebles susceptibles de ingresar al concurso. Para esto, el/la liquidador/a deberá acompañar información del Servicio de Impuestos Internos, contenida en la carpeta tributaria, sobre los bienes raíces asociados al deudor, informando sobre la situación jurídica de los mismos. Asimismo, si de esta información consta que el deudor tiene inmuebles, el/la liquidador/a deberá obtener información del respectivo Conservador de Bienes Raíces y determinar si la inscripción se encuentra vigente, acompañando esta información a la solicitud de pago. 6) Información sobre derechos sociales del deudor. Se debe acreditar que el deudor no tiene en su patrimonio derechos sociales susceptibles de ingresar al concurso. Esta información deberá constar en la carpeta tributaria acompañada conforme al numeral</parrafo>
+          <parrafo>3 precedente. En caso de que figuren derechos sociales, debe constar su ingreso al concurso, u otra medida contemplada en la Ley. 7) Información sobre la aplicación del artículo 229 o artículo 279 B de la Ley. En caso de que los/las acreedores/as, o el/la liquidador/a en su caso, decidan adoptar la facultad de no perseverar en la persecución de bienes contemplada en el artículo 229 de la Ley N.° 20.720, se deberá acompañar a la solicitud de pago de honorarios las respectivas citaciones y el acta de la junta, o las certificaciones de no celebración, cumpliendo estrictamente lo dispuesto en el señalado artículo 229, observando también lo dispuesto en el Oficio Superir N.° 3023 de 24 de febrero de 2022, de instrucción general de esta Superintendencia, especialmente lo relativo a la determinación de los bienes y a la relación costo-beneficio que fundamente la decisión. Sin perjuicio de lo anterior, los documentos que se considerarán válidos para la fiscalización serán las publicaciones realizadas en el Boletín Concursal. Así, si estos faltaren o se detectare algún incumplimiento, se rechazará el punto.</parrafo>
+          <parrafo>Tratándose de procedimientos simplificados, si el/la liquidador/a aplica la facultad contemplada en el artículo 279 B de la Ley, deberá acompañar la resolución del tribunal que apruebe la solicitud.</parrafo>
+          <parrafo>Además, en caso de que los acreedores decidan adoptar la decisión de no perseverar en otra junta de acreedores, como la Junta Constitutiva de Acreedores, se deberá indicar expresamente en la solicitud de pago. 8) Copia de la demanda de acción revocatoria concursal, si se hubiere interpuesto, de conformidad con lo dispuesto en el Capítulo VI de la Ley N.° 20.720.</parrafo>
+          <parrafo>En el caso de procedimientos de personas deudoras con la cuenta final de administración aprobada antes de la entrada en vigencia de la Ley N.° 21.563, si el/la liquidador/a decide no ejercer la acción, deberá acompañar la constancia ante el tribunal y el resultado de la votación de los acreedores a que se refiere el artículo 290 de la Ley. Asimismo, si no se cumplen los requisitos formales para ejercer las acciones, el/la liquidador/a debe dar cuenta de ello.</parrafo>
+          <parrafo>Tratándose de procedimientos de personas deudoras cuya cuenta final hubiera sido presentada con posterioridad a la entrada en vigencia de la Ley N.° 21.563, resultará plenamente aplicable lo dispuesto en el nuevo artículo 290 de la Ley.</parrafo>
+          <parrafo>En caso de ser un procedimiento concursal de liquidación de empresa deudora iniciado con anterioridad a la entrada en vigencia de la Ley, de acuerdo a lo dispuesto en el artículo quinto transitorio, resultará plenamente aplicable a su respecto lo dispuesto en los artículos 287 y siguientes de la Ley, por lo que el/la liquidador/a deberá interponer la respectiva acción revocatoria, o justificar debidamente la omisión de su interposición, sin perjuicio de lo que la junta de acreedores pueda acordar.</parrafo>
+          <parrafo>Al aplicar el nuevo artículo 290 de la Ley, el/la liquidador/a deberá someter a la junta de acreedores el acuerdo sobre la interposición de las acciones revocatorias, en forma separada de la decisión de no perseverar del artículo 229 de la Ley, aun cuando puede someterlo como propuesta de acuerdo, en una de las 2 juntas a que se refiere el referido artículo. 9) Acreditación de gastos incurridos durante la tramitación del procedimiento. El/la liquidador/a deberá acompañar los documentos que respalden los gastos en que incurrió durante la tramitación del procedimiento. 10) Boleta de honorarios que haya emitido al momento de cobrar honorarios sobre los ingresos de la liquidación, conforme a las reglas generales.</parrafo>
+        </contenido>
         <referencias>
-          <ref articulo="279"/>
-          <ref articulo="8"/>
           <ref articulo="229"/>
+          <ref articulo="8"/>
+          <ref articulo="290"/>
+          <ref articulo="279"/>
         </referencias>
       </articulo>
-      <capitulo id="3" tipo_original="Capítulo" numero="VI">
-        <titulo_seccion>Capítulo VI de la Ley N.° 20.720.</titulo_seccion>
-        <contexto>TÍTULO I Antecedentes para presentar la solicitud</contexto>
-        <articulo id="5" tipo_original="Artículo" numero="5">
-          <titulo_seccion>Artículo 5. Obtención de antecedentes</titulo_seccion>
-          <contexto>TÍTULO I Antecedentes para presentar la solicitud &gt; Capítulo VI de la Ley N.° 20.720.</contexto>
-          <texto>El/la
-liquidador/a podrá requerir algún antecedente faltante al deudor, en virtud
-del deber de colaboración establecido en el artículo 169 de la Ley, por
-intermedio del tribunal en caso necesario.
-Además, podrá obtener los antecedentes
-señalados en el artículo anterior tanto de forma directa ante las
-instituciones señaladas, en su calidad de representante del deudor, como
-también a través de oficios diligenciados por intermedio del tribunal.
-Asimismo, podrá obtener tal información de fuentes abiertas, como
-registros públicos y bases de datos disponibles en Internet.
-Si el/la liquidador/a no pudiere obtener los
-documentos especificados en el artículo anterior, podrá acompañar
-cualquier antecedente oficial que demuestre que realizó todas las gestiones
-tendientes a procurar la información, incorporando en su caso, las
-explicaciones respectivas. Se entenderá como oficial aquel documento que
-cuente con medidas para su verificación, como firma electrónica avanzada
-o folio de verificación web, así como el autorizado con las solemnidades
-legales por el competente funcionario, conforme a lo dispuesto en el
-artículo 1699 del Código Civil. Asimismo, el/la liquidador/a podrá
-acompañar antecedentes que den cuenta de la negativa institucional para
-entregar la información requerida.
-En el caso de procedimientos de liquidación
-voluntaria simplificada iniciados con posterioridad a la entrada en vigencia
-de la Ley N.° 21.563, el/la liquidador/a deberá contrastar los antecedentes
-exigidos en el artículo 4° del presente Instructivo, con aquellos
-antecedentes que deba acompañar el deudor en la solicitud de inicio del
-procedimiento, corroborando su veracidad y completitud.</texto>
-          <referencias>
-            <ref articulo="169"/>
-            <ref articulo="1699"/>
-            <ref articulo="4"/>
-          </referencias>
-        </articulo>
-        <articulo id="6" tipo_original="Artículo" numero="6">
-          <titulo_seccion>Artículo 6. Regla de pago para liquidaciones forzosas</titulo_seccion>
-          <contexto>TÍTULO I Antecedentes para presentar la solicitud &gt; Capítulo VI de la Ley N.° 20.720.</contexto>
-          <texto>Tratándose de liquidaciones forzosas, el/la liquidador/a podrá retirar hasta 30 unidades de fomento por concepto de honorarios, de las 100 unidades de fomento consignadas por el acreedor peticionario, conforme a lo dispuesto en los artículos 118 y 283 de la Ley N° 20.720, cuando no se logre el mínimo de fondos para pagar los honorarios que le correspondan con los ingresos del procedimiento. En este caso, los honorarios del/de la liquidador/a tendrán prioridad sobre el resto de los gastos de administración del procedimiento. Si el/la liquidador/a puede obtener un honorario superior a las 30 unidades de fomento de los ingresos del procedimiento, no procederá el retiro de los fondos consignados ni tampoco la solicitud de pago con cargo al presupuesto de la Superintendencia, no pudiendo sumar las 100 Unidades de Fomento, como fondos disponibles para efectos del cálculo del pago de honorarios.</texto>
-        </articulo>
-      </capitulo>
+      <articulo id="5" tipo_original="Artículo" numero="5">
+        <titulo_seccion>Artículo 5. Obtención de antecedentes</titulo_seccion>
+        <contexto>Título I Antecedentes para presentar la solicitud</contexto>
+        <contenido>
+          <parrafo>El/la liquidador/a podrá requerir algún antecedente faltante al deudor, en virtud del deber de colaboración establecido en el artículo 169 de la Ley, por intermedio del tribunal en caso necesario.</parrafo>
+          <parrafo>Además, podrá obtener los antecedentes señalados en el artículo anterior tanto de forma directa ante las instituciones señaladas, en su calidad de representante del deudor, como también a través de oficios diligenciados por intermedio del tribunal.</parrafo>
+          <parrafo>Asimismo, podrá obtener tal información de fuentes abiertas, como registros públicos y bases de datos disponibles en Internet.</parrafo>
+          <parrafo>Si el/la liquidador/a no pudiere obtener los documentos especificados en el artículo anterior, podrá acompañar cualquier antecedente oficial que demuestre que realizó todas las gestiones tendientes a procurar la información, incorporando en su caso, las explicaciones respectivas. Se entenderá como oficial aquel documento que cuente con medidas para su verificación, como firma electrónica avanzada o folio de verificación web, así como el autorizado con las solemnidades legales por el competente funcionario, conforme a lo dispuesto en el artículo 1699 del Código Civil. Asimismo, el/la liquidador/a podrá acompañar antecedentes que den cuenta de la negativa institucional para entregar la información requerida.</parrafo>
+          <parrafo>En el caso de procedimientos de liquidación voluntaria simplificada iniciados con posterioridad a la entrada en vigencia de la Ley N.° 21.563, el/la liquidador/a deberá contrastar los antecedentes exigidos en el artículo 4° del presente Instructivo, con aquellos antecedentes que deba acompañar el deudor en la solicitud de inicio del procedimiento, corroborando su veracidad y completitud.</parrafo>
+        </contenido>
+        <referencias>
+          <ref articulo="1699"/>
+          <ref articulo="169"/>
+          <ref articulo="4"/>
+        </referencias>
+      </articulo>
+      <articulo id="6" tipo_original="Artículo" numero="6">
+        <titulo_seccion>Artículo 6. Regla de pago para liquidaciones forzosas</titulo_seccion>
+        <contexto>Título I Antecedentes para presentar la solicitud</contexto>
+        <contenido>
+          <parrafo>Tratándose de liquidaciones forzosas, el/la liquidador/a podrá retirar hasta 30 unidades de fomento por concepto de honorarios, de las 100 unidades de fomento consignadas por el acreedor peticionario, conforme a lo dispuesto en los artículos 118 y 283 de la Ley N° 20.720, cuando no se logre el mínimo de fondos para pagar los honorarios que le correspondan con los ingresos del procedimiento. En este caso, los honorarios del/de la liquidador/a tendrán prioridad sobre el resto de los gastos de administración del procedimiento. Si el/la liquidador/a puede obtener un honorario superior a las 30 unidades de fomento de los ingresos del procedimiento, no procederá el retiro de los fondos consignados ni tampoco la solicitud de pago con cargo al presupuesto de la Superintendencia, no pudiendo sumar las 100 Unidades de Fomento, como fondos disponibles para efectos del cálculo del pago de honorarios.</parrafo>
+        </contenido>
+      </articulo>
     </titulo>
-    <titulo id="4" tipo_original="Título" numero="II">
-      <titulo_seccion>TÍTULO II Comunicación a la Superintendencia y pago de honorarios</titulo_seccion>
+    <titulo id="3" tipo_original="Título" numero="II">
+      <titulo_seccion>Título II Comunicación a la Superintendencia y pago de honorarios</titulo_seccion>
       <articulo id="7" tipo_original="Artículo" numero="7">
         <titulo_seccion>Artículo 7. Forma y oportunidad</titulo_seccion>
-        <contexto>TÍTULO II Comunicación a la Superintendencia y pago de honorarios</contexto>
-        <texto>La
-comunicación a la que hace referencia el inciso final del artículo 40 de la
-Ley, deberá realizarse a través del Portal de Sujetos Fiscalizados, conforme
-a lo señalado en el Anexo N.° 1 del presente Instructivo, una vez que la
-cuenta final de administración se encuentre aprobada.
-Lo anterior, puesto que la determinación del
-monto de los honorarios a pagar cuando estos son inferiores a 30 Unidades
-de Fomento solo podrá realizarse una vez presentada la cuenta final de
-administración y la Superintendencia procederá a pagar el honorario que
-corresponda con cargo a su presupuesto, una vez aprobada dicha cuenta.
-La Superintendencia fiscalizará que el/la
-liquidador/a haya cumplido los deberes encomendados en el artículo 36 de
-la Ley N.° 20.720, procurando el máximo beneficio para la masa en la
-administración del procedimiento concursal, de forma tal que no existan
-bienes que hubieren podido enajenarse y, en definitiva, constituir ingresos
-del procedimiento con que el/la liquidador/a pudiere cubrir sus honorarios.</texto>
+        <contexto>Título II Comunicación a la Superintendencia y pago de honorarios</contexto>
+        <contenido>
+          <parrafo>La comunicación a la que hace referencia el inciso final del artículo 40 de la Ley, deberá realizarse a través del Portal de Sujetos Fiscalizados, conforme a lo señalado en el Anexo N.° 1 del presente Instructivo, una vez que la cuenta final de administración se encuentre aprobada.</parrafo>
+          <parrafo>Lo anterior, puesto que la determinación del monto de los honorarios a pagar cuando estos son inferiores a 30 Unidades de Fomento solo podrá realizarse una vez presentada la cuenta final de administración y la Superintendencia procederá a pagar el honorario que corresponda con cargo a su presupuesto, una vez aprobada dicha cuenta.</parrafo>
+          <parrafo>La Superintendencia fiscalizará que el/la liquidador/a haya cumplido los deberes encomendados en el artículo 36 de la Ley N.° 20.720, procurando el máximo beneficio para la masa en la administración del procedimiento concursal, de forma tal que no existan bienes que hubieren podido enajenarse y, en definitiva, constituir ingresos del procedimiento con que el/la liquidador/a pudiere cubrir sus honorarios.</parrafo>
+        </contenido>
         <referencias>
           <ref articulo="36"/>
           <ref articulo="40"/>
@@ -214,295 +158,126 @@ del procedimiento con que el/la liquidador/a pudiere cubrir sus honorarios.</tex
       </articulo>
       <articulo id="8" tipo_original="Artículo" numero="8">
         <titulo_seccion>Artículo 8. Pago del saldo del honorario</titulo_seccion>
-        <contexto>TÍTULO II Comunicación a la Superintendencia y pago de honorarios</contexto>
-        <texto>Para
-efectuar el pago de honorarios al liquidador/a, se calculará el saldo
-restante para cubrir el honorario que establece el artículo 40 de la Ley,
-considerando los datos ingresados por el/la liquidador/a en la cuenta final
-de administración, reportada electrónicamente de acuerdo con
-instrucciones que al efecto imparta esta Superintendencia, y se revisará el
-cumplimiento de los antecedentes indicados en los artículos 3° y 4°
-anteriores. Para el cálculo del saldo, se aplicará el monto en unidades de
-fomento a la fecha de las boletas de honorarios acompañadas, y las
-unidades de fomento del complemento se calcularán a la fecha de la
-resolución que apruebe el pago.
-Si el procedimiento quedara con un saldo
-suficiente para cubrir el honorario mínimo establecido en la Ley o parte de
-este, el/la liquidador/a deberá retirarlo y cubrir sus honorarios con cargo a
-dicho saldo. En caso de que no se logre cubrir el honorario mínimo de 30
-unidades de fomento, el/la liquidador/a podrá solicitar el pago del saldo
-con cargo al presupuesto de la Superintendencia. Solo se podrán efectuar
-repartos de fondos si los fondos disponibles alcanzan para asegurar el pago
-mínimo establecido en el artículo 40 de la Ley y, además, un saldo para
-los acreedores. Por lo tanto, el/la liquidador/a podrá retirar el saldo como
-honorarios hasta cubrir el honorario mínimo de 30 unidades de fomento
-aun cuando no hubiere realizado repartos de fondos.</texto>
+        <contexto>Título II Comunicación a la Superintendencia y pago de honorarios</contexto>
+        <contenido>
+          <parrafo>Para efectuar el pago de honorarios al liquidador/a, se calculará el saldo restante para cubrir el honorario que establece el artículo 40 de la Ley, considerando los datos ingresados por el/la liquidador/a en la cuenta final de administración, reportada electrónicamente de acuerdo con instrucciones que al efecto imparta esta Superintendencia, y se revisará el cumplimiento de los antecedentes indicados en los artículos 3° y 4° anteriores. Para el cálculo del saldo, se aplicará el monto en unidades de fomento a la fecha de las boletas de honorarios acompañadas, y las unidades de fomento del complemento se calcularán a la fecha de la resolución que apruebe el pago.</parrafo>
+          <parrafo>Si el procedimiento quedara con un saldo suficiente para cubrir el honorario mínimo establecido en la Ley o parte de este, el/la liquidador/a deberá retirarlo y cubrir sus honorarios con cargo a dicho saldo. En caso de que no se logre cubrir el honorario mínimo de 30 unidades de fomento, el/la liquidador/a podrá solicitar el pago del saldo con cargo al presupuesto de la Superintendencia. Solo se podrán efectuar repartos de fondos si los fondos disponibles alcanzan para asegurar el pago mínimo establecido en el artículo 40 de la Ley y, además, un saldo para los acreedores. Por lo tanto, el/la liquidador/a podrá retirar el saldo como honorarios hasta cubrir el honorario mínimo de 30 unidades de fomento aun cuando no hubiere realizado repartos de fondos.</parrafo>
+        </contenido>
         <referencias>
           <ref articulo="40"/>
         </referencias>
       </articulo>
       <articulo id="9" tipo_original="Artículo" numero="9">
         <titulo_seccion>Artículo 9. Oportunidad del pago y emisión de la boleta de honorarios</titulo_seccion>
-        <contexto>TÍTULO II Comunicación a la Superintendencia y pago de honorarios</contexto>
-        <texto>Los honorarios se pagarán una vez que el/la liquidador/a emita la boleta de honorarios respectiva. Para una adecuada gestión del referido pago, los/las liquidadores/as remitirán a la Superintendencia dicha boleta de honorarios, dentro de los 3 días hábiles siguientes a la notificación de la resolución que aprueba el pago.</texto>
+        <contexto>Título II Comunicación a la Superintendencia y pago de honorarios</contexto>
+        <contenido>
+          <parrafo>Los honorarios se pagarán una vez que el/la liquidador/a emita la boleta de honorarios respectiva. Para una adecuada gestión del referido pago, los/las liquidadores/as remitirán a la Superintendencia dicha boleta de honorarios, dentro de los 3 días hábiles siguientes a la notificación de la resolución que aprueba el pago.</parrafo>
+        </contenido>
       </articulo>
     </titulo>
-    <titulo id="5" tipo_original="Título" numero="III">
-      <titulo_seccion>TÍTULO III Ámbito de la fiscalización y recursos</titulo_seccion>
+    <titulo id="4" tipo_original="Título" numero="III">
+      <titulo_seccion>Título III Ámbito de la fiscalización y recursos</titulo_seccion>
       <articulo id="10" tipo_original="Artículo" numero="10">
         <titulo_seccion>Artículo 10. Ámbito de la fiscalización</titulo_seccion>
-        <contexto>TÍTULO III Ámbito de la fiscalización y recursos</contexto>
-        <texto>La
-fiscalización realizada por la Superintendencia con ocasión de la solicitud
-de pago de honorarios es una fiscalización general, enmarcada en los
-deberes que la Ley N.° 20.720 encomienda al Servicio. Así, la fiscalización
-no se limitará a lo expuesto en el presente Instructivo, pudiendo
-observarse el incumplimiento de cualquier norma de rango legal o
-reglamentario dictada por este Servicio, en especial, aquellos instructivos
-y oficios de instrucción general que digan relación con obligaciones de
-los/las liquidadores/as durante la tramitación del procedimiento.
-Si durante la fiscalización se detectare un
-incumplimiento formal, como la omisión de algún antecedente en la
-solicitud de pago, la Superintendencia enviará un oficio al/a la liquidador/a
-requiriendo complementar la información, en virtud de lo dispuesto en el
-artículo 31 de la Ley N.° 19.880.</texto>
+        <contexto>Título III Ámbito de la fiscalización y recursos</contexto>
+        <contenido>
+          <parrafo>La fiscalización realizada por la Superintendencia con ocasión de la solicitud de pago de honorarios es una fiscalización general, enmarcada en los deberes que la Ley N.° 20.720 encomienda al Servicio. Así, la fiscalización no se limitará a lo expuesto en el presente Instructivo, pudiendo observarse el incumplimiento de cualquier norma de rango legal o reglamentario dictada por este Servicio, en especial, aquellos instructivos y oficios de instrucción general que digan relación con obligaciones de los/las liquidadores/as durante la tramitación del procedimiento.</parrafo>
+          <parrafo>Si durante la fiscalización se detectare un incumplimiento formal, como la omisión de algún antecedente en la solicitud de pago, la Superintendencia enviará un oficio al/a la liquidador/a requiriendo complementar la información, en virtud de lo dispuesto en el artículo 31 de la Ley N.° 19.880.</parrafo>
+        </contenido>
         <referencias>
           <ref articulo="31"/>
         </referencias>
       </articulo>
       <articulo id="11" tipo_original="Artículo" numero="11">
         <titulo_seccion>Artículo 11. Recursos</titulo_seccion>
-        <contexto>TÍTULO III Ámbito de la fiscalización y recursos</contexto>
-        <texto>Si se determina el
-rechazo de la solicitud de pago de honorarios, el/la liquidador/a podrá
-reponer administrativamente de la resolución de rechazo, en el plazo de 5
-días hábiles contado desde la fecha de notificación de la resolución que
-rechazó el pago, conforme a lo establecido en el artículo 59 de la Ley N.°
-19.880 y de acuerdo con las instrucciones impartidas en el número 2 del
-Anexo N°1 (“Ingreso de Recursos”).
-Asimismo, si el/la liquidador/a estima que
-concurren las causales establecidas en el artículo 60 de la Ley N.° 19.880,
-se podrá interponer un recurso extraordinario de revisión dentro de los
-plazos que establece dicha norma.
-Cabe hacer presente que, no procede el recurso
-jerárquico contemplado en el artículo 59 ya señalado, por cuanto la
-Superintendencia es un servicio público descentralizado.
-En cualquier caso, quedará sujeta a esta
-Superintendencia la valoración de los antecedentes aportados.</texto>
+        <contexto>Título III Ámbito de la fiscalización y recursos</contexto>
+        <contenido>
+          <parrafo>Si se determina el rechazo de la solicitud de pago de honorarios, el/la liquidador/a podrá reponer administrativamente de la resolución de rechazo, en el plazo de 5 días hábiles contado desde la fecha de notificación de la resolución que rechazó el pago, conforme a lo establecido en el artículo 59 de la Ley N.° 19.880 y de acuerdo con las instrucciones impartidas en el número 2 del Anexo N°1 (“Ingreso de Recursos”).</parrafo>
+          <parrafo>Asimismo, si el/la liquidador/a estima que concurren las causales establecidas en el artículo 60 de la Ley N.° 19.880, se podrá interponer un recurso extraordinario de revisión dentro de los plazos que establece dicha norma.</parrafo>
+          <parrafo>Cabe hacer presente que, no procede el recurso jerárquico contemplado en el artículo 59 ya señalado, por cuanto la Superintendencia es un servicio público descentralizado.</parrafo>
+          <parrafo>En cualquier caso, quedará sujeta a esta Superintendencia la valoración de los antecedentes aportados.</parrafo>
+        </contenido>
         <referencias>
-          <ref articulo="60"/>
           <ref articulo="59"/>
+          <ref articulo="60"/>
         </referencias>
       </articulo>
     </titulo>
-    <titulo id="6" tipo_original="Título" numero="IV">
-      <titulo_seccion>TÍTULO IV Disposiciones finales</titulo_seccion>
+    <titulo id="5" tipo_original="Título" numero="IV">
+      <titulo_seccion>Título IV Disposiciones finales</titulo_seccion>
       <articulo id="12" tipo_original="Artículo" numero="12">
         <titulo_seccion>Artículo 12. Vigencia</titulo_seccion>
-        <contexto>TÍTULO IV Disposiciones finales</contexto>
-        <texto>El presente Instructivo
-comenzará a regir a contar del 24 de octubre de 2023 y será aplicable
-respecto de todas las solicitudes de pago ingresadas a través del Portal de
-Sujetos Fiscalizados a contar de esa fecha.</texto>
+        <contexto>Título IV Disposiciones finales</contexto>
+        <contenido>
+          <parrafo>El presente Instructivo comenzará a regir a contar del 24 de octubre de 2023 y será aplicable respecto de todas las solicitudes de pago ingresadas a través del Portal de Sujetos Fiscalizados a contar de esa fecha.</parrafo>
+        </contenido>
       </articulo>
       <articulo id="13" tipo_original="Artículo" numero="13">
         <titulo_seccion>Artículo 13. Disposición Transitoria</titulo_seccion>
-        <contexto>TÍTULO IV Disposiciones finales</contexto>
-        <texto>Sin
-perjuicio de lo señalado en el artículo 12° anterior, lo dispuesto en el inciso
-final del artículo 40 de la Ley N.° 20.720, en relación con el saldo restante
-que pagará la Superintendencia para alcanzar el honorario mínimo de 30
-unidades de fomento, aplicará a los procedimientos cuya cuenta final de
-administración esté aprobada con fecha igual o posterior al 11 de agosto
-de 2023.
-Asimismo, para los procedimientos que tengan
-cuenta final aprobada con anterioridad al 11 de agosto y/o cuya solicitud
-de pago sea anterior a dicha fecha, será aplicable el inciso final del artículo
-40 de la Ley N.° 20.720 sin la modificación, sin poder optar al pago del
-saldo del honorario. En caso de aprobación de la solicitud de pago de
-honorarios, se pagará un monto fijo de 30 unidades de fomento, no
-pudiendo optar al pago parcial.
-Si de acuerdo a la etapa procesal el/la liquidador/a
-no pudiere obtener los antecedentes señalados en el presente instructivo,
-se mantendrá vigente lo señalado en el Instructivo SIR N.° 3 de 16 de
-noviembre de 2018.
-Por último, el requisito contemplado en el inciso
-quinto del artículo 3° del presente instructivo, será exigible a partir de la
-entrada en vigencia de las instrucciones relativas al reporte electrónico de
-la cuenta final de administración, que imparta esta Superintendencia.
-Anexo N.°1
-INGRESO DE LA SOLICITUD DE PAGO Y DE RECURSOS
-POSTERIORES
-1. Ingreso de la Solicitud de Pago de Honorarios
-La solicitud de pago de honorarios, así como los recursos que
-posteriormente se deduzcan, deberán ingresarse a través del Portal de
-Sujetos Fiscalizados, pestaña Liquidador, en la opción Requiere Pago
-Honorarios.
-Imagen 1: Pantalla Requiere Pago Honorarios
-En esta sección, los/las liquidadores/as pueden ver los procedimientos en
-que hayan solicitado el pago de honorarios, incluyendo el estado de la
-solicitud.
-Los estados son los siguientes:
-1. Solicitud ingresada: El Ingreso fue creado en el sistema
-informático de la Superintendencia y debe ser asignado a
-un/una fiscalizador/a para su revisión.
-2. En revisión de Fiscalización: El Ingreso fue asignado a un/una
-fiscalizador/a y se encuentra en proceso de emisión del informe
-de fiscalización.
-3. En proceso resolución: El informe ya fue emitido por el/la
-fiscalizador/a y firmado por la jefatura, encontrándose
-pendiente la confección y firma de la resolución.
-4. Rechazada por fiscalización: Fue emitida una resolución que
-rechaza el pago de honorarios.
-5. En tramitación de pago: Fue emitida una resolución que
-aprueba el pago de honorarios, encontrándose pendiente de
-tramitación el pago de la solicitud en el Subdepartamento de
-Recursos Financieros de la Superintendencia.
-Los/las liquidadores/as podrán ingresar nuevas solicitudes de pago
-haciendo clic en el botón verde de la parte superior de la página web, con
-la etiqueta “Generar nuevas solicitudes de Pago de honorarios”
-En el listado de procedimientos en que se puede solicitar el pago de
-honorarios aparecerán solo aquellos procedimientos de Liquidación
-voluntaria, Liquidación forzosa, Liquidación Refleja, Liquidación Artículo N°
-269 de la Ley N° 20.720 y Liquidación Artículo 57 N° 4 de la Ley N° 20.720,
-generales y simplificadas, que presenten publicadas en el Boletín Concursal
-el acta de incautación e inventario (con la nomenclatura "Acta de
-incautación e inventario"), o procedimientos de liquidación simplificada que
-presenten publicadas el acta de entrega de bienes (con la nomenclatura
-“Acta de entrega de bienes”) , y la resolución que tenga por aprobada la
-cuenta final de administración (con la nomenclatura "Resolución que tiene
-por aprobada Cuenta Final de Administración"). Se exceptúan los
-procedimientos con solicitudes de pago ya sean en estado vigente, pagadas
-o rechazadas.
-Imagen 2: Procedimientos en que se puede solicitar el pago
-La comprobación de estas publicaciones será realizada automáticamente
-por el sistema informático, y será responsabilidad de los/las
-liquidadores/as efectuar las publicaciones respectivas en tiempo y forma,
-conforme a lo establecido en el artículo 6 de la Ley N.° 20.720 y la Norma
-de Carácter General N.° 14 de 11 de agosto de 2023, de esta
-Superintendencia.
-Para iniciar la solicitud de pago, se deberá hacer clic en el icono de rueda
-dentada ubicada al costado izquierdo de cada procedimiento.
-En la pantalla de Solicitud de pago, se deberán cargar los antecedentes
-requeridos en el Título I del presente Instructivo, por separado y en
-formato PDF. Además, se incluye un campo de comentarios donde el/la
-liquidador/a puede hacer las observaciones que considere pertinentes para
-una mejor resolución de la solicitud.
-Asimismo, el/la liquidador/a podrá justificar la imposibilidad de obtener
-alguno de los documentos que señala el presente instructivo de acuerdo
-con la etapa procesal del concurso y la fecha de entrada en vigencia de las
-presentes instrucciones, en tal situación, deberá acompañar los
-documentos detallados en el Instructivo Superir N.° 3 de 16 de noviembre
-de 2018, haciendo presente en el campo observaciones, la imposibilidad
-de acompañar los documentos exigidos en el presente instructivo.
-También, deberá indicar la fecha de la resolución que aprueba la cuenta
-final de administración, con el fin de que el sistema registre si corresponde
-aplicar las reglas anteriores o posteriores a la entrada en vigencia de la
-Ley N.° 21.563.
-Imagen 3: Ingreso de la solicitud de pago
-Si la fecha de la resolución que tuvo por aprobada la cuenta final de
-administración es posterior a la fecha de entrada en vigencia de la Ley N.°
-21.563 (11 de agosto de 2023), se deberán subir al sistema las boletas de
-honorarios que se hubieren emitido, con el fin de determinar el saldo que
-le corresponde pagar a la Superintendencia. En caso que no existan fondos
-disponibles en el procedimiento que permitan cubrir parte de los honorarios
-del/de la liquidador/a, no corresponderá que el/la liquidador/a adjunte
-boleta de honorarios, por lo que deberá indicarlo a través de la opción
-“Eliminar boleta”. En este caso, el sistema considerará que solicita el pago
-del honorario completo del honorario contemplado en el inciso final del
-artículo 40, esto es, 30 unidades de fomento.
-La Boleta de honorarios deberá adjuntarse en formato PDF, indicando la
-fecha de emisión y el monto de la boleta en pesos chilenos. Se podrá
-agregar más de una boleta (por ejemplo, si se hubiera retirado en más de
-una oportunidad fondos del procedimiento).
-Imagen 4: Información sobre boletas de honorarios
-Una vez enviada la información, el/la liquidador/a podrá ver el número y
-fecha del Ingreso, y el procedimiento quedará registrado en la pantalla
-“Requiere Pago de Honorarios” para su consulta posterior.
-Imagen 5: Solicitud de pago enviada (procedimiento con cuenta final aprobada
-antes del 11 de agosto)
-Imagen 6: Solicitud de pago enviada (procedimiento con cuenta final aprobada
-después del 11 de agosto)
-2. Ingreso de Recursos
-Si la solicitud de pago de honorarios es rechazada, aparecerá con el estado
-“Rechazada por Fiscalización”, y el/la liquidador/a podrá ejercer los
-recursos que contempla la Ley N.° 19.880. Para esto, deberá hacer clic en
-el icono de rueda dentada al costado izquierdo del procedimiento con
-solicitud rechazada, y aparecerá una ventana con la opción para ingresar
-un recurso de reposición administrativa, o un recurso extraordinario de
-revisión, haciendo clic en el icono de color azul a la izquierda de cada
-recurso. Al momento de ingresar el recurso, los/las liquidadores/as
-deberán tener presente las causales y plazos que establece la Ley para
-cada recurso.
-Imagen 7: Ventana de ingreso de recursos
-En la pantalla de ingreso del recurso, el/la liquidador/a deberá acompañar
-un único documento que incorpore los descargos y antecedentes que
-estime necesario acompañar, y un campo de comentarios para una mejor
-resolución de la solicitud. Una vez ingresado el recurso, se podrá hacer
-seguimiento desde la pantalla Requiere Pago de Honorarios.
-Imagen 8: Ingreso de recurso de reposición
-Imagen 9: Ingreso de recurso de revisión
-Si la solicitud de pago es aprobada, o los recursos deducidos son acogidos,
-el/la liquidador/a deberá ingresar la respectiva boleta de honorarios en la
-pantalla “Requiere Pago de Honorarios”, en los procedimientos en cuyo
-estado aparezca “En tramitación de pago”. Para esto, deberá hacer clic en
-el ícono de rueda dentada al costado izquierdo del procedimiento, y
-aparecerá una ventana con la opción para ingresar la boleta de honorarios.
-En la siguiente pantalla deberá subir la boleta en formato PDF e indicar el
-número. También tiene la opción de escribir comentarios.
-Imagen 10: Ventana de ingreso de boleta de honorarios
-Imagen 11: Ingreso de boleta de honorarios
-Una vez emitida la boleta de honorarios y cursado el pago por el
-Subdepartamento de Recursos Financieros, se entenderá finalizado el
-proceso de pago de honorarios. Lo mismo ocurrirá en caso que se
-encuentre firme una resolución que rechace el pago de honorarios y/o los
-recursos deducidos.
-6° PUBLÍQUESE la presente resolución en el
-Diario Oficial.
-7° NOTIFÍQUESE la presente resolución a los/las
-Liquidadores/as pertenecientes a las nóminas de la Superintendencia de
-Insolvencia y Reemprendimiento.
-8° DISPÓNGASE como medida de publicidad,
-una vez que se encuentre totalmente tramitado el presente acto
-administrativo, su publicación en el sitio web institucional de la
-Superintendencia de Insolvencia y Reemprendimiento.</texto>
+        <contexto>Título IV Disposiciones finales</contexto>
+        <contenido>
+          <parrafo>Sin perjuicio de lo señalado en el artículo 12° anterior, lo dispuesto en el inciso final del artículo 40 de la Ley N.° 20.720, en relación con el saldo restante que pagará la Superintendencia para alcanzar el honorario mínimo de 30 unidades de fomento, aplicará a los procedimientos cuya cuenta final de administración esté aprobada con fecha igual o posterior al 11 de agosto de 2023.</parrafo>
+          <parrafo>Asimismo, para los procedimientos que tengan cuenta final aprobada con anterioridad al 11 de agosto y/o cuya solicitud de pago sea anterior a dicha fecha, será aplicable el inciso final del artículo</parrafo>
+          <parrafo>40 de la Ley N.° 20.720 sin la modificación, sin poder optar al pago del saldo del honorario. En caso de aprobación de la solicitud de pago de honorarios, se pagará un monto fijo de 30 unidades de fomento, no pudiendo optar al pago parcial.</parrafo>
+          <parrafo>Si de acuerdo a la etapa procesal el/la liquidador/a no pudiere obtener los antecedentes señalados en el presente instructivo, se mantendrá vigente lo señalado en el Instructivo SIR N.° 3 de 16 de noviembre de 2018.</parrafo>
+          <parrafo>Por último, el requisito contemplado en el inciso quinto del artículo 3° del presente instructivo, será exigible a partir de la entrada en vigencia de las instrucciones relativas al reporte electrónico de la cuenta final de administración, que imparta esta Superintendencia.</parrafo>
+          <parrafo>Anexo N.°1 INGRESO DE LA SOLICITUD DE PAGO Y DE RECURSOS POSTERIORES</parrafo>
+          <inciso numero="1">Ingreso de la Solicitud de Pago de Honorarios La solicitud de pago de honorarios, así como los recursos que posteriormente se deduzcan, deberán ingresarse a través del Portal de Sujetos Fiscalizados, pestaña Liquidador, en la opción Requiere Pago Honorarios.</inciso>
+          <parrafo>Imagen 1: Pantalla Requiere Pago Honorarios En esta sección, los/las liquidadores/as pueden ver los procedimientos en que hayan solicitado el pago de honorarios, incluyendo el estado de la solicitud.</parrafo>
+          <parrafo>Los estados son los siguientes:</parrafo>
+          <inciso numero="2">Solicitud ingresada: El Ingreso fue creado en el sistema informático de la Superintendencia y debe ser asignado a un/una fiscalizador/a para su revisión.</inciso>
+          <inciso numero="3">En revisión de Fiscalización: El Ingreso fue asignado a un/una fiscalizador/a y se encuentra en proceso de emisión del informe de fiscalización.</inciso>
+          <inciso numero="4">En proceso resolución: El informe ya fue emitido por el/la fiscalizador/a y firmado por la jefatura, encontrándose pendiente la confección y firma de la resolución.</inciso>
+          <inciso numero="5">Rechazada por fiscalización: Fue emitida una resolución que rechaza el pago de honorarios.</inciso>
+          <inciso numero="6">En tramitación de pago: Fue emitida una resolución que aprueba el pago de honorarios, encontrándose pendiente de tramitación el pago de la solicitud en el Subdepartamento de Recursos Financieros de la Superintendencia.</inciso>
+          <parrafo>Los/las liquidadores/as podrán ingresar nuevas solicitudes de pago haciendo clic en el botón verde de la parte superior de la página web, con la etiqueta “Generar nuevas solicitudes de Pago de honorarios” En el listado de procedimientos en que se puede solicitar el pago de honorarios aparecerán solo aquellos procedimientos de Liquidación voluntaria, Liquidación forzosa, Liquidación Refleja, Liquidación Artículo N° 269 de la Ley N° 20.720 y Liquidación Artículo 57 N° 4 de la Ley N° 20.720, generales y simplificadas, que presenten publicadas en el Boletín Concursal el acta de incautación e inventario (con la nomenclatura &quot;Acta de incautación e inventario&quot;), o procedimientos de liquidación simplificada que presenten publicadas el acta de entrega de bienes (con la nomenclatura “Acta de entrega de bienes”) , y la resolución que tenga por aprobada la cuenta final de administración (con la nomenclatura &quot;Resolución que tiene por aprobada Cuenta Final de Administración&quot;). Se exceptúan los procedimientos con solicitudes de pago ya sean en estado vigente, pagadas o rechazadas.</parrafo>
+          <parrafo>Imagen 2: Procedimientos en que se puede solicitar el pago La comprobación de estas publicaciones será realizada automáticamente por el sistema informático, y será responsabilidad de los/las liquidadores/as efectuar las publicaciones respectivas en tiempo y forma, conforme a lo establecido en el artículo 6 de la Ley N.° 20.720 y la Norma de Carácter General N.° 14 de 11 de agosto de 2023, de esta Superintendencia.</parrafo>
+          <parrafo>Para iniciar la solicitud de pago, se deberá hacer clic en el icono de rueda dentada ubicada al costado izquierdo de cada procedimiento.</parrafo>
+          <parrafo>En la pantalla de Solicitud de pago, se deberán cargar los antecedentes requeridos en el Título I del presente Instructivo, por separado y en formato PDF. Además, se incluye un campo de comentarios donde el/la liquidador/a puede hacer las observaciones que considere pertinentes para una mejor resolución de la solicitud.</parrafo>
+          <parrafo>Asimismo, el/la liquidador/a podrá justificar la imposibilidad de obtener alguno de los documentos que señala el presente instructivo de acuerdo con la etapa procesal del concurso y la fecha de entrada en vigencia de las presentes instrucciones, en tal situación, deberá acompañar los documentos detallados en el Instructivo Superir N.° 3 de 16 de noviembre de 2018, haciendo presente en el campo observaciones, la imposibilidad de acompañar los documentos exigidos en el presente instructivo.</parrafo>
+          <parrafo>También, deberá indicar la fecha de la resolución que aprueba la cuenta final de administración, con el fin de que el sistema registre si corresponde aplicar las reglas anteriores o posteriores a la entrada en vigencia de la Ley N.° 21.563.</parrafo>
+          <parrafo>Imagen 3: Ingreso de la solicitud de pago Si la fecha de la resolución que tuvo por aprobada la cuenta final de administración es posterior a la fecha de entrada en vigencia de la Ley N.° 21.563 (11 de agosto de 2023), se deberán subir al sistema las boletas de honorarios que se hubieren emitido, con el fin de determinar el saldo que le corresponde pagar a la Superintendencia. En caso que no existan fondos disponibles en el procedimiento que permitan cubrir parte de los honorarios del/de la liquidador/a, no corresponderá que el/la liquidador/a adjunte boleta de honorarios, por lo que deberá indicarlo a través de la opción “Eliminar boleta”. En este caso, el sistema considerará que solicita el pago del honorario completo del honorario contemplado en el inciso final del artículo 40, esto es, 30 unidades de fomento.</parrafo>
+          <parrafo>La Boleta de honorarios deberá adjuntarse en formato PDF, indicando la fecha de emisión y el monto de la boleta en pesos chilenos. Se podrá agregar más de una boleta (por ejemplo, si se hubiera retirado en más de una oportunidad fondos del procedimiento).</parrafo>
+          <parrafo>Imagen 4: Información sobre boletas de honorarios Una vez enviada la información, el/la liquidador/a podrá ver el número y fecha del Ingreso, y el procedimiento quedará registrado en la pantalla “Requiere Pago de Honorarios” para su consulta posterior.</parrafo>
+          <parrafo>Imagen 5: Solicitud de pago enviada (procedimiento con cuenta final aprobada antes del 11 de agosto) Imagen 6: Solicitud de pago enviada (procedimiento con cuenta final aprobada después del 11 de agosto)</parrafo>
+          <inciso numero="7">Ingreso de Recursos Si la solicitud de pago de honorarios es rechazada, aparecerá con el estado “Rechazada por Fiscalización”, y el/la liquidador/a podrá ejercer los recursos que contempla la Ley N.° 19.880. Para esto, deberá hacer clic en el icono de rueda dentada al costado izquierdo del procedimiento con solicitud rechazada, y aparecerá una ventana con la opción para ingresar un recurso de reposición administrativa, o un recurso extraordinario de revisión, haciendo clic en el icono de color azul a la izquierda de cada recurso. Al momento de ingresar el recurso, los/las liquidadores/as deberán tener presente las causales y plazos que establece la Ley para cada recurso.</inciso>
+          <parrafo>Imagen 7: Ventana de ingreso de recursos En la pantalla de ingreso del recurso, el/la liquidador/a deberá acompañar un único documento que incorpore los descargos y antecedentes que estime necesario acompañar, y un campo de comentarios para una mejor resolución de la solicitud. Una vez ingresado el recurso, se podrá hacer seguimiento desde la pantalla Requiere Pago de Honorarios.</parrafo>
+          <parrafo>Imagen 8: Ingreso de recurso de reposición Imagen 9: Ingreso de recurso de revisión Si la solicitud de pago es aprobada, o los recursos deducidos son acogidos, el/la liquidador/a deberá ingresar la respectiva boleta de honorarios en la pantalla “Requiere Pago de Honorarios”, en los procedimientos en cuyo estado aparezca “En tramitación de pago”. Para esto, deberá hacer clic en el ícono de rueda dentada al costado izquierdo del procedimiento, y aparecerá una ventana con la opción para ingresar la boleta de honorarios.</parrafo>
+          <parrafo>En la siguiente pantalla deberá subir la boleta en formato PDF e indicar el número. También tiene la opción de escribir comentarios.</parrafo>
+          <parrafo>Imagen 10: Ventana de ingreso de boleta de honorarios Imagen 11: Ingreso de boleta de honorarios Una vez emitida la boleta de honorarios y cursado el pago por el Subdepartamento de Recursos Financieros, se entenderá finalizado el proceso de pago de honorarios. Lo mismo ocurrirá en caso que se encuentre firme una resolución que rechace el pago de honorarios y/o los recursos deducidos.</parrafo>
+          <inciso numero="8">PUBLÍQUESE la presente resolución en el Diario Oficial.</inciso>
+          <inciso numero="9">NOTIFÍQUESE la presente resolución a los/las Liquidadores/as pertenecientes a las nóminas de la Superintendencia de Insolvencia y Reemprendimiento.</inciso>
+          <inciso numero="10">DISPÓNGASE como medida de publicidad, una vez que se encuentre totalmente tramitado el presente acto administrativo, su publicación en el sitio web institucional de la Superintendencia de Insolvencia y Reemprendimiento.</inciso>
+        </contenido>
         <referencias>
+          <ref articulo="40"/>
+          <ref articulo="3"/>
+          <ref articulo="12"/>
           <ref articulo="57"/>
           <ref articulo="6"/>
-          <ref articulo="40"/>
-          <ref articulo="12"/>
-          <ref articulo="3"/>
         </referencias>
       </articulo>
     </titulo>
   </contenido>
-  <promulgacion>RESUELVO:
+  <disposiciones_finales>
+    <texto>RESUELVO:
 
-1° REEMPLÁZASE el resuelvo 1° de la
-Resolución Exenta N.° 8725 de 24 de octubre de 2023, por el siguiente:
-“1° APRUÉBASE el siguiente Instructivo que
-regula el pago de honorarios con cargo al presupuesto de la
-Superintendencia de Insolvencia y Reemprendimiento, establecido en el
-artículo 40 de la Ley N.° 20.720 y su anexo, denominado Anexo N.° 1
-“Ingreso de las Solicitudes de Pago y de Recursos Posteriores”, cuyo texto
-se adjunta a la presente resolución y forma parte integrante de la misma.”
-2° REEMPLÁZASE el título a continuación del
-resuelvo 1° de la Resolución Exenta N.° 8725 de 24 de octubre de 2023,
-por el siguiente: “INSTRUCTIVO SUPERIR N.° 1”.
-3° ELIMÍNASE el resuelvo 2° de la
-Resolución Exenta N.° 8725 de 24 de octubre de 2023, que ordena su
-publicación en el Diario Oficial, pasando el actual resuelvo 3° a ser resuelvo
-2°.
-4° AGRÉGASE a continuación del nuevo
-resuelvo 2° de la Resolución Exenta N.° 8725 de 24 de octubre de 2023,
-el siguiente resuelvo 3°:
-“3° ELIMÍNASE el Párrafo III relativo al “Pago
-de los honorarios del liquidador con cargo al presupuesto de la
-Superintendencia de Insolvencia y Reemprendimiento” contenido en el
+1° REEMPLÁZASE el resuelvo 1° de la Resolución Exenta N.° 8725 de 24 de octubre de 2023, por el siguiente: “1° APRUÉBASE el siguiente Instructivo que regula el pago de honorarios con cargo al presupuesto de la Superintendencia de Insolvencia y Reemprendimiento, establecido en el artículo 40 de la Ley N.° 20.720 y su anexo, denominado Anexo N.° 1 “Ingreso de las Solicitudes de Pago y de Recursos Posteriores”, cuyo texto se adjunta a la presente resolución y forma parte integrante de la misma.”
 
-ANÓTESE, NOTIFÍQUESE Y ARCHÍVESE,
-PVL/JAA/FRC/DTC/CMDC/SMP
-DISTRIBUCION:
-Señores/as Liquidadores/as
-21</promulgacion>
+2° REEMPLÁZASE el título a continuación del resuelvo 1° de la Resolución Exenta N.° 8725 de 24 de octubre de 2023, por el siguiente: “INSTRUCTIVO SUPERIR N.° 1”.
+
+3° ELIMÍNASE el resuelvo 2° de la Resolución Exenta N.° 8725 de 24 de octubre de 2023, que ordena su publicación en el Diario Oficial, pasando el actual resuelvo 3° a ser resuelvo 2°.
+
+4° AGRÉGASE a continuación del nuevo resuelvo 2° de la Resolución Exenta N.° 8725 de 24 de octubre de 2023, el siguiente resuelvo 3°: “3° ELIMÍNASE el Párrafo III relativo al “Pago de los honorarios del liquidador con cargo al presupuesto de la Superintendencia de Insolvencia y Reemprendimiento” contenido en el
+
+ANÓTESE, NOTIFÍQUESE Y ARCHÍVESE,</texto>
+  </disposiciones_finales>
+  <anexos>
+    <anexo numero="1">
+      <titulo>Anexo N°1 (“Ingreso de Recursos”). Asimismo, si el/la liquidador/a estima que concurren las causales establecidas en el artículo 60 de la Ley N.° 19.880, se podrá interponer un recurso extraordinario de revisión dentro de los plazos que establece dicha norma. Cabe hacer presente que, no procede el recurso jerárquico contemplado en el artículo 59 ya señalado, por cuanto la Superintendencia es un servicio público descentralizado. En cualquier caso, quedará sujeta a esta Superintendencia la valoración de los antecedentes aportados. Título IV Disposiciones finales Artículo 12° Vigencia. El presente Instructivo comenzará a regir a contar del 24 de octubre de 2023 y será aplicable respecto de todas las solicitudes de pago ingresadas a través del Portal de Sujetos Fiscalizados a contar de esa fecha. Artículo 13° Disposición Transitoria. Sin perjuicio de lo señalado en el artículo 12° anterior, lo dispuesto en el inciso final del artículo 40 de la Ley N.° 20.720, en relación con el saldo restante que pagará la Superintendencia para alcanzar el honorario mínimo de 30 unidades de fomento, aplicará a los procedimientos cuya cuenta final de administración esté aprobada con fecha igual o posterior al 11 de agosto de 2023. Asimismo, para los procedimientos que tengan cuenta final aprobada con anterioridad al 11 de agosto y/o cuya solicitud de pago sea anterior a dicha fecha, será aplicable el inciso final del artículo 40 de la Ley N.° 20.720 sin la modificación, sin poder optar al pago del saldo del honorario. En caso de aprobación de la solicitud de pago de honorarios, se pagará un monto fijo de 30 unidades de fomento, no pudiendo optar al pago parcial. Si de acuerdo a la etapa procesal el/la liquidador/a no pudiere obtener los antecedentes señalados en el presente instructivo, se mantendrá vigente lo señalado en el Instructivo SIR N.° 3 de 16 de noviembre de 2018. Por último, el requisito contemplado en el inciso quinto del artículo 3° del presente instructivo, será exigible a partir de la entrada en vigencia de las instrucciones relativas al reporte electrónico de la cuenta final de administración, que imparta esta Superintendencia.</titulo>
+    </anexo>
+    <anexo numero="2">
+      <titulo>Anexo N.°1 INGRESO DE LA SOLICITUD DE PAGO Y DE RECURSOS POSTERIORES 1. Ingreso de la Solicitud de Pago de Honorarios La solicitud de pago de honorarios, así como los recursos que posteriormente se deduzcan, deberán ingresarse a través del Portal de Sujetos Fiscalizados, pestaña Liquidador, en la opción Requiere Pago Honorarios. Imagen 1: Pantalla Requiere Pago Honorarios En esta sección, los/las liquidadores/as pueden ver los procedimientos en que hayan solicitado el pago de honorarios, incluyendo el estado de la solicitud. Los estados son los siguientes: 1. Solicitud ingresada: El Ingreso fue creado en el sistema informático de la Superintendencia y debe ser asignado a un/una fiscalizador/a para su revisión. 2. En revisión de Fiscalización: El Ingreso fue asignado a un/una fiscalizador/a y se encuentra en proceso de emisión del informe de fiscalización. 3. En proceso resolución: El informe ya fue emitido por el/la fiscalizador/a y firmado por la jefatura, encontrándose pendiente la confección y firma de la resolución. 4. Rechazada por fiscalización: Fue emitida una resolución que rechaza el pago de honorarios. 5. En tramitación de pago: Fue emitida una resolución que aprueba el pago de honorarios, encontrándose pendiente de tramitación el pago de la solicitud en el Subdepartamento de Recursos Financieros de la Superintendencia. Los/las liquidadores/as podrán ingresar nuevas solicitudes de pago haciendo clic en el botón verde de la parte superior de la página web, con la etiqueta “Generar nuevas solicitudes de Pago de honorarios” En el listado de procedimientos en que se puede solicitar el pago de honorarios aparecerán solo aquellos procedimientos de Liquidación voluntaria, Liquidación forzosa, Liquidación Refleja, Liquidación Artículo N° 269 de la Ley N° 20.720 y Liquidación Artículo 57 N° 4 de la Ley N° 20.720, generales y simplificadas, que presenten publicadas en el Boletín Concursal el acta de incautación e inventario (con la nomenclatura &quot;Acta de incautación e inventario&quot;), o procedimientos de liquidación simplificada que presenten publicadas el acta de entrega de bienes (con la nomenclatura “Acta de entrega de bienes”) , y la resolución que tenga por aprobada la cuenta final de administración (con la nomenclatura &quot;Resolución que tiene por aprobada Cuenta Final de Administración&quot;). Se exceptúan los procedimientos con solicitudes de pago ya sean en estado vigente, pagadas o rechazadas. Imagen 2: Procedimientos en que se puede solicitar el pago La comprobación de estas publicaciones será realizada automáticamente por el sistema informático, y será responsabilidad de los/las liquidadores/as efectuar las publicaciones respectivas en tiempo y forma, conforme a lo establecido en el artículo 6 de la Ley N.° 20.720 y la Norma de Carácter General N.° 14 de 11 de agosto de 2023, de esta Superintendencia. Para iniciar la solicitud de pago, se deberá hacer clic en el icono de rueda dentada ubicada al costado izquierdo de cada procedimiento. En la pantalla de Solicitud de pago, se deberán cargar los antecedentes requeridos en el Título I del presente Instructivo, por separado y en formato PDF. Además, se incluye un campo de comentarios donde el/la liquidador/a puede hacer las observaciones que considere pertinentes para una mejor resolución de la solicitud. Asimismo, el/la liquidador/a podrá justificar la imposibilidad de obtener alguno de los documentos que señala el presente instructivo de acuerdo con la etapa procesal del concurso y la fecha de entrada en vigencia de las presentes instrucciones, en tal situación, deberá acompañar los documentos detallados en el Instructivo Superir N.° 3 de 16 de noviembre de 2018, haciendo presente en el campo observaciones, la imposibilidad de acompañar los documentos exigidos en el presente instructivo. También, deberá indicar la fecha de la resolución que aprueba la cuenta final de administración, con el fin de que el sistema registre si corresponde aplicar las reglas anteriores o posteriores a la entrada en vigencia de la Ley N.° 21.563. Imagen 3: Ingreso de la solicitud de pago Si la fecha de la resolución que tuvo por aprobada la cuenta final de administración es posterior a la fecha de entrada en vigencia de la Ley N.° 21.563 (11 de agosto de 2023), se deberán subir al sistema las boletas de honorarios que se hubieren emitido, con el fin de determinar el saldo que le corresponde pagar a la Superintendencia. En caso que no existan fondos disponibles en el procedimiento que permitan cubrir parte de los honorarios del/de la liquidador/a, no corresponderá que el/la liquidador/a adjunte boleta de honorarios, por lo que deberá indicarlo a través de la opción “Eliminar boleta”. En este caso, el sistema considerará que solicita el pago del honorario completo del honorario contemplado en el inciso final del artículo 40, esto es, 30 unidades de fomento. La Boleta de honorarios deberá adjuntarse en formato PDF, indicando la fecha de emisión y el monto de la boleta en pesos chilenos. Se podrá agregar más de una boleta (por ejemplo, si se hubiera retirado en más de una oportunidad fondos del procedimiento). Imagen 4: Información sobre boletas de honorarios Una vez enviada la información, el/la liquidador/a podrá ver el número y fecha del Ingreso, y el procedimiento quedará registrado en la pantalla “Requiere Pago de Honorarios” para su consulta posterior. Imagen 5: Solicitud de pago enviada (procedimiento con cuenta final aprobada antes del 11 de agosto) Imagen 6: Solicitud de pago enviada (procedimiento con cuenta final aprobada después del 11 de agosto) 2. Ingreso de Recursos Si la solicitud de pago de honorarios es rechazada, aparecerá con el estado “Rechazada por Fiscalización”, y el/la liquidador/a podrá ejercer los recursos que contempla la Ley N.° 19.880. Para esto, deberá hacer clic en el icono de rueda dentada al costado izquierdo del procedimiento con solicitud rechazada, y aparecerá una ventana con la opción para ingresar un recurso de reposición administrativa, o un recurso extraordinario de revisión, haciendo clic en el icono de color azul a la izquierda de cada recurso. Al momento de ingresar el recurso, los/las liquidadores/as deberán tener presente las causales y plazos que establece la Ley para cada recurso. Imagen 7: Ventana de ingreso de recursos En la pantalla de ingreso del recurso, el/la liquidador/a deberá acompañar un único documento que incorpore los descargos y antecedentes que estime necesario acompañar, y un campo de comentarios para una mejor resolución de la solicitud. Una vez ingresado el recurso, se podrá hacer seguimiento desde la pantalla Requiere Pago de Honorarios. Imagen 8: Ingreso de recurso de reposición Imagen 9: Ingreso de recurso de revisión Si la solicitud de pago es aprobada, o los recursos deducidos son acogidos, el/la liquidador/a deberá ingresar la respectiva boleta de honorarios en la pantalla “Requiere Pago de Honorarios”, en los procedimientos en cuyo estado aparezca “En tramitación de pago”. Para esto, deberá hacer clic en el ícono de rueda dentada al costado izquierdo del procedimiento, y aparecerá una ventana con la opción para ingresar la boleta de honorarios. En la siguiente pantalla deberá subir la boleta en formato PDF e indicar el número. También tiene la opción de escribir comentarios. Imagen 10: Ventana de ingreso de boleta de honorarios Imagen 11: Ingreso de boleta de honorarios Una vez emitida la boleta de honorarios y cursado el pago por el Subdepartamento de Recursos Financieros, se entenderá finalizado el proceso de pago de honorarios. Lo mismo ocurrirá en caso que se encuentre firme una resolución que rechace el pago de honorarios y/o los recursos deducidos. 6° PUBLÍQUESE la presente resolución en el Diario Oficial. 7° NOTIFÍQUESE la presente resolución a los/las Liquidadores/as pertenecientes a las nóminas de la Superintendencia de Insolvencia y Reemprendimiento. 8° DISPÓNGASE como medida de publicidad, una vez que se encuentre totalmente tramitado el presente acto administrativo, su publicación en el sitio web institucional de la Superintendencia de Insolvencia y Reemprendimiento. ANÓTESE, NOTIFÍQUESE Y ARCHÍVESE, PVL/JAA/FRC/DTC/CMDC/SMP DISTRIBUCION: Señores/as Liquidadores/as 21</titulo>
+    </anexo>
+  </anexos>
 </ley>

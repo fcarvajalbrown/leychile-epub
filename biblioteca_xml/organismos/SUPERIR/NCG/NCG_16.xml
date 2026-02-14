@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ley xmlns="https://leychile.cl/schema/ley/v1" version="1.0" idioma="es-CL" id_norma="NCG-16" tipo="Norma de Carácter General" numero="16" estado="vigente" fecha_version="2023-08-11" fecha_promulgacion="2023-08-11" fecha_publicacion="2023-08-11" generado="2026-02-12T11:14:27.818960" fuente="Biblioteca del Congreso Nacional de Chile" url_original="https://www.superir.gob.cl/wp-content/uploads/2023/08/RES_NUM_6596_ANO_2023_NCG_16_EXAMENES.pdf">
+<ley xmlns="https://leychile.cl/schema/ley/v1" version="1.1" idioma="es-CL" id_norma="NCG-16" tipo="Norma de Carácter General" numero="16" estado="vigente" fecha_version="2023-08-11" fecha_promulgacion="2023-08-11" fecha_publicacion="2023-08-11" generado="2026-02-12T21:30:05.160855" fuente="Biblioteca del Congreso Nacional de Chile" url_original="https://www.superir.gob.cl/wp-content/uploads/2023/08/RES_NUM_6596_ANO_2023_NCG_16_EXAMENES.pdf">
   <metadatos>
     <titulo>NORMA DE CARÁCTER GENERAL N°16 - Exámenes de conocimiento para veedores y liquidadores</titulo>
     <identificacion>
@@ -25,24 +25,20 @@
     <fuente>Superintendencia de Insolvencia y Reemprendimiento</fuente>
     <numero_fuente>6596</numero_fuente>
     <leyes_referenciadas>
-      <ley_ref>Ley 20.720</ley_ref>
-      <ley_ref>Ley 21.563</ley_ref>
-      <ley_ref>Ley 18.575</ley_ref>
-      <ley_ref>Ley 19.880</ley_ref>
-      <ley_ref>Ley 19.799</ley_ref>
-      <ley_ref>Ley 19.628</ley_ref>
-      <ley_ref>Ley 20.285</ley_ref>
-      <ley_ref>DFL 1-19.653</ley_ref>
-      <ley_ref>D.S. 8</ley_ref>
+      <ley_ref tipo="Ley" numero="20.720">Ley 20.720</ley_ref>
+      <ley_ref tipo="Ley" numero="21.563">Ley 21.563</ley_ref>
+      <ley_ref tipo="Ley" numero="18.575">Ley 18.575</ley_ref>
+      <ley_ref tipo="Ley" numero="19.880">Ley 19.880</ley_ref>
+      <ley_ref tipo="Ley" numero="19.799">Ley 19.799</ley_ref>
+      <ley_ref tipo="Ley" numero="19.628">Ley 19.628</ley_ref>
+      <ley_ref tipo="Ley" numero="20.285">Ley 20.285</ley_ref>
+      <ley_ref tipo="DFL" numero="1-19.653">DFL 1-19.653</ley_ref>
+      <ley_ref tipo="D.S." numero="8">D.S. 8</ley_ref>
     </leyes_referenciadas>
   </metadatos>
-  <encabezado>VISTOS:
-
-Las facultades que me confiere la Ley N.° 20.720, que sustituye el régimen concursal vigente por una Ley de Reorganización y Liquidación de Activos de Empresas y Personas, modificada por Ley N.° 21.563, que Moderniza los Procedimientos Concursales Contemplados en la Ley N.° 20.720 y Crea Nuevos Procedimientos para Micro y Pequeñas Empresas; lo dispuesto en el D.F.L. N.° 1-19.653, de 17 de noviembre de 2001, que fija el texto Refundido, Coordinado y Sistematizado de la Ley N.° 18.575, Orgánica Constitucional de Bases Generales de la Administración del Estado; en la Ley N.° 19.880, que establece bases de los procedimientos administrativos que rigen los actos de los Órganos de la Administración del Estado; en la Ley N.° 19.799 Sobre Documentos Electrónicos, Firma Electrónica y Servicios de Certificación de Dicha Firma; en la Ley N.° 19.628 sobre Protección de la Vida Privada; en la Ley N.° 20.285 sobre Acceso a la Información Pública; en la Resolución N.° 7 de 2019 de la Contraloría General de la República, que fija normas sobre exención del trámite de toma de razón; en el Decreto Supremo N.° 8 de 2023, del Ministerio de Economía, Fomento y Turismo;
-
-CONSIDERANDO:
-
-1. Que, de conformidad a lo dispuesto en los artículos 331 y siguientes de la Ley N.° 20.720, modificada por la Ley N.° 21.563, la Superintendencia de Insolvencia y Reemprendimiento, en adelante la “Superintendencia”, es una persona jurídica de derecho público, creada por la Ley N.º 20.720 (en adelante “la ley”), como un servicio público descentralizado con personalidad jurídica y patrimonio propio, que se relaciona con el Presidente de la República a través del Ministerio de Economía, Fomento y Turismo, y tiene como función supervigilar y fiscalizar las actuaciones de los veedores concursales, liquidadores concursales, martilleros concursales, administradores de la continuación de las actividades económicas del deudor, asesores económicos de insolvencia, síndicos de quiebras, administradores de la continuación del giro y, en general, de toda persona que por ley quede sujeta a su supervigilancia y fiscalización. Así como las demás que se establezcan en otras leyes.
+  <encabezado>
+    <vistos>Las facultades que me confiere la Ley N.° 20.720, que sustituye el régimen concursal vigente por una Ley de Reorganización y Liquidación de Activos de Empresas y Personas, modificada por Ley N.° 21.563, que Moderniza los Procedimientos Concursales Contemplados en la Ley N.° 20.720 y Crea Nuevos Procedimientos para Micro y Pequeñas Empresas; lo dispuesto en el D.F.L. N.° 1-19.653, de 17 de noviembre de 2001, que fija el texto Refundido, Coordinado y Sistematizado de la Ley N.° 18.575, Orgánica Constitucional de Bases Generales de la Administración del Estado; en la Ley N.° 19.880, que establece bases de los procedimientos administrativos que rigen los actos de los Órganos de la Administración del Estado; en la Ley N.° 19.799 Sobre Documentos Electrónicos, Firma Electrónica y Servicios de Certificación de Dicha Firma; en la Ley N.° 19.628 sobre Protección de la Vida Privada; en la Ley N.° 20.285 sobre Acceso a la Información Pública; en la Resolución N.° 7 de 2019 de la Contraloría General de la República, que fija normas sobre exención del trámite de toma de razón; en el Decreto Supremo N.° 8 de 2023, del Ministerio de Economía, Fomento y Turismo;</vistos>
+    <considerandos>1. Que, de conformidad a lo dispuesto en los artículos 331 y siguientes de la Ley N.° 20.720, modificada por la Ley N.° 21.563, la Superintendencia de Insolvencia y Reemprendimiento, en adelante la “Superintendencia”, es una persona jurídica de derecho público, creada por la Ley N.º 20.720 (en adelante “la ley”), como un servicio público descentralizado con personalidad jurídica y patrimonio propio, que se relaciona con el Presidente de la República a través del Ministerio de Economía, Fomento y Turismo, y tiene como función supervigilar y fiscalizar las actuaciones de los veedores concursales, liquidadores concursales, martilleros concursales, administradores de la continuación de las actividades económicas del deudor, asesores económicos de insolvencia, síndicos de quiebras, administradores de la continuación del giro y, en general, de toda persona que por ley quede sujeta a su supervigilancia y fiscalización. Así como las demás que se establezcan en otras leyes.
 
 2. Que, el Capítulo II de la Ley N° 20.720 regula la inclusión en la nómina respectiva, derechos y deberes, nominación, inhabilidades y exclusión de Veedores Concursales y Liquidadores Concursales.
 
@@ -52,7 +48,8 @@ CONSIDERANDO:
 
 5. Que, la Ley N.° 19.880, que establece las bases de los procedimientos administrativos que rigen los actos de los Órganos de la Administración del Estado, dispone en su artículo 1° la aplicación supletoria de sus disposiciones, en aquellos casos en los que la ley establezca procedimientos administrativos especiales, naturaleza que poseen los exámenes de conocimientos para ingresar a la nómina de veedores concursales, de liquidadores concursales y de martilleros concursales, por tratarse de un procedimiento sustanciado ante un Órgano de la Administración del Estado, que encuentra su regulación específica en la Ley N.º 20.720.
 
-6. Que, atendido lo expuesto y de conformidad con lo dispuesto en el artículo 3 de la Ley N.° 19.880 y en las normas legales pertinentes;</encabezado>
+6. Que, atendido lo expuesto y de conformidad con lo dispuesto en el artículo 3 de la Ley N.° 19.880 y en las normas legales pertinentes;</considerandos>
+  </encabezado>
   <contenido total_articulos="22" total_libros="0" total_titulos="2" total_capitulos="0">
     <titulo id="1" tipo_original="Título" numero="I">
       <titulo_seccion>TÍTULO I Exámenes de Conocimientos</titulo_seccion>
@@ -72,7 +69,7 @@ CONSIDERANDO:
         <titulo_seccion>Artículo 2. Examinados</titulo_seccion>
         <contexto>TÍTULO I Exámenes de Conocimientos</contexto>
         <contenido>
-          <parrafo>Las personas llamadas a presentarse a la rendición de los exámenes de conocimientos (en adelante, los "Examinados”), serán las siguientes:</parrafo>
+          <parrafo>Las personas llamadas a presentarse a la rendición de los exámenes de conocimientos (en adelante, los &quot;Examinados”), serán las siguientes:</parrafo>
           <parrafo>a) Para el caso de los Veedores Concursales, deberán presentarse a rendir el examen de conocimientos:</parrafo>
           <parrafo>i. Los postulantes a integrar la Nómina de Veedores Concursales, Categoría B, cuyos antecedentes hubieren sido revisados y declarados conforme mediante oficio por la Superintendencia, con a lo menos treinta (30) días hábiles de antelación a la fecha de realización del examen de conocimientos, habilitando expresamente a los postulantes a rendir el examen.</parrafo>
           <parrafo>Las postulaciones que no hayan sido declaradas conforme en el plazo antes señalado, por haber presentado los antecedentes con posterioridad al referido plazo, deberán rendir el examen en la oportunidad inmediatamente siguiente, lo que le será comunicado en el oficio en que se declare conforme la postulación realizada.</parrafo>
@@ -102,7 +99,7 @@ CONSIDERANDO:
         <titulo_seccion>Artículo 3. Dependencias</titulo_seccion>
         <contexto>TÍTULO I Exámenes de Conocimientos</contexto>
         <contenido>
-          <parrafo>Los exámenes correspondientes a cada período del año calendario serán rendidos ante la Superintendencia, en sus dependencias, en las que ésta determine al efecto, o en la Universidad o Institución de Educación Superior a cargo del proceso de rendición de exámenes (en adelante, la "Institución Examinadora"), lo que será informado a los Examinados en los protocolos referidos en el artículo 4° de la presente Norma de Carácter General. La Superintendencia velará por la idoneidad de las instalaciones destinadas a tal efecto.</parrafo>
+          <parrafo>Los exámenes correspondientes a cada período del año calendario serán rendidos ante la Superintendencia, en sus dependencias, en las que ésta determine al efecto, o en la Universidad o Institución de Educación Superior a cargo del proceso de rendición de exámenes (en adelante, la &quot;Institución Examinadora&quot;), lo que será informado a los Examinados en los protocolos referidos en el artículo 4° de la presente Norma de Carácter General. La Superintendencia velará por la idoneidad de las instalaciones destinadas a tal efecto.</parrafo>
           <parrafo>Lo anterior es sin perjuicio de lo dispuesto en el artículo 18°.</parrafo>
         </contenido>
         <referencias>
@@ -127,8 +124,8 @@ CONSIDERANDO:
           <parrafo>h) Aquellas informaciones complementarias que determine la Superintendencia.</parrafo>
         </contenido>
         <referencias>
-          <ref articulo="17"/>
           <ref articulo="18"/>
+          <ref articulo="17"/>
         </referencias>
       </articulo>
       <articulo id="5" tipo_original="Artículo" numero="5">
@@ -152,8 +149,8 @@ CONSIDERANDO:
           <parrafo>Lo anterior, es sin perjuicio de la responsabilidad administrativa que pudiere recaer, tratándose de Entes Fiscalizados vigentes en la nómina respectiva por infracción a la presente Norma de Carácter General.</parrafo>
         </contenido>
         <referencias>
-          <ref articulo="11"/>
           <ref articulo="5"/>
+          <ref articulo="11"/>
         </referencias>
       </articulo>
       <articulo id="7" tipo_original="Artículo" numero="7">
@@ -182,12 +179,16 @@ CONSIDERANDO:
       <articulo id="9" tipo_original="Artículo" numero="9">
         <titulo_seccion>Artículo 9. De las Calificaciones de los Exámenes</titulo_seccion>
         <contexto>TÍTULO I Exámenes de Conocimientos</contexto>
-        <texto>Los exámenes serán calificados con una nota de 1,0 (uno coma cero) a 7,0 (siete coma cero), permitiéndose la incorporación de un decimal. Para tales efectos, la Superintendencia determinará el grado de exigencia que aplicará en el cálculo de las calificaciones, situación que será informada en el respectivo Protocolo del En los casos en que la Institución Examinadora sea una Universidad o Institución de Educación Superior seleccionada por la Superintendencia, la determinación de las calificaciones corresponderá exclusivamente a la Institución Examinadora a cargo del proceso, sin perjuicio de las facultades que le corresponden a la Superintendencia durante el proceso de recorrección del Examen.</texto>
+        <contenido>
+          <parrafo>Los exámenes serán calificados con una nota de 1,0 (uno coma cero) a 7,0 (siete coma cero), permitiéndose la incorporación de un decimal. Para tales efectos, la Superintendencia determinará el grado de exigencia que aplicará en el cálculo de las calificaciones, situación que será informada en el respectivo Protocolo del En los casos en que la Institución Examinadora sea una Universidad o Institución de Educación Superior seleccionada por la Superintendencia, la determinación de las calificaciones corresponderá exclusivamente a la Institución Examinadora a cargo del proceso, sin perjuicio de las facultades que le corresponden a la Superintendencia durante el proceso de recorrección del Examen.</parrafo>
+        </contenido>
       </articulo>
       <articulo id="10" tipo_original="Artículo" numero="10">
         <titulo_seccion>Artículo 10. De la Aprobación de los Exámenes</titulo_seccion>
         <contexto>TÍTULO I Exámenes de Conocimientos</contexto>
-        <texto>La calificación mínima para lograr la aprobación de los exámenes será 4,0 (cuatro coma cero), calificación que se alcanzará con el puntaje mínimo para aprobación informado por el respectivo Protocolo.</texto>
+        <contenido>
+          <parrafo>La calificación mínima para lograr la aprobación de los exámenes será 4,0 (cuatro coma cero), calificación que se alcanzará con el puntaje mínimo para aprobación informado por el respectivo Protocolo.</parrafo>
+        </contenido>
       </articulo>
       <articulo id="11" tipo_original="Artículo" numero="11">
         <titulo_seccion>Artículo 11. De la Reprobación de los Exámenes</titulo_seccion>
@@ -205,7 +206,9 @@ CONSIDERANDO:
       <articulo id="12" tipo_original="Artículo" numero="12">
         <titulo_seccion>Artículo 12. Entrega de las Calificaciones</titulo_seccion>
         <contexto>TÍTULO I Exámenes de Conocimientos</contexto>
-        <texto>La Superintendencia dispondrá del plazo de treinta (30) días hábiles contados desde la rendición de los exámenes para comunicar a cada Examinado su calificación mediante oficio ordinario, adjuntando una copia del examen corregido, en caso de ser rendido presencialmente. La notificación del oficio a que se refiere el presente artículo, se regirá por las normas establecidas en el artículo 17° de la presente Norma de Carácter General.</texto>
+        <contenido>
+          <parrafo>La Superintendencia dispondrá del plazo de treinta (30) días hábiles contados desde la rendición de los exámenes para comunicar a cada Examinado su calificación mediante oficio ordinario, adjuntando una copia del examen corregido, en caso de ser rendido presencialmente. La notificación del oficio a que se refiere el presente artículo, se regirá por las normas establecidas en el artículo 17° de la presente Norma de Carácter General.</parrafo>
+        </contenido>
         <referencias>
           <ref articulo="17"/>
         </referencias>
@@ -230,8 +233,7 @@ CONSIDERANDO:
         <contenido>
           <parrafo>Todos y cada uno de los efectos legales, reglamentarios y administrativos derivados del proceso de calificación de los Examinados comenzarán a regir a contar de los plazos que a continuación se indican:</parrafo>
           <parrafo>a) Si los Examinados no presentaren solicitud de recorrección del examen, dentro del plazo señalado en el artículo anterior, los efectos legales de la calificación comenzarán a regir transcurrido el plazo para solicitarla.</parrafo>
-          <parrafo>b) Si los Examinados presentaren solicitud de recorrección del examen, y ésta es acogida a trámite por la Superintendencia conforme a la letra b) del</parrafo>
-          <parrafo>artículo 13° precedente, los efectos legales de la calificación comenzarán a regir desde la notificación del resultado final de su solicitud de recorrección.</parrafo>
+          <parrafo>b) Si los Examinados presentaren solicitud de recorrección del examen, y ésta es acogida a trámite por la Superintendencia conforme a la letra b) del artículo 13° precedente, los efectos legales de la calificación comenzarán a regir desde la notificación del resultado final de su solicitud de recorrección.</parrafo>
           <parrafo>c) En el caso de aquellos Examinados que válidamente citados no asistieren a rendir el examen y no presentaren excusa alguna que justifique su inasistencia, los efectos legales de la calificación comenzarán a regir desde la notificación del oficio que le comunique la reprobación del examen.</parrafo>
           <parrafo>d) En el caso de aquellos Examinados que, válidamente citados, no asistieren a rendir el examen correspondiente y presentaren excusa, siendo ésta rechazada por calificarse como insuficiente o infundada, los efectos legales de la calificación comenzarán a regir desde la notificación de la resolución que se rechaza la excusa.</parrafo>
         </contenido>
@@ -301,12 +303,16 @@ CONSIDERANDO:
       <articulo id="19" tipo_original="Artículo" numero="19">
         <titulo_seccion>Artículo 19. Ámbito de Aplicación</titulo_seccion>
         <contexto>TÍTULO II Disposiciones Finales</contexto>
-        <texto>La presente Norma de Carácter General sólo tiene por objeto regular el procedimiento aplicable para la rendición de los exámenes de conocimientos regulados en los artículos 14, 32 y 213 de la Ley N.° 20.720.</texto>
+        <contenido>
+          <parrafo>La presente Norma de Carácter General sólo tiene por objeto regular el procedimiento aplicable para la rendición de los exámenes de conocimientos regulados en los artículos 14, 32 y 213 de la Ley N.° 20.720.</parrafo>
+        </contenido>
       </articulo>
       <articulo id="20" tipo_original="Artículo" numero="20">
         <titulo_seccion>Artículo 20. Términos Definidos</titulo_seccion>
         <contexto>TÍTULO II Disposiciones Finales</contexto>
-        <texto>Los términos en mayúscula utilizados en esta Norma de Carácter General tendrán el mismo significado que a ellos se les asigna en el artículo 2° de la Ley.</texto>
+        <contenido>
+          <parrafo>Los términos en mayúscula utilizados en esta Norma de Carácter General tendrán el mismo significado que a ellos se les asigna en el artículo 2° de la Ley.</parrafo>
+        </contenido>
         <referencias>
           <ref articulo="2"/>
         </referencias>
@@ -314,7 +320,9 @@ CONSIDERANDO:
       <articulo id="21" tipo_original="Artículo" numero="21">
         <titulo_seccion>Artículo 21. Vigencia</titulo_seccion>
         <contexto>TÍTULO II Disposiciones Finales</contexto>
-        <texto>Las disposiciones de la presente Norma de Carácter General entrarán a regir desde el 11 de agosto de 2023.</texto>
+        <contenido>
+          <parrafo>Las disposiciones de la presente Norma de Carácter General entrarán a regir desde el 11 de agosto de 2023.</parrafo>
+        </contenido>
       </articulo>
       <articulo id="22" tipo_original="Artículo" numero="22">
         <titulo_seccion>Artículo 22. Revocación</titulo_seccion>
@@ -327,11 +335,13 @@ CONSIDERANDO:
       </articulo>
     </titulo>
   </contenido>
-  <promulgacion>RESUELVO:
+  <disposiciones_finales>
+    <texto>RESUELVO:
 
 1. APRUÉBESE la siguiente Norma de Carácter General, sobre los exámenes de conocimientos para ingresar a las nóminas de veedores concursales, de liquidadores concursales y de martilleros concursales:
 
 NORMA DE CARÁCTER GENERAL N.° 16 SOBRE LOS EXÁMENES DE CONOCIMIENTOS PARA INGRESAR A LA NÓMINA DE VEEDORES CONCURSALES, DE LIQUIDADORES CONCURSALES Y DE MARTILLEROS CONCURSALES La presente Norma de Carácter General regula las materias mandatadas por la Ley N.° 20.720, en lo relativo a la realización de los exámenes de conocimientos para ingresar a las nóminas de veedores concursales, de liquidadores concursales y de martilleros concursales, de conformidad con lo ordenado por la mencionada Ley en sus artículos N°14, 32 y 213, respectivamente.
 
-ANÓTESE, PUBLÍQUESE Y ARCHÍVESE,</promulgacion>
+ANÓTESE, PUBLÍQUESE Y ARCHÍVESE,</texto>
+  </disposiciones_finales>
 </ley>

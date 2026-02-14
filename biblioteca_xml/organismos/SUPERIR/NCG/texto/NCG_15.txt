@@ -96,7 +96,7 @@ junta telemática, aquella que se efectúe por medio de cualquier sistema
 tecnológico que admita una comunicación simultánea de la imagen, sonido y
 datos, que permita la interacción visual, auditiva y verbal entre personas
 geográficamente distantes.
-Artículo 3°. El/la Liquidador/a o Veedor/a
+Artículo 3°. Requisitos técnicos. El/la Liquidador/a o Veedor/a
 deberá asegurar que el sistema de transmisión de imagen, sonido y dato
 utilizado para la realización de la junta celebrada de forma telemática
 garantice en forma segura e ininterrumpida una comunicación en tiempo real
@@ -229,6 +229,8 @@ respectivas de la Superintendencia de Insolvencia y Reemprendimiento.
 la publicación de la presente resolución en el sitio web institucional de la
 Superintendencia de Insolvencia y Reemprendimiento.
 ANÓTESE, PUBLÍQUESE Y ARCHÍVESE,
+HUGO SÁNCHEZ RAMÍREZ
+SUPERINTENDENTE DE INSOLVENCIA Y REEMPRENDIMIENTO
 PVL/JAA/EGZ/DTC/FRR
 DISTRIBUCION:
 -Señores/as Liquidadores/as
@@ -271,4 +273,3 @@ calendarios y gestores de tareas.
 5. Soporte al cliente
 a) Soporte técnico disponible en caso de problemas técnicos.
 b) Recursos de formación y documentación disponibles para el usuario.
-2
