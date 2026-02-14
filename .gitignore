@@ -149,6 +149,9 @@ uv.lock
 # PDFs fuente (binarios pesados)
 biblioteca_xml/organismos/SUPERIR/NCG/pdfs/
 
+# Borradores de trabajo
+tests/trabajo/
+
 # Replit
 replit.md
 .replit

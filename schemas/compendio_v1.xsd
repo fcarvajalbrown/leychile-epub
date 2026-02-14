@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Schema XML para Compendia Normativos Chilenos.
+
+  Diseñado para representar compendia de normas regulatorias como el
+  Compendio SUSESO (Ley 18.833) que organiza instrucciones en una
+  estructura jerárquica de Libros > Secciones recursivas.
+
+  Diferencias con ley_v1.xsd y superir_v1.xsd:
+  - No tiene artículos: el contenido se organiza en secciones con párrafos
+  - No tiene considerandos, vistos, ni cierre: es un documento de referencia
+  - Secciones recursivas: soporta profundidad arbitraria (hasta 5+ niveles)
+  - Referencias legales a nivel de sección (no de artículo)
+
+  Versión: 1.0
+  Namespace: https://leychile.cl/schema/compendio/v1
+-->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="https://leychile.cl/schema/compendio/v1"
+           xmlns:tns="https://leychile.cl/schema/compendio/v1"
+           elementFormDefault="qualified">
+
+  <!-- ===================================================================
+       ELEMENTO RAÍZ: <compendio>
+       =================================================================== -->
+
+  <xs:element name="compendio" type="tns:CompendioType"/>
+
+  <xs:complexType name="CompendioType">
+    <xs:sequence>
+      <xs:element name="metadatos" type="tns:MetadatosType"/>
+      <xs:element name="libro" type="tns:LibroType" maxOccurs="unbounded"/>
+    </xs:sequence>
+    <xs:attribute name="organismo" type="xs:string" use="required"/>
+    <xs:attribute name="ley_base" type="xs:string" use="required"/>
+    <xs:attribute name="version" type="xs:string" use="required"/>
+    <xs:attribute name="generado" type="xs:string" use="optional"/>
+    <xs:attribute name="fuente" type="xs:anyURI" use="optional"/>
+  </xs:complexType>
+
+  <!-- ===================================================================
+       METADATOS
+       =================================================================== -->
+
+  <xs:complexType name="MetadatosType">
+    <xs:sequence>
+      <xs:element name="titulo" type="xs:string"/>
+      <xs:element name="organismo" type="xs:string"/>
+      <xs:element name="ley_base" type="tns:LeyBaseType"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="LeyBaseType">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute name="tipo" type="xs:string" use="optional"/>
+        <xs:attribute name="numero" type="xs:string" use="optional"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+
+  <!-- ===================================================================
+       LIBRO: División principal del compendio
+       =================================================================== -->
+
+  <xs:complexType name="LibroType">
+    <xs:sequence>
+      <xs:element name="contenido" type="tns:ContenidoType" minOccurs="0"/>
+      <xs:element name="referencias" type="tns:ReferenciasType" minOccurs="0"/>
+      <xs:element name="seccion" type="tns:SeccionType" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+    <xs:attribute name="numero" type="xs:string" use="required"/>
+    <xs:attribute name="titulo" type="xs:string" use="required"/>
+    <xs:attribute name="id" type="xs:string" use="required"/>
+  </xs:complexType>
+
+  <!-- ===================================================================
+       SECCIÓN: Elemento recursivo para toda la jerarquía bajo libro.
+       Puede contener contenido propio (párrafos), referencias legales,
+       y/o sub-secciones hijas.
+       =================================================================== -->
+
+  <xs:complexType name="SeccionType">
+    <xs:sequence>
+      <xs:element name="contenido" type="tns:ContenidoType" minOccurs="0"/>
+      <xs:element name="referencias" type="tns:ReferenciasType" minOccurs="0"/>
+      <xs:element name="seccion" type="tns:SeccionType" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+    <xs:attribute name="numero" type="xs:string" use="required"/>
+    <xs:attribute name="titulo" type="xs:string" use="required"/>
+    <xs:attribute name="id" type="xs:string" use="required"/>
+  </xs:complexType>
+
+  <!-- ===================================================================
+       CONTENIDO: Texto de la sección como secuencia de párrafos
+       =================================================================== -->
+
+  <xs:complexType name="ContenidoType">
+    <xs:sequence>
+      <xs:element name="parrafo" type="xs:string" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <!-- ===================================================================
+       REFERENCIAS LEGALES: Normas citadas en la sección
+       =================================================================== -->
+
+  <xs:complexType name="ReferenciasType">
+    <xs:sequence>
+      <xs:element name="ref" type="tns:RefType" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="RefType">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute name="tipo" type="xs:string" use="optional"/>
+        <xs:attribute name="numero" type="xs:string" use="optional"/>
+        <xs:attribute name="articulo" type="xs:string" use="optional"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+
+</xs:schema>
