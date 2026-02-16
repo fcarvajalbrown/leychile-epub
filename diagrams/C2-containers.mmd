@@ -1,0 +1,18 @@
+C4Container
+    title Diagrama de Contenedores - leychile-epub
+
+    Person(user, "Usuario", "Usa la herramienta desde la terminal o scripts.")
+    
+    System_Ext(bcn, "API BCN", "Servicio XML de la Biblioteca del Congreso Nacional")
+
+    Container_Boundary(c1, "Entorno de Ejecución Python") {
+        Container(cli, "CLI Application", "Python, Typer/Click", "Interfaz de línea de comandos para recibir URLs y argumentos.")
+        Container(core, "Librería Core (leychile_epub)", "Python Package", "Contiene la lógica de scraping, procesamiento y generación de ePub.")
+    }
+
+    ContainerDb(filesystem, "Sistema de Archivos", "Disco Local", "Almacena los archivos .epub generados y caché temporal.")
+
+    Rel(user, cli, "Invoca comandos", "Terminal")
+    Rel(cli, core, "Usa funciones de", "Import")
+    Rel(core, bcn, "Solicita norma por ID", "HTTPS/GET")
+    Rel(core, filesystem, "Escribe archivo .epub", "I/O")

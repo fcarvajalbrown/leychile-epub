@@ -1,0 +1,34 @@
+classDiagram
+    direction LR
+    
+    class BCNLawScraper {
+        +scrape_law(url: str) Dict
+        -_parse_xml(content: str) Dict
+        -_extract_metadata(xml_tree) Dict
+        -_extract_content(xml_tree) List
+    }
+
+    class LawEpubGenerator {
+        +config: Config
+        +__init__(config: Config)
+        +generate(law_data: Dict, output_dir: str, filename: str) Path
+        -_create_chapter(title: str, content: str) EpubHtml
+        -_add_toc(book: EpubBook, chapters: List)
+        -_apply_styles()
+    }
+
+    class Config {
+        +output_dir: Path
+        +creator: str
+        +language: str
+        +create_default() Config
+    }
+
+    class Styles {
+        +get_css() str
+    }
+
+    %% Relaciones
+    LawEpubGenerator ..> Config : usa
+    LawEpubGenerator ..> Styles : usa
+    LawEpubGenerator ..> BCNLawScraper : procesa output de

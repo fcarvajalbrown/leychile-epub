@@ -1,0 +1,19 @@
+C4Component
+    title Diagrama de Componentes - Librería Core
+
+    Container(cli, "CLI Interface", "cli.py", "Punto de entrada. Parsea argumentos y configura la ejecución.")
+
+    Container_Boundary(core_lib, "Módulos Principales") {
+        Component(scraper, "Scraper Module", "scraper.py", "Interactúa con la web/API de BCN. Parsea el XML de la ley y extrae metadatos y estructura.")
+        Component(generator, "Epub Generator", "generator.py", "Orquesta la creación del libro, capítulos y navegación (TOC).")
+        Component(config, "Config Manager", "config.py", "Gestiona la configuración (rutas de salida, metadatos del creador).")
+        Component(styles, "Style Manager", "styles.py", "Provee las definiciones CSS para el formato visual del ePub.")
+        Component(models, "Data Models", "Estructuras de datos", "Diccionarios o dataclasses que representan la Ley, Artículos y Metadatos.")
+    }
+
+    Rel(cli, config, "Carga configuración por defecto o usuario")
+    Rel(cli, scraper, "Invoca scrape_law(url)")
+    Rel(scraper, models, "Retorna datos estructurados")
+    Rel(cli, generator, "Pasa datos para generación")
+    Rel(generator, styles, "Obtiene CSS")
+    Rel(generator, models, "Lee contenido de la ley")

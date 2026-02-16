@@ -1,0 +1,12 @@
+C4Context
+    title Diagrama de Contexto del Sistema - leychile-epub
+
+    Person(user, "Usuario Final", "Abogado, estudiante de derecho o ciudadano interesado en leer leyes.")
+    System(leychile, "leychile-epub", "Generador de libros electrónicos (ePub) para legislación chilena.")
+    System_Ext(bcn_api, "API BCN (Ley Chile)", "Biblioteca del Congreso Nacional. Provee los textos legales en formato XML.")
+    System_Ext(ereader, "Lector de ePub", "Dispositivo o software externo (Kindle, Apple Books) para leer el archivo generado.")
+
+    Rel(user, leychile, "Ejecuta comandos CLI o usa como librería", "CLI/Python")
+    Rel(leychile, bcn_api, "Descarga datos de normas y leyes", "HTTPS/XML")
+    Rel(leychile, user, "Entrega archivo .epub generado", "Archivo")
+    Rel(user, ereader, "Lee el archivo generado")
